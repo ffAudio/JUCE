@@ -1,0 +1,17 @@
+<map id="ReferenceCountedObject" name="ReferenceCountedObject">
+<area shape="rect" id="node2" href="$classAudioProcessorGraph_1_1Node.html" title="Represents one of the nodes, or processors, in an AudioProcessorGraph. " alt="" coords="257,5,407,46"/>
+<area shape="rect" id="node3" href="$group__juce__core-containers.html#classDynamicObject" title="Represents a dynamically implemented object. " alt="" coords="276,71,388,97"/>
+<area shape="rect" id="node4" href="$group__juce__graphics-images.html#classImagePixelData" title="This is a base class for holding image data in implementation&#45;specific ways. " alt="" coords="275,121,389,148"/>
+<area shape="rect" id="node5" href="$classMessageManager_1_1MessageBase.html" title="Internal class used as the base class for all message objects. " alt="" coords="224,172,440,199"/>
+<area shape="rect" id="node8" href="$group__juce__dsp-processors.html#structProcessorState" title="This is a handy base class for the state of a processor (such as parameter values) which is typically..." alt="" coords="276,223,388,249"/>
+<area shape="rect" id="node12" href="$group__juce__audio__basics-synthesisers.html#classSynthesiserSound" title="Describes one of the sounds that a Synthesiser can play. " alt="" coords="268,273,396,300"/>
+<area shape="rect" id="node14" href="$group__juce__graphics-fonts.html#classTypeface" title="A typeface represents a size&#45;independent font. " alt="" coords="294,324,370,351"/>
+<area shape="rect" id="node16" href="$classValue_1_1ValueSource.html" title="Used internally by the Value class as the base class for its shared value objects. " alt="" coords="263,375,401,401"/>
+<area shape="rect" id="node6" href="$group__juce__events-messages.html#classCallbackMessage" title="A message that invokes a callback method when it gets delivered. " alt="" coords="525,48,651,75"/>
+<area shape="rect" id="node7" href="$group__juce__events-messages.html#classMessage" title="The base class for objects that can be sent to a MessageListener. " alt="" coords="551,99,625,125"/>
+<area shape="rect" id="node9" href="$group__juce__dsp-processors.html#structFIR_1_1Coefficients" title="A set of coefficients for use in an FIRFilter object. " alt="" coords="523,150,653,191"/>
+<area shape="rect" id="node10" href="$structIIR_1_1Coefficients.html" title="A set of coefficients for use in an Filter object. " alt="" coords="525,215,651,257"/>
+<area shape="rect" id="node11" href="$group__juce__dsp-processors.html#structStateVariableFilter_1_1Parameters" title="StateVariableFilter\l::Parameters\&lt; NumericType \&gt;" alt="" coords="489,281,687,322"/>
+<area shape="rect" id="node13" href="$group__juce__audio__formats-sampler.html#classSamplerSound" title="A subclass of SynthesiserSound that represents a sampled audio clip. " alt="" coords="535,347,641,373"/>
+<area shape="rect" id="node15" href="$group__juce__graphics-fonts.html#classCustomTypeface" title="A typeface that can be populated with custom glyphs. " alt="" coords="527,397,649,424"/>
+</map>

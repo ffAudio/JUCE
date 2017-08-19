@@ -1,0 +1,5 @@
+<map id="OpenGLAppComponent" name="OpenGLAppComponent">
+<area shape="rect" id="node2" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node3" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$group__juce__opengl-opengl.html#classOpenGLRenderer" title="A base class that should be implemented by classes which want to render openGL on a background thread..." alt="" coords="128,80,251,107"/>
+</map>

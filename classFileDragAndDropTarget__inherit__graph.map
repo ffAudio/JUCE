@@ -1,0 +1,7 @@
+<map id="FileDragAndDropTarget" name="FileDragAndDropTarget">
+<area shape="rect" id="node2" href="$group__juce__gui__basics-filebrowser.html#classFilenameComponent" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="5,80,147,107"/>
+<area shape="rect" id="node3" href="$group__juce__gui__basics-filebrowser.html#classFileSearchPathListComponent" title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. " alt="" coords="171,80,369,107"/>
+<area shape="rect" id="node4" href="$group__juce__audio__processors-scanning.html#classPluginListComponent" title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them..." alt="" coords="395,80,541,107"/>
+<area shape="rect" id="node5" href="$group__juce__gui__basics-widgets.html#classTreeView" title="A tree&#45;view component. " alt="" coords="565,80,641,107"/>
+<area shape="rect" id="node6" href="$group__juce__gui__basics-filebrowser.html#classFileTreeComponent" title="A component that displays the files in a directory as a treeview. " alt="" coords="536,155,671,181"/>
+</map>

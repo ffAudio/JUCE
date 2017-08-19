@@ -1,0 +1,6 @@
+<map id="ProcessorState" name="ProcessorState">
+<area shape="rect" id="node3" href="$group__juce__dsp-processors.html#structFIR_1_1Coefficients" title="A set of coefficients for use in an FIRFilter object. " alt="" coords="419,5,549,46"/>
+<area shape="rect" id="node4" href="$structIIR_1_1Coefficients.html" title="A set of coefficients for use in an Filter object. " alt="" coords="421,70,547,111"/>
+<area shape="rect" id="node5" href="$group__juce__dsp-processors.html#structStateVariableFilter_1_1Parameters" title="StateVariableFilter\l::Parameters\&lt; NumericType \&gt;" alt="" coords="385,135,583,177"/>
+<area shape="rect" id="node2" href="$group__juce__core-memory.html#classReferenceCountedObject" title="A base class which provides methods for reference&#45;counting. " alt="" coords="6,77,175,104"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="TimeSliceClient" name="TimeSliceClient">
+<area shape="rect" id="node2" href="$group__juce__audio__formats-format.html#classBufferingAudioReader" title="An AudioFormatReader that uses a background thread to pre&#45;read data from another reader. " alt="" coords="5,80,153,107"/>
+<area shape="rect" id="node3" href="$group__juce__audio__basics-sources.html#classBufferingAudioSource" title="An AudioSource which takes another source as input, and buffers it using a thread. " alt="" coords="179,80,327,107"/>
+<area shape="rect" id="node4" href="$group__juce__gui__basics-filebrowser.html#classDirectoryContentsList" title="A class to asynchronously scan for details about the files in a directory. " alt="" coords="352,80,500,107"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DrawableText" name="DrawableText">
+<area shape="rect" id="node2" href="$group__juce__gui__basics-drawables.html#classDrawable" title="The base class for objects which can draw themselves, e.g. " alt="" coords="20,155,96,181"/>
+<area shape="rect" id="node3" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node4" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+</map>

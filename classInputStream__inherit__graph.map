@@ -1,0 +1,8 @@
+<map id="InputStream" name="InputStream">
+<area shape="rect" id="node2" href="$group__juce__core-streams.html#classBufferedInputStream" title="Wraps another input stream, and reads from it using an intermediate buffer. " alt="" coords="181,5,323,32"/>
+<area shape="rect" id="node3" href="$group__juce__core-files.html#classFileInputStream" title="An input stream that reads from a local file. " alt="" coords="195,56,309,83"/>
+<area shape="rect" id="node4" href="$group__juce__core-zip.html#classGZIPDecompressorInputStream" title="This stream will decompress a source&#45;stream using zlib. " alt="" coords="147,107,357,133"/>
+<area shape="rect" id="node5" href="$group__juce__core-streams.html#classMemoryInputStream" title="Allows a block of data to be accessed as a stream. " alt="" coords="182,157,322,184"/>
+<area shape="rect" id="node6" href="$group__juce__core-streams.html#classSubregionStream" title="Wraps another input stream, and reads from a specific part of it. " alt="" coords="191,208,313,235"/>
+<area shape="rect" id="node7" href="$group__juce__core-network.html#classWebInputStream" title="An InputStream which can be used to read from a given url. " alt="" coords="192,259,312,285"/>
+</map>

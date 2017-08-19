@@ -1,0 +1,10 @@
+<map id="FileListComponent" name="FileListComponent">
+<area shape="rect" id="node2" href="$group__juce__gui__basics-widgets.html#classListBox" title="A list of items that can be scrolled vertically. " alt="" coords="95,163,161,189"/>
+<area shape="rect" id="node3" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node4" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node5" href="$group__juce__gui__basics-mouse.html#classSettableTooltipClient" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="127,80,269,107"/>
+<area shape="rect" id="node6" href="$group__juce__gui__basics-mouse.html#classTooltipClient" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="151,5,245,32"/>
+<area shape="rect" id="node7" href="$group__juce__gui__basics-filebrowser.html#classDirectoryContentsDisplayComponent" title="A base class for components that display a list of the files in a directory. " alt="" coords="186,155,357,197"/>
+<area shape="rect" id="node8" href="$group__juce__gui__basics-widgets.html#classListBoxModel" title="A subclass of this is used to drive a ListBox. " alt="" coords="383,163,484,189"/>
+<area shape="rect" id="node9" href="$group__juce__events-broadcasters.html#classChangeListener" title="Receives change event callbacks that are sent out by a ChangeBroadcaster. " alt="" coords="509,163,621,189"/>
+</map>

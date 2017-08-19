@@ -1,0 +1,4 @@
+<map id="SamplerSound" name="SamplerSound">
+<area shape="rect" id="node2" href="$group__juce__audio__basics-synthesisers.html#classSynthesiserSound" title="Describes one of the sounds that a Synthesiser can play. " alt="" coords="25,80,153,107"/>
+<area shape="rect" id="node3" href="$group__juce__core-memory.html#classReferenceCountedObject" title="A base class which provides methods for reference&#45;counting. " alt="" coords="5,5,173,32"/>
+</map>

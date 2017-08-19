@@ -1,0 +1,18 @@
+<map id="ChangeBroadcaster" name="ChangeBroadcaster">
+<area shape="rect" id="node2" href="$group__juce__audio__utils-audio__cd.html#classAudioCDBurner" title="AudioCDBurner" alt="" coords="231,5,345,32"/>
+<area shape="rect" id="node3" href="$group__juce__audio__devices-audio__io.html#classAudioDeviceManager" title="Manages the state of some audio and midi i/o devices. " alt="" coords="215,56,361,83"/>
+<area shape="rect" id="node4" href="$group__juce__audio__utils-gui.html#classAudioThumbnailBase" title="Provides a base for classes that can store and draw scaled views of an audio waveform. " alt="" coords="215,107,361,133"/>
+<area shape="rect" id="node6" href="$group__juce__audio__devices-sources.html#classAudioTransportSource" title="An AudioSource that takes a PositionableAudioSource and allows it to be played, stopped, started, etc. " alt="" coords="213,157,363,184"/>
+<area shape="rect" id="node7" href="$group__juce__gui__extra-misc.html#classColourSelector" title="A component that lets the user choose a colour. " alt="" coords="234,208,342,235"/>
+<area shape="rect" id="node8" href="$group__juce__gui__basics-layout.html#classComponentAnimator" title="Animates a set of components, moving them to a new position and/or fading their alpha levels..." alt="" coords="217,259,359,285"/>
+<area shape="rect" id="node9" href="$group__juce__gui__basics-filebrowser.html#classDirectoryContentsList" title="A class to asynchronously scan for details about the files in a directory. " alt="" coords="213,309,363,336"/>
+<area shape="rect" id="node10" href="$group__juce__gui__extra-documents.html#classFileBasedDocument" title="A class to take care of the logic involved with the loading/saving of some kind of document..." alt="" coords="218,360,358,387"/>
+<area shape="rect" id="node11" href="$group__juce__gui__basics-commands.html#classKeyPressMappingSet" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica..." alt="" coords="214,411,362,437"/>
+<area shape="rect" id="node12" href="$group__juce__audio__processors-scanning.html#classKnownPluginList" title="Manages a list of plugin types. " alt="" coords="229,461,347,488"/>
+<area shape="rect" id="node13" href="$group__juce__audio__utils-gui.html#classMidiKeyboardComponent" title="A component that displays a piano keyboard, whose notes can be clicked on. " alt="" coords="204,512,372,539"/>
+<area shape="rect" id="node14" href="$group__juce__data__structures-app__properties.html#classPropertiesFile" title="Wrapper on a file that stores a list of key/value data pairs. " alt="" coords="237,563,339,589"/>
+<area shape="rect" id="node15" href="$group__juce__gui__basics-mouse.html#classSelectedItemSet" title="Manages a list of selectable items. " alt="" coords="192,614,384,655"/>
+<area shape="rect" id="node16" href="$group__juce__gui__basics-layout.html#classTabbedButtonBar" title="A vertical or horizontal bar containing tabs that you can select. " alt="" coords="227,680,349,707"/>
+<area shape="rect" id="node17" href="$group__juce__data__structures-undomanager.html#classUndoManager" title="Manages a list of undo/redo commands. " alt="" coords="237,731,339,757"/>
+<area shape="rect" id="node5" href="$group__juce__audio__utils-gui.html#classAudioThumbnail" title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file. " alt="" coords="432,107,547,133"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ListBox" name="ListBox">
+<area shape="rect" id="node6" href="$group__juce__gui__basics-filebrowser.html#classFileListComponent" title="A component that displays the files in a directory as a listbox. " alt="" coords="5,229,135,256"/>
+<area shape="rect" id="node7" href="$group__juce__gui__basics-widgets.html#classTableListBox" title="A table of cells, using a TableHeaderComponent as its header. " alt="" coords="160,229,259,256"/>
+<area shape="rect" id="node2" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="26,80,115,107"/>
+<area shape="rect" id="node3" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="17,5,124,32"/>
+<area shape="rect" id="node4" href="$group__juce__gui__basics-mouse.html#classSettableTooltipClient" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="139,80,281,107"/>
+<area shape="rect" id="node5" href="$group__juce__gui__basics-mouse.html#classTooltipClient" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="163,5,257,32"/>
+</map>

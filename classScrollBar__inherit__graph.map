@@ -1,0 +1,6 @@
+<map id="ScrollBar" name="ScrollBar">
+<area shape="rect" id="node2" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node3" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$group__juce__events-broadcasters.html#classAsyncUpdater" title="Has a callback method that is triggered asynchronously. " alt="" coords="127,80,232,107"/>
+<area shape="rect" id="node5" href="$group__juce__events-timers.html#classTimer" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="257,80,311,107"/>
+</map>

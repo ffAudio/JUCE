@@ -1,0 +1,4 @@
+<map id="OSCException" name="OSCException">
+<area shape="rect" id="node2" href="$group__juce__osc-osc.html#structOSCFormatError" title="Exception type thrown when the OSC module fails to parse something because of a data format not compa..." alt="" coords="5,80,125,107"/>
+<area shape="rect" id="node3" href="$group__juce__osc-osc.html#structOSCInternalError" title="Exception type thrown in cases of unexpected errors in the OSC module. " alt="" coords="149,80,272,107"/>
+</map>

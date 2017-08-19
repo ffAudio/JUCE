@@ -1,0 +1,6 @@
+<map id="BubbleMessageComponent" name="BubbleMessageComponent">
+<area shape="rect" id="node2" href="$group__juce__gui__basics-misc.html#classBubbleComponent" title="A component for showing a message or other graphics inside a speech&#45;bubble&#45;shaped outline..." alt="" coords="5,155,133,181"/>
+<area shape="rect" id="node3" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="25,80,113,107"/>
+<area shape="rect" id="node4" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="16,5,123,32"/>
+<area shape="rect" id="node5" href="$group__juce__events-timers.html#classTimer" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="158,155,212,181"/>
+</map>
