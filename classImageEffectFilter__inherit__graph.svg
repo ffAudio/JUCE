@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__graphics-effects.html#classDropShadowEffect" target="_top" xlink:title="An effect filter that adds a drop&#45;shadow behind the image&#39;s content. ">
+<g id="a_node2"><a xlink:href="classDropShadowEffect.html" target="_top" xlink:title="An effect filter that adds a drop&#45;shadow behind the image&#39;s content. ">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 98.5,-19.5 98.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="49" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DropShadowEffect</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__graphics-effects.html#classGlowEffect" target="_top" xlink:title="A component effect that adds a coloured blur around the component&#39;s contents. ">
+<g id="a_node3"><a xlink:href="classGlowEffect.html" target="_top" xlink:title="A component effect that adds a coloured blur around the component&#39;s contents. ">
 <polygon fill="none" stroke="black" points="116.5,-0.5 116.5,-19.5 181.5,-19.5 181.5,-0.5 116.5,-0.5"/>
 <text text-anchor="middle" x="149" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GlowEffect</text>
 </a>

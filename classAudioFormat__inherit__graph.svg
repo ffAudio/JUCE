@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__formats-codecs.html#classAiffAudioFormat" target="_top" xlink:title="Reads and Writes AIFF format audio files. ">
+<g id="a_node2"><a xlink:href="classAiffAudioFormat.html" target="_top" xlink:title="Reads and Writes AIFF format audio files. ">
 <polygon fill="none" stroke="black" points="134.5,-266.5 134.5,-285.5 221.5,-285.5 221.5,-266.5 134.5,-266.5"/>
 <text text-anchor="middle" x="178" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">AiffAudioFormat</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__formats-codecs.html#classCoreAudioFormat" target="_top" xlink:title="OSX and iOS only &#45; This uses the AudioToolbox framework to read any audio format that the system has ...">
+<g id="a_node3"><a xlink:href="classCoreAudioFormat.html" target="_top" xlink:title="OSX and iOS only &#45; This uses the AudioToolbox framework to read any audio format that the system has ...">
 <polygon fill="none" stroke="black" points="131.5,-228.5 131.5,-247.5 224.5,-247.5 224.5,-228.5 131.5,-228.5"/>
 <text text-anchor="middle" x="178" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">CoreAudioFormat</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__formats-codecs.html#classFlacAudioFormat" target="_top" xlink:title="Reads and writes the lossless&#45;compression FLAC audio format. ">
+<g id="a_node4"><a xlink:href="classFlacAudioFormat.html" target="_top" xlink:title="Reads and writes the lossless&#45;compression FLAC audio format. ">
 <polygon fill="none" stroke="black" points="132.5,-190.5 132.5,-209.5 223.5,-209.5 223.5,-190.5 132.5,-190.5"/>
 <text text-anchor="middle" x="178" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlacAudioFormat</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__audio__formats-codecs.html#classLAMEEncoderAudioFormat" target="_top" xlink:title="An AudioFormat class which can use an installed version of the LAME mp3 encoder to encode a file...">
+<g id="a_node5"><a xlink:href="classLAMEEncoderAudioFormat.html" target="_top" xlink:title="An AudioFormat class which can use an installed version of the LAME mp3 encoder to encode a file...">
 <polygon fill="none" stroke="black" points="110.5,-152.5 110.5,-171.5 245.5,-171.5 245.5,-152.5 110.5,-152.5"/>
 <text text-anchor="middle" x="178" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">LAMEEncoderAudioFormat</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__audio__formats-codecs.html#classMP3AudioFormat" target="_top" xlink:title="Software&#45;based MP3 decoding format (doesn&#39;t currently provide an encoder). ">
+<g id="a_node6"><a xlink:href="classMP3AudioFormat.html" target="_top" xlink:title="Software&#45;based MP3 decoding format (doesn&#39;t currently provide an encoder). ">
 <polygon fill="none" stroke="black" points="132,-114.5 132,-133.5 224,-133.5 224,-114.5 132,-114.5"/>
 <text text-anchor="middle" x="178" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">MP3AudioFormat</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__audio__formats-codecs.html#classOggVorbisAudioFormat" target="_top" xlink:title="Reads and writes the Ogg&#45;Vorbis audio format. ">
+<g id="a_node7"><a xlink:href="classOggVorbisAudioFormat.html" target="_top" xlink:title="Reads and writes the Ogg&#45;Vorbis audio format. ">
 <polygon fill="none" stroke="black" points="119,-76.5 119,-95.5 237,-95.5 237,-76.5 119,-76.5"/>
 <text text-anchor="middle" x="178" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">OggVorbisAudioFormat</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__audio__formats-codecs.html#classWavAudioFormat" target="_top" xlink:title="Reads and Writes WAV format audio files. ">
+<g id="a_node8"><a xlink:href="classWavAudioFormat.html" target="_top" xlink:title="Reads and Writes WAV format audio files. ">
 <polygon fill="none" stroke="black" points="132,-38.5 132,-57.5 224,-57.5 224,-38.5 132,-38.5"/>
 <text text-anchor="middle" x="178" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">WavAudioFormat</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__audio__formats-codecs.html#classWindowsMediaAudioFormat" target="_top" xlink:title="Audio format which uses the Windows Media codecs (Windows only). ">
+<g id="a_node9"><a xlink:href="classWindowsMediaAudioFormat.html" target="_top" xlink:title="Audio format which uses the Windows Media codecs (Windows only). ">
 <polygon fill="none" stroke="black" points="108.5,-0.5 108.5,-19.5 247.5,-19.5 247.5,-0.5 108.5,-0.5"/>
 <text text-anchor="middle" x="178" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">WindowsMediaAudioFormat</text>
 </a>

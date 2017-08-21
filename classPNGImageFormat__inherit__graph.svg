@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__graphics-images.html#classImageFileFormat" target="_top" xlink:title="Base&#45;class for codecs that can read and write image file formats such as PNG, JPEG, etc. ">
+<g id="a_node2"><a xlink:href="classImageFileFormat.html" target="_top" xlink:title="Base&#45;class for codecs that can read and write image file formats such as PNG, JPEG, etc. ">
 <polygon fill="none" stroke="black" points="3,-56.5 3,-75.5 93,-75.5 93,-56.5 3,-56.5"/>
 <text text-anchor="middle" x="48" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImageFileFormat</text>
 </a>

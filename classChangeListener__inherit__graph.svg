@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__utils-gui.html#classAudioDeviceSelectorComponent" target="_top" xlink:title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob...">
+<g id="a_node2"><a xlink:href="classAudioDeviceSelectorComponent.html" target="_top" xlink:title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob...">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 158,-19.5 158,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="79" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioDeviceSelectorComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileListComponent" target="_top" xlink:title="A component that displays the files in a directory as a listbox. ">
+<g id="a_node3"><a xlink:href="classFileListComponent.html" target="_top" xlink:title="A component that displays the files in a directory as a listbox. ">
 <polygon fill="none" stroke="black" points="176,-0.5 176,-19.5 274,-19.5 274,-0.5 176,-0.5"/>
 <text text-anchor="middle" x="225" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileListComponent</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__processors-scanning.html#classPluginListComponent" target="_top" xlink:title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them...">
+<g id="a_node4"><a xlink:href="classPluginListComponent.html" target="_top" xlink:title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them...">
 <polygon fill="none" stroke="black" points="292,-0.5 292,-19.5 402,-19.5 402,-0.5 292,-0.5"/>
 <text text-anchor="middle" x="347" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PluginListComponent</text>
 </a>

@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__core-logging.html#classLogger" target="_top" xlink:title="Acts as an application&#45;wide logging class. ">
+<g id="a_node2"><a xlink:href="classLogger.html" target="_top" xlink:title="Acts as an application&#45;wide logging class. ">
 <polygon fill="none" stroke="black" points="7,-56.5 7,-75.5 53,-75.5 53,-56.5 7,-56.5"/>
 <text text-anchor="middle" x="30" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logger</text>
 </a>

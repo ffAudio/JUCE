@@ -5,6 +5,5 @@ var searchData=
   ['utils',['utils',['../group__juce__box2d-utils.html',1,'']]],
   ['unit_5ftests',['unit_tests',['../group__juce__core-unit__tests.html',1,'']]],
   ['undomanager',['undomanager',['../group__juce__data__structures-undomanager.html',1,'']]],
-  ['utils',['utils',['../group__juce__opengl-utils.html',1,'']]],
-  ['utility_20functions',['Utility functions',['../group__LittleFootFunctions-Utility.html',1,'']]]
+  ['utils',['utils',['../group__juce__opengl-utils.html',1,'']]]
 ];

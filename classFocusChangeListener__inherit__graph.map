@@ -1,4 +1,4 @@
 <map id="FocusChangeListener" name="FocusChangeListener">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-commands.html#classApplicationCommandManager" title="One of these objects holds a list of all the commands your app can perform, and despatches these comm..." alt="" coords="5,80,200,107"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-commands.html#classKeyPressMappingSet" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica..." alt="" coords="225,80,372,107"/>
+<area shape="rect" id="node2" href="$classApplicationCommandManager.html" title="One of these objects holds a list of all the commands your app can perform, and despatches these comm..." alt="" coords="5,80,200,107"/>
+<area shape="rect" id="node3" href="$classKeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica..." alt="" coords="225,80,372,107"/>
 </map>

@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__osc-osc.html#structOSCFormatError" target="_top" xlink:title="Exception type thrown when the OSC module fails to parse something because of a data format not compa...">
+<g id="a_node2"><a xlink:href="structOSCFormatError.html" target="_top" xlink:title="Exception type thrown when the OSC module fails to parse something because of a data format not compa...">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 90,-19.5 90,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="45" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OSCFormatError</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__osc-osc.html#structOSCInternalError" target="_top" xlink:title="Exception type thrown in cases of unexpected errors in the OSC module. ">
+<g id="a_node3"><a xlink:href="structOSCInternalError.html" target="_top" xlink:title="Exception type thrown in cases of unexpected errors in the OSC module. ">
 <polygon fill="none" stroke="black" points="108,-0.5 108,-19.5 200,-19.5 200,-0.5 108,-0.5"/>
 <text text-anchor="middle" x="154" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OSCInternalError</text>
 </a>

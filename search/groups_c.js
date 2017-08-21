@@ -12,9 +12,5 @@ var searchData=
   ['misc',['misc',['../group__juce__gui__basics-misc.html',1,'']]],
   ['mouse',['mouse',['../group__juce__gui__basics-mouse.html',1,'']]],
   ['misc',['misc',['../group__juce__gui__extra-misc.html',1,'']]],
-  ['marketplace',['marketplace',['../group__juce__product__unlocking-marketplace.html',1,'']]],
-  ['math_20functions',['Math functions',['../group__LittleFootFunctions-Maths.html',1,'']]],
-  ['memory_20access_20functions',['Memory Access functions',['../group__LittleFootFunctions-Memory.html',1,'']]],
-  ['messaging_20functions',['Messaging functions',['../group__LittleFootFunctions-Messaging.html',1,'']]],
-  ['midi_20functions',['MIDI functions',['../group__LittleFootFunctions-MIDI.html',1,'']]]
+  ['marketplace',['marketplace',['../group__juce__product__unlocking-marketplace.html',1,'']]]
 ];

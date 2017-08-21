@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__events-messages.html#classDeletedAtShutdown" target="_top" xlink:title="Classes derived from this will be automatically deleted when the application exits. ">
+<g id="a_node2"><a xlink:href="classDeletedAtShutdown.html" target="_top" xlink:title="Classes derived from this will be automatically deleted when the application exits. ">
 <polygon fill="none" stroke="black" points="0,-56.5 0,-75.5 104,-75.5 104,-56.5 0,-56.5"/>
 <text text-anchor="middle" x="52" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">DeletedAtShutdown</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__events-timers.html#classTimer" target="_top" xlink:title="Makes repeated callbacks to a virtual method at a specified time interval. ">
+<g id="a_node3"><a xlink:href="classTimer.html" target="_top" xlink:title="Makes repeated callbacks to a virtual method at a specified time interval. ">
 <polygon fill="none" stroke="black" points="122.5,-56.5 122.5,-75.5 163.5,-75.5 163.5,-56.5 122.5,-56.5"/>
 <text text-anchor="middle" x="143" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Timer</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__events-broadcasters.html#classAsyncUpdater" target="_top" xlink:title="Has a callback method that is triggered asynchronously. ">
+<g id="a_node4"><a xlink:href="classAsyncUpdater.html" target="_top" xlink:title="Has a callback method that is triggered asynchronously. ">
 <polygon fill="none" stroke="black" points="181.5,-56.5 181.5,-75.5 260.5,-75.5 260.5,-56.5 181.5,-56.5"/>
 <text text-anchor="middle" x="221" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AsyncUpdater</text>
 </a>

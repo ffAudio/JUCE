@@ -1,10 +1,10 @@
 <map id="AudioFormat" name="AudioFormat">
-<area shape="rect" id="node2" href="$group__juce__audio__formats-codecs.html#classAiffAudioFormat" title="Reads and Writes AIFF format audio files. " alt="" coords="185,5,301,32"/>
-<area shape="rect" id="node3" href="$group__juce__audio__formats-codecs.html#classCoreAudioFormat" title="OSX and iOS only &#45; This uses the AudioToolbox framework to read any audio format that the system has ..." alt="" coords="181,56,305,83"/>
-<area shape="rect" id="node4" href="$group__juce__audio__formats-codecs.html#classFlacAudioFormat" title="Reads and writes the lossless&#45;compression FLAC audio format. " alt="" coords="182,107,303,133"/>
-<area shape="rect" id="node5" href="$group__juce__audio__formats-codecs.html#classLAMEEncoderAudioFormat" title="An AudioFormat class which can use an installed version of the LAME mp3 encoder to encode a file..." alt="" coords="153,157,333,184"/>
-<area shape="rect" id="node6" href="$group__juce__audio__formats-codecs.html#classMP3AudioFormat" title="Software&#45;based MP3 decoding format (doesn&#39;t currently provide an encoder). " alt="" coords="181,208,304,235"/>
-<area shape="rect" id="node7" href="$group__juce__audio__formats-codecs.html#classOggVorbisAudioFormat" title="Reads and writes the Ogg&#45;Vorbis audio format. " alt="" coords="164,259,321,285"/>
-<area shape="rect" id="node8" href="$group__juce__audio__formats-codecs.html#classWavAudioFormat" title="Reads and Writes WAV format audio files. " alt="" coords="181,309,304,336"/>
-<area shape="rect" id="node9" href="$group__juce__audio__formats-codecs.html#classWindowsMediaAudioFormat" title="Audio format which uses the Windows Media codecs (Windows only). " alt="" coords="150,360,335,387"/>
+<area shape="rect" id="node2" href="$classAiffAudioFormat.html" title="Reads and Writes AIFF format audio files. " alt="" coords="185,5,301,32"/>
+<area shape="rect" id="node3" href="$classCoreAudioFormat.html" title="OSX and iOS only &#45; This uses the AudioToolbox framework to read any audio format that the system has ..." alt="" coords="181,56,305,83"/>
+<area shape="rect" id="node4" href="$classFlacAudioFormat.html" title="Reads and writes the lossless&#45;compression FLAC audio format. " alt="" coords="182,107,303,133"/>
+<area shape="rect" id="node5" href="$classLAMEEncoderAudioFormat.html" title="An AudioFormat class which can use an installed version of the LAME mp3 encoder to encode a file..." alt="" coords="153,157,333,184"/>
+<area shape="rect" id="node6" href="$classMP3AudioFormat.html" title="Software&#45;based MP3 decoding format (doesn&#39;t currently provide an encoder). " alt="" coords="181,208,304,235"/>
+<area shape="rect" id="node7" href="$classOggVorbisAudioFormat.html" title="Reads and writes the Ogg&#45;Vorbis audio format. " alt="" coords="164,259,321,285"/>
+<area shape="rect" id="node8" href="$classWavAudioFormat.html" title="Reads and Writes WAV format audio files. " alt="" coords="181,309,304,336"/>
+<area shape="rect" id="node9" href="$classWindowsMediaAudioFormat.html" title="Audio format which uses the Windows Media codecs (Windows only). " alt="" coords="150,360,335,387"/>
 </map>

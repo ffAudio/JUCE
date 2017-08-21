@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__product__unlocking-marketplace.html#classTracktionMarketplaceStatus" target="_top" xlink:title="An implementation of the OnlineUnlockStatus class which talks to the Tracktion Marketplace server...">
+<g id="a_node2"><a xlink:href="classTracktionMarketplaceStatus.html" target="_top" xlink:title="An implementation of the OnlineUnlockStatus class which talks to the Tracktion Marketplace server...">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 138.5,-19.5 138.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="69" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TracktionMarketplaceStatus</text>
 </a>

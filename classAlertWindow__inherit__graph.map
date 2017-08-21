@@ -1,6 +1,6 @@
 <map id="AlertWindow" name="AlertWindow">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-windows.html#classTopLevelWindow" title="A base class for top&#45;level windows. " alt="" coords="5,155,128,181"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="22,80,111,107"/>
-<area shape="rect" id="node4" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="13,5,120,32"/>
+<area shape="rect" id="node2" href="$classTopLevelWindow.html" title="A base class for top&#45;level windows. " alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node3" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="22,80,111,107"/>
+<area shape="rect" id="node4" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="13,5,120,32"/>
 <area shape="rect" id="node5" href="$classButton_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="152,155,267,181"/>
 </map>

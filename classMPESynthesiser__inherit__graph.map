@@ -1,4 +1,4 @@
 <map id="MPESynthesiser" name="MPESynthesiser">
-<area shape="rect" id="node2" href="$group__juce__audio__basics-mpe.html#structMPESynthesiserBase" title="Derive from this class to create a basic audio generator capable of MPE. " alt="" coords="13,80,163,107"/>
+<area shape="rect" id="node2" href="$structMPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. " alt="" coords="13,80,163,107"/>
 <area shape="rect" id="node3" href="$classMPEInstrument_1_1Listener.html" title="Derive from this class to be informed about any changes in the expressive MIDI notes played by this i..." alt="" coords="5,5,171,32"/>
 </map>

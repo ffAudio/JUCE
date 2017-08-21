@@ -15,7 +15,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-drawables.html#classDrawableComposite" target="_top" xlink:title="A drawable object which acts as a container for a set of other Drawables. ">
+<g id="a_node4"><a xlink:href="classDrawableComposite.html" target="_top" xlink:title="A drawable object which acts as a container for a set of other Drawables. ">
 <polygon fill="none" stroke="black" points="-0.5,-56.5 -0.5,-75.5 104.5,-75.5 104.5,-56.5 -0.5,-56.5"/>
 <text text-anchor="middle" x="52" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">DrawableComposite</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-drawables.html#classDrawableImage" target="_top" xlink:title="A drawable object which is a bitmap image. ">
+<g id="a_node5"><a xlink:href="classDrawableImage.html" target="_top" xlink:title="A drawable object which is a bitmap image. ">
 <polygon fill="none" stroke="black" points="122.5,-56.5 122.5,-75.5 207.5,-75.5 207.5,-56.5 122.5,-56.5"/>
 <text text-anchor="middle" x="165" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">DrawableImage</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-drawables.html#classDrawableShape" target="_top" xlink:title="A base class implementing common functionality for Drawable classes which consist of some kind of fil...">
+<g id="a_node6"><a xlink:href="classDrawableShape.html" target="_top" xlink:title="A base class implementing common functionality for Drawable classes which consist of some kind of fil...">
 <polygon fill="none" stroke="black" points="226,-56.5 226,-75.5 312,-75.5 312,-56.5 226,-56.5"/>
 <text text-anchor="middle" x="269" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">DrawableShape</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__gui__basics-drawables.html#classDrawableText" target="_top" xlink:title="A drawable object which renders a line of text. ">
+<g id="a_node9"><a xlink:href="classDrawableText.html" target="_top" xlink:title="A drawable object which renders a line of text. ">
 <polygon fill="none" stroke="black" points="330.5,-56.5 330.5,-75.5 407.5,-75.5 407.5,-56.5 330.5,-56.5"/>
 <text text-anchor="middle" x="369" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">DrawableText</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node2"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="183.5,-168.5 183.5,-187.5 250.5,-187.5 250.5,-168.5 183.5,-168.5"/>
 <text text-anchor="middle" x="217" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node3"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="177,-224.5 177,-243.5 257,-243.5 257,-224.5 177,-224.5"/>
 <text text-anchor="middle" x="217" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__gui__basics-drawables.html#classDrawablePath" target="_top" xlink:title="A drawable object which renders a filled or outlined shape. ">
+<g id="a_node7"><a xlink:href="classDrawablePath.html" target="_top" xlink:title="A drawable object which renders a filled or outlined shape. ">
 <polygon fill="none" stroke="black" points="176,-0.5 176,-19.5 254,-19.5 254,-0.5 176,-0.5"/>
 <text text-anchor="middle" x="215" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DrawablePath</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__gui__basics-drawables.html#classDrawableRectangle" target="_top" xlink:title="A Drawable object which draws a rectangle. ">
+<g id="a_node8"><a xlink:href="classDrawableRectangle.html" target="_top" xlink:title="A Drawable object which draws a rectangle. ">
 <polygon fill="none" stroke="black" points="272,-0.5 272,-19.5 374,-19.5 374,-0.5 272,-0.5"/>
 <text text-anchor="middle" x="323" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DrawableRectangle</text>
 </a>

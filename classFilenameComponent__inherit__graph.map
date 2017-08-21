@@ -1,10 +1,10 @@
 <map id="FilenameComponent" name="FilenameComponent">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="195,5,285,32"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node4" href="$group__juce__gui__basics-mouse.html#classSettableTooltipClient" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="169,56,311,83"/>
-<area shape="rect" id="node5" href="$group__juce__gui__basics-mouse.html#classTooltipClient" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="11,56,106,83"/>
-<area shape="rect" id="node6" href="$group__juce__gui__basics-mouse.html#classFileDragAndDropTarget" title="Components derived from this class can have files dropped onto them by an external application..." alt="" coords="161,107,319,133"/>
-<area shape="rect" id="node7" href="$group__juce__events-broadcasters.html#classAsyncUpdater" title="Has a callback method that is triggered asynchronously. " alt="" coords="187,157,293,184"/>
+<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="195,5,285,32"/>
+<area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classSettableTooltipClient.html" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="169,56,311,83"/>
+<area shape="rect" id="node5" href="$classTooltipClient.html" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="11,56,106,83"/>
+<area shape="rect" id="node6" href="$classFileDragAndDropTarget.html" title="Components derived from this class can have files dropped onto them by an external application..." alt="" coords="161,107,319,133"/>
+<area shape="rect" id="node7" href="$classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. " alt="" coords="187,157,293,184"/>
 <area shape="rect" id="node8" href="$classButton_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="183,208,297,235"/>
 <area shape="rect" id="node9" href="$classComboBox_1_1Listener.html" title="A class for receiving events from a ComboBox. " alt="" coords="169,259,311,285"/>
 </map>

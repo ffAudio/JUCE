@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__core-streams.html#classInputSource" target="_top" xlink:title="A lightweight object that can create a stream to read some kind of resource. ">
+<g id="a_node2"><a xlink:href="classInputSource.html" target="_top" xlink:title="A lightweight object that can create a stream to read some kind of resource. ">
 <polygon fill="none" stroke="black" points="7.5,-56.5 7.5,-75.5 76.5,-75.5 76.5,-56.5 7.5,-56.5"/>
 <text text-anchor="middle" x="42" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputSource</text>
 </a>

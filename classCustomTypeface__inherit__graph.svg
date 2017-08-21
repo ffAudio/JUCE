@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__graphics-fonts.html#classTypeface" target="_top" xlink:title="A typeface represents a size&#45;independent font. ">
+<g id="a_node2"><a xlink:href="classTypeface.html" target="_top" xlink:title="A typeface represents a size&#45;independent font. ">
 <polygon fill="none" stroke="black" points="34.5,-56.5 34.5,-75.5 91.5,-75.5 91.5,-56.5 34.5,-56.5"/>
 <text text-anchor="middle" x="63" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Typeface</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__core-memory.html#classReferenceCountedObject" target="_top" xlink:title="A base class which provides methods for reference&#45;counting. ">
+<g id="a_node3"><a xlink:href="classReferenceCountedObject.html" target="_top" xlink:title="A base class which provides methods for reference&#45;counting. ">
 <polygon fill="none" stroke="black" points="-0.5,-112.5 -0.5,-131.5 126.5,-131.5 126.5,-112.5 -0.5,-112.5"/>
 <text text-anchor="middle" x="63" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">ReferenceCountedObject</text>
 </a>

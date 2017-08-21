@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__events-interprocess.html#classInterprocessConnectionServer" target="_top" xlink:title="An object that waits for client sockets to connect to a port on this host, and creates InterprocessCo...">
+<g id="a_node2"><a xlink:href="classInterprocessConnectionServer.html" target="_top" xlink:title="An object that waits for client sockets to connect to a port on this host, and creates InterprocessCo...">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 148.5,-19.5 148.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="74" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InterprocessConnectionServer</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__devices-midi__io.html#classMidiOutput" target="_top" xlink:title="Controls a physical MIDI output device. ">
+<g id="a_node3"><a xlink:href="classMidiOutput.html" target="_top" xlink:title="Controls a physical MIDI output device. ">
 <polygon fill="none" stroke="black" points="166,-0.5 166,-19.5 230,-19.5 230,-0.5 166,-0.5"/>
 <text text-anchor="middle" x="198" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MidiOutput</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-windows.html#classThreadWithProgressWindow" target="_top" xlink:title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it...">
+<g id="a_node4"><a xlink:href="classThreadWithProgressWindow.html" target="_top" xlink:title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it...">
 <polygon fill="none" stroke="black" points="248.5,-0.5 248.5,-19.5 389.5,-19.5 389.5,-0.5 248.5,-0.5"/>
 <text text-anchor="middle" x="319" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ThreadWithProgressWindow</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__core-threads.html#classTimeSliceThread" target="_top" xlink:title="A thread that keeps a list of clients, and calls each one in turn, giving them all a chance to run so...">
+<g id="a_node5"><a xlink:href="classTimeSliceThread.html" target="_top" xlink:title="A thread that keeps a list of clients, and calls each one in turn, giving them all a chance to run so...">
 <polygon fill="none" stroke="black" points="408,-0.5 408,-19.5 498,-19.5 498,-0.5 408,-0.5"/>
 <text text-anchor="middle" x="453" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TimeSliceThread</text>
 </a>

@@ -1,4 +1,4 @@
 <map id="ImageEffectFilter" name="ImageEffectFilter">
-<area shape="rect" id="node2" href="$group__juce__graphics-effects.html#classDropShadowEffect" title="An effect filter that adds a drop&#45;shadow behind the image&#39;s content. " alt="" coords="5,80,136,107"/>
-<area shape="rect" id="node3" href="$group__juce__graphics-effects.html#classGlowEffect" title="A component effect that adds a coloured blur around the component&#39;s contents. " alt="" coords="161,80,247,107"/>
+<area shape="rect" id="node2" href="$classDropShadowEffect.html" title="An effect filter that adds a drop&#45;shadow behind the image&#39;s content. " alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node3" href="$classGlowEffect.html" title="A component effect that adds a coloured blur around the component&#39;s contents. " alt="" coords="161,80,247,107"/>
 </map>

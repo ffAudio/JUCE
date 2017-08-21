@@ -1,5 +1,5 @@
 <map id="Desktop" name="Desktop">
-<area shape="rect" id="node2" href="$group__juce__events-messages.html#classDeletedAtShutdown" title="Classes derived from this will be automatically deleted when the application exits. " alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node3" href="$group__juce__events-timers.html#classTimer" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="169,5,223,32"/>
-<area shape="rect" id="node4" href="$group__juce__events-broadcasters.html#classAsyncUpdater" title="Has a callback method that is triggered asynchronously. " alt="" coords="247,5,352,32"/>
+<area shape="rect" id="node2" href="$classDeletedAtShutdown.html" title="Classes derived from this will be automatically deleted when the application exits. " alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node3" href="$classTimer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="169,5,223,32"/>
+<area shape="rect" id="node4" href="$classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. " alt="" coords="247,5,352,32"/>
 </map>

@@ -15,7 +15,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-buttons.html#classButton" target="_top" xlink:title="A base class for buttons. ">
+<g id="a_node3"><a xlink:href="classButton.html" target="_top" xlink:title="A base class for buttons. ">
 <polygon fill="none" stroke="black" points="304.5,-456.5 304.5,-475.5 349.5,-475.5 349.5,-456.5 304.5,-456.5"/>
 <text text-anchor="middle" x="327" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="group__juce__gui__basics-widgets.html#classComboBox" target="_top" xlink:title="A component that lets the user choose from a drop&#45;down list of choices. ">
+<g id="a_node14"><a xlink:href="classComboBox.html" target="_top" xlink:title="A component that lets the user choose from a drop&#45;down list of choices. ">
 <polygon fill="none" stroke="black" points="294.5,-418.5 294.5,-437.5 359.5,-437.5 359.5,-418.5 294.5,-418.5"/>
 <text text-anchor="middle" x="327" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComboBox</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFilenameComponent" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
+<g id="a_node15"><a xlink:href="classFilenameComponent.html" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
 <polygon fill="none" stroke="black" points="273.5,-380.5 273.5,-399.5 380.5,-399.5 380.5,-380.5 273.5,-380.5"/>
 <text text-anchor="middle" x="327" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilenameComponent</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileSearchPathListComponent" target="_top" xlink:title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. ">
+<g id="a_node16"><a xlink:href="classFileSearchPathListComponent.html" target="_top" xlink:title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. ">
 <polygon fill="none" stroke="black" points="252.5,-342.5 252.5,-361.5 401.5,-361.5 401.5,-342.5 252.5,-342.5"/>
 <text text-anchor="middle" x="327" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileSearchPathListComponent</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="group__juce__gui__basics-widgets.html#classImageComponent" target="_top" xlink:title="A component that simply displays an image. ">
+<g id="a_node17"><a xlink:href="classImageComponent.html" target="_top" xlink:title="A component that simply displays an image. ">
 <polygon fill="none" stroke="black" points="280,-304.5 280,-323.5 374,-323.5 374,-304.5 280,-304.5"/>
 <text text-anchor="middle" x="327" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImageComponent</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="group__juce__gui__basics-widgets.html#classLabel" target="_top" xlink:title="A component that displays a text string, and can optionally become a text editor when clicked...">
+<g id="a_node18"><a xlink:href="classLabel.html" target="_top" xlink:title="A component that displays a text string, and can optionally become a text editor when clicked...">
 <polygon fill="none" stroke="black" points="307,-266.5 307,-285.5 347,-285.5 347,-266.5 307,-266.5"/>
 <text text-anchor="middle" x="327" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="group__juce__gui__basics-widgets.html#classListBox" target="_top" xlink:title="A list of items that can be scrolled vertically. ">
+<g id="a_node19"><a xlink:href="classListBox.html" target="_top" xlink:title="A list of items that can be scrolled vertically. ">
 <polygon fill="none" stroke="black" points="302,-228.5 302,-247.5 352,-247.5 352,-228.5 302,-228.5"/>
 <text text-anchor="middle" x="327" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">ListBox</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="group__juce__gui__basics-widgets.html#classProgressBar" target="_top" xlink:title="A progress bar component. ">
+<g id="a_node22"><a xlink:href="classProgressBar.html" target="_top" xlink:title="A progress bar component. ">
 <polygon fill="none" stroke="black" points="291.5,-190.5 291.5,-209.5 362.5,-209.5 362.5,-190.5 291.5,-190.5"/>
 <text text-anchor="middle" x="327" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">ProgressBar</text>
 </a>
@@ -119,7 +119,7 @@
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="group__juce__gui__basics-properties.html#classPropertyComponent" target="_top" xlink:title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">
+<g id="a_node23"><a xlink:href="classPropertyComponent.html" target="_top" xlink:title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">
 <polygon fill="none" stroke="black" points="275,-152.5 275,-171.5 379,-171.5 379,-152.5 275,-152.5"/>
 <text text-anchor="middle" x="327" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyComponent</text>
 </a>
@@ -132,7 +132,7 @@
 </g>
 <!-- Node29 -->
 <g id="node29" class="node"><title>Node29</title>
-<g id="a_node29"><a xlink:href="group__juce__gui__basics-widgets.html#classSlider" target="_top" xlink:title="A slider control for changing a value. ">
+<g id="a_node29"><a xlink:href="classSlider.html" target="_top" xlink:title="A slider control for changing a value. ">
 <polygon fill="none" stroke="black" points="306.5,-114.5 306.5,-133.5 347.5,-133.5 347.5,-114.5 306.5,-114.5"/>
 <text text-anchor="middle" x="327" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Slider</text>
 </a>
@@ -145,7 +145,7 @@
 </g>
 <!-- Node30 -->
 <g id="node30" class="node"><title>Node30</title>
-<g id="a_node30"><a xlink:href="group__juce__gui__basics-widgets.html#classTextEditor" target="_top" xlink:title="An editable text box. ">
+<g id="a_node30"><a xlink:href="classTextEditor.html" target="_top" xlink:title="An editable text box. ">
 <polygon fill="none" stroke="black" points="296,-76.5 296,-95.5 358,-95.5 358,-76.5 296,-76.5"/>
 <text text-anchor="middle" x="327" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextEditor</text>
 </a>
@@ -158,7 +158,7 @@
 </g>
 <!-- Node31 -->
 <g id="node31" class="node"><title>Node31</title>
-<g id="a_node31"><a xlink:href="group__juce__gui__basics-widgets.html#classTreeView" target="_top" xlink:title="A tree&#45;view component. ">
+<g id="a_node31"><a xlink:href="classTreeView.html" target="_top" xlink:title="A tree&#45;view component. ">
 <polygon fill="none" stroke="black" points="298,-19.5 298,-38.5 356,-38.5 356,-19.5 298,-19.5"/>
 <text text-anchor="middle" x="327" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">TreeView</text>
 </a>
@@ -171,7 +171,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-mouse.html#classTooltipClient" target="_top" xlink:title="Components that want to use pop&#45;up tooltips should implement this interface. ">
+<g id="a_node2"><a xlink:href="classTooltipClient.html" target="_top" xlink:title="Components that want to use pop&#45;up tooltips should implement this interface. ">
 <polygon fill="none" stroke="black" points="0.5,-247.5 0.5,-266.5 71.5,-266.5 71.5,-247.5 0.5,-247.5"/>
 <text text-anchor="middle" x="36" y="-254.5" font-family="Helvetica,sans-Serif" font-size="10.00">TooltipClient</text>
 </a>
@@ -184,7 +184,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-buttons.html#classArrowButton" target="_top" xlink:title="A button with an arrow in it. ">
+<g id="a_node4"><a xlink:href="classArrowButton.html" target="_top" xlink:title="A button with an arrow in it. ">
 <polygon fill="none" stroke="black" points="472.5,-608.5 472.5,-627.5 543.5,-627.5 543.5,-608.5 472.5,-608.5"/>
 <text text-anchor="middle" x="508" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">ArrowButton</text>
 </a>
@@ -197,7 +197,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-buttons.html#classDrawableButton" target="_top" xlink:title="A button that displays a Drawable. ">
+<g id="a_node5"><a xlink:href="classDrawableButton.html" target="_top" xlink:title="A button that displays a Drawable. ">
 <polygon fill="none" stroke="black" points="465,-570.5 465,-589.5 551,-589.5 551,-570.5 465,-570.5"/>
 <text text-anchor="middle" x="508" y="-577.5" font-family="Helvetica,sans-Serif" font-size="10.00">DrawableButton</text>
 </a>
@@ -210,7 +210,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-buttons.html#classHyperlinkButton" target="_top" xlink:title="A button showing an underlined weblink, that will launch the link when it&#39;s clicked. ">
+<g id="a_node6"><a xlink:href="classHyperlinkButton.html" target="_top" xlink:title="A button showing an underlined weblink, that will launch the link when it&#39;s clicked. ">
 <polygon fill="none" stroke="black" points="465,-532.5 465,-551.5 551,-551.5 551,-532.5 465,-532.5"/>
 <text text-anchor="middle" x="508" y="-539.5" font-family="Helvetica,sans-Serif" font-size="10.00">HyperlinkButton</text>
 </a>
@@ -223,7 +223,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__gui__basics-buttons.html#classImageButton" target="_top" xlink:title="As the title suggests, this is a button containing an image. ">
+<g id="a_node7"><a xlink:href="classImageButton.html" target="_top" xlink:title="As the title suggests, this is a button containing an image. ">
 <polygon fill="none" stroke="black" points="472,-494.5 472,-513.5 544,-513.5 544,-494.5 472,-494.5"/>
 <text text-anchor="middle" x="508" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImageButton</text>
 </a>
@@ -236,7 +236,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__gui__basics-buttons.html#classShapeButton" target="_top" xlink:title="A button that contains a filled shape. ">
+<g id="a_node8"><a xlink:href="classShapeButton.html" target="_top" xlink:title="A button that contains a filled shape. ">
 <polygon fill="none" stroke="black" points="471.5,-456.5 471.5,-475.5 544.5,-475.5 544.5,-456.5 471.5,-456.5"/>
 <text text-anchor="middle" x="508" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">ShapeButton</text>
 </a>
@@ -249,7 +249,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__gui__basics-layout.html#classTabBarButton" target="_top" xlink:title="In a TabbedButtonBar, this component is used for each of the buttons. ">
+<g id="a_node9"><a xlink:href="classTabBarButton.html" target="_top" xlink:title="In a TabbedButtonBar, this component is used for each of the buttons. ">
 <polygon fill="none" stroke="black" points="469.5,-418.5 469.5,-437.5 546.5,-437.5 546.5,-418.5 469.5,-418.5"/>
 <text text-anchor="middle" x="508" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">TabBarButton</text>
 </a>
@@ -262,7 +262,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="group__juce__gui__basics-buttons.html#classTextButton" target="_top" xlink:title="A button that uses the standard lozenge&#45;shaped background with a line of text on it. ">
+<g id="a_node10"><a xlink:href="classTextButton.html" target="_top" xlink:title="A button that uses the standard lozenge&#45;shaped background with a line of text on it. ">
 <polygon fill="none" stroke="black" points="475.5,-380.5 475.5,-399.5 540.5,-399.5 540.5,-380.5 475.5,-380.5"/>
 <text text-anchor="middle" x="508" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextButton</text>
 </a>
@@ -275,7 +275,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="group__juce__gui__basics-buttons.html#classToggleButton" target="_top" xlink:title="A button that can be toggled on/off. ">
+<g id="a_node11"><a xlink:href="classToggleButton.html" target="_top" xlink:title="A button that can be toggled on/off. ">
 <polygon fill="none" stroke="black" points="471,-342.5 471,-361.5 545,-361.5 545,-342.5 471,-342.5"/>
 <text text-anchor="middle" x="508" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">ToggleButton</text>
 </a>
@@ -288,7 +288,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="group__juce__gui__basics-widgets.html#classToolbarItemComponent" target="_top" xlink:title="A component that can be used as one of the items in a Toolbar. ">
+<g id="a_node12"><a xlink:href="classToolbarItemComponent.html" target="_top" xlink:title="A component that can be used as one of the items in a Toolbar. ">
 <polygon fill="none" stroke="black" points="448.5,-304.5 448.5,-323.5 567.5,-323.5 567.5,-304.5 448.5,-304.5"/>
 <text text-anchor="middle" x="508" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">ToolbarItemComponent</text>
 </a>
@@ -301,7 +301,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="group__juce__gui__basics-buttons.html#classToolbarButton" target="_top" xlink:title="A type of button designed to go on a toolbar. ">
+<g id="a_node13"><a xlink:href="classToolbarButton.html" target="_top" xlink:title="A type of button designed to go on a toolbar. ">
 <polygon fill="none" stroke="black" points="614.5,-304.5 614.5,-323.5 691.5,-323.5 691.5,-304.5 614.5,-304.5"/>
 <text text-anchor="middle" x="653" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">ToolbarButton</text>
 </a>
@@ -314,7 +314,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileListComponent" target="_top" xlink:title="A component that displays the files in a directory as a listbox. ">
+<g id="a_node20"><a xlink:href="classFileListComponent.html" target="_top" xlink:title="A component that displays the files in a directory as a listbox. ">
 <polygon fill="none" stroke="black" points="459,-266.5 459,-285.5 557,-285.5 557,-266.5 459,-266.5"/>
 <text text-anchor="middle" x="508" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileListComponent</text>
 </a>
@@ -327,7 +327,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="group__juce__gui__basics-widgets.html#classTableListBox" target="_top" xlink:title="A table of cells, using a TableHeaderComponent as its header. ">
+<g id="a_node21"><a xlink:href="classTableListBox.html" target="_top" xlink:title="A table of cells, using a TableHeaderComponent as its header. ">
 <polygon fill="none" stroke="black" points="471,-228.5 471,-247.5 545,-247.5 545,-228.5 471,-228.5"/>
 <text text-anchor="middle" x="508" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">TableListBox</text>
 </a>
@@ -340,7 +340,7 @@
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="group__juce__gui__basics-properties.html#classBooleanPropertyComponent" target="_top" xlink:title="A PropertyComponent that contains an on/off toggle button. ">
+<g id="a_node24"><a xlink:href="classBooleanPropertyComponent.html" target="_top" xlink:title="A PropertyComponent that contains an on/off toggle button. ">
 <polygon fill="none" stroke="black" points="438.5,-190.5 438.5,-209.5 577.5,-209.5 577.5,-190.5 438.5,-190.5"/>
 <text text-anchor="middle" x="508" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">BooleanPropertyComponent</text>
 </a>
@@ -353,7 +353,7 @@
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="group__juce__gui__basics-properties.html#classButtonPropertyComponent" target="_top" xlink:title="A PropertyComponent that contains a button. ">
+<g id="a_node25"><a xlink:href="classButtonPropertyComponent.html" target="_top" xlink:title="A PropertyComponent that contains a button. ">
 <polygon fill="none" stroke="black" points="442,-152.5 442,-171.5 574,-171.5 574,-152.5 442,-152.5"/>
 <text text-anchor="middle" x="508" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">ButtonPropertyComponent</text>
 </a>
@@ -366,7 +366,7 @@
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="group__juce__gui__basics-properties.html#classChoicePropertyComponent" target="_top" xlink:title="A PropertyComponent that shows its value as a combo box. ">
+<g id="a_node26"><a xlink:href="classChoicePropertyComponent.html" target="_top" xlink:title="A PropertyComponent that shows its value as a combo box. ">
 <polygon fill="none" stroke="black" points="441,-114.5 441,-133.5 575,-133.5 575,-114.5 441,-114.5"/>
 <text text-anchor="middle" x="508" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChoicePropertyComponent</text>
 </a>
@@ -379,7 +379,7 @@
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="group__juce__gui__basics-properties.html#classSliderPropertyComponent" target="_top" xlink:title="A PropertyComponent that shows its value as a slider. ">
+<g id="a_node27"><a xlink:href="classSliderPropertyComponent.html" target="_top" xlink:title="A PropertyComponent that shows its value as a slider. ">
 <polygon fill="none" stroke="black" points="444,-76.5 444,-95.5 572,-95.5 572,-76.5 444,-76.5"/>
 <text text-anchor="middle" x="508" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">SliderPropertyComponent</text>
 </a>
@@ -392,7 +392,7 @@
 </g>
 <!-- Node28 -->
 <g id="node28" class="node"><title>Node28</title>
-<g id="a_node28"><a xlink:href="group__juce__gui__basics-properties.html#classTextPropertyComponent" target="_top" xlink:title="A PropertyComponent that shows its value as editable text. ">
+<g id="a_node28"><a xlink:href="classTextPropertyComponent.html" target="_top" xlink:title="A PropertyComponent that shows its value as editable text. ">
 <polygon fill="none" stroke="black" points="446.5,-38.5 446.5,-57.5 569.5,-57.5 569.5,-38.5 446.5,-38.5"/>
 <text text-anchor="middle" x="508" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextPropertyComponent</text>
 </a>
@@ -405,7 +405,7 @@
 </g>
 <!-- Node32 -->
 <g id="node32" class="node"><title>Node32</title>
-<g id="a_node32"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileTreeComponent" target="_top" xlink:title="A component that displays the files in a directory as a treeview. ">
+<g id="a_node32"><a xlink:href="classFileTreeComponent.html" target="_top" xlink:title="A component that displays the files in a directory as a treeview. ">
 <polygon fill="none" stroke="black" points="457,-0.5 457,-19.5 559,-19.5 559,-0.5 457,-0.5"/>
 <text text-anchor="middle" x="508" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileTreeComponent</text>
 </a>

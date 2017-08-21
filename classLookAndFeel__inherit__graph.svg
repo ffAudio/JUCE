@@ -15,7 +15,7 @@
 </g>
 <!-- Node30 -->
 <g id="node30" class="node"><title>Node30</title>
-<g id="a_node30"><a xlink:href="group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V2" target="_top" xlink:title="This LookAndFeel subclass implements the juce style from around 2008&#45;12. ">
+<g id="a_node30"><a xlink:href="classLookAndFeel__V2.html" target="_top" xlink:title="This LookAndFeel subclass implements the juce style from around 2008&#45;12. ">
 <polygon fill="none" stroke="black" points="348.5,-645.5 348.5,-664.5 439.5,-664.5 439.5,-645.5 348.5,-645.5"/>
 <text text-anchor="middle" x="394" y="-652.5" font-family="Helvetica,sans-Serif" font-size="10.00">LookAndFeel_V2</text>
 </a>
@@ -410,7 +410,7 @@
 </g>
 <!-- Node31 -->
 <g id="node31" class="node"><title>Node31</title>
-<g id="a_node31"><a xlink:href="group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V1" target="_top" xlink:title="The original JUCE look&#45;and&#45;feel, as used back from 2002 to about 2007ish. ">
+<g id="a_node31"><a xlink:href="classLookAndFeel__V1.html" target="_top" xlink:title="The original JUCE look&#45;and&#45;feel, as used back from 2002 to about 2007ish. ">
 <polygon fill="none" stroke="black" points="476.5,-664.5 476.5,-683.5 567.5,-683.5 567.5,-664.5 476.5,-664.5"/>
 <text text-anchor="middle" x="522" y="-671.5" font-family="Helvetica,sans-Serif" font-size="10.00">LookAndFeel_V1</text>
 </a>
@@ -423,7 +423,7 @@
 </g>
 <!-- Node32 -->
 <g id="node32" class="node"><title>Node32</title>
-<g id="a_node32"><a xlink:href="group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V3" target="_top" xlink:title="The latest JUCE look&#45;and&#45;feel style, as introduced in 2013. ">
+<g id="a_node32"><a xlink:href="classLookAndFeel__V3.html" target="_top" xlink:title="The latest JUCE look&#45;and&#45;feel style, as introduced in 2013. ">
 <polygon fill="none" stroke="black" points="476.5,-626.5 476.5,-645.5 567.5,-645.5 567.5,-626.5 476.5,-626.5"/>
 <text text-anchor="middle" x="522" y="-633.5" font-family="Helvetica,sans-Serif" font-size="10.00">LookAndFeel_V3</text>
 </a>
@@ -436,7 +436,7 @@
 </g>
 <!-- Node33 -->
 <g id="node33" class="node"><title>Node33</title>
-<g id="a_node33"><a xlink:href="group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V4" target="_top" xlink:title="LookAndFeel_V4">
+<g id="a_node33"><a xlink:href="classLookAndFeel__V4.html" target="_top" xlink:title="LookAndFeel_V4">
 <polygon fill="none" stroke="black" points="604.5,-626.5 604.5,-645.5 695.5,-645.5 695.5,-626.5 604.5,-626.5"/>
 <text text-anchor="middle" x="650" y="-633.5" font-family="Helvetica,sans-Serif" font-size="10.00">LookAndFeel_V4</text>
 </a>

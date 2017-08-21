@@ -1,4 +1,4 @@
 <map id="DirectoryContentsDisplayComponent" name="DirectoryContentsDisplayComponent">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-filebrowser.html#classFileListComponent" title="A component that displays the files in a directory as a listbox. " alt="" coords="5,96,135,123"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-filebrowser.html#classFileTreeComponent" title="A component that displays the files in a directory as a treeview. " alt="" coords="160,96,295,123"/>
+<area shape="rect" id="node2" href="$classFileListComponent.html" title="A component that displays the files in a directory as a listbox. " alt="" coords="5,96,135,123"/>
+<area shape="rect" id="node3" href="$classFileTreeComponent.html" title="A component that displays the files in a directory as a treeview. " alt="" coords="160,96,295,123"/>
 </map>

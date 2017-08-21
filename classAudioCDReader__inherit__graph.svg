@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__formats-format.html#classAudioFormatReader" target="_top" xlink:title="Reads samples from an audio file stream. ">
+<g id="a_node2"><a xlink:href="classAudioFormatReader.html" target="_top" xlink:title="Reads samples from an audio file stream. ">
 <polygon fill="none" stroke="black" points="0,-56.5 0,-75.5 104,-75.5 104,-56.5 0,-56.5"/>
 <text text-anchor="middle" x="52" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioFormatReader</text>
 </a>

@@ -15,7 +15,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-properties.html#classBooleanPropertyComponent" target="_top" xlink:title="A PropertyComponent that contains an on/off toggle button. ">
+<g id="a_node6"><a xlink:href="classBooleanPropertyComponent.html" target="_top" xlink:title="A PropertyComponent that contains an on/off toggle button. ">
 <polygon fill="none" stroke="black" points="400.5,-152.5 400.5,-171.5 539.5,-171.5 539.5,-152.5 400.5,-152.5"/>
 <text text-anchor="middle" x="470" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">BooleanPropertyComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__gui__basics-properties.html#classButtonPropertyComponent" target="_top" xlink:title="A PropertyComponent that contains a button. ">
+<g id="a_node7"><a xlink:href="classButtonPropertyComponent.html" target="_top" xlink:title="A PropertyComponent that contains a button. ">
 <polygon fill="none" stroke="black" points="404,-114.5 404,-133.5 536,-133.5 536,-114.5 404,-114.5"/>
 <text text-anchor="middle" x="470" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">ButtonPropertyComponent</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__gui__basics-properties.html#classChoicePropertyComponent" target="_top" xlink:title="A PropertyComponent that shows its value as a combo box. ">
+<g id="a_node8"><a xlink:href="classChoicePropertyComponent.html" target="_top" xlink:title="A PropertyComponent that shows its value as a combo box. ">
 <polygon fill="none" stroke="black" points="403,-76.5 403,-95.5 537,-95.5 537,-76.5 403,-76.5"/>
 <text text-anchor="middle" x="470" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChoicePropertyComponent</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__gui__basics-properties.html#classSliderPropertyComponent" target="_top" xlink:title="A PropertyComponent that shows its value as a slider. ">
+<g id="a_node9"><a xlink:href="classSliderPropertyComponent.html" target="_top" xlink:title="A PropertyComponent that shows its value as a slider. ">
 <polygon fill="none" stroke="black" points="406,-38.5 406,-57.5 534,-57.5 534,-38.5 406,-38.5"/>
 <text text-anchor="middle" x="470" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SliderPropertyComponent</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="group__juce__gui__basics-properties.html#classTextPropertyComponent" target="_top" xlink:title="A PropertyComponent that shows its value as editable text. ">
+<g id="a_node10"><a xlink:href="classTextPropertyComponent.html" target="_top" xlink:title="A PropertyComponent that shows its value as editable text. ">
 <polygon fill="none" stroke="black" points="408.5,-0.5 408.5,-19.5 531.5,-19.5 531.5,-0.5 408.5,-0.5"/>
 <text text-anchor="middle" x="470" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TextPropertyComponent</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node2"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="136.5,-95.5 136.5,-114.5 203.5,-114.5 203.5,-95.5 136.5,-95.5"/>
 <text text-anchor="middle" x="170" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node3"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="0,-95.5 0,-114.5 80,-114.5 80,-95.5 0,-95.5"/>
 <text text-anchor="middle" x="40" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-mouse.html#classSettableTooltipClient" target="_top" xlink:title="An implementation of TooltipClient that stores the tooltip string and a method for changing it...">
+<g id="a_node4"><a xlink:href="classSettableTooltipClient.html" target="_top" xlink:title="An implementation of TooltipClient that stores the tooltip string and a method for changing it...">
 <polygon fill="none" stroke="black" points="116.5,-57.5 116.5,-76.5 223.5,-76.5 223.5,-57.5 116.5,-57.5"/>
 <text text-anchor="middle" x="170" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">SettableTooltipClient</text>
 </a>
@@ -119,7 +119,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-mouse.html#classTooltipClient" target="_top" xlink:title="Components that want to use pop&#45;up tooltips should implement this interface. ">
+<g id="a_node5"><a xlink:href="classTooltipClient.html" target="_top" xlink:title="Components that want to use pop&#45;up tooltips should implement this interface. ">
 <polygon fill="none" stroke="black" points="4.5,-57.5 4.5,-76.5 75.5,-76.5 75.5,-57.5 4.5,-57.5"/>
 <text text-anchor="middle" x="40" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">TooltipClient</text>
 </a>

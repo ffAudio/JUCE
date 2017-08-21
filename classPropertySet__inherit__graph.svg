@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__data__structures-app__properties.html#classPropertiesFile" target="_top" xlink:title="Wrapper on a file that stores a list of key/value data pairs. ">
+<g id="a_node2"><a xlink:href="classPropertiesFile.html" target="_top" xlink:title="Wrapper on a file that stores a list of key/value data pairs. ">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 76.5,-19.5 76.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="38" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertiesFile</text>
 </a>

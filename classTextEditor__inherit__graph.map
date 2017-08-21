@@ -1,7 +1,7 @@
 <map id="TextEditor" name="TextEditor">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node4" href="$group__juce__gui__basics-keyboard.html#classTextInputTarget" title="An abstract base class which can be implemented by components that function as text editors..." alt="" coords="128,80,243,107"/>
-<area shape="rect" id="node5" href="$group__juce__gui__basics-mouse.html#classSettableTooltipClient" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="267,80,409,107"/>
-<area shape="rect" id="node6" href="$group__juce__gui__basics-mouse.html#classTooltipClient" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="291,5,385,32"/>
+<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classTextInputTarget.html" title="An abstract base class which can be implemented by components that function as text editors..." alt="" coords="128,80,243,107"/>
+<area shape="rect" id="node5" href="$classSettableTooltipClient.html" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="267,80,409,107"/>
+<area shape="rect" id="node6" href="$classTooltipClient.html" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="291,5,385,32"/>
 </map>

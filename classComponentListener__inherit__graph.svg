@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-layout.html#classComponentMovementWatcher" target="_top" xlink:title="An object that watches for any movement of a component or any of its parent components. ">
+<g id="a_node2"><a xlink:href="classComponentMovementWatcher.html" target="_top" xlink:title="An object that watches for any movement of a component or any of its parent components. ">
 <polygon fill="none" stroke="black" points="146.5,-190.5 146.5,-209.5 295.5,-209.5 295.5,-190.5 146.5,-190.5"/>
 <text text-anchor="middle" x="221" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComponentMovementWatcher</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-misc.html#classDropShadower" target="_top" xlink:title="Adds a drop&#45;shadow to a component. ">
+<g id="a_node3"><a xlink:href="classDropShadower.html" target="_top" xlink:title="Adds a drop&#45;shadow to a component. ">
 <polygon fill="none" stroke="black" points="180.5,-152.5 180.5,-171.5 261.5,-171.5 261.5,-152.5 180.5,-152.5"/>
 <text text-anchor="middle" x="221" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">DropShadower</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-widgets.html#classLabel" target="_top" xlink:title="A component that displays a text string, and can optionally become a text editor when clicked...">
+<g id="a_node4"><a xlink:href="classLabel.html" target="_top" xlink:title="A component that displays a text string, and can optionally become a text editor when clicked...">
 <polygon fill="none" stroke="black" points="201,-114.5 201,-133.5 241,-133.5 241,-114.5 201,-114.5"/>
 <text text-anchor="middle" x="221" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-layout.html#classMultiDocumentPanel" target="_top" xlink:title="A component that contains a set of other components either in floating windows or tabs...">
+<g id="a_node5"><a xlink:href="classMultiDocumentPanel.html" target="_top" xlink:title="A component that contains a set of other components either in floating windows or tabs...">
 <polygon fill="none" stroke="black" points="167.5,-76.5 167.5,-95.5 274.5,-95.5 274.5,-76.5 167.5,-76.5"/>
 <text text-anchor="middle" x="221" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">MultiDocumentPanel</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-positioning.html#classRelativeCoordinatePositionerBase" target="_top" xlink:title="Base class for Component::Positioners that are based upon relative coordinates. ">
+<g id="a_node6"><a xlink:href="classRelativeCoordinatePositionerBase.html" target="_top" xlink:title="Base class for Component::Positioners that are based upon relative coordinates. ">
 <polygon fill="none" stroke="black" points="138,-38.5 138,-57.5 304,-57.5 304,-38.5 138,-38.5"/>
 <text text-anchor="middle" x="221" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">RelativeCoordinatePositionerBase</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__gui__basics-layout.html#classViewport" target="_top" xlink:title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">
+<g id="a_node7"><a xlink:href="classViewport.html" target="_top" xlink:title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">
 <polygon fill="none" stroke="black" points="193.5,-0.5 193.5,-19.5 248.5,-19.5 248.5,-0.5 193.5,-0.5"/>
 <text text-anchor="middle" x="221" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Viewport</text>
 </a>

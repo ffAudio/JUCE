@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__osc-osc.html#structOSCException" target="_top" xlink:title="Base class for exceptions that can be thrown by methods in the OSC module. ">
+<g id="a_node2"><a xlink:href="structOSCException.html" target="_top" xlink:title="Base class for exceptions that can be thrown by methods in the OSC module. ">
 <polygon fill="none" stroke="black" points="5,-56.5 5,-75.5 87,-75.5 87,-56.5 5,-56.5"/>
 <text text-anchor="middle" x="46" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">OSCException</text>
 </a>

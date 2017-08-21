@@ -15,7 +15,7 @@
 </g>
 <!-- Node32 -->
 <g id="node32" class="node"><title>Node32</title>
-<g id="a_node32"><a xlink:href="group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V4" target="_top" xlink:title="LookAndFeel_V4">
+<g id="a_node32"><a xlink:href="classLookAndFeel__V4.html" target="_top" xlink:title="LookAndFeel_V4">
 <polygon fill="none" stroke="black" points="604.5,-645.5 604.5,-664.5 695.5,-664.5 695.5,-645.5 604.5,-645.5"/>
 <text text-anchor="middle" x="650" y="-652.5" font-family="Helvetica,sans-Serif" font-size="10.00">LookAndFeel_V4</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V2" target="_top" xlink:title="This LookAndFeel subclass implements the juce style from around 2008&#45;12. ">
+<g id="a_node2"><a xlink:href="classLookAndFeel__V2.html" target="_top" xlink:title="This LookAndFeel subclass implements the juce style from around 2008&#45;12. ">
 <polygon fill="none" stroke="black" points="348.5,-645.5 348.5,-664.5 439.5,-664.5 439.5,-645.5 348.5,-645.5"/>
 <text text-anchor="middle" x="394" y="-652.5" font-family="Helvetica,sans-Serif" font-size="10.00">LookAndFeel_V2</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-lookandfeel.html#classLookAndFeel" target="_top" xlink:title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl...">
+<g id="a_node3"><a xlink:href="classLookAndFeel.html" target="_top" xlink:title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl...">
 <polygon fill="none" stroke="black" points="238,-645.5 238,-664.5 312,-664.5 312,-645.5 238,-645.5"/>
 <text text-anchor="middle" x="275" y="-652.5" font-family="Helvetica,sans-Serif" font-size="10.00">LookAndFeel</text>
 </a>

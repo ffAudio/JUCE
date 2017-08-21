@@ -7,6 +7,5 @@ var searchData=
   ['placement',['placement',['../group__juce__graphics-placement.html',1,'']]],
   ['positioning',['positioning',['../group__juce__gui__basics-positioning.html',1,'']]],
   ['properties',['properties',['../group__juce__gui__basics-properties.html',1,'']]],
-  ['playback',['playback',['../group__juce__video-playback.html',1,'']]],
-  ['power_20functions',['Power functions',['../group__LittleFootFunctions-Power.html',1,'']]]
+  ['playback',['playback',['../group__juce__video-playback.html',1,'']]]
 ];

@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['kaiser',['kaiser',['../group__juce__dsp-frequency.html#acab1d9c135270ef4983845fe3f47da5ca1d9e29c015719d2cd637d5c660909661',1,'WindowingFunction']]],
+  ['kaiser',['kaiser',['../structWindowingFunction.html#acab1d9c135270ef4983845fe3f47da5ca1d9e29c015719d2cd637d5c660909661',1,'WindowingFunction']]],
   ['kaudiounitproperty_5fsupportsmpe',['kAudioUnitProperty_SupportsMPE',['../group__juce__audio__processors-format__types.html#gga61dadd085c1777f559549e05962b2c9ea3d9d3125ae195114257428b622aebb52',1,'juce_AudioUnitPluginFormat.h']]],
-  ['keydown',['keyDown',['../group__juce__audio__basics-mpe.html#a20106ff137c1a5f0b8e6e099ff3fc922a895ffc865cb90899c347efefb881e2ce',1,'MPENote']]],
-  ['keydownandsustained',['keyDownAndSustained',['../group__juce__audio__basics-mpe.html#a20106ff137c1a5f0b8e6e099ff3fc922a31c427116ac75e042f9f5315a7aad129',1,'MPENote']]],
-  ['keydownoverlaycolourid',['keyDownOverlayColourId',['../group__juce__audio__utils-gui.html#a75cb05395efc61c447dc93e8873ab05eaca2ce853f7e9341311ff237d17f5485f',1,'MidiKeyboardComponent']]],
-  ['keyseparatorlinecolourid',['keySeparatorLineColourId',['../group__juce__audio__utils-gui.html#a75cb05395efc61c447dc93e8873ab05ea945be9fe34d15aea642b2ab53e2ac30e',1,'MidiKeyboardComponent']]],
+  ['keydown',['keyDown',['../structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a895ffc865cb90899c347efefb881e2ce',1,'MPENote']]],
+  ['keydownandsustained',['keyDownAndSustained',['../structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a31c427116ac75e042f9f5315a7aad129',1,'MPENote']]],
+  ['keydownoverlaycolourid',['keyDownOverlayColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05eaca2ce853f7e9341311ff237d17f5485f',1,'MidiKeyboardComponent']]],
+  ['keyseparatorlinecolourid',['keySeparatorLineColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05ea945be9fe34d15aea642b2ab53e2ac30e',1,'MidiKeyboardComponent']]],
   ['kplugcateganalysis',['kPlugCategAnalysis',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a33016aaefb7b6266b64b2acc6fe1a34b',1,'juce_VSTInterface.h']]],
   ['kplugcategeffect',['kPlugCategEffect',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350ad31c1e5f938ce881dc149ac8c7f5d0e1',1,'juce_VSTInterface.h']]],
   ['kplugcateggenerator',['kPlugCategGenerator',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a1a7eea5992983435ec8eea75ff64852e',1,'juce_VSTInterface.h']]],

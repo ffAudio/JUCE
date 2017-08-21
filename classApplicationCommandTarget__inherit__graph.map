@@ -1,4 +1,4 @@
 <map id="ApplicationCommandTarget" name="ApplicationCommandTarget">
-<area shape="rect" id="node2" href="$group__juce__gui__extra-code__editor.html#classCodeEditorComponent" title="A text editor component designed specifically for source code. " alt="" coords="5,80,159,107"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-application.html#classJUCEApplication" title="An instance of this class is used to specify initialisation and shutdown code for the application..." alt="" coords="184,80,307,107"/>
+<area shape="rect" id="node2" href="$classCodeEditorComponent.html" title="A text editor component designed specifically for source code. " alt="" coords="5,80,159,107"/>
+<area shape="rect" id="node3" href="$classJUCEApplication.html" title="An instance of this class is used to specify initialisation and shutdown code for the application..." alt="" coords="184,80,307,107"/>
 </map>

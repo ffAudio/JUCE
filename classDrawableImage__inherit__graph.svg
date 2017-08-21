@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-drawables.html#classDrawable" target="_top" xlink:title="The base class for objects which can draw themselves, e.g. ">
+<g id="a_node2"><a xlink:href="classDrawable.html" target="_top" xlink:title="The base class for objects which can draw themselves, e.g. ">
 <polygon fill="none" stroke="black" points="13,-56.5 13,-75.5 71,-75.5 71,-56.5 13,-56.5"/>
 <text text-anchor="middle" x="42" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Drawable</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node3"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="8.5,-112.5 8.5,-131.5 75.5,-131.5 75.5,-112.5 8.5,-112.5"/>
 <text text-anchor="middle" x="42" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node4"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="2,-168.5 2,-187.5 82,-187.5 82,-168.5 2,-168.5"/>
 <text text-anchor="middle" x="42" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>

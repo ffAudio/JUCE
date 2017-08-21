@@ -1,6 +1,6 @@
 <map id="AudioPluginFormat" name="AudioPluginFormat">
-<area shape="rect" id="node2" href="$group__juce__audio__processors-format__types.html#classAudioUnitPluginFormat" title="Implements a plugin format manager for AudioUnits. " alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node3" href="$group__juce__audio__processors-format__types.html#classLADSPAPluginFormat" title="Implements a plugin format manager for LADSPA plugins. " alt="" coords="185,80,337,107"/>
-<area shape="rect" id="node4" href="$group__juce__audio__processors-format__types.html#classVST3PluginFormat" title="Implements a plugin format for VST3s. " alt="" coords="362,80,493,107"/>
-<area shape="rect" id="node5" href="$group__juce__audio__processors-format__types.html#classVSTPluginFormat" title="Implements a plugin format manager for VSTs. " alt="" coords="519,80,644,107"/>
+<area shape="rect" id="node2" href="$classAudioUnitPluginFormat.html" title="Implements a plugin format manager for AudioUnits. " alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node3" href="$classLADSPAPluginFormat.html" title="Implements a plugin format manager for LADSPA plugins. " alt="" coords="185,80,337,107"/>
+<area shape="rect" id="node4" href="$classVST3PluginFormat.html" title="Implements a plugin format for VST3s. " alt="" coords="362,80,493,107"/>
+<area shape="rect" id="node5" href="$classVSTPluginFormat.html" title="Implements a plugin format manager for VSTs. " alt="" coords="519,80,644,107"/>
 </map>

@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-widgets.html#classToolbar" target="_top" xlink:title="A toolbar component. ">
+<g id="a_node2"><a xlink:href="classToolbar.html" target="_top" xlink:title="A toolbar component. ">
 <polygon fill="none" stroke="black" points="-0.5,-56.5 -0.5,-75.5 48.5,-75.5 48.5,-56.5 -0.5,-56.5"/>
 <text text-anchor="middle" x="24" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Toolbar</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-widgets.html#classTreeView" target="_top" xlink:title="A tree&#45;view component. ">
+<g id="a_node3"><a xlink:href="classTreeView.html" target="_top" xlink:title="A tree&#45;view component. ">
 <polygon fill="none" stroke="black" points="67,-56.5 67,-75.5 125,-75.5 125,-56.5 67,-56.5"/>
 <text text-anchor="middle" x="96" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TreeView</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileTreeComponent" target="_top" xlink:title="A component that displays the files in a directory as a treeview. ">
+<g id="a_node4"><a xlink:href="classFileTreeComponent.html" target="_top" xlink:title="A component that displays the files in a directory as a treeview. ">
 <polygon fill="none" stroke="black" points="45,-0.5 45,-19.5 147,-19.5 147,-0.5 45,-0.5"/>
 <text text-anchor="middle" x="96" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileTreeComponent</text>
 </a>

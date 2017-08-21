@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__processors-format.html#classAudioPluginFormat" target="_top" xlink:title="The base class for a type of plugin format, such as VST, AudioUnit, LADSPA, etc. ">
+<g id="a_node2"><a xlink:href="classAudioPluginFormat.html" target="_top" xlink:title="The base class for a type of plugin format, such as VST, AudioUnit, LADSPA, etc. ">
 <polygon fill="none" stroke="black" points="-0.5,-56.5 -0.5,-75.5 98.5,-75.5 98.5,-56.5 -0.5,-56.5"/>
 <text text-anchor="middle" x="49" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioPluginFormat</text>
 </a>

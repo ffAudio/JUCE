@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__opengl-utils.html#classOpenGLAppComponent" target="_top" xlink:title="A base class for writing simple one&#45;page graphical apps. ">
+<g id="a_node2"><a xlink:href="classOpenGLAppComponent.html" target="_top" xlink:title="A base class for writing simple one&#45;page graphical apps. ">
 <polygon fill="none" stroke="black" points="-1,-0.5 -1,-19.5 119,-19.5 119,-0.5 -1,-0.5"/>
 <text text-anchor="middle" x="59" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OpenGLAppComponent</text>
 </a>

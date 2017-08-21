@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['virtualkeyboardtype',['VirtualKeyboardType',['../group__juce__gui__basics-keyboard.html#a097550317e3bf2aee470a20540b9edc7',1,'TextInputTarget']]],
+  ['virtualkeyboardtype',['VirtualKeyboardType',['../classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7',1,'TextInputTarget']]],
   ['vsteffectinterfaceflags',['VstEffectInterfaceFlags',['../group__juce__audio__processors-format__types.html#ga5b9075cb1c502b45ea05a52c32a3c4c5',1,'juce_VSTInterface.h']]],
   ['vsteventtypes',['VstEventTypes',['../group__juce__audio__processors-format__types.html#ga97d16bafbef4126002a53e12b93a7d18',1,'juce_VSTInterface.h']]],
   ['vsthosttopluginopcodes',['VstHostToPlugInOpcodes',['../group__juce__audio__processors-format__types.html#ga3f29e0dd57930320dee5ed3bd059a3d2',1,'juce_VSTInterface.h']]],

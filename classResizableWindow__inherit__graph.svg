@@ -15,7 +15,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-windows.html#classDocumentWindow" target="_top" xlink:title="A resizable window with a title bar and maximise, minimise and close buttons. ">
+<g id="a_node5"><a xlink:href="classDocumentWindow.html" target="_top" xlink:title="A resizable window with a title bar and maximise, minimise and close buttons. ">
 <polygon fill="none" stroke="black" points="121.5,-56.5 121.5,-75.5 218.5,-75.5 218.5,-56.5 121.5,-56.5"/>
 <text text-anchor="middle" x="170" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">DocumentWindow</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileChooserDialogBox" target="_top" xlink:title="A file open/save dialog box. ">
+<g id="a_node9"><a xlink:href="classFileChooserDialogBox.html" target="_top" xlink:title="A file open/save dialog box. ">
 <polygon fill="none" stroke="black" points="237,-56.5 237,-75.5 351,-75.5 351,-56.5 237,-56.5"/>
 <text text-anchor="middle" x="294" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileChooserDialogBox</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-windows.html#classTopLevelWindow" target="_top" xlink:title="A base class for top&#45;level windows. ">
+<g id="a_node2"><a xlink:href="classTopLevelWindow.html" target="_top" xlink:title="A base class for top&#45;level windows. ">
 <polygon fill="none" stroke="black" points="186,-168.5 186,-187.5 278,-187.5 278,-168.5 186,-168.5"/>
 <text text-anchor="middle" x="232" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">TopLevelWindow</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node3"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="198.5,-224.5 198.5,-243.5 265.5,-243.5 265.5,-224.5 198.5,-224.5"/>
 <text text-anchor="middle" x="232" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node4"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="192,-280.5 192,-299.5 272,-299.5 272,-280.5 192,-280.5"/>
 <text text-anchor="middle" x="232" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-windows.html#classDialogWindow" target="_top" xlink:title="A dialog&#45;box style window. ">
+<g id="a_node6"><a xlink:href="classDialogWindow.html" target="_top" xlink:title="A dialog&#45;box style window. ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 80,-19.5 80,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="40" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DialogWindow</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__gui__basics-layout.html#classMultiDocumentPanelWindow" target="_top" xlink:title="This is a derivative of DocumentWindow that is used inside a MultiDocumentPanel component. ">
+<g id="a_node7"><a xlink:href="classMultiDocumentPanelWindow.html" target="_top" xlink:title="This is a derivative of DocumentWindow that is used inside a MultiDocumentPanel component. ">
 <polygon fill="none" stroke="black" points="98.5,-0.5 98.5,-19.5 241.5,-19.5 241.5,-0.5 98.5,-0.5"/>
 <text text-anchor="middle" x="170" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MultiDocumentPanelWindow</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__audio__plugin__client-Standalone.html#classStandaloneFilterWindow" target="_top" xlink:title="A class that can be used to run a simple standalone application containing your filter. ">
+<g id="a_node8"><a xlink:href="classStandaloneFilterWindow.html" target="_top" xlink:title="A class that can be used to run a simple standalone application containing your filter. ">
 <polygon fill="none" stroke="black" points="260,-0.5 260,-19.5 382,-19.5 382,-0.5 260,-0.5"/>
 <text text-anchor="middle" x="321" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">StandaloneFilterWindow</text>
 </a>

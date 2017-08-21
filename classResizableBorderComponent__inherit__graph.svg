@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node2"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="35.5,-56.5 35.5,-75.5 102.5,-75.5 102.5,-56.5 35.5,-56.5"/>
 <text text-anchor="middle" x="69" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node3"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="29,-112.5 29,-131.5 109,-131.5 109,-112.5 29,-112.5"/>
 <text text-anchor="middle" x="69" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>

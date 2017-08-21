@@ -1,7 +1,7 @@
 <map id="MultiDocumentPanelWindow" name="MultiDocumentPanelWindow">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-windows.html#classDocumentWindow" title="A resizable window with a title bar and maximise, minimise and close buttons. " alt="" coords="35,304,164,331"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-windows.html#classResizableWindow" title="A base class for top&#45;level windows that can be dragged around and resized. " alt="" coords="37,229,163,256"/>
-<area shape="rect" id="node4" href="$group__juce__gui__basics-windows.html#classTopLevelWindow" title="A base class for top&#45;level windows. " alt="" coords="39,155,161,181"/>
-<area shape="rect" id="node5" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="55,80,144,107"/>
-<area shape="rect" id="node6" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="47,5,153,32"/>
+<area shape="rect" id="node2" href="$classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons. " alt="" coords="35,304,164,331"/>
+<area shape="rect" id="node3" href="$classResizableWindow.html" title="A base class for top&#45;level windows that can be dragged around and resized. " alt="" coords="37,229,163,256"/>
+<area shape="rect" id="node4" href="$classTopLevelWindow.html" title="A base class for top&#45;level windows. " alt="" coords="39,155,161,181"/>
+<area shape="rect" id="node5" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="55,80,144,107"/>
+<area shape="rect" id="node6" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="47,5,153,32"/>
 </map>

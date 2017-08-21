@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__core-streams.html#classFileInputSource" target="_top" xlink:title="A type of InputSource that represents a normal file. ">
+<g id="a_node2"><a xlink:href="classFileInputSource.html" target="_top" xlink:title="A type of InputSource that represents a normal file. ">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 84.5,-19.5 84.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="42" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileInputSource</text>
 </a>

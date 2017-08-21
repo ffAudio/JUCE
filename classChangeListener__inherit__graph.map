@@ -1,5 +1,5 @@
 <map id="ChangeListener" name="ChangeListener">
-<area shape="rect" id="node2" href="$group__juce__audio__utils-gui.html#classAudioDeviceSelectorComponent" title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob..." alt="" coords="5,80,215,107"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-filebrowser.html#classFileListComponent" title="A component that displays the files in a directory as a listbox. " alt="" coords="240,80,369,107"/>
-<area shape="rect" id="node4" href="$group__juce__audio__processors-scanning.html#classPluginListComponent" title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them..." alt="" coords="395,80,541,107"/>
+<area shape="rect" id="node2" href="$classAudioDeviceSelectorComponent.html" title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob..." alt="" coords="5,80,215,107"/>
+<area shape="rect" id="node3" href="$classFileListComponent.html" title="A component that displays the files in a directory as a listbox. " alt="" coords="240,80,369,107"/>
+<area shape="rect" id="node4" href="$classPluginListComponent.html" title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them..." alt="" coords="395,80,541,107"/>
 </map>

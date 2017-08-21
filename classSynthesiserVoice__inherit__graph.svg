@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__formats-sampler.html#classSamplerVoice" target="_top" xlink:title="A subclass of SynthesiserVoice that can play a SamplerSound. ">
+<g id="a_node2"><a xlink:href="classSamplerVoice.html" target="_top" xlink:title="A subclass of SynthesiserVoice that can play a SamplerSound. ">
 <polygon fill="none" stroke="black" points="7.5,-0.5 7.5,-19.5 84.5,-19.5 84.5,-0.5 7.5,-0.5"/>
 <text text-anchor="middle" x="46" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SamplerVoice</text>
 </a>

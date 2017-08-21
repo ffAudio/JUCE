@@ -1,12 +1,12 @@
 <map id="AsyncUpdater" name="AsyncUpdater">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-commands.html#classApplicationCommandManager" title="One of these objects holds a list of all the commands your app can perform, and despatches these comm..." alt="" coords="161,5,357,32"/>
-<area shape="rect" id="node3" href="$group__juce__audio__processors-processors.html#classAudioProcessorGraph" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. " alt="" coords="184,56,333,83"/>
-<area shape="rect" id="node4" href="$group__juce__gui__basics-widgets.html#classComboBox" title="A component that lets the user choose from a drop&#45;down list of choices. " alt="" coords="215,107,302,133"/>
-<area shape="rect" id="node5" href="$group__juce__gui__basics-components.html#classDesktop" title="Describes and controls aspects of the computer&#39;s desktop. " alt="" coords="223,157,294,184"/>
-<area shape="rect" id="node6" href="$group__juce__gui__basics-filebrowser.html#classFilenameComponent" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="187,208,330,235"/>
-<area shape="rect" id="node7" href="$group__juce__gui__basics-menus.html#classMenuBarModel" title="A class for controlling MenuBar components. " alt="" coords="204,259,313,285"/>
-<area shape="rect" id="node8" href="$group__juce__gui__basics-components.html#classModalComponentManager" title="Manages the system&#39;s stack of modal components. " alt="" coords="171,309,346,336"/>
-<area shape="rect" id="node9" href="$group__juce__gui__basics-layout.html#classScrollBar" title="A scrollbar component. " alt="" coords="221,360,296,387"/>
-<area shape="rect" id="node10" href="$group__juce__gui__basics-widgets.html#classTableHeaderComponent" title="A component that displays a strip of column headings for a table, and allows these to be resized..." alt="" coords="177,411,340,437"/>
+<area shape="rect" id="node2" href="$classApplicationCommandManager.html" title="One of these objects holds a list of all the commands your app can perform, and despatches these comm..." alt="" coords="161,5,357,32"/>
+<area shape="rect" id="node3" href="$classAudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. " alt="" coords="184,56,333,83"/>
+<area shape="rect" id="node4" href="$classComboBox.html" title="A component that lets the user choose from a drop&#45;down list of choices. " alt="" coords="215,107,302,133"/>
+<area shape="rect" id="node5" href="$classDesktop.html" title="Describes and controls aspects of the computer&#39;s desktop. " alt="" coords="223,157,294,184"/>
+<area shape="rect" id="node6" href="$classFilenameComponent.html" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="187,208,330,235"/>
+<area shape="rect" id="node7" href="$classMenuBarModel.html" title="A class for controlling MenuBar components. " alt="" coords="204,259,313,285"/>
+<area shape="rect" id="node8" href="$classModalComponentManager.html" title="Manages the system&#39;s stack of modal components. " alt="" coords="171,309,346,336"/>
+<area shape="rect" id="node9" href="$classScrollBar.html" title="A scrollbar component. " alt="" coords="221,360,296,387"/>
+<area shape="rect" id="node10" href="$classTableHeaderComponent.html" title="A component that displays a strip of column headings for a table, and allows these to be resized..." alt="" coords="177,411,340,437"/>
 <area shape="rect" id="node11" href="$classValue_1_1ValueSource.html" title="Used internally by the Value class as the base class for its shared value objects. " alt="" coords="190,461,327,488"/>
 </map>

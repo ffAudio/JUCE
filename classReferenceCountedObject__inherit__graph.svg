@@ -29,7 +29,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__core-containers.html#classDynamicObject" target="_top" xlink:title="Represents a dynamically implemented object. ">
+<g id="a_node3"><a xlink:href="classDynamicObject.html" target="_top" xlink:title="Represents a dynamically implemented object. ">
 <polygon fill="none" stroke="black" points="203,-245.5 203,-264.5 287,-264.5 287,-245.5 203,-245.5"/>
 <text text-anchor="middle" x="245" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">DynamicObject</text>
 </a>
@@ -42,7 +42,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__graphics-images.html#classImagePixelData" target="_top" xlink:title="This is a base class for holding image data in implementation&#45;specific ways. ">
+<g id="a_node4"><a xlink:href="classImagePixelData.html" target="_top" xlink:title="This is a base class for holding image data in implementation&#45;specific ways. ">
 <polygon fill="none" stroke="black" points="202,-207.5 202,-226.5 288,-226.5 288,-207.5 202,-207.5"/>
 <text text-anchor="middle" x="245" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImagePixelData</text>
 </a>
@@ -68,7 +68,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__dsp-processors.html#structProcessorState" target="_top" xlink:title="This is a handy base class for the state of a processor (such as parameter values) which is typically...">
+<g id="a_node8"><a xlink:href="structProcessorState.html" target="_top" xlink:title="This is a handy base class for the state of a processor (such as parameter values) which is typically...">
 <polygon fill="none" stroke="black" points="203,-131.5 203,-150.5 287,-150.5 287,-131.5 203,-131.5"/>
 <text text-anchor="middle" x="245" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00">ProcessorState</text>
 </a>
@@ -81,7 +81,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="group__juce__audio__basics-synthesisers.html#classSynthesiserSound" target="_top" xlink:title="Describes one of the sounds that a Synthesiser can play. ">
+<g id="a_node12"><a xlink:href="classSynthesiserSound.html" target="_top" xlink:title="Describes one of the sounds that a Synthesiser can play. ">
 <polygon fill="none" stroke="black" points="197,-93.5 197,-112.5 293,-112.5 293,-93.5 197,-93.5"/>
 <text text-anchor="middle" x="245" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">SynthesiserSound</text>
 </a>
@@ -94,7 +94,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="group__juce__graphics-fonts.html#classTypeface" target="_top" xlink:title="A typeface represents a size&#45;independent font. ">
+<g id="a_node14"><a xlink:href="classTypeface.html" target="_top" xlink:title="A typeface represents a size&#45;independent font. ">
 <polygon fill="none" stroke="black" points="216.5,-55.5 216.5,-74.5 273.5,-74.5 273.5,-55.5 216.5,-55.5"/>
 <text text-anchor="middle" x="245" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">Typeface</text>
 </a>
@@ -120,7 +120,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__events-messages.html#classCallbackMessage" target="_top" xlink:title="A message that invokes a callback method when it gets delivered. ">
+<g id="a_node6"><a xlink:href="classCallbackMessage.html" target="_top" xlink:title="A message that invokes a callback method when it gets delivered. ">
 <polygon fill="none" stroke="black" points="389.5,-262.5 389.5,-281.5 484.5,-281.5 484.5,-262.5 389.5,-262.5"/>
 <text text-anchor="middle" x="437" y="-269.5" font-family="Helvetica,sans-Serif" font-size="10.00">CallbackMessage</text>
 </a>
@@ -133,7 +133,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__events-messages.html#classMessage" target="_top" xlink:title="The base class for objects that can be sent to a MessageListener. ">
+<g id="a_node7"><a xlink:href="classMessage.html" target="_top" xlink:title="The base class for objects that can be sent to a MessageListener. ">
 <polygon fill="none" stroke="black" points="409,-224.5 409,-243.5 465,-243.5 465,-224.5 409,-224.5"/>
 <text text-anchor="middle" x="437" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">Message</text>
 </a>
@@ -146,7 +146,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__dsp-processors.html#structFIR_1_1Coefficients" target="_top" xlink:title="A set of coefficients for use in an FIRFilter object. ">
+<g id="a_node9"><a xlink:href="structFIR_1_1Coefficients.html" target="_top" xlink:title="A set of coefficients for use in an FIRFilter object. ">
 <polygon fill="none" stroke="black" points="388,-175 388,-205 486,-205 486,-175 388,-175"/>
 <text text-anchor="start" x="396" y="-193" font-family="Helvetica,sans-Serif" font-size="10.00">FIR::Coefficients&lt;</text>
 <text text-anchor="middle" x="437" y="-182" font-family="Helvetica,sans-Serif" font-size="10.00"> NumericType &gt;</text>
@@ -174,7 +174,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="group__juce__dsp-processors.html#structStateVariableFilter_1_1Parameters" target="_top" xlink:title="StateVariableFilter\l::Parameters\&lt; NumericType \&gt;">
+<g id="a_node11"><a xlink:href="structStateVariableFilter_1_1Parameters.html" target="_top" xlink:title="StateVariableFilter\l::Parameters\&lt; NumericType \&gt;">
 <polygon fill="none" stroke="black" points="362.5,-77 362.5,-107 511.5,-107 511.5,-77 362.5,-77"/>
 <text text-anchor="start" x="370.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">StateVariableFilter</text>
 <text text-anchor="middle" x="437" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">::Parameters&lt; NumericType &gt;</text>
@@ -188,7 +188,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="group__juce__audio__formats-sampler.html#classSamplerSound" target="_top" xlink:title="A subclass of SynthesiserSound that represents a sampled audio clip. ">
+<g id="a_node13"><a xlink:href="classSamplerSound.html" target="_top" xlink:title="A subclass of SynthesiserSound that represents a sampled audio clip. ">
 <polygon fill="none" stroke="black" points="397,-38.5 397,-57.5 477,-57.5 477,-38.5 397,-38.5"/>
 <text text-anchor="middle" x="437" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SamplerSound</text>
 </a>
@@ -201,7 +201,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="group__juce__graphics-fonts.html#classCustomTypeface" target="_top" xlink:title="A typeface that can be populated with custom glyphs. ">
+<g id="a_node15"><a xlink:href="classCustomTypeface.html" target="_top" xlink:title="A typeface that can be populated with custom glyphs. ">
 <polygon fill="none" stroke="black" points="391,-0.5 391,-19.5 483,-19.5 483,-0.5 391,-0.5"/>
 <text text-anchor="middle" x="437" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CustomTypeface</text>
 </a>

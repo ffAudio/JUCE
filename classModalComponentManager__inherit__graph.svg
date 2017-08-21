@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__events-broadcasters.html#classAsyncUpdater" target="_top" xlink:title="Has a callback method that is triggered asynchronously. ">
+<g id="a_node2"><a xlink:href="classAsyncUpdater.html" target="_top" xlink:title="Has a callback method that is triggered asynchronously. ">
 <polygon fill="none" stroke="black" points="-0.5,-56.5 -0.5,-75.5 78.5,-75.5 78.5,-56.5 -0.5,-56.5"/>
 <text text-anchor="middle" x="39" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AsyncUpdater</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__events-messages.html#classDeletedAtShutdown" target="_top" xlink:title="Classes derived from this will be automatically deleted when the application exits. ">
+<g id="a_node3"><a xlink:href="classDeletedAtShutdown.html" target="_top" xlink:title="Classes derived from this will be automatically deleted when the application exits. ">
 <polygon fill="none" stroke="black" points="97,-56.5 97,-75.5 201,-75.5 201,-56.5 97,-56.5"/>
 <text text-anchor="middle" x="149" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">DeletedAtShutdown</text>
 </a>

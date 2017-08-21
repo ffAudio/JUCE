@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileListComponent" target="_top" xlink:title="A component that displays the files in a directory as a listbox. ">
+<g id="a_node2"><a xlink:href="classFileListComponent.html" target="_top" xlink:title="A component that displays the files in a directory as a listbox. ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 98,-19.5 98,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="49" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileListComponent</text>
 </a>
@@ -29,7 +29,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileTreeComponent" target="_top" xlink:title="A component that displays the files in a directory as a treeview. ">
+<g id="a_node3"><a xlink:href="classFileTreeComponent.html" target="_top" xlink:title="A component that displays the files in a directory as a treeview. ">
 <polygon fill="none" stroke="black" points="116,-0.5 116,-19.5 218,-19.5 218,-0.5 116,-0.5"/>
 <text text-anchor="middle" x="167" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileTreeComponent</text>
 </a>

@@ -1,5 +1,5 @@
 <map id="ImageFileFormat" name="ImageFileFormat">
-<area shape="rect" id="node2" href="$group__juce__graphics-images.html#classGIFImageFormat" title="A subclass of ImageFileFormat for reading GIF files. " alt="" coords="5,80,125,107"/>
-<area shape="rect" id="node3" href="$group__juce__graphics-images.html#classJPEGImageFormat" title="A subclass of ImageFileFormat for reading and writing JPEG files. " alt="" coords="150,80,284,107"/>
-<area shape="rect" id="node4" href="$group__juce__graphics-images.html#classPNGImageFormat" title="A subclass of ImageFileFormat for reading and writing PNG files. " alt="" coords="309,80,437,107"/>
+<area shape="rect" id="node2" href="$classGIFImageFormat.html" title="A subclass of ImageFileFormat for reading GIF files. " alt="" coords="5,80,125,107"/>
+<area shape="rect" id="node3" href="$classJPEGImageFormat.html" title="A subclass of ImageFileFormat for reading and writing JPEG files. " alt="" coords="150,80,284,107"/>
+<area shape="rect" id="node4" href="$classPNGImageFormat.html" title="A subclass of ImageFileFormat for reading and writing PNG files. " alt="" coords="309,80,437,107"/>
 </map>

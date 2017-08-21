@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileBrowserComponent" target="_top" xlink:title="A component for browsing and selecting a file or directory to open or save. ">
+<g id="a_node2"><a xlink:href="classFileBrowserComponent.html" target="_top" xlink:title="A component for browsing and selecting a file or directory to open or save. ">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 118.5,-19.5 118.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="59" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileBrowserComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileChooserDialogBox" target="_top" xlink:title="A file open/save dialog box. ">
+<g id="a_node3"><a xlink:href="classFileChooserDialogBox.html" target="_top" xlink:title="A file open/save dialog box. ">
 <polygon fill="none" stroke="black" points="137,-0.5 137,-19.5 251,-19.5 251,-0.5 137,-0.5"/>
 <text text-anchor="middle" x="194" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileChooserDialogBox</text>
 </a>

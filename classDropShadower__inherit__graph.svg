@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-components.html#classComponentListener" target="_top" xlink:title="Gets informed about changes to a component&#39;s hierarchy or position. ">
+<g id="a_node2"><a xlink:href="classComponentListener.html" target="_top" xlink:title="Gets informed about changes to a component&#39;s hierarchy or position. ">
 <polygon fill="none" stroke="black" points="-0.5,-56.5 -0.5,-75.5 100.5,-75.5 100.5,-56.5 -0.5,-56.5"/>
 <text text-anchor="middle" x="50" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComponentListener</text>
 </a>

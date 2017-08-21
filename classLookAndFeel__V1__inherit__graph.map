@@ -1,6 +1,6 @@
 <map id="LookAndFeel_V1" name="LookAndFeel_V1">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V2" title="This LookAndFeel subclass implements the juce style from around 2008&#45;12. " alt="" coords="470,783,591,809"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-lookandfeel.html#classLookAndFeel" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl..." alt="" coords="323,783,421,809"/>
+<area shape="rect" id="node2" href="$classLookAndFeel__V2.html" title="This LookAndFeel subclass implements the juce style from around 2008&#45;12. " alt="" coords="470,783,591,809"/>
+<area shape="rect" id="node3" href="$classLookAndFeel.html" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl..." alt="" coords="323,783,421,809"/>
 <area shape="rect" id="node4" href="$structScrollBar_1_1LookAndFeelMethods.html" title="This abstract base class is implemented by LookAndFeel classes to provide scrollbar&#45;drawing functiona..." alt="" coords="35,5,245,32"/>
 <area shape="rect" id="node5" href="$structButton_1_1LookAndFeelMethods.html" title="This abstract base class is implemented by LookAndFeel classes to provide button&#45;drawing functionalit..." alt="" coords="43,56,237,83"/>
 <area shape="rect" id="node6" href="$structImageButton_1_1LookAndFeelMethods.html" title="This abstract base class is implemented by LookAndFeel classes. " alt="" coords="50,107,230,149"/>

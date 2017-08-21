@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node2"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="red" points="144.5,-867.5 144.5,-886.5 211.5,-886.5 211.5,-867.5 144.5,-867.5"/>
 <text text-anchor="middle" x="178" y="-874.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node49 -->
 <g id="node49" class="node"><title>Node49</title>
-<g id="a_node49"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseInactivityDetector" target="_top" xlink:title="This object watches for mouse&#45;events happening within a component, and if the mouse remains still for...">
+<g id="a_node49"><a xlink:href="classMouseInactivityDetector.html" target="_top" xlink:title="This object watches for mouse&#45;events happening within a component, and if the mouse remains still for...">
 <polygon fill="none" stroke="black" points="116.5,-829.5 116.5,-848.5 239.5,-848.5 239.5,-829.5 116.5,-829.5"/>
 <text text-anchor="middle" x="178" y="-836.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseInactivityDetector</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__extra-embedding.html#classActiveXControlComponent" target="_top" xlink:title="A Windows&#45;specific class that can create and embed an ActiveX control inside itself. ">
+<g id="a_node3"><a xlink:href="classActiveXControlComponent.html" target="_top" xlink:title="A Windows&#45;specific class that can create and embed an ActiveX control inside itself. ">
 <polygon fill="none" stroke="black" points="289.5,-1722.5 289.5,-1741.5 422.5,-1741.5 422.5,-1722.5 289.5,-1722.5"/>
 <text text-anchor="middle" x="356" y="-1729.5" font-family="Helvetica,sans-Serif" font-size="10.00">ActiveXControlComponent</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__extra-misc.html#classAnimatedAppComponent" target="_top" xlink:title="A base class for writing simple one&#45;page graphical apps. ">
+<g id="a_node4"><a xlink:href="classAnimatedAppComponent.html" target="_top" xlink:title="A base class for writing simple one&#45;page graphical apps. ">
 <polygon fill="none" stroke="black" points="293.5,-1684.5 293.5,-1703.5 418.5,-1703.5 418.5,-1684.5 293.5,-1684.5"/>
 <text text-anchor="middle" x="356" y="-1691.5" font-family="Helvetica,sans-Serif" font-size="10.00">AnimatedAppComponent</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__audio__utils-gui.html#classAudioAppComponent" target="_top" xlink:title="A base class for writing audio apps that stream from the audio i/o devices. ">
+<g id="a_node5"><a xlink:href="classAudioAppComponent.html" target="_top" xlink:title="A base class for writing audio apps that stream from the audio i/o devices. ">
 <polygon fill="none" stroke="black" points="301.5,-1646.5 301.5,-1665.5 410.5,-1665.5 410.5,-1646.5 301.5,-1646.5"/>
 <text text-anchor="middle" x="356" y="-1653.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioAppComponent</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__audio__utils-gui.html#classAudioDeviceSelectorComponent" target="_top" xlink:title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob...">
+<g id="a_node6"><a xlink:href="classAudioDeviceSelectorComponent.html" target="_top" xlink:title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob...">
 <polygon fill="none" stroke="black" points="277,-1608.5 277,-1627.5 435,-1627.5 435,-1608.5 277,-1608.5"/>
 <text text-anchor="middle" x="356" y="-1615.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioDeviceSelectorComponent</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__audio__processors-processors.html#classAudioProcessorEditor" target="_top" xlink:title="Base class for the component that acts as the GUI for an AudioProcessor. ">
+<g id="a_node7"><a xlink:href="classAudioProcessorEditor.html" target="_top" xlink:title="Base class for the component that acts as the GUI for an AudioProcessor. ">
 <polygon fill="none" stroke="red" points="300.5,-1570.5 300.5,-1589.5 411.5,-1589.5 411.5,-1570.5 300.5,-1570.5"/>
 <text text-anchor="middle" x="356" y="-1577.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioProcessorEditor</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__audio__utils-gui.html#classAudioVisualiserComponent" target="_top" xlink:title="A simple component that can be used to show a scrolling waveform of audio data. ">
+<g id="a_node8"><a xlink:href="classAudioVisualiserComponent.html" target="_top" xlink:title="A simple component that can be used to show a scrolling waveform of audio data. ">
 <polygon fill="none" stroke="black" points="289,-1532.5 289,-1551.5 423,-1551.5 423,-1532.5 289,-1532.5"/>
 <text text-anchor="middle" x="356" y="-1539.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioVisualiserComponent</text>
 </a>
@@ -119,7 +119,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__gui__basics-misc.html#classBubbleComponent" target="_top" xlink:title="A component for showing a message or other graphics inside a speech&#45;bubble&#45;shaped outline...">
+<g id="a_node9"><a xlink:href="classBubbleComponent.html" target="_top" xlink:title="A component for showing a message or other graphics inside a speech&#45;bubble&#45;shaped outline...">
 <polygon fill="none" stroke="red" points="307.5,-1494.5 307.5,-1513.5 404.5,-1513.5 404.5,-1494.5 307.5,-1494.5"/>
 <text text-anchor="middle" x="356" y="-1501.5" font-family="Helvetica,sans-Serif" font-size="10.00">BubbleComponent</text>
 </a>
@@ -132,7 +132,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="group__juce__gui__basics-buttons.html#classButton" target="_top" xlink:title="A base class for buttons. ">
+<g id="a_node10"><a xlink:href="classButton.html" target="_top" xlink:title="A base class for buttons. ">
 <polygon fill="none" stroke="red" points="333.5,-1456.5 333.5,-1475.5 378.5,-1475.5 378.5,-1456.5 333.5,-1456.5"/>
 <text text-anchor="middle" x="356" y="-1463.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button</text>
 </a>
@@ -145,7 +145,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="group__juce__gui__basics-windows.html#classCallOutBox" target="_top" xlink:title="A box with a small arrow that can be used as a temporary pop&#45;up window to show extra controls when a ...">
+<g id="a_node11"><a xlink:href="classCallOutBox.html" target="_top" xlink:title="A box with a small arrow that can be used as a temporary pop&#45;up window to show extra controls when a ...">
 <polygon fill="none" stroke="black" points="322.5,-1418.5 322.5,-1437.5 389.5,-1437.5 389.5,-1418.5 322.5,-1418.5"/>
 <text text-anchor="middle" x="356" y="-1425.5" font-family="Helvetica,sans-Serif" font-size="10.00">CallOutBox</text>
 </a>
@@ -158,7 +158,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="group__juce__gui__basics-keyboard.html#classCaretComponent" target="_top" xlink:title="CaretComponent">
+<g id="a_node12"><a xlink:href="classCaretComponent.html" target="_top" xlink:title="CaretComponent">
 <polygon fill="none" stroke="black" points="310.5,-1380.5 310.5,-1399.5 401.5,-1399.5 401.5,-1380.5 310.5,-1380.5"/>
 <text text-anchor="middle" x="356" y="-1387.5" font-family="Helvetica,sans-Serif" font-size="10.00">CaretComponent</text>
 </a>
@@ -171,7 +171,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="group__juce__gui__extra-code__editor.html#classCodeEditorComponent" target="_top" xlink:title="A text editor component designed specifically for source code. ">
+<g id="a_node13"><a xlink:href="classCodeEditorComponent.html" target="_top" xlink:title="A text editor component designed specifically for source code. ">
 <polygon fill="none" stroke="black" points="298,-1342.5 298,-1361.5 414,-1361.5 414,-1342.5 298,-1342.5"/>
 <text text-anchor="middle" x="356" y="-1349.5" font-family="Helvetica,sans-Serif" font-size="10.00">CodeEditorComponent</text>
 </a>
@@ -184,7 +184,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="group__juce__gui__extra-misc.html#classColourSelector" target="_top" xlink:title="A component that lets the user choose a colour. ">
+<g id="a_node14"><a xlink:href="classColourSelector.html" target="_top" xlink:title="A component that lets the user choose a colour. ">
 <polygon fill="none" stroke="black" points="315.5,-1304.5 315.5,-1323.5 396.5,-1323.5 396.5,-1304.5 315.5,-1304.5"/>
 <text text-anchor="middle" x="356" y="-1311.5" font-family="Helvetica,sans-Serif" font-size="10.00">ColourSelector</text>
 </a>
@@ -197,7 +197,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="group__juce__gui__basics-widgets.html#classComboBox" target="_top" xlink:title="A component that lets the user choose from a drop&#45;down list of choices. ">
+<g id="a_node15"><a xlink:href="classComboBox.html" target="_top" xlink:title="A component that lets the user choose from a drop&#45;down list of choices. ">
 <polygon fill="none" stroke="black" points="323.5,-1266.5 323.5,-1285.5 388.5,-1285.5 388.5,-1266.5 323.5,-1266.5"/>
 <text text-anchor="middle" x="356" y="-1273.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComboBox</text>
 </a>
@@ -210,7 +210,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="group__juce__gui__basics-layout.html#classConcertinaPanel" target="_top" xlink:title="A panel which holds a vertical stack of components which can be expanded and contracted. ">
+<g id="a_node16"><a xlink:href="classConcertinaPanel.html" target="_top" xlink:title="A panel which holds a vertical stack of components which can be expanded and contracted. ">
 <polygon fill="none" stroke="black" points="311.5,-1228.5 311.5,-1247.5 400.5,-1247.5 400.5,-1228.5 311.5,-1228.5"/>
 <text text-anchor="middle" x="356" y="-1235.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConcertinaPanel</text>
 </a>
@@ -223,7 +223,7 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="group__juce__gui__basics-drawables.html#classDrawable" target="_top" xlink:title="The base class for objects which can draw themselves, e.g. ">
+<g id="a_node17"><a xlink:href="classDrawable.html" target="_top" xlink:title="The base class for objects which can draw themselves, e.g. ">
 <polygon fill="none" stroke="red" points="327,-1190.5 327,-1209.5 385,-1209.5 385,-1190.5 327,-1190.5"/>
 <text text-anchor="middle" x="356" y="-1197.5" font-family="Helvetica,sans-Serif" font-size="10.00">Drawable</text>
 </a>
@@ -236,7 +236,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileBrowserComponent" target="_top" xlink:title="A component for browsing and selecting a file or directory to open or save. ">
+<g id="a_node18"><a xlink:href="classFileBrowserComponent.html" target="_top" xlink:title="A component for browsing and selecting a file or directory to open or save. ">
 <polygon fill="none" stroke="black" points="296.5,-1152.5 296.5,-1171.5 415.5,-1171.5 415.5,-1152.5 296.5,-1152.5"/>
 <text text-anchor="middle" x="356" y="-1159.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileBrowserComponent</text>
 </a>
@@ -249,7 +249,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFilenameComponent" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
+<g id="a_node19"><a xlink:href="classFilenameComponent.html" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
 <polygon fill="none" stroke="black" points="302.5,-1114.5 302.5,-1133.5 409.5,-1133.5 409.5,-1114.5 302.5,-1114.5"/>
 <text text-anchor="middle" x="356" y="-1121.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilenameComponent</text>
 </a>
@@ -262,7 +262,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFilePreviewComponent" target="_top" xlink:title="Base class for components that live inside a file chooser dialog box and show previews of the files t...">
+<g id="a_node20"><a xlink:href="classFilePreviewComponent.html" target="_top" xlink:title="Base class for components that live inside a file chooser dialog box and show previews of the files t...">
 <polygon fill="none" stroke="red" points="297,-1076.5 297,-1095.5 415,-1095.5 415,-1076.5 297,-1076.5"/>
 <text text-anchor="middle" x="356" y="-1083.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilePreviewComponent</text>
 </a>
@@ -275,7 +275,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileSearchPathListComponent" target="_top" xlink:title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. ">
+<g id="a_node21"><a xlink:href="classFileSearchPathListComponent.html" target="_top" xlink:title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. ">
 <polygon fill="none" stroke="black" points="281.5,-1038.5 281.5,-1057.5 430.5,-1057.5 430.5,-1038.5 281.5,-1038.5"/>
 <text text-anchor="middle" x="356" y="-1045.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileSearchPathListComponent</text>
 </a>
@@ -288,7 +288,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="group__juce__gui__basics-layout.html#classGroupComponent" target="_top" xlink:title="A component that draws an outline around itself and has an optional title at the top, for drawing an outline around a group of controls. ">
+<g id="a_node22"><a xlink:href="classGroupComponent.html" target="_top" xlink:title="A component that draws an outline around itself and has an optional title at the top, for drawing an outline around a group of controls. ">
 <polygon fill="none" stroke="black" points="309.5,-1000.5 309.5,-1019.5 402.5,-1019.5 402.5,-1000.5 309.5,-1000.5"/>
 <text text-anchor="middle" x="356" y="-1007.5" font-family="Helvetica,sans-Serif" font-size="10.00">GroupComponent</text>
 </a>
@@ -301,7 +301,7 @@
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="group__juce__gui__basics-widgets.html#classImageComponent" target="_top" xlink:title="A component that simply displays an image. ">
+<g id="a_node23"><a xlink:href="classImageComponent.html" target="_top" xlink:title="A component that simply displays an image. ">
 <polygon fill="none" stroke="black" points="309,-962.5 309,-981.5 403,-981.5 403,-962.5 309,-962.5"/>
 <text text-anchor="middle" x="356" y="-969.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImageComponent</text>
 </a>
@@ -314,7 +314,7 @@
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="group__juce__gui__basics-misc.html#classJUCESplashScreen" target="_top" xlink:title="The standard JUCE splash screen component. ">
+<g id="a_node24"><a xlink:href="classJUCESplashScreen.html" target="_top" xlink:title="The standard JUCE splash screen component. ">
 <polygon fill="none" stroke="black" points="304,-924.5 304,-943.5 408,-943.5 408,-924.5 304,-924.5"/>
 <text text-anchor="middle" x="356" y="-931.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUCESplashScreen</text>
 </a>
@@ -327,7 +327,7 @@
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="group__juce__gui__extra-misc.html#classKeyMappingEditorComponent" target="_top" xlink:title="A component to allow editing of the keymaps stored by a KeyPressMappingSet object. ">
+<g id="a_node25"><a xlink:href="classKeyMappingEditorComponent.html" target="_top" xlink:title="A component to allow editing of the keymaps stored by a KeyPressMappingSet object. ">
 <polygon fill="none" stroke="black" points="283,-886.5 283,-905.5 429,-905.5 429,-886.5 283,-886.5"/>
 <text text-anchor="middle" x="356" y="-893.5" font-family="Helvetica,sans-Serif" font-size="10.00">KeyMappingEditorComponent</text>
 </a>
@@ -340,7 +340,7 @@
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="group__juce__gui__basics-widgets.html#classLabel" target="_top" xlink:title="A component that displays a text string, and can optionally become a text editor when clicked...">
+<g id="a_node26"><a xlink:href="classLabel.html" target="_top" xlink:title="A component that displays a text string, and can optionally become a text editor when clicked...">
 <polygon fill="none" stroke="black" points="336,-848.5 336,-867.5 376,-867.5 376,-848.5 336,-848.5"/>
 <text text-anchor="middle" x="356" y="-855.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
 </a>
@@ -353,7 +353,7 @@
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="group__juce__gui__basics-mouse.html#classLassoComponent" target="_top" xlink:title="A component that acts as a rectangular selection region, which you drag with the mouse to select grou...">
+<g id="a_node27"><a xlink:href="classLassoComponent.html" target="_top" xlink:title="A component that acts as a rectangular selection region, which you drag with the mouse to select grou...">
 <polygon fill="none" stroke="black" points="282,-799 282,-829 430,-829 430,-799 282,-799"/>
 <text text-anchor="start" x="290" y="-817" font-family="Helvetica,sans-Serif" font-size="10.00">LassoComponent&lt; Selectable</text>
 <text text-anchor="middle" x="356" y="-806" font-family="Helvetica,sans-Serif" font-size="10.00">ItemType &gt;</text>
@@ -367,7 +367,7 @@
 </g>
 <!-- Node28 -->
 <g id="node28" class="node"><title>Node28</title>
-<g id="a_node28"><a xlink:href="group__juce__gui__basics-widgets.html#classListBox" target="_top" xlink:title="A list of items that can be scrolled vertically. ">
+<g id="a_node28"><a xlink:href="classListBox.html" target="_top" xlink:title="A list of items that can be scrolled vertically. ">
 <polygon fill="none" stroke="red" points="331,-760.5 331,-779.5 381,-779.5 381,-760.5 331,-760.5"/>
 <text text-anchor="middle" x="356" y="-767.5" font-family="Helvetica,sans-Serif" font-size="10.00">ListBox</text>
 </a>
@@ -380,7 +380,7 @@
 </g>
 <!-- Node29 -->
 <g id="node29" class="node"><title>Node29</title>
-<g id="a_node29"><a xlink:href="group__juce__gui__basics-menus.html#classMenuBarComponent" target="_top" xlink:title="A menu bar component. ">
+<g id="a_node29"><a xlink:href="classMenuBarComponent.html" target="_top" xlink:title="A menu bar component. ">
 <polygon fill="none" stroke="black" points="303,-722.5 303,-741.5 409,-741.5 409,-722.5 303,-722.5"/>
 <text text-anchor="middle" x="356" y="-729.5" font-family="Helvetica,sans-Serif" font-size="10.00">MenuBarComponent</text>
 </a>
@@ -393,7 +393,7 @@
 </g>
 <!-- Node30 -->
 <g id="node30" class="node"><title>Node30</title>
-<g id="a_node30"><a xlink:href="group__juce__audio__utils-gui.html#classMidiKeyboardComponent" target="_top" xlink:title="A component that displays a piano keyboard, whose notes can be clicked on. ">
+<g id="a_node30"><a xlink:href="classMidiKeyboardComponent.html" target="_top" xlink:title="A component that displays a piano keyboard, whose notes can be clicked on. ">
 <polygon fill="none" stroke="black" points="293,-684.5 293,-703.5 419,-703.5 419,-684.5 293,-684.5"/>
 <text text-anchor="middle" x="356" y="-691.5" font-family="Helvetica,sans-Serif" font-size="10.00">MidiKeyboardComponent</text>
 </a>
@@ -406,7 +406,7 @@
 </g>
 <!-- Node31 -->
 <g id="node31" class="node"><title>Node31</title>
-<g id="a_node31"><a xlink:href="group__juce__gui__basics-layout.html#classMultiDocumentPanel" target="_top" xlink:title="A component that contains a set of other components either in floating windows or tabs...">
+<g id="a_node31"><a xlink:href="classMultiDocumentPanel.html" target="_top" xlink:title="A component that contains a set of other components either in floating windows or tabs...">
 <polygon fill="none" stroke="black" points="302.5,-646.5 302.5,-665.5 409.5,-665.5 409.5,-646.5 302.5,-646.5"/>
 <text text-anchor="middle" x="356" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">MultiDocumentPanel</text>
 </a>
@@ -419,7 +419,7 @@
 </g>
 <!-- Node32 -->
 <g id="node32" class="node"><title>Node32</title>
-<g id="a_node32"><a xlink:href="group__juce__gui__extra-embedding.html#classNSViewComponent" target="_top" xlink:title="A Mac&#45;specific class that can create and embed an NSView inside itself. ">
+<g id="a_node32"><a xlink:href="classNSViewComponent.html" target="_top" xlink:title="A Mac&#45;specific class that can create and embed an NSView inside itself. ">
 <polygon fill="none" stroke="black" points="304.5,-608.5 304.5,-627.5 407.5,-627.5 407.5,-608.5 304.5,-608.5"/>
 <text text-anchor="middle" x="356" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">NSViewComponent</text>
 </a>
@@ -432,7 +432,7 @@
 </g>
 <!-- Node33 -->
 <g id="node33" class="node"><title>Node33</title>
-<g id="a_node33"><a xlink:href="group__juce__product__unlocking-marketplace.html#classOnlineUnlockForm" target="_top" xlink:title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU...">
+<g id="a_node33"><a xlink:href="classOnlineUnlockForm.html" target="_top" xlink:title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU...">
 <polygon fill="none" stroke="black" points="307,-570.5 307,-589.5 405,-589.5 405,-570.5 307,-570.5"/>
 <text text-anchor="middle" x="356" y="-577.5" font-family="Helvetica,sans-Serif" font-size="10.00">OnlineUnlockForm</text>
 </a>
@@ -445,7 +445,7 @@
 </g>
 <!-- Node34 -->
 <g id="node34" class="node"><title>Node34</title>
-<g id="a_node34"><a xlink:href="group__juce__opengl-utils.html#classOpenGLAppComponent" target="_top" xlink:title="A base class for writing simple one&#45;page graphical apps. ">
+<g id="a_node34"><a xlink:href="classOpenGLAppComponent.html" target="_top" xlink:title="A base class for writing simple one&#45;page graphical apps. ">
 <polygon fill="none" stroke="black" points="296,-532.5 296,-551.5 416,-551.5 416,-532.5 296,-532.5"/>
 <text text-anchor="middle" x="356" y="-539.5" font-family="Helvetica,sans-Serif" font-size="10.00">OpenGLAppComponent</text>
 </a>
@@ -458,7 +458,7 @@
 </g>
 <!-- Node35 -->
 <g id="node35" class="node"><title>Node35</title>
-<g id="a_node35"><a xlink:href="group__juce__audio__processors-scanning.html#classPluginListComponent" target="_top" xlink:title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them...">
+<g id="a_node35"><a xlink:href="classPluginListComponent.html" target="_top" xlink:title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them...">
 <polygon fill="none" stroke="black" points="301,-494.5 301,-513.5 411,-513.5 411,-494.5 301,-494.5"/>
 <text text-anchor="middle" x="356" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">PluginListComponent</text>
 </a>
@@ -484,7 +484,7 @@
 </g>
 <!-- Node37 -->
 <g id="node37" class="node"><title>Node37</title>
-<g id="a_node37"><a xlink:href="group__juce__gui__extra-misc.html#classPreferencesPanel" target="_top" xlink:title="A component with a set of buttons at the top for changing between pages of preferences. ">
+<g id="a_node37"><a xlink:href="classPreferencesPanel.html" target="_top" xlink:title="A component with a set of buttons at the top for changing between pages of preferences. ">
 <polygon fill="none" stroke="black" points="309,-418.5 309,-437.5 403,-437.5 403,-418.5 309,-418.5"/>
 <text text-anchor="middle" x="356" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">PreferencesPanel</text>
 </a>
@@ -497,7 +497,7 @@
 </g>
 <!-- Node38 -->
 <g id="node38" class="node"><title>Node38</title>
-<g id="a_node38"><a xlink:href="group__juce__gui__basics-widgets.html#classProgressBar" target="_top" xlink:title="A progress bar component. ">
+<g id="a_node38"><a xlink:href="classProgressBar.html" target="_top" xlink:title="A progress bar component. ">
 <polygon fill="none" stroke="black" points="320.5,-380.5 320.5,-399.5 391.5,-399.5 391.5,-380.5 320.5,-380.5"/>
 <text text-anchor="middle" x="356" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">ProgressBar</text>
 </a>
@@ -510,7 +510,7 @@
 </g>
 <!-- Node39 -->
 <g id="node39" class="node"><title>Node39</title>
-<g id="a_node39"><a xlink:href="group__juce__gui__basics-properties.html#classPropertyComponent" target="_top" xlink:title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">
+<g id="a_node39"><a xlink:href="classPropertyComponent.html" target="_top" xlink:title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">
 <polygon fill="none" stroke="red" points="304,-342.5 304,-361.5 408,-361.5 408,-342.5 304,-342.5"/>
 <text text-anchor="middle" x="356" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyComponent</text>
 </a>
@@ -523,7 +523,7 @@
 </g>
 <!-- Node40 -->
 <g id="node40" class="node"><title>Node40</title>
-<g id="a_node40"><a xlink:href="group__juce__gui__basics-properties.html#classPropertyPanel" target="_top" xlink:title="A panel that holds a list of PropertyComponent objects. ">
+<g id="a_node40"><a xlink:href="classPropertyPanel.html" target="_top" xlink:title="A panel that holds a list of PropertyComponent objects. ">
 <polygon fill="none" stroke="black" points="317,-304.5 317,-323.5 395,-323.5 395,-304.5 317,-304.5"/>
 <text text-anchor="middle" x="356" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyPanel</text>
 </a>
@@ -536,7 +536,7 @@
 </g>
 <!-- Node41 -->
 <g id="node41" class="node"><title>Node41</title>
-<g id="a_node41"><a xlink:href="group__juce__gui__basics-layout.html#classResizableBorderComponent" target="_top" xlink:title="A component that resizes its parent component when dragged. ">
+<g id="a_node41"><a xlink:href="classResizableBorderComponent.html" target="_top" xlink:title="A component that resizes its parent component when dragged. ">
 <polygon fill="none" stroke="black" points="286.5,-266.5 286.5,-285.5 425.5,-285.5 425.5,-266.5 286.5,-266.5"/>
 <text text-anchor="middle" x="356" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableBorderComponent</text>
 </a>
@@ -549,7 +549,7 @@
 </g>
 <!-- Node42 -->
 <g id="node42" class="node"><title>Node42</title>
-<g id="a_node42"><a xlink:href="group__juce__gui__basics-layout.html#classResizableCornerComponent" target="_top" xlink:title="A component that resizes a parent component when dragged. ">
+<g id="a_node42"><a xlink:href="classResizableCornerComponent.html" target="_top" xlink:title="A component that resizes a parent component when dragged. ">
 <polygon fill="none" stroke="black" points="286,-228.5 286,-247.5 426,-247.5 426,-228.5 286,-228.5"/>
 <text text-anchor="middle" x="356" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableCornerComponent</text>
 </a>
@@ -562,7 +562,7 @@
 </g>
 <!-- Node43 -->
 <g id="node43" class="node"><title>Node43</title>
-<g id="a_node43"><a xlink:href="group__juce__gui__basics-layout.html#classResizableEdgeComponent" target="_top" xlink:title="A component that resizes its parent component when dragged. ">
+<g id="a_node43"><a xlink:href="classResizableEdgeComponent.html" target="_top" xlink:title="A component that resizes its parent component when dragged. ">
 <polygon fill="none" stroke="black" points="289.5,-190.5 289.5,-209.5 422.5,-209.5 422.5,-190.5 289.5,-190.5"/>
 <text text-anchor="middle" x="356" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableEdgeComponent</text>
 </a>
@@ -575,7 +575,7 @@
 </g>
 <!-- Node44 -->
 <g id="node44" class="node"><title>Node44</title>
-<g id="a_node44"><a xlink:href="group__juce__gui__basics-layout.html#classScrollBar" target="_top" xlink:title="A scrollbar component. ">
+<g id="a_node44"><a xlink:href="classScrollBar.html" target="_top" xlink:title="A scrollbar component. ">
 <polygon fill="none" stroke="black" points="328,-152.5 328,-171.5 384,-171.5 384,-152.5 328,-152.5"/>
 <text text-anchor="middle" x="356" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">ScrollBar</text>
 </a>
@@ -588,7 +588,7 @@
 </g>
 <!-- Node45 -->
 <g id="node45" class="node"><title>Node45</title>
-<g id="a_node45"><a xlink:href="group__juce__gui__basics-widgets.html#classSlider" target="_top" xlink:title="A slider control for changing a value. ">
+<g id="a_node45"><a xlink:href="classSlider.html" target="_top" xlink:title="A slider control for changing a value. ">
 <polygon fill="none" stroke="black" points="335.5,-114.5 335.5,-133.5 376.5,-133.5 376.5,-114.5 335.5,-114.5"/>
 <text text-anchor="middle" x="356" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Slider</text>
 </a>
@@ -601,7 +601,7 @@
 </g>
 <!-- Node46 -->
 <g id="node46" class="node"><title>Node46</title>
-<g id="a_node46"><a xlink:href="group__juce__gui__extra-misc.html#classSplashScreen" target="_top" xlink:title="A component for showing a splash screen while your app starts up. ">
+<g id="a_node46"><a xlink:href="classSplashScreen.html" target="_top" xlink:title="A component for showing a splash screen while your app starts up. ">
 <polygon fill="none" stroke="black" points="317.5,-76.5 317.5,-95.5 394.5,-95.5 394.5,-76.5 317.5,-76.5"/>
 <text text-anchor="middle" x="356" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplashScreen</text>
 </a>
@@ -614,7 +614,7 @@
 </g>
 <!-- Node47 -->
 <g id="node47" class="node"><title>Node47</title>
-<g id="a_node47"><a xlink:href="group__juce__gui__basics-layout.html#classStretchableLayoutResizerBar" target="_top" xlink:title="A component that acts as one of the vertical or horizontal bars you see being used to resize panels i...">
+<g id="a_node47"><a xlink:href="classStretchableLayoutResizerBar.html" target="_top" xlink:title="A component that acts as one of the vertical or horizontal bars you see being used to resize panels i...">
 <polygon fill="none" stroke="black" points="284,-38.5 284,-57.5 428,-57.5 428,-38.5 284,-38.5"/>
 <text text-anchor="middle" x="356" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">StretchableLayoutResizerBar</text>
 </a>
@@ -627,7 +627,7 @@
 </g>
 <!-- Node48 -->
 <g id="node48" class="node"><title>Node48</title>
-<g id="a_node48"><a xlink:href="group__juce__gui__extra-misc.html#classSystemTrayIconComponent" target="_top" xlink:title="This component sits in the taskbar tray as a small icon. ">
+<g id="a_node48"><a xlink:href="classSystemTrayIconComponent.html" target="_top" xlink:title="This component sits in the taskbar tray as a small icon. ">
 <polygon fill="none" stroke="black" points="286.5,-0.5 286.5,-19.5 425.5,-19.5 425.5,-0.5 286.5,-0.5"/>
 <text text-anchor="middle" x="356" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SystemTrayIconComponent</text>
 </a>

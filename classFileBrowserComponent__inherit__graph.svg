@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node2"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="135.5,-228.5 135.5,-247.5 202.5,-247.5 202.5,-228.5 135.5,-228.5"/>
 <text text-anchor="middle" x="169" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node3"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="0,-228.5 0,-247.5 80,-247.5 80,-228.5 0,-228.5"/>
 <text text-anchor="middle" x="40" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileBrowserListener" target="_top" xlink:title="A listener for user selection events in a file browser. ">
+<g id="a_node4"><a xlink:href="classFileBrowserListener.html" target="_top" xlink:title="A listener for user selection events in a file browser. ">
 <polygon fill="none" stroke="black" points="117.5,-190.5 117.5,-209.5 220.5,-209.5 220.5,-190.5 117.5,-190.5"/>
 <text text-anchor="middle" x="169" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileBrowserListener</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__core-files.html#classFileFilter" target="_top" xlink:title="Interface for deciding which files are suitable for something. ">
+<g id="a_node8"><a xlink:href="classFileFilter.html" target="_top" xlink:title="Interface for deciding which files are suitable for something. ">
 <polygon fill="none" stroke="black" points="142,-38.5 142,-57.5 196,-57.5 196,-38.5 142,-38.5"/>
 <text text-anchor="middle" x="169" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileFilter</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__events-timers.html#classTimer" target="_top" xlink:title="Makes repeated callbacks to a virtual method at a specified time interval. ">
+<g id="a_node9"><a xlink:href="classTimer.html" target="_top" xlink:title="Makes repeated callbacks to a virtual method at a specified time interval. ">
 <polygon fill="none" stroke="black" points="148.5,-0.5 148.5,-19.5 189.5,-19.5 189.5,-0.5 148.5,-0.5"/>
 <text text-anchor="middle" x="169" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Timer</text>
 </a>

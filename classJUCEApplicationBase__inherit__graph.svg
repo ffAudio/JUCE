@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-application.html#classJUCEApplication" target="_top" xlink:title="An instance of this class is used to specify initialisation and shutdown code for the application...">
+<g id="a_node2"><a xlink:href="classJUCEApplication.html" target="_top" xlink:title="An instance of this class is used to specify initialisation and shutdown code for the application...">
 <polygon fill="none" stroke="black" points="11,-0.5 11,-19.5 103,-19.5 103,-0.5 11,-0.5"/>
 <text text-anchor="middle" x="57" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUCEApplication</text>
 </a>

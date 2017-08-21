@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-misc.html#classBubbleComponent" target="_top" xlink:title="A component for showing a message or other graphics inside a speech&#45;bubble&#45;shaped outline...">
+<g id="a_node2"><a xlink:href="classBubbleComponent.html" target="_top" xlink:title="A component for showing a message or other graphics inside a speech&#45;bubble&#45;shaped outline...">
 <polygon fill="none" stroke="black" points="-0.5,-56.5 -0.5,-75.5 96.5,-75.5 96.5,-56.5 -0.5,-56.5"/>
 <text text-anchor="middle" x="48" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">BubbleComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node3"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="14.5,-112.5 14.5,-131.5 81.5,-131.5 81.5,-112.5 14.5,-112.5"/>
 <text text-anchor="middle" x="48" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node4"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="8,-168.5 8,-187.5 88,-187.5 88,-168.5 8,-168.5"/>
 <text text-anchor="middle" x="48" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__events-timers.html#classTimer" target="_top" xlink:title="Makes repeated callbacks to a virtual method at a specified time interval. ">
+<g id="a_node5"><a xlink:href="classTimer.html" target="_top" xlink:title="Makes repeated callbacks to a virtual method at a specified time interval. ">
 <polygon fill="none" stroke="black" points="114.5,-56.5 114.5,-75.5 155.5,-75.5 155.5,-56.5 114.5,-56.5"/>
 <text text-anchor="middle" x="135" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Timer</text>
 </a>

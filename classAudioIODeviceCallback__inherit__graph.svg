@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__utils-players.html#classAudioProcessorPlayer" target="_top" xlink:title="An AudioIODeviceCallback object which streams audio through an AudioProcessor. ">
+<g id="a_node2"><a xlink:href="classAudioProcessorPlayer.html" target="_top" xlink:title="An AudioIODeviceCallback object which streams audio through an AudioProcessor. ">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 112.5,-19.5 112.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="56" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioProcessorPlayer</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__devices-sources.html#classAudioSourcePlayer" target="_top" xlink:title="Wrapper class to continuously stream audio from an audio source to an AudioIODevice. ">
+<g id="a_node3"><a xlink:href="classAudioSourcePlayer.html" target="_top" xlink:title="Wrapper class to continuously stream audio from an audio source to an AudioIODevice. ">
 <polygon fill="none" stroke="black" points="131,-0.5 131,-19.5 231,-19.5 231,-0.5 131,-0.5"/>
 <text text-anchor="middle" x="181" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioSourcePlayer</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__utils-players.html#classSoundPlayer" target="_top" xlink:title="A simple sound player that you can add to the AudioDeviceManager to play simple sounds. ">
+<g id="a_node4"><a xlink:href="classSoundPlayer.html" target="_top" xlink:title="A simple sound player that you can add to the AudioDeviceManager to play simple sounds. ">
 <polygon fill="none" stroke="black" points="249,-0.5 249,-19.5 321,-19.5 321,-0.5 249,-0.5"/>
 <text text-anchor="middle" x="285" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SoundPlayer</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__audio__plugin__client-Standalone.html#classStandalonePluginHolder" target="_top" xlink:title="An object that creates and plays a standalone instance of an AudioProcessor. ">
+<g id="a_node5"><a xlink:href="classStandalonePluginHolder.html" target="_top" xlink:title="An object that creates and plays a standalone instance of an AudioProcessor. ">
 <polygon fill="none" stroke="black" points="339.5,-0.5 339.5,-19.5 460.5,-19.5 460.5,-0.5 339.5,-0.5"/>
 <text text-anchor="middle" x="400" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">StandalonePluginHolder</text>
 </a>

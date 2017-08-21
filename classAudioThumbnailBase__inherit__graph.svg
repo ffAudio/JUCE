@@ -15,7 +15,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__utils-gui.html#classAudioThumbnail" target="_top" xlink:title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file. ">
+<g id="a_node4"><a xlink:href="classAudioThumbnail.html" target="_top" xlink:title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file. ">
 <polygon fill="none" stroke="black" points="80,-0.5 80,-19.5 166,-19.5 166,-0.5 80,-0.5"/>
 <text text-anchor="middle" x="123" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioThumbnail</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__events-broadcasters.html#classChangeBroadcaster" target="_top" xlink:title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">
+<g id="a_node2"><a xlink:href="classChangeBroadcaster.html" target="_top" xlink:title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">
 <polygon fill="none" stroke="black" points="-0.5,-123.5 -0.5,-142.5 102.5,-142.5 102.5,-123.5 -0.5,-123.5"/>
 <text text-anchor="middle" x="51" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChangeBroadcaster</text>
 </a>

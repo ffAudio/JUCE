@@ -15,7 +15,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__dsp-processors.html#structFIR_1_1Coefficients" target="_top" xlink:title="A set of coefficients for use in an FIRFilter object. ">
+<g id="a_node3"><a xlink:href="structFIR_1_1Coefficients.html" target="_top" xlink:title="A set of coefficients for use in an FIRFilter object. ">
 <polygon fill="none" stroke="black" points="310,-98 310,-128 408,-128 408,-98 310,-98"/>
 <text text-anchor="start" x="318" y="-116" font-family="Helvetica,sans-Serif" font-size="10.00">FIR::Coefficients&lt;</text>
 <text text-anchor="middle" x="359" y="-105" font-family="Helvetica,sans-Serif" font-size="10.00"> NumericType &gt;</text>
@@ -43,7 +43,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__dsp-processors.html#structStateVariableFilter_1_1Parameters" target="_top" xlink:title="StateVariableFilter\l::Parameters\&lt; NumericType \&gt;">
+<g id="a_node5"><a xlink:href="structStateVariableFilter_1_1Parameters.html" target="_top" xlink:title="StateVariableFilter\l::Parameters\&lt; NumericType \&gt;">
 <polygon fill="none" stroke="black" points="284.5,-0 284.5,-30 433.5,-30 433.5,-0 284.5,-0"/>
 <text text-anchor="start" x="292.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">StateVariableFilter</text>
 <text text-anchor="middle" x="359" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">::Parameters&lt; NumericType &gt;</text>
@@ -57,7 +57,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__core-memory.html#classReferenceCountedObject" target="_top" xlink:title="A base class which provides methods for reference&#45;counting. ">
+<g id="a_node2"><a xlink:href="classReferenceCountedObject.html" target="_top" xlink:title="A base class which provides methods for reference&#45;counting. ">
 <polygon fill="none" stroke="black" points="0.5,-54.5 0.5,-73.5 127.5,-73.5 127.5,-54.5 0.5,-54.5"/>
 <text text-anchor="middle" x="64" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00">ReferenceCountedObject</text>
 </a>

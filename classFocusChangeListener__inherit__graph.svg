@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-commands.html#classApplicationCommandManager" target="_top" xlink:title="One of these objects holds a list of all the commands your app can perform, and despatches these comm...">
+<g id="a_node2"><a xlink:href="classApplicationCommandManager.html" target="_top" xlink:title="One of these objects holds a list of all the commands your app can perform, and despatches these comm...">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 146.5,-19.5 146.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ApplicationCommandManager</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-commands.html#classKeyPressMappingSet" target="_top" xlink:title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica...">
+<g id="a_node3"><a xlink:href="classKeyPressMappingSet.html" target="_top" xlink:title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica...">
 <polygon fill="none" stroke="black" points="164.5,-0.5 164.5,-19.5 275.5,-19.5 275.5,-0.5 164.5,-0.5"/>
 <text text-anchor="middle" x="220" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">KeyPressMappingSet</text>
 </a>

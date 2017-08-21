@@ -1,11 +1,11 @@
 <map id="TopLevelWindow" name="TopLevelWindow">
-<area shape="rect" id="node4" href="$group__juce__gui__basics-windows.html#classAlertWindow" title="A window that displays a message and has buttons for the user to react to it. " alt="" coords="131,229,227,256"/>
-<area shape="rect" id="node5" href="$group__juce__gui__basics-windows.html#classResizableWindow" title="A base class for top&#45;level windows that can be dragged around and resized. " alt="" coords="251,229,377,256"/>
-<area shape="rect" id="node2" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="202,80,291,107"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="193,5,300,32"/>
-<area shape="rect" id="node6" href="$group__juce__gui__basics-windows.html#classDocumentWindow" title="A resizable window with a title bar and maximise, minimise and close buttons. " alt="" coords="167,304,296,331"/>
-<area shape="rect" id="node10" href="$group__juce__gui__basics-filebrowser.html#classFileChooserDialogBox" title="A file open/save dialog box. " alt="" coords="321,304,473,331"/>
-<area shape="rect" id="node7" href="$group__juce__gui__basics-windows.html#classDialogWindow" title="A dialog&#45;box style window. " alt="" coords="5,379,112,405"/>
-<area shape="rect" id="node8" href="$group__juce__gui__basics-layout.html#classMultiDocumentPanelWindow" title="This is a derivative of DocumentWindow that is used inside a MultiDocumentPanel component. " alt="" coords="137,379,327,405"/>
-<area shape="rect" id="node9" href="$group__juce__audio__plugin__client-Standalone.html#classStandaloneFilterWindow" title="A class that can be used to run a simple standalone application containing your filter. " alt="" coords="352,379,515,405"/>
+<area shape="rect" id="node4" href="$classAlertWindow.html" title="A window that displays a message and has buttons for the user to react to it. " alt="" coords="131,229,227,256"/>
+<area shape="rect" id="node5" href="$classResizableWindow.html" title="A base class for top&#45;level windows that can be dragged around and resized. " alt="" coords="251,229,377,256"/>
+<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="202,80,291,107"/>
+<area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="193,5,300,32"/>
+<area shape="rect" id="node6" href="$classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons. " alt="" coords="167,304,296,331"/>
+<area shape="rect" id="node10" href="$classFileChooserDialogBox.html" title="A file open/save dialog box. " alt="" coords="321,304,473,331"/>
+<area shape="rect" id="node7" href="$classDialogWindow.html" title="A dialog&#45;box style window. " alt="" coords="5,379,112,405"/>
+<area shape="rect" id="node8" href="$classMultiDocumentPanelWindow.html" title="This is a derivative of DocumentWindow that is used inside a MultiDocumentPanel component. " alt="" coords="137,379,327,405"/>
+<area shape="rect" id="node9" href="$classStandaloneFilterWindow.html" title="A class that can be used to run a simple standalone application containing your filter. " alt="" coords="352,379,515,405"/>
 </map>

@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__dsp-processors.html#structProcessorBase" target="_top" xlink:title="Acts as a polymorphic base class for processors. ">
+<g id="a_node2"><a xlink:href="structProcessorBase.html" target="_top" xlink:title="Acts as a polymorphic base class for processors. ">
 <polygon fill="none" stroke="black" points="33.5,-68.5 33.5,-87.5 116.5,-87.5 116.5,-68.5 33.5,-68.5"/>
 <text text-anchor="middle" x="75" y="-75.5" font-family="Helvetica,sans-Serif" font-size="10.00">ProcessorBase</text>
 </a>

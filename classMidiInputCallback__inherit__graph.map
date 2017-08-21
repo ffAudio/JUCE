@@ -1,4 +1,4 @@
 <map id="MidiInputCallback" name="MidiInputCallback">
-<area shape="rect" id="node2" href="$group__juce__audio__utils-players.html#classAudioProcessorPlayer" title="An AudioIODeviceCallback object which streams audio through an AudioProcessor. " alt="" coords="5,80,155,107"/>
-<area shape="rect" id="node3" href="$group__juce__audio__devices-midi__io.html#classMidiMessageCollector" title="Collects incoming realtime MIDI messages and turns them into blocks suitable for processing by a bloc..." alt="" coords="179,80,329,107"/>
+<area shape="rect" id="node2" href="$classAudioProcessorPlayer.html" title="An AudioIODeviceCallback object which streams audio through an AudioProcessor. " alt="" coords="5,80,155,107"/>
+<area shape="rect" id="node3" href="$classMidiMessageCollector.html" title="Collects incoming realtime MIDI messages and turns them into blocks suitable for processing by a bloc..." alt="" coords="179,80,329,107"/>
 </map>

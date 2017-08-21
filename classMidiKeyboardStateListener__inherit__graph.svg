@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__utils-gui.html#classMidiKeyboardComponent" target="_top" xlink:title="A component that displays a piano keyboard, whose notes can be clicked on. ">
+<g id="a_node2"><a xlink:href="classMidiKeyboardComponent.html" target="_top" xlink:title="A component that displays a piano keyboard, whose notes can be clicked on. ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 126,-19.5 126,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="63" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MidiKeyboardComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__devices-midi__io.html#classMidiMessageCollector" target="_top" xlink:title="Collects incoming realtime MIDI messages and turns them into blocks suitable for processing by a bloc...">
+<g id="a_node3"><a xlink:href="classMidiMessageCollector.html" target="_top" xlink:title="Collects incoming realtime MIDI messages and turns them into blocks suitable for processing by a bloc...">
 <polygon fill="none" stroke="black" points="144.5,-0.5 144.5,-19.5 257.5,-19.5 257.5,-0.5 144.5,-0.5"/>
 <text text-anchor="middle" x="201" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MidiMessageCollector</text>
 </a>

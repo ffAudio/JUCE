@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFilenameComponent" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
+<g id="a_node2"><a xlink:href="classFilenameComponent.html" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
 <polygon fill="none" stroke="black" points="-0.5,-56.5 -0.5,-75.5 106.5,-75.5 106.5,-56.5 -0.5,-56.5"/>
 <text text-anchor="middle" x="53" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilenameComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileSearchPathListComponent" target="_top" xlink:title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. ">
+<g id="a_node3"><a xlink:href="classFileSearchPathListComponent.html" target="_top" xlink:title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. ">
 <polygon fill="none" stroke="black" points="124.5,-56.5 124.5,-75.5 273.5,-75.5 273.5,-56.5 124.5,-56.5"/>
 <text text-anchor="middle" x="199" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileSearchPathListComponent</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__processors-scanning.html#classPluginListComponent" target="_top" xlink:title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them...">
+<g id="a_node4"><a xlink:href="classPluginListComponent.html" target="_top" xlink:title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them...">
 <polygon fill="none" stroke="black" points="292,-56.5 292,-75.5 402,-75.5 402,-56.5 292,-56.5"/>
 <text text-anchor="middle" x="347" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">PluginListComponent</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-widgets.html#classTreeView" target="_top" xlink:title="A tree&#45;view component. ">
+<g id="a_node5"><a xlink:href="classTreeView.html" target="_top" xlink:title="A tree&#45;view component. ">
 <polygon fill="none" stroke="black" points="420,-56.5 420,-75.5 478,-75.5 478,-56.5 420,-56.5"/>
 <text text-anchor="middle" x="449" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TreeView</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileTreeComponent" target="_top" xlink:title="A component that displays the files in a directory as a treeview. ">
+<g id="a_node6"><a xlink:href="classFileTreeComponent.html" target="_top" xlink:title="A component that displays the files in a directory as a treeview. ">
 <polygon fill="none" stroke="black" points="398,-0.5 398,-19.5 500,-19.5 500,-0.5 398,-0.5"/>
 <text text-anchor="middle" x="449" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileTreeComponent</text>
 </a>

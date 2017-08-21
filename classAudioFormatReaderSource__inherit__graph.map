@@ -1,4 +1,4 @@
 <map id="AudioFormatReaderSource" name="AudioFormatReaderSource">
-<area shape="rect" id="node2" href="$group__juce__audio__basics-sources.html#classPositionableAudioSource" title="A type of AudioSource which can be repositioned. " alt="" coords="11,80,177,107"/>
-<area shape="rect" id="node3" href="$group__juce__audio__basics-sources.html#classAudioSource" title="Base class for objects that can produce a continuous stream of audio. " alt="" coords="47,5,143,32"/>
+<area shape="rect" id="node2" href="$classPositionableAudioSource.html" title="A type of AudioSource which can be repositioned. " alt="" coords="11,80,177,107"/>
+<area shape="rect" id="node3" href="$classAudioSource.html" title="Base class for objects that can produce a continuous stream of audio. " alt="" coords="47,5,143,32"/>
 </map>

@@ -7,6 +7,5 @@ var searchData=
   ['standalone',['Standalone',['../group__juce__audio__plugin__client-Standalone.html',1,'']]],
   ['scanning',['scanning',['../group__juce__audio__processors-scanning.html',1,'']]],
   ['streams',['streams',['../group__juce__core-streams.html',1,'']]],
-  ['system',['system',['../group__juce__core-system.html',1,'']]],
-  ['seaboard_20specific_20functions',['Seaboard specific functions',['../group__LittleFootFunctions-Seaboard.html',1,'']]]
+  ['system',['system',['../group__juce__core-system.html',1,'']]]
 ];

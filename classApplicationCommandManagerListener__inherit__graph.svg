@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-menus.html#classMenuBarModel" target="_top" xlink:title="A class for controlling MenuBar components. ">
+<g id="a_node2"><a xlink:href="classMenuBarModel.html" target="_top" xlink:title="A class for controlling MenuBar components. ">
 <polygon fill="none" stroke="black" points="32,-0.5 32,-19.5 114,-19.5 114,-0.5 32,-0.5"/>
 <text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MenuBarModel</text>
 </a>

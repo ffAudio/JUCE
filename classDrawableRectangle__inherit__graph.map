@@ -1,6 +1,6 @@
 <map id="DrawableRectangle" name="DrawableRectangle">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-drawables.html#classDrawableShape" title="A base class implementing common functionality for Drawable classes which consist of some kind of fil..." alt="" coords="15,229,129,256"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-drawables.html#classDrawable" title="The base class for objects which can draw themselves, e.g. " alt="" coords="33,155,109,181"/>
-<area shape="rect" id="node4" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="27,80,116,107"/>
-<area shape="rect" id="node5" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="19,5,125,32"/>
+<area shape="rect" id="node2" href="$classDrawableShape.html" title="A base class implementing common functionality for Drawable classes which consist of some kind of fil..." alt="" coords="15,229,129,256"/>
+<area shape="rect" id="node3" href="$classDrawable.html" title="The base class for objects which can draw themselves, e.g. " alt="" coords="33,155,109,181"/>
+<area shape="rect" id="node4" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="27,80,116,107"/>
+<area shape="rect" id="node5" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="19,5,125,32"/>
 </map>

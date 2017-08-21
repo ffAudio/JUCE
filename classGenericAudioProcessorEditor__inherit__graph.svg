@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__processors-processors.html#classAudioProcessorEditor" target="_top" xlink:title="Base class for the component that acts as the GUI for an AudioProcessor. ">
+<g id="a_node2"><a xlink:href="classAudioProcessorEditor.html" target="_top" xlink:title="Base class for the component that acts as the GUI for an AudioProcessor. ">
 <polygon fill="none" stroke="black" points="16.5,-56.5 16.5,-75.5 127.5,-75.5 127.5,-56.5 16.5,-56.5"/>
 <text text-anchor="middle" x="72" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioProcessorEditor</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node3"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="38.5,-112.5 38.5,-131.5 105.5,-131.5 105.5,-112.5 38.5,-112.5"/>
 <text text-anchor="middle" x="72" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node4"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="32,-168.5 32,-187.5 112,-187.5 112,-168.5 32,-168.5"/>
 <text text-anchor="middle" x="72" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>

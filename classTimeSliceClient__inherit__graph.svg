@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__formats-format.html#classBufferingAudioReader" target="_top" xlink:title="An AudioFormatReader that uses a background thread to pre&#45;read data from another reader. ">
+<g id="a_node2"><a xlink:href="classBufferingAudioReader.html" target="_top" xlink:title="An AudioFormatReader that uses a background thread to pre&#45;read data from another reader. ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 112,-19.5 112,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="56" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BufferingAudioReader</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__basics-sources.html#classBufferingAudioSource" target="_top" xlink:title="An AudioSource which takes another source as input, and buffers it using a thread. ">
+<g id="a_node3"><a xlink:href="classBufferingAudioSource.html" target="_top" xlink:title="An AudioSource which takes another source as input, and buffers it using a thread. ">
 <polygon fill="none" stroke="black" points="130.5,-0.5 130.5,-19.5 241.5,-19.5 241.5,-0.5 130.5,-0.5"/>
 <text text-anchor="middle" x="186" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BufferingAudioSource</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-filebrowser.html#classDirectoryContentsList" target="_top" xlink:title="A class to asynchronously scan for details about the files in a directory. ">
+<g id="a_node4"><a xlink:href="classDirectoryContentsList.html" target="_top" xlink:title="A class to asynchronously scan for details about the files in a directory. ">
 <polygon fill="none" stroke="black" points="260,-0.5 260,-19.5 372,-19.5 372,-0.5 260,-0.5"/>
 <text text-anchor="middle" x="316" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DirectoryContentsList</text>
 </a>

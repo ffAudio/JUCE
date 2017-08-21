@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__utils-gui.html#classAudioAppComponent" target="_top" xlink:title="A base class for writing audio apps that stream from the audio i/o devices. ">
+<g id="a_node2"><a xlink:href="classAudioAppComponent.html" target="_top" xlink:title="A base class for writing audio apps that stream from the audio i/o devices. ">
 <polygon fill="none" stroke="black" points="132.5,-304.5 132.5,-323.5 241.5,-323.5 241.5,-304.5 132.5,-304.5"/>
 <text text-anchor="middle" x="187" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioAppComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__basics-sources.html#classChannelRemappingAudioSource" target="_top" xlink:title="An AudioSource that takes the audio from another source, and re&#45;maps its input and output channels to...">
+<g id="a_node3"><a xlink:href="classChannelRemappingAudioSource.html" target="_top" xlink:title="An AudioSource that takes the audio from another source, and re&#45;maps its input and output channels to...">
 <polygon fill="none" stroke="black" points="108,-266.5 108,-285.5 266,-285.5 266,-266.5 108,-266.5"/>
 <text text-anchor="middle" x="187" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChannelRemappingAudioSource</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__basics-sources.html#classIIRFilterAudioSource" target="_top" xlink:title="An AudioSource that performs an IIR filter on another source. ">
+<g id="a_node4"><a xlink:href="classIIRFilterAudioSource.html" target="_top" xlink:title="An AudioSource that performs an IIR filter on another source. ">
 <polygon fill="none" stroke="black" points="133.5,-228.5 133.5,-247.5 240.5,-247.5 240.5,-228.5 133.5,-228.5"/>
 <text text-anchor="middle" x="187" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">IIRFilterAudioSource</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__audio__basics-sources.html#classMemoryAudioSource" target="_top" xlink:title="An AudioSource which takes some float audio data as an input. ">
+<g id="a_node5"><a xlink:href="classMemoryAudioSource.html" target="_top" xlink:title="An AudioSource which takes some float audio data as an input. ">
 <polygon fill="none" stroke="black" points="133.5,-190.5 133.5,-209.5 240.5,-209.5 240.5,-190.5 133.5,-190.5"/>
 <text text-anchor="middle" x="187" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">MemoryAudioSource</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__audio__basics-sources.html#classMixerAudioSource" target="_top" xlink:title="An AudioSource that mixes together the output of a set of other AudioSources. ">
+<g id="a_node6"><a xlink:href="classMixerAudioSource.html" target="_top" xlink:title="An AudioSource that mixes together the output of a set of other AudioSources. ">
 <polygon fill="none" stroke="black" points="139,-152.5 139,-171.5 235,-171.5 235,-152.5 139,-152.5"/>
 <text text-anchor="middle" x="187" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">MixerAudioSource</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__audio__basics-sources.html#classPositionableAudioSource" target="_top" xlink:title="A type of AudioSource which can be repositioned. ">
+<g id="a_node7"><a xlink:href="classPositionableAudioSource.html" target="_top" xlink:title="A type of AudioSource which can be repositioned. ">
 <polygon fill="none" stroke="black" points="124.5,-114.5 124.5,-133.5 249.5,-133.5 249.5,-114.5 124.5,-114.5"/>
 <text text-anchor="middle" x="187" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">PositionableAudioSource</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="group__juce__audio__basics-sources.html#classResamplingAudioSource" target="_top" xlink:title="A type of AudioSource that takes an input source and changes its sample rate. ">
+<g id="a_node11"><a xlink:href="classResamplingAudioSource.html" target="_top" xlink:title="A type of AudioSource that takes an input source and changes its sample rate. ">
 <polygon fill="none" stroke="black" points="125,-76.5 125,-95.5 249,-95.5 249,-76.5 125,-76.5"/>
 <text text-anchor="middle" x="187" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResamplingAudioSource</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="group__juce__audio__basics-sources.html#classReverbAudioSource" target="_top" xlink:title="An AudioSource that uses the Reverb class to apply a reverb to another AudioSource. ">
+<g id="a_node12"><a xlink:href="classReverbAudioSource.html" target="_top" xlink:title="An AudioSource that uses the Reverb class to apply a reverb to another AudioSource. ">
 <polygon fill="none" stroke="black" points="135,-38.5 135,-57.5 239,-57.5 239,-38.5 135,-38.5"/>
 <text text-anchor="middle" x="187" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">ReverbAudioSource</text>
 </a>
@@ -119,7 +119,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="group__juce__audio__basics-sources.html#classToneGeneratorAudioSource" target="_top" xlink:title="A simple AudioSource that generates a sine wave. ">
+<g id="a_node13"><a xlink:href="classToneGeneratorAudioSource.html" target="_top" xlink:title="A simple AudioSource that generates a sine wave. ">
 <polygon fill="none" stroke="black" points="118.5,-0.5 118.5,-19.5 255.5,-19.5 255.5,-0.5 118.5,-0.5"/>
 <text text-anchor="middle" x="187" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ToneGeneratorAudioSource</text>
 </a>
@@ -132,7 +132,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__audio__formats-format.html#classAudioFormatReaderSource" target="_top" xlink:title="A type of AudioSource that will read from an AudioFormatReader. ">
+<g id="a_node8"><a xlink:href="classAudioFormatReaderSource.html" target="_top" xlink:title="A type of AudioSource that will read from an AudioFormatReader. ">
 <polygon fill="none" stroke="black" points="302,-152.5 302,-171.5 436,-171.5 436,-152.5 302,-152.5"/>
 <text text-anchor="middle" x="369" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioFormatReaderSource</text>
 </a>
@@ -145,7 +145,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__audio__devices-sources.html#classAudioTransportSource" target="_top" xlink:title="An AudioSource that takes a PositionableAudioSource and allows it to be played, stopped, started, etc. ">
+<g id="a_node9"><a xlink:href="classAudioTransportSource.html" target="_top" xlink:title="An AudioSource that takes a PositionableAudioSource and allows it to be played, stopped, started, etc. ">
 <polygon fill="none" stroke="black" points="312.5,-114.5 312.5,-133.5 425.5,-133.5 425.5,-114.5 312.5,-114.5"/>
 <text text-anchor="middle" x="369" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioTransportSource</text>
 </a>
@@ -158,7 +158,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="group__juce__audio__basics-sources.html#classBufferingAudioSource" target="_top" xlink:title="An AudioSource which takes another source as input, and buffers it using a thread. ">
+<g id="a_node10"><a xlink:href="classBufferingAudioSource.html" target="_top" xlink:title="An AudioSource which takes another source as input, and buffers it using a thread. ">
 <polygon fill="none" stroke="black" points="313.5,-76.5 313.5,-95.5 424.5,-95.5 424.5,-76.5 313.5,-76.5"/>
 <text text-anchor="middle" x="369" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">BufferingAudioSource</text>
 </a>

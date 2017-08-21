@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__graphics-images.html#classNativeImageType" target="_top" xlink:title="An image storage type which holds the pixels using whatever is the default storage format on the curr...">
+<g id="a_node2"><a xlink:href="classNativeImageType.html" target="_top" xlink:title="An image storage type which holds the pixels using whatever is the default storage format on the curr...">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 94,-19.5 94,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="47" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">NativeImageType</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__opengl-opengl.html#classOpenGLImageType" target="_top" xlink:title="A type of ImagePixelData that stores its image data in an OpenGL framebuffer, allowing a JUCE Image o...">
+<g id="a_node3"><a xlink:href="classOpenGLImageType.html" target="_top" xlink:title="A type of ImagePixelData that stores its image data in an OpenGL framebuffer, allowing a JUCE Image o...">
 <polygon fill="none" stroke="black" points="112.5,-0.5 112.5,-19.5 213.5,-19.5 213.5,-0.5 112.5,-0.5"/>
 <text text-anchor="middle" x="163" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">OpenGLImageType</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__graphics-images.html#classSoftwareImageType" target="_top" xlink:title="An image storage type which holds the pixels in&#45;memory as a simple block of values. ">
+<g id="a_node4"><a xlink:href="classSoftwareImageType.html" target="_top" xlink:title="An image storage type which holds the pixels in&#45;memory as a simple block of values. ">
 <polygon fill="none" stroke="black" points="232,-0.5 232,-19.5 336,-19.5 336,-0.5 232,-0.5"/>
 <text text-anchor="middle" x="284" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SoftwareImageType</text>
 </a>

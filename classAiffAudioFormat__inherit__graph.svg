@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__formats-format.html#classAudioFormat" target="_top" xlink:title="Subclasses of AudioFormat are used to read and write different audio file formats. ">
+<g id="a_node2"><a xlink:href="classAudioFormat.html" target="_top" xlink:title="Subclasses of AudioFormat are used to read and write different audio file formats. ">
 <polygon fill="none" stroke="black" points="7,-56.5 7,-75.5 79,-75.5 79,-56.5 7,-56.5"/>
 <text text-anchor="middle" x="43" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioFormat</text>
 </a>

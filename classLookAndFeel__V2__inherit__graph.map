@@ -1,7 +1,7 @@
 <map id="LookAndFeel_V2" name="LookAndFeel_V2">
-<area shape="rect" id="node31" href="$group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V1" title="The original JUCE look&#45;and&#45;feel, as used back from 2002 to about 2007ish. " alt="" coords="641,757,762,784"/>
-<area shape="rect" id="node32" href="$group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V3" title="The latest JUCE look&#45;and&#45;feel style, as introduced in 2013. " alt="" coords="641,808,762,835"/>
-<area shape="rect" id="node2" href="$group__juce__gui__basics-lookandfeel.html#classLookAndFeel" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl..." alt="" coords="323,783,421,809"/>
+<area shape="rect" id="node31" href="$classLookAndFeel__V1.html" title="The original JUCE look&#45;and&#45;feel, as used back from 2002 to about 2007ish. " alt="" coords="641,757,762,784"/>
+<area shape="rect" id="node32" href="$classLookAndFeel__V3.html" title="The latest JUCE look&#45;and&#45;feel style, as introduced in 2013. " alt="" coords="641,808,762,835"/>
+<area shape="rect" id="node2" href="$classLookAndFeel.html" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl..." alt="" coords="323,783,421,809"/>
 <area shape="rect" id="node3" href="$structScrollBar_1_1LookAndFeelMethods.html" title="This abstract base class is implemented by LookAndFeel classes to provide scrollbar&#45;drawing functiona..." alt="" coords="35,5,245,32"/>
 <area shape="rect" id="node4" href="$structButton_1_1LookAndFeelMethods.html" title="This abstract base class is implemented by LookAndFeel classes to provide button&#45;drawing functionalit..." alt="" coords="43,56,237,83"/>
 <area shape="rect" id="node5" href="$structImageButton_1_1LookAndFeelMethods.html" title="This abstract base class is implemented by LookAndFeel classes. " alt="" coords="50,107,230,149"/>
@@ -30,5 +30,5 @@
 <area shape="rect" id="node28" href="$structExtraLookAndFeelBaseClasses_1_1KeyMappingEditorComponentMethods.html" title="This abstract base class is implemented by LookAndFeel classes. " alt="" coords="13,1498,267,1539"/>
 <area shape="rect" id="node29" href="$structExtraLookAndFeelBaseClasses_1_1AudioDeviceSelectorComponentMethods.html" title="This abstract base class is implemented by LookAndFeel classes. " alt="" coords="5,1563,275,1605"/>
 <area shape="rect" id="node30" href="$structExtraLookAndFeelBaseClasses_1_1LassoComponentMethods.html" title="This abstract base class is implemented by LookAndFeel classes. " alt="" coords="37,1629,243,1670"/>
-<area shape="rect" id="node33" href="$group__juce__gui__basics-lookandfeel.html#classLookAndFeel__V4" title="LookAndFeel_V4" alt="" coords="811,808,933,835"/>
+<area shape="rect" id="node33" href="$classLookAndFeel__V4.html" title="LookAndFeel_V4" alt="" coords="811,808,933,835"/>
 </map>

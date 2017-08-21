@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__core-streams.html#classOutputStream" target="_top" xlink:title="The base class for streams that write data to some kind of destination. ">
+<g id="a_node2"><a xlink:href="classOutputStream.html" target="_top" xlink:title="The base class for streams that write data to some kind of destination. ">
 <polygon fill="none" stroke="black" points="38.5,-56.5 38.5,-75.5 115.5,-75.5 115.5,-56.5 38.5,-56.5"/>
 <text text-anchor="middle" x="77" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">OutputStream</text>
 </a>

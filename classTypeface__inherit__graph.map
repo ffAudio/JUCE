@@ -1,4 +1,4 @@
 <map id="Typeface" name="Typeface">
-<area shape="rect" id="node3" href="$group__juce__graphics-fonts.html#classCustomTypeface" title="A typeface that can be populated with custom glyphs. " alt="" coords="28,155,151,181"/>
-<area shape="rect" id="node2" href="$group__juce__core-memory.html#classReferenceCountedObject" title="A base class which provides methods for reference&#45;counting. " alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node3" href="$classCustomTypeface.html" title="A typeface that can be populated with custom glyphs. " alt="" coords="28,155,151,181"/>
+<area shape="rect" id="node2" href="$classReferenceCountedObject.html" title="A base class which provides methods for reference&#45;counting. " alt="" coords="5,5,173,32"/>
 </map>

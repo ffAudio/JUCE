@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__extra-code__editor.html#classCodeTokeniser" target="_top" xlink:title="A base class for tokenising code so that the syntax can be displayed in a code editor. ">
+<g id="a_node2"><a xlink:href="classCodeTokeniser.html" target="_top" xlink:title="A base class for tokenising code so that the syntax can be displayed in a code editor. ">
 <polygon fill="none" stroke="black" points="22.5,-56.5 22.5,-75.5 105.5,-75.5 105.5,-56.5 22.5,-56.5"/>
 <text text-anchor="middle" x="64" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">CodeTokeniser</text>
 </a>

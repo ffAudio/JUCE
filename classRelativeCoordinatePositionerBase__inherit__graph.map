@@ -1,5 +1,5 @@
 <map id="RelativeCoordinatePositionerBase" name="RelativeCoordinatePositionerBase">
 <area shape="rect" id="node2" href="$classComponent_1_1Positioner.html" title="Base class for objects that can be used to automatically position a component according to some kind ..." alt="" coords="5,5,159,32"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-components.html#classComponentListener" title="Gets informed about changes to a component&#39;s hierarchy or position. " alt="" coords="185,5,319,32"/>
+<area shape="rect" id="node3" href="$classComponentListener.html" title="Gets informed about changes to a component&#39;s hierarchy or position. " alt="" coords="185,5,319,32"/>
 <area shape="rect" id="node4" href="$classMarkerList_1_1Listener.html" title="A class for receiving events when changes are made to a MarkerList. " alt="" coords="343,5,480,32"/>
 </map>

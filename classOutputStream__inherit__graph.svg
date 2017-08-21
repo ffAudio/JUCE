@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__core-files.html#classFileOutputStream" target="_top" xlink:title="An output stream that writes into a local file. ">
+<g id="a_node2"><a xlink:href="classFileOutputStream.html" target="_top" xlink:title="An output stream that writes into a local file. ">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 92.5,-19.5 92.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="46" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileOutputStream</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__core-zip.html#classGZIPCompressorOutputStream" target="_top" xlink:title="A stream which uses zlib to compress the data written into it. ">
+<g id="a_node3"><a xlink:href="classGZIPCompressorOutputStream.html" target="_top" xlink:title="A stream which uses zlib to compress the data written into it. ">
 <polygon fill="none" stroke="black" points="111,-0.5 111,-19.5 265,-19.5 265,-0.5 111,-0.5"/>
 <text text-anchor="middle" x="188" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GZIPCompressorOutputStream</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__core-streams.html#classMemoryOutputStream" target="_top" xlink:title="Writes data to an internal memory buffer, which grows as required. ">
+<g id="a_node4"><a xlink:href="classMemoryOutputStream.html" target="_top" xlink:title="Writes data to an internal memory buffer, which grows as required. ">
 <polygon fill="none" stroke="black" points="283.5,-0.5 283.5,-19.5 396.5,-19.5 396.5,-0.5 283.5,-0.5"/>
 <text text-anchor="middle" x="340" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MemoryOutputStream</text>
 </a>

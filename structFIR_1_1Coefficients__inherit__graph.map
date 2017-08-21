@@ -1,4 +1,4 @@
 <map id="FIR::Coefficients&lt; NumericType &gt;" name="FIR::Coefficients&lt; NumericType &gt;">
-<area shape="rect" id="node2" href="$group__juce__dsp-processors.html#structProcessorState" title="This is a handy base class for the state of a processor (such as parameter values) which is typically..." alt="" coords="33,80,144,107"/>
-<area shape="rect" id="node3" href="$group__juce__core-memory.html#classReferenceCountedObject" title="A base class which provides methods for reference&#45;counting. " alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$structProcessorState.html" title="This is a handy base class for the state of a processor (such as parameter values) which is typically..." alt="" coords="33,80,144,107"/>
+<area shape="rect" id="node3" href="$classReferenceCountedObject.html" title="A base class which provides methods for reference&#45;counting. " alt="" coords="5,5,173,32"/>
 </map>

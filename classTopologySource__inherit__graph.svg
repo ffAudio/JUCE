@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__blocks__basics-topology.html#classPhysicalTopologySource" target="_top" xlink:title="This topology source manages the topology of the physical Blocks devices that are currently connected...">
+<g id="a_node2"><a xlink:href="classPhysicalTopologySource.html" target="_top" xlink:title="This topology source manages the topology of the physical Blocks devices that are currently connected...">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 124.5,-19.5 124.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="62" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PhysicalTopologySource</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__blocks__basics-topology.html#classRuleBasedTopologySource" target="_top" xlink:title="This topology source holds and applies a set of rules for transforming one device topology into anoth...">
+<g id="a_node3"><a xlink:href="classRuleBasedTopologySource.html" target="_top" xlink:title="This topology source holds and applies a set of rules for transforming one device topology into anoth...">
 <polygon fill="none" stroke="black" points="142.5,-0.5 142.5,-19.5 277.5,-19.5 277.5,-0.5 142.5,-0.5"/>
 <text text-anchor="middle" x="210" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">RuleBasedTopologySource</text>
 </a>

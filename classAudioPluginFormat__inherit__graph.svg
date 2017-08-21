@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__processors-format__types.html#classAudioUnitPluginFormat" target="_top" xlink:title="Implements a plugin format manager for AudioUnits. ">
+<g id="a_node2"><a xlink:href="classAudioUnitPluginFormat.html" target="_top" xlink:title="Implements a plugin format manager for AudioUnits. ">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 116.5,-19.5 116.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="58" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioUnitPluginFormat</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__processors-format__types.html#classLADSPAPluginFormat" target="_top" xlink:title="Implements a plugin format manager for LADSPA plugins. ">
+<g id="a_node3"><a xlink:href="classLADSPAPluginFormat.html" target="_top" xlink:title="Implements a plugin format manager for LADSPA plugins. ">
 <polygon fill="none" stroke="black" points="135,-0.5 135,-19.5 249,-19.5 249,-0.5 135,-0.5"/>
 <text text-anchor="middle" x="192" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">LADSPAPluginFormat</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__processors-format__types.html#classVST3PluginFormat" target="_top" xlink:title="Implements a plugin format for VST3s. ">
+<g id="a_node4"><a xlink:href="classVST3PluginFormat.html" target="_top" xlink:title="Implements a plugin format for VST3s. ">
 <polygon fill="none" stroke="black" points="267.5,-0.5 267.5,-19.5 366.5,-19.5 366.5,-0.5 267.5,-0.5"/>
 <text text-anchor="middle" x="317" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">VST3PluginFormat</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__audio__processors-format__types.html#classVSTPluginFormat" target="_top" xlink:title="Implements a plugin format manager for VSTs. ">
+<g id="a_node5"><a xlink:href="classVSTPluginFormat.html" target="_top" xlink:title="Implements a plugin format manager for VSTs. ">
 <polygon fill="none" stroke="black" points="385,-0.5 385,-19.5 479,-19.5 479,-0.5 385,-0.5"/>
 <text text-anchor="middle" x="432" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">VSTPluginFormat</text>
 </a>

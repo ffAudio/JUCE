@@ -1,8 +1,8 @@
 <map id="FileChooserDialogBox" name="FileChooserDialogBox">
-<area shape="rect" id="node2" href="$group__juce__gui__basics-windows.html#classResizableWindow" title="A base class for top&#45;level windows that can be dragged around and resized. " alt="" coords="5,229,131,256"/>
-<area shape="rect" id="node3" href="$group__juce__gui__basics-windows.html#classTopLevelWindow" title="A base class for top&#45;level windows. " alt="" coords="7,155,129,181"/>
-<area shape="rect" id="node4" href="$group__juce__gui__basics-components.html#classComponent" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="23,80,112,107"/>
-<area shape="rect" id="node5" href="$group__juce__gui__basics-mouse.html#classMouseListener" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="15,5,121,32"/>
+<area shape="rect" id="node2" href="$classResizableWindow.html" title="A base class for top&#45;level windows that can be dragged around and resized. " alt="" coords="5,229,131,256"/>
+<area shape="rect" id="node3" href="$classTopLevelWindow.html" title="A base class for top&#45;level windows. " alt="" coords="7,155,129,181"/>
+<area shape="rect" id="node4" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="23,80,112,107"/>
+<area shape="rect" id="node5" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="15,5,121,32"/>
 <area shape="rect" id="node6" href="$classButton_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="156,229,271,256"/>
-<area shape="rect" id="node7" href="$group__juce__gui__basics-filebrowser.html#classFileBrowserListener" title="A listener for user selection events in a file browser. " alt="" coords="295,229,432,256"/>
+<area shape="rect" id="node7" href="$classFileBrowserListener.html" title="A listener for user selection events in a file browser. " alt="" coords="295,229,432,256"/>
 </map>

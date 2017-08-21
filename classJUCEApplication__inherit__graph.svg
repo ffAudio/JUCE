@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__events-messages.html#classJUCEApplicationBase" target="_top" xlink:title="Abstract base class for application classes. ">
+<g id="a_node2"><a xlink:href="classJUCEApplicationBase.html" target="_top" xlink:title="Abstract base class for application classes. ">
 <polygon fill="none" stroke="black" points="0,-56.5 0,-75.5 114,-75.5 114,-56.5 0,-56.5"/>
 <text text-anchor="middle" x="57" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUCEApplicationBase</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-commands.html#classApplicationCommandTarget" target="_top" xlink:title="A command target publishes a list of command IDs that it can perform. ">
+<g id="a_node3"><a xlink:href="classApplicationCommandTarget.html" target="_top" xlink:title="A command target publishes a list of command IDs that it can perform. ">
 <polygon fill="none" stroke="black" points="132.5,-56.5 132.5,-75.5 269.5,-75.5 269.5,-56.5 132.5,-56.5"/>
 <text text-anchor="middle" x="201" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">ApplicationCommandTarget</text>
 </a>

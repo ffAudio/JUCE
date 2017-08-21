@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-commands.html#classApplicationCommandManager" target="_top" xlink:title="One of these objects holds a list of all the commands your app can perform, and despatches these comm...">
+<g id="a_node2"><a xlink:href="classApplicationCommandManager.html" target="_top" xlink:title="One of these objects holds a list of all the commands your app can perform, and despatches these comm...">
 <polygon fill="none" stroke="black" points="116.5,-342.5 116.5,-361.5 263.5,-361.5 263.5,-342.5 116.5,-342.5"/>
 <text text-anchor="middle" x="190" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">ApplicationCommandManager</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__processors-processors.html#classAudioProcessorGraph" target="_top" xlink:title="A type of AudioProcessor which plays back a graph of other AudioProcessors. ">
+<g id="a_node3"><a xlink:href="classAudioProcessorGraph.html" target="_top" xlink:title="A type of AudioProcessor which plays back a graph of other AudioProcessors. ">
 <polygon fill="none" stroke="black" points="134,-304.5 134,-323.5 246,-323.5 246,-304.5 134,-304.5"/>
 <text text-anchor="middle" x="190" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioProcessorGraph</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-widgets.html#classComboBox" target="_top" xlink:title="A component that lets the user choose from a drop&#45;down list of choices. ">
+<g id="a_node4"><a xlink:href="classComboBox.html" target="_top" xlink:title="A component that lets the user choose from a drop&#45;down list of choices. ">
 <polygon fill="none" stroke="black" points="157.5,-266.5 157.5,-285.5 222.5,-285.5 222.5,-266.5 157.5,-266.5"/>
 <text text-anchor="middle" x="190" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComboBox</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-components.html#classDesktop" target="_top" xlink:title="Describes and controls aspects of the computer&#39;s desktop. ">
+<g id="a_node5"><a xlink:href="classDesktop.html" target="_top" xlink:title="Describes and controls aspects of the computer&#39;s desktop. ">
 <polygon fill="none" stroke="black" points="163.5,-228.5 163.5,-247.5 216.5,-247.5 216.5,-228.5 163.5,-228.5"/>
 <text text-anchor="middle" x="190" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">Desktop</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFilenameComponent" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
+<g id="a_node6"><a xlink:href="classFilenameComponent.html" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
 <polygon fill="none" stroke="black" points="136.5,-190.5 136.5,-209.5 243.5,-209.5 243.5,-190.5 136.5,-190.5"/>
 <text text-anchor="middle" x="190" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilenameComponent</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__gui__basics-menus.html#classMenuBarModel" target="_top" xlink:title="A class for controlling MenuBar components. ">
+<g id="a_node7"><a xlink:href="classMenuBarModel.html" target="_top" xlink:title="A class for controlling MenuBar components. ">
 <polygon fill="none" stroke="black" points="149,-152.5 149,-171.5 231,-171.5 231,-152.5 149,-152.5"/>
 <text text-anchor="middle" x="190" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">MenuBarModel</text>
 </a>
@@ -93,7 +93,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="group__juce__gui__basics-components.html#classModalComponentManager" target="_top" xlink:title="Manages the system&#39;s stack of modal components. ">
+<g id="a_node8"><a xlink:href="classModalComponentManager.html" target="_top" xlink:title="Manages the system&#39;s stack of modal components. ">
 <polygon fill="none" stroke="black" points="124.5,-114.5 124.5,-133.5 255.5,-133.5 255.5,-114.5 124.5,-114.5"/>
 <text text-anchor="middle" x="190" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">ModalComponentManager</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="group__juce__gui__basics-layout.html#classScrollBar" target="_top" xlink:title="A scrollbar component. ">
+<g id="a_node9"><a xlink:href="classScrollBar.html" target="_top" xlink:title="A scrollbar component. ">
 <polygon fill="none" stroke="black" points="162,-76.5 162,-95.5 218,-95.5 218,-76.5 162,-76.5"/>
 <text text-anchor="middle" x="190" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ScrollBar</text>
 </a>
@@ -119,7 +119,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="group__juce__gui__basics-widgets.html#classTableHeaderComponent" target="_top" xlink:title="A component that displays a strip of column headings for a table, and allows these to be resized...">
+<g id="a_node10"><a xlink:href="classTableHeaderComponent.html" target="_top" xlink:title="A component that displays a strip of column headings for a table, and allows these to be resized...">
 <polygon fill="none" stroke="black" points="129,-38.5 129,-57.5 251,-57.5 251,-38.5 129,-38.5"/>
 <text text-anchor="middle" x="190" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">TableHeaderComponent</text>
 </a>

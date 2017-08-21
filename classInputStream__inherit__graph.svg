@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__core-streams.html#classBufferedInputStream" target="_top" xlink:title="Wraps another input stream, and reads from it using an intermediate buffer. ">
+<g id="a_node2"><a xlink:href="classBufferedInputStream.html" target="_top" xlink:title="Wraps another input stream, and reads from it using an intermediate buffer. ">
 <polygon fill="none" stroke="black" points="131.5,-190.5 131.5,-209.5 238.5,-209.5 238.5,-190.5 131.5,-190.5"/>
 <text text-anchor="middle" x="185" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">BufferedInputStream</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__core-files.html#classFileInputStream" target="_top" xlink:title="An input stream that reads from a local file. ">
+<g id="a_node3"><a xlink:href="classFileInputStream.html" target="_top" xlink:title="An input stream that reads from a local file. ">
 <polygon fill="none" stroke="black" points="142,-152.5 142,-171.5 228,-171.5 228,-152.5 142,-152.5"/>
 <text text-anchor="middle" x="185" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileInputStream</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__core-zip.html#classGZIPDecompressorInputStream" target="_top" xlink:title="This stream will decompress a source&#45;stream using zlib. ">
+<g id="a_node4"><a xlink:href="classGZIPDecompressorInputStream.html" target="_top" xlink:title="This stream will decompress a source&#45;stream using zlib. ">
 <polygon fill="none" stroke="black" points="106.5,-114.5 106.5,-133.5 263.5,-133.5 263.5,-114.5 106.5,-114.5"/>
 <text text-anchor="middle" x="185" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">GZIPDecompressorInputStream</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__core-streams.html#classMemoryInputStream" target="_top" xlink:title="Allows a block of data to be accessed as a stream. ">
+<g id="a_node5"><a xlink:href="classMemoryInputStream.html" target="_top" xlink:title="Allows a block of data to be accessed as a stream. ">
 <polygon fill="none" stroke="black" points="132.5,-76.5 132.5,-95.5 237.5,-95.5 237.5,-76.5 132.5,-76.5"/>
 <text text-anchor="middle" x="185" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">MemoryInputStream</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__core-streams.html#classSubregionStream" target="_top" xlink:title="Wraps another input stream, and reads from a specific part of it. ">
+<g id="a_node6"><a xlink:href="classSubregionStream.html" target="_top" xlink:title="Wraps another input stream, and reads from a specific part of it. ">
 <polygon fill="none" stroke="black" points="139,-38.5 139,-57.5 231,-57.5 231,-38.5 139,-38.5"/>
 <text text-anchor="middle" x="185" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SubregionStream</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__core-network.html#classWebInputStream" target="_top" xlink:title="An InputStream which can be used to read from a given url. ">
+<g id="a_node7"><a xlink:href="classWebInputStream.html" target="_top" xlink:title="An InputStream which can be used to read from a given url. ">
 <polygon fill="none" stroke="black" points="140,-0.5 140,-19.5 230,-19.5 230,-0.5 140,-0.5"/>
 <text text-anchor="middle" x="185" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">WebInputStream</text>
 </a>

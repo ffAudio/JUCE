@@ -1,4 +1,4 @@
 <map id="TopologySource" name="TopologySource">
-<area shape="rect" id="node2" href="$group__juce__blocks__basics-topology.html#classPhysicalTopologySource" title="This topology source manages the topology of the physical Blocks devices that are currently connected..." alt="" coords="5,80,171,107"/>
-<area shape="rect" id="node3" href="$group__juce__blocks__basics-topology.html#classRuleBasedTopologySource" title="This topology source holds and applies a set of rules for transforming one device topology into anoth..." alt="" coords="195,80,375,107"/>
+<area shape="rect" id="node2" href="$classPhysicalTopologySource.html" title="This topology source manages the topology of the physical Blocks devices that are currently connected..." alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" href="$classRuleBasedTopologySource.html" title="This topology source holds and applies a set of rules for transforming one device topology into anoth..." alt="" coords="195,80,375,107"/>
 </map>

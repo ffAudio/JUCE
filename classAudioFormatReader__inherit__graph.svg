@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__utils-audio__cd.html#classAudioCDReader" target="_top" xlink:title="A type of AudioFormatReader that reads from an audio CD. ">
+<g id="a_node2"><a xlink:href="classAudioCDReader.html" target="_top" xlink:title="A type of AudioFormatReader that reads from an audio CD. ">
 <polygon fill="none" stroke="black" points="183,-114.5 183,-133.5 271,-133.5 271,-114.5 183,-114.5"/>
 <text text-anchor="middle" x="227" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioCDReader</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__formats-format.html#classAudioSubsectionReader" target="_top" xlink:title="This class is used to wrap an AudioFormatReader and only read from a subsection of the file...">
+<g id="a_node3"><a xlink:href="classAudioSubsectionReader.html" target="_top" xlink:title="This class is used to wrap an AudioFormatReader and only read from a subsection of the file...">
 <polygon fill="none" stroke="black" points="166,-76.5 166,-95.5 288,-95.5 288,-76.5 166,-76.5"/>
 <text text-anchor="middle" x="227" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioSubsectionReader</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__formats-format.html#classBufferingAudioReader" target="_top" xlink:title="An AudioFormatReader that uses a background thread to pre&#45;read data from another reader. ">
+<g id="a_node4"><a xlink:href="classBufferingAudioReader.html" target="_top" xlink:title="An AudioFormatReader that uses a background thread to pre&#45;read data from another reader. ">
 <polygon fill="none" stroke="black" points="171,-38.5 171,-57.5 283,-57.5 283,-38.5 171,-38.5"/>
 <text text-anchor="middle" x="227" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">BufferingAudioReader</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__audio__formats-format.html#classMemoryMappedAudioFormatReader" target="_top" xlink:title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f...">
+<g id="a_node5"><a xlink:href="classMemoryMappedAudioFormatReader.html" target="_top" xlink:title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f...">
 <polygon fill="none" stroke="black" points="140.5,-0.5 140.5,-19.5 313.5,-19.5 313.5,-0.5 140.5,-0.5"/>
 <text text-anchor="middle" x="227" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MemoryMappedAudioFormatReader</text>
 </a>

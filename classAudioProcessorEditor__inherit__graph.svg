@@ -15,7 +15,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__processors-processors.html#classGenericAudioProcessorEditor" target="_top" xlink:title="A type of UI component that displays the parameters of an AudioProcessor as a simple list of sliders...">
+<g id="a_node4"><a xlink:href="classGenericAudioProcessorEditor.html" target="_top" xlink:title="A type of UI component that displays the parameters of an AudioProcessor as a simple list of sliders...">
 <polygon fill="none" stroke="black" points="-0.5,-0.5 -0.5,-19.5 144.5,-19.5 144.5,-0.5 -0.5,-0.5"/>
 <text text-anchor="middle" x="72" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GenericAudioProcessorEditor</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node2"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="38.5,-112.5 38.5,-131.5 105.5,-131.5 105.5,-112.5 38.5,-112.5"/>
 <text text-anchor="middle" x="72" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node3"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="32,-168.5 32,-187.5 112,-187.5 112,-168.5 32,-168.5"/>
 <text text-anchor="middle" x="72" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>

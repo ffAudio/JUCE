@@ -15,7 +15,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-filebrowser.html#classFileListComponent" target="_top" xlink:title="A component that displays the files in a directory as a listbox. ">
+<g id="a_node6"><a xlink:href="classFileListComponent.html" target="_top" xlink:title="A component that displays the files in a directory as a listbox. ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 98,-19.5 98,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="49" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileListComponent</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="group__juce__gui__basics-widgets.html#classTableListBox" target="_top" xlink:title="A table of cells, using a TableHeaderComponent as its header. ">
+<g id="a_node7"><a xlink:href="classTableListBox.html" target="_top" xlink:title="A table of cells, using a TableHeaderComponent as its header. ">
 <polygon fill="none" stroke="black" points="116,-0.5 116,-19.5 190,-19.5 190,-0.5 116,-0.5"/>
 <text text-anchor="middle" x="153" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TableListBox</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node2"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="15.5,-112.5 15.5,-131.5 82.5,-131.5 82.5,-112.5 15.5,-112.5"/>
 <text text-anchor="middle" x="49" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node3"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="9,-168.5 9,-187.5 89,-187.5 89,-168.5 9,-168.5"/>
 <text text-anchor="middle" x="49" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-mouse.html#classSettableTooltipClient" target="_top" xlink:title="An implementation of TooltipClient that stores the tooltip string and a method for changing it...">
+<g id="a_node4"><a xlink:href="classSettableTooltipClient.html" target="_top" xlink:title="An implementation of TooltipClient that stores the tooltip string and a method for changing it...">
 <polygon fill="none" stroke="black" points="100.5,-112.5 100.5,-131.5 207.5,-131.5 207.5,-112.5 100.5,-112.5"/>
 <text text-anchor="middle" x="154" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">SettableTooltipClient</text>
 </a>
@@ -80,7 +80,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-mouse.html#classTooltipClient" target="_top" xlink:title="Components that want to use pop&#45;up tooltips should implement this interface. ">
+<g id="a_node5"><a xlink:href="classTooltipClient.html" target="_top" xlink:title="Components that want to use pop&#45;up tooltips should implement this interface. ">
 <polygon fill="none" stroke="black" points="118.5,-168.5 118.5,-187.5 189.5,-187.5 189.5,-168.5 118.5,-168.5"/>
 <text text-anchor="middle" x="154" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">TooltipClient</text>
 </a>

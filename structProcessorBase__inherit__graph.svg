@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__dsp-processors.html#structProcessorWrapper" target="_top" xlink:title="Wraps an instance of a given processor class, and exposes it through the ProcessorBase interface...">
+<g id="a_node2"><a xlink:href="structProcessorWrapper.html" target="_top" xlink:title="Wraps an instance of a given processor class, and exposes it through the ProcessorBase interface...">
 <polygon fill="none" stroke="black" points="-0.5,-1 -0.5,-31 150.5,-31 150.5,-1 -0.5,-1"/>
 <text text-anchor="start" x="7.5" y="-19" font-family="Helvetica,sans-Serif" font-size="10.00">ProcessorWrapper&lt; Processor</text>
 <text text-anchor="middle" x="75" y="-8" font-family="Helvetica,sans-Serif" font-size="10.00">Type &gt;</text>

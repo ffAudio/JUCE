@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__gui__basics-windows.html#classDocumentWindow" target="_top" xlink:title="A resizable window with a title bar and maximise, minimise and close buttons. ">
+<g id="a_node2"><a xlink:href="classDocumentWindow.html" target="_top" xlink:title="A resizable window with a title bar and maximise, minimise and close buttons. ">
 <polygon fill="none" stroke="black" points="-0.5,-56.5 -0.5,-75.5 96.5,-75.5 96.5,-56.5 -0.5,-56.5"/>
 <text text-anchor="middle" x="48" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">DocumentWindow</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__gui__basics-windows.html#classResizableWindow" target="_top" xlink:title="A base class for top&#45;level windows that can be dragged around and resized. ">
+<g id="a_node3"><a xlink:href="classResizableWindow.html" target="_top" xlink:title="A base class for top&#45;level windows that can be dragged around and resized. ">
 <polygon fill="none" stroke="black" points="0.5,-112.5 0.5,-131.5 95.5,-131.5 95.5,-112.5 0.5,-112.5"/>
 <text text-anchor="middle" x="48" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableWindow</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__gui__basics-windows.html#classTopLevelWindow" target="_top" xlink:title="A base class for top&#45;level windows. ">
+<g id="a_node4"><a xlink:href="classTopLevelWindow.html" target="_top" xlink:title="A base class for top&#45;level windows. ">
 <polygon fill="none" stroke="black" points="2,-168.5 2,-187.5 94,-187.5 94,-168.5 2,-168.5"/>
 <text text-anchor="middle" x="48" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">TopLevelWindow</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__gui__basics-components.html#classComponent" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
+<g id="a_node5"><a xlink:href="classComponent.html" target="_top" xlink:title="The base class for all JUCE user&#45;interface objects. ">
 <polygon fill="none" stroke="black" points="14.5,-224.5 14.5,-243.5 81.5,-243.5 81.5,-224.5 14.5,-224.5"/>
 <text text-anchor="middle" x="48" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">Component</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__gui__basics-mouse.html#classMouseListener" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
+<g id="a_node6"><a xlink:href="classMouseListener.html" target="_top" xlink:title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe...">
 <polygon fill="none" stroke="black" points="8,-280.5 8,-299.5 88,-299.5 88,-280.5 8,-280.5"/>
 <text text-anchor="middle" x="48" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseListener</text>
 </a>

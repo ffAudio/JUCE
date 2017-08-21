@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__basics-buffers.html#classAudioChannelSet" target="_top" xlink:title="Represents a set of audio channel types. ">
+<g id="a_node2"><a xlink:href="classAudioChannelSet.html" target="_top" xlink:title="Represents a set of audio channel types. ">
 <polygon fill="none" stroke="black" points="1,-56.5 1,-75.5 93,-75.5 93,-56.5 1,-56.5"/>
 <text text-anchor="middle" x="47" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioChannelSet</text>
 </a>

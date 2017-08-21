@@ -15,7 +15,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="group__juce__audio__processors-utilities.html#classAudioParameterBool" target="_top" xlink:title="Provides a class of AudioProcessorParameter that can be used as a boolean value. ">
+<g id="a_node3"><a xlink:href="classAudioParameterBool.html" target="_top" xlink:title="Provides a class of AudioProcessorParameter that can be used as a boolean value. ">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-19.5 106,-19.5 106,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="53" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioParameterBool</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="group__juce__audio__processors-utilities.html#classAudioParameterChoice" target="_top" xlink:title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. ">
+<g id="a_node4"><a xlink:href="classAudioParameterChoice.html" target="_top" xlink:title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. ">
 <polygon fill="none" stroke="black" points="124.5,-0.5 124.5,-19.5 241.5,-19.5 241.5,-0.5 124.5,-0.5"/>
 <text text-anchor="middle" x="183" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioParameterChoice</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="group__juce__audio__processors-utilities.html#classAudioParameterFloat" target="_top" xlink:title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto...">
+<g id="a_node5"><a xlink:href="classAudioParameterFloat.html" target="_top" xlink:title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto...">
 <polygon fill="none" stroke="black" points="260,-0.5 260,-19.5 368,-19.5 368,-0.5 260,-0.5"/>
 <text text-anchor="middle" x="314" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioParameterFloat</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="group__juce__audio__processors-utilities.html#classAudioParameterInt" target="_top" xlink:title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range...">
+<g id="a_node6"><a xlink:href="classAudioParameterInt.html" target="_top" xlink:title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range...">
 <polygon fill="none" stroke="black" points="386,-0.5 386,-19.5 484,-19.5 484,-0.5 386,-0.5"/>
 <text text-anchor="middle" x="435" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioParameterInt</text>
 </a>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="group__juce__audio__processors-processors.html#classAudioProcessorParameter" target="_top" xlink:title="An abstract base class for parameter objects that can be added to an AudioProcessor. ">
+<g id="a_node2"><a xlink:href="classAudioProcessorParameter.html" target="_top" xlink:title="An abstract base class for parameter objects that can be added to an AudioProcessor. ">
 <polygon fill="none" stroke="black" points="182.5,-112.5 182.5,-131.5 313.5,-131.5 313.5,-112.5 182.5,-112.5"/>
 <text text-anchor="middle" x="248" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioProcessorParameter</text>
 </a>
