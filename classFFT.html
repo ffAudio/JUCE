@@ -104,11 +104,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e8b172556973b7b3a336e4d335912ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFT.html#a5e8b172556973b7b3a336e4d335912ad">perform</a> (const Complex&lt; float &gt; *input, Complex&lt; float &gt; *output, bool inverse) const noexcept</td></tr>
 <tr class="memdesc:a5e8b172556973b7b3a336e4d335912ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an out-of-place <a class="el" href="classFFT.html" title="Performs a fast fourier transform. ">FFT</a>, either forward or inverse.  <a href="#a5e8b172556973b7b3a336e4d335912ad">More...</a><br/></td></tr>
 <tr class="separator:a5e8b172556973b7b3a336e4d335912ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a879d3e58058eb37b81f647fa8d9f63ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFT.html#a879d3e58058eb37b81f647fa8d9f63ff">performRealOnlyForwardTransform</a> (float *inputOutputData) const noexcept</td></tr>
-<tr class="memdesc:a879d3e58058eb37b81f647fa8d9f63ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an in-place forward transform on a block of real data.  <a href="#a879d3e58058eb37b81f647fa8d9f63ff">More...</a><br/></td></tr>
-<tr class="separator:a879d3e58058eb37b81f647fa8d9f63ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ece3fbb3516ff218e07c8e0b09bebce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFT.html#a4ece3fbb3516ff218e07c8e0b09bebce">performRealOnlyForwardTransform</a> (float *inputOutputData, bool dontCalculateNegativeFrequencies=false) const noexcept</td></tr>
+<tr class="memdesc:a4ece3fbb3516ff218e07c8e0b09bebce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an in-place forward transform on a block of real data.  <a href="#a4ece3fbb3516ff218e07c8e0b09bebce">More...</a><br/></td></tr>
+<tr class="separator:a4ece3fbb3516ff218e07c8e0b09bebce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8713f9b3a469d255b21229904d78fd94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFT.html#a8713f9b3a469d255b21229904d78fd94">performRealOnlyInverseTransform</a> (float *inputOutputData) const noexcept</td></tr>
-<tr class="memdesc:a8713f9b3a469d255b21229904d78fd94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a reverse operation to data created in <a class="el" href="classFFT.html#a879d3e58058eb37b81f647fa8d9f63ff" title="Performs an in-place forward transform on a block of real data. ">performRealOnlyForwardTransform()</a>.  <a href="#a8713f9b3a469d255b21229904d78fd94">More...</a><br/></td></tr>
+<tr class="memdesc:a8713f9b3a469d255b21229904d78fd94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a reverse operation to data created in <a class="el" href="classFFT.html#a4ece3fbb3516ff218e07c8e0b09bebce" title="Performs an in-place forward transform on a block of real data. ">performRealOnlyForwardTransform()</a>.  <a href="#a8713f9b3a469d255b21229904d78fd94">More...</a><br/></td></tr>
 <tr class="separator:a8713f9b3a469d255b21229904d78fd94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88d0d847721d5dfc1a3c583d3340f946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFT.html#a88d0d847721d5dfc1a3c583d3340f946">performFrequencyOnlyForwardTransform</a> (float *inputOutputData) const noexcept</td></tr>
 <tr class="memdesc:a88d0d847721d5dfc1a3c583d3340f946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes an array and simply transforms it to the magnitude frequency response spectrum.  <a href="#a88d0d847721d5dfc1a3c583d3340f946">More...</a><br/></td></tr>
@@ -202,7 +202,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a879d3e58058eb37b81f647fa8d9f63ff"></a>
+<a class="anchor" id="a4ece3fbb3516ff218e07c8e0b09bebce"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -213,8 +213,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void FFT::performRealOnlyForwardTransform </td>
           <td>(</td>
           <td class="paramtype">float *&#160;</td>
-          <td class="paramname"><em>inputOutputData</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>inputOutputData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>dontCalculateNegativeFrequencies</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -225,7 +235,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs an in-place forward transform on a block of real data. </p>
-<p>The size of the array passed in must be 2 * <a class="el" href="classFFT.html#ad31b8261ecd82dda721df4705b57940f" title="Returns the number of data points that this FFT was created to work with. ">getSize()</a>, and the first half should contain your raw input sample data. On return, the array will contain size complex real + imaginary parts data interleaved, and can be passed to <a class="el" href="classFFT.html#a8713f9b3a469d255b21229904d78fd94" title="Performs a reverse operation to data created in performRealOnlyForwardTransform(). ">performRealOnlyInverseTransform()</a> in order to convert it back to reals. </p>
+<p>As the coefficients of the negative frequences (frequencies higher than N/2 or pi) are the complex conjugate of their positive counterparts, it may not be necessary to calculate them for your particular application. You can use dontCalculateNegativeFrequencies to let the <a class="el" href="classFFT.html" title="Performs a fast fourier transform. ">FFT</a> engine know that you do not plan on using them. Note that this is only a hint: some <a class="el" href="classFFT.html" title="Performs a fast fourier transform. ">FFT</a> engines (currently only the Fallback engine), will still calculate the negative frequencies even if dontCalculateNegativeFrequencies is true.</p>
+<p>The size of the array passed in must be 2 * <a class="el" href="classFFT.html#ad31b8261ecd82dda721df4705b57940f" title="Returns the number of data points that this FFT was created to work with. ">getSize()</a>, and the first half should contain your raw input sample data. On return, if dontCalculateNegativeFrequencies is false, the array will contain size complex real + imaginary parts data interleaved. If dontCalculateNegativeFrequencies is true, the array will contain at least (size / 2) + 1 complex numbers. Both outputs can be passed to <a class="el" href="classFFT.html#a8713f9b3a469d255b21229904d78fd94" title="Performs a reverse operation to data created in performRealOnlyForwardTransform(). ">performRealOnlyInverseTransform()</a> in order to convert it back to reals. </p>
 
 </div>
 </div>
@@ -251,8 +262,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Performs a reverse operation to data created in <a class="el" href="classFFT.html#a879d3e58058eb37b81f647fa8d9f63ff" title="Performs an in-place forward transform on a block of real data. ">performRealOnlyForwardTransform()</a>. </p>
-<p>The size of the array passed in must be 2 * <a class="el" href="classFFT.html#ad31b8261ecd82dda721df4705b57940f" title="Returns the number of data points that this FFT was created to work with. ">getSize()</a>, containing size complex real and imaginary parts interleaved numbers. On return, the first half of the array will contain the reconstituted samples. </p>
+<p>Performs a reverse operation to data created in <a class="el" href="classFFT.html#a4ece3fbb3516ff218e07c8e0b09bebce" title="Performs an in-place forward transform on a block of real data. ">performRealOnlyForwardTransform()</a>. </p>
+<p>Although performRealOnlyInverseTransform will only use the first ((size / 2) + 1) complex numbers, the size of the array passed in must still be 2 * <a class="el" href="classFFT.html#ad31b8261ecd82dda721df4705b57940f" title="Returns the number of data points that this FFT was created to work with. ">getSize()</a>, as some <a class="el" href="classFFT.html" title="Performs a fast fourier transform. ">FFT</a> engines require the extra space for the calculation. On return, the first half of the array will contain the reconstituted samples. </p>
 
 </div>
 </div>
@@ -314,7 +325,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 22 2017 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 23 2017 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
