@@ -108,6 +108,7 @@ var searchData=
   ['heapblock_3c_20objectclass_20_2a_20_3e',['HeapBlock&lt; ObjectClass * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20oscargument_20_3e',['HeapBlock&lt; OSCArgument &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20oscbundle_3a_3aoscbundle_3a_3aelement_20_3e',['HeapBlock&lt; OSCBundle::OSCBundle::Element &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20oversamplingengine_3c_20sampletype_20_3e_20_2a_20_3e',['HeapBlock&lt; OversamplingEngine&lt; SampleType &gt; * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20panelholder_20_2a_20_3e',['HeapBlock&lt; PanelHolder * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20plugindescription_20_2a_20_3e',['HeapBlock&lt; PluginDescription * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20popupmenu_3a_3aitem_20_2a_20_3e',['HeapBlock&lt; PopupMenu::Item * &gt;',['../classHeapBlock.html',1,'']]],

@@ -322,6 +322,7 @@ var searchData=
   ['_7eoscreceiver',['~OSCReceiver',['../classOSCReceiver.html#a55b8f099e686711f5aae6e7b616daa1c',1,'OSCReceiver']]],
   ['_7eoscsender',['~OSCSender',['../classOSCSender.html#a1eb9c1bab3ee54e3108b8df428fc0ff6',1,'OSCSender']]],
   ['_7eoutputstream',['~OutputStream',['../classOutputStream.html#a3c3286bd6c6c8fb6b16ce7f88745075b',1,'OutputStream']]],
+  ['_7eoversampling',['~Oversampling',['../classOversampling.html#a010e1631e3aaa038f2fe5bffbfb51911',1,'Oversampling']]],
   ['_7eownedarray',['~OwnedArray',['../classOwnedArray.html#aab8ed18b03ab56e465433b32f84c9e59',1,'OwnedArray']]],
   ['_7epath',['~Path',['../classPath.html#a141da9ff89c85e0ba410b5a73864c267',1,'Path']]],
   ['_7epathflatteningiterator',['~PathFlatteningIterator',['../classPathFlatteningIterator.html#a907158adef4ad38fd4899142b237106f',1,'PathFlatteningIterator']]],

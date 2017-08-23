@@ -20,6 +20,7 @@ var searchData=
   ['nullelement',['nullElement',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9ae971a25058687b29600ebb7c9a038437',1,'RelativePointPath']]],
   ['numcolours',['numColours',['../classLookAndFeel__V4_1_1ColourScheme.html#a3a0b01b5a192545b3692ed288597b2f4a6c765ee004cf9073d5414a7b7244cdcb',1,'LookAndFeel_V4::ColourScheme']]],
   ['numerickeyboard',['numericKeyboard',['../classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7ad6a4c6dad692fe4625b23d7ff5a7a5af',1,'TextInputTarget']]],
+  ['numfiltertypes',['numFilterTypes',['../classOversampling.html#ad1a2fa9f8924bb36ae8f46954ccf82f5a548f8fc52ac9d4b658f1ce6ac6ea76a3',1,'Oversampling']]],
   ['numstandardcursortypes',['NumStandardCursorTypes',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a48398e8dcad5bee53f6319d3f9b7f012',1,'MouseCursor']]],
   ['numwindowingmethods',['numWindowingMethods',['../structWindowingFunction.html#acab1d9c135270ef4983845fe3f47da5ca7716ebcc833187e8e8359c4336100ef1',1,'WindowingFunction']]]
 ];

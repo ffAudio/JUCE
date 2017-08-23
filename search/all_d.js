@@ -120,6 +120,7 @@ var searchData=
   ['numelementsinarray',['numElementsInArray',['../group__juce__core-maths.html#ga53205e331c49a67a9a7af0710d44d65e',1,'juce_MathsFunctions.h']]],
   ['numerickeyboard',['numericKeyboard',['../classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7ad6a4c6dad692fe4625b23d7ff5a7a5af',1,'TextInputTarget']]],
   ['numerictype',['NumericType',['../classAudioBlock.html#accddb828c95e57ec4a56c253270c74f5',1,'AudioBlock::NumericType()'],['../classFIR_1_1Filter.html#ab18897bd8f71d96aea1fcc7ea9ab6079',1,'FIR::Filter::NumericType()'],['../classIIR_1_1Filter.html#a2ed6568f580c9d84389346d8a9666562',1,'IIR::Filter::NumericType()'],['../classOscillator.html#ad3eb44ec8603aa023ddb4835b7dab85f',1,'Oscillator::NumericType()'],['../classStateVariableFilter_1_1Filter.html#a14c901c734bd469814c8b567b890e953',1,'StateVariableFilter::Filter::NumericType()']]],
+  ['numfiltertypes',['numFilterTypes',['../classOversampling.html#ad1a2fa9f8924bb36ae8f46954ccf82f5a548f8fc52ac9d4b658f1ce6ac6ea76a3',1,'Oversampling']]],
   ['numinputchannels',['numInputChannels',['../structVstEffectInterface.html#a38d5de5960f5f03dc4648ca9d4c3ef03',1,'VstEffectInterface::numInputChannels()'],['../classPluginDescription.html#aae10fb65ec4fcbfcf35aed5d46b98932',1,'PluginDescription::numInputChannels()']]],
   ['numins',['numIns',['../structStandalonePluginHolder_1_1PluginInOuts.html#a2c18cb6876bc952ba5df80df92500c34',1,'StandalonePluginHolder::PluginInOuts']]],
   ['numkeywaves',['numKeywaves',['../structBlockDataSheet.html#a9e22d78c57256e3b6b6d7bf50bc5b5ab',1,'BlockDataSheet']]],

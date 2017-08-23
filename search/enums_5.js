@@ -2,6 +2,7 @@ var searchData=
 [
   ['filechooserflags',['FileChooserFlags',['../classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6',1,'FileBrowserComponent']]],
   ['filltype',['FillType',['../structDrumPadGridProgram_1_1GridFill.html#ae8c97bf48e8f16e99118f2d12dab6948',1,'DrumPadGridProgram::GridFill']]],
+  ['filtertype',['FilterType',['../classOversampling.html#ad1a2fa9f8924bb36ae8f46954ccf82f5',1,'Oversampling']]],
   ['flags',['Flags',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbc',1,'Justification::Flags()'],['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427ed',1,'RectanglePlacement::Flags()'],['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678b',1,'ModifierKeys::Flags()']]],
   ['focuschangetype',['FocusChangeType',['../classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac',1,'Component']]],
   ['fontstyleflags',['FontStyleFlags',['../classFont.html#a52a35b5dc1e6f782e25283c9283bae4f',1,'Font']]],

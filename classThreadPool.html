@@ -126,24 +126,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a621253ea8de07a09a6c18238f8d33ced"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#a621253ea8de07a09a6c18238f8d33ced">removeAllJobs</a> (bool interruptRunningJobs, int timeOutMilliseconds, <a class="el" href="classThreadPool_1_1JobSelector.html">JobSelector</a> *selectedJobsToRemove=nullptr)</td></tr>
 <tr class="memdesc:a621253ea8de07a09a6c18238f8d33ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to remove all jobs from the pool.  <a href="#a621253ea8de07a09a6c18238f8d33ced">More...</a><br/></td></tr>
 <tr class="separator:a621253ea8de07a09a6c18238f8d33ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e9ba7e536f1978a255a36bc54f641ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#a9e9ba7e536f1978a255a36bc54f641ed">getNumJobs</a> () const </td></tr>
-<tr class="memdesc:a9e9ba7e536f1978a255a36bc54f641ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of jobs currently running or queued.  <a href="#a9e9ba7e536f1978a255a36bc54f641ed">More...</a><br/></td></tr>
-<tr class="separator:a9e9ba7e536f1978a255a36bc54f641ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c683ee9fb983a07ef5937ea2a3a6599"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#a0c683ee9fb983a07ef5937ea2a3a6599">getNumThreads</a> () const </td></tr>
-<tr class="memdesc:a0c683ee9fb983a07ef5937ea2a3a6599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of threads assigned to this thread pool.  <a href="#a0c683ee9fb983a07ef5937ea2a3a6599">More...</a><br/></td></tr>
-<tr class="separator:a0c683ee9fb983a07ef5937ea2a3a6599"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa52987dfd5d41443a914c4c20045c12c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#aa52987dfd5d41443a914c4c20045c12c">getJob</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const </td></tr>
-<tr class="memdesc:aa52987dfd5d41443a914c4c20045c12c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the jobs in the queue.  <a href="#aa52987dfd5d41443a914c4c20045c12c">More...</a><br/></td></tr>
-<tr class="separator:aa52987dfd5d41443a914c4c20045c12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86ec36868d7215a33a5658f8ca8797c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#a86ec36868d7215a33a5658f8ca8797c8">contains</a> (const <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *job) const </td></tr>
-<tr class="memdesc:a86ec36868d7215a33a5658f8ca8797c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given job is currently queued or running.  <a href="#a86ec36868d7215a33a5658f8ca8797c8">More...</a><br/></td></tr>
-<tr class="separator:a86ec36868d7215a33a5658f8ca8797c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aa5595e971322109a2eeef2f1bdda2b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#a6aa5595e971322109a2eeef2f1bdda2b">isJobRunning</a> (const <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *job) const </td></tr>
-<tr class="memdesc:a6aa5595e971322109a2eeef2f1bdda2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given job is currently being run by a thread.  <a href="#a6aa5595e971322109a2eeef2f1bdda2b">More...</a><br/></td></tr>
-<tr class="separator:a6aa5595e971322109a2eeef2f1bdda2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1c2983776e20c5052a76c6135619d7b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#ae1c2983776e20c5052a76c6135619d7b">getNumJobs</a> () const noexcept</td></tr>
+<tr class="memdesc:ae1c2983776e20c5052a76c6135619d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of jobs currently running or queued.  <a href="#ae1c2983776e20c5052a76c6135619d7b">More...</a><br/></td></tr>
+<tr class="separator:ae1c2983776e20c5052a76c6135619d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5922ccfdea56c1db879fcb1018e8165"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#af5922ccfdea56c1db879fcb1018e8165">getNumThreads</a> () const noexcept</td></tr>
+<tr class="memdesc:af5922ccfdea56c1db879fcb1018e8165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of threads assigned to this thread pool.  <a href="#af5922ccfdea56c1db879fcb1018e8165">More...</a><br/></td></tr>
+<tr class="separator:af5922ccfdea56c1db879fcb1018e8165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab267cae5df4cf948991c601d58e118d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#ab267cae5df4cf948991c601d58e118d8">getJob</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
+<tr class="memdesc:ab267cae5df4cf948991c601d58e118d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the jobs in the queue.  <a href="#ab267cae5df4cf948991c601d58e118d8">More...</a><br/></td></tr>
+<tr class="separator:ab267cae5df4cf948991c601d58e118d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b97040a365399bfd3573957de81209"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#af8b97040a365399bfd3573957de81209">contains</a> (const <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *job) const noexcept</td></tr>
+<tr class="memdesc:af8b97040a365399bfd3573957de81209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given job is currently queued or running.  <a href="#af8b97040a365399bfd3573957de81209">More...</a><br/></td></tr>
+<tr class="separator:af8b97040a365399bfd3573957de81209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa6b9aa0658c202bfa4956df3a3a88e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#a0aa6b9aa0658c202bfa4956df3a3a88e">isJobRunning</a> (const <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *job) const noexcept</td></tr>
+<tr class="memdesc:a0aa6b9aa0658c202bfa4956df3a3a88e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given job is currently being run by a thread.  <a href="#a0aa6b9aa0658c202bfa4956df3a3a88e">More...</a><br/></td></tr>
+<tr class="separator:a0aa6b9aa0658c202bfa4956df3a3a88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada78c3d08d41bb195006b5c96a6514f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#ada78c3d08d41bb195006b5c96a6514f5">waitForJobToFinish</a> (const <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *job, int timeOutMilliseconds) const </td></tr>
 <tr class="memdesc:ada78c3d08d41bb195006b5c96a6514f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits until a job has finished running and has been removed from the pool.  <a href="#ada78c3d08d41bb195006b5c96a6514f5">More...</a><br/></td></tr>
 <tr class="separator:ada78c3d08d41bb195006b5c96a6514f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6140ef9f1032aa5da47dfc15b86cdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#a8c6140ef9f1032aa5da47dfc15b86cdb">moveJobToFront</a> (const <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *jobToMove) noexcept</td></tr>
+<tr class="memdesc:a8c6140ef9f1032aa5da47dfc15b86cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the given job is in the queue, this will move it to the front so that it is the next one to be executed.  <a href="#a8c6140ef9f1032aa5da47dfc15b86cdb">More...</a><br/></td></tr>
+<tr class="separator:a8c6140ef9f1032aa5da47dfc15b86cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a520f25cf327b0f000f2edff89b07aff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPool.html#a520f25cf327b0f000f2edff89b07aff2">getNamesOfAllJobs</a> (bool onlyReturnActiveJobs) const </td></tr>
 <tr class="memdesc:a520f25cf327b0f000f2edff89b07aff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of the names of all the jobs currently running or queued.  <a href="#a520f25cf327b0f000f2edff89b07aff2">More...</a><br/></td></tr>
 <tr class="separator:a520f25cf327b0f000f2edff89b07aff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -386,9 +389,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9e9ba7e536f1978a255a36bc54f641ed"></a>
+<a class="anchor" id="ae1c2983776e20c5052a76c6135619d7b"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ThreadPool::getNumJobs </td>
@@ -397,15 +403,23 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the number of jobs currently running or queued. </p>
 
 </div>
 </div>
-<a class="anchor" id="a0c683ee9fb983a07ef5937ea2a3a6599"></a>
+<a class="anchor" id="af5922ccfdea56c1db879fcb1018e8165"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ThreadPool::getNumThreads </td>
@@ -414,15 +428,23 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the number of threads assigned to this thread pool. </p>
 
 </div>
 </div>
-<a class="anchor" id="aa52987dfd5d41443a914c4c20045c12c"></a>
+<a class="anchor" id="ab267cae5df4cf948991c601d58e118d8"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a>* ThreadPool::getJob </td>
@@ -432,6 +454,11 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns one of the jobs in the queue. </p>
@@ -439,9 +466,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a86ec36868d7215a33a5658f8ca8797c8"></a>
+<a class="anchor" id="af8b97040a365399bfd3573957de81209"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ThreadPool::contains </td>
@@ -451,16 +481,24 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns true if the given job is currently queued or running. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThreadPool.html#a6aa5595e971322109a2eeef2f1bdda2b" title="Returns true if the given job is currently being run by a thread. ">isJobRunning()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThreadPool.html#a0aa6b9aa0658c202bfa4956df3a3a88e" title="Returns true if the given job is currently being run by a thread. ">isJobRunning()</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a6aa5595e971322109a2eeef2f1bdda2b"></a>
+<a class="anchor" id="a0aa6b9aa0658c202bfa4956df3a3a88e"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ThreadPool::isJobRunning </td>
@@ -470,6 +508,11 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns true if the given job is currently being run by a thread. </p>
@@ -503,6 +546,32 @@ Public Member Functions</h2></td></tr>
 <p>Waits until a job has finished running and has been removed from the pool. </p>
 <p>This will wait until the job is no longer in the pool - i.e. until its runJob() method returns <a class="el" href="classThreadPoolJob.html#a534c077f3c60168d88555ade062420b3a390a063ef5f8b769a682f1daefc64e72" title="indicates that the job has finished and can be removed from the pool. ">ThreadPoolJob::jobHasFinished</a>.</p>
 <p>If the timeout period expires before the job finishes, this will return false; it returns true if the job has finished successfully. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8c6140ef9f1032aa5da47dfc15b86cdb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThreadPool::moveJobToFront </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classThreadPoolJob.html">ThreadPoolJob</a> *&#160;</td>
+          <td class="paramname"><em>jobToMove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If the given job is in the queue, this will move it to the front so that it is the next one to be executed. </p>
 
 </div>
 </div>
@@ -550,7 +619,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 23 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 24 2017 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

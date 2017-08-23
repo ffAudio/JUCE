@@ -7,6 +7,8 @@ var searchData=
   ['filenameboxisreadonly',['filenameBoxIsReadOnly',['../classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6ab3724f30e884acc493ed9cb6bd064971',1,'FileBrowserComponent']]],
   ['filldestination',['fillDestination',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427edaace05e9cfe83bb3dbbef781d3622cd62',1,'RectanglePlacement']]],
   ['filled',['filled',['../structDrumPadGridProgram_1_1GridFill.html#ae8c97bf48e8f16e99118f2d12dab6948a91d5fae0bf535125fb7d392050f37790',1,'DrumPadGridProgram::GridFill']]],
+  ['filterhalfbandfirequiripple',['filterHalfBandFIREquiripple',['../classOversampling.html#ad1a2fa9f8924bb36ae8f46954ccf82f5a18fafb0f3ef3ad90cb7bc42161fefd4b',1,'Oversampling']]],
+  ['filterhalfbandpolyphaseiir',['filterHalfBandPolyphaseIIR',['../classOversampling.html#ad1a2fa9f8924bb36ae8f46954ccf82f5a6edf9ce78d8bbf534816fccd75c74584',1,'Oversampling']]],
   ['finalcut',['FinalCut',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8abda90043ce2ae817ced6640eb0a6e7f8',1,'PluginHostType']]],
   ['finddirectories',['findDirectories',['../classFile.html#a2e3d1ed8a9022434f3ddb7d34b24198ca35b223e26e0f30ee49e320b60af41965',1,'File']]],
   ['findfiles',['findFiles',['../classFile.html#a2e3d1ed8a9022434f3ddb7d34b24198ca0804ff838a8bfd66eaa300e5e0a3884a',1,'File']]],

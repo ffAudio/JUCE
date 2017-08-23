@@ -353,6 +353,7 @@ var searchData=
   ['juce_5fosctimetag_2eh',['juce_OSCTimeTag.h',['../juce__OSCTimeTag_8h.html',1,'']]],
   ['juce_5fosctypes_2eh',['juce_OSCTypes.h',['../juce__OSCTypes_8h.html',1,'']]],
   ['juce_5foutputstream_2eh',['juce_OutputStream.h',['../juce__OutputStream_8h.html',1,'']]],
+  ['juce_5foversampling_2eh',['juce_Oversampling.h',['../juce__Oversampling_8h.html',1,'']]],
   ['juce_5fownedarray_2eh',['juce_OwnedArray.h',['../juce__OwnedArray_8h.html',1,'']]],
   ['juce_5fpath_2eh',['juce_Path.h',['../juce__Path_8h.html',1,'']]],
   ['juce_5fpathiterator_2eh',['juce_PathIterator.h',['../juce__PathIterator_8h.html',1,'']]],
