@@ -196,9 +196,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3482388836fc1d25a380a6c167cdb3c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWebInputStream.html">WebInputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a3482388836fc1d25a380a6c167cdb3c9">createInputStream</a> (bool doPostLikeRequest, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, int *statusCode=nullptr, int numRedirectsToFollow=5, <a class="el" href="classString.html">String</a> httpRequestCmd=<a class="el" href="classString.html">String</a>()) const </td></tr>
 <tr class="memdesc:a3482388836fc1d25a380a6c167cdb3c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#a3482388836fc1d25a380a6c167cdb3c9">More...</a><br/></td></tr>
 <tr class="separator:a3482388836fc1d25a380a6c167cdb3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3697dcd102e99bcf4558ec761f4487a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL_1_1DownloadTask.html">DownloadTask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a3697dcd102e99bcf4558ec761f4487a7">downloadToFile</a> (const <a class="el" href="classFile.html">File</a> &amp;targetLocation, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), <a class="el" href="structURL_1_1DownloadTask_1_1Listener.html">DownloadTask::Listener</a> *listener=nullptr)</td></tr>
-<tr class="memdesc:a3697dcd102e99bcf4558ec761f4487a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> to a file.  <a href="#a3697dcd102e99bcf4558ec761f4487a7">More...</a><br/></td></tr>
-<tr class="separator:a3697dcd102e99bcf4558ec761f4487a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591172ae1dbe6598848d83e5eff5f6d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL_1_1DownloadTask.html">DownloadTask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a591172ae1dbe6598848d83e5eff5f6d0">downloadToFile</a> (const <a class="el" href="classFile.html">File</a> &amp;targetLocation, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), <a class="el" href="structURL_1_1DownloadTask_1_1Listener.html">DownloadTask::Listener</a> *listener=nullptr, bool usePostCommand=false)</td></tr>
+<tr class="memdesc:a591172ae1dbe6598848d83e5eff5f6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> to a file.  <a href="#a591172ae1dbe6598848d83e5eff5f6d0">More...</a><br/></td></tr>
+<tr class="separator:a591172ae1dbe6598848d83e5eff5f6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade18c87d31c10cb7fea4453afeee2de6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ade18c87d31c10cb7fea4453afeee2de6">readEntireBinaryStream</a> (<a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;destData, bool usePostCommand=false) const </td></tr>
 <tr class="memdesc:ade18c87d31c10cb7fea4453afeee2de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to download the entire contents of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> into a binary data block.  <a href="#ade18c87d31c10cb7fea4453afeee2de6">More...</a><br/></td></tr>
 <tr class="separator:ade18c87d31c10cb7fea4453afeee2de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1004,7 +1004,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3697dcd102e99bcf4558ec761f4487a7"></a>
+<a class="anchor" id="a591172ae1dbe6598848d83e5eff5f6d0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1024,7 +1024,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structURL_1_1DownloadTask_1_1Listener.html">DownloadTask::Listener</a> *&#160;</td>
-          <td class="paramname"><em>listener</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>listener</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>usePostCommand</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1036,7 +1042,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Download the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> to a file. </p>
 <p>This method attempts to download the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> to a given file location.</p>
-<p>Using this method to download files on mobile is less flexible but more reliable than using createInputStream or WebInputStreams as it will attempt to download the file using a native OS background network task. Such tasks automatically deal with network re-connections and continuing your download while your app is suspended but are limited to simple GET requests. </p>
+<p>Using this method to download files on mobile is less flexible but more reliable than using createInputStream or WebInputStreams as it will attempt to download the file using a native OS background network task. Such tasks automatically deal with network re-connections and continuing your download while your app is suspended. </p>
 
 </div>
 </div>
@@ -1248,7 +1254,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 24 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 25 2017 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

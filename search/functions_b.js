@@ -47,7 +47,7 @@ var searchData=
   ['listwasscrolled',['listWasScrolled',['../classListBoxModel.html#aec88952fecefb30febf11ed9f172ba40',1,'ListBoxModel::listWasScrolled()'],['../classTableListBoxModel.html#a4793a06a4dc4f88a2049360f6cd34f83',1,'TableListBoxModel::listWasScrolled()'],['../classTableListBox.html#a17c700c7a47639fc0cd018b1e36d70b1',1,'TableListBox::listWasScrolled()']]],
   ['littleendian24bit',['littleEndian24Bit',['../group__juce__core-memory.html#ga35200b99bb4420fe1401bb9f3bae52a2',1,'ByteOrder']]],
   ['littleendian24bittochars',['littleEndian24BitToChars',['../group__juce__core-memory.html#ga287ad85e68c599c8dcfdb329aecefda7',1,'ByteOrder']]],
-  ['littleendianint',['littleEndianInt',['../group__juce__core-memory.html#ga5ee16f591feb0902fddb472eb4057293',1,'ByteOrder']]],
+  ['littleendianint',['littleEndianInt',['../group__juce__core-memory.html#ga5ee16f591feb0902fddb472eb4057293',1,'ByteOrder::littleEndianInt(const void *bytes) noexcept'],['../group__juce__core-memory.html#ga1225127991408a772ab4a27bc70a1bee',1,'ByteOrder::littleEndianInt(char c1, char c2, char c3, char c4) noexcept']]],
   ['littleendianint64',['littleEndianInt64',['../group__juce__core-memory.html#gaa68dab24810f92bd18f08471ca2b2bba',1,'ByteOrder']]],
   ['littleendianshort',['littleEndianShort',['../group__juce__core-memory.html#gabfa2888cce7d46ea40f54fceb49b544c',1,'ByteOrder']]],
   ['littlefootremoteheap',['LittleFootRemoteHeap',['../structlittlefoot_1_1LittleFootRemoteHeap.html#aca4cb4bfd7d97d85e5534fd075c21a62',1,'littlefoot::LittleFootRemoteHeap']]],

@@ -119,7 +119,7 @@ var searchData=
   ['isbar',['isBar',['../classSlider.html#a61db1cd48644cbe6be544924e5d06f60',1,'Slider']]],
   ['isbatterycharging',['isBatteryCharging',['../classBlock.html#ae1e9122a7d34c5a7588280d948ac8733',1,'Block::isBatteryCharging()'],['../group__LittleFootFunctions.html#gaaf5c6c378247bc349e3b94cb0fc4bc4d',1,'isBatteryCharging():&#160;juce_LittleFootFunctions.dox']]],
   ['isbeingedited',['isBeingEdited',['../classLabel.html#a4a96b4b788e9bc056b513d6f7f89686e',1,'Label']]],
-  ['isbigendian',['isBigEndian',['../classAudioData_1_1Pointer.html#ad5c297903cd9da5ad3b90328cd26e80e',1,'AudioData::Pointer::isBigEndian()'],['../group__juce__core-memory.html#ga579da6322ef30e565507fdbf0b9faefb',1,'ByteOrder::isBigEndian()']]],
+  ['isbigendian',['isBigEndian',['../classAudioData_1_1Pointer.html#ad5c297903cd9da5ad3b90328cd26e80e',1,'AudioData::Pointer::isBigEndian()'],['../group__juce__core-memory.html#ga77929021a80c0dd849bd41db94ddbecb',1,'ByteOrder::isBigEndian()']]],
   ['isbinarydata',['isBinaryData',['../classvar.html#ad57788405f0c5377d4f7b2f556866941',1,'var']]],
   ['isbitwigstudio',['isBitwigStudio',['../classPluginHostType.html#a8d39d5c259199e4f3cadd1e3f3da4046',1,'PluginHostType']]],
   ['isblob',['isBlob',['../classOSCArgument.html#a1f25c4f500393b19bad346e22f888e82',1,'OSCArgument']]],

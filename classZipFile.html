@@ -126,12 +126,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7168a5f54bed9f81e006f4f1ba880bf5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structZipFile_1_1ZipEntry.html">ZipEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile.html#a7168a5f54bed9f81e006f4f1ba880bf5">getEntry</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
 <tr class="memdesc:a7168a5f54bed9f81e006f4f1ba880bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a structure that describes one of the entries in the zip file.  <a href="#a7168a5f54bed9f81e006f4f1ba880bf5">More...</a><br/></td></tr>
 <tr class="separator:a7168a5f54bed9f81e006f4f1ba880bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae828c6862f8a8305b5c3aca0a42417cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile.html#ae828c6862f8a8305b5c3aca0a42417cf">getIndexOfFileName</a> (const <a class="el" href="classString.html">String</a> &amp;fileName) const noexcept</td></tr>
-<tr class="memdesc:ae828c6862f8a8305b5c3aca0a42417cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the first entry with a given filename.  <a href="#ae828c6862f8a8305b5c3aca0a42417cf">More...</a><br/></td></tr>
-<tr class="separator:ae828c6862f8a8305b5c3aca0a42417cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e0686509a027efcce8adba4ec7b0044"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structZipFile_1_1ZipEntry.html">ZipEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile.html#a6e0686509a027efcce8adba4ec7b0044">getEntry</a> (const <a class="el" href="classString.html">String</a> &amp;fileName) const noexcept</td></tr>
-<tr class="memdesc:a6e0686509a027efcce8adba4ec7b0044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a structure that describes one of the entries in the zip file.  <a href="#a6e0686509a027efcce8adba4ec7b0044">More...</a><br/></td></tr>
-<tr class="separator:a6e0686509a027efcce8adba4ec7b0044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49e5943cbd7d3de203b880e58daf466"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile.html#aa49e5943cbd7d3de203b880e58daf466">getIndexOfFileName</a> (const <a class="el" href="classString.html">String</a> &amp;fileName, bool ignoreCase=false) const noexcept</td></tr>
+<tr class="memdesc:aa49e5943cbd7d3de203b880e58daf466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the first entry with a given filename.  <a href="#aa49e5943cbd7d3de203b880e58daf466">More...</a><br/></td></tr>
+<tr class="separator:aa49e5943cbd7d3de203b880e58daf466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad1f916cf5ca060ddcaabf51e9493602"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structZipFile_1_1ZipEntry.html">ZipEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile.html#aad1f916cf5ca060ddcaabf51e9493602">getEntry</a> (const <a class="el" href="classString.html">String</a> &amp;fileName, bool ignoreCase=false) const noexcept</td></tr>
+<tr class="memdesc:aad1f916cf5ca060ddcaabf51e9493602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a structure that describes one of the entries in the zip file.  <a href="#aad1f916cf5ca060ddcaabf51e9493602">More...</a><br/></td></tr>
+<tr class="separator:aad1f916cf5ca060ddcaabf51e9493602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af33762dfb0bbe8ac0973d239eba4a376"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZipFile.html#af33762dfb0bbe8ac0973d239eba4a376">sortEntriesByFilename</a> ()</td></tr>
 <tr class="memdesc:af33762dfb0bbe8ac0973d239eba4a376"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the list of entries, based on the filename.  <a href="#af33762dfb0bbe8ac0973d239eba4a376">More...</a><br/></td></tr>
 <tr class="separator:af33762dfb0bbe8ac0973d239eba4a376"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -338,7 +338,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae828c6862f8a8305b5c3aca0a42417cf"></a>
+<a class="anchor" id="aa49e5943cbd7d3de203b880e58daf466"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -349,8 +349,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">int ZipFile::getIndexOfFileName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>fileName</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignoreCase</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -366,7 +376,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6e0686509a027efcce8adba4ec7b0044"></a>
+<a class="anchor" id="aad1f916cf5ca060ddcaabf51e9493602"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -377,8 +387,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">const <a class="el" href="structZipFile_1_1ZipEntry.html">ZipEntry</a>* ZipFile::getEntry </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>fileName</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignoreCase</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -540,7 +560,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 24 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 25 2017 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
