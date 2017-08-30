@@ -63,6 +63,8 @@ var searchData=
   ['steinbergcubase6',['SteinbergCubase6',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a9368af61e64c127344b0d69634644a55',1,'PluginHostType']]],
   ['steinbergcubase7',['SteinbergCubase7',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a743ff11b546c1b490db6963c58455187',1,'PluginHostType']]],
   ['steinbergcubase8',['SteinbergCubase8',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a8044b0323a8ef1e5a1a1c98fe8fd8ac2',1,'PluginHostType']]],
+  ['steinbergcubase8_5f5',['SteinbergCubase8_5',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8aeddeed3f91cb44014d59341916ea869f',1,'PluginHostType']]],
+  ['steinbergcubase9',['SteinbergCubase9',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8ab0bcd96b86c447d0199ea92fb02f2fcc',1,'PluginHostType']]],
   ['steinbergcubasegeneric',['SteinbergCubaseGeneric',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5b569e91a90410048fe9103eb9187d28',1,'PluginHostType']]],
   ['steinbergnuendo3',['SteinbergNuendo3',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a80770fdf759a93b5008859f7cee81c7e',1,'PluginHostType']]],
   ['steinbergnuendo4',['SteinbergNuendo4',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8ae6da999e969e6568d22622053000ae13',1,'PluginHostType']]],

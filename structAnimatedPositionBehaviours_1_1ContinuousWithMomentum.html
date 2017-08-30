@@ -104,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6fa86d2cbe42cc93f23953e52b7f0379"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimatedPositionBehaviours_1_1ContinuousWithMomentum.html#a6fa86d2cbe42cc93f23953e52b7f0379">setFriction</a> (double newFriction) noexcept</td></tr>
 <tr class="memdesc:a6fa86d2cbe42cc93f23953e52b7f0379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the friction that damps the movement of the value.  <a href="#a6fa86d2cbe42cc93f23953e52b7f0379">More...</a><br/></td></tr>
 <tr class="separator:a6fa86d2cbe42cc93f23953e52b7f0379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe7280ba9aa86c6f44a490c5b2ef9315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimatedPositionBehaviours_1_1ContinuousWithMomentum.html#afe7280ba9aa86c6f44a490c5b2ef9315">setMinimumVelocity</a> (double newMinimumVelocityToUse) noexcept</td></tr>
+<tr class="memdesc:afe7280ba9aa86c6f44a490c5b2ef9315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the minimum velocity of the movement.  <a href="#afe7280ba9aa86c6f44a490c5b2ef9315">More...</a><br/></td></tr>
+<tr class="separator:afe7280ba9aa86c6f44a490c5b2ef9315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a1b118982769764a7f8bac990f27864"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimatedPositionBehaviours_1_1ContinuousWithMomentum.html#a3a1b118982769764a7f8bac990f27864">releasedWithVelocity</a> (double, double releaseVelocity) noexcept</td></tr>
 <tr class="memdesc:a3a1b118982769764a7f8bac990f27864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the <a class="el" href="classAnimatedPosition.html" title="Models a 1-dimensional position that can be dragged around by the user, and which will then continue ...">AnimatedPosition</a> class.  <a href="#a3a1b118982769764a7f8bac990f27864">More...</a><br/></td></tr>
 <tr class="separator:a3a1b118982769764a7f8bac990f27864"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +170,33 @@ Public Member Functions</h2></td></tr>
 
 <p>Sets the friction that damps the movement of the value. </p>
 <p>A typical value is 0.08; higher values indicate more friction. </p>
+
+</div>
+</div>
+<a class="anchor" id="afe7280ba9aa86c6f44a490c5b2ef9315"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnimatedPositionBehaviours::ContinuousWithMomentum::setMinimumVelocity </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>newMinimumVelocityToUse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the minimum velocity of the movement. </p>
+<p>Any velocity that's slower than this will stop the animation. The default is 0.05. </p>
 
 </div>
 </div>
@@ -277,7 +307,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 30 2017 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 31 2017 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

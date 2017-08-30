@@ -114,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8a4c37b9e77848e48b499f441749324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterprocessConnectionServer.html#ac8a4c37b9e77848e48b499f441749324">stop</a> ()</td></tr>
 <tr class="memdesc:ac8a4c37b9e77848e48b499f441749324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates the listener thread, if it's active.  <a href="#ac8a4c37b9e77848e48b499f441749324">More...</a><br/></td></tr>
 <tr class="separator:ac8a4c37b9e77848e48b499f441749324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae364144bb7bb0c402b765a10ae090cbb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInterprocessConnectionServer.html#ae364144bb7bb0c402b765a10ae090cbb">getBoundPort</a> () const noexcept</td></tr>
+<tr class="memdesc:ae364144bb7bb0c402b765a10ae090cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the local port number to which this server is currently bound.  <a href="#ae364144bb7bb0c402b765a10ae090cbb">More...</a><br/></td></tr>
+<tr class="separator:ae364144bb7bb0c402b765a10ae090cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -217,6 +220,33 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae364144bb7bb0c402b765a10ae090cbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InterprocessConnectionServer::getBoundPort </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the local port number to which this server is currently bound. </p>
+<p>This is useful if you need to know to which port the OS has actually bound your socket when calling beginWaitingForSocket with a port number of zero.</p>
+<p>Returns -1 if the function fails. </p>
+
+</div>
+</div>
 <a class="anchor" id="af0f9bee85542b7adc149270ad779b415"></a>
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +280,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 30 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 31 2017 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
