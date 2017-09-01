@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gammacorrection',['gammaCorrection',['../group__juce__blocks__basics-protocol.html#gga6f92f2ffae18d56f68c5c4987e081ea3ab9f833eae0fc0db22668d50ffcda1318',1,'juce_BlocksProtocolDefinitions.h']]],
   ['gate',['gate',['../group__LittleFootFunctions.html#ggaee3ea37f4f505980157cf93a84687bcba5221c03ccb4065b74a01f3c3f1d93516',1,'juce_LittleFootFunctions.dox']]],
   ['genericparameter',['genericParameter',['../classAudioProcessorParameter.html#aef73dff71cb1abfdadd5b6f3649d7db2ac86017a29081bfb3405d7d5a4ed2c370',1,'AudioProcessorParameter']]],
   ['glidelock',['glideLock',['../classControlButton.html#a891776295057786f99f14631b1aa2794a966c488cd3e2bc27e4ebfe752cd7e36f',1,'ControlButton::glideLock()'],['../group__juce__blocks__basics-protocol.html#gga6f92f2ffae18d56f68c5c4987e081ea3a4afa33103853d734e4deb332a41f74dd',1,'glideLock():&#160;juce_BlocksProtocolDefinitions.h']]],

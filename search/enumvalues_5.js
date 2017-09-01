@@ -32,6 +32,7 @@ var searchData=
   ['focuschangeddirectly',['focusChangedDirectly',['../classComponent.html#a7fd775ea6b1190d5d694fdffa539dfacad71927268411a4afe7f75bf6034add04',1,'Component']]],
   ['focusedoutlinecolourid',['focusedOutlineColourId',['../classTextEditor.html#aa805220923c93cd808a92fff0e3fb71da590a3ad72115412061fdfbbb089609fb',1,'TextEditor']]],
   ['foregroundcolourid',['foregroundColourId',['../classProgressBar.html#a3486234bde4b1095a948fea269635d42a92bc4a65179b4e85dff89b628f5a6e55',1,'ProgressBar']]],
+  ['fps23976',['fps23976',['../classAudioPlayHead.html#a9afad1749c8002945b2a6921eef92b25a079ca90749cf3efb537b95a7d79181aa',1,'AudioPlayHead']]],
   ['fps24',['fps24',['../classAudioPlayHead.html#a9afad1749c8002945b2a6921eef92b25a0a9a4305317d85cf1975f6be3569e9df',1,'AudioPlayHead::fps24()'],['../classMidiMessage.html#a0e86db4d1186af858ad9f80d6abe96abade7bcfdca717ecd009d2a10c41e77485',1,'MidiMessage::fps24()']]],
   ['fps25',['fps25',['../classAudioPlayHead.html#a9afad1749c8002945b2a6921eef92b25a8deb0cfa8182f6be90cb4d91b4b68456',1,'AudioPlayHead::fps25()'],['../classMidiMessage.html#a0e86db4d1186af858ad9f80d6abe96abab4a72d4e94a2431828188c3dd05df35a',1,'MidiMessage::fps25()']]],
   ['fps2997',['fps2997',['../classAudioPlayHead.html#a9afad1749c8002945b2a6921eef92b25a7c5eadafb62a8be03ab5690d34fb7460',1,'AudioPlayHead']]],

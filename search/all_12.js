@@ -1173,7 +1173,7 @@ var searchData=
   ['swapwithpath',['swapWithPath',['../classPath.html#a2ee3f81a2712d4c31f59f1a8edba4111',1,'Path']]],
   ['switched',['switched',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0ae278b856f84c176f8a1628c118e902fc',1,'AppleRemoteDevice']]],
   ['switchtohostapplication',['switchToHostApplication',['../classStandalonePluginHolder.html#a0b1ef92384de110757657b18ced2b5bd',1,'StandalonePluginHolder::switchToHostApplication()'],['../classPluginHostType.html#a4f9f4678fdc4e60dd0df04b10503321b',1,'PluginHostType::switchToHostApplication()']]],
-  ['symbol',['Symbol',['../structExpression_1_1Symbol.html#a5c3008e4a646591306842c148af8c2d5',1,'Expression::Symbol::Symbol()'],['../classExpression.html#a596e6864c20b0d6ac5f42014103e6349',1,'Expression::symbol()']]],
+  ['symbol',['symbol',['../classExpression.html#a596e6864c20b0d6ac5f42014103e6349',1,'Expression::symbol()'],['../structExpression_1_1Symbol.html#a5c3008e4a646591306842c148af8c2d5',1,'Expression::Symbol::Symbol()']]],
   ['symbol',['Symbol',['../structExpression_1_1Symbol.html',1,'Expression']]],
   ['symbolname',['symbolName',['../structExpression_1_1Symbol.html#a8ea461b91478b99e10a04956c38f5d68',1,'Expression::Symbol']]],
   ['symboltype',['symbolType',['../classExpression.html#aa416ac50fdbe8bdea9c59f5c78f0c85baef74a77024f2e22f163d3b2346b99162',1,'Expression']]],
