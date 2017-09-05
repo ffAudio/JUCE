@@ -162,9 +162,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6524e841fc7ebb1936690f8be147417"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ab6524e841fc7ebb1936690f8be147417">isSustainPedalDown</a> () const noexcept</td></tr>
 <tr class="memdesc:ab6524e841fc7ebb1936690f8be147417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sustain pedal is currently active for this voice.  <a href="#ab6524e841fc7ebb1936690f8be147417">More...</a><br/></td></tr>
 <tr class="separator:ab6524e841fc7ebb1936690f8be147417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3af7b1fcda3a5d8191720bb9a907036"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ac3af7b1fcda3a5d8191720bb9a907036">setSustainPedalDown</a> (bool isNowDown) noexcept</td></tr>
+<tr class="memdesc:ac3af7b1fcda3a5d8191720bb9a907036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the sustain pedal flag.  <a href="#ac3af7b1fcda3a5d8191720bb9a907036">More...</a><br/></td></tr>
+<tr class="separator:ac3af7b1fcda3a5d8191720bb9a907036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8011b7b9c2cb7641fe99e94427a95717"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a8011b7b9c2cb7641fe99e94427a95717">isSostenutoPedalDown</a> () const noexcept</td></tr>
 <tr class="memdesc:a8011b7b9c2cb7641fe99e94427a95717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sostenuto pedal is currently active for this voice.  <a href="#a8011b7b9c2cb7641fe99e94427a95717">More...</a><br/></td></tr>
 <tr class="separator:a8011b7b9c2cb7641fe99e94427a95717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36018b24b458f557988463e9e08388b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#ad36018b24b458f557988463e9e08388b">setSostenutoPedalDown</a> (bool isNowDown) noexcept</td></tr>
+<tr class="memdesc:ad36018b24b458f557988463e9e08388b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the sostenuto pedal flag.  <a href="#ad36018b24b458f557988463e9e08388b">More...</a><br/></td></tr>
+<tr class="separator:ad36018b24b458f557988463e9e08388b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa928c0b5d570b8b82f8d86b60e2a6597"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#aa928c0b5d570b8b82f8d86b60e2a6597">isPlayingButReleased</a> () const noexcept</td></tr>
 <tr class="memdesc:aa928c0b5d570b8b82f8d86b60e2a6597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a voice is sounding in its release phase.  <a href="#aa928c0b5d570b8b82f8d86b60e2a6597">More...</a><br/></td></tr>
 <tr class="separator:aa928c0b5d570b8b82f8d86b60e2a6597"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -798,6 +804,32 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac3af7b1fcda3a5d8191720bb9a907036"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SynthesiserVoice::setSustainPedalDown </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isNowDown</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modifies the sustain pedal flag. </p>
+
+</div>
+</div>
 <a class="anchor" id="a8011b7b9c2cb7641fe99e94427a95717"></a>
 <div class="memitem">
 <div class="memproto">
@@ -820,6 +852,32 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if the sostenuto pedal is currently active for this voice. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad36018b24b458f557988463e9e08388b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SynthesiserVoice::setSostenutoPedalDown </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isNowDown</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modifies the sostenuto pedal flag. </p>
 
 </div>
 </div>
@@ -908,7 +966,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 5 2017 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 6 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
