@@ -123,15 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abb153409e024c1e733d44cc60d32aa94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOversampling.html#abb153409e024c1e733d44cc60d32aa94">reset</a> () noexcept</td></tr>
 <tr class="memdesc:abb153409e024c1e733d44cc60d32aa94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the processing pipeline, ready to oversample a new stream of data.  <a href="#abb153409e024c1e733d44cc60d32aa94">More...</a><br/></td></tr>
 <tr class="separator:abb153409e024c1e733d44cc60d32aa94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3cb8ae8882878b17a83ad59fa94267d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOversampling.html#af3cb8ae8882878b17a83ad59fa94267d">processSamplesUp</a> (dsp::AudioBlock&lt; SampleType &gt; &amp;block) noexcept</td></tr>
-<tr class="memdesc:af3cb8ae8882878b17a83ad59fa94267d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called to perform the upsampling, prior to any oversampled processing.  <a href="#af3cb8ae8882878b17a83ad59fa94267d">More...</a><br/></td></tr>
-<tr class="separator:af3cb8ae8882878b17a83ad59fa94267d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a658e85eb19b5d76d4a30124b90e9470d"><td class="memItemLeft" align="right" valign="top">dsp::AudioBlock&lt; SampleType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOversampling.html#a658e85eb19b5d76d4a30124b90e9470d">getProcessedSamples</a> ()</td></tr>
-<tr class="memdesc:a658e85eb19b5d76d4a30124b90e9470d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be called to access to the oversampled input signal, to perform any non- linear processing which needs the higher sample rate.  <a href="#a658e85eb19b5d76d4a30124b90e9470d">More...</a><br/></td></tr>
-<tr class="separator:a658e85eb19b5d76d4a30124b90e9470d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a175eef022ff0664952ea20b0adf5fb1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOversampling.html#a175eef022ff0664952ea20b0adf5fb1b">processSamplesDown</a> (dsp::AudioBlock&lt; SampleType &gt; &amp;block) noexcept</td></tr>
-<tr class="memdesc:a175eef022ff0664952ea20b0adf5fb1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called to perform the downsampling, after the upsampling and the non-linear processing.  <a href="#a175eef022ff0664952ea20b0adf5fb1b">More...</a><br/></td></tr>
-<tr class="separator:a175eef022ff0664952ea20b0adf5fb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1d1421a97bcef00933db6e3dda077c2"><td class="memItemLeft" align="right" valign="top">dsp::AudioBlock&lt; SampleType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOversampling.html#ab1d1421a97bcef00933db6e3dda077c2">processSamplesUp</a> (const dsp::AudioBlock&lt; SampleType &gt; &amp;inputBlock) noexcept</td></tr>
+<tr class="memdesc:ab1d1421a97bcef00933db6e3dda077c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called to perform the upsampling, prior to any oversampled processing.  <a href="#ab1d1421a97bcef00933db6e3dda077c2">More...</a><br/></td></tr>
+<tr class="separator:ab1d1421a97bcef00933db6e3dda077c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab320db99558947185f5ad031a513ed8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOversampling.html#ab320db99558947185f5ad031a513ed8b">processSamplesDown</a> (dsp::AudioBlock&lt; SampleType &gt; &amp;outputBlock) noexcept</td></tr>
+<tr class="memdesc:ab320db99558947185f5ad031a513ed8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called to perform the downsampling, after the upsampling and the non-linear processing.  <a href="#ab320db99558947185f5ad031a513ed8b">More...</a><br/></td></tr>
+<tr class="separator:ab320db99558947185f5ad031a513ed8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename SampleType&gt;<br/>
@@ -265,7 +262,8 @@ template&lt;typename SampleType &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the latency in samples of the whole processing. </p>
-<p>Use this information in your main processor to compensate the additional latency involved with the oversampling, for example with a dry / wet functionality, and to report the latency to the DAW. </p>
+<p>Use this information in your main processor to compensate the additional latency involved with the oversampling, for example with a dry / wet functionality, and to report the latency to the DAW.</p>
+<p>Note : the latency might not be integer, so you might need to round its value or to compensate it properly in your processing code. </p>
 
 </div>
 </div>
@@ -343,7 +341,7 @@ template&lt;typename SampleType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="af3cb8ae8882878b17a83ad59fa94267d"></a>
+<a class="anchor" id="ab1d1421a97bcef00933db6e3dda077c2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -353,10 +351,10 @@ template&lt;typename SampleType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classOversampling.html">Oversampling</a>&lt; SampleType &gt;::processSamplesUp </td>
+          <td class="memname">dsp::AudioBlock&lt;SampleType&gt; <a class="el" href="classOversampling.html">Oversampling</a>&lt; SampleType &gt;::processSamplesUp </td>
           <td>(</td>
-          <td class="paramtype">dsp::AudioBlock&lt; SampleType &gt; &amp;&#160;</td>
-          <td class="paramname"><em>block</em></td><td>)</td>
+          <td class="paramtype">const dsp::AudioBlock&lt; SampleType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inputBlock</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -368,30 +366,11 @@ template&lt;typename SampleType &gt; </div>
 </div><div class="memdoc">
 
 <p>Must be called to perform the upsampling, prior to any oversampled processing. </p>
+<p>Returns an <a class="el" href="classAudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> referencing the oversampled input signal, which must be used to perform the non-linear processing which needs the higher sample rate. Don't forget to set the sample rate of that processing to N times the original sample rate. </p>
 
 </div>
 </div>
-<a class="anchor" id="a658e85eb19b5d76d4a30124b90e9470d"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename SampleType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">dsp::AudioBlock&lt;SampleType&gt; <a class="el" href="classOversampling.html">Oversampling</a>&lt; SampleType &gt;::getProcessedSamples </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Can be called to access to the oversampled input signal, to perform any non- linear processing which needs the higher sample rate. </p>
-<p>Don't forget to set the sample rate of that processing to N times the original sample rate. </p>
-
-</div>
-</div>
-<a class="anchor" id="a175eef022ff0664952ea20b0adf5fb1b"></a>
+<a class="anchor" id="ab320db99558947185f5ad031a513ed8b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -404,7 +383,7 @@ template&lt;typename SampleType &gt; </div>
           <td class="memname">void <a class="el" href="classOversampling.html">Oversampling</a>&lt; SampleType &gt;::processSamplesDown </td>
           <td>(</td>
           <td class="paramtype">dsp::AudioBlock&lt; SampleType &gt; &amp;&#160;</td>
-          <td class="paramname"><em>block</em></td><td>)</td>
+          <td class="paramname"><em>outputBlock</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -426,7 +405,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

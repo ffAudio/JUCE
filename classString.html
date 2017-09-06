@@ -88,7 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classString-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">String Class Reference<div class="ingroups"><a class="el" href="group__juce__core-text.html">text</a></div></div>  </div>
+<div class="title">String Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -1561,6 +1561,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generates a probably-unique hashcode from this string. </p>
+
+<p>Referenced by <a class="el" href="structstd_1_1hash_3_01juce_1_1String_01_4.html#a714d462927518025f9f8f863f8ef5685">std::hash&lt; juce::String &gt;::operator()()</a>.</p>
 
 </div>
 </div>
@@ -4517,7 +4519,7 @@ template&lt;typename IntegerType &gt; </div>
 <p>To find out how many bytes you need to store this string as UTF-8, you can call <a class="el" href="classCharPointer__UTF8.html#af70d66750ea1b8be02f613592319059e" title="Returns the number of bytes that would be needed to represent the given unicode character in this enc...">CharPointer_UTF8::getBytesRequiredFor</a> (myString.getCharPointer())</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a026f5d21f882d2ffe0406ef1e4907897" title="Returns the character pointer currently being used to store this string. ">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string. ">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string. ">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string. ">toUTF32</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="structCppTokeniserFunctions.html#a0af79aca7fefba85524844c4b201803a">CppTokeniserFunctions::addEscapeChars()</a>, and <a class="el" href="group__juce__core-text.html#gaeb8f16cdf7cbd9d5c2d9863767c6a300">operator&lt;&lt;()</a>.</p>
+<p>Referenced by <a class="el" href="structCppTokeniserFunctions.html#a0af79aca7fefba85524844c4b201803a">CppTokeniserFunctions::addEscapeChars()</a>, and <a class="el" href="juce__String_8h.html#aeb8f16cdf7cbd9d5c2d9863767c6a300">operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -4578,7 +4580,7 @@ template&lt;typename IntegerType &gt; </div>
 <p>Bear in mind that the wchar_t type is different on different platforms, so on Windows, this will be equivalent to calling <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string. ">toUTF16()</a>, on unix it'll be the same as calling <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string. ">toUTF32()</a>, etc.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classString.html#a026f5d21f882d2ffe0406ef1e4907897" title="Returns the character pointer currently being used to store this string. ">getCharPointer</a>, <a class="el" href="classString.html#ae9e2c87c3ff8410e4f70a02288ece2dd" title="Returns a pointer to a UTF-8 version of this string. ">toUTF8</a>, <a class="el" href="classString.html#a42615fce86848058d0234dbc157d0529" title="Returns a pointer to a UTF-16 version of this string. ">toUTF16</a>, <a class="el" href="classString.html#aeaee566db302127fdea2d93f5464ccc4" title="Returns a pointer to a UTF-32 version of this string. ">toUTF32</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="group__juce__core-text.html#ga658d972ca79f5270ac88b18de27f505e">operator&lt;&lt;()</a>.</p>
+<p>Referenced by <a class="el" href="juce__String_8h.html#a658d972ca79f5270ac88b18de27f505e">operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -4946,7 +4948,7 @@ template&lt;typename IntegerType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

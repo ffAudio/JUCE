@@ -68,7 +68,7 @@ var searchData=
   ['loadfromxml',['loadFromXml',['../classPluginDescription.html#a5fae3bea93cc8398b3c114dfd52bfd42',1,'PluginDescription']]],
   ['loadglyphifpossible',['loadGlyphIfPossible',['../classCustomTypeface.html#a3d46ee607d4e0e1a7eb2a67f670fd9e5',1,'CustomTypeface']]],
   ['loadimage',['loadImage',['../classOpenGLTexture.html#a93c27d490ac810bc0faef0796aa05bc4',1,'OpenGLTexture']]],
-  ['loadimpulseresponse',['loadImpulseResponse',['../classConvolution.html#af5ff9ad52970e3ff74c3892b329d1261',1,'Convolution::loadImpulseResponse(const void *sourceData, size_t sourceDataSize, bool wantsStereo, size_t size)'],['../classConvolution.html#aefebdf5eeded5b4ac7c35ef85c96ec85',1,'Convolution::loadImpulseResponse(const File &amp;fileImpulseResponse, bool wantsStereo, size_t size)']]],
+  ['loadimpulseresponse',['loadImpulseResponse',['../classConvolution.html#a466186365c26183637d20fd7fb2cc068',1,'Convolution::loadImpulseResponse(const void *sourceData, size_t sourceDataSize, bool wantsStereo, bool wantsTrimming, size_t size)'],['../classConvolution.html#a748df0cb7968ebb6318eacd86212431d',1,'Convolution::loadImpulseResponse(const File &amp;fileImpulseResponse, bool wantsStereo, bool wantsTrimming, size_t size)']]],
   ['loadnewthumb',['loadNewThumb',['../classAudioThumbnailCache.html#a70a034bb9341604fe41b7bcfe613ba12',1,'AudioThumbnailCache']]],
   ['loadpathfromdata',['loadPathFromData',['../classPath.html#a1f89b06ebcaac3150d8e6a1483ce1e28',1,'Path']]],
   ['loadpathfromstream',['loadPathFromStream',['../classPath.html#a00e0e38020c035feb29e498a0ab93433',1,'Path']]],

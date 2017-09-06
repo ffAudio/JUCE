@@ -251,8 +251,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d73ed05285a4386b50472710e10ad3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61332eb0982fa8872e1fec9aadf03082"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableHeaderComponent.html#a61332eb0982fa8872e1fec9aadf03082">paint</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;) override</td></tr>
 <tr class="separator:a61332eb0982fa8872e1fec9aadf03082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a203db8edd85f6b279ad206421d3389"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableHeaderComponent.html#a2a203db8edd85f6b279ad206421d3389">resized</a> () override</td></tr>
-<tr class="separator:a2a203db8edd85f6b279ad206421d3389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358870898bb0cbd599e4838e51db31ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableHeaderComponent.html#a358870898bb0cbd599e4838e51db31ed">mouseMove</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;) override</td></tr>
 <tr class="separator:a358870898bb0cbd599e4838e51db31ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab981915bf8abab35ec95a8c285187f66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTableHeaderComponent.html#ab981915bf8abab35ec95a8c285187f66">mouseEnter</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;) override</td></tr>
@@ -713,6 +711,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afe14919a4a06747a9b7c98e2cff0ef3a inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#afe14919a4a06747a9b7c98e2cff0ef3a">getMouseXYRelative</a> () const </td></tr>
 <tr class="memdesc:afe14919a4a06747a9b7c98e2cff0ef3a inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mouse's current position, relative to this component.  <a href="#afe14919a4a06747a9b7c98e2cff0ef3a">More...</a><br/></td></tr>
 <tr class="separator:afe14919a4a06747a9b7c98e2cff0ef3a inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad896183a68d71daf5816982d1fefd960 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ad896183a68d71daf5816982d1fefd960">resized</a> ()</td></tr>
+<tr class="memdesc:ad896183a68d71daf5816982d1fefd960 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this component's size has been changed.  <a href="#ad896183a68d71daf5816982d1fefd960">More...</a><br/></td></tr>
+<tr class="separator:ad896183a68d71daf5816982d1fefd960 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b94f2816dc8bc20473620e0db0e8246 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a1b94f2816dc8bc20473620e0db0e8246">moved</a> ()</td></tr>
 <tr class="memdesc:a1b94f2816dc8bc20473620e0db0e8246 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this component's position has been changed.  <a href="#a1b94f2816dc8bc20473620e0db0e8246">More...</a><br/></td></tr>
 <tr class="separator:a1b94f2816dc8bc20473620e0db0e8246 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1781,31 +1782,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2a203db8edd85f6b279ad206421d3389"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TableHeaderComponent::resized </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classComponent.html#ad896183a68d71daf5816982d1fefd960">Component</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a358870898bb0cbd599e4838e51db31ed"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2019,7 +1995,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
