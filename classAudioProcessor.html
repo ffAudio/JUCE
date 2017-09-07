@@ -342,6 +342,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a07b5efc95b686b57256b16c22eec7f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0a07b5efc95b686b57256b16c22eec7f">getParameterNumSteps</a> (int parameterIndex)</td></tr>
 <tr class="memdesc:a0a07b5efc95b686b57256b16c22eec7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of discrete steps that this parameter can represent.  <a href="#a0a07b5efc95b686b57256b16c22eec7f">More...</a><br/></td></tr>
 <tr class="separator:a0a07b5efc95b686b57256b16c22eec7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c3dbc4b757454a1cd38e8f116df23c8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a4c3dbc4b757454a1cd38e8f116df23c8">isParameterDiscrete</a> (int parameterIndex) const </td></tr>
+<tr class="memdesc:a4c3dbc4b757454a1cd38e8f116df23c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the parameter should take discrete, rather than continuous values.  <a href="#a4c3dbc4b757454a1cd38e8f116df23c8">More...</a><br/></td></tr>
+<tr class="separator:a4c3dbc4b757454a1cd38e8f116df23c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a727cc79e6efb14222e91e65f3ebc5e91"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a727cc79e6efb14222e91e65f3ebc5e91">getParameterDefaultValue</a> (int parameterIndex)</td></tr>
 <tr class="memdesc:a727cc79e6efb14222e91e65f3ebc5e91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default value for the parameter.  <a href="#a727cc79e6efb14222e91e65f3ebc5e91">More...</a><br/></td></tr>
 <tr class="separator:a727cc79e6efb14222e91e65f3ebc5e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2640,8 +2643,12 @@ template&lt;int numLayouts&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the number of discrete steps that this parameter can represent. </p>
-<p>The default return value if you don't implement this method is <a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d" title="Returns the default number of steps for a parameter. ">AudioProcessor::getDefaultNumParameterSteps()</a>. If your parameter is boolean, then you may want to make this return 2. The value that is returned may or may not be used, depending on the host.</p>
-<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of discrete interval steps that this parameter&#39;s range should be quantised into...">AudioProcessorParameter::getNumSteps()</a> instead. </p>
+<p>The default return value if you don't implement this method is <a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d" title="Returns the default number of steps for a parameter. ">AudioProcessor::getDefaultNumParameterSteps()</a>.</p>
+<p>If your parameter is boolean, then you may want to make this return 2.</p>
+<p>If you want the host to display stepped automation values, rather than a continuous interpolation between successive values, you should ensure that isParameterDiscrete returns true.</p>
+<p>The value that is returned may or may not be used, depending on the host.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of steps that this parameter&#39;s range should be quantised into. ...">AudioProcessorParameter::getNumSteps()</a> instead.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#a4c3dbc4b757454a1cd38e8f116df23c8" title="Returns true if the parameter should take discrete, rather than continuous values. ">isParameterDiscrete</a> </dd></dl>
 
 </div>
 </div>
@@ -2667,7 +2674,37 @@ template&lt;int numLayouts&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the default number of steps for a parameter. </p>
-<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of discrete interval steps that this parameter&#39;s range should be quantised into...">AudioProcessorParameter::getNumSteps()</a> instead. </p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of steps that this parameter&#39;s range should be quantised into. ...">AudioProcessorParameter::getNumSteps()</a> instead.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#a0a07b5efc95b686b57256b16c22eec7f" title="Returns the number of discrete steps that this parameter can represent. ">getParameterNumSteps</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4c3dbc4b757454a1cd38e8f116df23c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AudioProcessor::isParameterDiscrete </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>parameterIndex</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the parameter should take discrete, rather than continuous values. </p>
+<p>If the parameter is boolean, this should return true (with getParameterNumSteps returning 2).</p>
+<p>The value that is returned may or may not be used, depending on the host.</p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#aeb0ee23392584cc91d1894120d49a750" title="Returns whether the parameter uses discrete values, based on the result of getNumSteps, or allows the host to select values continuously. ">AudioProcessorParameter::isDiscrete()</a> instead.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#a0a07b5efc95b686b57256b16c22eec7f" title="Returns the number of discrete steps that this parameter can represent. ">getParameterNumSteps</a> </dd></dl>
 
 </div>
@@ -3930,7 +3967,7 @@ template&lt;int numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 8 2017 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

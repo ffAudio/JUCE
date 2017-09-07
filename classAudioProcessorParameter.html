@@ -150,8 +150,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1413a29855168b5e0ca5a1cd648d352a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some parameters may be able to return a label string for their units.  <a href="#a1413a29855168b5e0ca5a1cd648d352a">More...</a><br/></td></tr>
 <tr class="separator:a1413a29855168b5e0ca5a1cd648d352a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4707ab253ff2585a12f3e4a42958e0d6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6">getNumSteps</a> () const </td></tr>
-<tr class="memdesc:a4707ab253ff2585a12f3e4a42958e0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of discrete interval steps that this parameter's range should be quantised into.  <a href="#a4707ab253ff2585a12f3e4a42958e0d6">More...</a><br/></td></tr>
+<tr class="memdesc:a4707ab253ff2585a12f3e4a42958e0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of steps that this parameter's range should be quantised into.  <a href="#a4707ab253ff2585a12f3e4a42958e0d6">More...</a><br/></td></tr>
 <tr class="separator:a4707ab253ff2585a12f3e4a42958e0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0ee23392584cc91d1894120d49a750"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#aeb0ee23392584cc91d1894120d49a750">isDiscrete</a> () const </td></tr>
+<tr class="memdesc:aeb0ee23392584cc91d1894120d49a750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the parameter uses discrete values, based on the result of getNumSteps, or allows the host to select values continuously.  <a href="#aeb0ee23392584cc91d1894120d49a750">More...</a><br/></td></tr>
+<tr class="separator:aeb0ee23392584cc91d1894120d49a750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5bd8a255ef5dd285787ab0b5a7a7d76"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#aa5bd8a255ef5dd285787ab0b5a7a7d76">getText</a> (float <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>, int) const </td></tr>
 <tr class="memdesc:aa5bd8a255ef5dd285787ab0b5a7a7d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a textual version of the supplied parameter value.  <a href="#aa5bd8a255ef5dd285787ab0b5a7a7d76">More...</a><br/></td></tr>
 <tr class="separator:aa5bd8a255ef5dd285787ab0b5a7a7d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -474,8 +477,38 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the number of discrete interval steps that this parameter's range should be quantised into. </p>
-<p>If you want a continuous range of values, don't override this method, and allow the default implementation to return <a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d" title="Returns the default number of steps for a parameter. ">AudioProcessor::getDefaultNumParameterSteps()</a>. If your parameter is boolean, then you may want to make this return 2. The value that is returned may or may not be used, depending on the host. </p>
+<p>Returns the number of steps that this parameter's range should be quantised into. </p>
+<p>If you want a continuous range of values, don't override this method, and allow the default implementation to return <a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d" title="Returns the default number of steps for a parameter. ">AudioProcessor::getDefaultNumParameterSteps()</a>.</p>
+<p>If your parameter is boolean, then you may want to make this return 2.</p>
+<p>The value that is returned may or may not be used, depending on the host. If you want the host to display stepped automation values, rather than a continuous interpolation between successive values, you should override isDiscrete to return true.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessorParameter.html#aeb0ee23392584cc91d1894120d49a750" title="Returns whether the parameter uses discrete values, based on the result of getNumSteps, or allows the host to select values continuously. ">isDiscrete</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aeb0ee23392584cc91d1894120d49a750"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AudioProcessorParameter::isDiscrete </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns whether the parameter uses discrete values, based on the result of getNumSteps, or allows the host to select values continuously. </p>
+<p>This information may or may not be used, depending on the host. If you want the host to display stepped automation values, rather than a continuous interpolation between successive values, override this method to return true.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of steps that this parameter&#39;s range should be quantised into. ...">getNumSteps</a> </dd></dl>
 
 </div>
 </div>
@@ -676,7 +709,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 8 2017 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

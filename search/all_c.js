@@ -221,6 +221,7 @@ var searchData=
   ['mmc_5frecordstop',['mmc_recordStop',['../classMidiMessage.html#aa95b060274257522d1af40794ad1631da2dde82123f4aba81c023d5a07e6732cf',1,'MidiMessage']]],
   ['mmc_5frewind',['mmc_rewind',['../classMidiMessage.html#aa95b060274257522d1af40794ad1631da8ab7de3ea5e060435d0d420630cdd40b',1,'MidiMessage']]],
   ['mmc_5fstop',['mmc_stop',['../classMidiMessage.html#aa95b060274257522d1af40794ad1631da155f2d18fc89378f6cc9c4982db67bac',1,'MidiMessage']]],
+  ['moccasin',['moccasin',['../classColours.html#a2eaeaf3cea2e6cb38bb4c31034d60186',1,'Colours']]],
   ['mod',['mod',['../group__LittleFootFunctions.html#ga427bcef6cf410a410b7e22e51425ea73',1,'juce_LittleFootFunctions.dox']]],
   ['modalcallbackfunction',['ModalCallbackFunction',['../classModalCallbackFunction.html',1,'']]],
   ['modalcomponentmanager',['ModalComponentManager',['../classModalComponentManager.html',1,'ModalComponentManager'],['../classModalComponentManager.html#aaf0be23075467f26330a77781e1f3ed9',1,'ModalComponentManager::ModalComponentManager()']]],
