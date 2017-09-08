@@ -1,0 +1,12 @@
+<map id="juce::AsyncUpdater" name="juce::AsyncUpdater">
+<area shape="rect" id="node2" href="$classjuce_1_1ApplicationCommandManager.html" title="One of these objects holds a list of all the commands your app can perform, and despatches these comm..." alt="" coords="207,5,385,46"/>
+<area shape="rect" id="node3" href="$classjuce_1_1AudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. " alt="" coords="205,71,387,97"/>
+<area shape="rect" id="node4" href="$classjuce_1_1ComboBox.html" title="A component that lets the user choose from a drop&#45;down list of choices. " alt="" coords="237,121,355,148"/>
+<area shape="rect" id="node5" href="$classjuce_1_1Desktop.html" title="Describes and controls aspects of the computer&#39;s desktop. " alt="" coords="245,172,347,199"/>
+<area shape="rect" id="node6" href="$classjuce_1_1FilenameComponent.html" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="209,223,383,249"/>
+<area shape="rect" id="node7" href="$classjuce_1_1MenuBarModel.html" title="A class for controlling MenuBar components. " alt="" coords="225,273,367,300"/>
+<area shape="rect" id="node8" href="$classjuce_1_1ModalComponentManager.html" title="Manages the system&#39;s stack of modal components. " alt="" coords="193,324,399,351"/>
+<area shape="rect" id="node9" href="$classjuce_1_1ScrollBar.html" title="A scrollbar component. " alt="" coords="243,375,349,401"/>
+<area shape="rect" id="node10" href="$classjuce_1_1TableHeaderComponent.html" title="A component that displays a strip of column headings for a table, and allows these to be resized..." alt="" coords="199,425,393,452"/>
+<area shape="rect" id="node11" href="$classjuce_1_1Value_1_1ValueSource.html" title="Used internally by the Value class as the base class for its shared value objects. " alt="" coords="211,476,381,503"/>
+</map>

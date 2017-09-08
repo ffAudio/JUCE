@@ -1,0 +1,4 @@
+<map id="juce::AudioProcessorPlayer" name="juce::AudioProcessorPlayer">
+<area shape="rect" id="node2" href="$classjuce_1_1AudioIODeviceCallback.html" title="One of these is passed to an AudioIODevice object to stream the audio data in and out..." alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MidiInputCallback.html" title="Receives incoming messages from a physical MIDI input device. " alt="" coords="222,5,380,32"/>
+</map>

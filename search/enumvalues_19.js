@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['zlibformat',['zlibFormat',['../classGZIPDecompressorInputStream.html#a293d005b03d528a89ec13cfb07e31f94a38e3cd57b01d42c10cd866e71343f742',1,'GZIPDecompressorInputStream']]],
-  ['ztrackingmode',['zTrackingMode',['../group__juce__blocks__basics-protocol.html#gga6f92f2ffae18d56f68c5c4987e081ea3a36e4df4de5f5b268b8044ac830ddcfa1',1,'juce_BlocksProtocolDefinitions.h']]]
+  ['zlibformat',['zlibFormat',['../classjuce_1_1GZIPDecompressorInputStream.html#a625c61dffe17f8d32239ab59ad351beea2372aaa59dbeba91a5075fddbc7f5501',1,'juce::GZIPDecompressorInputStream']]],
+  ['ztrackingmode',['zTrackingMode',['../namespacejuce_1_1BlocksProtocol.html#aee7758145215e6f195a04a0c55f0dfdeae4a2016e10325d5d1410fa955c1afa69',1,'juce::BlocksProtocol']]]
 ];

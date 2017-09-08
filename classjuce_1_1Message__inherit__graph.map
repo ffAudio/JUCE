@@ -1,0 +1,4 @@
+<map id="juce::Message" name="juce::Message">
+<area shape="rect" id="node2" href="$classjuce_1_1MessageManager_1_1MessageBase.html" title="Internal class used as the base class for all message objects. " alt="" coords="27,81,184,122"/>
+<area shape="rect" id="node3" href="$classjuce_1_1ReferenceCountedObject.html" title="A base class which provides methods for reference&#45;counting. " alt="" coords="5,5,205,32"/>
+</map>

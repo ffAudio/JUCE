@@ -1,0 +1,8 @@
+<map id="juce::InputStream" name="juce::InputStream">
+<area shape="rect" id="node2" href="$classjuce_1_1BufferedInputStream.html" title="Wraps another input stream, and reads from it using an intermediate buffer. " alt="" coords="191,5,366,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1FileInputStream.html" title="An input stream that reads from a local file. " alt="" coords="205,56,352,83"/>
+<area shape="rect" id="node4" href="$classjuce_1_1GZIPDecompressorInputStream.html" title="This stream will decompress a source&#45;stream using zlib. " alt="" coords="179,107,378,149"/>
+<area shape="rect" id="node5" href="$classjuce_1_1MemoryInputStream.html" title="Allows a block of data to be accessed as a stream. " alt="" coords="193,173,365,200"/>
+<area shape="rect" id="node6" href="$classjuce_1_1SubregionStream.html" title="Wraps another input stream, and reads from a specific part of it. " alt="" coords="201,224,356,251"/>
+<area shape="rect" id="node7" href="$classjuce_1_1WebInputStream.html" title="An InputStream which can be used to read from a given url. " alt="" coords="203,275,355,301"/>
+</map>

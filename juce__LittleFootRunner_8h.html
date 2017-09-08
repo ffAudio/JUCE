@@ -134,7 +134,7 @@ Macros</h2></td></tr>
 <tr class="separator:a4d152d4f9f135385189278236974a572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf1a22a2a443f1731efa9a82a84cbc51"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootRunner_8h.html#adf1a22a2a443f1731efa9a82a84cbc51">LITTLEFOOT_PERFORM_OP</a>(name)&#160;&#160;&#160;case OpCode::name: name(); break;</td></tr>
 <tr class="separator:adf1a22a2a443f1731efa9a82a84cbc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1175969d20fe0aba037f97ab237dcdf3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootRunner_8h.html#a1175969d20fe0aba037f97ab237dcdf3">LITTLEFOOT_PERFORM_OP_INT8</a>(name)&#160;&#160;&#160;case OpCode::name: name ((<a class="el" href="group__juce__core-maths.html#ga1b956fe1df85f3c132b21edb4e116458">int8</a>) *programCounter++); break;</td></tr>
+<tr class="memitem:a1175969d20fe0aba037f97ab237dcdf3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootRunner_8h.html#a1175969d20fe0aba037f97ab237dcdf3">LITTLEFOOT_PERFORM_OP_INT8</a>(name)&#160;&#160;&#160;case OpCode::name: name ((int8) *programCounter++); break;</td></tr>
 <tr class="separator:a1175969d20fe0aba037f97ab237dcdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b8f4e4d5f8d5fffd5a8776430d3111d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootRunner_8h.html#a5b8f4e4d5f8d5fffd5a8776430d3111d">LITTLEFOOT_PERFORM_OP_INT16</a>(name)&#160;&#160;&#160;case OpCode::name: name (readProgram16()); break;</td></tr>
 <tr class="separator:a5b8f4e4d5f8d5fffd5a8776430d3111d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,7 +155,7 @@ Typedefs</h2></td></tr>
 <tr class="separator:gafc5264c0714df002ef584815c72b219e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga417dab5137c6d4ff4e23303f84099aa9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__blocks__basics-littlefoot.html#ga417dab5137c6d4ff4e23303f84099aa9">littlefoot::uint32</a> = unsigned int</td></tr>
 <tr class="separator:ga417dab5137c6d4ff4e23303f84099aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5f139c5c9fd4fc79b8fd203ce4725338"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__blocks__basics-littlefoot.html#ga5f139c5c9fd4fc79b8fd203ce4725338">littlefoot::FunctionID</a> = <a class="el" href="group__juce__core-maths.html#ga259fa4834387bd68627ddf37bb3ebdb9">int16</a></td></tr>
+<tr class="memitem:ga5f139c5c9fd4fc79b8fd203ce4725338"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__blocks__basics-littlefoot.html#ga5f139c5c9fd4fc79b8fd203ce4725338">littlefoot::FunctionID</a> = int16</td></tr>
 <tr class="separator:ga5f139c5c9fd4fc79b8fd203ce4725338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -286,7 +286,7 @@ Enumerations</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name</td><td>)</td>
-          <td>&#160;&#160;&#160;case OpCode::name: name ((<a class="el" href="group__juce__core-maths.html#ga1b956fe1df85f3c132b21edb4e116458">int8</a>) *programCounter++); break;</td>
+          <td>&#160;&#160;&#160;case OpCode::name: name ((int8) *programCounter++); break;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -334,7 +334,7 @@ Enumerations</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 8 2017 01:00:28 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 9 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,0 +1,6 @@
+<map id="juce::AudioIODeviceCallback" name="juce::AudioIODeviceCallback">
+<area shape="rect" id="node2" href="$classjuce_1_1AudioProcessorPlayer.html" title="An AudioIODeviceCallback object which streams audio through an AudioProcessor. " alt="" coords="254,5,437,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1AudioSourcePlayer.html" title="Wrapper class to continuously stream audio from an audio source to an AudioIODevice. " alt="" coords="263,56,428,83"/>
+<area shape="rect" id="node4" href="$classjuce_1_1SoundPlayer.html" title="A simple sound player that you can add to the AudioDeviceManager to play simple sounds. " alt="" coords="281,107,409,133"/>
+<area shape="rect" id="node5" href="$classjuce_1_1StandalonePluginHolder.html" title="An object that creates and plays a standalone instance of an AudioProcessor. " alt="" coords="249,157,442,184"/>
+</map>

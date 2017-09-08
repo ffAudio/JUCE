@@ -1,0 +1,6 @@
+<map id="juce::AudioFormatReader" name="juce::AudioFormatReader">
+<area shape="rect" id="node2" href="$classjuce_1_1AudioCDReader.html" title="A type of AudioFormatReader that reads from an audio CD. " alt="" coords="260,5,409,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1AudioSubsectionReader.html" title="This class is used to wrap an AudioFormatReader and only read from a subsection of the file..." alt="" coords="237,56,432,83"/>
+<area shape="rect" id="node4" href="$classjuce_1_1BufferingAudioReader.html" title="An AudioFormatReader that uses a background thread to pre&#45;read data from another reader. " alt="" coords="244,107,425,133"/>
+<area shape="rect" id="node5" href="$classjuce_1_1MemoryMappedAudioFormatReader.html" title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f..." alt="" coords="224,158,445,199"/>
+</map>

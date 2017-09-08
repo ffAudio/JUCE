@@ -1,0 +1,4 @@
+<map id="juce::AudioParameterChoice" name="juce::AudioParameterChoice">
+<area shape="rect" id="node2" href="$classjuce_1_1AudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="5,81,211,122"/>
+<area shape="rect" id="node3" href="$classjuce_1_1AudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor. " alt="" coords="5,5,211,32"/>
+</map>

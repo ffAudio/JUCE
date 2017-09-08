@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fir',['FIR',['../namespaceFIR.html',1,'']]]
+  ['littlefoot',['littlefoot',['../namespacelittlefoot.html',1,'']]]
 ];

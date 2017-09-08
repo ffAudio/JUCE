@@ -1,4 +1,0 @@
-<map id="DirectoryContentsList" name="DirectoryContentsList">
-<area shape="rect" id="node2" href="$classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="5,5,141,32"/>
-<area shape="rect" id="node3" href="$classTimeSliceClient.html" title="Used by the TimeSliceThread class. " alt="" coords="167,5,281,32"/>
-</map>

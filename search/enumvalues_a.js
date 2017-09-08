@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['kaiser',['kaiser',['../structWindowingFunction.html#acab1d9c135270ef4983845fe3f47da5ca1d9e29c015719d2cd637d5c660909661',1,'WindowingFunction']]],
-  ['kaudiounitproperty_5fsupportsmpe',['kAudioUnitProperty_SupportsMPE',['../group__juce__audio__processors-format__types.html#gga61dadd085c1777f559549e05962b2c9ea3d9d3125ae195114257428b622aebb52',1,'juce_AudioUnitPluginFormat.h']]],
-  ['keydown',['keyDown',['../structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a895ffc865cb90899c347efefb881e2ce',1,'MPENote']]],
-  ['keydownandsustained',['keyDownAndSustained',['../structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a31c427116ac75e042f9f5315a7aad129',1,'MPENote']]],
-  ['keydownoverlaycolourid',['keyDownOverlayColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05eaca2ce853f7e9341311ff237d17f5485f',1,'MidiKeyboardComponent']]],
-  ['keyseparatorlinecolourid',['keySeparatorLineColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05ea945be9fe34d15aea642b2ab53e2ac30e',1,'MidiKeyboardComponent']]],
+  ['kaiser',['kaiser',['../structjuce_1_1dsp_1_1WindowingFunction.html#a0f93d68684da251f9aee7eb62ad7ff2aa1d233bc5154178e6d723d6bc34471ab9',1,'juce::dsp::WindowingFunction']]],
+  ['kaudiounitproperty_5fsupportsmpe',['kAudioUnitProperty_SupportsMPE',['../group__juce__audio__processors-format__types.html#gga961c55097a38db3523777a10d6914392afbc12d6528e3abadb4bba71837ea93be',1,'juce']]],
+  ['keydown',['keyDown',['../structjuce_1_1MPENote.html#a3bc29d451148a39a66a03afb683a28efa247ea94a05110b8b6e6aa9d55501537f',1,'juce::MPENote']]],
+  ['keydownandsustained',['keyDownAndSustained',['../structjuce_1_1MPENote.html#a3bc29d451148a39a66a03afb683a28efa79c7ce8a1bec689942e99179a09c2155',1,'juce::MPENote']]],
+  ['keydownoverlaycolourid',['keyDownOverlayColourId',['../classjuce_1_1MidiKeyboardComponent.html#a39975c7013a376075963d300f689bcb3a208ba85061eaadea2221d07f76d506ff',1,'juce::MidiKeyboardComponent']]],
+  ['keyseparatorlinecolourid',['keySeparatorLineColourId',['../classjuce_1_1MidiKeyboardComponent.html#a39975c7013a376075963d300f689bcb3af5f1625e2e6b2ea6d9730a695bc76a5c',1,'juce::MidiKeyboardComponent']]],
   ['kplugcateganalysis',['kPlugCategAnalysis',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a33016aaefb7b6266b64b2acc6fe1a34b',1,'juce_VSTInterface.h']]],
   ['kplugcategeffect',['kPlugCategEffect',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350ad31c1e5f938ce881dc149ac8c7f5d0e1',1,'juce_VSTInterface.h']]],
   ['kplugcateggenerator',['kPlugCategGenerator',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a1a7eea5992983435ec8eea75ff64852e',1,'juce_VSTInterface.h']]],

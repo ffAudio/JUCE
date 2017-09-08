@@ -1,0 +1,8 @@
+<map id="juce::FileChooserDialogBox" name="juce::FileChooserDialogBox">
+<area shape="rect" id="node2" href="$classjuce_1_1ResizableWindow.html" title="A base class for top&#45;level windows that can be dragged around and resized. " alt="" coords="5,229,163,256"/>
+<area shape="rect" id="node3" href="$classjuce_1_1TopLevelWindow.html" title="A base class for top&#45;level windows. " alt="" coords="7,155,160,181"/>
+<area shape="rect" id="node4" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="23,80,144,107"/>
+<area shape="rect" id="node5" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="15,5,153,32"/>
+<area shape="rect" id="node6" href="$classjuce_1_1Button_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="188,229,335,256"/>
+<area shape="rect" id="node7" href="$classjuce_1_1FileBrowserListener.html" title="A listener for user selection events in a file browser. " alt="" coords="359,229,528,256"/>
+</map>

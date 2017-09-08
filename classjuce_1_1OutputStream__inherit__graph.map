@@ -1,0 +1,5 @@
+<map id="juce::OutputStream" name="juce::OutputStream">
+<area shape="rect" id="node2" href="$classjuce_1_1FileOutputStream.html" title="An output stream that writes into a local file. " alt="" coords="5,88,160,115"/>
+<area shape="rect" id="node3" href="$classjuce_1_1GZIPCompressorOutputStream.html" title="A stream which uses zlib to compress the data written into it. " alt="" coords="185,81,380,122"/>
+<area shape="rect" id="node4" href="$classjuce_1_1MemoryOutputStream.html" title="Writes data to an internal memory buffer, which grows as required. " alt="" coords="405,88,587,115"/>
+</map>

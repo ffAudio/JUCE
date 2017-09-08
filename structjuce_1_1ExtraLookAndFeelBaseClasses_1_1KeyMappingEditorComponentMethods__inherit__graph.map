@@ -1,0 +1,7 @@
+<map id="juce::ExtraLookAndFeelBaseClasses::KeyMappingEditorComponentMethods" name="juce::ExtraLookAndFeelBaseClasses::KeyMappingEditorComponentMethods">
+<area shape="rect" id="node2" href="$classjuce_1_1LookAndFeel.html" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl..." alt="" coords="104,109,233,136"/>
+<area shape="rect" id="node3" href="$classjuce_1_1LookAndFeel__V2.html" title="This LookAndFeel subclass implements the juce style from around 2008&#45;12. " alt="" coords="93,184,245,211"/>
+<area shape="rect" id="node4" href="$classjuce_1_1LookAndFeel__V1.html" title="The original JUCE look&#45;and&#45;feel, as used back from 2002 to about 2007ish. " alt="" coords="5,259,157,285"/>
+<area shape="rect" id="node5" href="$classjuce_1_1LookAndFeel__V3.html" title="The latest JUCE look&#45;and&#45;feel style, as introduced in 2013. " alt="" coords="182,259,335,285"/>
+<area shape="rect" id="node6" href="$classjuce_1_1LookAndFeel__V4.html" title="juce::LookAndFeel_V4" alt="" coords="182,333,335,360"/>
+</map>

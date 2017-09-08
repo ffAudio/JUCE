@@ -1,0 +1,6 @@
+<map id="juce::Thread" name="juce::Thread">
+<area shape="rect" id="node2" href="$classjuce_1_1InterprocessConnectionServer.html" title="An object that waits for client sockets to connect to a port on this host, and creates InterprocessCo..." alt="" coords="149,5,341,46"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MidiOutput.html" title="Controls a physical MIDI output device. " alt="" coords="187,71,304,97"/>
+<area shape="rect" id="node4" href="$classjuce_1_1ThreadWithProgressWindow.html" title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it..." alt="" coords="159,122,332,163"/>
+<area shape="rect" id="node5" href="$classjuce_1_1TimeSliceThread.html" title="A thread that keeps a list of clients, and calls each one in turn, giving them all a chance to run so..." alt="" coords="169,188,321,215"/>
+</map>

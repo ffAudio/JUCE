@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['yaxis',['yAxis',['../classVector3D.html#a943292e5f362278b85bbe2389355cd94',1,'Vector3D']]],
-  ['yield',['yield',['../classThread.html#aaf47a344b3b715e49ffcbc6119c72cdc',1,'Thread']]]
+  ['yaxis',['yAxis',['../classjuce_1_1Vector3D.html#afea735e2e1409bf00fe274ff28777eb8',1,'juce::Vector3D']]],
+  ['yield',['yield',['../classjuce_1_1Thread.html#a91e74f6e2ac4eb5041fbc5bd6e367674',1,'juce::Thread']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ycoord',['Ycoord',['../structTouchPosition.html#ab6e73393a00592f577fec4f17c533394',1,'TouchPosition']]]
+  ['ycoord',['Ycoord',['../structjuce_1_1BlocksProtocol_1_1TouchPosition.html#a52c6a256c2af33bdeb15f9f03df1c9dd',1,'juce::BlocksProtocol::TouchPosition']]]
 ];

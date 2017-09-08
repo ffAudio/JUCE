@@ -1,0 +1,4 @@
+<map id="juce::AudioProcessorGraph" name="juce::AudioProcessorGraph">
+<area shape="rect" id="node2" href="$classjuce_1_1AudioProcessor.html" title="Base class for audio processing filters or plugins. " alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1AsyncUpdater.html" title="Has a callback method that is triggered asynchronously. " alt="" coords="177,5,313,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="juce::DeletedAtShutdown" name="juce::DeletedAtShutdown">
+<area shape="rect" id="node2" href="$classjuce_1_1Desktop.html" title="Describes and controls aspects of the computer&#39;s desktop. " alt="" coords="5,80,107,107"/>
+<area shape="rect" id="node3" href="$classjuce_1_1JUCESplashScreen.html" title="The standard JUCE splash screen component. " alt="" coords="132,80,303,107"/>
+<area shape="rect" id="node4" href="$classjuce_1_1ModalComponentManager.html" title="Manages the system&#39;s stack of modal components. " alt="" coords="327,80,533,107"/>
+<area shape="rect" id="node5" href="$classjuce_1_1SplashScreen.html" title="A component for showing a splash screen while your app starts up. " alt="" coords="558,80,692,107"/>
+</map>

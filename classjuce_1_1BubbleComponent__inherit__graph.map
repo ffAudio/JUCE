@@ -1,0 +1,5 @@
+<map id="juce::BubbleComponent" name="juce::BubbleComponent">
+<area shape="rect" id="node4" href="$classjuce_1_1BubbleMessageComponent.html" title="A speech&#45;bubble component that displays a short message. " alt="" coords="5,229,219,256"/>
+<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="51,80,172,107"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="43,5,181,32"/>
+</map>

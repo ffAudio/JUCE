@@ -1,4 +1,0 @@
-<map id="AudioProcessorGraph" name="AudioProcessorGraph">
-<area shape="rect" id="node2" href="$classAudioProcessor.html" title="Base class for audio processing filters or plugins. " alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node3" href="$classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. " alt="" coords="145,5,249,32"/>
-</map>

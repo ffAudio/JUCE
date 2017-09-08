@@ -1,0 +1,7 @@
+<map id="juce::Toolbar" name="juce::Toolbar">
+<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="226,5,347,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node4" href="$classjuce_1_1DragAndDropContainer.html" title="Enables drag&#45;and&#45;drop behaviour for a component and all its sub&#45;components. " alt="" coords="192,56,381,83"/>
+<area shape="rect" id="node5" href="$classjuce_1_1DragAndDropTarget.html" title="Components derived from this class can have things dropped onto them by a DragAndDropContainer. " alt="" coords="201,107,372,133"/>
+<area shape="rect" id="node6" href="$classjuce_1_1Button_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="213,157,360,184"/>
+</map>

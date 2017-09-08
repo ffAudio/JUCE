@@ -1,0 +1,10 @@
+<map id="juce::ResizableWindow" name="juce::ResizableWindow">
+<area shape="rect" id="node5" href="$classjuce_1_1DocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons. " alt="" coords="175,304,336,331"/>
+<area shape="rect" id="node9" href="$classjuce_1_1FileChooserDialogBox.html" title="A file open/save dialog box. " alt="" coords="361,304,545,331"/>
+<area shape="rect" id="node2" href="$classjuce_1_1TopLevelWindow.html" title="A base class for top&#45;level windows. " alt="" coords="277,155,431,181"/>
+<area shape="rect" id="node3" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="294,80,415,107"/>
+<area shape="rect" id="node4" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="285,5,424,32"/>
+<area shape="rect" id="node6" href="$classjuce_1_1DialogWindow.html" title="A dialog&#45;box style window. " alt="" coords="5,387,144,413"/>
+<area shape="rect" id="node7" href="$classjuce_1_1MultiDocumentPanelWindow.html" title="This is a derivative of DocumentWindow that is used inside a MultiDocumentPanel component. " alt="" coords="169,379,343,421"/>
+<area shape="rect" id="node8" href="$classjuce_1_1StandaloneFilterWindow.html" title="A class that can be used to run a simple standalone application containing your filter. " alt="" coords="368,387,563,413"/>
+</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['layoutmode',['LayoutMode',['../classMultiDocumentPanel.html#a493599178acb0ddea50f7059faa4f8f3',1,'MultiDocumentPanel']]]
+  ['layoutmode',['LayoutMode',['../classjuce_1_1MultiDocumentPanel.html#ab1e21747f9d54d365f4792367ebdec01',1,'juce::MultiDocumentPanel']]]
 ];

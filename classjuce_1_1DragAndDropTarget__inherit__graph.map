@@ -1,0 +1,5 @@
+<map id="juce::DragAndDropTarget" name="juce::DragAndDropTarget">
+<area shape="rect" id="node2" href="$classjuce_1_1Toolbar.html" title="A toolbar component. " alt="" coords="5,80,101,107"/>
+<area shape="rect" id="node3" href="$classjuce_1_1TreeView.html" title="A tree&#45;view component. " alt="" coords="127,80,236,107"/>
+<area shape="rect" id="node4" href="$classjuce_1_1FileTreeComponent.html" title="A component that displays the files in a directory as a treeview. " alt="" coords="97,155,265,181"/>
+</map>

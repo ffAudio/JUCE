@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['edge',['Edge',['../classResizableEdgeComponent.html#a5dfd6990713a931c4411f4ab89b51e25',1,'ResizableEdgeComponent']]],
-  ['elementtype',['ElementType',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9',1,'RelativePointPath']]],
-  ['endcapstyle',['EndCapStyle',['../classPathStrokeType.html#a9050e37133047ab699b44b704e4f96cf',1,'PathStrokeType']]],
+  ['edge',['Edge',['../classjuce_1_1ResizableEdgeComponent.html#ae216c0696b48049df80b7bb1a06b9f62',1,'juce::ResizableEdgeComponent']]],
+  ['elementtype',['ElementType',['../classjuce_1_1RelativePointPath.html#a18cf52a94cb41f1058b6d7899614e0a4',1,'juce::RelativePointPath']]],
+  ['endcapstyle',['EndCapStyle',['../classjuce_1_1PathStrokeType.html#a1e3878d70f9a700face72e93103b86c4',1,'juce::PathStrokeType']]],
   ['errorcode',['ErrorCode',['../structlittlefoot_1_1Runner.html#a8bee4ec6b7ef24029af89651ecd452c9',1,'littlefoot::Runner']]],
-  ['extracomponentplacement',['ExtraComponentPlacement',['../classTabBarButton.html#a9ff26e542aa2f688e6c5609ab4d3899a',1,'TabBarButton']]]
+  ['extracomponentplacement',['ExtraComponentPlacement',['../classjuce_1_1TabBarButton.html#a98d3c38ed0be5acdba3f71ce47523cbc',1,'juce::TabBarButton']]]
 ];

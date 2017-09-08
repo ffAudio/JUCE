@@ -1,4 +1,0 @@
-<map id="AudioProcessorGraph::AudioGraphIOProcessor" name="AudioProcessorGraph::AudioGraphIOProcessor">
-<area shape="rect" id="node2" href="$classAudioPluginInstance.html" title="Base class for an active instance of a plugin. " alt="" coords="20,80,160,107"/>
-<area shape="rect" id="node3" href="$classAudioProcessor.html" title="Base class for audio processing filters or plugins. " alt="" coords="33,5,148,32"/>
-</map>

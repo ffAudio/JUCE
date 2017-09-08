@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['rectangletype',['RectangleType',['../classRectangleList.html#ad9d8b465737335563551e5f224fad32f',1,'RectangleList']]],
-  ['referencedtype',['ReferencedType',['../classReferenceCountedObjectPtr.html#aeb4a0ddf04087aa15cf7b607f00c076a',1,'ReferenceCountedObjectPtr']]],
-  ['rotarydialangle',['RotaryDialAngle',['../group__juce__blocks__basics-protocol.html#ga7e6c8fe9fcc3bbe979e0b2de3c626ebf',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['rotarydialdelta',['RotaryDialDelta',['../group__juce__blocks__basics-protocol.html#gaf04ad684283da6e0bb2633c0e21f9c3b',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['rotarydialindex',['RotaryDialIndex',['../group__juce__blocks__basics-protocol.html#ga81eb3a146853c46c8c3b325d2cfb5157',1,'juce_BlocksProtocolDefinitions.h']]]
+  ['rectangletype',['RectangleType',['../classjuce_1_1RectangleList.html#a0e69eb97c00b5b214ebbbe780be62028',1,'juce::RectangleList']]],
+  ['referencedtype',['ReferencedType',['../classjuce_1_1ReferenceCountedObjectPtr.html#ac4d7a8d72a69b93b00e19e0db5823997',1,'juce::ReferenceCountedObjectPtr']]],
+  ['rotarydialangle',['RotaryDialAngle',['../namespacejuce_1_1BlocksProtocol.html#aaf3dae6937bd485a590fa0838e500101',1,'juce::BlocksProtocol']]],
+  ['rotarydialdelta',['RotaryDialDelta',['../namespacejuce_1_1BlocksProtocol.html#a6e4d4bd043d721cd264b4c83f9a788d2',1,'juce::BlocksProtocol']]],
+  ['rotarydialindex',['RotaryDialIndex',['../namespacejuce_1_1BlocksProtocol.html#a174802a68ea20b0b6b055fdbd1ebc08e',1,'juce::BlocksProtocol']]]
 ];

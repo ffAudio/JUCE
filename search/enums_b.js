@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['messagefromdevice',['MessageFromDevice',['../group__juce__blocks__basics-protocol.html#ga1513500452861490fb3bf17ea8e8deb7',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['messagefromhost',['MessageFromHost',['../group__juce__blocks__basics-protocol.html#gab8c5a206ff37bc45a372d4ab02c956cb',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['midimachinecontrolcommand',['MidiMachineControlCommand',['../classMidiMessage.html#aa95b060274257522d1af40794ad1631d',1,'MidiMessage']]]
+  ['messagefromdevice',['MessageFromDevice',['../namespacejuce_1_1BlocksProtocol.html#a3bc45a5843e3be654e27bd2ea6a671cd',1,'juce::BlocksProtocol']]],
+  ['messagefromhost',['MessageFromHost',['../namespacejuce_1_1BlocksProtocol.html#a3d57c50ca6e2b86854b1e72672ef402c',1,'juce::BlocksProtocol']]],
+  ['midimachinecontrolcommand',['MidiMachineControlCommand',['../classjuce_1_1MidiMessage.html#a827fd0caac6fb3b99e1b8a0746b34710',1,'juce::MidiMessage']]]
 ];

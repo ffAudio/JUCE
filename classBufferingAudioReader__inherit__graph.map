@@ -1,4 +1,0 @@
-<map id="BufferingAudioReader" name="BufferingAudioReader">
-<area shape="rect" id="node2" href="$classAudioFormatReader.html" title="Reads samples from an audio file stream. " alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node3" href="$classTimeSliceClient.html" title="Used by the TimeSliceThread class. " alt="" coords="168,5,283,32"/>
-</map>

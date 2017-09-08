@@ -1,7 +1,0 @@
-<map id="RelativePointPath::ElementBase" name="RelativePointPath::ElementBase">
-<area shape="rect" id="node2" href="$classRelativePointPath_1_1CloseSubPath.html" title="RelativePointPath::\lCloseSubPath" alt="" coords="190,5,325,46"/>
-<area shape="rect" id="node3" href="$classRelativePointPath_1_1CubicTo.html" title="RelativePointPath::\lCubicTo" alt="" coords="190,70,325,111"/>
-<area shape="rect" id="node4" href="$classRelativePointPath_1_1LineTo.html" title="RelativePointPath::\lLineTo" alt="" coords="190,135,325,177"/>
-<area shape="rect" id="node5" href="$classRelativePointPath_1_1QuadraticTo.html" title="RelativePointPath::\lQuadraticTo" alt="" coords="190,201,325,242"/>
-<area shape="rect" id="node6" href="$classRelativePointPath_1_1StartSubPath.html" title="RelativePointPath::\lStartSubPath" alt="" coords="190,266,325,307"/>
-</map>

@@ -1,0 +1,4 @@
+<map id="juce::ApplicationCommandManager" name="juce::ApplicationCommandManager">
+<area shape="rect" id="node2" href="$classjuce_1_1AsyncUpdater.html" title="Has a callback method that is triggered asynchronously. " alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1FocusChangeListener.html" title="Classes can implement this interface and register themselves with the Desktop class to receive callba..." alt="" coords="167,5,348,32"/>
+</map>

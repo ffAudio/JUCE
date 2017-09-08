@@ -1,0 +1,5 @@
+<map id="juce::CodeTokeniser" name="juce::CodeTokeniser">
+<area shape="rect" id="node2" href="$classjuce_1_1CPlusPlusCodeTokeniser.html" title="A simple lexical analyser for syntax colouring of C++ code. " alt="" coords="5,80,208,107"/>
+<area shape="rect" id="node3" href="$classjuce_1_1LuaTokeniser.html" title="juce::LuaTokeniser" alt="" coords="233,80,364,107"/>
+<area shape="rect" id="node4" href="$classjuce_1_1XmlTokeniser.html" title="juce::XmlTokeniser" alt="" coords="389,80,523,107"/>
+</map>

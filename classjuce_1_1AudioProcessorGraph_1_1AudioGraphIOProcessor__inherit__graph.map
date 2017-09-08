@@ -1,0 +1,4 @@
+<map id="juce::AudioProcessorGraph::AudioGraphIOProcessor" name="juce::AudioProcessorGraph::AudioGraphIOProcessor">
+<area shape="rect" id="node2" href="$classjuce_1_1AudioPluginInstance.html" title="Base class for an active instance of a plugin. " alt="" coords="9,80,183,107"/>
+<area shape="rect" id="node3" href="$classjuce_1_1AudioProcessor.html" title="Base class for audio processing filters or plugins. " alt="" coords="23,5,169,32"/>
+</map>

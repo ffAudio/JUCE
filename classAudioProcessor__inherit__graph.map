@@ -1,5 +1,0 @@
-<map id="AudioProcessor" name="AudioProcessor">
-<area shape="rect" id="node2" href="$classAudioPluginInstance.html" title="Base class for an active instance of a plugin. " alt="" coords="20,80,160,107"/>
-<area shape="rect" id="node4" href="$classAudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. " alt="" coords="185,80,333,107"/>
-<area shape="rect" id="node3" href="$classAudioProcessorGraph_1_1AudioGraphIOProcessor.html" title="A special type of AudioProcessor that can live inside an AudioProcessorGraph in order to use the audi..." alt="" coords="5,155,176,197"/>
-</map>

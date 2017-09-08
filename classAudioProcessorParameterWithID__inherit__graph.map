@@ -1,7 +1,0 @@
-<map id="AudioProcessorParameterWithID" name="AudioProcessorParameterWithID">
-<area shape="rect" id="node3" href="$classAudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. " alt="" coords="5,155,145,181"/>
-<area shape="rect" id="node4" href="$classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. " alt="" coords="171,155,327,181"/>
-<area shape="rect" id="node5" href="$classAudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto..." alt="" coords="352,155,496,181"/>
-<area shape="rect" id="node6" href="$classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range..." alt="" coords="520,155,649,181"/>
-<area shape="rect" id="node2" href="$classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor. " alt="" coords="249,5,423,32"/>
-</map>

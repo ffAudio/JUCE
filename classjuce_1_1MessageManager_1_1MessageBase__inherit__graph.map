@@ -1,0 +1,5 @@
+<map id="juce::MessageManager::MessageBase" name="juce::MessageManager::MessageBase">
+<area shape="rect" id="node3" href="$classjuce_1_1CallbackMessage.html" title="A message that invokes a callback method when it gets delivered. " alt="" coords="5,171,163,197"/>
+<area shape="rect" id="node4" href="$classjuce_1_1Message.html" title="The base class for objects that can be sent to a MessageListener. " alt="" coords="188,171,295,197"/>
+<area shape="rect" id="node2" href="$classjuce_1_1ReferenceCountedObject.html" title="A base class which provides methods for reference&#45;counting. " alt="" coords="62,5,263,32"/>
+</map>

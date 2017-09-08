@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['jobstatus',['JobStatus',['../classThreadPoolJob.html#a534c077f3c60168d88555ade062420b3',1,'ThreadPoolJob']]],
-  ['jointstyle',['JointStyle',['../classPathStrokeType.html#af1cf21018ccb9aa84572c1da4ae513b8',1,'PathStrokeType']]],
-  ['justifycontent',['JustifyContent',['../classFlexBox.html#afa615fca8a66bca45dc4b7ecdb75c3fd',1,'FlexBox::JustifyContent()'],['../classGrid.html#a409e1ab0e5437a211a6c0234f6dff4f6',1,'Grid::JustifyContent()']]],
-  ['justifyitems',['JustifyItems',['../classGrid.html#afbf79b83305b5be690b37136e2b08ed0',1,'Grid']]],
-  ['justifyself',['JustifySelf',['../classGridItem.html#acdffd5a5ee38b411ae6766f7daf733c6',1,'GridItem']]]
+  ['jobstatus',['JobStatus',['../classjuce_1_1ThreadPoolJob.html#a5941c13ff17426d91845c5cd46a0a2d0',1,'juce::ThreadPoolJob']]],
+  ['jointstyle',['JointStyle',['../classjuce_1_1PathStrokeType.html#a0909f60e35fb215dfa89dbad4db0c52e',1,'juce::PathStrokeType']]],
+  ['justifycontent',['JustifyContent',['../classjuce_1_1FlexBox.html#a692d801c50039c6bdf55cc557977a164',1,'juce::FlexBox::JustifyContent()'],['../classjuce_1_1Grid.html#a3dd2aed439a7f46ce718ab879b0e124a',1,'juce::Grid::JustifyContent()']]],
+  ['justifyitems',['JustifyItems',['../classjuce_1_1Grid.html#a1bab92692852e1a805992fed678133dd',1,'juce::Grid']]],
+  ['justifyself',['JustifySelf',['../classjuce_1_1GridItem.html#ae66b7b06fd6fe926dcbd9c43c43c5ee0',1,'juce::GridItem']]]
 ];

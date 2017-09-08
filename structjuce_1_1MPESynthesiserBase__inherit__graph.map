@@ -1,0 +1,4 @@
+<map id="juce::MPESynthesiserBase" name="juce::MPESynthesiserBase">
+<area shape="rect" id="node3" href="$classjuce_1_1MPESynthesiser.html" title="Base class for an MPE&#45;compatible musical device that can play sounds. " alt="" coords="20,171,172,197"/>
+<area shape="rect" id="node2" href="$classjuce_1_1MPEInstrument_1_1Listener.html" title="Derive from this class to be informed about any changes in the expressive MIDI notes played by this i..." alt="" coords="23,6,168,47"/>
+</map>

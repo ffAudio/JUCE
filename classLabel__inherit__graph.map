@@ -1,9 +1,0 @@
-<map id="Label" name="Label">
-<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="187,5,277,32"/>
-<area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node4" href="$classSettableTooltipClient.html" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="161,56,303,83"/>
-<area shape="rect" id="node5" href="$classTooltipClient.html" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="11,56,106,83"/>
-<area shape="rect" id="node6" href="$classTextEditor_1_1Listener.html" title="Receives callbacks from a TextEditor component when it changes. " alt="" coords="164,107,300,133"/>
-<area shape="rect" id="node7" href="$classComponentListener.html" title="Gets informed about changes to a component&#39;s hierarchy or position. " alt="" coords="165,157,299,184"/>
-<area shape="rect" id="node8" href="$classValue_1_1Listener.html" title="Receives callbacks when a Value object changes. " alt="" coords="177,208,287,235"/>
-</map>

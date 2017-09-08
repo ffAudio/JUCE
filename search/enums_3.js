@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['datachangecommands',['DataChangeCommands',['../group__juce__blocks__basics-protocol.html#ga0ad1962e0df7ab8b2b6062dbb3b2f632',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['dataformat',['DataFormat',['../classAudioDataConverters.html#ab61072a75ca010290e4c03efc8078a50',1,'AudioDataConverters']]],
-  ['devicecommands',['DeviceCommands',['../group__juce__blocks__basics-protocol.html#ga43b1837fd2667d8513becbb6a7060a9d',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['deviceedge',['DeviceEdge',['../structBlock_1_1ConnectionPort.html#adb5cd70e80bd854e5a40436a99d003ea',1,'Block::ConnectionPort']]],
-  ['direction',['Direction',['../classFlexBox.html#a674e8e1e731b68c17d600715fca63015',1,'FlexBox']]],
-  ['diskstate',['DiskState',['../classAudioCDBurner.html#a75c01de0b51d56d6f78a1b56ff4da846',1,'AudioCDBurner']]],
-  ['displayorientation',['DisplayOrientation',['../classDesktop.html#a5e06947d2d1295bdb6f5c4fab7beb98a',1,'Desktop']]],
-  ['dragmode',['DragMode',['../classSlider.html#a42fd96ac0f5dca7e6942022c9a75cbde',1,'Slider']]]
+  ['datachangecommands',['DataChangeCommands',['../namespacejuce_1_1BlocksProtocol.html#afe86eab6749a4330f500ab3e12aeffb3',1,'juce::BlocksProtocol']]],
+  ['dataformat',['DataFormat',['../classjuce_1_1AudioDataConverters.html#a53bcd8cefec9620f4cb904d84b223c7d',1,'juce::AudioDataConverters']]],
+  ['devicecommands',['DeviceCommands',['../namespacejuce_1_1BlocksProtocol.html#a23cf3c0aa89cc43f42c0758b542b4190',1,'juce::BlocksProtocol']]],
+  ['deviceedge',['DeviceEdge',['../structjuce_1_1Block_1_1ConnectionPort.html#afef244d1ebdcc63242021a1c86f2f61c',1,'juce::Block::ConnectionPort']]],
+  ['direction',['Direction',['../classjuce_1_1FlexBox.html#a648607aa90a143177d9da5275a94483b',1,'juce::FlexBox']]],
+  ['diskstate',['DiskState',['../classjuce_1_1AudioCDBurner.html#a4c4b448d4b2fd130482e843db4226403',1,'juce::AudioCDBurner']]],
+  ['displayorientation',['DisplayOrientation',['../classjuce_1_1Desktop.html#a1914fc7ef2525327ac1c51e2569a3c8a',1,'juce::Desktop']]],
+  ['dragmode',['DragMode',['../classjuce_1_1Slider.html#a014fec2987c5efdb4e37f636e448f84e',1,'juce::Slider']]]
 ];

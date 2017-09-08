@@ -1,13 +1,13 @@
 var searchData=
 [
   ['value',['value',['../group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389',1,'juce_VSTInterface.h']]],
-  ['value_5ftype',['value_type',['../structSIMDRegister.html#abdbffe6b28a08038bd9f0c5568919ee7',1,'SIMDRegister']]],
-  ['valuelistener',['ValueListener',['../group__juce__data__structures-values.html#ga2cfaae906f9f1deed5ed703d8e63d613',1,'juce_Value.h']]],
-  ['vectortype',['VectorType',['../classDraggable3DOrientation.html#a90d8df29b27c60dc36909f3bff86226e',1,'Draggable3DOrientation']]],
-  ['vmasksimdtype',['vMaskSIMDType',['../structSIMDRegister.html#a5b49f602e0474f5964e35f9f854960ce',1,'SIMDRegister']]],
-  ['vmasktype',['vMaskType',['../structSIMDRegister.html#a9a72db35032d207adf1143cd2182cc3e',1,'SIMDRegister']]],
-  ['vsimdtype',['vSIMDType',['../structSIMDRegister.html#a9c246053cd8285e19c5ec2bb0276679d',1,'SIMDRegister::vSIMDType()'],['../structCmplxSIMDOps.html#ae5a84cb5ac82594fcab6dfd9ebd65a9d',1,'CmplxSIMDOps::vSIMDType()'],['../structCmplxSIMDOps_3_01std_1_1complex_3_01Scalar_01_4_01_4.html#a52dcffcc8623062d71564339cfc99802',1,'CmplxSIMDOps&lt; std::complex&lt; Scalar &gt; &gt;::vSIMDType()']]],
-  ['vxcoord',['VXcoord',['../structTouchVelocity.html#a67d0fc1512ed12a8489bf2fb9e7db20e',1,'TouchVelocity']]],
-  ['vycoord',['VYcoord',['../structTouchVelocity.html#a392b4857396d0e44ace477b54b76903e',1,'TouchVelocity']]],
-  ['vzcoord',['VZcoord',['../structTouchVelocity.html#a4e1661686f4c8699b109c4ccec8f88db',1,'TouchVelocity']]]
+  ['value_5ftype',['value_type',['../structjuce_1_1dsp_1_1SIMDRegister.html#a6e9e3f7317a21ba35b50c994f553f262',1,'juce::dsp::SIMDRegister']]],
+  ['valuelistener',['ValueListener',['../group__juce__data__structures-values.html#ga128696a45bbeca791473e41f28f84330',1,'juce']]],
+  ['vectortype',['VectorType',['../classjuce_1_1Draggable3DOrientation.html#afe99bd24757bd089b24fc5ec299258aa',1,'juce::Draggable3DOrientation']]],
+  ['vmasksimdtype',['vMaskSIMDType',['../structjuce_1_1dsp_1_1SIMDRegister.html#a3e0b7d3ed189052ec2f5c4ba894bfa22',1,'juce::dsp::SIMDRegister']]],
+  ['vmasktype',['vMaskType',['../structjuce_1_1dsp_1_1SIMDRegister.html#a08c68def3b00e0df6ade8b425ad3c0d3',1,'juce::dsp::SIMDRegister']]],
+  ['vsimdtype',['vSIMDType',['../structjuce_1_1dsp_1_1SIMDRegister.html#a148ed63bf37cb1b05a3f94ea1825c065',1,'juce::dsp::SIMDRegister::vSIMDType()'],['../structjuce_1_1dsp_1_1CmplxSIMDOps.html#acea6d8225c3068edbac2f5b080dcaba5',1,'juce::dsp::CmplxSIMDOps::vSIMDType()'],['../structjuce_1_1dsp_1_1CmplxSIMDOps_3_01std_1_1complex_3_01Scalar_01_4_01_4.html#af6b8954a0f09e71ec32429a9952d979a',1,'juce::dsp::CmplxSIMDOps&lt; std::complex&lt; Scalar &gt; &gt;::vSIMDType()']]],
+  ['vxcoord',['VXcoord',['../structjuce_1_1BlocksProtocol_1_1TouchVelocity.html#ae1d569268dbf249f59c4105d7aeade61',1,'juce::BlocksProtocol::TouchVelocity']]],
+  ['vycoord',['VYcoord',['../structjuce_1_1BlocksProtocol_1_1TouchVelocity.html#af49e8e01dd89db43922f2337612a04bf',1,'juce::BlocksProtocol::TouchVelocity']]],
+  ['vzcoord',['VZcoord',['../structjuce_1_1BlocksProtocol_1_1TouchVelocity.html#a74c878507aef05ab5eafed133f3e0470',1,'juce::BlocksProtocol::TouchVelocity']]]
 ];

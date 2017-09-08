@@ -1,6 +1,0 @@
-<map id="Thread" name="Thread">
-<area shape="rect" id="node2" href="$classInterprocessConnectionServer.html" title="An object that waits for client sockets to connect to a port on this host, and creates InterprocessCo..." alt="" coords="5,80,203,107"/>
-<area shape="rect" id="node3" href="$classMidiOutput.html" title="Controls a physical MIDI output device. " alt="" coords="227,80,312,107"/>
-<area shape="rect" id="node4" href="$classThreadWithProgressWindow.html" title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it..." alt="" coords="337,80,524,107"/>
-<area shape="rect" id="node5" href="$classTimeSliceThread.html" title="A thread that keeps a list of clients, and calls each one in turn, giving them all a chance to run so..." alt="" coords="549,80,669,107"/>
-</map>

@@ -77,7 +77,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">layout<div class="ingroups"><a class="el" href="group__juce__gui__basics.html">juce_gui_basics</a></div></div>  </div>
 </div><!--header-->
@@ -85,117 +86,172 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceAnimatedPositionBehaviours"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceAnimatedPositionBehaviours.html">AnimatedPositionBehaviours</a></td></tr>
-<tr class="memdesc:namespaceAnimatedPositionBehaviours"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains classes for different types of physics behaviours - these classes are used as template parameters for the <a class="el" href="classAnimatedPosition.html" title="Models a 1-dimensional position that can be dragged around by the user, and which will then continue ...">AnimatedPosition</a> class. <br/></td></tr>
+<tr class="memitem:namespacejuce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html">juce</a></td></tr>
+<tr class="memdesc:namespacejuce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes for IIR filter processing. <br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacejuce_1_1AnimatedPositionBehaviours"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce_1_1AnimatedPositionBehaviours.html">juce::AnimatedPositionBehaviours</a></td></tr>
+<tr class="memdesc:namespacejuce_1_1AnimatedPositionBehaviours"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains classes for different types of physics behaviours - these classes are used as template parameters for the <a class="el" href="classjuce_1_1AnimatedPosition.html" title="Models a 1-dimensional position that can be dragged around by the user, and which will then continue ...">AnimatedPosition</a> class. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnimatedPosition.html">AnimatedPosition&lt; Behaviour &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Models a 1-dimensional position that can be dragged around by the user, and which will then continue moving with a customisable physics behaviour when released.  <a href="classAnimatedPosition.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1AnimatedPosition.html">juce::AnimatedPosition&lt; Behaviour &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Models a 1-dimensional position that can be dragged around by the user, and which will then continue moving with a customisable physics behaviour when released.  <a href="classjuce_1_1AnimatedPosition.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimatedPositionBehaviours_1_1ContinuousWithMomentum.html">AnimatedPositionBehaviours::ContinuousWithMomentum</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A non-snapping behaviour that allows the content to be freely flicked in either direction, with momentum based on the velocity at which it was released, and variable friction to make it come to a halt.  <a href="structAnimatedPositionBehaviours_1_1ContinuousWithMomentum.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ComponentAnimator.html">juce::ComponentAnimator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Animates a set of components, moving them to a new position and/or fading their alpha levels.  <a href="classjuce_1_1ComponentAnimator.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAnimatedPositionBehaviours_1_1SnapToPageBoundaries.html">AnimatedPositionBehaviours::SnapToPageBoundaries</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A behaviour that gravitates an <a class="el" href="classAnimatedPosition.html" title="Models a 1-dimensional position that can be dragged around by the user, and which will then continue ...">AnimatedPosition</a> object towards the nearest integer position when released.  <a href="structAnimatedPositionBehaviours_1_1SnapToPageBoundaries.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ComponentBoundsConstrainer.html">juce::ComponentBoundsConstrainer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class that imposes restrictions on a <a class="el" href="classjuce_1_1Component.html" title="The base class for all JUCE user-interface objects. ">Component</a>'s size or position.  <a href="classjuce_1_1ComponentBoundsConstrainer.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentAnimator.html">ComponentAnimator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Animates a set of components, moving them to a new position and/or fading their alpha levels.  <a href="classComponentAnimator.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ComponentBuilder.html">juce::ComponentBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads and maintains a tree of Components from a <a class="el" href="classjuce_1_1ValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> that represents them.  <a href="classjuce_1_1ComponentBuilder.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBoundsConstrainer.html">ComponentBoundsConstrainer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class that imposes restrictions on a <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a>'s size or position.  <a href="classComponentBoundsConstrainer.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ComponentMovementWatcher.html">juce::ComponentMovementWatcher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object that watches for any movement of a component or any of its parent components.  <a href="classjuce_1_1ComponentMovementWatcher.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentBuilder.html">ComponentBuilder</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads and maintains a tree of Components from a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> that represents them.  <a href="classComponentBuilder.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ConcertinaPanel.html">juce::ConcertinaPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A panel which holds a vertical stack of components which can be expanded and contracted.  <a href="classjuce_1_1ConcertinaPanel.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentMovementWatcher.html">ComponentMovementWatcher</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object that watches for any movement of a component or any of its parent components.  <a href="classComponentMovementWatcher.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1FlexBox.html">juce::FlexBox</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a <a class="el" href="classjuce_1_1FlexBox.html" title="Represents a FlexBox container, which contains and manages the layout of a set of FlexItem objects...">FlexBox</a> container, which contains and manages the layout of a set of <a class="el" href="classjuce_1_1FlexItem.html" title="Describes the properties of an item inside a FlexBox container. ">FlexItem</a> objects.  <a href="classjuce_1_1FlexBox.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConcertinaPanel.html">ConcertinaPanel</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A panel which holds a vertical stack of components which can be expanded and contracted.  <a href="classConcertinaPanel.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1FlexItem.html">juce::FlexItem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the properties of an item inside a <a class="el" href="classjuce_1_1FlexBox.html" title="Represents a FlexBox container, which contains and manages the layout of a set of FlexItem objects...">FlexBox</a> container.  <a href="classjuce_1_1FlexItem.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFlexBox.html">FlexBox</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a <a class="el" href="classFlexBox.html" title="Represents a FlexBox container, which contains and manages the layout of a set of FlexItem objects...">FlexBox</a> container, which contains and manages the layout of a set of <a class="el" href="classFlexItem.html" title="Describes the properties of an item inside a FlexBox container. ">FlexItem</a> objects.  <a href="classFlexBox.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Grid.html">juce::Grid</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container that handles geometry for grid layouts (fixed columns and rows) using a set of declarative rules.  <a href="classjuce_1_1Grid.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFlexItem.html">FlexItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the properties of an item inside a <a class="el" href="classFlexBox.html" title="Represents a FlexBox container, which contains and manages the layout of a set of FlexItem objects...">FlexBox</a> container.  <a href="classFlexItem.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1GridItem.html">juce::GridItem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines an item in a <a class="el" href="classjuce_1_1Grid.html" title="Container that handles geometry for grid layouts (fixed columns and rows) using a set of declarative ...">Grid</a>.  <a href="classjuce_1_1GridItem.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGrid.html">Grid</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container that handles geometry for grid layouts (fixed columns and rows) using a set of declarative rules.  <a href="classGrid.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1GroupComponent.html">juce::GroupComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that draws an outline around itself and has an optional title at the top, for drawing an outline around a group of controls.  <a href="classjuce_1_1GroupComponent.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGridItem.html">GridItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines an item in a <a class="el" href="classGrid.html" title="Container that handles geometry for grid layouts (fixed columns and rows) using a set of declarative ...">Grid</a>.  <a href="classGridItem.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1MultiDocumentPanelWindow.html">juce::MultiDocumentPanelWindow</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a derivative of <a class="el" href="classjuce_1_1DocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons. ">DocumentWindow</a> that is used inside a <a class="el" href="classjuce_1_1MultiDocumentPanel.html" title="A component that contains a set of other components either in floating windows or tabs...">MultiDocumentPanel</a> component.  <a href="classjuce_1_1MultiDocumentPanelWindow.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGroupComponent.html">GroupComponent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that draws an outline around itself and has an optional title at the top, for drawing an outline around a group of controls.  <a href="classGroupComponent.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1MultiDocumentPanel.html">juce::MultiDocumentPanel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that contains a set of other components either in floating windows or tabs.  <a href="classjuce_1_1MultiDocumentPanel.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiDocumentPanelWindow.html">MultiDocumentPanelWindow</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a derivative of <a class="el" href="classDocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons. ">DocumentWindow</a> that is used inside a <a class="el" href="classMultiDocumentPanel.html" title="A component that contains a set of other components either in floating windows or tabs...">MultiDocumentPanel</a> component.  <a href="classMultiDocumentPanelWindow.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ResizableBorderComponent.html">juce::ResizableBorderComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that resizes its parent component when dragged.  <a href="classjuce_1_1ResizableBorderComponent.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiDocumentPanel.html">MultiDocumentPanel</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that contains a set of other components either in floating windows or tabs.  <a href="classMultiDocumentPanel.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ResizableCornerComponent.html">juce::ResizableCornerComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that resizes a parent component when dragged.  <a href="classjuce_1_1ResizableCornerComponent.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResizableBorderComponent.html">ResizableBorderComponent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that resizes its parent component when dragged.  <a href="classResizableBorderComponent.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ResizableEdgeComponent.html">juce::ResizableEdgeComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that resizes its parent component when dragged.  <a href="classjuce_1_1ResizableEdgeComponent.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResizableCornerComponent.html">ResizableCornerComponent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that resizes a parent component when dragged.  <a href="classResizableCornerComponent.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ScrollBar.html">juce::ScrollBar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A scrollbar component.  <a href="classjuce_1_1ScrollBar.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classResizableEdgeComponent.html">ResizableEdgeComponent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that resizes its parent component when dragged.  <a href="classResizableEdgeComponent.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1StretchableLayoutManager.html">juce::StretchableLayoutManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">For laying out a set of components, where the components have preferred sizes and size limits, but where they are allowed to stretch to fill the available space.  <a href="classjuce_1_1StretchableLayoutManager.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrollBar.html">ScrollBar</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A scrollbar component.  <a href="classScrollBar.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1StretchableLayoutResizerBar.html">juce::StretchableLayoutResizerBar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that acts as one of the vertical or horizontal bars you see being used to resize panels in a window.  <a href="classjuce_1_1StretchableLayoutResizerBar.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStretchableLayoutManager.html">StretchableLayoutManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">For laying out a set of components, where the components have preferred sizes and size limits, but where they are allowed to stretch to fill the available space.  <a href="classStretchableLayoutManager.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1StretchableObjectResizer.html">juce::StretchableObjectResizer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A utility class for fitting a set of objects whose sizes can vary between a minimum and maximum size, into a space.  <a href="classjuce_1_1StretchableObjectResizer.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStretchableLayoutResizerBar.html">StretchableLayoutResizerBar</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that acts as one of the vertical or horizontal bars you see being used to resize panels in a window.  <a href="classStretchableLayoutResizerBar.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1TabBarButton.html">juce::TabBarButton</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">In a <a class="el" href="classjuce_1_1TabbedButtonBar.html" title="A vertical or horizontal bar containing tabs that you can select. ">TabbedButtonBar</a>, this component is used for each of the buttons.  <a href="classjuce_1_1TabBarButton.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStretchableObjectResizer.html">StretchableObjectResizer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A utility class for fitting a set of objects whose sizes can vary between a minimum and maximum size, into a space.  <a href="classStretchableObjectResizer.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1TabbedButtonBar.html">juce::TabbedButtonBar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vertical or horizontal bar containing tabs that you can select.  <a href="classjuce_1_1TabbedButtonBar.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabBarButton.html">TabBarButton</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">In a <a class="el" href="classTabbedButtonBar.html" title="A vertical or horizontal bar containing tabs that you can select. ">TabbedButtonBar</a>, this component is used for each of the buttons.  <a href="classTabBarButton.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1TabbedComponent.html">juce::TabbedComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component with a <a class="el" href="classjuce_1_1TabbedButtonBar.html" title="A vertical or horizontal bar containing tabs that you can select. ">TabbedButtonBar</a> along one of its sides.  <a href="classjuce_1_1TabbedComponent.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedButtonBar.html">TabbedButtonBar</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vertical or horizontal bar containing tabs that you can select.  <a href="classTabbedButtonBar.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTabbedComponent.html">TabbedComponent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component with a <a class="el" href="classTabbedButtonBar.html" title="A vertical or horizontal bar containing tabs that you can select. ">TabbedButtonBar</a> along one of its sides.  <a href="classTabbedComponent.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html">Viewport</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classViewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">Viewport</a> is used to contain a larger child component, and allows the child to be automatically scrolled around.  <a href="classViewport.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Viewport.html">juce::Viewport</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classjuce_1_1Viewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">Viewport</a> is used to contain a larger child component, and allows the child to be automatically scrolled around.  <a href="classjuce_1_1Viewport.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gaca2ee37ad48d18a710340db288ea80c3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classScrollBar_1_1Listener.html">ScrollBar::Listener</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__gui__basics-layout.html#gaca2ee37ad48d18a710340db288ea80c3">ScrollBarListener</a></td></tr>
-<tr class="memdesc:gaca2ee37ad48d18a710340db288ea80c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This typedef is just for compatibility with old code - newer code should use the <a class="el" href="classScrollBar_1_1Listener.html" title="A class for receiving events from a ScrollBar. ">ScrollBar::Listener</a> class directly.  <a href="#gaca2ee37ad48d18a710340db288ea80c3">More...</a><br/></td></tr>
-<tr class="separator:gaca2ee37ad48d18a710340db288ea80c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ba9bca80644ca18b4cca45cc0f757ad"><td class="memItemLeft" align="right" valign="top">typedef ScrollBar::Listener&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__gui__basics-layout.html#ga4ba9bca80644ca18b4cca45cc0f757ad">juce::ScrollBarListener</a></td></tr>
+<tr class="memdesc:ga4ba9bca80644ca18b4cca45cc0f757ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">This typedef is just for compatibility with old code - newer code should use the <a class="el" href="classjuce_1_1ScrollBar_1_1Listener.html" title="A class for receiving events from a ScrollBar. ">ScrollBar::Listener</a> class directly.  <a href="#ga4ba9bca80644ca18b4cca45cc0f757ad">More...</a><br/></td></tr>
+<tr class="separator:ga4ba9bca80644ca18b4cca45cc0f757ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gabeec51cf42e0d9fb19412184363cd4b7"><td class="memItemLeft" align="right" valign="top">constexpr Grid::Px&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__gui__basics-layout.html#gabeec51cf42e0d9fb19412184363cd4b7">juce::operator&quot;&quot;_px</a> (long double px)</td></tr>
+<tr class="separator:gabeec51cf42e0d9fb19412184363cd4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga31a3bfa34b26cd3eedb2c374e113dca3"><td class="memItemLeft" align="right" valign="top">constexpr Grid::Px&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__gui__basics-layout.html#ga31a3bfa34b26cd3eedb2c374e113dca3">juce::operator&quot;&quot;_px</a> (unsigned long long px)</td></tr>
+<tr class="separator:ga31a3bfa34b26cd3eedb2c374e113dca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2675a9f9602d55e899191134e6f91e7c"><td class="memItemLeft" align="right" valign="top">constexpr Grid::Fr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__gui__basics-layout.html#ga2675a9f9602d55e899191134e6f91e7c">juce::operator&quot;&quot;_fr</a> (unsigned long long fr)</td></tr>
+<tr class="separator:ga2675a9f9602d55e899191134e6f91e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="gaca2ee37ad48d18a710340db288ea80c3"></a>
+<a class="anchor" id="ga4ba9bca80644ca18b4cca45cc0f757ad"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classScrollBar_1_1Listener.html">ScrollBar::Listener</a> <a class="el" href="group__juce__gui__basics-layout.html#gaca2ee37ad48d18a710340db288ea80c3">ScrollBarListener</a></td>
+          <td class="memname">typedef ScrollBar::Listener <a class="el" href="group__juce__gui__basics-layout.html#ga4ba9bca80644ca18b4cca45cc0f757ad">juce::ScrollBarListener</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This typedef is just for compatibility with old code - newer code should use the <a class="el" href="classScrollBar_1_1Listener.html" title="A class for receiving events from a ScrollBar. ">ScrollBar::Listener</a> class directly. </p>
+<p>This typedef is just for compatibility with old code - newer code should use the <a class="el" href="classjuce_1_1ScrollBar_1_1Listener.html" title="A class for receiving events from a ScrollBar. ">ScrollBar::Listener</a> class directly. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gabeec51cf42e0d9fb19412184363cd4b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Grid::Px juce::operator&quot;&quot;_px </td>
+          <td>(</td>
+          <td class="paramtype">long double&#160;</td>
+          <td class="paramname"><em>px</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ga31a3bfa34b26cd3eedb2c374e113dca3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Grid::Px juce::operator&quot;&quot;_px </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long long&#160;</td>
+          <td class="paramname"><em>px</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ga2675a9f9602d55e899191134e6f91e7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Grid::Fr juce::operator&quot;&quot;_fr </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long long&#160;</td>
+          <td class="paramname"><em>fr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 8 2017 01:00:28 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 9 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

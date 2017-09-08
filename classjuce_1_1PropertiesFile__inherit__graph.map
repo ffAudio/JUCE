@@ -1,0 +1,5 @@
+<map id="juce::PropertiesFile" name="juce::PropertiesFile">
+<area shape="rect" id="node2" href="$classjuce_1_1PropertySet.html" title="A set of named property values, which can be strings, integers, floating point, etc. " alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1ChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="153,5,321,32"/>
+<area shape="rect" id="node4" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="346,5,432,32"/>
+</map>

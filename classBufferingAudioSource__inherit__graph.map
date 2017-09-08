@@ -1,5 +1,0 @@
-<map id="BufferingAudioSource" name="BufferingAudioSource">
-<area shape="rect" id="node2" href="$classPositionableAudioSource.html" title="A type of AudioSource which can be repositioned. " alt="" coords="5,80,171,107"/>
-<area shape="rect" id="node3" href="$classAudioSource.html" title="Base class for objects that can produce a continuous stream of audio. " alt="" coords="40,5,136,32"/>
-<area shape="rect" id="node4" href="$classTimeSliceClient.html" title="Used by the TimeSliceThread class. " alt="" coords="196,80,311,107"/>
-</map>

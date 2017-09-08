@@ -1,0 +1,7 @@
+<map id="juce::GroupComponent::LookAndFeelMethods" name="juce::GroupComponent::LookAndFeelMethods">
+<area shape="rect" id="node2" href="$classjuce_1_1LookAndFeel.html" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl..." alt="" coords="104,96,233,123"/>
+<area shape="rect" id="node3" href="$classjuce_1_1LookAndFeel__V2.html" title="This LookAndFeel subclass implements the juce style from around 2008&#45;12. " alt="" coords="93,171,245,197"/>
+<area shape="rect" id="node4" href="$classjuce_1_1LookAndFeel__V1.html" title="The original JUCE look&#45;and&#45;feel, as used back from 2002 to about 2007ish. " alt="" coords="5,245,157,272"/>
+<area shape="rect" id="node5" href="$classjuce_1_1LookAndFeel__V3.html" title="The latest JUCE look&#45;and&#45;feel style, as introduced in 2013. " alt="" coords="182,245,335,272"/>
+<area shape="rect" id="node6" href="$classjuce_1_1LookAndFeel__V4.html" title="juce::LookAndFeel_V4" alt="" coords="182,320,335,347"/>
+</map>

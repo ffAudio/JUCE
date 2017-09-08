@@ -1,5 +1,0 @@
-<map id="OutputStream" name="OutputStream">
-<area shape="rect" id="node2" href="$classFileOutputStream.html" title="An output stream that writes into a local file. " alt="" coords="5,80,128,107"/>
-<area shape="rect" id="node3" href="$classGZIPCompressorOutputStream.html" title="A stream which uses zlib to compress the data written into it. " alt="" coords="153,80,359,107"/>
-<area shape="rect" id="node4" href="$classMemoryOutputStream.html" title="Writes data to an internal memory buffer, which grows as required. " alt="" coords="383,80,533,107"/>
-</map>

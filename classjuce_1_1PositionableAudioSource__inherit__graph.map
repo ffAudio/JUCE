@@ -1,0 +1,6 @@
+<map id="juce::PositionableAudioSource" name="juce::PositionableAudioSource">
+<area shape="rect" id="node3" href="$classjuce_1_1AudioFormatReaderSource.html" title="A type of AudioSource that will read from an AudioFormatReader. " alt="" coords="429,5,640,32"/>
+<area shape="rect" id="node4" href="$classjuce_1_1AudioTransportSource.html" title="An AudioSource that takes a PositionableAudioSource and allows it to be played, stopped, started, etc. " alt="" coords="443,56,626,83"/>
+<area shape="rect" id="node5" href="$classjuce_1_1BufferingAudioSource.html" title="An AudioSource which takes another source as input, and buffers it using a thread. " alt="" coords="445,107,625,133"/>
+<area shape="rect" id="node2" href="$classjuce_1_1AudioSource.html" title="Base class for objects that can produce a continuous stream of audio. " alt="" coords="5,56,133,83"/>
+</map>

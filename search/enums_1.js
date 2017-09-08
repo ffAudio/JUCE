@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['bitsizes',['BitSizes',['../group__juce__blocks__basics-protocol.html#ga4bafdbd4d494258c67ba3ca5b9fd55e1',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['bubbleplacement',['BubblePlacement',['../classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3',1,'BubbleComponent']]],
-  ['buttonfunction',['ButtonFunction',['../classControlButton.html#a891776295057786f99f14631b1aa2794',1,'ControlButton']]],
-  ['buttonstate',['ButtonState',['../classButton.html#ad8312db93093c21df8b1d2be74ae1957',1,'Button']]],
-  ['buttonstyle',['ButtonStyle',['../classDrawableButton.html#a7da653337d7329405ef9865cc35f612e',1,'DrawableButton']]],
-  ['buttontype',['ButtonType',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0',1,'AppleRemoteDevice']]]
+  ['bitsizes',['BitSizes',['../namespacejuce_1_1BlocksProtocol.html#a54da27188f01b919e6d5001abd9124dc',1,'juce::BlocksProtocol']]],
+  ['bubbleplacement',['BubblePlacement',['../classjuce_1_1BubbleComponent.html#a8417eb0a4f95c04f3155b55f65a5a64e',1,'juce::BubbleComponent']]],
+  ['buttonfunction',['ButtonFunction',['../classjuce_1_1ControlButton.html#a255db90f7880221e85f4d1d426291832',1,'juce::ControlButton']]],
+  ['buttonstate',['ButtonState',['../classjuce_1_1Button.html#af41dff1341fdead92492c301caf64093',1,'juce::Button']]],
+  ['buttonstyle',['ButtonStyle',['../classjuce_1_1DrawableButton.html#a2ec4d6c52def0212e3e8d7a363ba04c6',1,'juce::DrawableButton']]],
+  ['buttontype',['ButtonType',['../classjuce_1_1AppleRemoteDevice.html#ab830758821ecd55ee9ca593a635eab65',1,'juce::AppleRemoteDevice']]]
 ];

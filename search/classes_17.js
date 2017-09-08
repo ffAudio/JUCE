@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['xembedcomponent',['XEmbedComponent',['../classXEmbedComponent.html',1,'']]],
-  ['xmldocument',['XmlDocument',['../classXmlDocument.html',1,'']]],
-  ['xmlelement',['XmlElement',['../classXmlElement.html',1,'']]],
-  ['xmltokeniser',['XmlTokeniser',['../classXmlTokeniser.html',1,'']]]
+  ['xembedcomponent',['XEmbedComponent',['../classjuce_1_1XEmbedComponent.html',1,'juce']]],
+  ['xmldocument',['XmlDocument',['../classjuce_1_1XmlDocument.html',1,'juce']]],
+  ['xmlelement',['XmlElement',['../classjuce_1_1XmlElement.html',1,'juce']]],
+  ['xmltokeniser',['XmlTokeniser',['../classjuce_1_1XmlTokeniser.html',1,'juce']]]
 ];

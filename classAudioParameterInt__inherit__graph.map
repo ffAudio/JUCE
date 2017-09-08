@@ -1,4 +1,0 @@
-<map id="AudioParameterInt" name="AudioParameterInt">
-<area shape="rect" id="node2" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="5,80,219,107"/>
-<area shape="rect" id="node3" href="$classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor. " alt="" coords="25,5,199,32"/>
-</map>

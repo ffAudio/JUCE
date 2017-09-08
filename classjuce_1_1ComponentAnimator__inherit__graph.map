@@ -1,0 +1,4 @@
+<map id="juce::ComponentAnimator" name="juce::ComponentAnimator">
+<area shape="rect" id="node2" href="$classjuce_1_1ChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="198,5,284,32"/>
+</map>

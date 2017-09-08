@@ -1,6 +1,0 @@
-<map id="PositionableAudioSource" name="PositionableAudioSource">
-<area shape="rect" id="node3" href="$classAudioFormatReaderSource.html" title="A type of AudioSource that will read from an AudioFormatReader. " alt="" coords="5,155,184,181"/>
-<area shape="rect" id="node4" href="$classAudioTransportSource.html" title="An AudioSource that takes a PositionableAudioSource and allows it to be played, stopped, started, etc. " alt="" coords="209,155,359,181"/>
-<area shape="rect" id="node5" href="$classBufferingAudioSource.html" title="An AudioSource which takes another source as input, and buffers it using a thread. " alt="" coords="383,155,531,181"/>
-<area shape="rect" id="node2" href="$classAudioSource.html" title="Base class for objects that can produce a continuous stream of audio. " alt="" coords="236,5,332,32"/>
-</map>

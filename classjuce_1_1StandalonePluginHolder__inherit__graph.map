@@ -1,0 +1,4 @@
+<map id="juce::StandalonePluginHolder" name="juce::StandalonePluginHolder">
+<area shape="rect" id="node2" href="$classjuce_1_1AudioIODeviceCallback.html" title="One of these is passed to an AudioIODevice object to stream the audio data in and out..." alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="222,5,308,32"/>
+</map>

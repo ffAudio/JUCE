@@ -1,0 +1,6 @@
+<map id="juce::MenuBarComponent" name="juce::MenuBarComponent">
+<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,88,135,115"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node4" href="$classjuce_1_1MenuBarModel_1_1Listener.html" title="A class to receive callbacks when a MenuBarModel changes. " alt="" coords="160,81,300,122"/>
+<area shape="rect" id="node5" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="326,88,412,115"/>
+</map>

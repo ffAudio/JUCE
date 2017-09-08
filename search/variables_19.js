@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['z',['z',['../structTouchSurface_1_1Touch.html#a167444c53794327f997b6dfaf34d5e6e',1,'TouchSurface::Touch::z()'],['../structTouchPosition.html#aa4043d8648c9222ee08ddd5841f3a279',1,'TouchPosition::z()'],['../classVector3D.html#a621ed1b40fb9605695c309355736ed9c',1,'Vector3D::z()']]],
-  ['zonelayoutmessagesrpnnumber',['zoneLayoutMessagesRpnNumber',['../classMPEMessages.html#abef11ba61a0031916d74066f718b407d',1,'MPEMessages']]],
-  ['zvelocity',['zVelocity',['../structTouchSurface_1_1Touch.html#a2b8802b24914bf59ddfe60f82957075f',1,'TouchSurface::Touch']]]
+  ['z',['z',['../structjuce_1_1TouchSurface_1_1Touch.html#a2401ec3be0a826301e88b4a7b40f38c6',1,'juce::TouchSurface::Touch::z()'],['../structjuce_1_1BlocksProtocol_1_1TouchPosition.html#a53c0bd0617261e593c141de4def724b5',1,'juce::BlocksProtocol::TouchPosition::z()'],['../classjuce_1_1Vector3D.html#a65471af1a6cb32db9d9223f987b2c004',1,'juce::Vector3D::z()']]],
+  ['zonelayoutmessagesrpnnumber',['zoneLayoutMessagesRpnNumber',['../classjuce_1_1MPEMessages.html#a4258a8eb5332f50b6fc4635435b96a76',1,'juce::MPEMessages']]],
+  ['zvelocity',['zVelocity',['../structjuce_1_1TouchSurface_1_1Touch.html#a9ef327a4d3becc5ea0e482a25a0d7b85',1,'juce::TouchSurface::Touch']]]
 ];

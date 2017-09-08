@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['batterycharging',['BatteryCharging',['../group__juce__blocks__basics-protocol.html#gad7a96ffed718959d59ce5c199fd9d4c6',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['batterylevel',['BatteryLevel',['../group__juce__blocks__basics-protocol.html#ga22dbd515320f27dfae21cc0fd692eabd',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['bus',['Bus',['../structVST3BufferExchange.html#a5aa67a699a8f31a5098536f335c43eb4',1,'VST3BufferExchange']]],
-  ['busmap',['BusMap',['../structVST3BufferExchange.html#a0a22108464b6d7df26e58b473f3b567f',1,'VST3BufferExchange']]],
-  ['bytecountfew',['ByteCountFew',['../group__juce__blocks__basics-protocol.html#gae3bd27dbd0d48889911377b92c59ce9e',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['bytecountmany',['ByteCountMany',['../group__juce__blocks__basics-protocol.html#ga19ad78513e0ddc725eb70b76474c7dd9',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['bytesequencecontinues',['ByteSequenceContinues',['../group__juce__blocks__basics-protocol.html#gabe0b996e200f440873df4a8e29c961c1',1,'juce_BlocksProtocolDefinitions.h']]],
-  ['bytevalue',['ByteValue',['../group__juce__blocks__basics-protocol.html#ga57e1703c70d620e50395f12fa84d7952',1,'juce_BlocksProtocolDefinitions.h']]]
+  ['batterycharging',['BatteryCharging',['../namespacejuce_1_1BlocksProtocol.html#a75e4c47adf80c842c370ce1f83fd1c00',1,'juce::BlocksProtocol']]],
+  ['batterylevel',['BatteryLevel',['../namespacejuce_1_1BlocksProtocol.html#a881952ef7f7c8d2b7e66ad15b9aa8705',1,'juce::BlocksProtocol']]],
+  ['bus',['Bus',['../structjuce_1_1VST3BufferExchange.html#a47cbe5cfa09368af99700adc583bd761',1,'juce::VST3BufferExchange']]],
+  ['busmap',['BusMap',['../structjuce_1_1VST3BufferExchange.html#a95e516f44c78da926ca8cdaeb9e1766d',1,'juce::VST3BufferExchange']]],
+  ['bytecountfew',['ByteCountFew',['../namespacejuce_1_1BlocksProtocol.html#a8de90cef35f7dc357b37bb51d26b6a1b',1,'juce::BlocksProtocol']]],
+  ['bytecountmany',['ByteCountMany',['../namespacejuce_1_1BlocksProtocol.html#a4a2bb4597ee0ab6a45a60e8f797c54ca',1,'juce::BlocksProtocol']]],
+  ['bytesequencecontinues',['ByteSequenceContinues',['../namespacejuce_1_1BlocksProtocol.html#a4878674f54b20b25e4f1068c68e5fade',1,'juce::BlocksProtocol']]],
+  ['bytevalue',['ByteValue',['../namespacejuce_1_1BlocksProtocol.html#ae44682d578b821f94eca3d9b88f518fc',1,'juce::BlocksProtocol']]]
 ];

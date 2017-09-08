@@ -1,0 +1,6 @@
+<map id="juce::JUCESplashScreen" name="juce::JUCESplashScreen">
+<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,135,107"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node4" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="159,80,245,107"/>
+<area shape="rect" id="node5" href="$classjuce_1_1DeletedAtShutdown.html" title="Classes derived from this will be automatically deleted when the application exits. " alt="" coords="271,80,441,107"/>
+</map>

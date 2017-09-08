@@ -1,5 +1,0 @@
-<map id="ListBoxModel" name="ListBoxModel">
-<area shape="rect" id="node2" href="$classFileListComponent.html" title="A component that displays the files in a directory as a listbox. " alt="" coords="5,80,135,107"/>
-<area shape="rect" id="node3" href="$classFileSearchPathListComponent.html" title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. " alt="" coords="159,80,357,107"/>
-<area shape="rect" id="node4" href="$classTableListBox.html" title="A table of cells, using a TableHeaderComponent as its header. " alt="" coords="383,80,481,107"/>
-</map>

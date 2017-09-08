@@ -1,0 +1,4 @@
+<map id="juce::MidiKeyboardStateListener" name="juce::MidiKeyboardStateListener">
+<area shape="rect" id="node2" href="$classjuce_1_1MidiKeyboardComponent.html" title="A component that displays a piano keyboard, whose notes can be clicked on. " alt="" coords="5,80,204,107"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MidiMessageCollector.html" title="Collects incoming realtime MIDI messages and turns them into blocks suitable for processing by a bloc..." alt="" coords="230,80,412,107"/>
+</map>

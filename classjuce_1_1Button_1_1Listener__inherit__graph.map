@@ -1,0 +1,15 @@
+<map id="juce::Button::Listener" name="juce::Button::Listener">
+<area shape="rect" id="node2" href="$classjuce_1_1AlertWindow.html" title="A window that displays a message and has buttons for the user to react to it. " alt="" coords="245,5,373,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1AudioDeviceSelectorComponent.html" title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob..." alt="" coords="221,57,397,98"/>
+<area shape="rect" id="node4" href="$classjuce_1_1BooleanPropertyComponent.html" title="A PropertyComponent that contains an on/off toggle button. " alt="" coords="201,123,418,149"/>
+<area shape="rect" id="node5" href="$classjuce_1_1ButtonPropertyComponent.html" title="A PropertyComponent that contains a button. " alt="" coords="205,173,413,200"/>
+<area shape="rect" id="node6" href="$classjuce_1_1FileBrowserComponent.html" title="A component for browsing and selecting a file or directory to open or save. " alt="" coords="214,224,405,251"/>
+<area shape="rect" id="node7" href="$classjuce_1_1FileChooserDialogBox.html" title="A file open/save dialog box. " alt="" coords="217,275,401,301"/>
+<area shape="rect" id="node8" href="$classjuce_1_1FilenameComponent.html" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="222,325,397,352"/>
+<area shape="rect" id="node9" href="$classjuce_1_1FileSearchPathListComponent.html" title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. " alt="" coords="227,377,391,418"/>
+<area shape="rect" id="node10" href="$classjuce_1_1OnlineUnlockForm.html" title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU..." alt="" coords="228,443,391,469"/>
+<area shape="rect" id="node11" href="$classjuce_1_1PluginListComponent.html" title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them..." alt="" coords="220,493,399,520"/>
+<area shape="rect" id="node12" href="$classjuce_1_1PreferencesPanel.html" title="A component with a set of buttons at the top for changing between pages of preferences. " alt="" coords="231,544,388,571"/>
+<area shape="rect" id="node13" href="$classjuce_1_1StandaloneFilterWindow.html" title="A class that can be used to run a simple standalone application containing your filter. " alt="" coords="212,595,407,621"/>
+<area shape="rect" id="node14" href="$classjuce_1_1Toolbar.html" title="A toolbar component. " alt="" coords="261,645,358,672"/>
+</map>

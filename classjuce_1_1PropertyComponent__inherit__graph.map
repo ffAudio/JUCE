@@ -1,0 +1,11 @@
+<map id="juce::PropertyComponent" name="juce::PropertyComponent">
+<area shape="rect" id="node6" href="$classjuce_1_1BooleanPropertyComponent.html" title="A PropertyComponent that contains an on/off toggle button. " alt="" coords="635,5,853,32"/>
+<area shape="rect" id="node7" href="$classjuce_1_1ButtonPropertyComponent.html" title="A PropertyComponent that contains a button. " alt="" coords="640,56,848,83"/>
+<area shape="rect" id="node8" href="$classjuce_1_1ChoicePropertyComponent.html" title="A PropertyComponent that shows its value as a combo box. " alt="" coords="639,107,849,133"/>
+<area shape="rect" id="node9" href="$classjuce_1_1SliderPropertyComponent.html" title="A PropertyComponent that shows its value as a slider. " alt="" coords="643,157,845,184"/>
+<area shape="rect" id="node10" href="$classjuce_1_1TextPropertyComponent.html" title="A PropertyComponent that shows its value as editable text. " alt="" coords="646,208,842,235"/>
+<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="219,81,341,108"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,81,144,108"/>
+<area shape="rect" id="node4" href="$classjuce_1_1SettableTooltipClient.html" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="193,132,367,159"/>
+<area shape="rect" id="node5" href="$classjuce_1_1TooltipClient.html" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="11,132,138,159"/>
+</map>

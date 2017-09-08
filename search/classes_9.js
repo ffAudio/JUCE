@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['javascriptengine',['JavascriptEngine',['../classJavascriptEngine.html',1,'']]],
-  ['jobselector',['JobSelector',['../classThreadPool_1_1JobSelector.html',1,'ThreadPool']]],
-  ['jpegimageformat',['JPEGImageFormat',['../classJPEGImageFormat.html',1,'']]],
-  ['json',['JSON',['../classJSON.html',1,'']]],
-  ['juceapplication',['JUCEApplication',['../classJUCEApplication.html',1,'']]],
-  ['juceapplicationbase',['JUCEApplicationBase',['../classJUCEApplicationBase.html',1,'']]],
-  ['jucesplashscreen',['JUCESplashScreen',['../classJUCESplashScreen.html',1,'']]],
-  ['justification',['Justification',['../classJustification.html',1,'']]]
+  ['javascriptengine',['JavascriptEngine',['../classjuce_1_1JavascriptEngine.html',1,'juce']]],
+  ['jobselector',['JobSelector',['../classjuce_1_1ThreadPool_1_1JobSelector.html',1,'juce::ThreadPool']]],
+  ['jpegimageformat',['JPEGImageFormat',['../classjuce_1_1JPEGImageFormat.html',1,'juce']]],
+  ['json',['JSON',['../classjuce_1_1JSON.html',1,'juce']]],
+  ['juceapplication',['JUCEApplication',['../classjuce_1_1JUCEApplication.html',1,'juce']]],
+  ['juceapplicationbase',['JUCEApplicationBase',['../classjuce_1_1JUCEApplicationBase.html',1,'juce']]],
+  ['jucesplashscreen',['JUCESplashScreen',['../classjuce_1_1JUCESplashScreen.html',1,'juce']]],
+  ['justification',['Justification',['../classjuce_1_1Justification.html',1,'juce']]]
 ];

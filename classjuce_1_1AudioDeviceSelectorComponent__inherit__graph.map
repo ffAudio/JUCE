@@ -1,0 +1,8 @@
+<map id="juce::AudioDeviceSelectorComponent" name="juce::AudioDeviceSelectorComponent">
+<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="218,5,339,32"/>
+<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node4" href="$classjuce_1_1ChangeListener.html" title="Receives change event callbacks that are sent out by a ChangeBroadcaster. " alt="" coords="206,56,351,83"/>
+<area shape="rect" id="node5" href="$classjuce_1_1ComboBox_1_1Listener.html" title="A class for receiving events from a ComboBox. " alt="" coords="192,107,365,133"/>
+<area shape="rect" id="node6" href="$classjuce_1_1Button_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="205,157,352,184"/>
+<area shape="rect" id="node7" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="235,208,322,235"/>
+</map>

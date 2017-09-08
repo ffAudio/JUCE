@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['incdecbuttonmode',['IncDecButtonMode',['../classSlider.html#a0ceaddd29269b6ec5a41f35bbb2ff74a',1,'Slider']]],
-  ['inputsourcetype',['InputSourceType',['../classMouseInputSource.html#abbe78de59be271b2b7a2b6d61e4d538b',1,'MouseInputSource']]],
-  ['invocationmethod',['InvocationMethod',['../structApplicationCommandTarget_1_1InvocationInfo.html#a87e99a7b4b51787a40700bce2a7acc22',1,'ApplicationCommandTarget::InvocationInfo']]],
-  ['iodevicetype',['IODeviceType',['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761a',1,'AudioProcessorGraph::AudioGraphIOProcessor']]]
+  ['incdecbuttonmode',['IncDecButtonMode',['../classjuce_1_1Slider.html#a26c7a8bd5009a27ec54c2823a1107102',1,'juce::Slider']]],
+  ['inputsourcetype',['InputSourceType',['../classjuce_1_1MouseInputSource.html#aa5bc9694c2b12e6ee6c6c2c5570e4822',1,'juce::MouseInputSource']]],
+  ['invocationmethod',['InvocationMethod',['../structjuce_1_1ApplicationCommandTarget_1_1InvocationInfo.html#a9a98ce6eb67b4e7a9029da9f5e4e75f4',1,'juce::ApplicationCommandTarget::InvocationInfo']]],
+  ['iodevicetype',['IODeviceType',['../classjuce_1_1AudioProcessorGraph_1_1AudioGraphIOProcessor.html#a5d304820de71a3789a864a27eb5aa937',1,'juce::AudioProcessorGraph::AudioGraphIOProcessor']]]
 ];
