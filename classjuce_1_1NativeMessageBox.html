@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classjuce_1_1NativeMessageBox-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -97,11 +98,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>This class contains some static methods for showing native alert windows.  
  <a href="classjuce_1_1NativeMessageBox.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a2682980c051d0a1277bcc61e7c97afe6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6">MessageBoxType</a> { <a class="el" href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6a50793c8a6885cbf3e9be611e6a06371a">okType</a>, 
+<a class="el" href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6a0a6ca79f91963c4d952d2526345ee5d2">okCancelType</a>, 
+<a class="el" href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6a7235aa64cfa34db0c05f89112c17a1a1">yesNoType</a>, 
+<a class="el" href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6acf682b5fbfe45d037348419bb59cfb98">yesNoCancelType</a>
+ }</td></tr>
+<tr class="memdesc:a2682980c051d0a1277bcc61e7c97afe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of enums describing the type of dialog box.  <a href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6">More...</a><br/></td></tr>
+<tr class="separator:a2682980c051d0a1277bcc61e7c97afe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7339eec329f6d093739cba35a2b75c1e"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1NativeMessageBox.html#a7339eec329f6d093739cba35a2b75c1e">showMessageBox</a> (<a class="el" href="classjuce_1_1AlertWindow.html#ace38f67b23f9215ea543516081ce50bc">AlertWindow::AlertIconType</a> iconType, const <a class="el" href="classjuce_1_1String.html">String</a> &amp;title, const <a class="el" href="classjuce_1_1String.html">String</a> &amp;message, <a class="el" href="classjuce_1_1Component.html">Component</a> *associatedComponent=nullptr)</td></tr>
 <tr class="memdesc:a7339eec329f6d093739cba35a2b75c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a dialog box that just has a message and a single 'ok' button to close it.  <a href="#a7339eec329f6d093739cba35a2b75c1e">More...</a><br/></td></tr>
 <tr class="separator:a7339eec329f6d093739cba35a2b75c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac665b499651878c61cf6ec88c74bbd4e"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1NativeMessageBox.html#ac665b499651878c61cf6ec88c74bbd4e">showMessageBox</a> (<a class="el" href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6">MessageBoxType</a> dialogType, <a class="el" href="classjuce_1_1AlertWindow.html#ace38f67b23f9215ea543516081ce50bc">AlertWindow::AlertIconType</a> iconType, const <a class="el" href="classjuce_1_1String.html">String</a> &amp;title, const <a class="el" href="classjuce_1_1String.html">String</a> &amp;message, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(int)&gt; &amp;&amp;lambda={}, <a class="el" href="classjuce_1_1Component.html">Component</a> *associatedComponent=nullptr)</td></tr>
+<tr class="memdesc:ac665b499651878c61cf6ec88c74bbd4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a dialog box asynchronously triggering a lambda when the user dismisses the box.  <a href="#ac665b499651878c61cf6ec88c74bbd4e">More...</a><br/></td></tr>
+<tr class="separator:ac665b499651878c61cf6ec88c74bbd4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade5f51461fc2015386a36d742738a2b9"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1NativeMessageBox.html#ade5f51461fc2015386a36d742738a2b9">showMessageBoxAsync</a> (<a class="el" href="classjuce_1_1AlertWindow.html#ace38f67b23f9215ea543516081ce50bc">AlertWindow::AlertIconType</a> iconType, const <a class="el" href="classjuce_1_1String.html">String</a> &amp;title, const <a class="el" href="classjuce_1_1String.html">String</a> &amp;message, <a class="el" href="classjuce_1_1Component.html">Component</a> *associatedComponent=nullptr, <a class="el" href="classjuce_1_1ModalComponentManager_1_1Callback.html">ModalComponentManager::Callback</a> *callback=nullptr)</td></tr>
 <tr class="memdesc:ade5f51461fc2015386a36d742738a2b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a dialog box that just has a message and a single 'ok' button to close it.  <a href="#ade5f51461fc2015386a36d742738a2b9">More...</a><br/></td></tr>
 <tr class="separator:ade5f51461fc2015386a36d742738a2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,7 +131,35 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class contains some static methods for showing native alert windows. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a2682980c051d0a1277bcc61e7c97afe6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6">juce::NativeMessageBox::MessageBoxType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A set of enums describing the type of dialog box. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a2682980c051d0a1277bcc61e7c97afe6a50793c8a6885cbf3e9be611e6a06371a"></a>okType</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a2682980c051d0a1277bcc61e7c97afe6a0a6ca79f91963c4d952d2526345ee5d2"></a>okCancelType</em>&#160;</td><td class="fielddoc">
+<p>A message box with a simple ok button. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a2682980c051d0a1277bcc61e7c97afe6a7235aa64cfa34db0c05f89112c17a1a1"></a>yesNoType</em>&#160;</td><td class="fielddoc">
+<p>A message box with an ok and cancel button. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a2682980c051d0a1277bcc61e7c97afe6acf682b5fbfe45d037348419bb59cfb98"></a>yesNoCancelType</em>&#160;</td><td class="fielddoc">
+<p>A message box with a yes and no button. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a7339eec329f6d093739cba35a2b75c1e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -169,6 +211,78 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">iconType</td><td>the type of icon to show </td></tr>
     <tr><td class="paramname">title</td><td>the headline to show at the top of the box </td></tr>
     <tr><td class="paramname">message</td><td>a longer, more descriptive message to show underneath the title </td></tr>
+    <tr><td class="paramname">associatedComponent</td><td>if this is non-null, it specifies the component that the alert window should be associated with. Depending on the look and feel, this might be used for positioning of the alert window. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac665b499651878c61cf6ec88c74bbd4e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> juce::NativeMessageBox::showMessageBox </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6">MessageBoxType</a>&#160;</td>
+          <td class="paramname"><em>dialogType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classjuce_1_1AlertWindow.html#ace38f67b23f9215ea543516081ce50bc">AlertWindow::AlertIconType</a>&#160;</td>
+          <td class="paramname"><em>iconType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classjuce_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>title</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classjuce_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(int)&gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>lambda</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classjuce_1_1Component.html">Component</a> *&#160;</td>
+          <td class="paramname"><em>associatedComponent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows a dialog box asynchronously triggering a lambda when the user dismisses the box. </p>
+<p>The box will be displayed and placed into a modal state, but this method will return immediately, and the lambda will be invoked later when the user dismisses the box.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dialogType</td><td>the type of the dialog </td></tr>
+    <tr><td class="paramname">iconType</td><td>the type of icon to show </td></tr>
+    <tr><td class="paramname">title</td><td>the headline to show at the top of the box </td></tr>
+    <tr><td class="paramname">message</td><td>a longer, more descriptive message to show underneath the title </td></tr>
+    <tr><td class="paramname">lambda</td><td>a lambda which will be triggered when the box is dismissed </td></tr>
     <tr><td class="paramname">associatedComponent</td><td>if this is non-null, it specifies the component that the alert window should be associated with. Depending on the look and feel, this might be used for positioning of the alert window. </td></tr>
   </table>
   </dd>
@@ -459,7 +573,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 12 2017 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 13 2017 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

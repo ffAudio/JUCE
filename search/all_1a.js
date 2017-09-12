@@ -380,6 +380,7 @@ var searchData=
   ['_7escopedautoreleasepool',['~ScopedAutoReleasePool',['../classjuce_1_1ScopedAutoReleasePool.html#ad1db4fce0acde15413e2a1c7e7242c8c',1,'juce::ScopedAutoReleasePool']]],
   ['_7escopedjuceinitialiser_5fgui',['~ScopedJuceInitialiser_GUI',['../classjuce_1_1ScopedJuceInitialiser__GUI.html#a215d0cd1beb0dcb92c42d72842b2a399',1,'juce::ScopedJuceInitialiser_GUI']]],
   ['_7escopedlocktype',['~ScopedLockType',['../classjuce_1_1InterProcessLock_1_1ScopedLockType.html#a7db945df2569b15abd7350ffa724c40f',1,'juce::InterProcessLock::ScopedLockType']]],
+  ['_7escopednodenormals',['~ScopedNoDenormals',['../classjuce_1_1ScopedNoDenormals.html#a49bd93da094cf774bab354825eedbcf7',1,'juce::ScopedNoDenormals']]],
   ['_7escopedpointer',['~ScopedPointer',['../classjuce_1_1ScopedPointer.html#aca113aedb66775d4ea660da11fa22e84',1,'juce::ScopedPointer']]],
   ['_7escopedreadlock',['~ScopedReadLock',['../classjuce_1_1ScopedReadLock.html#a8af25b14502fb67b27b85550b897a876',1,'juce::ScopedReadLock']]],
   ['_7escopedsavestate',['~ScopedSaveState',['../classjuce_1_1Graphics_1_1ScopedSaveState.html#a2149792b4eec64a8c60c54fb5a72ec8d',1,'juce::Graphics::ScopedSaveState']]],

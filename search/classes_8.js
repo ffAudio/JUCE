@@ -33,10 +33,10 @@ var searchData=
   ['invocationinfo',['InvocationInfo',['../structjuce_1_1ApplicationCommandTarget_1_1InvocationInfo.html',1,'juce::ApplicationCommandTarget']]],
   ['ipaddress',['IPAddress',['../classjuce_1_1IPAddress.html',1,'juce']]],
   ['item',['Item',['../structjuce_1_1PopupMenu_1_1Item.html',1,'juce::PopupMenu']]],
-  ['iterator',['Iterator',['../classjuce_1_1MidiBuffer_1_1Iterator.html',1,'juce::MidiBuffer']]],
+  ['iterator',['Iterator',['../classjuce_1_1Path_1_1Iterator.html',1,'juce::Path']]],
   ['iterator',['Iterator',['../classjuce_1_1ListenerList_1_1Iterator.html',1,'juce::ListenerList']]],
   ['iterator',['Iterator',['../classjuce_1_1CodeDocument_1_1Iterator.html',1,'juce::CodeDocument']]],
   ['iterator',['Iterator',['../structjuce_1_1HashMap_1_1Iterator.html',1,'juce::HashMap']]],
   ['iterator',['Iterator',['../structjuce_1_1ValueTree_1_1Iterator.html',1,'juce::ValueTree']]],
-  ['iterator',['Iterator',['../classjuce_1_1Path_1_1Iterator.html',1,'juce::Path']]]
+  ['iterator',['Iterator',['../classjuce_1_1MidiBuffer_1_1Iterator.html',1,'juce::MidiBuffer']]]
 ];

@@ -5,6 +5,8 @@ var searchData=
   ['odditemscolourid',['oddItemsColourId',['../classjuce_1_1TreeView.html#a1fd544bf427602065b3fd47efc6e8903a77447b301519322b1c272868e1679a53',1,'juce::TreeView']]],
   ['off',['off',['../structjuce_1_1MPENote.html#a3bc29d451148a39a66a03afb683a28efa5f4ff043fb23a8508e7616c6c20ead95',1,'juce::MPENote']]],
   ['ok',['ok',['../structlittlefoot_1_1Runner.html#a8bee4ec6b7ef24029af89651ecd452c9a444bcb3a3fcf8389296c49467f27e1d6',1,'littlefoot::Runner']]],
+  ['okcanceltype',['okCancelType',['../classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6a0a6ca79f91963c4d952d2526345ee5d2',1,'juce::NativeMessageBox']]],
+  ['oktype',['okType',['../classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6a50793c8a6885cbf3e9be611e6a06371a',1,'juce::NativeMessageBox']]],
   ['onlyincreaseinsize',['onlyIncreaseInSize',['../classjuce_1_1RectanglePlacement.html#ac398a0d4134e345f82b913e485c2989ba4b540baded16660f66870086de9dc377',1,'juce::RectanglePlacement']]],
   ['onlyreduceinsize',['onlyReduceInSize',['../classjuce_1_1RectanglePlacement.html#ac398a0d4134e345f82b913e485c2989ba2cd18d554c223f6ee552fb1116ef210a',1,'juce::RectanglePlacement']]],
   ['opengl3_5f2',['openGL3_2',['../classjuce_1_1OpenGLContext.html#ac41d6e6f7b3441f91bbdbc84a34cf76ca108671e4cd7308c65bcc908aa87dbbe2',1,'juce::OpenGLContext']]],
