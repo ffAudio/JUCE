@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5da037362b1243016b476453ae474d4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1StateVariableFilter_1_1Filter.html#a5da037362b1243016b476453ae474d4f">reset</a> () noexcept</td></tr>
 <tr class="memdesc:a5da037362b1243016b476453ae474d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the filter's processing pipeline.  <a href="#a5da037362b1243016b476453ae474d4f">More...</a><br/></td></tr>
 <tr class="separator:a5da037362b1243016b476453ae474d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaed88666e939c10533f8cb997b25a21f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1StateVariableFilter_1_1Filter.html#aaed88666e939c10533f8cb997b25a21f">snapToZero</a> () noexcept</td></tr>
+<tr class="memdesc:aaed88666e939c10533f8cb997b25a21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure that the state variables are rounded to zero if the state variables are denormals.  <a href="#aaed88666e939c10533f8cb997b25a21f">More...</a><br/></td></tr>
+<tr class="separator:aaed88666e939c10533f8cb997b25a21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55d92986a2af18510fdc1829ec64606a"><td class="memTemplParams" colspan="2">template&lt;typename ProcessContext &gt; </td></tr>
 <tr class="memitem:a55d92986a2af18510fdc1829ec64606a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1StateVariableFilter_1_1Filter.html#a55d92986a2af18510fdc1829ec64606a">process</a> (const ProcessContext &amp;context) noexcept</td></tr>
 <tr class="separator:a55d92986a2af18510fdc1829ec64606a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -309,6 +312,34 @@ template&lt;typename SampleType &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aaed88666e939c10533f8cb997b25a21f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classjuce_1_1dsp_1_1StateVariableFilter_1_1Filter.html">juce::dsp::StateVariableFilter::Filter</a>&lt; SampleType &gt;::snapToZero </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ensure that the state variables are rounded to zero if the state variables are denormals. </p>
+<p>This is only needed if you are doing sample by sample processing. </p>
+
+</div>
+</div>
 <a class="anchor" id="a55d92986a2af18510fdc1829ec64606a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -396,7 +427,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 13 2017 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 14 2017 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

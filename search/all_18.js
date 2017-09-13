@@ -9,8 +9,6 @@ var searchData=
   ['ycoord',['Ycoord',['../structjuce_1_1BlocksProtocol_1_1TouchPosition.html#a52c6a256c2af33bdeb15f9f03df1c9dd',1,'juce::BlocksProtocol::TouchPosition']]],
   ['yellow',['yellow',['../classjuce_1_1Colours.html#a19860fc9cf458a327b7fcbd09005155d',1,'juce::Colours']]],
   ['yellowgreen',['yellowgreen',['../classjuce_1_1Colours.html#a33c31d07000f852c3b32aa0f8c63e7ba',1,'juce::Colours']]],
-  ['yesnocanceltype',['yesNoCancelType',['../classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6acf682b5fbfe45d037348419bb59cfb98',1,'juce::NativeMessageBox']]],
-  ['yesnotype',['yesNoType',['../classjuce_1_1NativeMessageBox.html#a2682980c051d0a1277bcc61e7c97afe6a7235aa64cfa34db0c05f89112c17a1a1',1,'juce::NativeMessageBox']]],
   ['yield',['yield',['../classjuce_1_1Thread.html#a91e74f6e2ac4eb5041fbc5bd6e367674',1,'juce::Thread']]],
   ['ymid',['yMid',['../classjuce_1_1RectanglePlacement.html#ac398a0d4134e345f82b913e485c2989ba64bc860f8837fe2dff29558b8541b3bf',1,'juce::RectanglePlacement']]],
   ['yoffset',['yOffset',['../structjuce_1_1LowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a86cfa891dbcaa9b076465de86a3b4e17',1,'juce::LowLevelGraphicsPostScriptRenderer::SavedState']]],

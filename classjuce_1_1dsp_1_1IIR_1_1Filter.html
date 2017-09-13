@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a87a64fd9bda328c13f6ed6aa190c0930"><td class="memItemLeft" align="right" valign="top">SampleType JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html#a87a64fd9bda328c13f6ed6aa190c0930">processSample</a> (SampleType sample) noexcept</td></tr>
 <tr class="memdesc:a87a64fd9bda328c13f6ed6aa190c0930"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes a single sample, without any locking.  <a href="#a87a64fd9bda328c13f6ed6aa190c0930">More...</a><br/></td></tr>
 <tr class="separator:a87a64fd9bda328c13f6ed6aa190c0930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73bb25c0cfc699e818e8593a3995e282"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html#a73bb25c0cfc699e818e8593a3995e282">snapToZero</a> () noexcept</td></tr>
+<tr class="memdesc:a73bb25c0cfc699e818e8593a3995e282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure that the state variables are rounded to zero if the state variables are denormals.  <a href="#a73bb25c0cfc699e818e8593a3995e282">More...</a><br/></td></tr>
+<tr class="separator:a73bb25c0cfc699e818e8593a3995e282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -397,6 +400,34 @@ template&lt;typename SampleType &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a73bb25c0cfc699e818e8593a3995e282"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">juce::dsp::IIR::Filter</a>&lt; SampleType &gt;::snapToZero </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ensure that the state variables are rounded to zero if the state variables are denormals. </p>
+<p>This is only needed if you are doing sample by sample processing. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="ab1814be12e84d903e52508e00d596eaa"></a>
 <div class="memitem">
@@ -424,7 +455,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 13 2017 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 14 2017 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

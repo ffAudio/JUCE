@@ -173,7 +173,7 @@ var searchData=
   ['wow64_5fdefault',['WoW64_Default',['../classjuce_1_1WindowsRegistry.html#a5cdf511b8c830f06aa9599cbfb14436da88496c69e19c30961a4ac727ba65c08c',1,'juce::WindowsRegistry']]],
   ['wow64mode',['WoW64Mode',['../classjuce_1_1WindowsRegistry.html#a5cdf511b8c830f06aa9599cbfb14436d',1,'juce::WindowsRegistry']]],
   ['wrap',['wrap',['../classjuce_1_1FlexBox.html#a3f9c9c992c5ed54decb79338b7359df0accfc59a528a109fa4204e8ea06e8b68b',1,'juce::FlexBox::wrap()'],['../classjuce_1_1FlexBox.html#a3f9c9c992c5ed54decb79338b7359df0',1,'juce::FlexBox::Wrap()']]],
-  ['wrappertype',['WrapperType',['../classjuce_1_1AudioProcessor.html#a150f6effa552ade329df6dd7dd29b158',1,'juce::AudioProcessor::WrapperType()'],['../classjuce_1_1AudioProcessor.html#a7935de1c8675f428aaf1a4e7d286a19d',1,'juce::AudioProcessor::wrapperType()']]],
+  ['wrappertype',['wrapperType',['../classjuce_1_1AudioProcessor.html#a7935de1c8675f428aaf1a4e7d286a19d',1,'juce::AudioProcessor::wrapperType()'],['../classjuce_1_1AudioProcessor.html#a150f6effa552ade329df6dd7dd29b158',1,'juce::AudioProcessor::WrapperType()']]],
   ['wrappertype_5faax',['wrapperType_AAX',['../classjuce_1_1AudioProcessor.html#a150f6effa552ade329df6dd7dd29b158a5451c2e1ef37003c9dbfe8f1dcb4420a',1,'juce::AudioProcessor']]],
   ['wrappertype_5faudiounit',['wrapperType_AudioUnit',['../classjuce_1_1AudioProcessor.html#a150f6effa552ade329df6dd7dd29b158ad22859d000dee41677aea8675a99f640',1,'juce::AudioProcessor']]],
   ['wrappertype_5faudiounitv3',['wrapperType_AudioUnitv3',['../classjuce_1_1AudioProcessor.html#a150f6effa552ade329df6dd7dd29b158a91415d832e3aa301e6d4de431e0f0fac',1,'juce::AudioProcessor']]],
