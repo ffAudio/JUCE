@@ -1,7 +1,7 @@
 var searchData=
 [
   ['value',['value',['../group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389',1,'juce_VSTInterface.h']]],
-  ['value_5ftype',['value_type',['../structjuce_1_1dsp_1_1SIMDRegister.html#a6e9e3f7317a21ba35b50c994f553f262',1,'juce::dsp::SIMDRegister']]],
+  ['value_5ftype',['value_type',['../structjuce_1_1dsp_1_1SIMDRegister.html#abdce34c961abecfc7fa15a48261fe72b',1,'juce::dsp::SIMDRegister']]],
   ['valuelistener',['ValueListener',['../group__juce__data__structures-values.html#ga128696a45bbeca791473e41f28f84330',1,'juce']]],
   ['vectortype',['VectorType',['../classjuce_1_1Draggable3DOrientation.html#afe99bd24757bd089b24fc5ec299258aa',1,'juce::Draggable3DOrientation']]],
   ['vmasksimdtype',['vMaskSIMDType',['../structjuce_1_1dsp_1_1SIMDRegister.html#a3e0b7d3ed189052ec2f5c4ba894bfa22',1,'juce::dsp::SIMDRegister']]],

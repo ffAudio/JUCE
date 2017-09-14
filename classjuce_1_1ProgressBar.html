@@ -760,6 +760,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A progress bar component. </p>
 <p>To use this, just create one and make it visible. It'll run its own timer to keep an eye on a variable that you give it, and will automatically redraw itself when the variable changes.</p>
+<p>If using <a class="el" href="classjuce_1_1LookAndFeel__V4.html">LookAndFeel_V4</a> a circular spinning progress bar will be drawn if the width and height of the <a class="el" href="classjuce_1_1ProgressBar.html" title="A progress bar component. ">ProgressBar</a> are equal, otherwise the standard, linear <a class="el" href="classjuce_1_1ProgressBar.html" title="A progress bar component. ">ProgressBar</a> will be drawn.</p>
 <p>For an easy way of running a background task with a dialog box showing its progress, see the <a class="el" href="classjuce_1_1ThreadWithProgressWindow.html" title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it...">ThreadWithProgressWindow</a> class.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1ThreadWithProgressWindow.html" title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it...">ThreadWithProgressWindow</a> </dd></dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -814,7 +815,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Creates a <a class="el" href="classjuce_1_1ProgressBar.html" title="A progress bar component. ">ProgressBar</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">progress</td><td>pass in a reference to a double that you're going to update with your task's progress. The <a class="el" href="classjuce_1_1ProgressBar.html" title="A progress bar component. ">ProgressBar</a> will monitor the value of this variable and will redraw itself when the value changes. The range is from 0 to 1.0. Obviously you'd better be careful not to delete this variable while the <a class="el" href="classjuce_1_1ProgressBar.html" title="A progress bar component. ">ProgressBar</a> still exists! </td></tr>
+    <tr><td class="paramname">progress</td><td>pass in a reference to a double that you're going to update with your task's progress. The <a class="el" href="classjuce_1_1ProgressBar.html" title="A progress bar component. ">ProgressBar</a> will monitor the value of this variable and will redraw itself when the value changes. The range is from 0 to 1.0 and JUCE <a class="el" href="classjuce_1_1LookAndFeel.html" title="LookAndFeel objects define the appearance of all the JUCE widgets, and subclasses can be used to appl...">LookAndFeel</a> classes will draw a spinning animation for values outside this range. Obviously you'd better be careful not to delete this variable while the <a class="el" href="classjuce_1_1ProgressBar.html" title="A progress bar component. ">ProgressBar</a> still exists! </td></tr>
   </table>
   </dd>
 </dl>
@@ -985,7 +986,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 14 2017 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 15 2017 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

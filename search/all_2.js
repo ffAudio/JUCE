@@ -209,7 +209,7 @@ var searchData=
   ['closesubpathelement',['closeSubPathElement',['../classjuce_1_1DrawablePath_1_1ValueTreeWrapper_1_1Element.html#a5e32e0ecc59551559a435ce9d04ca84f',1,'juce::DrawablePath::ValueTreeWrapper::Element::closeSubPathElement()'],['../classjuce_1_1RelativePointPath.html#a18cf52a94cb41f1058b6d7899614e0a4af3ad69535433d83b7b91d34b6cb19bfa',1,'juce::RelativePointPath::closeSubPathElement()']]],
   ['closevideo',['closeVideo',['../classjuce_1_1VideoComponent.html#a8a979fb324bbc133ec98a1cb35e74fcd',1,'juce::VideoComponent']]],
   ['clusterconfigsync',['clusterConfigSync',['../namespacejuce_1_1BlocksProtocol.html#a55e0d648128465779ff4267cdf2efbd4a6186686d187184d2f53ea63081e7b8be',1,'juce::BlocksProtocol']]],
-  ['cmplxops',['CmplxOps',['../structjuce_1_1dsp_1_1SIMDRegister.html#a53efdff5e27f35f235622ebd9ed78b52',1,'juce::dsp::SIMDRegister']]],
+  ['cmplxops',['CmplxOps',['../structjuce_1_1dsp_1_1SIMDRegister.html#a20a7cba3e82653e20de8d2b01927d107',1,'juce::dsp::SIMDRegister']]],
   ['cmplxsimdops',['CmplxSIMDOps',['../structjuce_1_1dsp_1_1CmplxSIMDOps.html',1,'juce::dsp']]],
   ['cmplxsimdops_3c_20std_3a_3acomplex_3c_20scalar_20_3e_20_3e',['CmplxSIMDOps&lt; std::complex&lt; Scalar &gt; &gt;',['../structjuce_1_1dsp_1_1CmplxSIMDOps_3_01std_1_1complex_3_01Scalar_01_4_01_4.html',1,'juce::dsp']]],
   ['codedocument',['CodeDocument',['../classjuce_1_1CodeDocument.html#aa75a16ea8feb194a633b9ee0fec1ec05',1,'juce::CodeDocument']]],

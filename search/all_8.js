@@ -524,7 +524,7 @@ var searchData=
   ['isseparator',['isSeparator',['../structjuce_1_1PopupMenu_1_1Item.html#ad033c2fbf3620393750261dc6c1dd2ec',1,'juce::PopupMenu::Item']]],
   ['isshiftdown',['isShiftDown',['../classjuce_1_1ModifierKeys.html#ade112bceb50996f3d685f7289fcb8f49',1,'juce::ModifierKeys']]],
   ['isshowing',['isShowing',['../classjuce_1_1Component.html#a36f7a4a77ce938bc10d70ab27129b869',1,'juce::Component']]],
-  ['issimdaligned',['isSIMDAligned',['../structjuce_1_1dsp_1_1SIMDRegister.html#a4e6a656e69f8e6627f1d5c5ae6270160',1,'juce::dsp::SIMDRegister']]],
+  ['issimdaligned',['isSIMDAligned',['../structjuce_1_1dsp_1_1SIMDRegister.html#a1456876259278a9c4a78735596e779eb',1,'juce::dsp::SIMDRegister']]],
   ['issinglechannel',['isSingleChannel',['../classjuce_1_1Image.html#ac5e17466702ac2c1b092938be96eccbf',1,'juce::Image']]],
   ['issingularity',['isSingularity',['../classjuce_1_1AffineTransform.html#a34e667e24c2478186e05c3b9db01d586',1,'juce::AffineTransform']]],
   ['issmooth',['isSmooth',['../structjuce_1_1MouseWheelDetails.html#abfbeb42352ab1bd78b001a8906847c59',1,'juce::MouseWheelDetails']]],

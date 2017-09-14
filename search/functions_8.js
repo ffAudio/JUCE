@@ -401,7 +401,7 @@ var searchData=
   ['isselected',['isSelected',['../classjuce_1_1SelectedItemSet.html#a26629a27d8ff932e28720e8f84f409b5',1,'juce::SelectedItemSet::isSelected()'],['../classjuce_1_1TreeViewItem.html#a1325af9237e52052d875cf7745a3c60c',1,'juce::TreeViewItem::isSelected()']]],
   ['isshiftdown',['isShiftDown',['../classjuce_1_1ModifierKeys.html#ade112bceb50996f3d685f7289fcb8f49',1,'juce::ModifierKeys']]],
   ['isshowing',['isShowing',['../classjuce_1_1Component.html#a36f7a4a77ce938bc10d70ab27129b869',1,'juce::Component']]],
-  ['issimdaligned',['isSIMDAligned',['../structjuce_1_1dsp_1_1SIMDRegister.html#a4e6a656e69f8e6627f1d5c5ae6270160',1,'juce::dsp::SIMDRegister']]],
+  ['issimdaligned',['isSIMDAligned',['../structjuce_1_1dsp_1_1SIMDRegister.html#a1456876259278a9c4a78735596e779eb',1,'juce::dsp::SIMDRegister']]],
   ['issinglechannel',['isSingleChannel',['../classjuce_1_1Image.html#ac5e17466702ac2c1b092938be96eccbf',1,'juce::Image']]],
   ['issingularity',['isSingularity',['../classjuce_1_1AffineTransform.html#a34e667e24c2478186e05c3b9db01d586',1,'juce::AffineTransform']]],
   ['issmoothing',['isSmoothing',['../classjuce_1_1LinearSmoothedValue.html#ae8f09852f755e156501fc36856fbb5d6',1,'juce::LinearSmoothedValue::isSmoothing()'],['../classjuce_1_1dsp_1_1Gain.html#a50ea657e0f75694af1a7597eb932e247',1,'juce::dsp::Gain::isSmoothing()']]],

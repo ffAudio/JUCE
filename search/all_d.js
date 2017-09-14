@@ -18,7 +18,7 @@ var searchData=
   ['nativeimagetype',['NativeImageType',['../classjuce_1_1NativeImageType.html#a837041f750a63c6c8fca18078b18a2be',1,'juce::NativeImageType']]],
   ['nativeimagetype',['NativeImageType',['../classjuce_1_1NativeImageType.html',1,'juce']]],
   ['nativemessagebox',['NativeMessageBox',['../classjuce_1_1NativeMessageBox.html',1,'juce']]],
-  ['nativeops',['NativeOps',['../structjuce_1_1dsp_1_1SIMDRegister.html#a466eb352d67479e0869c6a6bd7cf1c01',1,'juce::dsp::SIMDRegister']]],
+  ['nativeops',['NativeOps',['../structjuce_1_1dsp_1_1SIMDRegister.html#aa5dc0726fc920bb734e3e9f1aaa7e68c',1,'juce::dsp::SIMDRegister']]],
   ['natural',['natural',['../classjuce_1_1AttributedString.html#ab9e2e59efbfa699e58f4e970d469212fa4d3c0335ff0fc466894086b366ef71cf',1,'juce::AttributedString']]],
   ['naturalfilecomparator',['NaturalFileComparator',['../structjuce_1_1File_1_1NaturalFileComparator.html',1,'juce::File']]],
   ['naturalfilecomparator',['NaturalFileComparator',['../structjuce_1_1File_1_1NaturalFileComparator.html#a8a951af1bec0a755850ad66a1969b5ea',1,'juce::File::NaturalFileComparator']]],

@@ -3,7 +3,7 @@ var searchData=
   ['callback',['Callback',['../classjuce_1_1RuntimePermissions.html#a9086a01dbe41bf69d6d9be70956aa129',1,'juce::RuntimePermissions']]],
   ['charpointertype',['CharPointerType',['../classjuce_1_1String.html#aa0f328075b652b35de9597200fe178f4',1,'juce::String']]],
   ['chartype',['CharType',['../classjuce_1_1CharPointer__ASCII.html#a457aefaf766c9d5b01c6fe4626ac3b4d',1,'juce::CharPointer_ASCII::CharType()'],['../classjuce_1_1CharPointer__UTF16.html#ad4844197627eaa264d738e7c477b5dba',1,'juce::CharPointer_UTF16::CharType()'],['../classjuce_1_1CharPointer__UTF32.html#aa77f98a2fc3cd7c1eb001408ac17881e',1,'juce::CharPointer_UTF32::CharType()'],['../classjuce_1_1CharPointer__UTF8.html#a467d8e8e49cca40da21975ea729fbad8',1,'juce::CharPointer_UTF8::CharType()']]],
-  ['cmplxops',['CmplxOps',['../structjuce_1_1dsp_1_1SIMDRegister.html#a53efdff5e27f35f235622ebd9ed78b52',1,'juce::dsp::SIMDRegister']]],
+  ['cmplxops',['CmplxOps',['../structjuce_1_1dsp_1_1SIMDRegister.html#a20a7cba3e82653e20de8d2b01927d107',1,'juce::dsp::SIMDRegister']]],
   ['comboboxlistener',['ComboBoxListener',['../group__juce__gui__basics-widgets.html#gae448f7c219428ffb08f5d72523fd0546',1,'juce']]],
   ['commandid',['CommandID',['../group__juce__gui__basics-commands.html#gadba61bf2b8a72dbccc25b23a554d9307',1,'juce']]],
   ['configcommand',['ConfigCommand',['../namespacejuce_1_1BlocksProtocol.html#a29f5ddad7b80695f5edaad61b027c770',1,'juce::BlocksProtocol']]],
