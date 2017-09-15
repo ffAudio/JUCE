@@ -276,6 +276,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad0bc2c132fb1d0fb05f549a93c765276"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1var.html">var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1var.html#ad0bc2c132fb1d0fb05f549a93c765276">getProperty</a> (const <a class="el" href="classjuce_1_1Identifier.html">Identifier</a> &amp;propertyName, const <a class="el" href="classjuce_1_1var.html">var</a> &amp;defaultReturnValue) const </td></tr>
 <tr class="memdesc:ad0bc2c132fb1d0fb05f549a93c765276"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this variant is an object, this returns one of its properties, or a default fallback value if the property is not set.  <a href="#ad0bc2c132fb1d0fb05f549a93c765276">More...</a><br/></td></tr>
 <tr class="separator:ad0bc2c132fb1d0fb05f549a93c765276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bcd41a637830491f657af9194500d35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1var.html#a6bcd41a637830491f657af9194500d35">hasProperty</a> (const <a class="el" href="classjuce_1_1Identifier.html">Identifier</a> &amp;propertyName) const noexcept</td></tr>
+<tr class="memdesc:a6bcd41a637830491f657af9194500d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this variant is an object and if it has the given property.  <a href="#a6bcd41a637830491f657af9194500d35">More...</a><br/></td></tr>
+<tr class="separator:a6bcd41a637830491f657af9194500d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c6e58e601e64210f99e04b1c5998830"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1var.html">var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1var.html#a4c6e58e601e64210f99e04b1c5998830">call</a> (const <a class="el" href="classjuce_1_1Identifier.html">Identifier</a> &amp;method) const </td></tr>
 <tr class="memdesc:a4c6e58e601e64210f99e04b1c5998830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes a named method call with no arguments.  <a href="#a4c6e58e601e64210f99e04b1c5998830">More...</a><br/></td></tr>
 <tr class="separator:a4c6e58e601e64210f99e04b1c5998830"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1841,6 +1844,32 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6bcd41a637830491f657af9194500d35"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool juce::var::hasProperty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classjuce_1_1Identifier.html">Identifier</a> &amp;&#160;</td>
+          <td class="paramname"><em>propertyName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this variant is an object and if it has the given property. </p>
+
+</div>
+</div>
 <a class="anchor" id="a4c6e58e601e64210f99e04b1c5998830"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2164,7 +2193,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 15 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 16 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

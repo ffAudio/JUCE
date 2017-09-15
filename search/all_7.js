@@ -105,7 +105,7 @@ var searchData=
   ['hasneon',['hasNeon',['../classjuce_1_1SystemStats.html#a81c87e5ea0fafd1b18a5c23490edb3f0',1,'juce::SystemStats']]],
   ['hasownservicetimer',['hasOwnServiceTimer',['../classjuce_1_1PhysicalTopologySource.html#abc0804d4b0fa44e3f3a6a5103257689e',1,'juce::PhysicalTopologySource']]],
   ['hasprefix',['hasPrefix',['../structjuce_1_1BlocksProtocol_1_1BlockSerialNumber.html#a97048523cfa88fabcd87f21d94eda083',1,'juce::BlocksProtocol::BlockSerialNumber']]],
-  ['hasproperty',['hasProperty',['../classjuce_1_1DynamicObject.html#aa8f0c98587acc544b0a0f3c1b12ccdb7',1,'juce::DynamicObject::hasProperty()'],['../classjuce_1_1ValueTree.html#afa89ceabad600c371dc13c96b6167d91',1,'juce::ValueTree::hasProperty()']]],
+  ['hasproperty',['hasProperty',['../classjuce_1_1DynamicObject.html#aa8f0c98587acc544b0a0f3c1b12ccdb7',1,'juce::DynamicObject::hasProperty()'],['../classjuce_1_1var.html#a6bcd41a637830491f657af9194500d35',1,'juce::var::hasProperty()'],['../classjuce_1_1ValueTree.html#afa89ceabad600c371dc13c96b6167d91',1,'juce::ValueTree::hasProperty()']]],
   ['hassametypeas',['hasSameTypeAs',['../classjuce_1_1var.html#ae9ee28970e3a0d55bf489ed4e1b6f8c6',1,'juce::var']]],
   ['hasseparateinputsandoutputs',['hasSeparateInputsAndOutputs',['../classjuce_1_1AudioIODeviceType.html#a64a09bdeb48cd9931b9508c77fbaa279',1,'juce::AudioIODeviceType']]],
   ['hassharedcontainer',['hasSharedContainer',['../classjuce_1_1PluginDescription.html#a47d3c6227c33a316dd94eea2eb0a980c',1,'juce::PluginDescription']]],
