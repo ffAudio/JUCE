@@ -765,6 +765,7 @@ var searchData=
   ['getminimum',['getMinimum',['../classjuce_1_1Slider.html#a021db7aa47d42df47422503466d52003',1,'juce::Slider']]],
   ['getminimumheight',['getMinimumHeight',['../classjuce_1_1ComponentBoundsConstrainer.html#ac2bfd13490a1d3a9797bd0115ea2f99a',1,'juce::ComponentBoundsConstrainer']]],
   ['getminimumhorizontalscale',['getMinimumHorizontalScale',['../classjuce_1_1Label.html#a9b6f043cf8d95e938fc5aeeb5efb3b30',1,'juce::Label']]],
+  ['getminimumnumcolumns',['getMinimumNumColumns',['../classjuce_1_1PopupMenu_1_1Options.html#a1ceec925c1353175134a0fc11cef75f3',1,'juce::PopupMenu::Options']]],
   ['getminimumrangelimit',['getMinimumRangeLimit',['../classjuce_1_1ScrollBar.html#af24b95cd5a58fd2cd9edc22f52bdc33b',1,'juce::ScrollBar']]],
   ['getminimumscrollbarthumbsize',['getMinimumScrollbarThumbSize',['../structjuce_1_1ScrollBar_1_1LookAndFeelMethods.html#a561e0d7f340d7f6e4bace1a4839118fa',1,'juce::ScrollBar::LookAndFeelMethods::getMinimumScrollbarThumbSize()'],['../classjuce_1_1LookAndFeel__V2.html#aaabb8c1d4de484fa23ae7bf77a1bf52c',1,'juce::LookAndFeel_V2::getMinimumScrollbarThumbSize()']]],
   ['getminimumwhenoffthebottom',['getMinimumWhenOffTheBottom',['../classjuce_1_1ComponentBoundsConstrainer.html#aa6899287652a0671d25f1738423c2ebd',1,'juce::ComponentBoundsConstrainer']]],

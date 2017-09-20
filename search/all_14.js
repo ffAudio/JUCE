@@ -24,7 +24,7 @@ var searchData=
   ['undoableaction',['UndoableAction',['../classjuce_1_1UndoableAction.html',1,'juce']]],
   ['undoableaction',['UndoableAction',['../classjuce_1_1UndoableAction.html#a6970c175ce8b21a384bc466541853665',1,'juce::UndoableAction']]],
   ['undocurrenttransactiononly',['undoCurrentTransactionOnly',['../classjuce_1_1UndoManager.html#a8814e4f84acce0f2e46eb346c20d1476',1,'juce::UndoManager']]],
-  ['undomanager',['UndoManager',['../classjuce_1_1UndoManager.html#aa2f80bc9ec027a2e796c10795728a094',1,'juce::UndoManager::UndoManager()'],['../classjuce_1_1AudioProcessorValueTreeState.html#a0b78fec77fb5f1128cf9b04e0f1aebbc',1,'juce::AudioProcessorValueTreeState::undoManager()']]],
+  ['undomanager',['undoManager',['../classjuce_1_1AudioProcessorValueTreeState.html#a0b78fec77fb5f1128cf9b04e0f1aebbc',1,'juce::AudioProcessorValueTreeState::undoManager()'],['../classjuce_1_1UndoManager.html#aa2f80bc9ec027a2e796c10795728a094',1,'juce::UndoManager::UndoManager()']]],
   ['undomanager',['UndoManager',['../classjuce_1_1UndoManager.html',1,'juce']]],
   ['unfocusallcomponents',['unfocusAllComponents',['../classjuce_1_1Component.html#a3473c2f12f1da1cad74ce2e7f38b2239',1,'juce::Component']]],
   ['unhandledexception',['unhandledException',['../classjuce_1_1JUCEApplicationBase.html#adda8cfe8a8023ac4019d1728c7526169',1,'juce::JUCEApplicationBase::unhandledException()'],['../classjuce_1_1JUCEApplication.html#aa1aeb9c570352be72d9f5771076fdb10',1,'juce::JUCEApplication::unhandledException()']]],
