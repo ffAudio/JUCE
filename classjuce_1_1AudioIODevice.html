@@ -176,6 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ced8c0d4c4cbda061da340047efd24f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1AudioIODevice.html#a8ced8c0d4c4cbda061da340047efd24f">setAudioPreprocessingEnabled</a> (bool shouldBeEnabled)</td></tr>
 <tr class="memdesc:a8ced8c0d4c4cbda061da340047efd24f"><td class="mdescLeft">&#160;</td><td class="mdescRight">On devices which support it, this allows automatic gain control or other mic processing to be disabled.  <a href="#a8ced8c0d4c4cbda061da340047efd24f">More...</a><br/></td></tr>
 <tr class="separator:a8ced8c0d4c4cbda061da340047efd24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb1480206efa2fb50bc89a6d462129f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1AudioIODevice.html#a8fb1480206efa2fb50bc89a6d462129f">getXRunCount</a> () const noexcept</td></tr>
+<tr class="memdesc:a8fb1480206efa2fb50bc89a6d462129f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of under- or over runs reported by the OS since playback/recording has started.  <a href="#a8fb1480206efa2fb50bc89a6d462129f">More...</a><br/></td></tr>
+<tr class="separator:a8fb1480206efa2fb50bc89a6d462129f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -923,6 +926,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8fb1480206efa2fb50bc89a6d462129f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int juce::AudioIODevice::getXRunCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of under- or over runs reported by the OS since playback/recording has started. </p>
+<p>This number may be different than determining the Xrun count manually (by measuring the time spent in the audio callback) as the OS may be doing some buffering internally - especially on mobile devices.</p>
+<p>Returns -1 if playback/recording has not started yet or if getting the underrun count is not supported for this device (Android SDK 23 and lower). </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a70b01d1bfd0e736b39b4ebb2ab464e38"></a>
 <div class="memitem">
@@ -970,7 +1000,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 21 2017 01:00:32 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 22 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1419,6 +1419,7 @@ var searchData=
   ['getx',['getX',['../classjuce_1_1Point.html#ab29279bce288067d2e33dee990b8ef36',1,'juce::Point::getX()'],['../classjuce_1_1Rectangle.html#a30d7087a3d380a470369419fb20f289c',1,'juce::Rectangle::getX()'],['../classjuce_1_1Component.html#a6123617cab9d2d3f845902ea75c31814',1,'juce::Component::getX()']]],
   ['getxmlfrombinary',['getXmlFromBinary',['../classjuce_1_1AudioProcessor.html#ac5d4a5cc8d513b3e3fe836e517da7566',1,'juce::AudioProcessor']]],
   ['getxmlvalue',['getXmlValue',['../classjuce_1_1PropertySet.html#ad33e443956f2ed5087adf2b30ccdda82',1,'juce::PropertySet']]],
+  ['getxruncount',['getXRunCount',['../classjuce_1_1AudioIODevice.html#a8fb1480206efa2fb50bc89a6d462129f',1,'juce::AudioIODevice']]],
   ['gety',['getY',['../classjuce_1_1Point.html#aabb36ffa65cc0af89fbf2d1a00aa146f',1,'juce::Point::getY()'],['../classjuce_1_1Rectangle.html#ab609583763c1c6b04208143088b124de',1,'juce::Rectangle::getY()'],['../classjuce_1_1Component.html#aa3b86cc30f7794e19d1319b94ce831be',1,'juce::Component::getY()']]],
   ['getyear',['getYear',['../classjuce_1_1Time.html#a91e84cc7a06bb7302c399a3aec6a0c21',1,'juce::Time']]],
   ['getzonebychannel',['getZoneByChannel',['../classjuce_1_1MPEZoneLayout.html#a75190774cb9a2458d91c7d72e05f7442',1,'juce::MPEZoneLayout']]],

@@ -412,8 +412,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa9ccb27390258f83d06f64d879d4d911"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79f31cbf75c7b8a1d084ade93946dca8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1TextEditor.html#a79f31cbf75c7b8a1d084ade93946dca8">enablementChanged</a> () override</td></tr>
 <tr class="separator:a79f31cbf75c7b8a1d084ade93946dca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace9f330912bea936363b7c4ce71fc87e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1TextEditor.html#ace9f330912bea936363b7c4ce71fc87e">colourChanged</a> () override</td></tr>
-<tr class="separator:ace9f330912bea936363b7c4ce71fc87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa43d8f0db0e45ef8d47b11607e61b298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1TextEditor.html#aa43d8f0db0e45ef8d47b11607e61b298">lookAndFeelChanged</a> () override</td></tr>
 <tr class="separator:aa43d8f0db0e45ef8d47b11607e61b298"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea7eb39cdb6745a052b7f633bb4b5e85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1TextEditor.html#aea7eb39cdb6745a052b7f633bb4b5e85">parentHierarchyChanged</a> () override</td></tr>
@@ -912,6 +910,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af896013daeff90b093c475810edd5938 inherit pub_methods_classjuce_1_1Component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Component.html#af896013daeff90b093c475810edd5938">copyAllExplicitColoursTo</a> (<a class="el" href="classjuce_1_1Component.html">Component</a> &amp;target) const </td></tr>
 <tr class="memdesc:af896013daeff90b093c475810edd5938 inherit pub_methods_classjuce_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">This looks for any colours that have been specified for this component, and copies them to the specified target component.  <a href="#af896013daeff90b093c475810edd5938">More...</a><br/></td></tr>
 <tr class="separator:af896013daeff90b093c475810edd5938 inherit pub_methods_classjuce_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ec7a43ed773d35c3309ce028559de8 inherit pub_methods_classjuce_1_1Component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Component.html#a75ec7a43ed773d35c3309ce028559de8">colourChanged</a> ()</td></tr>
+<tr class="memdesc:a75ec7a43ed773d35c3309ce028559de8 inherit pub_methods_classjuce_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when a colour is changed by the <a class="el" href="classjuce_1_1Component.html#a76d804e57f9132e783ffd5bf78c30c4d" title="Registers a colour to be used for a particular purpose. ">setColour()</a> method.  <a href="#a75ec7a43ed773d35c3309ce028559de8">More...</a><br/></td></tr>
+<tr class="separator:a75ec7a43ed773d35c3309ce028559de8 inherit pub_methods_classjuce_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af309e154464f8e938b8de49c93175ed0 inherit pub_methods_classjuce_1_1Component"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classjuce_1_1MarkerList.html">MarkerList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Component.html#af309e154464f8e938b8de49c93175ed0">getMarkers</a> (bool xAxis)</td></tr>
 <tr class="memdesc:af309e154464f8e938b8de49c93175ed0 inherit pub_methods_classjuce_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Components can implement this method to provide a <a class="el" href="classjuce_1_1MarkerList.html" title="Holds a set of named marker points along a one-dimensional axis. ">MarkerList</a>.  <a href="#af309e154464f8e938b8de49c93175ed0">More...</a><br/></td></tr>
 <tr class="separator:af309e154464f8e938b8de49c93175ed0 inherit pub_methods_classjuce_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3233,31 +3234,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ace9f330912bea936363b7c4ce71fc87e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void juce::TextEditor::colourChanged </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classjuce_1_1Component.html#a75ec7a43ed773d35c3309ce028559de8">juce::Component</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="aa43d8f0db0e45ef8d47b11607e61b298"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3515,7 +3491,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 21 2017 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 22 2017 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
