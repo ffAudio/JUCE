@@ -148,7 +148,7 @@ var searchData=
   ['orchid',['orchid',['../classjuce_1_1Colours.html#a8d13af018c7cab3e92a402f4c104e9b8',1,'juce::Colours']]],
   ['order',['order',['../classjuce_1_1FlexItem.html#a632c4020a695af1abef92fd73c813d60',1,'juce::FlexItem::order()'],['../classjuce_1_1GridItem.html#a976e8deb61f8f7b9ed9638a69588e4d9',1,'juce::GridItem::order()']]],
   ['orderid',['orderId',['../structjuce_1_1InAppPurchases_1_1Purchase.html#ac0a99747461811923d84fa0e1ad7fb57',1,'juce::InAppPurchases::Purchase']]],
-  ['orientation',['orientation',['../classjuce_1_1MouseEvent.html#a4d4b89cf95333a38bc79e782bf15a215',1,'juce::MouseEvent::orientation()'],['../classjuce_1_1MidiKeyboardComponent.html#ada3b749406855fd14c8999e8458e1df5',1,'juce::MidiKeyboardComponent::Orientation()'],['../classjuce_1_1TabbedButtonBar.html#a75917b1f755983129bf18fa1bf7bda73',1,'juce::TabbedButtonBar::Orientation()']]],
+  ['orientation',['Orientation',['../classjuce_1_1MidiKeyboardComponent.html#ada3b749406855fd14c8999e8458e1df5',1,'juce::MidiKeyboardComponent::Orientation()'],['../classjuce_1_1TabbedButtonBar.html#a75917b1f755983129bf18fa1bf7bda73',1,'juce::TabbedButtonBar::Orientation()'],['../classjuce_1_1MouseEvent.html#a4d4b89cf95333a38bc79e782bf15a215',1,'juce::MouseEvent::orientation()']]],
   ['originalcomponent',['originalComponent',['../classjuce_1_1MouseEvent.html#a2987f3f5b21b962200165ce24426b493',1,'juce::MouseEvent']]],
   ['originatingcomponent',['originatingComponent',['../structjuce_1_1ApplicationCommandTarget_1_1InvocationInfo.html#a78543ed3f5c6a3ae62f8ec16ccc8df6f',1,'juce::ApplicationCommandTarget::InvocationInfo']]],
   ['originrelativetocomponent',['originRelativeToComponent',['../classjuce_1_1Drawable.html#a7d501d6997ff5244605952acc3175cad',1,'juce::Drawable']]],
