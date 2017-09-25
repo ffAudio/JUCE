@@ -89,6 +89,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classjuce_1_1Viewport-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">juce::Viewport Class Reference<div class="ingroups"><a class="el" href="group__juce__gui__basics-layout.html">layout</a></div></div>  </div>
@@ -178,12 +179,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aec41443b23513c9f151f53a08caff168"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Viewport.html#aec41443b23513c9f151f53a08caff168">setSingleStepSizes</a> (int stepX, int stepY)</td></tr>
 <tr class="memdesc:aec41443b23513c9f151f53a08caff168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the distance that a single-step click on a scrollbar button will move the viewport.  <a href="#aec41443b23513c9f151f53a08caff168">More...</a><br/></td></tr>
 <tr class="separator:aec41443b23513c9f151f53a08caff168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59d812d97ca6152e7ab26ab706163750"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Viewport.html#a59d812d97ca6152e7ab26ab706163750">getVerticalScrollBar</a> () noexcept</td></tr>
-<tr class="memdesc:a59d812d97ca6152e7ab26ab706163750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the scrollbar component being used.  <a href="#a59d812d97ca6152e7ab26ab706163750">More...</a><br/></td></tr>
-<tr class="separator:a59d812d97ca6152e7ab26ab706163750"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6632f7dfb89d5ae68afbaf80ee267151"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Viewport.html#a6632f7dfb89d5ae68afbaf80ee267151">getHorizontalScrollBar</a> () noexcept</td></tr>
-<tr class="memdesc:a6632f7dfb89d5ae68afbaf80ee267151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the scrollbar component being used.  <a href="#a6632f7dfb89d5ae68afbaf80ee267151">More...</a><br/></td></tr>
-<tr class="separator:a6632f7dfb89d5ae68afbaf80ee267151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b036a42c73df78706a5ecc8ff542e7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Viewport.html#a8b036a42c73df78706a5ecc8ff542e7a">getVerticalScrollBar</a> () noexcept</td></tr>
+<tr class="memdesc:a8b036a42c73df78706a5ecc8ff542e7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the scrollbar component being used.  <a href="#a8b036a42c73df78706a5ecc8ff542e7a">More...</a><br/></td></tr>
+<tr class="separator:a8b036a42c73df78706a5ecc8ff542e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36cde94112011f79e42c787dd95ac387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Viewport.html#a36cde94112011f79e42c787dd95ac387">getHorizontalScrollBar</a> () noexcept</td></tr>
+<tr class="memdesc:a36cde94112011f79e42c787dd95ac387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the scrollbar component being used.  <a href="#a36cde94112011f79e42c787dd95ac387">More...</a><br/></td></tr>
+<tr class="separator:a36cde94112011f79e42c787dd95ac387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58935db76b1108ca80364e413c349abe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Viewport.html#a58935db76b1108ca80364e413c349abe">canScrollVertically</a> () const noexcept</td></tr>
 <tr class="memdesc:a58935db76b1108ca80364e413c349abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if there's any off-screen content that could be scrolled vertically, or false if everything is currently visible.  <a href="#a58935db76b1108ca80364e413c349abe">More...</a><br/></td></tr>
 <tr class="separator:a58935db76b1108ca80364e413c349abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -802,6 +803,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aeea1f72cd12f58f288f1555fa2284973 inherit pub_static_methods_classjuce_1_1Component"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjuce_1_1Component.html">Component</a> *<a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Component.html#aeea1f72cd12f58f288f1555fa2284973">getCurrentlyModalComponent</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>=0) noexcept</td></tr>
 <tr class="memdesc:aeea1f72cd12f58f288f1555fa2284973 inherit pub_static_methods_classjuce_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the components that are currently modal.  <a href="#aeea1f72cd12f58f288f1555fa2284973">More...</a><br/></td></tr>
 <tr class="separator:aeea1f72cd12f58f288f1555fa2284973 inherit pub_static_methods_classjuce_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a88548b6dee0cbaea30b266fdce168a5d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1Viewport.html#a88548b6dee0cbaea30b266fdce168a5d">createScrollBarComponent</a> (bool isVertical)</td></tr>
+<tr class="memdesc:a88548b6dee0cbaea30b266fdce168a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the Scrollbar components that will be added to the <a class="el" href="classjuce_1_1Viewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">Viewport</a>.  <a href="#a88548b6dee0cbaea30b266fdce168a5d">More...</a><br/></td></tr>
+<tr class="separator:a88548b6dee0cbaea30b266fdce168a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1462,7 +1469,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a59d812d97ca6152e7ab26ab706163750"></a>
+<a class="anchor" id="a8b036a42c73df78706a5ecc8ff542e7a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1470,7 +1477,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>* juce::Viewport::getVerticalScrollBar </td>
+          <td class="memname"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>&amp; juce::Viewport::getVerticalScrollBar </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1488,7 +1495,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6632f7dfb89d5ae68afbaf80ee267151"></a>
+<a class="anchor" id="a36cde94112011f79e42c787dd95ac387"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1496,7 +1503,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>* juce::Viewport::getHorizontalScrollBar </td>
+          <td class="memname"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>&amp; juce::Viewport::getHorizontalScrollBar </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1873,13 +1880,40 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a88548b6dee0cbaea30b266fdce168a5d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>* juce::Viewport::createScrollBarComponent </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isVertical</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates the Scrollbar components that will be added to the <a class="el" href="classjuce_1_1Viewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">Viewport</a>. </p>
+<p>Subclasses can override this if they need to customise the scrollbars in some way. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__Viewport_8h.html">juce_Viewport.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 23 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 26 2017 01:01:07 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

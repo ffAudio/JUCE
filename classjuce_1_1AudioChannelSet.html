@@ -144,12 +144,14 @@ Public Types</h2></td></tr>
 <a class="el" href="classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1a9f4cf281f0933f6e7d532702565982d2">ambisonicY</a> = 26, 
 <br/>
 &#160;&#160;<a class="el" href="classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1a89592b28162fe6f0cdc19d2187d962c1">ambisonicZ</a> = 27, 
+<a class="el" href="classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1a441626eec448dd910a8b1e654702a571">topSideLeft</a> = 28, 
+<a class="el" href="classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1a6fbeae27f914556d497ac2d8ebbdc320">topSideRight</a> = 29, 
 <a class="el" href="classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1ae86f96bfc79db6801d76c9592a698193">discreteChannel0</a> = 64
 <br/>
  }</td></tr>
 <tr class="memdesc:a7011c4aff026f4b48d1a545aebc03ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents different audio channel types.  <a href="classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1">More...</a><br/></td></tr>
 <tr class="separator:a7011c4aff026f4b48d1a545aebc03ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ae38353c78ae3d32f7ac5e6b66ef5d9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classjuce_1_1AudioChannelSet.html#a5ae38353c78ae3d32f7ac5e6b66ef5d9a87479f6f6ff660a38fdf29a51ac48ea2">maxChannelsOfNamedLayout</a> = 8
+<tr class="memitem:a5ae38353c78ae3d32f7ac5e6b66ef5d9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classjuce_1_1AudioChannelSet.html#a5ae38353c78ae3d32f7ac5e6b66ef5d9a87479f6f6ff660a38fdf29a51ac48ea2">maxChannelsOfNamedLayout</a> = 10
  }</td></tr>
 <tr class="separator:a5ae38353c78ae3d32f7ac5e6b66ef5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -267,6 +269,14 @@ Static Public Member Functions</h2></td></tr>
 <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1AudioChannelSet.html#a79ef2dd729192dc86a2bc802b4491de4">create7point1SDDS</a> ()</td></tr>
 <tr class="memdesc:a79ef2dd729192dc86a2bc802b4491de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a set for a 7.1 surround setup (left, right, centre, leftSurround, rightSurround, leftCentre, rightCentre, LFE).  <a href="#a79ef2dd729192dc86a2bc802b4491de4">More...</a><br/></td></tr>
 <tr class="separator:a79ef2dd729192dc86a2bc802b4491de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467733784c0aa11e6c9438efb2138be6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjuce_1_1AudioChannelSet.html">AudioChannelSet</a> <br class="typebreak"/>
+<a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1AudioChannelSet.html#a467733784c0aa11e6c9438efb2138be6">create7point0point2</a> ()</td></tr>
+<tr class="memdesc:a467733784c0aa11e6c9438efb2138be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a set for Dolby Atmos 7.0.2 surround setup (left, right, centre, leftSurroundSide, rightSurroundSide, leftSurroundRear, rightSurroundRear, topSideLeft, topSideRight).  <a href="#a467733784c0aa11e6c9438efb2138be6">More...</a><br/></td></tr>
+<tr class="separator:a467733784c0aa11e6c9438efb2138be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13672b456b6aa3f0f72967f3d41be044"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjuce_1_1AudioChannelSet.html">AudioChannelSet</a> <br class="typebreak"/>
+<a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1AudioChannelSet.html#a13672b456b6aa3f0f72967f3d41be044">create7point1point2</a> ()</td></tr>
+<tr class="memdesc:a13672b456b6aa3f0f72967f3d41be044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a set for Dolby Atmos 7.1.2 surround setup (left, right, centre, leftSurroundSide, rightSurroundSide, leftSurroundRear, rightSurroundRear, LFE, topSideLeft, topSideRight).  <a href="#a13672b456b6aa3f0f72967f3d41be044">More...</a><br/></td></tr>
+<tr class="separator:a13672b456b6aa3f0f72967f3d41be044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b88ec7a7aee483029bed6fb62b0b0f9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classjuce_1_1AudioChannelSet.html">AudioChannelSet</a> <br class="typebreak"/>
 <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1AudioChannelSet.html#a1b88ec7a7aee483029bed6fb62b0b0f9">ambisonic</a> ()</td></tr>
 <tr class="memdesc:a1b88ec7a7aee483029bed6fb62b0b0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a set for ambisonic surround setups (ambisonicW, ambisonicX, ambisonicY, ambisonicZ).  <a href="#a1b88ec7a7aee483029bed6fb62b0b0f9">More...</a><br/></td></tr>
@@ -399,6 +409,10 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a7011c4aff026f4b48d1a545aebc03ac1a9f4cf281f0933f6e7d532702565982d2"></a>ambisonicY</em>&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a7011c4aff026f4b48d1a545aebc03ac1a89592b28162fe6f0cdc19d2187d962c1"></a>ambisonicZ</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a7011c4aff026f4b48d1a545aebc03ac1a441626eec448dd910a8b1e654702a571"></a>topSideLeft</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a7011c4aff026f4b48d1a545aebc03ac1a6fbeae27f914556d497ac2d8ebbdc320"></a>topSideRight</em>&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a7011c4aff026f4b48d1a545aebc03ac1ae86f96bfc79db6801d76c9592a698193"></a>discreteChannel0</em>&#160;</td><td class="fielddoc">
 <p>Non-typed individual channels are indexed upwards from this value. </p>
@@ -907,6 +921,58 @@ Static Public Member Functions</h2></td></tr>
 <p>This format is referred to as "7.1 (SDDS)" in Logic Pro. This format is referred to as "7.1 SDDS" in Pro Tools. </p>
 
 <p>Referenced by <a class="el" href="structjuce_1_1SpeakerMappings.html#abeced4f91979519991378264d8a93559">juce::SpeakerMappings::channelSetToVstArrangementType()</a>, and <a class="el" href="structjuce_1_1SpeakerMappings.html#a8f865e2e3947b6955f19adeeacdd908c">juce::SpeakerMappings::vstArrangementTypeToChannelSet()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a467733784c0aa11e6c9438efb2138be6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classjuce_1_1AudioChannelSet.html">AudioChannelSet</a> <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> juce::AudioChannelSet::create7point0point2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a set for Dolby Atmos 7.0.2 surround setup (left, right, centre, leftSurroundSide, rightSurroundSide, leftSurroundRear, rightSurroundRear, topSideLeft, topSideRight). </p>
+<p>Is equivalent to: n/a (VST), AAX_eStemFormat_7_0_2 (AAX), n/a (CoreAudio) </p>
+
+</div>
+</div>
+<a class="anchor" id="a13672b456b6aa3f0f72967f3d41be044"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classjuce_1_1AudioChannelSet.html">AudioChannelSet</a> <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> juce::AudioChannelSet::create7point1point2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a set for Dolby Atmos 7.1.2 surround setup (left, right, centre, leftSurroundSide, rightSurroundSide, leftSurroundRear, rightSurroundRear, LFE, topSideLeft, topSideRight). </p>
+<p>Is equivalent to: k71_2 (VST), AAX_eStemFormat_7_1_2 (AAX), n/a (CoreAudio) </p>
 
 </div>
 </div>
@@ -1665,7 +1731,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 23 2017 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 26 2017 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

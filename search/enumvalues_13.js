@@ -59,6 +59,8 @@ var searchData=
   ['toprearright',['topRearRight',['../classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1acbeadc266e786a202f9bb6cbdc3486c4',1,'juce::AudioChannelSet']]],
   ['topright',['topRight',['../classjuce_1_1Justification.html#a02e14cfe87bf4e39860535ae248ca9beaa3f62c5edb5b4efd3e68392b0eb5b647',1,'juce::Justification']]],
   ['toprightcornerresizecursor',['TopRightCornerResizeCursor',['../classjuce_1_1MouseCursor.html#ae778c8fee50a53ac9ace6be13558ca2faeda4d9a8724592d4b31eb6a328c12302',1,'juce::MouseCursor']]],
+  ['topsideleft',['topSideLeft',['../classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1a441626eec448dd910a8b1e654702a571',1,'juce::AudioChannelSet']]],
+  ['topsideright',['topSideRight',['../classjuce_1_1AudioChannelSet.html#a7011c4aff026f4b48d1a545aebc03ac1a6fbeae27f914556d497ac2d8ebbdc320',1,'juce::AudioChannelSet']]],
   ['touch',['touch',['../classjuce_1_1MouseInputSource.html#aa5bc9694c2b12e6ee6c6c2c5570e4822afc3b94145b5c4bd16d364f17ac097f3d',1,'juce::MouseInputSource']]],
   ['touchblock',['touchBlock',['../classjuce_1_1Block.html#a1c008a40f29753a54bce01d6b95fbb50a88f98afd926672f904113e523a2f1a19',1,'juce::Block']]],
   ['touchend',['touchEnd',['../namespacejuce_1_1BlocksProtocol.html#a3bc45a5843e3be654e27bd2ea6a671cda89d8d02bbf9974414643a62a91ed93f4',1,'juce::BlocksProtocol']]],

@@ -194,12 +194,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a341095e62ee492114c3b8e38a7aa99be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ListBox.html#a341095e62ee492114c3b8e38a7aa99be">scrollToEnsureRowIsOnscreen</a> (int row)</td></tr>
 <tr class="memdesc:a341095e62ee492114c3b8e38a7aa99be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrolls if necessary to make sure that a particular row is visible.  <a href="#a341095e62ee492114c3b8e38a7aa99be">More...</a><br/></td></tr>
 <tr class="separator:a341095e62ee492114c3b8e38a7aa99be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad11996b72c4513035ad89722281987a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ListBox.html#ad11996b72c4513035ad89722281987a1">getVerticalScrollBar</a> () const noexcept</td></tr>
-<tr class="memdesc:ad11996b72c4513035ad89722281987a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the vertical scrollbar.  <a href="#ad11996b72c4513035ad89722281987a1">More...</a><br/></td></tr>
-<tr class="separator:ad11996b72c4513035ad89722281987a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87ba4c25e0fb1e068a485593a53bc4a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ListBox.html#a87ba4c25e0fb1e068a485593a53bc4a0">getHorizontalScrollBar</a> () const noexcept</td></tr>
-<tr class="memdesc:a87ba4c25e0fb1e068a485593a53bc4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the horizontal scrollbar.  <a href="#a87ba4c25e0fb1e068a485593a53bc4a0">More...</a><br/></td></tr>
-<tr class="separator:a87ba4c25e0fb1e068a485593a53bc4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43619890997667eaebfa31b42c6c280e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ListBox.html#a43619890997667eaebfa31b42c6c280e">getVerticalScrollBar</a> () const noexcept</td></tr>
+<tr class="memdesc:a43619890997667eaebfa31b42c6c280e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the vertical scrollbar.  <a href="#a43619890997667eaebfa31b42c6c280e">More...</a><br/></td></tr>
+<tr class="separator:a43619890997667eaebfa31b42c6c280e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61914cbc9f24ae031e6fdfb7279c9339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ListBox.html#a61914cbc9f24ae031e6fdfb7279c9339">getHorizontalScrollBar</a> () const noexcept</td></tr>
+<tr class="memdesc:a61914cbc9f24ae031e6fdfb7279c9339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the horizontal scrollbar.  <a href="#a61914cbc9f24ae031e6fdfb7279c9339">More...</a><br/></td></tr>
+<tr class="separator:a61914cbc9f24ae031e6fdfb7279c9339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a3db0fb05635f44a268fe60b218215c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ListBox.html#a0a3db0fb05635f44a268fe60b218215c">getRowContainingPosition</a> (int x, int y) const noexcept</td></tr>
 <tr class="memdesc:a0a3db0fb05635f44a268fe60b218215c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the row index that contains a given x,y position.  <a href="#a0a3db0fb05635f44a268fe60b218215c">More...</a><br/></td></tr>
 <tr class="separator:a0a3db0fb05635f44a268fe60b218215c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1478,7 +1478,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad11996b72c4513035ad89722281987a1"></a>
+<a class="anchor" id="a43619890997667eaebfa31b42c6c280e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1486,7 +1486,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>* juce::ListBox::getVerticalScrollBar </td>
+          <td class="memname"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>&amp; juce::ListBox::getVerticalScrollBar </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1499,11 +1499,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the vertical scrollbar. </p>
+<p>Returns a reference to the vertical scrollbar. </p>
 
 </div>
 </div>
-<a class="anchor" id="a87ba4c25e0fb1e068a485593a53bc4a0"></a>
+<a class="anchor" id="a61914cbc9f24ae031e6fdfb7279c9339"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1511,7 +1511,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>* juce::ListBox::getHorizontalScrollBar </td>
+          <td class="memname"><a class="el" href="classjuce_1_1ScrollBar.html">ScrollBar</a>&amp; juce::ListBox::getHorizontalScrollBar </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1524,7 +1524,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the horizontal scrollbar. </p>
+<p>Returns a reference to the horizontal scrollbar. </p>
 
 </div>
 </div>
@@ -2342,7 +2342,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 23 2017 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 26 2017 01:01:09 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
