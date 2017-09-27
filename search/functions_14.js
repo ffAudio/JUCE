@@ -32,7 +32,7 @@ var searchData=
   ['updatetrackproperties',['updateTrackProperties',['../classjuce_1_1AudioProcessor.html#a04ca005e212e7cbe34cdc9976bd31426',1,'juce::AudioProcessor']]],
   ['uptofirstoccurrenceof',['upToFirstOccurrenceOf',['../classjuce_1_1String.html#a355f22a792b97d7aae31bdaf47a89fcd',1,'juce::String']]],
   ['uptolastoccurrenceof',['upToLastOccurrenceOf',['../classjuce_1_1String.html#a8cd3b9a38aecb2aa9dc545957df2cbca',1,'juce::String']]],
-  ['url',['URL',['../classjuce_1_1URL.html#aeb5801565a2084bc055d8b98b8cdfe97',1,'juce::URL::URL()'],['../classjuce_1_1URL.html#ad357b3ca63a23841b23ae8311830cfd1',1,'juce::URL::URL(const String &amp;url)'],['../classjuce_1_1URL.html#ae1d15e049c7eb0d72f14aa0eb516b3cb',1,'juce::URL::URL(const URL &amp;other)']]],
+  ['url',['URL',['../classjuce_1_1URL.html#aeb5801565a2084bc055d8b98b8cdfe97',1,'juce::URL::URL()'],['../classjuce_1_1URL.html#ad357b3ca63a23841b23ae8311830cfd1',1,'juce::URL::URL(const String &amp;url)'],['../classjuce_1_1URL.html#a88c9cb4316921e4f1568fcdbce6932da',1,'juce::URL::URL(const URL &amp;)']]],
   ['use',['use',['../classjuce_1_1OpenGLShaderProgram.html#aa8d85620d36cdc85bfbcf42a4afb8517',1,'juce::OpenGLShaderProgram']]],
   ['usefullscreenwhenonedocument',['useFullscreenWhenOneDocument',['../classjuce_1_1MultiDocumentPanel.html#a6daba26cfa69d15d10805012c47d5457',1,'juce::MultiDocumentPanel']]],
   ['usemousewheelmoveifneeded',['useMouseWheelMoveIfNeeded',['../classjuce_1_1Viewport.html#a89ff47443738f38346258794a22226a7',1,'juce::Viewport']]],

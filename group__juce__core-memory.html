@@ -152,6 +152,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ga4404ed444ce628bab43d7fb68f7f1884"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga4404ed444ce628bab43d7fb68f7f1884">juce_ImplementSingleton_SingleThreaded</a>(classname)</td></tr>
 <tr class="memdesc:ga4404ed444ce628bab43d7fb68f7f1884"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a counterpart to the juce_DeclareSingleton_SingleThreaded macro.  <a href="#ga4404ed444ce628bab43d7fb68f7f1884">More...</a><br/></td></tr>
 <tr class="separator:ga4404ed444ce628bab43d7fb68f7f1884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga557fa9dbf924a150e27f0cf0dad368b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga557fa9dbf924a150e27f0cf0dad368b0">JUCE_DECLARE_WEAK_REFERENCEABLE</a>(Class)</td></tr>
+<tr class="memdesc:ga557fa9dbf924a150e27f0cf0dad368b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to easily allow a class to be made weak-referenceable.  <a href="#ga557fa9dbf924a150e27f0cf0dad368b0">More...</a><br/></td></tr>
+<tr class="separator:ga557fa9dbf924a150e27f0cf0dad368b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -544,6 +547,38 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>This is a counterpart to the juce_DeclareSingleton_SingleThreaded macro. </p>
 <p>After adding juce_DeclareSingleton_SingleThreaded or juce_DeclareSingleton_SingleThreaded_Minimal to the class definition, this macro has to be used somewhere in the cpp file. </p>
+
+</div>
+</div>
+<a class="anchor" id="ga557fa9dbf924a150e27f0cf0dad368b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JUCE_DECLARE_WEAK_REFERENCEABLE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Class</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">struct </span>WeakRefMaster  : <span class="keyword">public</span> WeakReference&lt;Class&gt;::Master { ~WeakRefMaster() { this-&gt;clear(); } }; \</div>
+<div class="line">    WeakRefMaster masterReference; \</div>
+<div class="line">    friend <span class="keyword">class </span>WeakReference&lt;Class&gt;; \</div>
+</div><!-- fragment -->
+<p>Macro to easily allow a class to be made weak-referenceable. </p>
+<p>This can be inserted in a class definition to add the requisite weak-ref boilerplate to that class. e.g.</p>
+<div class="fragment"><div class="line"><span class="keyword">class </span>MyObject</div>
+<div class="line">{</div>
+<div class="line"><span class="keyword">public</span>:</div>
+<div class="line">    MyObject();</div>
+<div class="line">    ~MyObject();</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">private</span>:</div>
+<div class="line">    <a class="code" href="group__juce__core-memory.html#ga557fa9dbf924a150e27f0cf0dad368b0">JUCE_DECLARE_WEAK_REFERENCEABLE</a> (MyObject)</div>
+<div class="line">};</div>
+</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd>WeakReference, WeakReference::Master </dd></dl>
 
 </div>
 </div>
@@ -1780,7 +1815,7 @@ template&lt;class ObjectType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 27 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 28 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

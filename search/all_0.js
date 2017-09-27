@@ -327,7 +327,7 @@ var searchData=
   ['arescrollbarsshown',['areScrollbarsShown',['../classjuce_1_1TextEditor.html#aaf3d9984243de67648eff0d8ab23a803',1,'juce::TextEditor']]],
   ['areshadersavailable',['areShadersAvailable',['../classjuce_1_1OpenGLContext.html#a5d14868a0f5d523088d18108a9e35c79',1,'juce::OpenGLContext']]],
   ['arespacesinsertedfortabs',['areSpacesInsertedForTabs',['../classjuce_1_1CodeEditorComponent.html#a92edb11223783a38ae62616ebe79ea5b',1,'juce::CodeEditorComponent']]],
-  ['argb',['ARGB',['../classjuce_1_1Image.html#aec43cf51c6c8c7372c3a65f191f8d6fba9bedfcaec95aa3e25e5123e8c5b9b12d',1,'juce::Image::ARGB()'],['../structjuce_1_1LEDColour.html#a2e6f2f2173dee4fc932a544085bf0e84',1,'juce::LEDColour::argb()']]],
+  ['argb',['argb',['../structjuce_1_1LEDColour.html#a2e6f2f2173dee4fc932a544085bf0e84',1,'juce::LEDColour::argb()'],['../classjuce_1_1Image.html#aec43cf51c6c8c7372c3a65f191f8d6fba9bedfcaec95aa3e25e5123e8c5b9b12d',1,'juce::Image::ARGB()']]],
   ['arguments',['arguments',['../structjuce_1_1var_1_1NativeFunctionArgs.html#a8323afb0aa26b6d0880b75f1548b99ce',1,'juce::var::NativeFunctionArgs']]],
   ['arp',['arp',['../classjuce_1_1ControlButton.html#a255db90f7880221e85f4d1d426291832a43cf9552fef0a0e22a71e023a9a458ef',1,'juce::ControlButton']]],
   ['arppattern',['arpPattern',['../namespacejuce_1_1BlocksProtocol.html#aee7758145215e6f195a04a0c55f0dfdea0d3b5d019dda53d5bd35f287cc7a73be',1,'juce::BlocksProtocol']]],

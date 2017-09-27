@@ -140,15 +140,15 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a63871c3bbfa88e62580d76282a4b3370"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#ga1f96c7e229e063e19a9590a52b1f97a5">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#a63871c3bbfa88e62580d76282a4b3370">contentLength</a></td></tr>
+<tr class="memitem:a63871c3bbfa88e62580d76282a4b3370"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#ga1f96c7e229e063e19a9590a52b1f97a5">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#a63871c3bbfa88e62580d76282a4b3370">contentLength</a> = -1</td></tr>
 <tr class="separator:a63871c3bbfa88e62580d76282a4b3370"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b3cecb4896e41f9e3cb40882a170bdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#ga1f96c7e229e063e19a9590a52b1f97a5">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#a9b3cecb4896e41f9e3cb40882a170bdf">downloaded</a></td></tr>
+<tr class="memitem:a9b3cecb4896e41f9e3cb40882a170bdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#ga1f96c7e229e063e19a9590a52b1f97a5">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#a9b3cecb4896e41f9e3cb40882a170bdf">downloaded</a> = 0</td></tr>
 <tr class="separator:a9b3cecb4896e41f9e3cb40882a170bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a151a3faffb384a89e946052474e0f7af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#a151a3faffb384a89e946052474e0f7af">finished</a></td></tr>
+<tr class="memitem:a151a3faffb384a89e946052474e0f7af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#a151a3faffb384a89e946052474e0f7af">finished</a> = false</td></tr>
 <tr class="separator:a151a3faffb384a89e946052474e0f7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8e2c1ffc4ccd77570d1ced39b27d065"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#ab8e2c1ffc4ccd77570d1ced39b27d065">error</a></td></tr>
+<tr class="memitem:ab8e2c1ffc4ccd77570d1ced39b27d065"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#ab8e2c1ffc4ccd77570d1ced39b27d065">error</a> = false</td></tr>
 <tr class="separator:ab8e2c1ffc4ccd77570d1ced39b27d065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a940fe716e38b7c9831595364df88e5b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#a940fe716e38b7c9831595364df88e5b7">httpCode</a></td></tr>
+<tr class="memitem:a940fe716e38b7c9831595364df88e5b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#a940fe716e38b7c9831595364df88e5b7">httpCode</a> = -1</td></tr>
 <tr class="separator:a940fe716e38b7c9831595364df88e5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -270,7 +270,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the status code of the server's response. </p>
-<p>This will only be valid after the download has finished.</p>
+<p>This will only be valid after the download has finished. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classjuce_1_1URL_1_1DownloadTask.html#adf3e653c8ff7a1c55e77199de4b509f2" title="Returns true if the download finished or there was an error. ">isFinished</a> </dd></dl>
 
 </div>
@@ -327,7 +327,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__core-maths.html#ga1f96c7e229e063e19a9590a52b1f97a5">int64</a> juce::URL::DownloadTask::contentLength</td>
+          <td class="memname"><a class="el" href="group__juce__core-maths.html#ga1f96c7e229e063e19a9590a52b1f97a5">int64</a> juce::URL::DownloadTask::contentLength = -1</td>
         </tr>
       </table>
   </td>
@@ -347,7 +347,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__core-maths.html#ga1f96c7e229e063e19a9590a52b1f97a5">int64</a> juce::URL::DownloadTask::downloaded</td>
+          <td class="memname"><a class="el" href="group__juce__core-maths.html#ga1f96c7e229e063e19a9590a52b1f97a5">int64</a> juce::URL::DownloadTask::downloaded = 0</td>
         </tr>
       </table>
   </td>
@@ -367,7 +367,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool juce::URL::DownloadTask::finished</td>
+          <td class="memname">bool juce::URL::DownloadTask::finished = false</td>
         </tr>
       </table>
   </td>
@@ -387,7 +387,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool juce::URL::DownloadTask::error</td>
+          <td class="memname">bool juce::URL::DownloadTask::error = false</td>
         </tr>
       </table>
   </td>
@@ -407,7 +407,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int juce::URL::DownloadTask::httpCode</td>
+          <td class="memname">int juce::URL::DownloadTask::httpCode = -1</td>
         </tr>
       </table>
   </td>
@@ -425,7 +425,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 27 2017 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 28 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
