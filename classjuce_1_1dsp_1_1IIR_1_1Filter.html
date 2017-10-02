@@ -114,11 +114,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaf3495f7e73f93fc638109d5af22c63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a filter with a given set of coefficients.  <a href="#aaf3495f7e73f93fc638109d5af22c63a">More...</a><br/></td></tr>
 <tr class="separator:aaf3495f7e73f93fc638109d5af22c63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1689e166663f78e0a848ceeb74708c48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html#a1689e166663f78e0a848ceeb74708c48">Filter</a> (const <a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a> &amp;)=default</td></tr>
-<tr class="memdesc:a1689e166663f78e0a848ceeb74708c48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another filter.  <a href="#a1689e166663f78e0a848ceeb74708c48">More...</a><br/></td></tr>
 <tr class="separator:a1689e166663f78e0a848ceeb74708c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a376ae78433e9ca8a791ab12c38fbb7ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html#a376ae78433e9ca8a791ab12c38fbb7ee">Filter</a> (<a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a> &amp;&amp;)=default</td></tr>
-<tr class="memdesc:a376ae78433e9ca8a791ab12c38fbb7ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#a376ae78433e9ca8a791ab12c38fbb7ee">More...</a><br/></td></tr>
 <tr class="separator:a376ae78433e9ca8a791ab12c38fbb7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b7a89b73400df383dbd624d45eb87e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html#a44b7a89b73400df383dbd624d45eb87e">operator=</a> (const <a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a> &amp;)=default</td></tr>
+<tr class="separator:a44b7a89b73400df383dbd624d45eb87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a15487f6ca410c02a26cd1046330beb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html#a3a15487f6ca410c02a26cd1046330beb">operator=</a> (<a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a> &amp;&amp;)=default</td></tr>
+<tr class="separator:a3a15487f6ca410c02a26cd1046330beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83c29f0ee6cb517a66d02e95e75ded0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html#a83c29f0ee6cb517a66d02e95e75ded0c">reset</a> ()</td></tr>
 <tr class="memdesc:a83c29f0ee6cb517a66d02e95e75ded0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the filter's processing pipeline, ready to start a new stream of data.  <a href="#a83c29f0ee6cb517a66d02e95e75ded0c">More...</a><br/></td></tr>
 <tr class="separator:a83c29f0ee6cb517a66d02e95e75ded0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,8 +236,6 @@ template&lt;typename SampleType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Creates a copy of another filter. </p>
-
 </div>
 </div>
 <a class="anchor" id="a376ae78433e9ca8a791ab12c38fbb7ee"></a>
@@ -262,11 +262,61 @@ template&lt;typename SampleType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Move constructor. </p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a44b7a89b73400df383dbd624d45eb87e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a>&amp; <a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">juce::dsp::IIR::Filter</a>&lt; SampleType &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a>&lt; SampleType &gt; &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3a15487f6ca410c02a26cd1046330beb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a>&amp; <a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">juce::dsp::IIR::Filter</a>&lt; SampleType &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classjuce_1_1dsp_1_1IIR_1_1Filter.html">Filter</a>&lt; SampleType &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a83c29f0ee6cb517a66d02e95e75ded0c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -455,7 +505,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 30 2017 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 3 2017 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

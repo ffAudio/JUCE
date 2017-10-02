@@ -20,7 +20,7 @@ var searchData=
   ['jobstatus',['JobStatus',['../classjuce_1_1ThreadPoolJob.html#a5941c13ff17426d91845c5cd46a0a2d0',1,'juce::ThreadPoolJob']]],
   ['joinintostring',['joinIntoString',['../classjuce_1_1StringArray.html#ae76bb77d3ba84d5795eed5c49c8f8a3f',1,'juce::StringArray']]],
   ['joinmulticast',['joinMulticast',['../classjuce_1_1DatagramSocket.html#ac12d1e7c730a8fb0c37b3284376b3d78',1,'juce::DatagramSocket']]],
-  ['jointstyle',['jointStyle',['../classjuce_1_1DrawableShape_1_1FillAndStrokeState.html#a0a5d725f7a7540bf4f438d0f69d91aad',1,'juce::DrawableShape::FillAndStrokeState::jointStyle()'],['../classjuce_1_1PathStrokeType.html#a0909f60e35fb215dfa89dbad4db0c52e',1,'juce::PathStrokeType::JointStyle()']]],
+  ['jointstyle',['JointStyle',['../classjuce_1_1PathStrokeType.html#a0909f60e35fb215dfa89dbad4db0c52e',1,'juce::PathStrokeType::JointStyle()'],['../classjuce_1_1DrawableShape_1_1FillAndStrokeState.html#a0a5d725f7a7540bf4f438d0f69d91aad',1,'juce::DrawableShape::FillAndStrokeState::jointStyle()']]],
   ['jpegimageformat',['JPEGImageFormat',['../classjuce_1_1JPEGImageFormat.html#a10224a55df221d8863278466b6c54519',1,'juce::JPEGImageFormat']]],
   ['jpegimageformat',['JPEGImageFormat',['../classjuce_1_1JPEGImageFormat.html',1,'juce']]],
   ['json',['JSON',['../classjuce_1_1JSON.html',1,'juce']]],

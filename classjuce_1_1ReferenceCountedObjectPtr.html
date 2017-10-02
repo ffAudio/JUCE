@@ -109,12 +109,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae3614a68231eb0730c3418a60da62b64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html#ae3614a68231eb0730c3418a60da62b64">ReferenceCountedObjectPtr</a> () noexcept</td></tr>
 <tr class="memdesc:ae3614a68231eb0730c3418a60da62b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a pointer to a null object.  <a href="#ae3614a68231eb0730c3418a60da62b64">More...</a><br/></td></tr>
 <tr class="separator:ae3614a68231eb0730c3418a60da62b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64b3e7895b32698219bade3e55fcc32f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html#a64b3e7895b32698219bade3e55fcc32f">ReferenceCountedObjectPtr</a> (<a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html#ac4d7a8d72a69b93b00e19e0db5823997">ReferencedType</a> *refCountedObject) noexcept</td></tr>
-<tr class="memdesc:a64b3e7895b32698219bade3e55fcc32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a pointer to an object.  <a href="#a64b3e7895b32698219bade3e55fcc32f">More...</a><br/></td></tr>
-<tr class="separator:a64b3e7895b32698219bade3e55fcc32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeea7a544091f4fae881424bac02c0eb4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html#aeea7a544091f4fae881424bac02c0eb4">ReferenceCountedObjectPtr</a> (decltype(nullptr)) noexcept</td></tr>
 <tr class="memdesc:aeea7a544091f4fae881424bac02c0eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a pointer to a null object.  <a href="#aeea7a544091f4fae881424bac02c0eb4">More...</a><br/></td></tr>
 <tr class="separator:aeea7a544091f4fae881424bac02c0eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64b3e7895b32698219bade3e55fcc32f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html#a64b3e7895b32698219bade3e55fcc32f">ReferenceCountedObjectPtr</a> (<a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html#ac4d7a8d72a69b93b00e19e0db5823997">ReferencedType</a> *refCountedObject) noexcept</td></tr>
+<tr class="memdesc:a64b3e7895b32698219bade3e55fcc32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a pointer to an object.  <a href="#a64b3e7895b32698219bade3e55fcc32f">More...</a><br/></td></tr>
+<tr class="separator:a64b3e7895b32698219bade3e55fcc32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9942de6991ee352eac41f03840abcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html#aad9942de6991ee352eac41f03840abcc">ReferenceCountedObjectPtr</a> (const <a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a> &amp;other) noexcept</td></tr>
 <tr class="memdesc:aad9942de6991ee352eac41f03840abcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies another pointer.  <a href="#aad9942de6991ee352eac41f03840abcc">More...</a><br/></td></tr>
 <tr class="separator:aad9942de6991ee352eac41f03840abcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,6 +210,34 @@ template&lt;class ReferenceCountedObjectClass&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aeea7a544091f4fae881424bac02c0eb4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ReferenceCountedObjectClass&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html">juce::ReferenceCountedObjectPtr</a>&lt; ReferenceCountedObjectClass &gt;::<a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a> </td>
+          <td>(</td>
+          <td class="paramtype">decltype(nullptr)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a pointer to a null object. </p>
+
+</div>
+</div>
 <a class="anchor" id="a64b3e7895b32698219bade3e55fcc32f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -236,34 +264,6 @@ template&lt;class ReferenceCountedObjectClass&gt; </div>
 
 <p>Creates a pointer to an object. </p>
 <p>This will increment the object's reference-count. </p>
-
-</div>
-</div>
-<a class="anchor" id="aeea7a544091f4fae881424bac02c0eb4"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ReferenceCountedObjectClass&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html">juce::ReferenceCountedObjectPtr</a>&lt; ReferenceCountedObjectClass &gt;::<a class="el" href="classjuce_1_1ReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a> </td>
-          <td>(</td>
-          <td class="paramtype">decltype(nullptr)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a pointer to a null object. </p>
 
 </div>
 </div>
@@ -580,7 +580,7 @@ template&lt;class ReferenceCountedObjectClass&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 30 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 3 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
