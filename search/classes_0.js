@@ -127,6 +127,7 @@ var searchData=
   ['arrayallocationbase_3c_20const_20char_20_2a_2c_20dummycriticalsection_20_3e',['ArrayAllocationBase&lt; const char *, DummyCriticalSection &gt;',['../classjuce_1_1ArrayAllocationBase.html',1,'juce']]],
   ['arrayallocationbase_3c_20const_20juce_3a_3aplugindescription_20_2a_2c_20dummycriticalsection_20_3e',['ArrayAllocationBase&lt; const juce::PluginDescription *, DummyCriticalSection &gt;',['../classjuce_1_1ArrayAllocationBase.html',1,'juce']]],
   ['arrayallocationbase_3c_20const_20juce_3a_3apopupmenu_20_2a_2c_20dummycriticalsection_20_3e',['ArrayAllocationBase&lt; const juce::PopupMenu *, DummyCriticalSection &gt;',['../classjuce_1_1ArrayAllocationBase.html',1,'juce']]],
+  ['arrayallocationbase_3c_20dragimagecomponent_20_2a_2c_20dummycriticalsection_20_3e',['ArrayAllocationBase&lt; DragImageComponent *, DummyCriticalSection &gt;',['../classjuce_1_1ArrayAllocationBase.html',1,'juce']]],
   ['arrayallocationbase_3c_20elementtype_2c_20dummycriticalsection_20_3e',['ArrayAllocationBase&lt; ElementType, DummyCriticalSection &gt;',['../classjuce_1_1ArrayAllocationBase.html',1,'juce']]],
   ['arrayallocationbase_3c_20float_2c_20dummycriticalsection_20_3e',['ArrayAllocationBase&lt; float, DummyCriticalSection &gt;',['../classjuce_1_1ArrayAllocationBase.html',1,'juce']]],
   ['arrayallocationbase_3c_20float_2c_20juce_3a_3adummycriticalsection_20_3e',['ArrayAllocationBase&lt; float, juce::DummyCriticalSection &gt;',['../classjuce_1_1ArrayAllocationBase.html',1,'juce']]],

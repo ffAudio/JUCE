@@ -51,6 +51,7 @@ var searchData=
   ['ownedarray_3c_20codeeditorline_20_3e',['OwnedArray&lt; CodeEditorLine &gt;',['../classjuce_1_1OwnedArray.html',1,'juce']]],
   ['ownedarray_3c_20columninfo_20_3e',['OwnedArray&lt; ColumnInfo &gt;',['../classjuce_1_1OwnedArray.html',1,'juce']]],
   ['ownedarray_3c_20commandmapping_20_3e',['OwnedArray&lt; CommandMapping &gt;',['../classjuce_1_1OwnedArray.html',1,'juce']]],
+  ['ownedarray_3c_20dragimagecomponent_20_3e',['OwnedArray&lt; DragImageComponent &gt;',['../classjuce_1_1OwnedArray.html',1,'juce']]],
   ['ownedarray_3c_20glyphinfo_20_3e',['OwnedArray&lt; GlyphInfo &gt;',['../classjuce_1_1OwnedArray.html',1,'juce']]],
   ['ownedarray_3c_20item_20_3e',['OwnedArray&lt; Item &gt;',['../classjuce_1_1OwnedArray.html',1,'juce']]],
   ['ownedarray_3c_20itemlayoutproperties_20_3e',['OwnedArray&lt; ItemLayoutProperties &gt;',['../classjuce_1_1OwnedArray.html',1,'juce']]],

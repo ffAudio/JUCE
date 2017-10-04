@@ -20,6 +20,7 @@ var searchData=
   ['heapblock_3c_20const_20float_20_2a_20_3e',['HeapBlock&lt; const float * &gt;',['../classjuce_1_1HeapBlock.html',1,'juce']]],
   ['heapblock_3c_20const_20juce_3a_3aplugindescription_20_2a_20_3e',['HeapBlock&lt; const juce::PluginDescription * &gt;',['../classjuce_1_1HeapBlock.html',1,'juce']]],
   ['heapblock_3c_20const_20juce_3a_3apopupmenu_20_2a_20_3e',['HeapBlock&lt; const juce::PopupMenu * &gt;',['../classjuce_1_1HeapBlock.html',1,'juce']]],
+  ['heapblock_3c_20dragimagecomponent_20_2a_20_3e',['HeapBlock&lt; DragImageComponent * &gt;',['../classjuce_1_1HeapBlock.html',1,'juce']]],
   ['heapblock_3c_20elementtype_20_3e',['HeapBlock&lt; ElementType &gt;',['../classjuce_1_1HeapBlock.html',1,'juce']]],
   ['heapblock_3c_20filterstate_20_3e',['HeapBlock&lt; FilterState &gt;',['../classjuce_1_1HeapBlock.html',1,'juce']]],
   ['heapblock_3c_20float_20_2a_20_3e',['HeapBlock&lt; float * &gt;',['../classjuce_1_1HeapBlock.html',1,'juce']]],
