@@ -41,7 +41,7 @@ var searchData=
   ['opengl3_5f2',['openGL3_2',['../classjuce_1_1OpenGLContext.html#ac41d6e6f7b3441f91bbdbc84a34cf76ca108671e4cd7308c65bcc908aa87dbbe2',1,'juce::OpenGLContext']]],
   ['openglappcomponent',['OpenGLAppComponent',['../classjuce_1_1OpenGLAppComponent.html',1,'juce']]],
   ['openglappcomponent',['OpenGLAppComponent',['../classjuce_1_1OpenGLAppComponent.html#ac5ddbcff9ed3cf55c1cb0ae6d31309e1',1,'juce::OpenGLAppComponent']]],
-  ['openglcontext',['OpenGLContext',['../classjuce_1_1OpenGLContext.html#a00a532bb0f5957db560307cd7304a86e',1,'juce::OpenGLContext::OpenGLContext()'],['../classjuce_1_1OpenGLAppComponent.html#a197967f706410a58925a27691b21922f',1,'juce::OpenGLAppComponent::openGLContext()']]],
+  ['openglcontext',['openGLContext',['../classjuce_1_1OpenGLAppComponent.html#a197967f706410a58925a27691b21922f',1,'juce::OpenGLAppComponent::openGLContext()'],['../classjuce_1_1OpenGLContext.html#a00a532bb0f5957db560307cd7304a86e',1,'juce::OpenGLContext::OpenGLContext()']]],
   ['openglcontext',['OpenGLContext',['../classjuce_1_1OpenGLContext.html',1,'juce']]],
   ['openglcontextclosing',['openGLContextClosing',['../classjuce_1_1OpenGLRenderer.html#ae8b66edbce35cc4edbb743549382318a',1,'juce::OpenGLRenderer']]],
   ['openglframebuffer',['OpenGLFrameBuffer',['../classjuce_1_1OpenGLFrameBuffer.html#ade07dd5b29af2082658c75eb84504662',1,'juce::OpenGLFrameBuffer']]],
