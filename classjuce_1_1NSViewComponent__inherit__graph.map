@@ -1,4 +1,0 @@
-<map id="juce::NSViewComponent" name="juce::NSViewComponent">
-<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="29,80,149,107"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="20,5,159,32"/>
-</map>

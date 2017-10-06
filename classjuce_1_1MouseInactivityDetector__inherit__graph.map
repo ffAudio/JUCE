@@ -1,4 +1,0 @@
-<map id="juce::MouseInactivityDetector" name="juce::MouseInactivityDetector">
-<area shape="rect" id="node2" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="5,5,91,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="116,5,255,32"/>
-</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windowingmethod',['WindowingMethod',['../structjuce_1_1dsp_1_1FilterDesign.html#a3ab3cc1dbd203c363b60785d9c570425',1,'juce::dsp::FilterDesign']]]
+  ['windowingmethod',['WindowingMethod',['../structdsp_1_1FilterDesign.html#a805c660c11ed616f6ad14dd1be118232',1,'dsp::FilterDesign']]]
 ];

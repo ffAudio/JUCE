@@ -1,5 +1,0 @@
-<map id="juce::AudioAppComponent" name="juce::AudioAppComponent">
-<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,135,107"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1AudioSource.html" title="Base class for objects that can produce a continuous stream of audio. " alt="" coords="160,80,288,107"/>
-</map>

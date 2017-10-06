@@ -1,7 +1,0 @@
-<map id="juce::RelativePointPath::ElementBase" name="juce::RelativePointPath::ElementBase">
-<area shape="rect" id="node2" href="$classjuce_1_1RelativePointPath_1_1CloseSubPath.html" title="juce::RelativePointPath\l::CloseSubPath" alt="" coords="214,5,373,46"/>
-<area shape="rect" id="node3" href="$classjuce_1_1RelativePointPath_1_1CubicTo.html" title="juce::RelativePointPath\l::CubicTo" alt="" coords="214,70,373,111"/>
-<area shape="rect" id="node4" href="$classjuce_1_1RelativePointPath_1_1LineTo.html" title="juce::RelativePointPath\l::LineTo" alt="" coords="214,135,373,177"/>
-<area shape="rect" id="node5" href="$classjuce_1_1RelativePointPath_1_1QuadraticTo.html" title="juce::RelativePointPath\l::QuadraticTo" alt="" coords="214,201,373,242"/>
-<area shape="rect" id="node6" href="$classjuce_1_1RelativePointPath_1_1StartSubPath.html" title="juce::RelativePointPath\l::StartSubPath" alt="" coords="214,266,373,307"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="juce::DrawableShape::FillAndStrokeState" name="juce::DrawableShape::FillAndStrokeState">
-<area shape="rect" id="node3" href="$classjuce_1_1DrawablePath_1_1ValueTreeWrapper.html" title="Internally&#45;used class for wrapping a DrawablePath&#39;s state into a ValueTree. " alt="" coords="5,187,144,229"/>
-<area shape="rect" id="node4" href="$classjuce_1_1DrawableRectangle_1_1ValueTreeWrapper.html" title="Internally&#45;used class for wrapping a DrawableRectangle&#39;s state into a ValueTree. " alt="" coords="168,187,336,229"/>
-<area shape="rect" id="node2" href="$classjuce_1_1Drawable_1_1ValueTreeWrapperBase.html" title="Internal class used to manage ValueTrees that represent Drawables. " alt="" coords="75,6,251,47"/>
-</map>

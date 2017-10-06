@@ -75,7 +75,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
@@ -83,25 +82,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespacejuce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html">juce</a></td></tr>
-<tr class="memdesc:namespacejuce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes for IIR filter processing. <br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1XmlElement.html">juce::XmlElement</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to build a tree of elements representing an XML document.  <a href="classjuce_1_1XmlElement.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlDocument.html">XmlDocument</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a text-based XML document and creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> object from it.  <a href="classXmlDocument.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classXmlElement.html">XmlElement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to build a tree of elements representing an XML document.  <a href="classXmlElement.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:gace692e5be62f7ab58363d91b52eb839e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-xml.html#gace692e5be62f7ab58363d91b52eb839e">forEachXmlChildElement</a>(parentXmlElement, childElementVariableName)</td></tr>
-<tr class="memdesc:gace692e5be62f7ab58363d91b52eb839e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy macro to make it easy to iterate all the child elements in an XmlElement.  <a href="#gace692e5be62f7ab58363d91b52eb839e">More...</a><br/></td></tr>
+<tr class="memdesc:gace692e5be62f7ab58363d91b52eb839e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy macro to make it easy to iterate all the child elements in an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a>.  <a href="#gace692e5be62f7ab58363d91b52eb839e">More...</a><br/></td></tr>
 <tr class="separator:gace692e5be62f7ab58363d91b52eb839e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6cf39e14a10e2e46f753b0c79c66f2f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-xml.html#ga6cf39e14a10e2e46f753b0c79c66f2f9">forEachXmlChildElementWithTagName</a>(parentXmlElement, childElementVariableName, requiredTagName)</td></tr>
-<tr class="memdesc:ga6cf39e14a10e2e46f753b0c79c66f2f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A macro that makes it easy to iterate all the child elements of an XmlElement which have a specified tag.  <a href="#ga6cf39e14a10e2e46f753b0c79c66f2f9">More...</a><br/></td></tr>
+<tr class="memdesc:ga6cf39e14a10e2e46f753b0c79c66f2f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A macro that makes it easy to iterate all the child elements of an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> which have a specified tag.  <a href="#ga6cf39e14a10e2e46f753b0c79c66f2f9">More...</a><br/></td></tr>
 <tr class="separator:ga6cf39e14a10e2e46f753b0c79c66f2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -130,16 +126,14 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">\</div>
-<div class="line">    for (<a class="code" href="classjuce_1_1XmlElement.html">juce::XmlElement</a>* childElementVariableName = (parentXmlElement).getFirstChildElement(); \</div>
+<div class="line">    for (juce::XmlElement* childElementVariableName = (parentXmlElement).getFirstChildElement(); \</div>
 <div class="line">         childElementVariableName != <span class="keyword">nullptr</span>; \</div>
-<div class="line">         childElementVariableName = childElementVariableName-&gt;<a class="code" href="classjuce_1_1XmlElement.html#a620e07d0d4dafff4b4b6bbcf09796f80">getNextElement</a>())</div>
-<div class="ttc" id="classjuce_1_1XmlElement_html"><div class="ttname"><a href="classjuce_1_1XmlElement.html">juce::XmlElement</a></div><div class="ttdoc">Used to build a tree of elements representing an XML document. </div><div class="ttdef"><b>Definition:</b> juce_XmlElement.h:143</div></div>
-<div class="ttc" id="classjuce_1_1XmlElement_html_a620e07d0d4dafff4b4b6bbcf09796f80"><div class="ttname"><a href="classjuce_1_1XmlElement.html#a620e07d0d4dafff4b4b6bbcf09796f80">juce::XmlElement::getNextElement</a></div><div class="ttdeci">XmlElement * getNextElement() const noexcept</div><div class="ttdoc">Returns the next of this element&#39;s siblings. </div><div class="ttdef"><b>Definition:</b> juce_XmlElement.h:467</div></div>
+<div class="line">         childElementVariableName = childElementVariableName-&gt;getNextElement())</div>
 </div><!-- fragment -->
-<p>A handy macro to make it easy to iterate all the child elements in an XmlElement. </p>
+<p>A handy macro to make it easy to iterate all the child elements in an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a>. </p>
 <p>The parentXmlElement should be a reference to the parent XML, and the childElementVariableName will be the name of a pointer to each child element.</p>
 <p>E.g.</p>
-<div class="fragment"><div class="line">XmlElement* myParentXml = createSomeKindOfXmlDocument();</div>
+<div class="fragment"><div class="line"><a class="code" href="classXmlElement.html">XmlElement</a>* myParentXml = createSomeKindOfXmlDocument();</div>
 <div class="line"></div>
 <div class="line"><a class="code" href="group__juce__core-xml.html#gace692e5be62f7ab58363d91b52eb839e">forEachXmlChildElement</a> (*myParentXml, child)</div>
 <div class="line">{</div>
@@ -180,17 +174,15 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">\</div>
-<div class="line">    for (<a class="code" href="classjuce_1_1XmlElement.html">juce::XmlElement</a>* childElementVariableName = (parentXmlElement).getChildByName (requiredTagName); \</div>
+<div class="line">    for (juce::XmlElement* childElementVariableName = (parentXmlElement).getChildByName (requiredTagName); \</div>
 <div class="line">         childElementVariableName != <span class="keyword">nullptr</span>; \</div>
-<div class="line">         childElementVariableName = childElementVariableName-&gt;<a class="code" href="classjuce_1_1XmlElement.html#a4e1e22ec015e4aa437185ff9d004bf4c">getNextElementWithTagName</a> (requiredTagName))</div>
-<div class="ttc" id="classjuce_1_1XmlElement_html"><div class="ttname"><a href="classjuce_1_1XmlElement.html">juce::XmlElement</a></div><div class="ttdoc">Used to build a tree of elements representing an XML document. </div><div class="ttdef"><b>Definition:</b> juce_XmlElement.h:143</div></div>
-<div class="ttc" id="classjuce_1_1XmlElement_html_a4e1e22ec015e4aa437185ff9d004bf4c"><div class="ttname"><a href="classjuce_1_1XmlElement.html#a4e1e22ec015e4aa437185ff9d004bf4c">juce::XmlElement::getNextElementWithTagName</a></div><div class="ttdeci">XmlElement * getNextElementWithTagName(StringRef requiredTagName) const </div><div class="ttdoc">Returns the next of this element&#39;s siblings which has the specified tag name. </div></div>
+<div class="line">         childElementVariableName = childElementVariableName-&gt;getNextElementWithTagName (requiredTagName))</div>
 </div><!-- fragment -->
-<p>A macro that makes it easy to iterate all the child elements of an XmlElement which have a specified tag. </p>
+<p>A macro that makes it easy to iterate all the child elements of an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> which have a specified tag. </p>
 <p>This does the same job as the forEachXmlChildElement macro, but only for those elements that have a particular tag name.</p>
 <p>The parentXmlElement should be a reference to the parent XML, and the childElementVariableName will be the name of a pointer to each child element. The requiredTagName is the tag name to match.</p>
 <p>E.g.</p>
-<div class="fragment"><div class="line">XmlElement* myParentXml = createSomeKindOfXmlDocument();</div>
+<div class="fragment"><div class="line"><a class="code" href="classXmlElement.html">XmlElement</a>* myParentXml = createSomeKindOfXmlDocument();</div>
 <div class="line"></div>
 <div class="line"><a class="code" href="group__juce__core-xml.html#ga6cf39e14a10e2e46f753b0c79c66f2f9">forEachXmlChildElementWithTagName</a> (*myParentXml, child, <span class="stringliteral">&quot;MYTAG&quot;</span>)</div>
 <div class="line">{</div>
@@ -204,7 +196,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 6 2017 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 7 2017 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

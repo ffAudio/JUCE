@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['rectangletype',['RectangleType',['../classjuce_1_1RectangleList.html#a0e69eb97c00b5b214ebbbe780be62028',1,'juce::RectangleList']]],
-  ['referencedtype',['ReferencedType',['../classjuce_1_1ReferenceCountedObjectPtr.html#ac4d7a8d72a69b93b00e19e0db5823997',1,'juce::ReferenceCountedObjectPtr']]],
-  ['rotarydialangle',['RotaryDialAngle',['../namespacejuce_1_1BlocksProtocol.html#aaf3dae6937bd485a590fa0838e500101',1,'juce::BlocksProtocol']]],
-  ['rotarydialdelta',['RotaryDialDelta',['../namespacejuce_1_1BlocksProtocol.html#a6e4d4bd043d721cd264b4c83f9a788d2',1,'juce::BlocksProtocol']]],
-  ['rotarydialindex',['RotaryDialIndex',['../namespacejuce_1_1BlocksProtocol.html#a174802a68ea20b0b6b055fdbd1ebc08e',1,'juce::BlocksProtocol']]]
+  ['rectangletype',['RectangleType',['../classRectangleList.html#ad9d8b465737335563551e5f224fad32f',1,'RectangleList']]],
+  ['referencedtype',['ReferencedType',['../classReferenceCountedObjectPtr.html#aeb4a0ddf04087aa15cf7b607f00c076a',1,'ReferenceCountedObjectPtr']]],
+  ['rotarydialangle',['RotaryDialAngle',['../namespaceBlocksProtocol.html#a08904852328e78063e00c8d01b7d686a',1,'BlocksProtocol']]],
+  ['rotarydialdelta',['RotaryDialDelta',['../namespaceBlocksProtocol.html#a2f8c6d1c18e4a51dae0315ac57f9fc01',1,'BlocksProtocol']]],
+  ['rotarydialindex',['RotaryDialIndex',['../namespaceBlocksProtocol.html#a7aa0a308cfc799c93652631670176907',1,'BlocksProtocol']]]
 ];

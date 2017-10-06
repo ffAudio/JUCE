@@ -1,5 +1,0 @@
-<map id="juce::AudioThumbnail" name="juce::AudioThumbnail">
-<area shape="rect" id="node2" href="$classjuce_1_1AudioThumbnailBase.html" title="Provides a base for classes that can store and draw scaled views of an audio waveform. " alt="" coords="262,39,439,65"/>
-<area shape="rect" id="node3" href="$classjuce_1_1ChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="25,5,194,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1AudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html" title="juce::AudioFormatWriter\l::ThreadedWriter::IncomingData\lReceiver" alt="" coords="5,56,213,112"/>
-</map>

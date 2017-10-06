@@ -1,0 +1,5 @@
+<map id="KeyPressMappingSet" name="KeyPressMappingSet">
+<area shape="rect" id="node2" href="$classKeyListener.html" title="Receives callbacks when keys are pressed. " alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node3" href="$classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="121,5,257,32"/>
+<area shape="rect" id="node4" href="$classFocusChangeListener.html" title="Classes can implement this interface and register themselves with the Desktop class to receive callba..." alt="" coords="283,5,431,32"/>
+</map>

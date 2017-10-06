@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['zipentry',['ZipEntry',['../structjuce_1_1ZipFile_1_1ZipEntry.html',1,'juce::ZipFile']]],
-  ['zipfile',['ZipFile',['../classjuce_1_1ZipFile.html',1,'juce']]],
-  ['zone',['Zone',['../classjuce_1_1ResizableBorderComponent_1_1Zone.html',1,'juce::ResizableBorderComponent']]]
+  ['zipentry',['ZipEntry',['../structZipFile_1_1ZipEntry.html',1,'ZipFile']]],
+  ['zipfile',['ZipFile',['../classZipFile.html',1,'']]],
+  ['zone',['Zone',['../classResizableBorderComponent_1_1Zone.html',1,'ResizableBorderComponent']]]
 ];

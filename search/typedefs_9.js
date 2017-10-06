@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['masktype',['MaskType',['../structjuce_1_1dsp_1_1SIMDRegister.html#a753032e09c0b509ad8c742d2decb249c',1,'juce::dsp::SIMDRegister']]],
-  ['menubarmodellistener',['MenuBarModelListener',['../group__juce__gui__basics-menus.html#gab10d18edff4c66b614af01412d79eadb',1,'juce']]],
-  ['messagecallbackfunction',['MessageCallbackFunction',['../group__juce__events-messages.html#gae5caef448789c513de807ab58247957a',1,'juce']]],
-  ['messagetype',['MessageType',['../namespacejuce_1_1BlocksProtocol.html#aca3f354ddfd416d7a0ca09f8c2ed410f',1,'juce::BlocksProtocol']]]
+  ['masktype',['MaskType',['../structdsp_1_1SIMDRegister.html#a373771db65ed541c87995a9aa3df82d4',1,'dsp::SIMDRegister']]],
+  ['menubarmodellistener',['MenuBarModelListener',['../group__juce__gui__basics-menus.html#ga7657d02fc9f68fc56cb1d0e7902537dc',1,'juce_MenuBarModel.h']]],
+  ['messagecallbackfunction',['MessageCallbackFunction',['../group__juce__events-messages.html#ga107bb4f42cc6661a36a13b0fad22196d',1,'juce_MessageManager.h']]],
+  ['messagetype',['MessageType',['../namespaceBlocksProtocol.html#a1ef113c660298fc18c68e110e71e49d0',1,'BlocksProtocol']]]
 ];

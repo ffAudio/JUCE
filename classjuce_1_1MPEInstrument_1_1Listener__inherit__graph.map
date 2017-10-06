@@ -1,4 +1,0 @@
-<map id="juce::MPEInstrument::Listener" name="juce::MPEInstrument::Listener">
-<area shape="rect" id="node2" href="$structjuce_1_1MPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. " alt="" coords="5,96,187,123"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MPESynthesiser.html" title="Base class for an MPE&#45;compatible musical device that can play sounds. " alt="" coords="20,171,172,197"/>
-</map>

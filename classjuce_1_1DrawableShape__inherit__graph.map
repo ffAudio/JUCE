@@ -1,7 +1,0 @@
-<map id="juce::DrawableShape" name="juce::DrawableShape">
-<area shape="rect" id="node5" href="$classjuce_1_1DrawablePath.html" title="A drawable object which renders a filled or outlined shape. " alt="" coords="5,304,140,331"/>
-<area shape="rect" id="node6" href="$classjuce_1_1DrawableRectangle.html" title="A Drawable object which draws a rectangle. " alt="" coords="165,304,333,331"/>
-<area shape="rect" id="node2" href="$classjuce_1_1Drawable.html" title="The base class for objects which can draw themselves, e.g. " alt="" coords="107,155,216,181"/>
-<area shape="rect" id="node3" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="101,80,221,107"/>
-<area shape="rect" id="node4" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="92,5,231,32"/>
-</map>

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['windowbitsvalues',['WindowBitsValues',['../classjuce_1_1GZIPCompressorOutputStream.html#a4903d665e66217250134e6bf84f8e618',1,'juce::GZIPCompressorOutputStream']]],
-  ['windowingmethod',['WindowingMethod',['../structjuce_1_1dsp_1_1WindowingFunction.html#a0f93d68684da251f9aee7eb62ad7ff2a',1,'juce::dsp::WindowingFunction']]],
-  ['wordwrap',['WordWrap',['../classjuce_1_1AttributedString.html#abc1e65a9828ed83a7f5f22eb6fd4a45a',1,'juce::AttributedString']]],
-  ['wow64mode',['WoW64Mode',['../classjuce_1_1WindowsRegistry.html#a5cdf511b8c830f06aa9599cbfb14436d',1,'juce::WindowsRegistry']]],
-  ['wrap',['Wrap',['../classjuce_1_1FlexBox.html#a3f9c9c992c5ed54decb79338b7359df0',1,'juce::FlexBox']]],
-  ['wrappertype',['WrapperType',['../classjuce_1_1AudioProcessor.html#a150f6effa552ade329df6dd7dd29b158',1,'juce::AudioProcessor']]]
+  ['windowbitsvalues',['WindowBitsValues',['../classGZIPCompressorOutputStream.html#ae5aaccd93a4e2389b1a6aa6862b671da',1,'GZIPCompressorOutputStream']]],
+  ['windowingmethod',['WindowingMethod',['../structdsp_1_1WindowingFunction.html#a3e8b398d754d06f6b6863639d0de52cc',1,'dsp::WindowingFunction']]],
+  ['wordwrap',['WordWrap',['../classAttributedString.html#ad752f270294ec5b2cef0c80863ee3a3c',1,'AttributedString']]],
+  ['wow64mode',['WoW64Mode',['../classWindowsRegistry.html#a7d8812634430aef14423cd2d70cf38d8',1,'WindowsRegistry']]],
+  ['wrap',['Wrap',['../classFlexBox.html#a252f351ef4317467a58ad25922f64e63',1,'FlexBox']]],
+  ['wrappertype',['WrapperType',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf',1,'AudioProcessor']]]
 ];

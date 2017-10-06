@@ -1,0 +1,4 @@
+<map id="JUCEApplication" name="JUCEApplication">
+<area shape="rect" id="node2" href="$classJUCEApplicationBase.html" title="Abstract base class for application classes. " alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node3" href="$classApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform. " alt="" coords="182,5,364,32"/>
+</map>

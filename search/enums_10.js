@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['saveresult',['SaveResult',['../classjuce_1_1FileBasedDocument.html#a93ddf0d6a204067198fb6766366b16b4',1,'juce::FileBasedDocument']]],
-  ['slidedirection',['SlideDirection',['../structjuce_1_1DrumPadGridProgram.html#acd1f16a328fcc468ac6b46446b3b4226',1,'juce::DrumPadGridProgram']]],
-  ['sliderstyle',['SliderStyle',['../classjuce_1_1Slider.html#a8d80e22a876ba4d9023e1ab35348ac49',1,'juce::Slider']]],
-  ['smptetimecodetype',['SmpteTimecodeType',['../classjuce_1_1MidiMessage.html#ae4f511de7c3b7dce9536239442ba2ef7',1,'juce::MidiMessage']]],
-  ['sortmethod',['SortMethod',['../classjuce_1_1KnownPluginList.html#a1ec52479b684e75b66ccdb05003b7323',1,'juce::KnownPluginList']]],
-  ['specialitemids',['SpecialItemIds',['../classjuce_1_1ToolbarItemFactory.html#a52bf384f7a6e11b30f57950e3ee32aa2',1,'juce::ToolbarItemFactory']]],
-  ['speciallocationtype',['SpecialLocationType',['../classjuce_1_1File.html#a6efe0648697f59af5952171d5e7b0317',1,'juce::File']]],
-  ['standardcursortype',['StandardCursorType',['../classjuce_1_1MouseCursor.html#ae778c8fee50a53ac9ace6be13558ca2f',1,'juce::MouseCursor']]],
-  ['status',['Status',['../structjuce_1_1InAppPurchases_1_1Download.html#a741cd4c8046fb08675a0cddb7448944f',1,'juce::InAppPurchases::Download']]],
-  ['storageformat',['StorageFormat',['../classjuce_1_1PropertiesFile.html#af663201558bdb751dbf90246250b280f',1,'juce::PropertiesFile']]],
-  ['streamflags',['StreamFlags',['../classjuce_1_1ChildProcess.html#ace2b27562caed06f6bf102acf9c567ab',1,'juce::ChildProcess']]],
-  ['styleflags',['StyleFlags',['../classjuce_1_1ComponentPeer.html#a772ab829a166751fa09b69906eb59fba',1,'juce::ComponentPeer']]]
+  ['saveresult',['SaveResult',['../classFileBasedDocument.html#a89d417326aed46fb561c599265e426d2',1,'FileBasedDocument']]],
+  ['slidedirection',['SlideDirection',['../structDrumPadGridProgram.html#ae0883fdca11734f26ab431b89c52255f',1,'DrumPadGridProgram']]],
+  ['sliderstyle',['SliderStyle',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888',1,'Slider']]],
+  ['smptetimecodetype',['SmpteTimecodeType',['../classMidiMessage.html#a0e86db4d1186af858ad9f80d6abe96ab',1,'MidiMessage']]],
+  ['sortmethod',['SortMethod',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098',1,'KnownPluginList']]],
+  ['specialitemids',['SpecialItemIds',['../classToolbarItemFactory.html#a415ffaa38b6306574ad6777ccf6d2ac4',1,'ToolbarItemFactory']]],
+  ['speciallocationtype',['SpecialLocationType',['../classFile.html#a3e19cafabb03c5838160263a6e76313d',1,'File']]],
+  ['standardcursortype',['StandardCursorType',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97',1,'MouseCursor']]],
+  ['status',['Status',['../structInAppPurchases_1_1Download.html#a5291a850795414d13ff21f08de0f5a7d',1,'InAppPurchases::Download']]],
+  ['storageformat',['StorageFormat',['../classPropertiesFile.html#ac4d1ac9a6b624f7e0de7787de46dc05e',1,'PropertiesFile']]],
+  ['streamflags',['StreamFlags',['../classChildProcess.html#a9e7be158550b4d2a470e4cceef501892',1,'ChildProcess']]],
+  ['styleflags',['StyleFlags',['../classComponentPeer.html#a94a21f91c61f8211774d6f43243a6ddc',1,'ComponentPeer']]]
 ];

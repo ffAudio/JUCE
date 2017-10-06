@@ -1,8 +1,0 @@
-<map id="juce::ComponentListener" name="juce::ComponentListener">
-<area shape="rect" id="node2" href="$classjuce_1_1ComponentMovementWatcher.html" title="An object that watches for any movement of a component or any of its parent components. " alt="" coords="222,5,453,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1DropShadower.html" title="Adds a drop&#45;shadow to a component. " alt="" coords="267,56,407,83"/>
-<area shape="rect" id="node4" href="$classjuce_1_1Label.html" title="A component that displays a text string, and can optionally become a text editor when clicked..." alt="" coords="295,107,380,133"/>
-<area shape="rect" id="node5" href="$classjuce_1_1MultiDocumentPanel.html" title="A component that contains a set of other components either in floating windows or tabs..." alt="" coords="250,157,425,184"/>
-<area shape="rect" id="node6" href="$classjuce_1_1RelativeCoordinatePositionerBase.html" title="Base class for Component::Positioners that are based upon relative coordinates. " alt="" coords="255,209,420,250"/>
-<area shape="rect" id="node7" href="$classjuce_1_1Viewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro..." alt="" coords="285,275,390,301"/>
-</map>

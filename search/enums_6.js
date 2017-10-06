@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hosttype',['HostType',['../classjuce_1_1PluginHostType.html#a177830e408982c1688b2c7645b921ff0',1,'juce::PluginHostType']]]
+  ['hosttype',['HostType',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8',1,'PluginHostType']]]
 ];

@@ -1,5 +1,0 @@
-<map id="juce::ImageFileFormat" name="juce::ImageFileFormat">
-<area shape="rect" id="node2" href="$classjuce_1_1GIFImageFormat.html" title="A subclass of ImageFileFormat for reading GIF files. " alt="" coords="5,80,157,107"/>
-<area shape="rect" id="node3" href="$classjuce_1_1JPEGImageFormat.html" title="A subclass of ImageFileFormat for reading and writing JPEG files. " alt="" coords="182,80,348,107"/>
-<area shape="rect" id="node4" href="$classjuce_1_1PNGImageFormat.html" title="A subclass of ImageFileFormat for reading and writing PNG files. " alt="" coords="373,80,532,107"/>
-</map>

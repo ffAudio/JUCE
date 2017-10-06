@@ -1,0 +1,5 @@
+<map id="DragAndDropTarget" name="DragAndDropTarget">
+<area shape="rect" id="node2" href="$classToolbar.html" title="A toolbar component. " alt="" coords="5,80,69,107"/>
+<area shape="rect" id="node3" href="$classTreeView.html" title="A tree&#45;view component. " alt="" coords="95,80,171,107"/>
+<area shape="rect" id="node4" href="$classFileTreeComponent.html" title="A component that displays the files in a directory as a treeview. " alt="" coords="65,155,200,181"/>
+</map>

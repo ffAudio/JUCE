@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['elementtype',['ElementType',['../structjuce_1_1dsp_1_1SIMDRegister.html#a1a3833fe11245f84a7b7b730864d131d',1,'juce::dsp::SIMDRegister']]]
+  ['elementtype',['ElementType',['../structdsp_1_1SIMDRegister.html#a506133c4d9b3059008dac4f6b318c2c0',1,'dsp::SIMDRegister']]]
 ];

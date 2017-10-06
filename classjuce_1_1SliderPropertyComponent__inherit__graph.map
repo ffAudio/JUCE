@@ -1,8 +1,0 @@
-<map id="juce::SliderPropertyComponent" name="juce::SliderPropertyComponent">
-<area shape="rect" id="node2" href="$classjuce_1_1PropertyComponent.html" title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties..." alt="" coords="75,155,245,181"/>
-<area shape="rect" id="node3" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,135,107"/>
-<area shape="rect" id="node4" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node5" href="$classjuce_1_1SettableTooltipClient.html" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="159,80,333,107"/>
-<area shape="rect" id="node6" href="$classjuce_1_1TooltipClient.html" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="183,5,309,32"/>
-<area shape="rect" id="node7" href="$classjuce_1_1Slider_1_1Listener.html" title="A class for receiving callbacks from a Slider. " alt="" coords="269,155,409,181"/>
-</map>

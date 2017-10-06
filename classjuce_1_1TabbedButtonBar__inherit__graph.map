@@ -1,5 +1,0 @@
-<map id="juce::TabbedButtonBar" name="juce::TabbedButtonBar">
-<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,135,107"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1ChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="159,80,328,107"/>
-</map>

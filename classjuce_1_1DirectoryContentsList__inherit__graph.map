@@ -1,4 +1,0 @@
-<map id="juce::DirectoryContentsList" name="juce::DirectoryContentsList">
-<area shape="rect" id="node2" href="$classjuce_1_1ChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="5,5,173,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1TimeSliceClient.html" title="Used by the TimeSliceThread class. " alt="" coords="199,5,345,32"/>
-</map>

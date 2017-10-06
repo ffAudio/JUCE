@@ -1,5 +1,0 @@
-<map id="juce::ChangeListener" name="juce::ChangeListener">
-<area shape="rect" id="node2" href="$classjuce_1_1AudioDeviceSelectorComponent.html" title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob..." alt="" coords="201,5,377,46"/>
-<area shape="rect" id="node3" href="$classjuce_1_1FileListComponent.html" title="A component that displays the files in a directory as a listbox. " alt="" coords="208,71,371,97"/>
-<area shape="rect" id="node4" href="$classjuce_1_1PluginListComponent.html" title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them..." alt="" coords="200,121,379,148"/>
-</map>

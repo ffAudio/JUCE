@@ -1,5 +1,0 @@
-<map id="juce::ImageType" name="juce::ImageType">
-<area shape="rect" id="node2" href="$classjuce_1_1NativeImageType.html" title="An image storage type which holds the pixels using whatever is the default storage format on the curr..." alt="" coords="5,80,163,107"/>
-<area shape="rect" id="node3" href="$classjuce_1_1OpenGLImageType.html" title="A type of ImagePixelData that stores its image data in an OpenGL framebuffer, allowing a JUCE Image o..." alt="" coords="187,80,353,107"/>
-<area shape="rect" id="node4" href="$classjuce_1_1SoftwareImageType.html" title="An image storage type which holds the pixels in&#45;memory as a simple block of values. " alt="" coords="379,80,549,107"/>
-</map>

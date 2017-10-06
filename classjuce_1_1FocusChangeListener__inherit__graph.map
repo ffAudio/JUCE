@@ -1,4 +1,0 @@
-<map id="juce::FocusChangeListener" name="juce::FocusChangeListener">
-<area shape="rect" id="node2" href="$classjuce_1_1ApplicationCommandManager.html" title="One of these objects holds a list of all the commands your app can perform, and despatches these comm..." alt="" coords="5,81,184,122"/>
-<area shape="rect" id="node3" href="$classjuce_1_1KeyPressMappingSet.html" title="Manages and edits a list of keypresses, which it uses to invoke the appropriate command in an Applica..." alt="" coords="209,88,388,115"/>
-</map>

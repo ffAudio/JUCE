@@ -1,0 +1,5 @@
+<map id="ImageType" name="ImageType">
+<area shape="rect" id="node2" href="$classNativeImageType.html" title="An image storage type which holds the pixels using whatever is the default storage format on the curr..." alt="" coords="5,80,131,107"/>
+<area shape="rect" id="node3" href="$classOpenGLImageType.html" title="A type of ImagePixelData that stores its image data in an OpenGL framebuffer, allowing a JUCE Image o..." alt="" coords="155,80,289,107"/>
+<area shape="rect" id="node4" href="$classSoftwareImageType.html" title="An image storage type which holds the pixels in&#45;memory as a simple block of values. " alt="" coords="315,80,453,107"/>
+</map>

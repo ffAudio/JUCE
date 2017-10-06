@@ -1,7 +1,0 @@
-<map id="juce::DialogWindow" name="juce::DialogWindow">
-<area shape="rect" id="node2" href="$classjuce_1_1DocumentWindow.html" title="A resizable window with a title bar and maximise, minimise and close buttons. " alt="" coords="5,304,165,331"/>
-<area shape="rect" id="node3" href="$classjuce_1_1ResizableWindow.html" title="A base class for top&#45;level windows that can be dragged around and resized. " alt="" coords="6,229,164,256"/>
-<area shape="rect" id="node4" href="$classjuce_1_1TopLevelWindow.html" title="A base class for top&#45;level windows. " alt="" coords="8,155,161,181"/>
-<area shape="rect" id="node5" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="25,80,145,107"/>
-<area shape="rect" id="node6" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="16,5,155,32"/>
-</map>

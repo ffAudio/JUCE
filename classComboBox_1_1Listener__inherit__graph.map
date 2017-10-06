@@ -1,0 +1,6 @@
+<map id="ComboBox::Listener" name="ComboBox::Listener">
+<area shape="rect" id="node2" href="$classAudioDeviceSelectorComponent.html" title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob..." alt="" coords="195,5,405,32"/>
+<area shape="rect" id="node3" href="$classChoicePropertyComponent.html" title="A PropertyComponent that shows its value as a combo box. " alt="" coords="211,56,389,83"/>
+<area shape="rect" id="node4" href="$classFileBrowserComponent.html" title="A component for browsing and selecting a file or directory to open or save. " alt="" coords="221,107,379,133"/>
+<area shape="rect" id="node5" href="$classFilenameComponent.html" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="229,157,371,184"/>
+</map>

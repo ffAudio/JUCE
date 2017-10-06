@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['jobhasfinished',['jobHasFinished',['../classjuce_1_1ThreadPoolJob.html#a5941c13ff17426d91845c5cd46a0a2d0a70f86f0e911e4f6cd3c0ee7b2ccd1b88',1,'juce::ThreadPoolJob']]],
-  ['jobneedsrunningagain',['jobNeedsRunningAgain',['../classjuce_1_1ThreadPoolJob.html#a5941c13ff17426d91845c5cd46a0a2d0afe99654539cfff7938198feffc4cf2d8',1,'juce::ThreadPoolJob']]]
+  ['jobhasfinished',['jobHasFinished',['../classThreadPoolJob.html#a534c077f3c60168d88555ade062420b3a390a063ef5f8b769a682f1daefc64e72',1,'ThreadPoolJob']]],
+  ['jobneedsrunningagain',['jobNeedsRunningAgain',['../classThreadPoolJob.html#a534c077f3c60168d88555ade062420b3a42789d58048631dd96008ce23911a545',1,'ThreadPoolJob']]]
 ];

@@ -1,4 +1,0 @@
-<map id="juce::BufferingAudioReader" name="juce::BufferingAudioReader">
-<area shape="rect" id="node2" href="$classjuce_1_1AudioFormatReader.html" title="Reads samples from an audio file stream. " alt="" coords="5,5,176,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1TimeSliceClient.html" title="Used by the TimeSliceThread class. " alt="" coords="200,5,347,32"/>
-</map>

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['opcode',['OpCode',['../group__juce__blocks__basics-littlefoot.html#ga7007a5eb28fcc103aeeca3fe069893aa',1,'littlefoot']]],
-  ['openglversion',['OpenGLVersion',['../classjuce_1_1OpenGLContext.html#ac41d6e6f7b3441f91bbdbc84a34cf76c',1,'juce::OpenGLContext']]],
-  ['openness',['Openness',['../classjuce_1_1TreeViewItem.html#ad2621c1374fddfd437846dbdf999aaa2',1,'juce::TreeViewItem']]],
-  ['operatingsystemtype',['OperatingSystemType',['../classjuce_1_1SystemStats.html#abcf05f219dce5b65045326116a53d6f9',1,'juce::SystemStats']]],
-  ['optionflags',['OptionFlags',['../classjuce_1_1TemporaryFile.html#a09bdd60ad81f00992f2b59eb2a0519e3',1,'juce::TemporaryFile']]],
-  ['orientation',['Orientation',['../classjuce_1_1MidiKeyboardComponent.html#ada3b749406855fd14c8999e8458e1df5',1,'juce::MidiKeyboardComponent::Orientation()'],['../classjuce_1_1TabbedButtonBar.html#a75917b1f755983129bf18fa1bf7bda73',1,'juce::TabbedButtonBar::Orientation()']]]
+  ['opcode',['OpCode',['../namespacelittlefoot.html#a7007a5eb28fcc103aeeca3fe069893aa',1,'littlefoot']]],
+  ['openglversion',['OpenGLVersion',['../classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02',1,'OpenGLContext']]],
+  ['openness',['Openness',['../classTreeViewItem.html#aeb42402ed8e34ef5af931a762fd55bbd',1,'TreeViewItem']]],
+  ['operatingsystemtype',['OperatingSystemType',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68ea',1,'SystemStats']]],
+  ['optionflags',['OptionFlags',['../classTemporaryFile.html#af04f4ef2ea1bee0b20cdb4c072442e8d',1,'TemporaryFile']]],
+  ['orientation',['Orientation',['../classMidiKeyboardComponent.html#a6f6844672df93f8f631fa7e22cf0cdaf',1,'MidiKeyboardComponent::Orientation()'],['../classTabbedButtonBar.html#a63e34dd62f1b80ec99412c6115b39afb',1,'TabbedButtonBar::Orientation()']]]
 ];

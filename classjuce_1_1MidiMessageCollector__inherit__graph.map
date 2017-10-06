@@ -1,4 +1,0 @@
-<map id="juce::MidiMessageCollector" name="juce::MidiMessageCollector">
-<area shape="rect" id="node2" href="$classjuce_1_1MidiKeyboardStateListener.html" title="Receives events from a MidiKeyboardState object. " alt="" coords="5,5,215,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MidiInputCallback.html" title="Receives incoming messages from a physical MIDI input device. " alt="" coords="241,5,399,32"/>
-</map>

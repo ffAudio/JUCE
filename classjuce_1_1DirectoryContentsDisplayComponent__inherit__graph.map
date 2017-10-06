@@ -1,4 +1,0 @@
-<map id="juce::DirectoryContentsDisplayComponent" name="juce::DirectoryContentsDisplayComponent">
-<area shape="rect" id="node2" href="$classjuce_1_1FileListComponent.html" title="A component that displays the files in a directory as a listbox. " alt="" coords="5,96,168,123"/>
-<area shape="rect" id="node3" href="$classjuce_1_1FileTreeComponent.html" title="A component that displays the files in a directory as a treeview. " alt="" coords="192,96,360,123"/>
-</map>

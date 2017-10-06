@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['batterycharging',['BatteryCharging',['../namespacejuce_1_1BlocksProtocol.html#a75e4c47adf80c842c370ce1f83fd1c00',1,'juce::BlocksProtocol']]],
-  ['batterylevel',['BatteryLevel',['../namespacejuce_1_1BlocksProtocol.html#a881952ef7f7c8d2b7e66ad15b9aa8705',1,'juce::BlocksProtocol']]],
-  ['bus',['Bus',['../structjuce_1_1VST3BufferExchange.html#a47cbe5cfa09368af99700adc583bd761',1,'juce::VST3BufferExchange']]],
-  ['busmap',['BusMap',['../structjuce_1_1VST3BufferExchange.html#a95e516f44c78da926ca8cdaeb9e1766d',1,'juce::VST3BufferExchange']]],
-  ['bytecountfew',['ByteCountFew',['../namespacejuce_1_1BlocksProtocol.html#a8de90cef35f7dc357b37bb51d26b6a1b',1,'juce::BlocksProtocol']]],
-  ['bytecountmany',['ByteCountMany',['../namespacejuce_1_1BlocksProtocol.html#a4a2bb4597ee0ab6a45a60e8f797c54ca',1,'juce::BlocksProtocol']]],
-  ['bytesequencecontinues',['ByteSequenceContinues',['../namespacejuce_1_1BlocksProtocol.html#a4878674f54b20b25e4f1068c68e5fade',1,'juce::BlocksProtocol']]],
-  ['bytevalue',['ByteValue',['../namespacejuce_1_1BlocksProtocol.html#ae44682d578b821f94eca3d9b88f518fc',1,'juce::BlocksProtocol']]]
+  ['batterycharging',['BatteryCharging',['../namespaceBlocksProtocol.html#a61b3346f5ee578918d7c46415033d71f',1,'BlocksProtocol']]],
+  ['batterylevel',['BatteryLevel',['../namespaceBlocksProtocol.html#a71548f7564fb975198e6b39e977a7a10',1,'BlocksProtocol']]],
+  ['bus',['Bus',['../structVST3BufferExchange.html#a5aa67a699a8f31a5098536f335c43eb4',1,'VST3BufferExchange']]],
+  ['busmap',['BusMap',['../structVST3BufferExchange.html#a0a22108464b6d7df26e58b473f3b567f',1,'VST3BufferExchange']]],
+  ['bytecountfew',['ByteCountFew',['../namespaceBlocksProtocol.html#a75c6960999fe971569ed57b8cc5c8755',1,'BlocksProtocol']]],
+  ['bytecountmany',['ByteCountMany',['../namespaceBlocksProtocol.html#a24efaa3a6b90896d6846e6a5df7c93f8',1,'BlocksProtocol']]],
+  ['bytesequencecontinues',['ByteSequenceContinues',['../namespaceBlocksProtocol.html#a84bda9d4f97ef788946452cd0c209adb',1,'BlocksProtocol']]],
+  ['bytevalue',['ByteValue',['../namespaceBlocksProtocol.html#a7d99a1507707f046f42589ce14956865',1,'BlocksProtocol']]]
 ];

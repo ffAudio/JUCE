@@ -1,0 +1,5 @@
+<map id="MultiDocumentPanel" name="MultiDocumentPanel">
+<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classComponentListener.html" title="Gets informed about changes to a component&#39;s hierarchy or position. " alt="" coords="127,80,261,107"/>
+</map>

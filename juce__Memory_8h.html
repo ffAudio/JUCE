@@ -86,7 +86,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -96,20 +95,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classjuce_1_1ScopedAutoReleasePool.html">juce::ScopedAutoReleasePool</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy C++ wrapper that creates and deletes an NSAutoreleasePool object using RAII.  <a href="classjuce_1_1ScopedAutoReleasePool.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespacejuce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacejuce.html">juce</a></td></tr>
-<tr class="memdesc:namespacejuce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes for IIR filter processing. <br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedAutoReleasePool.html">ScopedAutoReleasePool</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy C++ wrapper that creates and deletes an NSAutoreleasePool object using RAII.  <a href="classScopedAutoReleasePool.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:gad73fadcd76040b11a626d5bdf833ad49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gad73fadcd76040b11a626d5bdf833ad49">JUCE_AUTORELEASEPOOL</a>&#160;&#160;&#160;@autoreleasepool</td></tr>
-<tr class="memdesc:gad73fadcd76040b11a626d5bdf833ad49"><td class="mdescLeft">&#160;</td><td class="mdescRight">A macro that can be used to easily declare a local ScopedAutoReleasePool object for RAII-based obj-C autoreleasing.  <a href="group__juce__core-memory.html#gad73fadcd76040b11a626d5bdf833ad49">More...</a><br/></td></tr>
+<tr class="memdesc:gad73fadcd76040b11a626d5bdf833ad49"><td class="mdescLeft">&#160;</td><td class="mdescRight">A macro that can be used to easily declare a local <a class="el" href="classScopedAutoReleasePool.html" title="A handy C++ wrapper that creates and deletes an NSAutoreleasePool object using RAII. ">ScopedAutoReleasePool</a> object for RAII-based obj-C autoreleasing.  <a href="group__juce__core-memory.html#gad73fadcd76040b11a626d5bdf833ad49">More...</a><br/></td></tr>
 <tr class="separator:gad73fadcd76040b11a626d5bdf833ad49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga881926ad904a631336e5d4b15f05c548"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga881926ad904a631336e5d4b15f05c548">juce_UseDebuggingNewOperator</a></td></tr>
 <tr class="memdesc:ga881926ad904a631336e5d4b15f05c548"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Deprecated) This was a Windows-specific way of checking for object leaks - now please use the JUCE_LEAK_DETECTOR instead.  <a href="group__juce__core-memory.html#ga881926ad904a631336e5d4b15f05c548">More...</a><br/></td></tr>
@@ -117,46 +110,46 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf98f1c01dcdb77b71fbd0c4cab285321"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaf98f1c01dcdb77b71fbd0c4cab285321">juce::zeromem</a> (void *memory, size_t numBytes) noexcept</td></tr>
-<tr class="memdesc:gaf98f1c01dcdb77b71fbd0c4cab285321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a block of memory with zeros.  <a href="group__juce__core-memory.html#gaf98f1c01dcdb77b71fbd0c4cab285321">More...</a><br/></td></tr>
-<tr class="separator:gaf98f1c01dcdb77b71fbd0c4cab285321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga11d8fa1921494e90708d443dea17a1b8"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:ga11d8fa1921494e90708d443dea17a1b8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga11d8fa1921494e90708d443dea17a1b8">juce::zerostruct</a> (Type &amp;structure) noexcept</td></tr>
-<tr class="memdesc:ga11d8fa1921494e90708d443dea17a1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites a structure or object with zeros.  <a href="group__juce__core-memory.html#ga11d8fa1921494e90708d443dea17a1b8">More...</a><br/></td></tr>
-<tr class="separator:ga11d8fa1921494e90708d443dea17a1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa4426beeb515d695c582eb4a9f0180ba"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:gaa4426beeb515d695c582eb4a9f0180ba"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaa4426beeb515d695c582eb4a9f0180ba">juce::deleteAndZero</a> (Type &amp;pointer)</td></tr>
-<tr class="memdesc:gaa4426beeb515d695c582eb4a9f0180ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an object pointer, and sets the pointer to null.  <a href="group__juce__core-memory.html#gaa4426beeb515d695c582eb4a9f0180ba">More...</a><br/></td></tr>
-<tr class="separator:gaa4426beeb515d695c582eb4a9f0180ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga10b1233e585aa74e278de4554f638298"><td class="memTemplParams" colspan="2">template&lt;typename Type , typename IntegerType &gt; </td></tr>
-<tr class="memitem:ga10b1233e585aa74e278de4554f638298"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga10b1233e585aa74e278de4554f638298">juce::addBytesToPointer</a> (Type *basePointer, IntegerType bytes) noexcept</td></tr>
-<tr class="memdesc:ga10b1233e585aa74e278de4554f638298"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function which adds a number of bytes to any type of pointer and returns the result.  <a href="group__juce__core-memory.html#ga10b1233e585aa74e278de4554f638298">More...</a><br/></td></tr>
-<tr class="separator:ga10b1233e585aa74e278de4554f638298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf30e45dbe25304ab6268b71cb160bb0d"><td class="memTemplParams" colspan="2">template&lt;typename Type , typename IntegerType &gt; </td></tr>
-<tr class="memitem:gaf30e45dbe25304ab6268b71cb160bb0d"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaf30e45dbe25304ab6268b71cb160bb0d">juce::snapPointerToAlignment</a> (Type *basePointer, IntegerType alignmentBytes) noexcept</td></tr>
-<tr class="memdesc:gaf30e45dbe25304ab6268b71cb160bb0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function to round up a pointer to the nearest multiple of a given number of bytes.  <a href="group__juce__core-memory.html#gaf30e45dbe25304ab6268b71cb160bb0d">More...</a><br/></td></tr>
-<tr class="separator:gaf30e45dbe25304ab6268b71cb160bb0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga615b02f323ec622a1f8acd9aa481c671"><td class="memTemplParams" colspan="2">template&lt;typename Type1 , typename Type2 &gt; </td></tr>
-<tr class="memitem:ga615b02f323ec622a1f8acd9aa481c671"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga615b02f323ec622a1f8acd9aa481c671">juce::getAddressDifference</a> (Type1 *pointer1, Type2 *pointer2) noexcept</td></tr>
-<tr class="memdesc:ga615b02f323ec622a1f8acd9aa481c671"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function which returns the difference between any two pointers, in bytes.  <a href="group__juce__core-memory.html#ga615b02f323ec622a1f8acd9aa481c671">More...</a><br/></td></tr>
-<tr class="separator:ga615b02f323ec622a1f8acd9aa481c671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6647215955d5b4306b6541b0cb6e74c3"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
-<tr class="memitem:ga6647215955d5b4306b6541b0cb6e74c3"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga6647215955d5b4306b6541b0cb6e74c3">juce::createCopyIfNotNull</a> (const Type *objectToCopy)</td></tr>
-<tr class="memdesc:ga6647215955d5b4306b6541b0cb6e74c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a pointer is non-null, this returns a new copy of the object that it points to, or safely returns nullptr if the pointer is null.  <a href="group__juce__core-memory.html#ga6647215955d5b4306b6541b0cb6e74c3">More...</a><br/></td></tr>
-<tr class="separator:ga6647215955d5b4306b6541b0cb6e74c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga86f5ca40c4c6fac5dc67ec865cc32e37"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:ga86f5ca40c4c6fac5dc67ec865cc32e37"><td class="memTemplItemLeft" align="right" valign="top">Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga86f5ca40c4c6fac5dc67ec865cc32e37">juce::readUnaligned</a> (const void *srcPtr) noexcept</td></tr>
-<tr class="memdesc:ga86f5ca40c4c6fac5dc67ec865cc32e37"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function to read un-aligned memory without a performance penalty or bus-error.  <a href="group__juce__core-memory.html#ga86f5ca40c4c6fac5dc67ec865cc32e37">More...</a><br/></td></tr>
-<tr class="separator:ga86f5ca40c4c6fac5dc67ec865cc32e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadede49b61948e057e3e6629d33cb0197"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:gadede49b61948e057e3e6629d33cb0197"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gadede49b61948e057e3e6629d33cb0197">juce::writeUnaligned</a> (void *dstPtr, Type <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>) noexcept</td></tr>
-<tr class="memdesc:gadede49b61948e057e3e6629d33cb0197"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function to write un-aligned memory without a performance penalty or bus-error.  <a href="group__juce__core-memory.html#gadede49b61948e057e3e6629d33cb0197">More...</a><br/></td></tr>
-<tr class="separator:gadede49b61948e057e3e6629d33cb0197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48fb9b158a3767e6573d27a8160956ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga48fb9b158a3767e6573d27a8160956ea">zeromem</a> (void *memory, size_t numBytes) noexcept</td></tr>
+<tr class="memdesc:ga48fb9b158a3767e6573d27a8160956ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a block of memory with zeros.  <a href="group__juce__core-memory.html#ga48fb9b158a3767e6573d27a8160956ea">More...</a><br/></td></tr>
+<tr class="separator:ga48fb9b158a3767e6573d27a8160956ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f3dbe374ad9280ed9ba72f510d8e5b0"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ga1f3dbe374ad9280ed9ba72f510d8e5b0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga1f3dbe374ad9280ed9ba72f510d8e5b0">zerostruct</a> (Type &amp;structure) noexcept</td></tr>
+<tr class="memdesc:ga1f3dbe374ad9280ed9ba72f510d8e5b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites a structure or object with zeros.  <a href="group__juce__core-memory.html#ga1f3dbe374ad9280ed9ba72f510d8e5b0">More...</a><br/></td></tr>
+<tr class="separator:ga1f3dbe374ad9280ed9ba72f510d8e5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4163b928fab6bebea5691e97c72fc4fa"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ga4163b928fab6bebea5691e97c72fc4fa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga4163b928fab6bebea5691e97c72fc4fa">deleteAndZero</a> (Type &amp;pointer)</td></tr>
+<tr class="memdesc:ga4163b928fab6bebea5691e97c72fc4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an object pointer, and sets the pointer to null.  <a href="group__juce__core-memory.html#ga4163b928fab6bebea5691e97c72fc4fa">More...</a><br/></td></tr>
+<tr class="separator:ga4163b928fab6bebea5691e97c72fc4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec283d962b8cbfef5e73f51129305913"><td class="memTemplParams" colspan="2">template&lt;typename Type , typename IntegerType &gt; </td></tr>
+<tr class="memitem:gaec283d962b8cbfef5e73f51129305913"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaec283d962b8cbfef5e73f51129305913">addBytesToPointer</a> (Type *basePointer, IntegerType bytes) noexcept</td></tr>
+<tr class="memdesc:gaec283d962b8cbfef5e73f51129305913"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function which adds a number of bytes to any type of pointer and returns the result.  <a href="group__juce__core-memory.html#gaec283d962b8cbfef5e73f51129305913">More...</a><br/></td></tr>
+<tr class="separator:gaec283d962b8cbfef5e73f51129305913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4503bc356769b69967532e23cb5595f1"><td class="memTemplParams" colspan="2">template&lt;typename Type , typename IntegerType &gt; </td></tr>
+<tr class="memitem:ga4503bc356769b69967532e23cb5595f1"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga4503bc356769b69967532e23cb5595f1">snapPointerToAlignment</a> (Type *basePointer, IntegerType alignmentBytes) noexcept</td></tr>
+<tr class="memdesc:ga4503bc356769b69967532e23cb5595f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function to round up a pointer to the nearest multiple of a given number of bytes.  <a href="group__juce__core-memory.html#ga4503bc356769b69967532e23cb5595f1">More...</a><br/></td></tr>
+<tr class="separator:ga4503bc356769b69967532e23cb5595f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga667897ead2d6fd7f9f682bd8f75da26a"><td class="memTemplParams" colspan="2">template&lt;typename Type1 , typename Type2 &gt; </td></tr>
+<tr class="memitem:ga667897ead2d6fd7f9f682bd8f75da26a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga667897ead2d6fd7f9f682bd8f75da26a">getAddressDifference</a> (Type1 *pointer1, Type2 *pointer2) noexcept</td></tr>
+<tr class="memdesc:ga667897ead2d6fd7f9f682bd8f75da26a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function which returns the difference between any two pointers, in bytes.  <a href="group__juce__core-memory.html#ga667897ead2d6fd7f9f682bd8f75da26a">More...</a><br/></td></tr>
+<tr class="separator:ga667897ead2d6fd7f9f682bd8f75da26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab622db353f778dfccede23f101ec86bb"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
+<tr class="memitem:gab622db353f778dfccede23f101ec86bb"><td class="memTemplItemLeft" align="right" valign="top">Type *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gab622db353f778dfccede23f101ec86bb">createCopyIfNotNull</a> (const Type *objectToCopy)</td></tr>
+<tr class="memdesc:gab622db353f778dfccede23f101ec86bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a pointer is non-null, this returns a new copy of the object that it points to, or safely returns nullptr if the pointer is null.  <a href="group__juce__core-memory.html#gab622db353f778dfccede23f101ec86bb">More...</a><br/></td></tr>
+<tr class="separator:gab622db353f778dfccede23f101ec86bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4e1363d40774f5bb55f6324c4ab1414"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:gad4e1363d40774f5bb55f6324c4ab1414"><td class="memTemplItemLeft" align="right" valign="top">Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gad4e1363d40774f5bb55f6324c4ab1414">readUnaligned</a> (const void *srcPtr) noexcept</td></tr>
+<tr class="memdesc:gad4e1363d40774f5bb55f6324c4ab1414"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function to read un-aligned memory without a performance penalty or bus-error.  <a href="group__juce__core-memory.html#gad4e1363d40774f5bb55f6324c4ab1414">More...</a><br/></td></tr>
+<tr class="separator:gad4e1363d40774f5bb55f6324c4ab1414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab39db7640be10d1fab314769f20d1ee5"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:gab39db7640be10d1fab314769f20d1ee5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gab39db7640be10d1fab314769f20d1ee5">writeUnaligned</a> (void *dstPtr, Type <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>) noexcept</td></tr>
+<tr class="memdesc:gab39db7640be10d1fab314769f20d1ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handy function to write un-aligned memory without a performance penalty or bus-error.  <a href="group__juce__core-memory.html#gab39db7640be10d1fab314769f20d1ee5">More...</a><br/></td></tr>
+<tr class="separator:gab39db7640be10d1fab314769f20d1ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 6 2017 01:00:32 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 7 2017 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

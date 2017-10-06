@@ -1,5 +1,0 @@
-<map id="juce::Desktop" name="juce::Desktop">
-<area shape="rect" id="node2" href="$classjuce_1_1DeletedAtShutdown.html" title="Classes derived from this will be automatically deleted when the application exits. " alt="" coords="5,5,176,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="201,5,287,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1AsyncUpdater.html" title="Has a callback method that is triggered asynchronously. " alt="" coords="311,5,448,32"/>
-</map>

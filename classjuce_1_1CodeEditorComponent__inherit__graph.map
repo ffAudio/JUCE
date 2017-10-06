@@ -1,6 +1,0 @@
-<map id="juce::CodeEditorComponent" name="juce::CodeEditorComponent">
-<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,88,135,115"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1ApplicationCommandTarget.html" title="A command target publishes a list of command IDs that it can perform. " alt="" coords="160,81,339,122"/>
-<area shape="rect" id="node5" href="$classjuce_1_1TextInputTarget.html" title="An abstract base class which can be implemented by components that function as text editors..." alt="" coords="363,88,509,115"/>
-</map>

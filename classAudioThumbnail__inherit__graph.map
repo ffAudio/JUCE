@@ -1,0 +1,5 @@
+<map id="AudioThumbnail" name="AudioThumbnail">
+<area shape="rect" id="node2" href="$classAudioThumbnailBase.html" title="Provides a base for classes that can store and draw scaled views of an audio waveform. " alt="" coords="97,109,241,136"/>
+<area shape="rect" id="node3" href="$classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="5,20,141,47"/>
+<area shape="rect" id="node4" href="$classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html" title="AudioFormatWriter::\lThreadedWriter::IncomingData\lReceiver" alt="" coords="167,5,365,61"/>
+</map>

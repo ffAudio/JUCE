@@ -1,0 +1,6 @@
+<map id="AudioIODeviceCallback" name="AudioIODeviceCallback">
+<area shape="rect" id="node2" href="$classAudioProcessorPlayer.html" title="An AudioIODeviceCallback object which streams audio through an AudioProcessor. " alt="" coords="5,80,155,107"/>
+<area shape="rect" id="node3" href="$classAudioSourcePlayer.html" title="Wrapper class to continuously stream audio from an audio source to an AudioIODevice. " alt="" coords="180,80,313,107"/>
+<area shape="rect" id="node4" href="$classSoundPlayer.html" title="A simple sound player that you can add to the AudioDeviceManager to play simple sounds. " alt="" coords="337,80,433,107"/>
+<area shape="rect" id="node5" href="$classStandalonePluginHolder.html" title="An object that creates and plays a standalone instance of an AudioProcessor. " alt="" coords="458,80,619,107"/>
+</map>

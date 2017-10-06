@@ -1,6 +1,0 @@
-<map id="juce::DrawablePath" name="juce::DrawablePath">
-<area shape="rect" id="node2" href="$classjuce_1_1DrawableShape.html" title="A base class implementing common functionality for Drawable classes which consist of some kind of fil..." alt="" coords="5,229,152,256"/>
-<area shape="rect" id="node3" href="$classjuce_1_1Drawable.html" title="The base class for objects which can draw themselves, e.g. " alt="" coords="24,155,133,181"/>
-<area shape="rect" id="node4" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="18,80,139,107"/>
-<area shape="rect" id="node5" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="9,5,148,32"/>
-</map>

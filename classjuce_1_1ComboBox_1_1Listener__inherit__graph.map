@@ -1,6 +1,0 @@
-<map id="juce::ComboBox::Listener" name="juce::ComboBox::Listener">
-<area shape="rect" id="node2" href="$classjuce_1_1AudioDeviceSelectorComponent.html" title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob..." alt="" coords="244,5,420,46"/>
-<area shape="rect" id="node3" href="$classjuce_1_1ChoicePropertyComponent.html" title="A PropertyComponent that shows its value as a combo box. " alt="" coords="227,71,437,97"/>
-<area shape="rect" id="node4" href="$classjuce_1_1FileBrowserComponent.html" title="A component for browsing and selecting a file or directory to open or save. " alt="" coords="237,121,427,148"/>
-<area shape="rect" id="node5" href="$classjuce_1_1FilenameComponent.html" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="245,172,419,199"/>
-</map>

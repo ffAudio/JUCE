@@ -1,16 +1,16 @@
 var searchData=
 [
-  ['callback',['Callback',['../classjuce_1_1RuntimePermissions.html#a9086a01dbe41bf69d6d9be70956aa129',1,'juce::RuntimePermissions']]],
-  ['charpointertype',['CharPointerType',['../classjuce_1_1String.html#aa0f328075b652b35de9597200fe178f4',1,'juce::String']]],
-  ['chartype',['CharType',['../classjuce_1_1CharPointer__ASCII.html#a457aefaf766c9d5b01c6fe4626ac3b4d',1,'juce::CharPointer_ASCII::CharType()'],['../classjuce_1_1CharPointer__UTF16.html#ad4844197627eaa264d738e7c477b5dba',1,'juce::CharPointer_UTF16::CharType()'],['../classjuce_1_1CharPointer__UTF32.html#aa77f98a2fc3cd7c1eb001408ac17881e',1,'juce::CharPointer_UTF32::CharType()'],['../classjuce_1_1CharPointer__UTF8.html#a467d8e8e49cca40da21975ea729fbad8',1,'juce::CharPointer_UTF8::CharType()']]],
-  ['cmplxops',['CmplxOps',['../structjuce_1_1dsp_1_1SIMDRegister.html#a20a7cba3e82653e20de8d2b01927d107',1,'juce::dsp::SIMDRegister']]],
-  ['comboboxlistener',['ComboBoxListener',['../group__juce__gui__basics-widgets.html#gae448f7c219428ffb08f5d72523fd0546',1,'juce']]],
-  ['commandid',['CommandID',['../group__juce__gui__basics-commands.html#gadba61bf2b8a72dbccc25b23a554d9307',1,'juce']]],
-  ['configcommand',['ConfigCommand',['../namespacejuce_1_1BlocksProtocol.html#a29f5ddad7b80695f5edaad61b027c770',1,'juce::BlocksProtocol']]],
-  ['configitemindex',['ConfigItemIndex',['../namespacejuce_1_1BlocksProtocol.html#a40a9878e5c053000e769494a342d797f',1,'juce::BlocksProtocol']]],
-  ['configitemvalue',['ConfigItemValue',['../namespacejuce_1_1BlocksProtocol.html#a3f346462e8f467478d98318f06e7b8c1',1,'juce::BlocksProtocol']]],
-  ['connectioncount',['ConnectionCount',['../namespacejuce_1_1BlocksProtocol.html#a35d6940e52796ba6299ad3eaa5dc6094',1,'juce::BlocksProtocol']]],
-  ['connectorport',['ConnectorPort',['../namespacejuce_1_1BlocksProtocol.html#a88c505534a82b37a3d492efd1679b027',1,'juce::BlocksProtocol']]],
-  ['controlbuttonid',['ControlButtonID',['../namespacejuce_1_1BlocksProtocol.html#a46b342c28e26401c2e9df0ebe84d01c7',1,'juce::BlocksProtocol']]],
-  ['crashhandlerfunction',['CrashHandlerFunction',['../classjuce_1_1SystemStats.html#a16f559101a769ea375518e1c1656368b',1,'juce::SystemStats']]]
+  ['callback',['Callback',['../classRuntimePermissions.html#a6138db5251bc8067e85154b32627d1ab',1,'RuntimePermissions']]],
+  ['charpointertype',['CharPointerType',['../classString.html#a32e28d7fc3a4900c319884191d90dbf0',1,'String']]],
+  ['chartype',['CharType',['../classCharPointer__ASCII.html#add860ee0ed357926cb0cb5f0f8707283',1,'CharPointer_ASCII::CharType()'],['../classCharPointer__UTF16.html#a28977ea8b479d3b2f3a8459594f88c58',1,'CharPointer_UTF16::CharType()'],['../classCharPointer__UTF32.html#aec00e72e5c5324d92e97f17ff7cd70f1',1,'CharPointer_UTF32::CharType()'],['../classCharPointer__UTF8.html#ac410c2e8043cffd3cf0ae00e04c6e630',1,'CharPointer_UTF8::CharType()']]],
+  ['cmplxops',['CmplxOps',['../structdsp_1_1SIMDRegister.html#a2168ff501e4195f61d19b4905e7987ea',1,'dsp::SIMDRegister']]],
+  ['comboboxlistener',['ComboBoxListener',['../group__juce__gui__basics-widgets.html#gab480afea56011a420dab466db0dac97e',1,'juce_ComboBox.h']]],
+  ['commandid',['CommandID',['../group__juce__gui__basics-commands.html#gafd69b5d28aad07b587b693925e09308b',1,'juce_ApplicationCommandID.h']]],
+  ['configcommand',['ConfigCommand',['../namespaceBlocksProtocol.html#a960238dc1911ee8eeb5fd5586d0f15cc',1,'BlocksProtocol']]],
+  ['configitemindex',['ConfigItemIndex',['../namespaceBlocksProtocol.html#a9303a63307f8e18f322a32c2dda1d99f',1,'BlocksProtocol']]],
+  ['configitemvalue',['ConfigItemValue',['../namespaceBlocksProtocol.html#a9763698ccbb1bb1ace312829516783b6',1,'BlocksProtocol']]],
+  ['connectioncount',['ConnectionCount',['../namespaceBlocksProtocol.html#a25b483d5847443ad588bef58db3390f7',1,'BlocksProtocol']]],
+  ['connectorport',['ConnectorPort',['../namespaceBlocksProtocol.html#a1db5e098ab83aadeae6a82a25ed9efc8',1,'BlocksProtocol']]],
+  ['controlbuttonid',['ControlButtonID',['../namespaceBlocksProtocol.html#ae36e05b552d9e30a5c1fb64be8a772c7',1,'BlocksProtocol']]],
+  ['crashhandlerfunction',['CrashHandlerFunction',['../classSystemStats.html#a3c18a082adf09730f6d425d9d4606dce',1,'SystemStats']]]
 ];

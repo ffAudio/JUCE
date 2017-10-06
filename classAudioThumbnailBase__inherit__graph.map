@@ -1,0 +1,5 @@
+<map id="AudioThumbnailBase" name="AudioThumbnailBase">
+<area shape="rect" id="node4" href="$classAudioThumbnail.html" title="Makes it easy to quickly draw scaled views of the waveform shape of an audio file. " alt="" coords="112,184,227,211"/>
+<area shape="rect" id="node2" href="$classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="5,20,141,47"/>
+<area shape="rect" id="node3" href="$classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html" title="AudioFormatWriter::\lThreadedWriter::IncomingData\lReceiver" alt="" coords="167,5,365,61"/>
+</map>

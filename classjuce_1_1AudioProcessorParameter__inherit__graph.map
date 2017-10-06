@@ -1,7 +1,0 @@
-<map id="juce::AudioProcessorParameter" name="juce::AudioProcessorParameter">
-<area shape="rect" id="node2" href="$classjuce_1_1AudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="262,74,469,115"/>
-<area shape="rect" id="node3" href="$classjuce_1_1AudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. " alt="" coords="525,5,699,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1AudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. " alt="" coords="518,56,706,83"/>
-<area shape="rect" id="node5" href="$classjuce_1_1AudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto..." alt="" coords="524,107,700,133"/>
-<area shape="rect" id="node6" href="$classjuce_1_1AudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range..." alt="" coords="531,157,693,184"/>
-</map>

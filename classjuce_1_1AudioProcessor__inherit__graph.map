@@ -1,5 +1,0 @@
-<map id="juce::AudioProcessor" name="juce::AudioProcessor">
-<area shape="rect" id="node2" href="$classjuce_1_1AudioPluginInstance.html" title="Base class for an active instance of a plugin. " alt="" coords="9,80,183,107"/>
-<area shape="rect" id="node4" href="$classjuce_1_1AudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. " alt="" coords="207,80,388,107"/>
-<area shape="rect" id="node3" href="$classjuce_1_1AudioProcessorGraph_1_1AudioGraphIOProcessor.html" title="A special type of AudioProcessor that can live inside an AudioProcessorGraph in order to use the audi..." alt="" coords="5,155,187,197"/>
-</map>

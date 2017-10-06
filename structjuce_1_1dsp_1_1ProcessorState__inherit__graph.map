@@ -1,6 +1,0 @@
-<map id="juce::dsp::ProcessorState" name="juce::dsp::ProcessorState">
-<area shape="rect" id="node3" href="$structjuce_1_1dsp_1_1FIR_1_1Coefficients.html" title="A set of coefficients for use in an FIRFilter object. " alt="" coords="501,5,683,46"/>
-<area shape="rect" id="node4" href="$structjuce_1_1dsp_1_1IIR_1_1Coefficients.html" title="A set of coefficients for use in an Filter object. " alt="" coords="503,70,681,111"/>
-<area shape="rect" id="node5" href="$structjuce_1_1dsp_1_1StateVariableFilter_1_1Parameters.html" title="juce::dsp::StateVariable\lFilter::Parameters\&lt; NumericType \&gt;" alt="" coords="478,135,706,177"/>
-<area shape="rect" id="node2" href="$classjuce_1_1ReferenceCountedObject.html" title="A base class which provides methods for reference&#45;counting. " alt="" coords="6,77,207,104"/>
-</map>

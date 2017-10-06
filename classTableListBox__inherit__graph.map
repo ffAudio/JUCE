@@ -1,0 +1,9 @@
+<map id="TableListBox" name="TableListBox">
+<area shape="rect" id="node2" href="$classListBox.html" title="A list of items that can be scrolled vertically. " alt="" coords="95,163,161,189"/>
+<area shape="rect" id="node3" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node4" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node5" href="$classSettableTooltipClient.html" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="127,80,269,107"/>
+<area shape="rect" id="node6" href="$classTooltipClient.html" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="151,5,245,32"/>
+<area shape="rect" id="node7" href="$classListBoxModel.html" title="A subclass of this is used to drive a ListBox. " alt="" coords="185,163,287,189"/>
+<area shape="rect" id="node8" href="$classTableHeaderComponent_1_1Listener.html" title="Receives events from a TableHeaderComponent when columns are resized, moved, etc. ..." alt="" coords="311,155,473,197"/>
+</map>

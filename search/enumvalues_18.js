@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['y',['y',['../structjuce_1_1RelativeCoordinate_1_1StandardStrings.html#a7cbaab818904e01d60d9311eafbe0769a27687f66cba79fc78d459d59cade6407',1,'juce::RelativeCoordinate::StandardStrings']]],
-  ['ybottom',['yBottom',['../classjuce_1_1RectanglePlacement.html#ac398a0d4134e345f82b913e485c2989bac6910d1420bd678bb3b81c97d22d6226',1,'juce::RectanglePlacement']]],
-  ['ymid',['yMid',['../classjuce_1_1RectanglePlacement.html#ac398a0d4134e345f82b913e485c2989ba64bc860f8837fe2dff29558b8541b3bf',1,'juce::RectanglePlacement']]],
-  ['ytop',['yTop',['../classjuce_1_1RectanglePlacement.html#ac398a0d4134e345f82b913e485c2989ba664a7f2795bbc60a58549809be9aca5c',1,'juce::RectanglePlacement']]],
-  ['ytrackingmode',['yTrackingMode',['../namespacejuce_1_1BlocksProtocol.html#aee7758145215e6f195a04a0c55f0dfdeaa1478a94335e68c12d3979bad6bb6b9a',1,'juce::BlocksProtocol']]]
+  ['y',['y',['../structRelativeCoordinate_1_1StandardStrings.html#a996870bf66337348b8da0f06c647a65bafdca86daac70d04b33cae212284fc83b',1,'RelativeCoordinate::StandardStrings']]],
+  ['ybottom',['yBottom',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda467435011959541ca61cc362640db547',1,'RectanglePlacement']]],
+  ['ymid',['yMid',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda8bfb9c8cceb359b4f00a9839168a7769',1,'RectanglePlacement']]],
+  ['ytop',['yTop',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda1b650115227b059f9eb2c07ecdfcb3ad',1,'RectanglePlacement']]],
+  ['ytrackingmode',['yTrackingMode',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a5cf6a269ed35c23ac805190b05ac3331',1,'BlocksProtocol']]]
 ];

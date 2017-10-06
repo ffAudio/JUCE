@@ -1,8 +1,0 @@
-<map id="juce::Drawable::ValueTreeWrapperBase" name="juce::Drawable::ValueTreeWrapperBase">
-<area shape="rect" id="node2" href="$classjuce_1_1DrawableComposite_1_1ValueTreeWrapper.html" title="Internally&#45;used class for wrapping a DrawableComposite&#39;s state into a ValueTree. " alt="" coords="230,5,402,46"/>
-<area shape="rect" id="node3" href="$classjuce_1_1DrawableImage_1_1ValueTreeWrapper.html" title="Internally&#45;used class for wrapping a DrawableImage&#39;s state into a ValueTree. " alt="" coords="243,70,389,111"/>
-<area shape="rect" id="node4" href="$classjuce_1_1DrawableShape_1_1FillAndStrokeState.html" title="juce::DrawableShape\l::FillAndStrokeState" alt="" coords="243,135,389,177"/>
-<area shape="rect" id="node7" href="$classjuce_1_1DrawableText_1_1ValueTreeWrapper.html" title="Internally&#45;used class for wrapping a DrawableText&#39;s state into a ValueTree. " alt="" coords="247,201,385,242"/>
-<area shape="rect" id="node5" href="$classjuce_1_1DrawablePath_1_1ValueTreeWrapper.html" title="Internally&#45;used class for wrapping a DrawablePath&#39;s state into a ValueTree. " alt="" coords="465,103,604,145"/>
-<area shape="rect" id="node6" href="$classjuce_1_1DrawableRectangle_1_1ValueTreeWrapper.html" title="Internally&#45;used class for wrapping a DrawableRectangle&#39;s state into a ValueTree. " alt="" coords="451,169,619,210"/>
-</map>

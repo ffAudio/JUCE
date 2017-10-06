@@ -1,7 +1,0 @@
-<map id="juce::MidiKeyboardComponent" name="juce::MidiKeyboardComponent">
-<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,135,107"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1MidiKeyboardStateListener.html" title="Receives events from a MidiKeyboardState object. " alt="" coords="160,80,369,107"/>
-<area shape="rect" id="node5" href="$classjuce_1_1ChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="395,80,564,107"/>
-<area shape="rect" id="node6" href="$classjuce_1_1Timer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="589,80,675,107"/>
-</map>

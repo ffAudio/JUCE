@@ -1,6 +1,0 @@
-<map id="juce::AudioPluginFormat" name="juce::AudioPluginFormat">
-<area shape="rect" id="node2" href="$classjuce_1_1AudioUnitPluginFormat.html" title="Implements a plugin format manager for AudioUnits. " alt="" coords="219,5,407,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1LADSPAPluginFormat.html" title="Implements a plugin format manager for LADSPA plugins. " alt="" coords="221,56,405,83"/>
-<area shape="rect" id="node4" href="$classjuce_1_1VST3PluginFormat.html" title="Implements a plugin format for VST3s. " alt="" coords="231,107,395,133"/>
-<area shape="rect" id="node5" href="$classjuce_1_1VSTPluginFormat.html" title="Implements a plugin format manager for VSTs. " alt="" coords="235,157,392,184"/>
-</map>

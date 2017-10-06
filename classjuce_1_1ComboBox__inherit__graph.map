@@ -1,9 +1,0 @@
-<map id="juce::ComboBox" name="juce::ComboBox">
-<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="219,5,341,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1SettableTooltipClient.html" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="193,56,367,83"/>
-<area shape="rect" id="node5" href="$classjuce_1_1TooltipClient.html" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="11,56,138,83"/>
-<area shape="rect" id="node6" href="$classjuce_1_1Label_1_1Listener.html" title="A class for receiving events from a Label. " alt="" coords="211,107,349,133"/>
-<area shape="rect" id="node7" href="$classjuce_1_1Value_1_1Listener.html" title="Receives callbacks when a Value object changes. " alt="" coords="209,157,351,184"/>
-<area shape="rect" id="node8" href="$classjuce_1_1AsyncUpdater.html" title="Has a callback method that is triggered asynchronously. " alt="" coords="211,208,349,235"/>
-</map>

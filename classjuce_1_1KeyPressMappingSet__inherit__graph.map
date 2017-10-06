@@ -1,5 +1,0 @@
-<map id="juce::KeyPressMappingSet" name="juce::KeyPressMappingSet">
-<area shape="rect" id="node2" href="$classjuce_1_1KeyListener.html" title="Receives callbacks when keys are pressed. " alt="" coords="5,5,128,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1ChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="153,5,321,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1FocusChangeListener.html" title="Classes can implement this interface and register themselves with the Desktop class to receive callba..." alt="" coords="347,5,528,32"/>
-</map>

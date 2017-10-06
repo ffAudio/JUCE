@@ -1,0 +1,6 @@
+<map id="AudioFormatReader" name="AudioFormatReader">
+<area shape="rect" id="node2" href="$classAudioCDReader.html" title="A type of AudioFormatReader that reads from an audio CD. " alt="" coords="249,5,367,32"/>
+<area shape="rect" id="node3" href="$classAudioSubsectionReader.html" title="This class is used to wrap an AudioFormatReader and only read from a subsection of the file..." alt="" coords="227,56,389,83"/>
+<area shape="rect" id="node4" href="$classBufferingAudioReader.html" title="An AudioFormatReader that uses a background thread to pre&#45;read data from another reader. " alt="" coords="233,107,383,133"/>
+<area shape="rect" id="node5" href="$classMemoryMappedAudioFormatReader.html" title="A specialised type of AudioFormatReader that uses a MemoryMappedFile to read directly from an audio f..." alt="" coords="193,157,423,184"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MessageManager::MessageBase" name="MessageManager::MessageBase">
+<area shape="rect" id="node3" href="$classCallbackMessage.html" title="A message that invokes a callback method when it gets delivered. " alt="" coords="5,155,131,181"/>
+<area shape="rect" id="node4" href="$classMessage.html" title="The base class for objects that can be sent to a MessageListener. " alt="" coords="156,155,229,181"/>
+<area shape="rect" id="node2" href="$classReferenceCountedObject.html" title="A base class which provides methods for reference&#45;counting. " alt="" coords="46,5,215,32"/>
+</map>

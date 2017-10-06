@@ -1,0 +1,27 @@
+<map id="Timer" name="Timer">
+<area shape="rect" id="node2" href="$classAnimatedAppComponent.html" title="A base class for writing simple one&#45;page graphical apps. " alt="" coords="131,5,298,32"/>
+<area shape="rect" id="node3" href="$classAnimatedPosition.html" title="Models a 1&#45;dimensional position that can be dragged around by the user, and which will then continue ..." alt="" coords="111,56,318,83"/>
+<area shape="rect" id="node4" href="$classAudioDeviceSelectorComponent.html" title="A component containing controls to let the user change the audio settings of an AudioDeviceManager ob..." alt="" coords="109,107,320,133"/>
+<area shape="rect" id="node5" href="$classAudioProcessorValueTreeState.html" title="This class contains a ValueTree which is used to manage an AudioProcessor&#39;s entire state..." alt="" coords="113,157,317,184"/>
+<area shape="rect" id="node6" href="$classAudioVisualiserComponent.html" title="A simple component that can be used to show a scrolling waveform of audio data. " alt="" coords="125,208,304,235"/>
+<area shape="rect" id="node7" href="$classBubbleMessageComponent.html" title="A speech&#45;bubble component that displays a short message. " alt="" coords="123,259,306,285"/>
+<area shape="rect" id="node8" href="$classCallOutBox.html" title="A box with a small arrow that can be used as a temporary pop&#45;up window to show extra controls when a ..." alt="" coords="170,309,259,336"/>
+<area shape="rect" id="node9" href="$classCaretComponent.html" title="CaretComponent" alt="" coords="154,360,275,387"/>
+<area shape="rect" id="node10" href="$classComponentAnimator.html" title="Animates a set of components, moving them to a new position and/or fading their alpha levels..." alt="" coords="144,411,285,437"/>
+<area shape="rect" id="node11" href="$classDesktop.html" title="Describes and controls aspects of the computer&#39;s desktop. " alt="" coords="179,461,250,488"/>
+<area shape="rect" id="node12" href="$classFakeMouseMoveGenerator.html" title="FakeMouseMoveGenerator" alt="" coords="125,512,304,539"/>
+<area shape="rect" id="node13" href="$classFileBrowserComponent.html" title="A component for browsing and selecting a file or directory to open or save. " alt="" coords="135,563,294,589"/>
+<area shape="rect" id="node14" href="$classImagePreviewComponent.html" title="A simple preview component that shows thumbnails of image files. " alt="" coords="129,613,301,640"/>
+<area shape="rect" id="node15" href="$classJUCESplashScreen.html" title="The standard JUCE splash screen component. " alt="" coords="145,664,284,691"/>
+<area shape="rect" id="node16" href="$classMenuBarComponent.html" title="A menu bar component. " alt="" coords="144,715,285,741"/>
+<area shape="rect" id="node17" href="$classMidiKeyboardComponent.html" title="A component that displays a piano keyboard, whose notes can be clicked on. " alt="" coords="131,765,299,792"/>
+<area shape="rect" id="node18" href="$classMouseInactivityDetector.html" title="This object watches for mouse&#45;events happening within a component, and if the mouse remains still for..." alt="" coords="133,816,297,843"/>
+<area shape="rect" id="node19" href="$classProgressBar.html" title="A progress bar component. " alt="" coords="167,867,262,893"/>
+<area shape="rect" id="node20" href="$classPropertiesFile.html" title="Wrapper on a file that stores a list of key/value data pairs. " alt="" coords="163,917,266,944"/>
+<area shape="rect" id="node21" href="$classScrollBar.html" title="A scrollbar component. " alt="" coords="177,968,252,995"/>
+<area shape="rect" id="node22" href="$classSplashScreen.html" title="A component for showing a splash screen while your app starts up. " alt="" coords="163,1019,266,1045"/>
+<area shape="rect" id="node23" href="$classStandalonePluginHolder.html" title="An object that creates and plays a standalone instance of an AudioProcessor. " alt="" coords="134,1069,295,1096"/>
+<area shape="rect" id="node24" href="$classThreadWithProgressWindow.html" title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it..." alt="" coords="121,1120,309,1147"/>
+<area shape="rect" id="node25" href="$classTooltipWindow.html" title="A window that displays a pop&#45;up tooltip when the mouse hovers over another component. " alt="" coords="161,1171,269,1197"/>
+<area shape="rect" id="node26" href="$classVideoComponent.html" title="A component that can play a movie. " alt="" coords="153,1221,276,1248"/>
+</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['uicolour',['UIColour',['../classjuce_1_1LookAndFeel__V4_1_1ColourScheme.html#a9fd1cab41612581942d93497a954ab71',1,'juce::LookAndFeel_V4::ColourScheme']]]
+  ['uicolour',['UIColour',['../classLookAndFeel__V4_1_1ColourScheme.html#a3a0b01b5a192545b3692ed288597b2f4',1,'LookAndFeel_V4::ColourScheme']]]
 ];

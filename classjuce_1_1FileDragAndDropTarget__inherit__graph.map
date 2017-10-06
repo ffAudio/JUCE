@@ -1,7 +1,0 @@
-<map id="juce::FileDragAndDropTarget" name="juce::FileDragAndDropTarget">
-<area shape="rect" id="node2" href="$classjuce_1_1FilenameComponent.html" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="247,5,422,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1FileSearchPathListComponent.html" title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. " alt="" coords="253,57,417,98"/>
-<area shape="rect" id="node4" href="$classjuce_1_1PluginListComponent.html" title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them..." alt="" coords="245,123,424,149"/>
-<area shape="rect" id="node5" href="$classjuce_1_1TreeView.html" title="A tree&#45;view component. " alt="" coords="280,173,389,200"/>
-<area shape="rect" id="node6" href="$classjuce_1_1FileTreeComponent.html" title="A component that displays the files in a directory as a treeview. " alt="" coords="472,173,640,200"/>
-</map>

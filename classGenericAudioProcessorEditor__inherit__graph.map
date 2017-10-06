@@ -1,0 +1,5 @@
+<map id="GenericAudioProcessorEditor" name="GenericAudioProcessorEditor">
+<area shape="rect" id="node2" href="$classAudioProcessorEditor.html" title="Base class for the component that acts as the GUI for an AudioProcessor. " alt="" coords="27,155,175,181"/>
+<area shape="rect" id="node3" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="57,80,145,107"/>
+<area shape="rect" id="node4" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="48,5,155,32"/>
+</map>

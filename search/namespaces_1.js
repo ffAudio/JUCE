@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['littlefoot',['littlefoot',['../namespacelittlefoot.html',1,'']]]
+  ['blocksprotocol',['BlocksProtocol',['../namespaceBlocksProtocol.html',1,'']]]
 ];

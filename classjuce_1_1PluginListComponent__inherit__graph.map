@@ -1,7 +1,0 @@
-<map id="juce::PluginListComponent" name="juce::PluginListComponent">
-<area shape="rect" id="node2" href="$classjuce_1_1Component.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="227,5,349,32"/>
-<area shape="rect" id="node3" href="$classjuce_1_1MouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node4" href="$classjuce_1_1FileDragAndDropTarget.html" title="Components derived from this class can have files dropped onto them by an external application..." alt="" coords="193,56,383,83"/>
-<area shape="rect" id="node5" href="$classjuce_1_1ChangeListener.html" title="Receives change event callbacks that are sent out by a ChangeBroadcaster. " alt="" coords="215,107,361,133"/>
-<area shape="rect" id="node6" href="$classjuce_1_1Button_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="215,157,361,184"/>
-</map>
