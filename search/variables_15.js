@@ -13,6 +13,7 @@ var searchData=
   ['versionnumber',['versionNumber',['../classBlock.html#ab0a9f022d5a0f691f753e4b8203c4d4c',1,'Block']]],
   ['violet',['violet',['../classColours.html#a47d1f14979982a28936c5ec4f90e82aa',1,'Colours']]],
   ['voices',['voices',['../classMPESynthesiser.html#ae8ff04bfb33a5de6d649ed78bab37274',1,'MPESynthesiser::voices()'],['../classSynthesiser.html#a260d964d6764a51b2315233e0bf76980',1,'Synthesiser::voices()']]],
+  ['voiceslock',['voicesLock',['../classMPESynthesiser.html#a7431fe9de7fd7b6216e5526406691e09',1,'MPESynthesiser']]],
   ['vst2',['vst2',['../structSpeakerMappings_1_1Mapping.html#a2645ca9d0b780b227d8f74b61e3061f8',1,'SpeakerMappings::Mapping']]],
   ['vx',['vx',['../structBlocksProtocol_1_1TouchVelocity.html#a30db67d25acd9d4902e8a9f65cf9628b',1,'BlocksProtocol::TouchVelocity']]],
   ['vy',['vy',['../structBlocksProtocol_1_1TouchVelocity.html#a6ae6461d20e585e1ae3ebe8e652e325e',1,'BlocksProtocol::TouchVelocity']]],
