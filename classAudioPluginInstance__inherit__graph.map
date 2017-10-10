@@ -1,4 +1,4 @@
 <map id="AudioPluginInstance" name="AudioPluginInstance">
 <area shape="rect" id="node3" href="$classAudioProcessorGraph_1_1AudioGraphIOProcessor.html" title="A special type of AudioProcessor that can live inside an AudioProcessorGraph in order to use the audi..." alt="" coords="5,155,176,197"/>
-<area shape="rect" id="node2" href="$classAudioProcessor.html" title="Base class for audio processing filters or plugins. " alt="" coords="33,5,148,32"/>
+<area shape="rect" id="node2" href="$classAudioProcessor.html" title="Base class for audio processing classes or plugins. " alt="" coords="33,5,148,32"/>
 </map>

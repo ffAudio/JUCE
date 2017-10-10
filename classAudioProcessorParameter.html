@@ -91,7 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>An abstract base class for parameter objects that can be added to an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins. ">AudioProcessor</a>.  
+<p>An abstract base class for parameter objects that can be added to an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a>.  
  <a href="classAudioProcessorParameter.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for AudioProcessorParameter:</div>
@@ -129,10 +129,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1d05f912735f11cb4fe2f250190af9ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to find out the value of this parameter.  <a href="#a1d05f912735f11cb4fe2f250190af9ef">More...</a><br/></td></tr>
 <tr class="separator:a1d05f912735f11cb4fe2f250190af9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7c0b4f8caace42d38c71ff620cf8182"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#ab7c0b4f8caace42d38c71ff620cf8182">setValue</a> (float newValue)=0</td></tr>
-<tr class="memdesc:ab7c0b4f8caace42d38c71ff620cf8182"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method to change the value of one of the filter's parameters.  <a href="#ab7c0b4f8caace42d38c71ff620cf8182">More...</a><br/></td></tr>
+<tr class="memdesc:ab7c0b4f8caace42d38c71ff620cf8182"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method to change the value of a parameter.  <a href="#ab7c0b4f8caace42d38c71ff620cf8182">More...</a><br/></td></tr>
 <tr class="separator:ab7c0b4f8caace42d38c71ff620cf8182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9b67f35339db50d2bd9a026d89390e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#ac9b67f35339db50d2bd9a026d89390e1">setValueNotifyingHost</a> (float newValue)</td></tr>
-<tr class="memdesc:ac9b67f35339db50d2bd9a026d89390e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Your filter can call this when it needs to change one of its parameters.  <a href="#ac9b67f35339db50d2bd9a026d89390e1">More...</a><br/></td></tr>
+<tr class="memdesc:ac9b67f35339db50d2bd9a026d89390e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A processor should call this when it needs to change one of its parameters.  <a href="#ac9b67f35339db50d2bd9a026d89390e1">More...</a><br/></td></tr>
 <tr class="separator:ac9b67f35339db50d2bd9a026d89390e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae70f0cce34b664206323bc277096ddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#aae70f0cce34b664206323bc277096ddc">beginChangeGesture</a> ()</td></tr>
 <tr class="memdesc:aae70f0cce34b664206323bc277096ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a signal to the host to tell it that the user is about to start changing this parameter.  <a href="#aae70f0cce34b664206323bc277096ddc">More...</a><br/></td></tr>
@@ -178,7 +178,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a35b9c23ce77721f84bc4686e217d76f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An abstract base class for parameter objects that can be added to an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins. ">AudioProcessor</a>. </p>
+<div class="textblock"><p>An abstract base class for parameter objects that can be added to an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#ae686ddf13e3e8f6008cb7b4c41704aba" title="Adds a parameter to the list. ">AudioProcessor::addParameter</a> </dd></dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="aef73dff71cb1abfdadd5b6f3649d7db2"></a>
@@ -316,9 +316,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The host will call this method to change the value of one of the filter's parameters. </p>
-<p>The host may call this at any time, including during the audio processing callback, so the filter has to process this very fast and avoid blocking.</p>
-<p>If you want to set the value of a parameter internally, e.g. from your editor component, then don't call this directly - instead, use the <a class="el" href="classAudioProcessorParameter.html#ac9b67f35339db50d2bd9a026d89390e1" title="Your filter can call this when it needs to change one of its parameters. ">setValueNotifyingHost()</a> method, which will also send a message to the host telling it about the change. If the message isn't sent, the host won't be able to automate your parameters properly.</p>
+<p>The host will call this method to change the value of a parameter. </p>
+<p>The host may call this at any time, including during the audio processing callback, so your implementation has to process this very efficiently and avoid any kind of locking.</p>
+<p>If you want to set the value of a parameter internally, e.g. from your editor component, then don't call this directly - instead, use the <a class="el" href="classAudioProcessorParameter.html#ac9b67f35339db50d2bd9a026d89390e1" title="A processor should call this when it needs to change one of its parameters. ">setValueNotifyingHost()</a> method, which will also send a message to the host telling it about the change. If the message isn't sent, the host won't be able to automate your parameters properly.</p>
 <p>The value passed will be between 0 and 1.0. </p>
 
 </div>
@@ -337,8 +337,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Your filter can call this when it needs to change one of its parameters. </p>
-<p>This could happen when the editor or some other internal operation changes a parameter. This method will call the <a class="el" href="classAudioProcessorParameter.html#ab7c0b4f8caace42d38c71ff620cf8182" title="The host will call this method to change the value of one of the filter&#39;s parameters. ">setValue()</a> method to change the value, and will then send a message to the host telling it about the change.</p>
+<p>A processor should call this when it needs to change one of its parameters. </p>
+<p>This could happen when the editor or some other internal operation changes a parameter. This method will call the <a class="el" href="classAudioProcessorParameter.html#ab7c0b4f8caace42d38c71ff620cf8182" title="The host will call this method to change the value of a parameter. ">setValue()</a> method to change the value, and will then send a message to the host telling it about the change.</p>
 <p>Note that to make sure the host correctly handles automation, you should call the <a class="el" href="classAudioProcessorParameter.html#aae70f0cce34b664206323bc277096ddc" title="Sends a signal to the host to tell it that the user is about to start changing this parameter...">beginChangeGesture()</a> and <a class="el" href="classAudioProcessorParameter.html#a50c2a826a7aa77dbe0e55e77a93d061e" title="Tells the host that the user has finished changing this parameter. ">endChangeGesture()</a> methods to tell the host when the user has started and stopped changing the parameter. </p>
 
 </div>
@@ -709,7 +709,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 10 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 11 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>An <a class="el" href="classAudioIODeviceCallback.html" title="One of these is passed to an AudioIODevice object to stream the audio data in and out...">AudioIODeviceCallback</a> object which streams audio through an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins. ">AudioProcessor</a>.  
+<p>An <a class="el" href="classAudioIODeviceCallback.html" title="One of these is passed to an AudioIODevice object to stream the audio data in and out...">AudioIODeviceCallback</a> object which streams audio through an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a>.  
  <a href="classAudioProcessorPlayer.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for AudioProcessorPlayer:</div>
@@ -145,10 +145,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af31fb0fe3195c72e76e9ebdfa89cf344 inherit pub_methods_classMidiInputCallback"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An <a class="el" href="classAudioIODeviceCallback.html" title="One of these is passed to an AudioIODevice object to stream the audio data in and out...">AudioIODeviceCallback</a> object which streams audio through an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins. ">AudioProcessor</a>. </p>
+<div class="textblock"><p>An <a class="el" href="classAudioIODeviceCallback.html" title="One of these is passed to an AudioIODevice object to stream the audio data in and out...">AudioIODeviceCallback</a> object which streams audio through an <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a>. </p>
 <p>To use one of these, just make it the callback used by your <a class="el" href="classAudioIODevice.html" title="Base class for an audio device with synchronised input and output channels. ">AudioIODevice</a>, and give it a processor to use by calling <a class="el" href="classAudioProcessorPlayer.html#a1a0491edbdbcb7e64375c42b8b48ed64" title="Sets the processor that should be played. ">setProcessor()</a>.</p>
 <p>It's also a <a class="el" href="classMidiInputCallback.html" title="Receives incoming messages from a physical MIDI input device. ">MidiInputCallback</a>, so you can connect it to both an audio and midi input to send both streams through the processor.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins. ">AudioProcessor</a>, <a class="el" href="classAudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. ">AudioProcessorGraph</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a>, <a class="el" href="classAudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. ">AudioProcessorGraph</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a80c93a5ac051d18a62a1865da54cf56e"></a>
 <div class="memitem">
@@ -280,7 +280,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Switch between double and single floating point precisions processing. </p>
-<p>The audio IO callbacks will still operate in single floating point precision, however, all internal processing including the <a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins. ">AudioProcessor</a> will be processed in double floating point precision if the <a class="el" href="classAudioProcessor.html" title="Base class for audio processing filters or plugins. ">AudioProcessor</a> supports it (see <a class="el" href="classAudioProcessor.html#a8481c6767076b20c25de25bbf0469114" title="Returns true if the Audio processor supports double precision floating point processing. ">AudioProcessor::supportsDoublePrecisionProcessing()</a>). Otherwise, the processing will remain single precision irrespective of the parameter doublePrecision. </p>
+<p>The audio IO callbacks will still operate in single floating point precision, however, all internal processing including the <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> will be processed in double floating point precision if the <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> supports it (see <a class="el" href="classAudioProcessor.html#a8481c6767076b20c25de25bbf0469114" title="Returns true if the Audio processor supports double precision floating point processing. ">AudioProcessor::supportsDoublePrecisionProcessing()</a>). Otherwise, the processing will remain single precision irrespective of the parameter doublePrecision. </p>
 
 </div>
 </div>
@@ -448,7 +448,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 10 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 11 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -103,9 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9610324ff03e26720dcc7cbed75a3611"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioProcessor_1_1BusesLayout.html#a9610324ff03e26720dcc7cbed75a3611">getNumChannels</a> (bool isInput, int busIndex) const noexcept</td></tr>
 <tr class="memdesc:a9610324ff03e26720dcc7cbed75a3611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of channels of a particular bus.  <a href="#a9610324ff03e26720dcc7cbed75a3611">More...</a><br/></td></tr>
 <tr class="separator:a9610324ff03e26720dcc7cbed75a3611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36e2cd1756e0aaa47bca5f3f16df6d4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioProcessor_1_1BusesLayout.html#a36e2cd1756e0aaa47bca5f3f16df6d4a">getChannelSet</a> (bool isInput, int busIndex)</td></tr>
-<tr class="memdesc:a36e2cd1756e0aaa47bca5f3f16df6d4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the channel set of a particular bus.  <a href="#a36e2cd1756e0aaa47bca5f3f16df6d4a">More...</a><br/></td></tr>
-<tr class="separator:a36e2cd1756e0aaa47bca5f3f16df6d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b35c048ee25cdf5cc9f8e12c94dddeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioProcessor_1_1BusesLayout.html#a9b35c048ee25cdf5cc9f8e12c94dddeb">getChannelSet</a> (bool isInput, int busIndex) noexcept</td></tr>
+<tr class="memdesc:a9b35c048ee25cdf5cc9f8e12c94dddeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the channel set of a particular bus.  <a href="#a9b35c048ee25cdf5cc9f8e12c94dddeb">More...</a><br/></td></tr>
+<tr class="separator:a9b35c048ee25cdf5cc9f8e12c94dddeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339aa2f75e7df251a7417577c0cb07c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioChannelSet.html">AudioChannelSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioProcessor_1_1BusesLayout.html#a339aa2f75e7df251a7417577c0cb07c3">getChannelSet</a> (bool isInput, int busIndex) const noexcept</td></tr>
 <tr class="memdesc:a339aa2f75e7df251a7417577c0cb07c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the channel set of a particular bus.  <a href="#a339aa2f75e7df251a7417577c0cb07c3">More...</a><br/></td></tr>
 <tr class="separator:a339aa2f75e7df251a7417577c0cb07c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,13 +172,16 @@ Public Attributes</h2></td></tr>
 
 <p>Get the number of channels of a particular bus. </p>
 
-<p>References <a class="el" href="classArray.html#ac1cb5babc0950eb9897812b221695b3c">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getReference()</a>, <a class="el" href="group__juce__core-maths.html#ga5762396fe2a5aa4c39b68ee5b70a96f8">isPositiveAndBelow()</a>, <a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::size()</a>, and <a class="el" href="classAudioChannelSet.html#ad7be564dafc89bddf37dea65d7f014ba">AudioChannelSet::size()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5762396fe2a5aa4c39b68ee5b70a96f8">isPositiveAndBelow()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a36e2cd1756e0aaa47bca5f3f16df6d4a"></a>
+<a class="anchor" id="a9b35c048ee25cdf5cc9f8e12c94dddeb"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classAudioChannelSet.html">AudioChannelSet</a>&amp; AudioProcessor::BusesLayout::getChannelSet </td>
@@ -198,6 +201,11 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get the channel set of a particular bus. </p>
@@ -427,7 +435,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 10 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 11 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classAudioProcessor.html" target="_top" xlink:title="Base class for audio processing filters or plugins. ">
+<g id="a_node2"><a xlink:href="classAudioProcessor.html" target="_top" xlink:title="Base class for audio processing classes or plugins. ">
 <polygon fill="none" stroke="black" points="0,-56.5 0,-75.5 86,-75.5 86,-56.5 0,-56.5"/>
 <text text-anchor="middle" x="43" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioProcessor</text>
 </a>
