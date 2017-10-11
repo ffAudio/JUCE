@@ -12,8 +12,6 @@ var searchData=
   ['scopeuid',['scopeUID',['../structExpression_1_1Symbol.html#aaddddb4fd2bad7fcce78adce69ba91d8',1,'Expression::Symbol']]],
   ['seagreen',['seagreen',['../classColours.html#adc17fb0b93d2db209de3e4f54857f2b4',1,'Colours']]],
   ['seashell',['seashell',['../classColours.html#a59caf9dbbe04dd428b7253273ec14ca3',1,'Colours']]],
-  ['separator',['separator',['../classFile.html#a03d104ec7dd9600dbfb8cfdd25585135',1,'File']]],
-  ['separatorstring',['separatorString',['../classFile.html#a66e8bff47d42f5b093b88eacacb573ce',1,'File']]],
   ['serial',['serial',['../structBlocksProtocol_1_1BlockSerialNumber.html#ac7fb5c1802cc0c0541cadaca3939bbff',1,'BlocksProtocol::BlockSerialNumber']]],
   ['serialnumber',['serialNumber',['../classBlock.html#a7d8d1dbd650aa0dad8c37b5b1efbed3e',1,'Block::serialNumber()'],['../structBlocksProtocol_1_1BlockDataSheet.html#a28e33c9f64e800fc071e72420908b4ef',1,'BlocksProtocol::BlockDataSheet::serialNumber()'],['../structBlocksProtocol_1_1DeviceStatus.html#af7734e0644b5d6884134323a2cb98d11',1,'BlocksProtocol::DeviceStatus::serialNumber()']]],
   ['settings',['settings',['../classStandalonePluginHolder.html#a58375e902a8f0e9d079ff54abf763ac5',1,'StandalonePluginHolder']]],

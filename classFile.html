@@ -87,7 +87,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classFile-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">File Class Reference<span class="mlabels"><span class="mlabel">final</span></span><div class="ingroups"><a class="el" href="group__juce__core-files.html">files</a></div></div>  </div>
@@ -401,6 +400,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5801c94dd6dad89aeaf6e9ae10b81d9e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a5801c94dd6dad89aeaf6e9ae10b81d9e">getCurrentWorkingDirectory</a> ()</td></tr>
 <tr class="memdesc:a5801c94dd6dad89aeaf6e9ae10b81d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current working directory.  <a href="#a5801c94dd6dad89aeaf6e9ae10b81d9e">More...</a><br/></td></tr>
 <tr class="separator:a5801c94dd6dad89aeaf6e9ae10b81d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb780070c018c7a35d1b8694aa72fca2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__core-text.html#ga7d83261f3888884bbf04a58edc2672da">juce_wchar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#acb780070c018c7a35d1b8694aa72fca2">getSeparatorChar</a> ()</td></tr>
+<tr class="memdesc:acb780070c018c7a35d1b8694aa72fca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The system-specific file separator character.  <a href="#acb780070c018c7a35d1b8694aa72fca2">More...</a><br/></td></tr>
+<tr class="separator:acb780070c018c7a35d1b8694aa72fca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b41d5a546221f34d4a59c6f42270a96"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classStringRef.html">StringRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a4b41d5a546221f34d4a59c6f42270a96">getSeparatorString</a> ()</td></tr>
+<tr class="memdesc:a4b41d5a546221f34d4a59c6f42270a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">The system-specific file separator character, as a string.  <a href="#a4b41d5a546221f34d4a59c6f42270a96">More...</a><br/></td></tr>
+<tr class="separator:a4b41d5a546221f34d4a59c6f42270a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5d6af755153f8af3d34912c7e498121"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ab5d6af755153f8af3d34912c7e498121">createLegalFileName</a> (const <a class="el" href="classString.html">String</a> &amp;fileNameToFix)</td></tr>
 <tr class="memdesc:ab5d6af755153f8af3d34912c7e498121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a version of a filename with any illegal characters removed.  <a href="#ab5d6af755153f8af3d34912c7e498121">More...</a><br/></td></tr>
 <tr class="separator:ab5d6af755153f8af3d34912c7e498121"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -419,15 +424,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7093f18070f9aec99e3bfd2857761514"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a7093f18070f9aec99e3bfd2857761514">addTrailingSeparator</a> (const <a class="el" href="classString.html">String</a> &amp;path)</td></tr>
 <tr class="memdesc:a7093f18070f9aec99e3bfd2857761514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a separator character to the end of a path if it doesn't already have one.  <a href="#a7093f18070f9aec99e3bfd2857761514">More...</a><br/></td></tr>
 <tr class="separator:a7093f18070f9aec99e3bfd2857761514"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a03d104ec7dd9600dbfb8cfdd25585135"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="group__juce__core-text.html#ga7d83261f3888884bbf04a58edc2672da">juce_wchar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a03d104ec7dd9600dbfb8cfdd25585135">separator</a></td></tr>
-<tr class="memdesc:a03d104ec7dd9600dbfb8cfdd25585135"><td class="mdescLeft">&#160;</td><td class="mdescRight">The system-specific file separator character.  <a href="#a03d104ec7dd9600dbfb8cfdd25585135">More...</a><br/></td></tr>
-<tr class="separator:a03d104ec7dd9600dbfb8cfdd25585135"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66e8bff47d42f5b093b88eacacb573ce"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a66e8bff47d42f5b093b88eacacb573ce">separatorString</a></td></tr>
-<tr class="memdesc:a66e8bff47d42f5b093b88eacacb573ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">The system-specific file separator character, as a string.  <a href="#a66e8bff47d42f5b093b88eacacb573ce">More...</a><br/></td></tr>
-<tr class="separator:a66e8bff47d42f5b093b88eacacb573ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a local file or directory. </p>
@@ -2399,6 +2395,58 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="acb780070c018c7a35d1b8694aa72fca2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="group__juce__core-text.html#ga7d83261f3888884bbf04a58edc2672da">juce_wchar</a> File::getSeparatorChar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The system-specific file separator character. </p>
+<p>On Windows, this will be '\', on Mac/Linux, it'll be '/' </p>
+
+</div>
+</div>
+<a class="anchor" id="a4b41d5a546221f34d4a59c6f42270a96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classStringRef.html">StringRef</a> File::getSeparatorString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The system-specific file separator character, as a string. </p>
+<p>On Windows, this will be '\', on Mac/Linux, it'll be '/' </p>
+
+</div>
+</div>
 <a class="anchor" id="ab5d6af755153f8af3d34912c7e498121"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2674,60 +2722,13 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a03d104ec7dd9600dbfb8cfdd25585135"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="group__juce__core-text.html#ga7d83261f3888884bbf04a58edc2672da">juce_wchar</a> File::separator</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The system-specific file separator character. </p>
-<p>On Windows, this will be '\', on Mac/Linux, it'll be '/' </p>
-
-</div>
-</div>
-<a class="anchor" id="a66e8bff47d42f5b093b88eacacb573ce"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classString.html">String</a> File::separatorString</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The system-specific file separator character, as a string. </p>
-<p>On Windows, this will be '\', on Mac/Linux, it'll be '/' </p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__File_8h.html">juce_File.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 11 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 12 2017 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

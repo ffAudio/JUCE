@@ -237,7 +237,7 @@ var searchData=
   ['localpointtoglobal',['localPointToGlobal',['../classComponent.html#a275a896a2d25a6eb1624ba33345ab2cb',1,'Component::localPointToGlobal(Point&lt; int &gt; localPoint) const '],['../classComponent.html#aaec6ae5420b38f9ea7448a1b015d78c5',1,'Component::localPointToGlobal(Point&lt; float &gt; localPoint) const ']]],
   ['localposition',['localPosition',['../classDragAndDropTarget_1_1SourceDetails.html#ae56f0216335992ae66fdfacc3f4c6837',1,'DragAndDropTarget::SourceDetails']]],
   ['localtoglobal',['localToGlobal',['../classComponentPeer.html#a2827091ce81d5e16e98a106dc8a0d4ed',1,'ComponentPeer::localToGlobal(Point&lt; float &gt; relativePosition)=0'],['../classComponentPeer.html#afffc97252a734897283b390069731d0d',1,'ComponentPeer::localToGlobal(Point&lt; int &gt; relativePosition)'],['../classComponentPeer.html#a74ee249417ab026d71be6cdbaf01716f',1,'ComponentPeer::localToGlobal(const Rectangle&lt; int &gt; &amp;relativePosition)']]],
-  ['lock',['lock',['../classSynthesiser.html#ab55f2810b6455736110264625a25c4a6',1,'Synthesiser']]],
+  ['lock',['lock',['../classMPEInstrument.html#ad41d0a0ff109319ceab4a72ebca7187e',1,'MPEInstrument::lock()'],['../classSynthesiser.html#ab55f2810b6455736110264625a25c4a6',1,'Synthesiser::lock()']]],
   ['lockwasgained',['lockWasGained',['../classMessageManagerLock.html#a5f3d8b6abc27aa324a882abc6e2d96ba',1,'MessageManagerLock']]],
   ['log',['log',['../group__LittleFootFunctions.html#ga0bab463ca31298ee80199958df6c10a0',1,'juce_LittleFootFunctions.dox']]],
   ['logger',['Logger',['../classLogger.html',1,'Logger'],['../classLogger.html#abc41bfb031d896170c7675fa96a6b30c',1,'Logger::Logger()']]],

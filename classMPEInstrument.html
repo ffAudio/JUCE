@@ -86,6 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classMPEInstrument-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MPEInstrument Class Reference<div class="ingroups"><a class="el" href="group__juce__audio__basics-mpe.html">mpe</a></div></div>  </div>
@@ -203,6 +204,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c4f9fd1840122bf9520a504dbfda956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEInstrument.html#a6c4f9fd1840122bf9520a504dbfda956">setLegacyModePitchbendRange</a> (int pitchbendRange)</td></tr>
 <tr class="memdesc:a6c4f9fd1840122bf9520a504dbfda956"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-sets the pitchbend range in semitones (0-96) to be used for notes when in legacy mode.  <a href="#a6c4f9fd1840122bf9520a504dbfda956">More...</a><br/></td></tr>
 <tr class="separator:a6c4f9fd1840122bf9520a504dbfda956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ad41d0a0ff109319ceab4a72ebca7187e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCriticalSection.html">CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEInstrument.html#ad41d0a0ff109319ceab4a72ebca7187e">lock</a></td></tr>
+<tr class="separator:ad41d0a0ff109319ceab4a72ebca7187e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a6253ed9c5e70322645b02865c70dc0b6"></a>
@@ -1104,13 +1110,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ad41d0a0ff109319ceab4a72ebca7187e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCriticalSection.html">CriticalSection</a> MPEInstrument::lock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__MPEInstrument_8h.html">juce_MPEInstrument.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 11 2017 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 12 2017 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

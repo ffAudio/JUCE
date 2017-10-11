@@ -114,7 +114,7 @@ var searchData=
   ['hastagnameignoringnamespace',['hasTagNameIgnoringNamespace',['../classXmlElement.html#a3a14c450d566b629dd34a2186a40e3ed',1,'XmlElement']]],
   ['hastype',['hasType',['../classValueTree.html#a5d41bc2066cae65b69aa614aa0f68ff1',1,'ValueTree']]],
   ['haswriteaccess',['hasWriteAccess',['../classFile.html#a11825b7fffe497f31c15c4a35e1e0353',1,'File']]],
-  ['heapblock',['HeapBlock',['../classHeapBlock.html#ab7643beefa078bb4692dbfff40f6f3bb',1,'HeapBlock::HeapBlock() noexcept'],['../classHeapBlock.html#a31427ded49cc996e6f894f124c4aa5ba',1,'HeapBlock::HeapBlock(const size_t numElements)'],['../classHeapBlock.html#adcd966a89c09b50e2fa4efc1a7b20ca6',1,'HeapBlock::HeapBlock(const size_t numElements, const bool initialiseToZero)'],['../classHeapBlock.html#a43e44081c3cbef5f634dd5a2a58cd1bd',1,'HeapBlock::HeapBlock(HeapBlock &amp;&amp;other) noexcept']]],
+  ['heapblock',['HeapBlock',['../classHeapBlock.html#ab7643beefa078bb4692dbfff40f6f3bb',1,'HeapBlock::HeapBlock() noexcept'],['../classHeapBlock.html#af58b2b6cf89db787c63deb34afdc4a27',1,'HeapBlock::HeapBlock(SizeType numElements)'],['../classHeapBlock.html#aa7d4b7c2597fbfea75cf1c7995141963',1,'HeapBlock::HeapBlock(SizeType numElements, bool initialiseToZero)'],['../classHeapBlock.html#a43e44081c3cbef5f634dd5a2a58cd1bd',1,'HeapBlock::HeapBlock(HeapBlock &amp;&amp;other) noexcept']]],
   ['hexagonal',['hexagonal',['../classAudioChannelSet.html#a7ed53c9a23d40bd2dd50e1d7129837f8',1,'AudioChannelSet']]],
   ['hide',['hide',['../classProcess.html#a01a7ddde215bcef03cd16587ed4b0a64',1,'Process']]],
   ['hidecursor',['hideCursor',['../classMouseInputSource.html#a61bc07273b91b328bcff92e721a2461e',1,'MouseInputSource']]],

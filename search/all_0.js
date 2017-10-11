@@ -223,7 +223,7 @@ var searchData=
   ['allnotesoff',['allNotesOff',['../classMidiKeyboardState.html#a74515f3ac2b2f1bebd6fe5204e9eb203',1,'MidiKeyboardState::allNotesOff()'],['../classMidiMessage.html#a8e4c49679c88dc562ca523060fffc11e',1,'MidiMessage::allNotesOff()'],['../classSynthesiser.html#ac39e7b038c545b92e9f69b47bce54934',1,'Synthesiser::allNotesOff()']]],
   ['allnotesonchannel',['allNotesOnChannel',['../classMPEInstrument.html#a6253ed9c5e70322645b02865c70dc0b6a5985b27bfdbfc4172099d3da5a24a044',1,'MPEInstrument']]],
   ['alloc',['alloc',['../classAudioUnitHelpers_1_1ChannelRemapper.html#aee51531605d0b0cc8f7f7e549aea3470',1,'AudioUnitHelpers::ChannelRemapper']]],
-  ['allocate',['allocate',['../classHeapBlock.html#a4e999ff1f7ed59dd4546596447059cc7',1,'HeapBlock']]],
+  ['allocate',['allocate',['../classHeapBlock.html#a270cb60aeab3ed372e901d64cdc9b9ab',1,'HeapBlock']]],
   ['allorientations',['allOrientations',['../classDesktop.html#a5e06947d2d1295bdb6f5c4fab7beb98aacb260a5600c352a166edd836a2305a06',1,'Desktop']]],
   ['allowiconsonlychoice',['allowIconsOnlyChoice',['../classToolbar.html#a9036434be5b014285c69d2b87841fb3fa54114d08a4d2827e71b0a40df4a235e4',1,'Toolbar']]],
   ['allowiconswithtextchoice',['allowIconsWithTextChoice',['../classToolbar.html#a9036434be5b014285c69d2b87841fb3fa348c3e9d7b294f4ad034e1d6b257903c',1,'Toolbar']]],

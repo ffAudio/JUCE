@@ -43,7 +43,7 @@ var searchData=
   ['linetoelement',['lineToElement',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a4675f4374c85907b4fe86d21ffe58116',1,'DrawablePath::ValueTreeWrapper::Element']]],
   ['listeners',['listeners',['../classControlButton.html#a855a438e559c21cee293ed824d138b26',1,'ControlButton::listeners()'],['../classTouchSurface.html#a42d2c6dcee747e2511f2bea4884c96a7',1,'TouchSurface::listeners()'],['../classTopologySource.html#a3c9f12605642baff76d5da04e9452b3d',1,'TopologySource::listeners()'],['../classImagePixelData.html#ad5691cb6ebf342c88985e139e8891b85',1,'ImagePixelData::listeners()'],['../classDirectoryContentsDisplayComponent.html#a5f7300e0d637b48e8a2f3abd067a7144',1,'DirectoryContentsDisplayComponent::listeners()']]],
   ['localposition',['localPosition',['../classDragAndDropTarget_1_1SourceDetails.html#ae56f0216335992ae66fdfacc3f4c6837',1,'DragAndDropTarget::SourceDetails']]],
-  ['lock',['lock',['../classSynthesiser.html#ab55f2810b6455736110264625a25c4a6',1,'Synthesiser']]],
+  ['lock',['lock',['../classMPEInstrument.html#ad41d0a0ff109319ceab4a72ebca7187e',1,'MPEInstrument::lock()'],['../classSynthesiser.html#ab55f2810b6455736110264625a25c4a6',1,'Synthesiser::lock()']]],
   ['loopendposition',['loopEndPosition',['../structVstTimingInformation.html#a7d557ffa000284960dd44ae590a42164',1,'VstTimingInformation']]],
   ['loopstartposition',['loopStartPosition',['../structVstTimingInformation.html#adb7114e1e3e246c6e657197ab55e76d9',1,'VstTimingInformation']]],
   ['lower',['lower',['../structVstEditorBounds.html#a2f1d473a71ed05bd4ba02c14b31bc389',1,'VstEditorBounds']]]
