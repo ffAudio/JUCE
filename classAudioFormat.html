@@ -108,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b33099d624ef043f53e4b0082800abf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#a8b33099d624ef043f53e4b0082800abf">getFormatName</a> () const </td></tr>
 <tr class="memdesc:a8b33099d624ef043f53e4b0082800abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of this format.  <a href="#a8b33099d624ef043f53e4b0082800abf">More...</a><br/></td></tr>
 <tr class="separator:a8b33099d624ef043f53e4b0082800abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1efaa8ebdc8c026fdaad727e766b311c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#a1efaa8ebdc8c026fdaad727e766b311c">getFileExtensions</a> () const </td></tr>
-<tr class="memdesc:a1efaa8ebdc8c026fdaad727e766b311c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the file extensions that might apply to a file of this format.  <a href="#a1efaa8ebdc8c026fdaad727e766b311c">More...</a><br/></td></tr>
-<tr class="separator:a1efaa8ebdc8c026fdaad727e766b311c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd4d2abc5bd62654c2ae29ab9b0ff51"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#abdd4d2abc5bd62654c2ae29ab9b0ff51">getFileExtensions</a> () const </td></tr>
+<tr class="memdesc:abdd4d2abc5bd62654c2ae29ab9b0ff51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the file extensions that might apply to a file of this format.  <a href="#abdd4d2abc5bd62654c2ae29ab9b0ff51">More...</a><br/></td></tr>
+<tr class="separator:abdd4d2abc5bd62654c2ae29ab9b0ff51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bb639929ca98b8e34183d568c380c79"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormat.html#a1bb639929ca98b8e34183d568c380c79">canHandleFile</a> (const <a class="el" href="classFile.html">File</a> &amp;fileToTest)</td></tr>
 <tr class="memdesc:a1bb639929ca98b8e34183d568c380c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this the given file can be read by this format.  <a href="#a1bb639929ca98b8e34183d568c380c79">More...</a><br/></td></tr>
 <tr class="separator:a1bb639929ca98b8e34183d568c380c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,7 +226,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">formatName</td><td>this sets the value that will be returned by <a class="el" href="classAudioFormat.html#a8b33099d624ef043f53e4b0082800abf" title="Returns the name of this format. ">getFormatName()</a> </td></tr>
-    <tr><td class="paramname">fileExtensions</td><td>an array of file extensions - these will be returned by <a class="el" href="classAudioFormat.html#a1efaa8ebdc8c026fdaad727e766b311c" title="Returns all the file extensions that might apply to a file of this format. ">getFileExtensions()</a> </td></tr>
+    <tr><td class="paramname">fileExtensions</td><td>an array of file extensions - these will be returned by <a class="el" href="classAudioFormat.html#abdd4d2abc5bd62654c2ae29ab9b0ff51" title="Returns all the file extensions that might apply to a file of this format. ">getFileExtensions()</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -269,7 +269,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">formatName</td><td>this sets the value that will be returned by <a class="el" href="classAudioFormat.html#a8b33099d624ef043f53e4b0082800abf" title="Returns the name of this format. ">getFormatName()</a> </td></tr>
-    <tr><td class="paramname">fileExtensions</td><td>a whitespace-separated list of file extensions - these will be returned by <a class="el" href="classAudioFormat.html#a1efaa8ebdc8c026fdaad727e766b311c" title="Returns all the file extensions that might apply to a file of this format. ">getFileExtensions()</a> </td></tr>
+    <tr><td class="paramname">fileExtensions</td><td>a whitespace-separated list of file extensions - these will be returned by <a class="el" href="classAudioFormat.html#abdd4d2abc5bd62654c2ae29ab9b0ff51" title="Returns all the file extensions that might apply to a file of this format. ">getFileExtensions()</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -295,22 +295,29 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1efaa8ebdc8c026fdaad727e766b311c"></a>
+<a class="anchor" id="abdd4d2abc5bd62654c2ae29ab9b0ff51"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classStringArray.html">StringArray</a>&amp; AudioFormat::getFileExtensions </td>
+          <td class="memname">virtual <a class="el" href="classStringArray.html">StringArray</a> AudioFormat::getFileExtensions </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns all the file extensions that might apply to a file of this format. </p>
-<p>The first item will be the one that's preferred when creating a new file.</p>
-<p>So for a wav file this might just return ".wav"; for an AIFF file it might return two items, ".aif" and ".aiff" </p>
+<p>The first item will be the one that's preferred when creating a new file. So for a wav file this might just return ".wav"; for an AIFF file it might return two items, ".aif" and ".aiff" </p>
 
 </div>
 </div>
@@ -795,7 +802,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 13 2017 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 14 2017 01:00:28 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

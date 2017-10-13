@@ -32,7 +32,7 @@ var searchData=
   ['updatetrackproperties',['updateTrackProperties',['../classAudioProcessor.html#a19f07b6c13420d4b9ddb6dc0caaeac77',1,'AudioProcessor']]],
   ['uptofirstoccurrenceof',['upToFirstOccurrenceOf',['../classString.html#ad1294b09bf9e6c1f8723f0559744b0b0',1,'String']]],
   ['uptolastoccurrenceof',['upToLastOccurrenceOf',['../classString.html#a50bedd44d60007d619665664413fe1d8',1,'String']]],
-  ['url',['URL',['../classURL.html#ad6ecb93e145465c5b20f2e90f2f1163a',1,'URL::URL()'],['../classURL.html#aa00fab54fc95a6a9a468228150c034d6',1,'URL::URL(const String &amp;url)'],['../classURL.html#ab40a47abb17d13803dbd92a67815894a',1,'URL::URL(const URL &amp;)']]],
+  ['url',['URL',['../classURL.html#ace2293dc69726088c4aff2f4b4648fc0',1,'URL::URL() noexcept'],['../classURL.html#aa00fab54fc95a6a9a468228150c034d6',1,'URL::URL(const String &amp;url)'],['../classURL.html#a7bb25289c33110f145de796ebec93d23',1,'URL::URL(const URL &amp;)=default'],['../classURL.html#abd68e1a94d5f399054df19f1236ed77a',1,'URL::URL(URL &amp;&amp;)=default']]],
   ['use',['use',['../classOpenGLShaderProgram.html#a13af8ca28514261f1ca5252300d3c620',1,'OpenGLShaderProgram']]],
   ['usefullscreenwhenonedocument',['useFullscreenWhenOneDocument',['../classMultiDocumentPanel.html#aae57bc01df58759446d1ad745b1dd0ee',1,'MultiDocumentPanel']]],
   ['usemousewheelmoveifneeded',['useMouseWheelMoveIfNeeded',['../classViewport.html#a563d893ae0d00dd9b1c0e293826cdc8e',1,'Viewport']]],

@@ -74,7 +74,7 @@ var searchData=
   ['upsidedown',['upsideDown',['../classDesktop.html#a5e06947d2d1295bdb6f5c4fab7beb98aa5820a6ffe2f7f012a16a1bd57e304b91',1,'Desktop']]],
   ['uptofirstoccurrenceof',['upToFirstOccurrenceOf',['../classString.html#ad1294b09bf9e6c1f8723f0559744b0b0',1,'String']]],
   ['uptolastoccurrenceof',['upToLastOccurrenceOf',['../classString.html#a50bedd44d60007d619665664413fe1d8',1,'String']]],
-  ['url',['URL',['../classURL.html',1,'URL'],['../classURL.html#ad6ecb93e145465c5b20f2e90f2f1163a',1,'URL::URL()'],['../classURL.html#aa00fab54fc95a6a9a468228150c034d6',1,'URL::URL(const String &amp;url)'],['../classURL.html#ab40a47abb17d13803dbd92a67815894a',1,'URL::URL(const URL &amp;)']]],
+  ['url',['URL',['../classURL.html',1,'URL'],['../classURL.html#ace2293dc69726088c4aff2f4b4648fc0',1,'URL::URL() noexcept'],['../classURL.html#aa00fab54fc95a6a9a468228150c034d6',1,'URL::URL(const String &amp;url)'],['../classURL.html#a7bb25289c33110f145de796ebec93d23',1,'URL::URL(const URL &amp;)=default'],['../classURL.html#abd68e1a94d5f399054df19f1236ed77a',1,'URL::URL(URL &amp;&amp;)=default']]],
   ['urlkeyboard',['urlKeyboard',['../classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7aa10922a2c8f4cdf0e1af8f761374dbf9',1,'TextInputTarget']]],
   ['urltolaunch',['urlToLaunch',['../structOnlineUnlockStatus_1_1UnlockResult.html#ad402e350afcbd8e2bb4e2e18339b4656',1,'OnlineUnlockStatus::UnlockResult']]],
   ['use',['use',['../classOpenGLShaderProgram.html#a13af8ca28514261f1ca5252300d3c620',1,'OpenGLShaderProgram']]],

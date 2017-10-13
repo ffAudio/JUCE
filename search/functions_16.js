@@ -95,6 +95,7 @@ var searchData=
   ['withstyle',['withStyle',['../classFont.html#a0b9fb0ca73a2e9c8296d6203070a4b37',1,'Font']]],
   ['withtargetcomponent',['withTargetComponent',['../classPopupMenu_1_1Options.html#a8ff3f9ff03ba6a13c48f409f5ea9248a',1,'PopupMenu::Options']]],
   ['withtargetscreenarea',['withTargetScreenArea',['../classPopupMenu_1_1Options.html#aa68e37b3f02e0f1fc26d886f0a5bb38b',1,'PopupMenu::Options']]],
+  ['withtimestamp',['withTimeStamp',['../classMidiMessage.html#ac38a90d2e3c13b64b5bee9f94f96bfc5',1,'MidiMessage']]],
   ['withtop',['withTop',['../classRectangle.html#a83adb415b76c84c38d40d4c0c59199b4',1,'Rectangle']]],
   ['withtrimmedbottom',['withTrimmedBottom',['../classRectangle.html#ad60dbbd7e831d7df061eab4a0c802420',1,'Rectangle']]],
   ['withtrimmedleft',['withTrimmedLeft',['../classRectangle.html#afda1d0e4912c63f3b8a28e3c883555af',1,'Rectangle']]],

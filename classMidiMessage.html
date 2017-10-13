@@ -179,6 +179,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a49112e5cf324feff8c69e2a2d8963695"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a49112e5cf324feff8c69e2a2d8963695">addToTimeStamp</a> (double delta) noexcept</td></tr>
 <tr class="memdesc:a49112e5cf324feff8c69e2a2d8963695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a value to the message's timestamp.  <a href="#a49112e5cf324feff8c69e2a2d8963695">More...</a><br/></td></tr>
 <tr class="separator:a49112e5cf324feff8c69e2a2d8963695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38a90d2e3c13b64b5bee9f94f96bfc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMidiMessage.html">MidiMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#ac38a90d2e3c13b64b5bee9f94f96bfc5">withTimeStamp</a> (double newTimestamp) const </td></tr>
+<tr class="memdesc:ac38a90d2e3c13b64b5bee9f94f96bfc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a copy of this message with a new timestamp.  <a href="#ac38a90d2e3c13b64b5bee9f94f96bfc5">More...</a><br/></td></tr>
+<tr class="separator:ac38a90d2e3c13b64b5bee9f94f96bfc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d681b7417c52d29cb73c108ca2a83b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a7d681b7417c52d29cb73c108ca2a83b7">getChannel</a> () const noexcept</td></tr>
 <tr class="memdesc:a7d681b7417c52d29cb73c108ca2a83b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the midi channel associated with the message.  <a href="#a7d681b7417c52d29cb73c108ca2a83b7">More...</a><br/></td></tr>
 <tr class="separator:a7d681b7417c52d29cb73c108ca2a83b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1187,6 +1190,25 @@ template&lt;typename... Data&gt; </div>
 
 <p>Adds a value to the message's timestamp. </p>
 <p>The units for the timestamp will be application-specific. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac38a90d2e3c13b64b5bee9f94f96bfc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMidiMessage.html">MidiMessage</a> MidiMessage::withTimeStamp </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>newTimestamp</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a copy of this message with a new timestamp. </p>
+<p>The units for the timestamp will be application-specific - see the notes for <a class="el" href="classMidiMessage.html#a9a942c96a776e80e3c512058b29011a8" title="Returns the timestamp associated with this message. ">getTimeStamp()</a>. </p>
 
 </div>
 </div>
@@ -4663,7 +4685,7 @@ template&lt;typename... Data&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 13 2017 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 14 2017 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
