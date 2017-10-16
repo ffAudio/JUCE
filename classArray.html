@@ -113,15 +113,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af041fe67dea602ed32b4ec5215d246a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a1ecdfef773aa85351eb93bda32951b"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
 <tr class="memitem:a6a1ecdfef773aa85351eb93bda32951b"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a6a1ecdfef773aa85351eb93bda32951b">Array</a> (const TypeToCreateFrom *values)</td></tr>
-<tr class="memdesc:a6a1ecdfef773aa85351eb93bda32951b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises from a null-terminated C array of values.  <a href="#a6a1ecdfef773aa85351eb93bda32951b">More...</a><br/></td></tr>
+<tr class="memdesc:a6a1ecdfef773aa85351eb93bda32951b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises from a null-terminated raw array of values.  <a href="#a6a1ecdfef773aa85351eb93bda32951b">More...</a><br/></td></tr>
 <tr class="separator:a6a1ecdfef773aa85351eb93bda32951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa426011ebe1d6a9d32302f92ead8b98"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
 <tr class="memitem:aaa426011ebe1d6a9d32302f92ead8b98"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#aaa426011ebe1d6a9d32302f92ead8b98">Array</a> (const TypeToCreateFrom *values, int numValues)</td></tr>
-<tr class="memdesc:aaa426011ebe1d6a9d32302f92ead8b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises from a C array of values.  <a href="#aaa426011ebe1d6a9d32302f92ead8b98">More...</a><br/></td></tr>
+<tr class="memdesc:aaa426011ebe1d6a9d32302f92ead8b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises from a raw array of values.  <a href="#aaa426011ebe1d6a9d32302f92ead8b98">More...</a><br/></td></tr>
 <tr class="separator:aaa426011ebe1d6a9d32302f92ead8b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca95e27784b27bea22d931fd21dd3141"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
-<tr class="memitem:aca95e27784b27bea22d931fd21dd3141"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#aca95e27784b27bea22d931fd21dd3141">Array</a> (const std::initializer_list&lt; TypeToCreateFrom &gt; &amp;items)</td></tr>
-<tr class="separator:aca95e27784b27bea22d931fd21dd3141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5047a5b795c424ce68e0cc6b3b871a22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a5047a5b795c424ce68e0cc6b3b871a22">Array</a> (const ElementType &amp;singleElementToAdd)</td></tr>
+<tr class="memdesc:a5047a5b795c424ce68e0cc6b3b871a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> of size 1 containing a single element.  <a href="#a5047a5b795c424ce68e0cc6b3b871a22">More...</a><br/></td></tr>
+<tr class="separator:a5047a5b795c424ce68e0cc6b3b871a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad289f5f351935d282de81167a689c8a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#ad289f5f351935d282de81167a689c8a4">Array</a> (ElementType &amp;&amp;singleElementToAdd)</td></tr>
+<tr class="memdesc:ad289f5f351935d282de81167a689c8a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> of size 1 containing a single element.  <a href="#ad289f5f351935d282de81167a689c8a4">More...</a><br/></td></tr>
+<tr class="separator:ad289f5f351935d282de81167a689c8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac73740cec8582cf7b7b530bcf36ed842"><td class="memTemplParams" colspan="2">template&lt;typename... OtherElements&gt; </td></tr>
+<tr class="memitem:ac73740cec8582cf7b7b530bcf36ed842"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#ac73740cec8582cf7b7b530bcf36ed842">Array</a> (const ElementType &amp;firstNewElement, OtherElements...otherElements)</td></tr>
+<tr class="memdesc:ac73740cec8582cf7b7b530bcf36ed842"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> from a list of items.  <a href="#ac73740cec8582cf7b7b530bcf36ed842">More...</a><br/></td></tr>
+<tr class="separator:ac73740cec8582cf7b7b530bcf36ed842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e13eb1950730b4fc299a9ee8672fe88"><td class="memTemplParams" colspan="2">template&lt;typename... OtherElements&gt; </td></tr>
+<tr class="memitem:a8e13eb1950730b4fc299a9ee8672fe88"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a8e13eb1950730b4fc299a9ee8672fe88">Array</a> (ElementType &amp;&amp;firstNewElement, OtherElements...otherElements)</td></tr>
+<tr class="memdesc:a8e13eb1950730b4fc299a9ee8672fe88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> from a list of items.  <a href="#a8e13eb1950730b4fc299a9ee8672fe88">More...</a><br/></td></tr>
+<tr class="separator:a8e13eb1950730b4fc299a9ee8672fe88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a6149be5bb4ad25d738a9a6c1ef78253d">~Array</a> ()</td></tr>
 <tr class="memdesc:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a6149be5bb4ad25d738a9a6c1ef78253d">More...</a><br/></td></tr>
 <tr class="separator:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -442,7 +453,7 @@ template&lt;typename TypeToCreateFrom &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Initalises from a null-terminated C array of values. </p>
+<p>Initalises from a null-terminated raw array of values. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">values</td><td>the array to copy from </td></tr>
@@ -480,7 +491,7 @@ template&lt;typename TypeToCreateFrom &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Initalises from a C array of values. </p>
+<p>Initalises from a raw array of values. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">values</td><td>the array to copy from </td></tr>
@@ -491,23 +502,123 @@ template&lt;typename TypeToCreateFrom &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aca95e27784b27bea22d931fd21dd3141"></a>
+<a class="anchor" id="a5047a5b795c424ce68e0cc6b3b871a22"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
+          <td>(</td>
+          <td class="paramtype">const ElementType &amp;&#160;</td>
+          <td class="paramname"><em>singleElementToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> of size 1 containing a single element. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad289f5f351935d282de81167a689c8a4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
+          <td>(</td>
+          <td class="paramtype">ElementType &amp;&amp;&#160;</td>
+          <td class="paramname"><em>singleElementToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> of size 1 containing a single element. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac73740cec8582cf7b7b530bcf36ed842"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
 <div class="memtemplate">
-template&lt;typename TypeToCreateFrom &gt; </div>
+template&lt;typename... OtherElements&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
           <td>(</td>
-          <td class="paramtype">const std::initializer_list&lt; TypeToCreateFrom &gt; &amp;&#160;</td>
-          <td class="paramname"><em>items</em></td><td>)</td>
+          <td class="paramtype">const ElementType &amp;&#160;</td>
+          <td class="paramname"><em>firstNewElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">OtherElements...&#160;</td>
+          <td class="paramname"><em>otherElements</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> from a list of items. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8e13eb1950730b4fc299a9ee8672fe88"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
+<div class="memtemplate">
+template&lt;typename... OtherElements&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
+          <td>(</td>
+          <td class="paramtype">ElementType &amp;&amp;&#160;</td>
+          <td class="paramname"><em>firstNewElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OtherElements...&#160;</td>
+          <td class="paramname"><em>otherElements</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> from a list of items. </p>
 
 </div>
 </div>
@@ -1467,7 +1578,7 @@ template&lt;typename Type &gt; </div>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a52da22e285e44171b6d6fa785a7d536a" title="Appends a new element at the end of the array. ">add</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classArray.html#a9dbaaaeea2b8e6ab7eede5c3f080adf8">Array&lt; Button::Listener * &gt;::addNullTerminatedArray()</a>, <a class="el" href="classArray.html#aca95e27784b27bea22d931fd21dd3141">Array&lt; Button::Listener * &gt;::Array()</a>, and <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959">LassoComponent&lt; SelectableItemType &gt;::dragLasso()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#a9dbaaaeea2b8e6ab7eede5c3f080adf8">Array&lt; Button::Listener * &gt;::addNullTerminatedArray()</a>, and <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959">LassoComponent&lt; SelectableItemType &gt;::dragLasso()</a>.</p>
 
 </div>
 </div>
@@ -2283,7 +2394,7 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 16 2017 01:00:26 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 17 2017 01:00:29 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

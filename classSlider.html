@@ -293,6 +293,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fbc23e67deb4a18d172c357a7cff14c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a9fbc23e67deb4a18d172c357a7cff14c">setRange</a> (double newMinimum, double newMaximum, double newInterval=0)</td></tr>
 <tr class="memdesc:a9fbc23e67deb4a18d172c357a7cff14c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the limits that the slider's value can take.  <a href="#a9fbc23e67deb4a18d172c357a7cff14c">More...</a><br/></td></tr>
 <tr class="separator:a9fbc23e67deb4a18d172c357a7cff14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2db3de6dcd6028fad15e9ecb2984b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#ae2db3de6dcd6028fad15e9ecb2984b7b">setRange</a> (<a class="el" href="classRange.html">Range</a>&lt; double &gt; newRange, double newInterval)</td></tr>
+<tr class="memdesc:ae2db3de6dcd6028fad15e9ecb2984b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the limits that the slider's value can take.  <a href="#ae2db3de6dcd6028fad15e9ecb2984b7b">More...</a><br/></td></tr>
+<tr class="separator:ae2db3de6dcd6028fad15e9ecb2984b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3dead7bd6109c2608cad30100cdacc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#ab3dead7bd6109c2608cad30100cdacc8">getRange</a> () const noexcept</td></tr>
+<tr class="memdesc:ab3dead7bd6109c2608cad30100cdacc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the slider's range.  <a href="#ab3dead7bd6109c2608cad30100cdacc8">More...</a><br/></td></tr>
+<tr class="separator:ab3dead7bd6109c2608cad30100cdacc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eb087c868550c699da26ee3df9ecd68"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a9eb087c868550c699da26ee3df9ecd68">getMaximum</a> () const noexcept</td></tr>
 <tr class="memdesc:a9eb087c868550c699da26ee3df9ecd68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current maximum value.  <a href="#a9eb087c868550c699da26ee3df9ecd68">More...</a><br/></td></tr>
 <tr class="separator:a9eb087c868550c699da26ee3df9ecd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,9 +353,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8548287936ea455e23036222367df4aa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a8548287936ea455e23036222367df4aa">getSliderSnapsToMousePosition</a> () const noexcept</td></tr>
 <tr class="memdesc:a8548287936ea455e23036222367df4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if <a class="el" href="classSlider.html#acf58b7346a74cfc0a8c809567836df61" title="This lets you change whether the slider thumb jumps to the mouse position when you click...">setSliderSnapsToMousePosition()</a> has been enabled.  <a href="#a8548287936ea455e23036222367df4aa">More...</a><br/></td></tr>
 <tr class="separator:a8548287936ea455e23036222367df4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71a15de686875348e9a2dd4c51615c43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a71a15de686875348e9a2dd4c51615c43">setPopupDisplayEnabled</a> (bool shouldShowOnMouseDrag, bool shouldShowOnMouseHover, <a class="el" href="classComponent.html">Component</a> *parentComponentToUse)</td></tr>
-<tr class="memdesc:a71a15de686875348e9a2dd4c51615c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">If enabled, this gives the slider a pop-up bubble which appears while the slider is being dragged or hovered-over.  <a href="#a71a15de686875348e9a2dd4c51615c43">More...</a><br/></td></tr>
-<tr class="separator:a71a15de686875348e9a2dd4c51615c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4a021b7d39650cd4a2d04b4f1f7414"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a7f4a021b7d39650cd4a2d04b4f1f7414">setPopupDisplayEnabled</a> (bool shouldShowOnMouseDrag, bool shouldShowOnMouseHover, <a class="el" href="classComponent.html">Component</a> *parentComponentToUse, int hoverTimeout=2000)</td></tr>
+<tr class="memdesc:a7f4a021b7d39650cd4a2d04b4f1f7414"><td class="mdescLeft">&#160;</td><td class="mdescRight">If enabled, this gives the slider a pop-up bubble which appears while the slider is being dragged or hovered-over.  <a href="#a7f4a021b7d39650cd4a2d04b4f1f7414">More...</a><br/></td></tr>
+<tr class="separator:a7f4a021b7d39650cd4a2d04b4f1f7414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b264e454184d57c69e1ab986eb15d7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a1b264e454184d57c69e1ab986eb15d7e">getCurrentPopupDisplay</a> () const noexcept</td></tr>
 <tr class="memdesc:a1b264e454184d57c69e1ab986eb15d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a popup display is enabled and is currently visible, this returns the component that is being shown, or nullptr if none is currently in use.  <a href="#a1b264e454184d57c69e1ab986eb15d7e">More...</a><br/></td></tr>
 <tr class="separator:a1b264e454184d57c69e1ab986eb15d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2159,6 +2165,66 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae2db3de6dcd6028fad15e9ecb2984b7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Slider::setRange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRange.html">Range</a>&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>newRange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>newInterval</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the limits that the slider's value can take. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newRange</td><td>the range to allow </td></tr>
+    <tr><td class="paramname">newInterval</td><td>the steps in which the value is allowed to increase - if this is not zero, the value will always be (newMinimum + (newInterval * an integer)). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab3dead7bd6109c2608cad30100cdacc8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt;double&gt; Slider::getRange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the slider's range. </p>
+
+</div>
+</div>
 <a class="anchor" id="a9eb087c868550c699da26ee3df9ecd68"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2181,7 +2247,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the current maximum value. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a9fbc23e67deb4a18d172c357a7cff14c" title="Sets the limits that the slider&#39;s value can take. ">setRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a9fbc23e67deb4a18d172c357a7cff14c" title="Sets the limits that the slider&#39;s value can take. ">setRange</a>, <a class="el" href="classSlider.html#ab3dead7bd6109c2608cad30100cdacc8" title="Returns the slider&#39;s range. ">getRange</a> </dd></dl>
 
 </div>
 </div>
@@ -2207,7 +2273,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the current minimum value. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a9fbc23e67deb4a18d172c357a7cff14c" title="Sets the limits that the slider&#39;s value can take. ">setRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a9fbc23e67deb4a18d172c357a7cff14c" title="Sets the limits that the slider&#39;s value can take. ">setRange</a>, <a class="el" href="classSlider.html#ab3dead7bd6109c2608cad30100cdacc8" title="Returns the slider&#39;s range. ">getRange</a> </dd></dl>
 
 </div>
 </div>
@@ -2233,7 +2299,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the current step-size for values. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a9fbc23e67deb4a18d172c357a7cff14c" title="Sets the limits that the slider&#39;s value can take. ">setRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a9fbc23e67deb4a18d172c357a7cff14c" title="Sets the limits that the slider&#39;s value can take. ">setRange</a>, <a class="el" href="classSlider.html#ab3dead7bd6109c2608cad30100cdacc8" title="Returns the slider&#39;s range. ">getRange</a> </dd></dl>
 
 </div>
 </div>
@@ -2643,7 +2709,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a71a15de686875348e9a2dd4c51615c43"></a>
+<a class="anchor" id="a7f4a021b7d39650cd4a2d04b4f1f7414"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2663,7 +2729,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
-          <td class="paramname"><em>parentComponentToUse</em>&#160;</td>
+          <td class="paramname"><em>parentComponentToUse</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>hoverTimeout</em> = <code>2000</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2675,7 +2747,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>If enabled, this gives the slider a pop-up bubble which appears while the slider is being dragged or hovered-over. </p>
 <p>This can be handy if your slider doesn't have a text-box, so that users can see the value just when they're changing it.</p>
-<p>If you pass a component as the parentComponentToUse parameter, the pop-up bubble will be added as a child of that component when it's needed. If you pass nullptr, the pop-up will be placed on the desktop instead (note that it's a transparent window, so if you're using an OS that can't do transparent windows you'll have to add it to a parent component instead). </p>
+<p>If you pass a component as the parentComponentToUse parameter, the pop-up bubble will be added as a child of that component when it's needed. If you pass nullptr, the pop-up will be placed on the desktop instead (note that it's a transparent window, so if you're using an OS that can't do transparent windows you'll have to add it to a parent component instead).</p>
+<p>By default the popup display shown when hovering will remain visible for 2 seconds, but it is possible to change this by passing a different hoverTimeout value. A value of -1 will cause the popup to remain until a <a class="el" href="classSlider.html#a7da34fe608f318b409b60baf3439e472">mouseExit()</a> occurs on the slider. </p>
 
 </div>
 </div>
@@ -2701,7 +2774,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If a popup display is enabled and is currently visible, this returns the component that is being shown, or nullptr if none is currently in use. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a71a15de686875348e9a2dd4c51615c43" title="If enabled, this gives the slider a pop-up bubble which appears while the slider is being dragged or ...">setPopupDisplayEnabled</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a7f4a021b7d39650cd4a2d04b4f1f7414" title="If enabled, this gives the slider a pop-up bubble which appears while the slider is being dragged or ...">setPopupDisplayEnabled</a> </dd></dl>
 
 </div>
 </div>
@@ -3621,7 +3694,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 16 2017 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 17 2017 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

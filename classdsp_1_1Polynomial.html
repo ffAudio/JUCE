@@ -117,10 +117,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3a45a7a79ef74026014b18267987e1e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdsp_1_1Polynomial.html">Polynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Polynomial.html#a3a45a7a79ef74026014b18267987e1e9">operator=</a> (<a class="el" href="classdsp_1_1Polynomial.html">Polynomial</a> &amp;&amp;)=default</td></tr>
 <tr class="memdesc:a3a45a7a79ef74026014b18267987e1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of another polynomial.  <a href="#a3a45a7a79ef74026014b18267987e1e9">More...</a><br/></td></tr>
 <tr class="separator:a3a45a7a79ef74026014b18267987e1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6f273d4f01684cd519833471331ef8d"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
-<tr class="memitem:aa6f273d4f01684cd519833471331ef8d"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classdsp_1_1Polynomial.html#aa6f273d4f01684cd519833471331ef8d">Polynomial</a> (const std::initializer_list&lt; TypeToCreateFrom &gt; &amp;items)</td></tr>
-<tr class="memdesc:aa6f273d4f01684cd519833471331ef8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new polynomial with coefficients by a C++11 initializer list.  <a href="#aa6f273d4f01684cd519833471331ef8d">More...</a><br/></td></tr>
-<tr class="separator:aa6f273d4f01684cd519833471331ef8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4795ce09ad42b2a21b581aa5959854"><td class="memTemplParams" colspan="2">template&lt;typename... Values&gt; </td></tr>
+<tr class="memitem:a9d4795ce09ad42b2a21b581aa5959854"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classdsp_1_1Polynomial.html#a9d4795ce09ad42b2a21b581aa5959854">Polynomial</a> (Values...items)</td></tr>
+<tr class="memdesc:a9d4795ce09ad42b2a21b581aa5959854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new polynomial with coefficients by a C++11 initializer list.  <a href="#a9d4795ce09ad42b2a21b581aa5959854">More...</a><br/></td></tr>
+<tr class="separator:a9d4795ce09ad42b2a21b581aa5959854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04cada3b99dd3539c16606fadf0aa0af"><td class="memItemLeft" align="right" valign="top">FloatingType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Polynomial.html#a04cada3b99dd3539c16606fadf0aa0af">operator[]</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
 <tr class="memdesc:a04cada3b99dd3539c16606fadf0aa0af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a single coefficient of the receiver for reading.  <a href="#a04cada3b99dd3539c16606fadf0aa0af">More...</a><br/></td></tr>
 <tr class="separator:a04cada3b99dd3539c16606fadf0aa0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,18 +265,18 @@ template&lt;typename FloatingType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa6f273d4f01684cd519833471331ef8d"></a>
+<a class="anchor" id="a9d4795ce09ad42b2a21b581aa5959854"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename FloatingType&gt; </div>
 <div class="memtemplate">
-template&lt;typename TypeToCreateFrom &gt; </div>
+template&lt;typename... Values&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classdsp_1_1Polynomial.html">dsp::Polynomial</a>&lt; FloatingType &gt;::<a class="el" href="classdsp_1_1Polynomial.html">Polynomial</a> </td>
           <td>(</td>
-          <td class="paramtype">const std::initializer_list&lt; TypeToCreateFrom &gt; &amp;&#160;</td>
+          <td class="paramtype">Values...&#160;</td>
           <td class="paramname"><em>items</em></td><td>)</td>
           <td></td>
         </tr>
@@ -538,7 +538,7 @@ template&lt;typename FloatingType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 16 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 17 2017 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
