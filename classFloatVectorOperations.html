@@ -268,11 +268,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad181db95392492da6b95e188ff953767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the maximum value in the given array.  <a href="#ad181db95392492da6b95e188ff953767">More...</a><br/></td></tr>
 <tr class="separator:ad181db95392492da6b95e188ff953767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65f85dc11b1c553add2d46d84ba814e7"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a65f85dc11b1c553add2d46d84ba814e7">enableFlushToZeroMode</a> (bool shouldEnable) noexcept</td></tr>
-<tr class="memdesc:a65f85dc11b1c553add2d46d84ba814e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Intel CPUs, this method enables or disables the SSE flush-to-zero mode.  <a href="#a65f85dc11b1c553add2d46d84ba814e7">More...</a><br/></td></tr>
+<tr class="memdesc:a65f85dc11b1c553add2d46d84ba814e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method enables or disables the SSE/NEON flush-to-zero mode.  <a href="#a65f85dc11b1c553add2d46d84ba814e7">More...</a><br/></td></tr>
 <tr class="separator:a65f85dc11b1c553add2d46d84ba814e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6d068c58da16b48dbf738a48ecd400"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#aff6d068c58da16b48dbf738a48ecd400">disableDenormalisedNumberSupport</a> () noexcept</td></tr>
-<tr class="memdesc:aff6d068c58da16b48dbf738a48ecd400"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Intel CPUs, this method enables the SSE flush-to-zero and denormalised-are-zero modes.  <a href="#aff6d068c58da16b48dbf738a48ecd400">More...</a><br/></td></tr>
-<tr class="separator:aff6d068c58da16b48dbf738a48ecd400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11727a7e21b11fd5fa8c7f012de61333"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a11727a7e21b11fd5fa8c7f012de61333">disableDenormalisedNumberSupport</a> (bool shouldDisable=true) noexcept</td></tr>
+<tr class="memdesc:a11727a7e21b11fd5fa8c7f012de61333"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Intel CPUs, this method enables the SSE flush-to-zero and denormalised-are-zero modes.  <a href="#a11727a7e21b11fd5fa8c7f012de61333">More...</a><br/></td></tr>
+<tr class="separator:a11727a7e21b11fd5fa8c7f012de61333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82395f2b2ef97cc7755e2c6224b79f2d"><td class="memItemLeft" align="right" valign="top">static bool <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFloatVectorOperations.html#a82395f2b2ef97cc7755e2c6224b79f2d">areDenormalsDisabled</a> () noexcept</td></tr>
+<tr class="memdesc:a82395f2b2ef97cc7755e2c6224b79f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method returns true if denormals are currently disabled.  <a href="#a82395f2b2ef97cc7755e2c6224b79f2d">More...</a><br/></td></tr>
+<tr class="separator:a82395f2b2ef97cc7755e2c6224b79f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A collection of simple vector operations on arrays of floats, accelerated with SIMD instructions where possible. </p>
@@ -2869,12 +2872,11 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>On Intel CPUs, this method enables or disables the SSE flush-to-zero mode. </p>
-<p>Effectively, this is a wrapper around a call to _MM_SET_FLUSH_ZERO_MODE </p>
+<p>This method enables or disables the SSE/NEON flush-to-zero mode. </p>
 
 </div>
 </div>
-<a class="anchor" id="aff6d068c58da16b48dbf738a48ecd400"></a>
+<a class="anchor" id="a11727a7e21b11fd5fa8c7f012de61333"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2883,6 +2885,33 @@ Static Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::disableDenormalisedNumberSupport </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shouldDisable</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>On Intel CPUs, this method enables the SSE flush-to-zero and denormalised-are-zero modes. </p>
+<p>This effectively sets the DAZ and FZ bits of the MXCSR register. On arm CPUs this will enable flush to zero mode. It's a convenient thing to call before audio processing code where you really want to avoid denormalisation performance hits. </p>
+
+</div>
+</div>
+<a class="anchor" id="a82395f2b2ef97cc7755e2c6224b79f2d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> FloatVectorOperations::areDenormalsDisabled </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2895,8 +2924,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>On Intel CPUs, this method enables the SSE flush-to-zero and denormalised-are-zero modes. </p>
-<p>This effectively sets the DAZ and FZ bits of the MXCSR register. It's a convenient thing to call before audio processing code where you really want to avoid denormalisation performance hits. </p>
+<p>This method returns true if denormals are currently disabled. </p>
 
 </div>
 </div>
@@ -2906,7 +2934,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 17 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 18 2017 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

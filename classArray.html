@@ -133,6 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e13eb1950730b4fc299a9ee8672fe88"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#a8e13eb1950730b4fc299a9ee8672fe88">Array</a> (ElementType &amp;&amp;firstNewElement, OtherElements...otherElements)</td></tr>
 <tr class="memdesc:a8e13eb1950730b4fc299a9ee8672fe88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> from a list of items.  <a href="#a8e13eb1950730b4fc299a9ee8672fe88">More...</a><br/></td></tr>
 <tr class="separator:a8e13eb1950730b4fc299a9ee8672fe88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca95e27784b27bea22d931fd21dd3141"><td class="memTemplParams" colspan="2">template&lt;typename TypeToCreateFrom &gt; </td></tr>
+<tr class="memitem:aca95e27784b27bea22d931fd21dd3141"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArray.html#aca95e27784b27bea22d931fd21dd3141">Array</a> (const std::initializer_list&lt; TypeToCreateFrom &gt; &amp;items)</td></tr>
+<tr class="separator:aca95e27784b27bea22d931fd21dd3141"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a6149be5bb4ad25d738a9a6c1ef78253d">~Array</a> ()</td></tr>
 <tr class="memdesc:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a6149be5bb4ad25d738a9a6c1ef78253d">More...</a><br/></td></tr>
 <tr class="separator:a6149be5bb4ad25d738a9a6c1ef78253d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -507,9 +510,6 @@ template&lt;typename TypeToCreateFrom &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
@@ -519,11 +519,6 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> of size 1 containing a single element. </p>
@@ -535,9 +530,6 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
@@ -547,11 +539,6 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> of size 1 containing a single element. </p>
@@ -619,6 +606,26 @@ template&lt;typename... OtherElements&gt; </div>
 </div><div class="memdoc">
 
 <p>Initalises an <a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a> from a list of items. </p>
+
+</div>
+</div>
+<a class="anchor" id="aca95e27784b27bea22d931fd21dd3141"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
+<div class="memtemplate">
+template&lt;typename TypeToCreateFrom &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html">Array</a> </td>
+          <td>(</td>
+          <td class="paramtype">const std::initializer_list&lt; TypeToCreateFrom &gt; &amp;&#160;</td>
+          <td class="paramname"><em>items</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1578,7 +1585,7 @@ template&lt;typename Type &gt; </div>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html#a52da22e285e44171b6d6fa785a7d536a" title="Appends a new element at the end of the array. ">add</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classArray.html#a9dbaaaeea2b8e6ab7eede5c3f080adf8">Array&lt; Button::Listener * &gt;::addNullTerminatedArray()</a>, and <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959">LassoComponent&lt; SelectableItemType &gt;::dragLasso()</a>.</p>
+<p>Referenced by <a class="el" href="classArray.html#a9dbaaaeea2b8e6ab7eede5c3f080adf8">Array&lt; Button::Listener * &gt;::addNullTerminatedArray()</a>, <a class="el" href="classArray.html#aca95e27784b27bea22d931fd21dd3141">Array&lt; Button::Listener * &gt;::Array()</a>, and <a class="el" href="classLassoComponent.html#a4aca7f9f28ecef2834bfabe648ba6959">LassoComponent&lt; SelectableItemType &gt;::dragLasso()</a>.</p>
 
 </div>
 </div>
@@ -2394,7 +2401,7 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 17 2017 01:00:29 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 18 2017 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

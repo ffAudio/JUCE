@@ -65,7 +65,7 @@ var searchData=
   ['directorycontentslist',['DirectoryContentsList',['../classDirectoryContentsList.html#ae36fae5fbad4ae302ffed71120a554fc',1,'DirectoryContentsList']]],
   ['directoryiterator',['DirectoryIterator',['../classDirectoryIterator.html#a524ffc16900daf13217680423458b328',1,'DirectoryIterator']]],
   ['disabled',['disabled',['../classAudioChannelSet.html#a18675dc100238ac22868c41717ef2ffe',1,'AudioChannelSet']]],
-  ['disabledenormalisednumbersupport',['disableDenormalisedNumberSupport',['../classFloatVectorOperations.html#aff6d068c58da16b48dbf738a48ecd400',1,'FloatVectorOperations']]],
+  ['disabledenormalisednumbersupport',['disableDenormalisedNumberSupport',['../classFloatVectorOperations.html#a11727a7e21b11fd5fa8c7f012de61333',1,'FloatVectorOperations']]],
   ['disablenonmainbuses',['disableNonMainBuses',['../classAudioProcessor.html#a95e1cedbe30a03547baa4f8341c5f04a',1,'AudioProcessor']]],
   ['disconnect',['disconnect',['../classInterprocessConnection.html#a16959b067e088c75663fcff8633d600f',1,'InterprocessConnection::disconnect()'],['../classOSCReceiver.html#adb7179630d20e6ddbf48e6ef380c3c67',1,'OSCReceiver::disconnect()'],['../classOSCSender.html#ac8c0a0ccec0ade4c28cba43773b095c5',1,'OSCSender::disconnect()']]],
   ['disconnectnode',['disconnectNode',['../classAudioProcessorGraph.html#a8fb912ad3add171eb08c6e58a66e1687',1,'AudioProcessorGraph']]],
