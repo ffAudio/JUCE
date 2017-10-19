@@ -95,15 +95,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2d8b85eb72c754b7d2162c3cc296f30a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericScopedTryLock.html#a2d8b85eb72c754b7d2162c3cc296f30a">GenericScopedTryLock</a> (const LockType &amp;lock) noexcept</td></tr>
-<tr class="memdesc:a2d8b85eb72c754b7d2162c3cc296f30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classGenericScopedTryLock.html" title="Automatically locks and unlocks a mutex object. ">GenericScopedTryLock</a>.  <a href="#a2d8b85eb72c754b7d2162c3cc296f30a">More...</a><br/></td></tr>
-<tr class="separator:a2d8b85eb72c754b7d2162c3cc296f30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad95709ae51fff0d9b7746ca726caa089"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericScopedTryLock.html#ad95709ae51fff0d9b7746ca726caa089">GenericScopedTryLock</a> (const LockType &amp;lock, bool acquireLockOnInitialisation=true) noexcept</td></tr>
+<tr class="memdesc:ad95709ae51fff0d9b7746ca726caa089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classGenericScopedTryLock.html" title="Automatically locks and unlocks a mutex object. ">GenericScopedTryLock</a>.  <a href="#ad95709ae51fff0d9b7746ca726caa089">More...</a><br/></td></tr>
+<tr class="separator:ad95709ae51fff0d9b7746ca726caa089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa552ec1121d42230080f6dbc614ead99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericScopedTryLock.html#aa552ec1121d42230080f6dbc614ead99">~GenericScopedTryLock</a> () noexcept</td></tr>
 <tr class="memdesc:aa552ec1121d42230080f6dbc614ead99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa552ec1121d42230080f6dbc614ead99">More...</a><br/></td></tr>
 <tr class="separator:aa552ec1121d42230080f6dbc614ead99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0504fe1e14b9a246e5e6018132578b94"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericScopedTryLock.html#a0504fe1e14b9a246e5e6018132578b94">isLocked</a> () const noexcept</td></tr>
 <tr class="memdesc:a0504fe1e14b9a246e5e6018132578b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the mutex was successfully locked.  <a href="#a0504fe1e14b9a246e5e6018132578b94">More...</a><br/></td></tr>
 <tr class="separator:a0504fe1e14b9a246e5e6018132578b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae53a276403f3ab95fe1381f97b36da08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericScopedTryLock.html#ae53a276403f3ab95fe1381f97b36da08">retryLock</a> () const noexcept</td></tr>
+<tr class="memdesc:ae53a276403f3ab95fe1381f97b36da08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retry gaining the lock by calling tryEnter on the underlying lock.  <a href="#ae53a276403f3ab95fe1381f97b36da08">More...</a><br/></td></tr>
+<tr class="separator:ae53a276403f3ab95fe1381f97b36da08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class LockType&gt;<br/>
@@ -135,7 +138,7 @@ class GenericScopedTryLock&lt; LockType &gt;</h3>
 <div class="line">}</div>
 </div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html#a2c12101da7ebf8455de49652f377d313" title="Attempts to lock this critical section without blocking. ">CriticalSection::tryEnter</a>, <a class="el" href="classGenericScopedLock.html" title="Automatically locks and unlocks a mutex object. ">GenericScopedLock</a>, <a class="el" href="classGenericScopedUnlock.html" title="Automatically unlocks and re-locks a mutex object. ">GenericScopedUnlock</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a2d8b85eb72c754b7d2162c3cc296f30a"></a>
+<a class="anchor" id="ad95709ae51fff0d9b7746ca726caa089"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -148,8 +151,18 @@ template&lt;class LockType&gt; </div>
           <td class="memname"><a class="el" href="classGenericScopedTryLock.html">GenericScopedTryLock</a>&lt; LockType &gt;::<a class="el" href="classGenericScopedTryLock.html">GenericScopedTryLock</a> </td>
           <td>(</td>
           <td class="paramtype">const LockType &amp;&#160;</td>
-          <td class="paramname"><em>lock</em></td><td>)</td>
+          <td class="paramname"><em>lock</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>acquireLockOnInitialisation</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -160,8 +173,11 @@ template&lt;class LockType&gt; </div>
 </div><div class="memdoc">
 
 <p>Creates a <a class="el" href="classGenericScopedTryLock.html" title="Automatically locks and unlocks a mutex object. ">GenericScopedTryLock</a>. </p>
-<p>As soon as it is created, this will attempt to acquire the lock, and when the <a class="el" href="classGenericScopedTryLock.html" title="Automatically locks and unlocks a mutex object. ">GenericScopedTryLock</a> is deleted, the lock will be released (if the lock was successfully acquired).</p>
-<p>Make sure this object is created and deleted by the same thread, otherwise there are no guarantees what will happen! Best just to use it as a local stack object, rather than creating one with the new() operator. </p>
+<p>If acquireLockOnInitialisation is true then as soon as this ScopedTryLock is created, it will attempt to acquire the lock with tryEnter.</p>
+<p>You can retry acquiring the lock by calling retryLock.</p>
+<p>When <a class="el" href="classGenericScopedTryLock.html" title="Automatically locks and unlocks a mutex object. ">GenericScopedTryLock</a> is deleted, the lock will be released (if the lock was successfully acquired).</p>
+<p>Make sure this object is created and deleted by the same thread, otherwise there are no guarantees what will happen! Best just to use it as a local stack object, rather than creating one with the new() operator.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classGenericScopedTryLock.html#ae53a276403f3ab95fe1381f97b36da08" title="Retry gaining the lock by calling tryEnter on the underlying lock. ">retryLock</a>, <a class="el" href="classGenericScopedTryLock.html#a0504fe1e14b9a246e5e6018132578b94" title="Returns true if the mutex was successfully locked. ">isLocked</a> </dd></dl>
 
 </div>
 </div>
@@ -222,13 +238,40 @@ template&lt;class LockType&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ae53a276403f3ab95fe1381f97b36da08"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class LockType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classGenericScopedTryLock.html">GenericScopedTryLock</a>&lt; LockType &gt;::retryLock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retry gaining the lock by calling tryEnter on the underlying lock. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__ScopedLock_8h.html">juce_ScopedLock.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 19 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 20 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

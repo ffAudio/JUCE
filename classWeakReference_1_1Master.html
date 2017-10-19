@@ -109,6 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa542fc20038febb6e3bc0ed17ab9fcaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeakReference_1_1Master.html#aa542fc20038febb6e3bc0ed17ab9fcaf">clear</a> () noexcept</td></tr>
 <tr class="memdesc:aa542fc20038febb6e3bc0ed17ab9fcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The object that owns this master pointer should call this before it gets destroyed, to zero all the references to this object that may be out there.  <a href="#aa542fc20038febb6e3bc0ed17ab9fcaf">More...</a><br/></td></tr>
 <tr class="separator:aa542fc20038febb6e3bc0ed17ab9fcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed6b17cff1356ac546aba47da5c19012"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeakReference_1_1Master.html#aed6b17cff1356ac546aba47da5c19012">getNumActiveWeakReferences</a> () const noexcept</td></tr>
+<tr class="memdesc:aed6b17cff1356ac546aba47da5c19012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of WeakReferences that are out there pointing to this object.  <a href="#aed6b17cff1356ac546aba47da5c19012">More...</a><br/></td></tr>
+<tr class="separator:aed6b17cff1356ac546aba47da5c19012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class ObjectType, class ReferenceCountingType = ReferenceCountedObject&gt;<br/>
@@ -221,13 +224,40 @@ template&lt;class ObjectType, class ReferenceCountingType = ReferenceCountedObje
 
 </div>
 </div>
+<a class="anchor" id="aed6b17cff1356ac546aba47da5c19012"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType, class ReferenceCountingType = ReferenceCountedObject&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classWeakReference.html">WeakReference</a>&lt; ObjectType, ReferenceCountingType &gt;::Master::getNumActiveWeakReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of WeakReferences that are out there pointing to this object. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__WeakReference_8h.html">juce_WeakReference.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 19 2017 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 20 2017 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

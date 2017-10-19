@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>JUCE: Member List</title>
+<title>JUCE: Thread::Listener Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -82,23 +82,90 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="classMessageManagerLock.html">MessageManagerLock</a></li><li class="navelem"><a class="el" href="structMessageManagerLock_1_1BailOutChecker.html">BailOutChecker</a></li>  </ul>
+<li class="navelem"><a class="el" href="classThread.html">Thread</a></li><li class="navelem"><a class="el" href="classThread_1_1Listener.html">Listener</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classThread_1_1Listener-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MessageManagerLock::BailOutChecker Member List</div>  </div>
+<div class="title">Thread::Listener Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for Thread::Listener:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classThread_1_1Listener__inherit__graph.svg" width="163" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adfbd29c2b3520bb2c2713afd0ed5a3e7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread_1_1Listener.html#adfbd29c2b3520bb2c2713afd0ed5a3e7">~Listener</a> ()</td></tr>
+<tr class="separator:adfbd29c2b3520bb2c2713afd0ed5a3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a580cb208cc742439c61a75fa6f79d902"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread_1_1Listener.html#a580cb208cc742439c61a75fa6f79d902">exitSignalSent</a> ()=0</td></tr>
+<tr class="memdesc:a580cb208cc742439c61a75fa6f79d902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called if <a class="el" href="classThread.html#affe168e27c6ee50b0d10522810772268" title="Sets a flag to tell the thread it should stop. ">Thread::signalThreadShouldExit</a> was called.  <a href="#a580cb208cc742439c61a75fa6f79d902">More...</a><br/></td></tr>
+<tr class="separator:a580cb208cc742439c61a75fa6f79d902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="adfbd29c2b3520bb2c2713afd0ed5a3e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Thread::Listener::~Listener </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
-<p>This is the complete list of members for <a class="el" href="structMessageManagerLock_1_1BailOutChecker.html">MessageManagerLock::BailOutChecker</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="structMessageManagerLock_1_1BailOutChecker.html#a85e6e9cc50c28aff9d78278eace49d8b">shouldAbortAcquiringLock</a>()=0</td><td class="entry"><a class="el" href="structMessageManagerLock_1_1BailOutChecker.html">MessageManagerLock::BailOutChecker</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structMessageManagerLock_1_1BailOutChecker.html#aad15aa9d97484ad152b369a1790fec91">~BailOutChecker</a>()</td><td class="entry"><a class="el" href="structMessageManagerLock_1_1BailOutChecker.html">MessageManagerLock::BailOutChecker</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a580cb208cc742439c61a75fa6f79d902"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Thread::Listener::exitSignalSent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called if <a class="el" href="classThread.html#affe168e27c6ee50b0d10522810772268" title="Sets a flag to tell the thread it should stop. ">Thread::signalThreadShouldExit</a> was called. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a0a8fdce313d3c0db6c5adbb78c4352b4" title="Checks whether the thread has been told to stop running. ">Thread::threadShouldExit</a>, <a class="el" href="classThread.html#aad3e509718eb01ac3c61418f8b350c2b" title="Add a listener to this thread which will receive a callback when signalThreadShouldExit was called on...">Thread::addListener</a>, <a class="el" href="classThread.html#abec45c6a6d42076b256bd48d57817778" title="Removes a listener added with addListener. ">Thread::removeListener</a> </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="juce__Thread_8h.html">juce_Thread.h</a></li>
+</ul>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 19 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 20 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

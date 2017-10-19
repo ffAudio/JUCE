@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -101,6 +102,11 @@ Inheritance diagram for Thread:</div>
 </div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread_1_1Listener.html">Listener</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a57e37e78ad201531166b450b64c428b6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classThread.html#a57e37e78ad201531166b450b64c428b6a0ee7fcab9f979f4e867c718460ce5503">realtimeAudioPriority</a> = -1
@@ -143,6 +149,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a277e5e91d52626bbdac85b44972dd46a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a277e5e91d52626bbdac85b44972dd46a">waitForThreadToExit</a> (int timeOutMilliseconds) const </td></tr>
 <tr class="memdesc:a277e5e91d52626bbdac85b44972dd46a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for the thread to stop.  <a href="#a277e5e91d52626bbdac85b44972dd46a">More...</a><br/></td></tr>
 <tr class="separator:a277e5e91d52626bbdac85b44972dd46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad3e509718eb01ac3c61418f8b350c2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#aad3e509718eb01ac3c61418f8b350c2b">addListener</a> (<a class="el" href="classThread_1_1Listener.html">Listener</a> *)</td></tr>
+<tr class="memdesc:aad3e509718eb01ac3c61418f8b350c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a listener to this thread which will receive a callback when signalThreadShouldExit was called on this thread.  <a href="#aad3e509718eb01ac3c61418f8b350c2b">More...</a><br/></td></tr>
+<tr class="separator:aad3e509718eb01ac3c61418f8b350c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec45c6a6d42076b256bd48d57817778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#abec45c6a6d42076b256bd48d57817778">removeListener</a> (<a class="el" href="classThread_1_1Listener.html">Listener</a> *)</td></tr>
+<tr class="memdesc:abec45c6a6d42076b256bd48d57817778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a listener added with addListener.  <a href="#abec45c6a6d42076b256bd48d57817778">More...</a><br/></td></tr>
+<tr class="separator:abec45c6a6d42076b256bd48d57817778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0975d9ee9f403f5f82287fcce4a7168f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a0975d9ee9f403f5f82287fcce4a7168f">setPriority</a> (int priority)</td></tr>
 <tr class="memdesc:a0975d9ee9f403f5f82287fcce4a7168f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the thread's priority.  <a href="#a0975d9ee9f403f5f82287fcce4a7168f">More...</a><br/></td></tr>
 <tr class="separator:a0975d9ee9f403f5f82287fcce4a7168f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -542,6 +554,43 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aad3e509718eb01ac3c61418f8b350c2b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Thread::addListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classThread_1_1Listener.html">Listener</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a listener to this thread which will receive a callback when signalThreadShouldExit was called on this thread. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#affe168e27c6ee50b0d10522810772268" title="Sets a flag to tell the thread it should stop. ">signalThreadShouldExit</a>, <a class="el" href="classThread.html#abec45c6a6d42076b256bd48d57817778" title="Removes a listener added with addListener. ">removeListener</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abec45c6a6d42076b256bd48d57817778"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Thread::removeListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classThread_1_1Listener.html">Listener</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a listener added with addListener. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0975d9ee9f403f5f82287fcce4a7168f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -875,7 +924,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 19 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 20 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

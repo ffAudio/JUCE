@@ -129,6 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf58a7de172ae74d6ebb4a9fb59ed4d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPoolJob.html#acf58a7de172ae74d6ebb4a9fb59ed4d3">signalJobShouldExit</a> ()</td></tr>
 <tr class="memdesc:acf58a7de172ae74d6ebb4a9fb59ed4d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calling this will cause the <a class="el" href="classThreadPoolJob.html#a441a94cba7ec96242fd7268371d9c5ea" title="Returns true if something is trying to interrupt this job and make it stop. ">shouldExit()</a> method to return true, and the job should (if it's been implemented correctly) stop as soon as possible.  <a href="#acf58a7de172ae74d6ebb4a9fb59ed4d3">More...</a><br/></td></tr>
 <tr class="separator:acf58a7de172ae74d6ebb4a9fb59ed4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe4f8e2b6dfbe4cf339ab082339e086"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPoolJob.html#a2fe4f8e2b6dfbe4cf339ab082339e086">addListener</a> (<a class="el" href="classThread_1_1Listener.html">Thread::Listener</a> *)</td></tr>
+<tr class="memdesc:a2fe4f8e2b6dfbe4cf339ab082339e086"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a listener to this thread job which will receive a callback when signalJobShouldExit was called on this thread job.  <a href="#a2fe4f8e2b6dfbe4cf339ab082339e086">More...</a><br/></td></tr>
+<tr class="separator:a2fe4f8e2b6dfbe4cf339ab082339e086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a094d871e7f48cde34331c55b2154f61b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadPoolJob.html#a094d871e7f48cde34331c55b2154f61b">removeListener</a> (<a class="el" href="classThread_1_1Listener.html">Thread::Listener</a> *)</td></tr>
+<tr class="memdesc:a094d871e7f48cde34331c55b2154f61b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a listener added with addListener.  <a href="#a094d871e7f48cde34331c55b2154f61b">More...</a><br/></td></tr>
+<tr class="separator:a094d871e7f48cde34331c55b2154f61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -354,6 +360,43 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2fe4f8e2b6dfbe4cf339ab082339e086"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThreadPoolJob::addListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classThread_1_1Listener.html">Thread::Listener</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a listener to this thread job which will receive a callback when signalJobShouldExit was called on this thread job. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThreadPoolJob.html#acf58a7de172ae74d6ebb4a9fb59ed4d3" title="Calling this will cause the shouldExit() method to return true, and the job should (if it&#39;s been impl...">signalJobShouldExit</a>, <a class="el" href="classThreadPoolJob.html#a094d871e7f48cde34331c55b2154f61b" title="Removes a listener added with addListener. ">removeListener</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a094d871e7f48cde34331c55b2154f61b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThreadPoolJob::removeListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classThread_1_1Listener.html">Thread::Listener</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a listener added with addListener. </p>
+
+</div>
+</div>
 <a class="anchor" id="ac9524c73da9de5444dd13d5936e238ee"></a>
 <div class="memitem">
 <div class="memproto">
@@ -385,7 +428,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 19 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 20 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
