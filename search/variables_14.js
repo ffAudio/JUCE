@@ -16,7 +16,9 @@ var searchData=
   ['usenativetitlebar',['useNativeTitleBar',['../structDialogWindow_1_1LaunchOptions.html#a8a67e5ca3f075102c1dc40aee20856b5',1,'DialogWindow::LaunchOptions']]],
   ['userarea',['userArea',['../structDesktop_1_1Displays_1_1Display.html#a7b9601b6a4c7de297099ff4e3b8651ec',1,'Desktop::Displays::Display']]],
   ['userdata',['userData',['../classImagePixelData.html#a881fd3f8939e4994ca95c052b27221ae',1,'ImagePixelData']]],
+  ['userid',['userID',['../structAnalyticsDestination_1_1AnalyticsEvent.html#a2d253f17697dfb4471a71e9bddc29a36',1,'AnalyticsDestination::AnalyticsEvent::userID()'],['../classAnalytics.html#a174d19cff18057dc217e089efbaa82c9',1,'Analytics::userId()']]],
   ['userpointer',['userPointer',['../structVstEffectInterface.html#a7db1b0348d65cac7c855963c954e1d16',1,'VstEffectInterface']]],
+  ['userproperties',['userProperties',['../classAnalytics.html#ab7990d994d977ac8aa384de1c5921ae3',1,'Analytics::userProperties()'],['../structAnalyticsDestination_1_1AnalyticsEvent.html#afcea7cedd0ebe96dfd29c7848429fcb4',1,'AnalyticsDestination::AnalyticsEvent::userProperties()']]],
   ['usesfloatingpointdata',['usesFloatingPointData',['../classAudioFormatReader.html#aed5e9ba760d519f110c18053d6adba7a',1,'AudioFormatReader::usesFloatingPointData()'],['../classAudioFormatWriter.html#a876800b982bbe25e583633d3876a9a02',1,'AudioFormatWriter::usesFloatingPointData()']]],
   ['usesnonzerowinding',['usesNonZeroWinding',['../classRelativePointPath.html#a31bd56da083920346e1f0742bd77ae8b',1,'RelativePointPath']]]
 ];

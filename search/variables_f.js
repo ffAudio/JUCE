@@ -9,7 +9,7 @@ var searchData=
   ['papayawhip',['papayawhip',['../classColours.html#a8b6fb5bd196ba71f78c2d0a17c712783',1,'Colours']]],
   ['parameterindex',['parameterIndex',['../structVstEffectInterface.html#a3fdc1488f3ddb5cd29c6689479e2464e',1,'VstEffectInterface::parameterIndex()'],['../structAudioProcessorEditor_1_1ParameterControlHighlightInfo.html#adf1655668910dd66ab04d8c2bafeb4c0',1,'AudioProcessorEditor::ParameterControlHighlightInfo::parameterIndex()']]],
   ['parameternumber',['parameterNumber',['../structMidiRPNMessage.html#adca04bc6a3cdbd8bd2fb70a15d8530ba',1,'MidiRPNMessage']]],
-  ['parameters',['parameters',['../classdsp_1_1StateVariableFilter_1_1Filter.html#a126f873f372d6a07eac8b9e11e415218',1,'dsp::StateVariableFilter::Filter']]],
+  ['parameters',['parameters',['../structAnalyticsDestination_1_1AnalyticsEvent.html#ab01a1913680a91115513ee1892549939',1,'AnalyticsDestination::AnalyticsEvent::parameters()'],['../classdsp_1_1StateVariableFilter_1_1Filter.html#a126f873f372d6a07eac8b9e11e415218',1,'dsp::StateVariableFilter::Filter::parameters()']]],
   ['paramid',['paramID',['../classAudioProcessorParameterWithID.html#a09fd779999685889367257e36ff648da',1,'AudioProcessorParameterWithID']]],
   ['parent',['parent',['../structRelativeCoordinate_1_1Strings.html#a590be4a90e9e7b7ffd12b4ff5f7c667d',1,'RelativeCoordinate::Strings']]],
   ['part1',['part1',['../classRSAKey.html#af9992df31573da04eff2f95b6c215be1',1,'RSAKey']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['analytics',['analytics',['../group__juce__analytics-analytics.html',1,'']]],
   ['audio_5fplay_5fhead',['audio_play_head',['../group__juce__audio__basics-audio__play__head.html',1,'']]],
   ['audio_5fio',['audio_io',['../group__juce__audio__devices-audio__io.html',1,'']]],
   ['aax',['AAX',['../group__juce__audio__plugin__client-AAX.html',1,'']]],

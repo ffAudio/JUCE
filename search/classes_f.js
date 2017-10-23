@@ -56,5 +56,6 @@ var searchData=
   ['propertyset',['PropertySet',['../classPropertySet.html',1,'']]],
   ['purchase',['Purchase',['../structInAppPurchases_1_1Purchase.html',1,'InAppPurchases']]],
   ['purchaseinfo',['PurchaseInfo',['../structInAppPurchases_1_1Listener_1_1PurchaseInfo.html',1,'InAppPurchases::Listener']]],
+  ['pushnotifications',['PushNotifications',['../classPushNotifications.html',1,'']]],
   ['px',['Px',['../structGrid_1_1Px.html',1,'Grid']]]
 ];

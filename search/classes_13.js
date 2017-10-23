@@ -17,6 +17,7 @@ var searchData=
   ['textlayout',['TextLayout',['../classTextLayout.html',1,'']]],
   ['textpropertycomponent',['TextPropertyComponent',['../classTextPropertyComponent.html',1,'']]],
   ['thread',['Thread',['../classThread.html',1,'']]],
+  ['threadedanalyticsdestination',['ThreadedAnalyticsDestination',['../classThreadedAnalyticsDestination.html',1,'']]],
   ['threadedwriter',['ThreadedWriter',['../classAudioFormatWriter_1_1ThreadedWriter.html',1,'AudioFormatWriter']]],
   ['threadlocalvalue',['ThreadLocalValue',['../classThreadLocalValue.html',1,'']]],
   ['threadpool',['ThreadPool',['../classThreadPool.html',1,'']]],

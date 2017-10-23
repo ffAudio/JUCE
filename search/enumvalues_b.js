@@ -36,6 +36,7 @@ var searchData=
   ['logmessage',['logMessage',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75a8a7fa8a0049c12cea5e129eccae0979c',1,'BlocksProtocol']]],
   ['loopblock',['loopBlock',['../classBlock.html#a2c6b3c425b9b8cb708b23e553fa81324a53a61b7ffc6c027d254d52373a5d2d2b',1,'Block']]],
   ['love',['love',['../classControlButton.html#a891776295057786f99f14631b1aa2794a628e6207ba0dd67b2b5be3fc96886141',1,'ControlButton']]],
+  ['low',['low',['../structPushNotifications_1_1Channel.html#ad32bec50436a8d988e0c64fcb75b65efa6bbd5f3cdb8cfff4cfd1757b1392b164',1,'PushNotifications::Channel']]],
   ['lowestnoteonchannel',['lowestNoteOnChannel',['../classMPEInstrument.html#a6253ed9c5e70322645b02865c70dc0b6a47f69f12a40825822a72ff0e4e8f5c4b',1,'MPEInstrument']]],
   ['lowpass',['lowPass',['../structdsp_1_1StateVariableFilter_1_1Parameters.html#a87d3f04b51a089f786e2fa24539f7b20a30b882e8d16c0cebb115332d4b7652ec',1,'dsp::StateVariableFilter::Parameters']]],
   ['lowpriority',['LowPriority',['../classProcess.html#ad7b18ceb7a8c0a2b6b71856894feb6efad7f3e46785b41d6d5db5e7afab065281',1,'Process']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['juce_5fanalytics',['juce_analytics',['../group__juce__analytics.html',1,'']]],
   ['juce_5faudio_5fbasics',['juce_audio_basics',['../group__juce__audio__basics.html',1,'']]],
   ['juce_5faudio_5fdevices',['juce_audio_devices',['../group__juce__audio__devices.html',1,'']]],
   ['juce_5faudio_5fformats',['juce_audio_formats',['../group__juce__audio__formats.html',1,'']]],

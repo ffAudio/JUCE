@@ -13,6 +13,7 @@ var searchData=
   ['lavenderblush',['lavenderblush',['../classColours.html#a189b1d3e8c5a8f324de759efc8325496',1,'Colours']]],
   ['lawngreen',['lawngreen',['../classColours.html#a1f203cbbc3766ae11fcd53fda4eb4812',1,'Colours']]],
   ['leading',['leading',['../classTextLayout_1_1Line.html#a9ff2dde46ca08de8bfd9f69a3b4409ba',1,'TextLayout::Line']]],
+  ['ledcolour',['ledColour',['../structPushNotifications_1_1Channel.html#a75aa06184218712129d1646ed0715ef8',1,'PushNotifications::Channel']]],
   ['left',['left',['../structFlexItem_1_1Margin.html#a7db889eb288018455d37a9da2591a354',1,'FlexItem::Margin::left()'],['../structGridItem_1_1Margin.html#acb841b98450819da9e9bb81b3d9e0a5a',1,'GridItem::Margin::left()'],['../structRelativeCoordinate_1_1Strings.html#ad3b2d7198a43883ea4c4b64f44e0faf5',1,'RelativeCoordinate::Strings::left()'],['../classRelativeRectangle.html#a4418206ad8d8830d55d37a3bdefbe085',1,'RelativeRectangle::left()']]],
   ['leftkey',['leftKey',['../classKeyPress.html#ad2961244072158eee77e11844a968f61',1,'KeyPress']]],
   ['leftmost',['leftmost',['../structVstEditorBounds.html#a624bc315686fb475aa3faa3c5ac6a6fb',1,'VstEditorBounds']]],
@@ -44,6 +45,7 @@ var searchData=
   ['listeners',['listeners',['../classControlButton.html#a855a438e559c21cee293ed824d138b26',1,'ControlButton::listeners()'],['../classTouchSurface.html#a42d2c6dcee747e2511f2bea4884c96a7',1,'TouchSurface::listeners()'],['../classTopologySource.html#a3c9f12605642baff76d5da04e9452b3d',1,'TopologySource::listeners()'],['../classImagePixelData.html#ad5691cb6ebf342c88985e139e8891b85',1,'ImagePixelData::listeners()'],['../classDirectoryContentsDisplayComponent.html#a5f7300e0d637b48e8a2f3abd067a7144',1,'DirectoryContentsDisplayComponent::listeners()']]],
   ['localposition',['localPosition',['../classDragAndDropTarget_1_1SourceDetails.html#ae56f0216335992ae66fdfacc3f4c6837',1,'DragAndDropTarget::SourceDetails']]],
   ['lock',['lock',['../classMPEInstrument.html#ad41d0a0ff109319ceab4a72ebca7187e',1,'MPEInstrument::lock()'],['../classSynthesiser.html#ab55f2810b6455736110264625a25c4a6',1,'Synthesiser::lock()']]],
+  ['lockscreenappearance',['lockScreenAppearance',['../structPushNotifications_1_1Channel.html#a837c6ee545c60591bfc2c925e110be26',1,'PushNotifications::Channel']]],
   ['loopendposition',['loopEndPosition',['../structVstTimingInformation.html#a7d557ffa000284960dd44ae590a42164',1,'VstTimingInformation']]],
   ['loopstartposition',['loopStartPosition',['../structVstTimingInformation.html#adb7114e1e3e246c6e657197ab55e76d9',1,'VstTimingInformation']]],
   ['lower',['lower',['../structVstEditorBounds.html#a2f1d473a71ed05bd4ba02c14b31bc389',1,'VstEditorBounds']]]

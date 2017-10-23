@@ -38,6 +38,7 @@ var searchData=
   ['notestarted',['noteStarted',['../classMPESynthesiserVoice.html#ae10c1cdfb37208b96b56863d47a3a193',1,'MPESynthesiserVoice']]],
   ['notestopped',['noteStopped',['../classMPESynthesiserVoice.html#a60d75565bb6ef14262aa3e5ab5c94328',1,'MPESynthesiserVoice']]],
   ['notetimbrechanged',['noteTimbreChanged',['../classMPEInstrument_1_1Listener.html#a2479e31f024803b3a3379341c5a6fda1',1,'MPEInstrument::Listener::noteTimbreChanged()'],['../classMPESynthesiser.html#ae8a1c829e7c570e844d855ce8c1cbec0',1,'MPESynthesiser::noteTimbreChanged()'],['../classMPESynthesiserVoice.html#ad2f36b71807fd1ac15c52f480702112f',1,'MPESynthesiserVoice::noteTimbreChanged()']]],
+  ['notificationsettingsreceived',['notificationSettingsReceived',['../structPushNotifications_1_1Listener.html#a9a6370753d58340c39e342325143c499',1,'PushNotifications::Listener']]],
   ['notify',['notify',['../classThread.html#ae0e6408f187557bb06c8fff07c4100b7',1,'Thread']]],
   ['nsviewcomponent',['NSViewComponent',['../classNSViewComponent.html#a47f7a2b57ee9175115e1d8c5206e191f',1,'NSViewComponent']]],
   ['nudge',['nudge',['../classAnimatedPosition.html#aa58f2a396a133f7325322b5eeb9b1d3b',1,'AnimatedPosition']]],

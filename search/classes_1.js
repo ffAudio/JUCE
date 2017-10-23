@@ -36,5 +36,6 @@ var searchData=
   ['buttonattachment',['ButtonAttachment',['../classAudioProcessorValueTreeState_1_1ButtonAttachment.html',1,'AudioProcessorValueTreeState']]],
   ['buttoninfo',['ButtonInfo',['../structBlocksProtocol_1_1BlockDataSheet_1_1ButtonInfo.html',1,'BlocksProtocol::BlockDataSheet']]],
   ['buttonpropertycomponent',['ButtonPropertyComponent',['../classButtonPropertyComponent.html',1,'']]],
+  ['buttontracker',['ButtonTracker',['../classButtonTracker.html',1,'']]],
   ['byteorder',['ByteOrder',['../classByteOrder.html',1,'']]]
 ];
