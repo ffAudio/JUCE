@@ -113,7 +113,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acb156d8372050ce2ba83613a0c5ae042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a notification that can be sent or received.  <a href="#acb156d8372050ce2ba83613a0c5ae042">More...</a><br/></td></tr>
 <tr class="separator:acb156d8372050ce2ba83613a0c5ae042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa92831c603c8ff0ae154474ea8790dd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPushNotifications.html#aa92831c603c8ff0ae154474ea8790dd5">requestPermissionsWithSettings</a> (const <a class="el" href="structPushNotifications_1_1Settings.html">Settings</a> &amp;s)</td></tr>
-<tr class="memdesc:aa92831c603c8ff0ae154474ea8790dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes push notifications on current device with the settings provided.  <a href="#aa92831c603c8ff0ae154474ea8790dd5">More...</a><br/></td></tr>
+<tr class="memdesc:aa92831c603c8ff0ae154474ea8790dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises push notifications on current device with the settings provided.  <a href="#aa92831c603c8ff0ae154474ea8790dd5">More...</a><br/></td></tr>
 <tr class="separator:aa92831c603c8ff0ae154474ea8790dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ff861e614e0e2ddd7f8a7d21bc2234f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPushNotifications.html#a3ff861e614e0e2ddd7f8a7d21bc2234f">requestSettingsUsed</a> ()</td></tr>
 <tr class="memdesc:a3ff861e614e0e2ddd7f8a7d21bc2234f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an asynchronous request to retrieve current settings that are currently in use.  <a href="#a3ff861e614e0e2ddd7f8a7d21bc2234f">More...</a><br/></td></tr>
@@ -222,8 +222,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initializes push notifications on current device with the settings provided. </p>
-<p>Call this on your application startup and on iOS the first time the application starts, a user will be presented with a permission request dialog to give push notifications permission. Once a user responds, <a class="el" href="structPushNotifications_1_1Listener.html#a9a6370753d58340c39e342325143c499" title="This callback will be called after you call requestSettingsUsed() or requestPermissionsWithSettings()...">Listener::notificationSettingsReceived()</a> will be called so that you can check what permissions where actually granted. The listener callback will be called on each subsequent startup too (provided you called <a class="el" href="classPushNotifications.html#aa92831c603c8ff0ae154474ea8790dd5" title="Initializes push notifications on current device with the settings provided. ">requestPermissionsWithSettings()</a> on previous application run). This way you can check what are current push notifications permissions.</p>
+<p>Initialises push notifications on current device with the settings provided. </p>
+<p>Call this on your application startup and on iOS the first time the application starts, a user will be presented with a permission request dialog to give push notifications permission. Once a user responds, <a class="el" href="structPushNotifications_1_1Listener.html#a9a6370753d58340c39e342325143c499" title="This callback will be called after you call requestSettingsUsed() or requestPermissionsWithSettings()...">Listener::notificationSettingsReceived()</a> will be called so that you can check what permissions where actually granted. The listener callback will be called on each subsequent startup too (provided you called <a class="el" href="classPushNotifications.html#aa92831c603c8ff0ae154474ea8790dd5" title="Initialises push notifications on current device with the settings provided. ">requestPermissionsWithSettings()</a> on previous application run). This way you can check what are current push notifications permissions.</p>
 <p>Note that settings are currently only used on iOS. When calling on other platforms, <a class="el" href="structPushNotifications_1_1Settings.html" title="Describes settings we want to use for current device. ">Settings</a> with no categories and all allow* flags set to true will be received in <a class="el" href="structPushNotifications_1_1Listener.html#a9a6370753d58340c39e342325143c499" title="This callback will be called after you call requestSettingsUsed() or requestPermissionsWithSettings()...">Listener::notificationSettingsReceived()</a>.</p>
 <p>You can also call <a class="el" href="classPushNotifications.html#a3ff861e614e0e2ddd7f8a7d21bc2234f" title="Sends an asynchronous request to retrieve current settings that are currently in use. ">requestSettingsUsed()</a> to explicitly ask for current settings. </p>
 
@@ -243,7 +243,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sends an asynchronous request to retrieve current settings that are currently in use. </p>
-<p>These can be exactly the same as used in <a class="el" href="classPushNotifications.html#aa92831c603c8ff0ae154474ea8790dd5" title="Initializes push notifications on current device with the settings provided. ">requestPermissionsWithSettings()</a>, but depending on user's subsequent changes in OS settings, the actual current settings may be different (e.g. user might have later decided to disable sounds).</p>
+<p>These can be exactly the same as used in <a class="el" href="classPushNotifications.html#aa92831c603c8ff0ae154474ea8790dd5" title="Initialises push notifications on current device with the settings provided. ">requestPermissionsWithSettings()</a>, but depending on user's subsequent changes in OS settings, the actual current settings may be different (e.g. user might have later decided to disable sounds).</p>
 <p>Note that settings are currently only used on iOS. When calling on other platforms, <a class="el" href="structPushNotifications_1_1Settings.html" title="Describes settings we want to use for current device. ">Settings</a> with no categories and all allow* flags set to true will be received in <a class="el" href="structPushNotifications_1_1Listener.html#a9a6370753d58340c39e342325143c499" title="This callback will be called after you call requestSettingsUsed() or requestPermissionsWithSettings()...">Listener::notificationSettingsReceived()</a>. </p>
 
 </div>
@@ -735,7 +735,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 24 2017 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

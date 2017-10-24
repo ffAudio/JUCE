@@ -636,6 +636,7 @@ var searchData=
   ['settextlabelposition',['setTextLabelPosition',['../classGroupComponent.html#a5fe2992e7dbcabe59bbcaabb05cb7b9c',1,'GroupComponent']]],
   ['settexttodisplay',['setTextToDisplay',['../classProgressBar.html#a3487f138651d8bc5a29a2586d4862b55',1,'ProgressBar']]],
   ['settexttoshowwhenempty',['setTextToShowWhenEmpty',['../classTextEditor.html#a868535223456be989e6d3411bf62f2d2',1,'TextEditor']]],
+  ['settexturemagnificationfilter',['setTextureMagnificationFilter',['../classOpenGLContext.html#aab1cd9a903ab462292b108f232244983',1,'OpenGLContext']]],
   ['settextvaluesuffix',['setTextValueSuffix',['../classSlider.html#ac416a101b5d9a504f61e2f50dc593f61',1,'Slider']]],
   ['settextwhennochoicesavailable',['setTextWhenNoChoicesAvailable',['../classComboBox.html#aac6093916748d66bb8e83373105c0e85',1,'ComboBox']]],
   ['settextwhennothingselected',['setTextWhenNothingSelected',['../classComboBox.html#aa06d9e5b0437bc1717c761e0b9df8be5',1,'ComboBox']]],

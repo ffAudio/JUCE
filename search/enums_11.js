@@ -1,6 +1,7 @@
 var searchData=
 [
   ['textentryboxposition',['TextEntryBoxPosition',['../classSlider.html#ab6d7dff67151c029b9cb53fc40b4412f',1,'Slider']]],
+  ['texturemagnificationfilter',['TextureMagnificationFilter',['../classOpenGLContext.html#a290ba62cfd70359da387047556f42b0a',1,'OpenGLContext']]],
   ['titlebarbuttons',['TitleBarButtons',['../classDocumentWindow.html#a104d68bc145157c6ce79169a36fc3c31',1,'DocumentWindow']]],
   ['tokentype',['TokenType',['../classCPlusPlusCodeTokeniser.html#a757e9a2599a0e15b536754f99aeb0257',1,'CPlusPlusCodeTokeniser::TokenType()'],['../classLuaTokeniser.html#a6acf67b2015d8048909908ad2aa1f920',1,'LuaTokeniser::TokenType()'],['../classXmlTokeniser.html#a1d3dd4eb8d41b8e03bececf10cc11f10',1,'XmlTokeniser::TokenType()']]],
   ['toolbareditingmode',['ToolbarEditingMode',['../classToolbarItemComponent.html#ad499f9f48a5149685ab8da86244fd4e4',1,'ToolbarItemComponent']]],

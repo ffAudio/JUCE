@@ -21,6 +21,7 @@ var searchData=
   ['lfe2',['LFE2',['../classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652ea0fdd29070c1802006e6e0601614a5774',1,'AudioChannelSet']]],
   ['liftsensitivity',['liftSensitivity',['../classControlButton.html#a891776295057786f99f14631b1aa2794ae11770d81559478b6e7ba9e8c4c8b01d',1,'ControlButton::liftSensitivity()'],['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79af81156b75b774460ac7e342e9ffde1eb',1,'BlocksProtocol::liftSensitivity()']]],
   ['lightpadblock',['lightPadBlock',['../classBlock.html#a2c6b3c425b9b8cb708b23e553fa81324ae901f3708edf53ccf96ff94ff361a3fa',1,'Block']]],
+  ['linear',['linear',['../classOpenGLContext.html#a290ba62cfd70359da387047556f42b0aafd6e8b3423b615a0068231b07db5cbd1',1,'OpenGLContext']]],
   ['linearbar',['LinearBar',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a0092c810419dab80d4692363d9564c5d',1,'Slider']]],
   ['linearbarvertical',['LinearBarVertical',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a8a942813d4d457e0344e725bd9faffc5',1,'Slider']]],
   ['linearhorizontal',['LinearHorizontal',['../classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a0fa5cefcd508c8f26ac9a458272844f9',1,'Slider']]],

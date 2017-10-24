@@ -21,6 +21,7 @@ var searchData=
   ['naturalfilecomparator',['NaturalFileComparator',['../structFile_1_1NaturalFileComparator.html#adf4f4af4bc21c7efbc6d20d89b233f0e',1,'File::NaturalFileComparator']]],
   ['navajowhite',['navajowhite',['../classColours.html#a3aae0d537d9c4103f0be6e84443bae6f',1,'Colours']]],
   ['navy',['navy',['../classColours.html#a2f4e6cbbf218f698b25a8e08c787068f',1,'Colours']]],
+  ['nearest',['nearest',['../classOpenGLContext.html#a290ba62cfd70359da387047556f42b0aae8efea5c05a9c52d15f3d027bafe76be',1,'OpenGLContext']]],
   ['needs_5ftrans',['NEEDS_TRANS',['../group__juce__core-text.html#gafeb9a504a09d3e5d1148fb0c40413ae2',1,'juce_LocalisedStrings.h']]],
   ['needstobesaved',['needsToBeSaved',['../classPropertiesFile.html#af9e77e3bde952ed5face05c19cd51ed4',1,'PropertiesFile']]],
   ['needtoclip',['needToClip',['../classLowLevelGraphicsPostScriptRenderer.html#a75772619fb8c5d185cd82b48ee46822e',1,'LowLevelGraphicsPostScriptRenderer']]],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['natural',['natural',['../classAttributedString.html#a254fea6774b4e74f786cc5ad3abac400ab64fe4e1ad4457691eabf047b0b48c89',1,'AttributedString']]],
+  ['nearest',['nearest',['../classOpenGLContext.html#a290ba62cfd70359da387047556f42b0aae8efea5c05a9c52d15f3d027bafe76be',1,'OpenGLContext']]],
   ['nocursor',['NoCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a765994c253a794c44b2a919f39738917',1,'MouseCursor']]],
   ['nodisc',['noDisc',['../classAudioCDBurner.html#a75c01de0b51d56d6f78a1b56ff4da846ab4602a1c02a02d0110903869162ca325',1,'AudioCDBurner']]],
   ['noicon',['NoIcon',['../classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a6b6648ee3f02f6832d897a214c647421',1,'AlertWindow']]],

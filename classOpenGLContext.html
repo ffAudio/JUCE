@@ -99,6 +99,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a290ba62cfd70359da387047556f42b0a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a290ba62cfd70359da387047556f42b0a">TextureMagnificationFilter</a> { <a class="el" href="classOpenGLContext.html#a290ba62cfd70359da387047556f42b0aae8efea5c05a9c52d15f3d027bafe76be">nearest</a>, 
+<a class="el" href="classOpenGLContext.html#a290ba62cfd70359da387047556f42b0aafd6e8b3423b615a0068231b07db5cbd1">linear</a>
+ }</td></tr>
+<tr class="memdesc:a290ba62cfd70359da387047556f42b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Texture magnification filters, used by <a class="el" href="classOpenGLContext.html#aab1cd9a903ab462292b108f232244983" title="Sets the texture magnification filter. ">setTextureMagnificationFilter()</a>.  <a href="classOpenGLContext.html#a290ba62cfd70359da387047556f42b0a">More...</a><br/></td></tr>
+<tr class="separator:a290ba62cfd70359da387047556f42b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a6b8eeed7dbc7c7c649528252c07d02"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02">OpenGLVersion</a> { <a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02abfbb3238e2943fa532a03e1473ac1baf">defaultGLVersion</a> = 0, 
 <a class="el" href="classOpenGLContext.html#a3a6b8eeed7dbc7c7c649528252c07d02a360335be2efbcff04897b872de9b8e45">openGL3_2</a>
  }</td></tr>
@@ -130,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb49920c5ee4e4694fa4cbd1700b2acb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#aeb49920c5ee4e4694fa4cbd1700b2acb">setPixelFormat</a> (const <a class="el" href="classOpenGLPixelFormat.html">OpenGLPixelFormat</a> &amp;preferredPixelFormat) noexcept</td></tr>
 <tr class="memdesc:aeb49920c5ee4e4694fa4cbd1700b2acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the pixel format which you'd like to use for the target GL surface.  <a href="#aeb49920c5ee4e4694fa4cbd1700b2acb">More...</a><br/></td></tr>
 <tr class="separator:aeb49920c5ee4e4694fa4cbd1700b2acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1cd9a903ab462292b108f232244983"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#aab1cd9a903ab462292b108f232244983">setTextureMagnificationFilter</a> (<a class="el" href="classOpenGLContext.html#a290ba62cfd70359da387047556f42b0a">TextureMagnificationFilter</a> magFilterMode) noexcept</td></tr>
+<tr class="memdesc:aab1cd9a903ab462292b108f232244983"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the texture magnification filter.  <a href="#aab1cd9a903ab462292b108f232244983">More...</a><br/></td></tr>
+<tr class="separator:aab1cd9a903ab462292b108f232244983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0129ecf603a0cc3034e4809a23812e4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenGLContext.html#a0129ecf603a0cc3034e4809a23812e4a">setNativeSharedContext</a> (void *nativeContextToShareWith) noexcept</td></tr>
 <tr class="memdesc:a0129ecf603a0cc3034e4809a23812e4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a context with which you'd like this context's resources to be shared.  <a href="#a0129ecf603a0cc3034e4809a23812e4a">More...</a><br/></td></tr>
 <tr class="separator:a0129ecf603a0cc3034e4809a23812e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,6 +233,26 @@ Friends</h2></td></tr>
 <p>Before your target component or <a class="el" href="classOpenGLRenderer.html" title="A base class that should be implemented by classes which want to render openGL on a background thread...">OpenGLRenderer</a> is deleted, you MUST call <a class="el" href="classOpenGLContext.html#a7504aa8928c854732090ee9583e9f37d" title="Detaches the context from its target component and deletes any native resources. ">detach()</a> or delete the <a class="el" href="classOpenGLContext.html" title="Creates an OpenGL context, which can be attached to a component. ">OpenGLContext</a> to allow the background thread to stop and the native resources to be freed safely.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOpenGLRenderer.html" title="A base class that should be implemented by classes which want to render openGL on a background thread...">OpenGLRenderer</a> </dd></dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a290ba62cfd70359da387047556f42b0a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classOpenGLContext.html#a290ba62cfd70359da387047556f42b0a">OpenGLContext::TextureMagnificationFilter</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Texture magnification filters, used by <a class="el" href="classOpenGLContext.html#aab1cd9a903ab462292b108f232244983" title="Sets the texture magnification filter. ">setTextureMagnificationFilter()</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a290ba62cfd70359da387047556f42b0aae8efea5c05a9c52d15f3d027bafe76be"></a>nearest</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a290ba62cfd70359da387047556f42b0aafd6e8b3423b615a0068231b07db5cbd1"></a>linear</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="a3a6b8eeed7dbc7c7c649528252c07d02"></a>
 <div class="memitem">
 <div class="memproto">
@@ -445,6 +473,33 @@ Friends</h2></td></tr>
 
 <p>Sets the pixel format which you'd like to use for the target GL surface. </p>
 <p>Note: This must be called BEFORE attaching your context to a target component! </p>
+
+</div>
+</div>
+<a class="anchor" id="aab1cd9a903ab462292b108f232244983"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenGLContext::setTextureMagnificationFilter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classOpenGLContext.html#a290ba62cfd70359da387047556f42b0a">TextureMagnificationFilter</a>&#160;</td>
+          <td class="paramname"><em>magFilterMode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the texture magnification filter. </p>
+<p>By default the texture magnification filter is linear. However, for faster rendering you may want to use the 'nearest' magnification filter. This option will not affect any textures created before this function was called. </p>
 
 </div>
 </div>
@@ -1104,7 +1159,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 24 2017 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
