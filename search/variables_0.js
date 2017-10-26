@@ -50,6 +50,7 @@ var searchData=
   ['attributeid',['attributeID',['../structOpenGLShaderProgram_1_1Attribute.html#a57907b3f4e21a42bae5d483b16b14f0f',1,'OpenGLShaderProgram::Attribute']]],
   ['autocolumns',['autoColumns',['../classGrid.html#a5bd50b3f91dfebb6ff06a39d2b3a3744',1,'Grid']]],
   ['autoflow',['autoFlow',['../classGrid.html#a9281a2b5ca845deb6bd2691c8449b4c7',1,'Grid']]],
+  ['autoopenmididevices',['autoOpenMidiDevices',['../classStandalonePluginHolder.html#ab167cba8a89e4a376c360b624ff6a70a',1,'StandalonePluginHolder']]],
   ['autorows',['autoRows',['../classGrid.html#a79c7bfbb5bab511a2b950f8f4d33ba5c',1,'Grid']]],
   ['autovalue',['autoValue',['../classFlexItem.html#af32603bdf7f814f6d73a999b54a34df6',1,'FlexItem']]],
   ['averageseconds',['averageSeconds',['../structPerformanceCounter_1_1Statistics.html#a1ddbe61fd1a766973cc19d9c3432a4c6',1,'PerformanceCounter::Statistics']]],

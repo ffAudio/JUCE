@@ -85,6 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classAudioParameterFloat-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AudioParameterFloat Class Reference<div class="ingroups"><a class="el" href="group__juce__audio__processors-utilities.html">utilities</a></div></div>  </div>
@@ -176,6 +177,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afb66a203959ef95de116341ecc2000b9 inherit pub_attribs_classAudioProcessorParameterWithID"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classAudioProcessorParameter.html#aef73dff71cb1abfdadd5b6f3649d7db2">Category</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameterWithID.html#afb66a203959ef95de116341ecc2000b9">category</a></td></tr>
 <tr class="memdesc:afb66a203959ef95de116341ecc2000b9 inherit pub_attribs_classAudioProcessorParameterWithID"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to the parameter's category.  <a href="#afb66a203959ef95de116341ecc2000b9">More...</a><br/></td></tr>
 <tr class="separator:afb66a203959ef95de116341ecc2000b9 inherit pub_attribs_classAudioProcessorParameterWithID"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ab80b7c29da5f9e162f87a22237870473"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioParameterFloat.html#ab80b7c29da5f9e162f87a22237870473">valueChanged</a> (float newValue)</td></tr>
+<tr class="memdesc:ab80b7c29da5f9e162f87a22237870473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override this method if you are interested in receiving callbacks when the parameter value changes.  <a href="#ab80b7c29da5f9e162f87a22237870473">More...</a><br/></td></tr>
+<tr class="separator:ab80b7c29da5f9e162f87a22237870473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -386,6 +393,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab80b7c29da5f9e162f87a22237870473"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AudioParameterFloat::valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Override this method if you are interested in receiving callbacks when the parameter value changes. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a7e860466dbc1319bc064cd6e7db382e3"></a>
 <div class="memitem">
@@ -407,7 +440,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 25 2017 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 27 2017 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
