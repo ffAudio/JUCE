@@ -10,6 +10,7 @@ var searchData=
   ['changes',['changes',['../classTextDiff.html#af3d45ea829e24a3ab37460646778bf82',1,'TextDiff']]],
   ['channel',['channel',['../structMidiRPNMessage.html#a06144aeca5c4cd011745881564329d16',1,'MidiRPNMessage']]],
   ['channelconfiguration',['channelConfiguration',['../classStandalonePluginHolder.html#aad5c101e55ab3e2f6f381f66f3889ad9',1,'StandalonePluginHolder']]],
+  ['channelindex',['channelIndex',['../structAudioProcessorGraph_1_1NodeAndChannel.html#ab0ad32f6d0aa7608798726fc42eaa11f',1,'AudioProcessorGraph::NodeAndChannel']]],
   ['channellayout',['channelLayout',['../classAudioFormatWriter.html#abfd821aaba068593364888cb97c47a0b',1,'AudioFormatWriter']]],
   ['channels',['channels',['../structSpeakerMappings_1_1Mapping.html#a4bd54e10adf49ce9a185dae6b90d2218',1,'SpeakerMappings::Mapping']]],
   ['chartreuse',['chartreuse',['../classColours.html#aadcaa70cc7028fee7c6dba0a04926b6d',1,'Colours']]],

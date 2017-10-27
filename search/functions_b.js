@@ -68,7 +68,7 @@ var searchData=
   ['loadfromxml',['loadFromXml',['../classPluginDescription.html#a5fae3bea93cc8398b3c114dfd52bfd42',1,'PluginDescription']]],
   ['loadglyphifpossible',['loadGlyphIfPossible',['../classCustomTypeface.html#a3d46ee607d4e0e1a7eb2a67f670fd9e5',1,'CustomTypeface']]],
   ['loadimage',['loadImage',['../classOpenGLTexture.html#a93c27d490ac810bc0faef0796aa05bc4',1,'OpenGLTexture']]],
-  ['loadimpulseresponse',['loadImpulseResponse',['../classdsp_1_1Convolution.html#a072d812123b26be0dd7608e9360acf87',1,'dsp::Convolution::loadImpulseResponse(const void *sourceData, size_t sourceDataSize, bool wantsStereo, bool wantsTrimming, size_t size)'],['../classdsp_1_1Convolution.html#ae275d81a6b6f33db06808b65ff3a6023',1,'dsp::Convolution::loadImpulseResponse(const File &amp;fileImpulseResponse, bool wantsStereo, bool wantsTrimming, size_t size)']]],
+  ['loadimpulseresponse',['loadImpulseResponse',['../classdsp_1_1Convolution.html#aa0416dd0cd565622a4eaba9e2a49c67c',1,'dsp::Convolution::loadImpulseResponse(const void *sourceData, size_t sourceDataSize, bool wantsStereo, bool wantsTrimming, size_t size, bool wantsNormalization=true)'],['../classdsp_1_1Convolution.html#a7ee4938386284fe47bbf123949e7e7d0',1,'dsp::Convolution::loadImpulseResponse(const File &amp;fileImpulseResponse, bool wantsStereo, bool wantsTrimming, size_t size, bool wantsNormalization=true)']]],
   ['loadnewthumb',['loadNewThumb',['../classAudioThumbnailCache.html#a70a034bb9341604fe41b7bcfe613ba12',1,'AudioThumbnailCache']]],
   ['loadpathfromdata',['loadPathFromData',['../classPath.html#a1f89b06ebcaac3150d8e6a1483ce1e28',1,'Path']]],
   ['loadpathfromstream',['loadPathFromStream',['../classPath.html#a00e0e38020c035feb29e498a0ab93433',1,'Path']]],

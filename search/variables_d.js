@@ -7,7 +7,7 @@ var searchData=
   ['navy',['navy',['../classColours.html#a2f4e6cbbf218f698b25a8e08c787068f',1,'Colours']]],
   ['needtoclip',['needToClip',['../classLowLevelGraphicsPostScriptRenderer.html#a75772619fb8c5d185cd82b48ee46822e',1,'LowLevelGraphicsPostScriptRenderer']]],
   ['newline',['newLine',['../group__juce__core-text.html#gabd231b88341c3e2c328178d34f3ce8fb',1,'juce_NewLine.h']]],
-  ['nodeid',['nodeId',['../classAudioProcessorGraph_1_1Node.html#a48f9b1360b965f9d0c124b690a50b0b4',1,'AudioProcessorGraph::Node']]],
+  ['nodeid',['nodeID',['../structAudioProcessorGraph_1_1NodeAndChannel.html#a8bdf77b5a1f56eb515931cd8bdc1117f',1,'AudioProcessorGraph::NodeAndChannel::nodeID()'],['../classAudioProcessorGraph_1_1Node.html#aef3c930c29a9df8a92db6604f61db885',1,'AudioProcessorGraph::Node::nodeID()']]],
   ['nonzerowinding',['nonZeroWinding',['../classDrawablePath_1_1ValueTreeWrapper.html#a233cbbc5988e65e249c94820af5b6beb',1,'DrawablePath::ValueTreeWrapper']]],
   ['notassigned',['notAssigned',['../classFlexItem.html#ae610cab6b383c97d0fc4363cbd22adcb',1,'FlexItem']]],
   ['noteid',['noteID',['../structMPENote.html#aa718127706bfef0ea4bb58a5dd4fd65a',1,'MPENote']]],

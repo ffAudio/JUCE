@@ -84,8 +84,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classAudioProcessorGraph-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AudioProcessorGraph Class Reference<div class="ingroups"><a class="el" href="group__juce__audio__processors-processors.html">processors</a></div></div>  </div>
@@ -97,7 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for AudioProcessorGraph:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classAudioProcessorGraph__inherit__graph.svg" width="255" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classAudioProcessorGraph__inherit__graph.svg" width="416" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -112,6 +112,38 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents one of the nodes, or processors, in an <a class="el" href="classAudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. ">AudioProcessorGraph</a>.  <a href="classAudioProcessorGraph_1_1Node.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioProcessorGraph_1_1NodeAndChannel.html">NodeAndChannel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents an input or output channel of a node in an <a class="el" href="classAudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. ">AudioProcessorGraph</a>.  <a href="structAudioProcessorGraph_1_1NodeAndChannel.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a90d6609d5eaf0c722974067e8aeb1a2d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classAudioProcessorGraph.html#a90d6609d5eaf0c722974067e8aeb1a2da9b786f73b4d7c08b308e827381104325">midiChannelIndex</a> = 0x1000
+ }</td></tr>
+<tr class="memdesc:a90d6609d5eaf0c722974067e8aeb1a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A special index that represents the midi channel of a node.  <a href="classAudioProcessorGraph.html#a90d6609d5eaf0c722974067e8aeb1a2d">More...</a><br/></td></tr>
+<tr class="separator:a90d6609d5eaf0c722974067e8aeb1a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c3ffdb34eedb11492e3965fcce8aa3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a></td></tr>
+<tr class="memdesc:a06c3ffdb34eedb11492e3965fcce8aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each node in the graph has a UID of this type.  <a href="#a06c3ffdb34eedb11492e3965fcce8aa3">More...</a><br/></td></tr>
+<tr class="separator:a06c3ffdb34eedb11492e3965fcce8aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classAudioProcessor"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classAudioProcessor')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classAudioProcessor.html">AudioProcessor</a></td></tr>
+<tr class="memitem:a212c3670b59976559237cbf629af275f inherit pub_types_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275f">ProcessingPrecision</a> { <a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275fabe443816497d7aa69a1cb30a0095dd22">singlePrecision</a>, 
+<a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275fa9dd64cbb15d8e16c897da5e47189d20c">doublePrecision</a>
+ }</td></tr>
+<tr class="separator:a212c3670b59976559237cbf629af275f inherit pub_types_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e1b21b8831ac529965abffc96223dcf inherit pub_types_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a> { <br/>
+&#160;&#160;<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaeb155b5982c79f733c4bee215678fc97">wrapperType_Undefined</a> = 0, 
+<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa5313891416ab9b1b2ae5db6b673e4061">wrapperType_VST</a>, 
+<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfac12c7f266e9f234367307597b332fa10">wrapperType_VST3</a>, 
+<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa3942e92d75c1edf6096405a400a12100">wrapperType_AudioUnit</a>, 
+<br/>
+&#160;&#160;<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa24c1746c07b93d66ef9a906285c3d782">wrapperType_AudioUnitv3</a>, 
+<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa0d1334a563a3764a0a026703fec73ff6">wrapperType_RTAS</a>, 
+<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa9a43d586134e1bf0ceacdd2de2defbb3">wrapperType_AAX</a>, 
+<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaad6832e63028f039a818f3eed72cf06f">wrapperType_Standalone</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:a2e1b21b8831ac529965abffc96223dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags to indicate the type of plugin context in which a processor is being used.  <a href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">More...</a><br/></td></tr>
+<tr class="separator:a2e1b21b8831ac529965abffc96223dcf inherit pub_types_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -124,54 +156,55 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13486fcb6b0a740331b0cecb3d22109f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a13486fcb6b0a740331b0cecb3d22109f">clear</a> ()</td></tr>
 <tr class="memdesc:a13486fcb6b0a740331b0cecb3d22109f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all nodes and connections from this graph.  <a href="#a13486fcb6b0a740331b0cecb3d22109f">More...</a><br/></td></tr>
 <tr class="separator:a13486fcb6b0a740331b0cecb3d22109f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad999b79c8a9c1bee1d731675e0177135"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a><br class="typebreak"/>
+&lt; <a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ad999b79c8a9c1bee1d731675e0177135">getNodes</a> () const noexcept</td></tr>
+<tr class="memdesc:ad999b79c8a9c1bee1d731675e0177135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the array of nodes in the graph.  <a href="#ad999b79c8a9c1bee1d731675e0177135">More...</a><br/></td></tr>
+<tr class="separator:ad999b79c8a9c1bee1d731675e0177135"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac54590c31a8423051aef75cc3f1edc6f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ac54590c31a8423051aef75cc3f1edc6f">getNumNodes</a> () const noexcept</td></tr>
 <tr class="memdesc:ac54590c31a8423051aef75cc3f1edc6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of nodes in the graph.  <a href="#ac54590c31a8423051aef75cc3f1edc6f">More...</a><br/></td></tr>
 <tr class="separator:ac54590c31a8423051aef75cc3f1edc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac056f909144eda97eafe417423f08e30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ac056f909144eda97eafe417423f08e30">getNode</a> (const int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
-<tr class="memdesc:ac056f909144eda97eafe417423f08e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to one of the nodes in the graph.  <a href="#ac056f909144eda97eafe417423f08e30">More...</a><br/></td></tr>
-<tr class="separator:ac056f909144eda97eafe417423f08e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2cf79e6540bb6a95df2c6e8fbe14b2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ab2cf79e6540bb6a95df2c6e8fbe14b2f">getNodeForId</a> (const <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> nodeId) const </td></tr>
-<tr class="memdesc:ab2cf79e6540bb6a95df2c6e8fbe14b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the graph for a node with the given ID number and returns it.  <a href="#ab2cf79e6540bb6a95df2c6e8fbe14b2f">More...</a><br/></td></tr>
-<tr class="separator:ab2cf79e6540bb6a95df2c6e8fbe14b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a75a45b9daea9e424ea327b924e4bf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a6a75a45b9daea9e424ea327b924e4bf9">addNode</a> (<a class="el" href="classAudioProcessor.html">AudioProcessor</a> *newProcessor, <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> nodeId=0)</td></tr>
-<tr class="memdesc:a6a75a45b9daea9e424ea327b924e4bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a node to the graph.  <a href="#a6a75a45b9daea9e424ea327b924e4bf9">More...</a><br/></td></tr>
-<tr class="separator:a6a75a45b9daea9e424ea327b924e4bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35e6dcbafebe8ac84db3dad6983aad6c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a35e6dcbafebe8ac84db3dad6983aad6c">removeNode</a> (<a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> nodeId)</td></tr>
-<tr class="memdesc:a35e6dcbafebe8ac84db3dad6983aad6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a node within the graph which has the specified ID.  <a href="#a35e6dcbafebe8ac84db3dad6983aad6c">More...</a><br/></td></tr>
-<tr class="separator:a35e6dcbafebe8ac84db3dad6983aad6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5161ef424f00408c904f4cc09ab25e44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a5161ef424f00408c904f4cc09ab25e44">removeNode</a> (<a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> *node)</td></tr>
-<tr class="memdesc:a5161ef424f00408c904f4cc09ab25e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a node within the graph.  <a href="#a5161ef424f00408c904f4cc09ab25e44">More...</a><br/></td></tr>
-<tr class="separator:a5161ef424f00408c904f4cc09ab25e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ec854f3964347bcc429bed74b1c0143"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a5ec854f3964347bcc429bed74b1c0143">getNumConnections</a> () const </td></tr>
-<tr class="memdesc:a5ec854f3964347bcc429bed74b1c0143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of connections in the graph.  <a href="#a5ec854f3964347bcc429bed74b1c0143">More...</a><br/></td></tr>
-<tr class="separator:a5ec854f3964347bcc429bed74b1c0143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb71ccd0af51ad8c64df980836f53856"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#abb71ccd0af51ad8c64df980836f53856">getConnection</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const </td></tr>
-<tr class="memdesc:abb71ccd0af51ad8c64df980836f53856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to one of the connections in the graph.  <a href="#abb71ccd0af51ad8c64df980836f53856">More...</a><br/></td></tr>
-<tr class="separator:abb71ccd0af51ad8c64df980836f53856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecf825019c1bf0256105fc6c8ef130e7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#aecf825019c1bf0256105fc6c8ef130e7">getConnectionBetween</a> (<a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> sourceNodeId, int sourceChannelIndex, <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> destNodeId, int destChannelIndex) const </td></tr>
-<tr class="memdesc:aecf825019c1bf0256105fc6c8ef130e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for a connection between some specified channels.  <a href="#aecf825019c1bf0256105fc6c8ef130e7">More...</a><br/></td></tr>
-<tr class="separator:aecf825019c1bf0256105fc6c8ef130e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f52ec181d8aabf723170d69b4bf4d7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a9f52ec181d8aabf723170d69b4bf4d7d">isConnected</a> (<a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> possibleSourceNodeId, <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> possibleDestNodeId) const </td></tr>
-<tr class="memdesc:a9f52ec181d8aabf723170d69b4bf4d7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there is a connection between any of the channels of two specified nodes.  <a href="#a9f52ec181d8aabf723170d69b4bf4d7d">More...</a><br/></td></tr>
-<tr class="separator:a9f52ec181d8aabf723170d69b4bf4d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e196b127080aa6cb3f3f395c2a9366f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a1e196b127080aa6cb3f3f395c2a9366f">canConnect</a> (<a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> sourceNodeId, int sourceChannelIndex, <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> destNodeId, int destChannelIndex) const </td></tr>
-<tr class="memdesc:a1e196b127080aa6cb3f3f395c2a9366f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if it would be legal to connect the specified points.  <a href="#a1e196b127080aa6cb3f3f395c2a9366f">More...</a><br/></td></tr>
-<tr class="separator:a1e196b127080aa6cb3f3f395c2a9366f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adde28972b8d725a3c9c7af43bbe0b569"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#adde28972b8d725a3c9c7af43bbe0b569">addConnection</a> (<a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> sourceNodeId, int sourceChannelIndex, <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> destNodeId, int destChannelIndex)</td></tr>
-<tr class="memdesc:adde28972b8d725a3c9c7af43bbe0b569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to connect two specified channels of two nodes.  <a href="#adde28972b8d725a3c9c7af43bbe0b569">More...</a><br/></td></tr>
-<tr class="separator:adde28972b8d725a3c9c7af43bbe0b569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59e7b99abf5a7a515e9659e2fbfd3cb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a59e7b99abf5a7a515e9659e2fbfd3cb5">removeConnection</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>)</td></tr>
-<tr class="memdesc:a59e7b99abf5a7a515e9659e2fbfd3cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the connection with the specified index.  <a href="#a59e7b99abf5a7a515e9659e2fbfd3cb5">More...</a><br/></td></tr>
-<tr class="separator:a59e7b99abf5a7a515e9659e2fbfd3cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24cb1c816cb611f1a22978976f50aed0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a24cb1c816cb611f1a22978976f50aed0">removeConnection</a> (<a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> sourceNodeId, int sourceChannelIndex, <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> destNodeId, int destChannelIndex)</td></tr>
-<tr class="memdesc:a24cb1c816cb611f1a22978976f50aed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes any connection between two specified points.  <a href="#a24cb1c816cb611f1a22978976f50aed0">More...</a><br/></td></tr>
-<tr class="separator:a24cb1c816cb611f1a22978976f50aed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fb912ad3add171eb08c6e58a66e1687"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a8fb912ad3add171eb08c6e58a66e1687">disconnectNode</a> (<a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> nodeId)</td></tr>
-<tr class="memdesc:a8fb912ad3add171eb08c6e58a66e1687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all connections from the specified node.  <a href="#a8fb912ad3add171eb08c6e58a66e1687">More...</a><br/></td></tr>
-<tr class="separator:a8fb912ad3add171eb08c6e58a66e1687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29eb5ea53c60de51a5ac7134804ed8b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a29eb5ea53c60de51a5ac7134804ed8b6">isConnectionLegal</a> (const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> *connection) const </td></tr>
-<tr class="memdesc:a29eb5ea53c60de51a5ac7134804ed8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given connection's channel numbers map on to valid channels at each end.  <a href="#a29eb5ea53c60de51a5ac7134804ed8b6">More...</a><br/></td></tr>
-<tr class="separator:a29eb5ea53c60de51a5ac7134804ed8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa00875edc9159873c52a5d7c9c9c4261"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#aa00875edc9159873c52a5d7c9c9c4261">getNode</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
+<tr class="memdesc:aa00875edc9159873c52a5d7c9c9c4261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to one of the nodes in the graph.  <a href="#aa00875edc9159873c52a5d7c9c9c4261">More...</a><br/></td></tr>
+<tr class="separator:aa00875edc9159873c52a5d7c9c9c4261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad60903fbff5501368bc2ac1b7e999d8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ad60903fbff5501368bc2ac1b7e999d8b">getNodeForId</a> (<a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>) const </td></tr>
+<tr class="memdesc:ad60903fbff5501368bc2ac1b7e999d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the graph for a node with the given ID number and returns it.  <a href="#ad60903fbff5501368bc2ac1b7e999d8b">More...</a><br/></td></tr>
+<tr class="separator:ad60903fbff5501368bc2ac1b7e999d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50c30b557187d34c17fe4c2e7505b0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessorGraph_1_1Node.html#a1cd4fece57dfbe4994e6a52ab7fca74c">Node::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ac50c30b557187d34c17fe4c2e7505b0d">addNode</a> (<a class="el" href="classAudioProcessor.html">AudioProcessor</a> *newProcessor, <a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a> nodeId={})</td></tr>
+<tr class="memdesc:ac50c30b557187d34c17fe4c2e7505b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a node to the graph.  <a href="#ac50c30b557187d34c17fe4c2e7505b0d">More...</a><br/></td></tr>
+<tr class="separator:ac50c30b557187d34c17fe4c2e7505b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc5f8fd4ff2feffea4503a6171af2e5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#acc5f8fd4ff2feffea4503a6171af2e5e">removeNode</a> (<a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>)</td></tr>
+<tr class="memdesc:acc5f8fd4ff2feffea4503a6171af2e5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a node within the graph which has the specified ID.  <a href="#acc5f8fd4ff2feffea4503a6171af2e5e">More...</a><br/></td></tr>
+<tr class="separator:acc5f8fd4ff2feffea4503a6171af2e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad728b99e2b86d460f5359e593c98c217"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ad728b99e2b86d460f5359e593c98c217">removeNode</a> (<a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> *)</td></tr>
+<tr class="memdesc:ad728b99e2b86d460f5359e593c98c217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a node within the graph.  <a href="#ad728b99e2b86d460f5359e593c98c217">More...</a><br/></td></tr>
+<tr class="separator:ad728b99e2b86d460f5359e593c98c217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63446c48455df7107ec9b48c574da1a4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a63446c48455df7107ec9b48c574da1a4">getConnections</a> () const </td></tr>
+<tr class="memdesc:a63446c48455df7107ec9b48c574da1a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of connections in the graph.  <a href="#a63446c48455df7107ec9b48c574da1a4">More...</a><br/></td></tr>
+<tr class="separator:a63446c48455df7107ec9b48c574da1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b2a4286b4f6c2f9f7d234b3002fd07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ac7b2a4286b4f6c2f9f7d234b3002fd07">isConnected</a> (const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;) const noexcept</td></tr>
+<tr class="memdesc:ac7b2a4286b4f6c2f9f7d234b3002fd07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given connection exists.  <a href="#ac7b2a4286b4f6c2f9f7d234b3002fd07">More...</a><br/></td></tr>
+<tr class="separator:ac7b2a4286b4f6c2f9f7d234b3002fd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41a3b4dcb0d82754de4f3619d59565a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a41a3b4dcb0d82754de4f3619d59565a9">isConnected</a> (<a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a> possibleSourceNodeID, <a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a> possibleDestNodeID) const noexcept</td></tr>
+<tr class="memdesc:a41a3b4dcb0d82754de4f3619d59565a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there is a direct connection between any of the channels of two specified nodes.  <a href="#a41a3b4dcb0d82754de4f3619d59565a9">More...</a><br/></td></tr>
+<tr class="separator:a41a3b4dcb0d82754de4f3619d59565a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba2001987674dbc8842568f79d2540a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a9ba2001987674dbc8842568f79d2540a">isAnInputTo</a> (<a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> &amp;source, <a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> &amp;destination) const noexcept</td></tr>
+<tr class="memdesc:a9ba2001987674dbc8842568f79d2540a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does a recursive check to see if there's a direct or indirect series of connections between these two nodes.  <a href="#a9ba2001987674dbc8842568f79d2540a">More...</a><br/></td></tr>
+<tr class="separator:a9ba2001987674dbc8842568f79d2540a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339022d4088a096e5149bf0bb95045b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a339022d4088a096e5149bf0bb95045b9">canConnect</a> (const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;) const </td></tr>
+<tr class="memdesc:a339022d4088a096e5149bf0bb95045b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if it would be legal to connect the specified points.  <a href="#a339022d4088a096e5149bf0bb95045b9">More...</a><br/></td></tr>
+<tr class="separator:a339022d4088a096e5149bf0bb95045b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae8de1a066fcf1850bd026763e978d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a2ae8de1a066fcf1850bd026763e978d1">addConnection</a> (const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;)</td></tr>
+<tr class="memdesc:a2ae8de1a066fcf1850bd026763e978d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to connect two specified channels of two nodes.  <a href="#a2ae8de1a066fcf1850bd026763e978d1">More...</a><br/></td></tr>
+<tr class="separator:a2ae8de1a066fcf1850bd026763e978d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab246dfc1b52eb0a7b58f7ded39288e8b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#ab246dfc1b52eb0a7b58f7ded39288e8b">removeConnection</a> (const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;)</td></tr>
+<tr class="memdesc:ab246dfc1b52eb0a7b58f7ded39288e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the given connection.  <a href="#ab246dfc1b52eb0a7b58f7ded39288e8b">More...</a><br/></td></tr>
+<tr class="separator:ab246dfc1b52eb0a7b58f7ded39288e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60812fead28a3bb348f0022d5d2bbaa8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a60812fead28a3bb348f0022d5d2bbaa8">disconnectNode</a> (<a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>)</td></tr>
+<tr class="memdesc:a60812fead28a3bb348f0022d5d2bbaa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all connections from the specified node.  <a href="#a60812fead28a3bb348f0022d5d2bbaa8">More...</a><br/></td></tr>
+<tr class="separator:a60812fead28a3bb348f0022d5d2bbaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0834cf8b1b4870587bf89a64b2a90da6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a0834cf8b1b4870587bf89a64b2a90da6">isConnectionLegal</a> (const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;) const </td></tr>
+<tr class="memdesc:a0834cf8b1b4870587bf89a64b2a90da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given connection's channel numbers map on to valid channels at each end.  <a href="#a0834cf8b1b4870587bf89a64b2a90da6">More...</a><br/></td></tr>
+<tr class="separator:a0834cf8b1b4870587bf89a64b2a90da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d025471473ded56797653edd4669220"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a3d025471473ded56797653edd4669220">removeIllegalConnections</a> ()</td></tr>
 <tr class="memdesc:a3d025471473ded56797653edd4669220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a sanity checks of all the connections.  <a href="#a3d025471473ded56797653edd4669220">More...</a><br/></td></tr>
 <tr class="separator:a3d025471473ded56797653edd4669220"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -477,34 +510,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a19f07b6c13420d4b9ddb6dc0caaeac77 inherit pub_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a19f07b6c13420d4b9ddb6dc0caaeac77">updateTrackProperties</a> (const <a class="el" href="structAudioProcessor_1_1TrackProperties.html">TrackProperties</a> &amp;properties)</td></tr>
 <tr class="memdesc:a19f07b6c13420d4b9ddb6dc0caaeac77 inherit pub_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> that track properties such as the track's name or colour has been changed.  <a href="#a19f07b6c13420d4b9ddb6dc0caaeac77">More...</a><br/></td></tr>
 <tr class="separator:a19f07b6c13420d4b9ddb6dc0caaeac77 inherit pub_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:acde235cdad97d2bba6dd828ceeb7c4e9"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#acde235cdad97d2bba6dd828ceeb7c4e9">midiChannelIndex</a></td></tr>
-<tr class="memdesc:acde235cdad97d2bba6dd828ceeb7c4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A special number that represents the midi channel of a node.  <a href="#acde235cdad97d2bba6dd828ceeb7c4e9">More...</a><br/></td></tr>
-<tr class="separator:acde235cdad97d2bba6dd828ceeb7c4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classChangeBroadcaster"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classChangeBroadcaster')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classChangeBroadcaster.html">ChangeBroadcaster</a></td></tr>
+<tr class="memitem:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a1c8ccfa186a47d58a05e7f1f1576c038">ChangeBroadcaster</a> () noexcept</td></tr>
+<tr class="memdesc:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>.  <a href="#a1c8ccfa186a47d58a05e7f1f1576c038">More...</a><br/></td></tr>
+<tr class="separator:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2f8465cc6c09c0583c8bdf56319742 inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a3b2f8465cc6c09c0583c8bdf56319742">~ChangeBroadcaster</a> ()</td></tr>
+<tr class="memdesc:a3b2f8465cc6c09c0583c8bdf56319742 inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a3b2f8465cc6c09c0583c8bdf56319742">More...</a><br/></td></tr>
+<tr class="separator:a3b2f8465cc6c09c0583c8bdf56319742 inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad68416fe79a94cd5c99519bdea6c2a06 inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#ad68416fe79a94cd5c99519bdea6c2a06">addChangeListener</a> (<a class="el" href="classChangeListener.html">ChangeListener</a> *listener)</td></tr>
+<tr class="memdesc:ad68416fe79a94cd5c99519bdea6c2a06 inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a listener to receive change callbacks from this broadcaster.  <a href="#ad68416fe79a94cd5c99519bdea6c2a06">More...</a><br/></td></tr>
+<tr class="separator:ad68416fe79a94cd5c99519bdea6c2a06 inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae558a26c795278549a63e342bd5f1650 inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#ae558a26c795278549a63e342bd5f1650">removeChangeListener</a> (<a class="el" href="classChangeListener.html">ChangeListener</a> *listener)</td></tr>
+<tr class="memdesc:ae558a26c795278549a63e342bd5f1650 inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters a listener from the list.  <a href="#ae558a26c795278549a63e342bd5f1650">More...</a><br/></td></tr>
+<tr class="separator:ae558a26c795278549a63e342bd5f1650 inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9c150078318d419debc82e6f22ce58 inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a6b9c150078318d419debc82e6f22ce58">removeAllChangeListeners</a> ()</td></tr>
+<tr class="memdesc:a6b9c150078318d419debc82e6f22ce58 inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all listeners from the list.  <a href="#a6b9c150078318d419debc82e6f22ce58">More...</a><br/></td></tr>
+<tr class="separator:a6b9c150078318d419debc82e6f22ce58 inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f01d1c0a7fde85355321985a682cbd inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a10f01d1c0a7fde85355321985a682cbd">sendChangeMessage</a> ()</td></tr>
+<tr class="memdesc:a10f01d1c0a7fde85355321985a682cbd inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Causes an asynchronous change message to be sent to all the registered listeners.  <a href="#a10f01d1c0a7fde85355321985a682cbd">More...</a><br/></td></tr>
+<tr class="separator:a10f01d1c0a7fde85355321985a682cbd inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d16cd01b9af4bacb1716530af17f77b inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a5d16cd01b9af4bacb1716530af17f77b">sendSynchronousChangeMessage</a> ()</td></tr>
+<tr class="memdesc:a5d16cd01b9af4bacb1716530af17f77b inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a synchronous change message to all the registered listeners.  <a href="#a5d16cd01b9af4bacb1716530af17f77b">More...</a><br/></td></tr>
+<tr class="separator:a5d16cd01b9af4bacb1716530af17f77b inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f62ecd57a016f8ba7a6ce55454947d inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a78f62ecd57a016f8ba7a6ce55454947d">dispatchPendingMessages</a> ()</td></tr>
+<tr class="memdesc:a78f62ecd57a016f8ba7a6ce55454947d inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a change message has been sent but not yet dispatched, this will call <a class="el" href="classChangeBroadcaster.html#a5d16cd01b9af4bacb1716530af17f77b" title="Sends a synchronous change message to all the registered listeners. ">sendSynchronousChangeMessage()</a> to make the callback immediately.  <a href="#a78f62ecd57a016f8ba7a6ce55454947d">More...</a><br/></td></tr>
+<tr class="separator:a78f62ecd57a016f8ba7a6ce55454947d inherit pub_methods_classChangeBroadcaster"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classAudioProcessor"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classAudioProcessor')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classAudioProcessor.html">AudioProcessor</a></td></tr>
-<tr class="memitem:a212c3670b59976559237cbf629af275f inherit pub_types_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275f">ProcessingPrecision</a> { <a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275fabe443816497d7aa69a1cb30a0095dd22">singlePrecision</a>, 
-<a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275fa9dd64cbb15d8e16c897da5e47189d20c">doublePrecision</a>
- }</td></tr>
-<tr class="separator:a212c3670b59976559237cbf629af275f inherit pub_types_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e1b21b8831ac529965abffc96223dcf inherit pub_types_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a> { <br/>
-&#160;&#160;<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaeb155b5982c79f733c4bee215678fc97">wrapperType_Undefined</a> = 0, 
-<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa5313891416ab9b1b2ae5db6b673e4061">wrapperType_VST</a>, 
-<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfac12c7f266e9f234367307597b332fa10">wrapperType_VST3</a>, 
-<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa3942e92d75c1edf6096405a400a12100">wrapperType_AudioUnit</a>, 
-<br/>
-&#160;&#160;<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa24c1746c07b93d66ef9a906285c3d782">wrapperType_AudioUnitv3</a>, 
-<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa0d1334a563a3764a0a026703fec73ff6">wrapperType_RTAS</a>, 
-<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa9a43d586134e1bf0ceacdd2de2defbb3">wrapperType_AAX</a>, 
-<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaad6832e63028f039a818f3eed72cf06f">wrapperType_Standalone</a>
-<br/>
- }</td></tr>
-<tr class="memdesc:a2e1b21b8831ac529965abffc96223dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags to indicate the type of plugin context in which a processor is being used.  <a href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">More...</a><br/></td></tr>
-<tr class="separator:a2e1b21b8831ac529965abffc96223dcf inherit pub_types_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classAudioProcessor"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classAudioProcessor')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classAudioProcessor.html">AudioProcessor</a></td></tr>
 <tr class="memitem:a825862aa6d73086c8c088ec18ee6999e inherit pub_static_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a825862aa6d73086c8c088ec18ee6999e">containsLayout</a> (const <a class="el" href="structAudioProcessor_1_1BusesLayout.html">BusesLayout</a> &amp;layouts, const std::initializer_list&lt; const short[2]&gt; &amp;channelLayoutList)</td></tr>
 <tr class="memdesc:a825862aa6d73086c8c088ec18ee6999e inherit pub_static_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the channel layout map contains a certain layout.  <a href="#a825862aa6d73086c8c088ec18ee6999e">More...</a><br/></td></tr>
@@ -555,9 +588,44 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A type of <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> which plays back a graph of other AudioProcessors. </p>
 <p>Use one of these objects if you want to wire-up a set of AudioProcessors and play back the result.</p>
-<p>Processors can be added to the graph as "nodes" using <a class="el" href="classAudioProcessorGraph.html#a6a75a45b9daea9e424ea327b924e4bf9" title="Adds a node to the graph. ">addNode()</a>, and once added, you can connect any of their input or output channels to other nodes using <a class="el" href="classAudioProcessorGraph.html#adde28972b8d725a3c9c7af43bbe0b569" title="Attempts to connect two specified channels of two nodes. ">addConnection()</a>.</p>
+<p>Processors can be added to the graph as "nodes" using <a class="el" href="classAudioProcessorGraph.html#ac50c30b557187d34c17fe4c2e7505b0d" title="Adds a node to the graph. ">addNode()</a>, and once added, you can connect any of their input or output channels to other nodes using <a class="el" href="classAudioProcessorGraph.html#a2ae8de1a066fcf1850bd026763e978d1" title="Attempts to connect two specified channels of two nodes. ">addConnection()</a>.</p>
 <p>To play back a graph through an audio device, you might want to use an <a class="el" href="classAudioProcessorPlayer.html" title="An AudioIODeviceCallback object which streams audio through an AudioProcessor. ">AudioProcessorPlayer</a> object. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a06c3ffdb34eedb11492e3965fcce8aa3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a> <a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">AudioProcessorGraph::NodeID</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Each node in the graph has a UID of this type. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a90d6609d5eaf0c722974067e8aeb1a2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A special index that represents the midi channel of a node. </p>
+<p>This is used as a channel index value if you want to refer to the midi input or output instead of an audio channel. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a90d6609d5eaf0c722974067e8aeb1a2da9b786f73b4d7c08b308e827381104325"></a>midiChannelIndex</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8d33e2e949c97a1a37b47e39bbe43f7a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -612,6 +680,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad999b79c8a9c1bee1d731675e0177135"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt;<a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a>&gt;&amp; AudioProcessorGraph::getNodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the array of nodes in the graph. </p>
+
+</div>
+</div>
 <a class="anchor" id="ac54590c31a8423051aef75cc3f1edc6f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -637,7 +730,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac056f909144eda97eafe417423f08e30"></a>
+<a class="anchor" id="aa00875edc9159873c52a5d7c9c9c4261"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -647,7 +740,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a>* AudioProcessorGraph::getNode </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -661,19 +754,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns a pointer to one of the nodes in the graph. </p>
 <p>This will return nullptr if the index is out of range. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessorGraph.html#ab2cf79e6540bb6a95df2c6e8fbe14b2f" title="Searches the graph for a node with the given ID number and returns it. ">getNodeForId</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessorGraph.html#ad60903fbff5501368bc2ac1b7e999d8b" title="Searches the graph for a node with the given ID number and returns it. ">getNodeForId</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ab2cf79e6540bb6a95df2c6e8fbe14b2f"></a>
+<a class="anchor" id="ad60903fbff5501368bc2ac1b7e999d8b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a>* AudioProcessorGraph::getNodeForId </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>nodeId</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -681,16 +774,16 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Searches the graph for a node with the given ID number and returns it. </p>
 <p>If no such node was found, this returns nullptr. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessorGraph.html#ac056f909144eda97eafe417423f08e30" title="Returns a pointer to one of the nodes in the graph. ">getNode</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessorGraph.html#aa00875edc9159873c52a5d7c9c9c4261" title="Returns a pointer to one of the nodes in the graph. ">getNode</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a6a75a45b9daea9e424ea327b924e4bf9"></a>
+<a class="anchor" id="ac50c30b557187d34c17fe4c2e7505b0d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a>* AudioProcessorGraph::addNode </td>
+          <td class="memname"><a class="el" href="classAudioProcessorGraph_1_1Node.html#a1cd4fece57dfbe4994e6a52ab7fca74c">Node::Ptr</a> AudioProcessorGraph::addNode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessor.html">AudioProcessor</a> *&#160;</td>
           <td class="paramname"><em>newProcessor</em>, </td>
@@ -698,8 +791,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>nodeId</em> = <code>0</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>&#160;</td>
+          <td class="paramname"><em>nodeId</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -716,15 +809,15 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a35e6dcbafebe8ac84db3dad6983aad6c"></a>
+<a class="anchor" id="acc5f8fd4ff2feffea4503a6171af2e5e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessorGraph::removeNode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>nodeId</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -735,7 +828,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5161ef424f00408c904f4cc09ab25e44"></a>
+<a class="anchor" id="ad728b99e2b86d460f5359e593c98c217"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -743,7 +836,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">bool AudioProcessorGraph::removeNode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> *&#160;</td>
-          <td class="paramname"><em>node</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -754,12 +847,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5ec854f3964347bcc429bed74b1c0143"></a>
+<a class="anchor" id="a63446c48455df7107ec9b48c574da1a4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessorGraph::getNumConnections </td>
+          <td class="memname">std::vector&lt;<a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a>&gt; AudioProcessorGraph::getConnections </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -767,84 +860,54 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the number of connections in the graph. </p>
+<p>Returns the list of connections in the graph. </p>
 
 </div>
 </div>
-<a class="anchor" id="abb71ccd0af51ad8c64df980836f53856"></a>
+<a class="anchor" id="ac7b2a4286b4f6c2f9f7d234b3002fd07"></a>
 <div class="memitem">
 <div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a>* AudioProcessorGraph::getConnection </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns a pointer to one of the connections in the graph. </p>
-
-</div>
-</div>
-<a class="anchor" id="aecf825019c1bf0256105fc6c8ef130e7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a>* AudioProcessorGraph::getConnectionBetween </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>sourceNodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sourceChannelIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>destNodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>destChannelIndex</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Searches for a connection between some specified channels. </p>
-<p>If no such connection is found, this returns nullptr. </p>
-
-</div>
-</div>
-<a class="anchor" id="a9f52ec181d8aabf723170d69b4bf4d7d"></a>
-<div class="memitem">
-<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessorGraph::isConnected </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>possibleSourceNodeId</em>, </td>
+          <td class="paramtype">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the given connection exists. </p>
+
+</div>
+</div>
+<a class="anchor" id="a41a3b4dcb0d82754de4f3619d59565a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioProcessorGraph::isConnected </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>&#160;</td>
+          <td class="paramname"><em>possibleSourceNodeID</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>possibleDestNodeId</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>&#160;</td>
+          <td class="paramname"><em>possibleDestNodeID</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -852,44 +915,63 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Returns true if there is a connection between any of the channels of two specified nodes. </p>
+<p>Returns true if there is a direct connection between any of the channels of two specified nodes. </p>
 
 </div>
 </div>
-<a class="anchor" id="a1e196b127080aa6cb3f3f395c2a9366f"></a>
+<a class="anchor" id="a9ba2001987674dbc8842568f79d2540a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioProcessorGraph::isAnInputTo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph_1_1Node.html">Node</a> &amp;&#160;</td>
+          <td class="paramname"><em>destination</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Does a recursive check to see if there's a direct or indirect series of connections between these two nodes. </p>
+
+</div>
+</div>
+<a class="anchor" id="a339022d4088a096e5149bf0bb95045b9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessorGraph::canConnect </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>sourceNodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sourceChannelIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>destNodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>destChannelIndex</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramtype">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -898,38 +980,16 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adde28972b8d725a3c9c7af43bbe0b569"></a>
+<a class="anchor" id="a2ae8de1a066fcf1850bd026763e978d1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessorGraph::addConnection </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>sourceNodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sourceChannelIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>destNodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>destChannelIndex</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -939,74 +999,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a59e7b99abf5a7a515e9659e2fbfd3cb5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AudioProcessorGraph::removeConnection </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Deletes the connection with the specified index. </p>
-
-</div>
-</div>
-<a class="anchor" id="a24cb1c816cb611f1a22978976f50aed0"></a>
+<a class="anchor" id="ab246dfc1b52eb0a7b58f7ded39288e8b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessorGraph::removeConnection </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>sourceNodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sourceChannelIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>destNodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>destChannelIndex</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Deletes any connection between two specified points. </p>
-<p>Returns true if a connection was actually deleted. </p>
+<p>Deletes the given connection. </p>
 
 </div>
 </div>
-<a class="anchor" id="a8fb912ad3add171eb08c6e58a66e1687"></a>
+<a class="anchor" id="a60812fead28a3bb348f0022d5d2bbaa8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessorGraph::disconnectNode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a>&#160;</td>
-          <td class="paramname"><em>nodeId</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph.html#a06c3ffdb34eedb11492e3965fcce8aa3">NodeID</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1016,15 +1035,15 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a29eb5ea53c60de51a5ac7134804ed8b6"></a>
+<a class="anchor" id="a0834cf8b1b4870587bf89a64b2a90da6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessorGraph::isConnectionLegal </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> *&#160;</td>
-          <td class="paramname"><em>connection</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structAudioProcessorGraph_1_1Connection.html">Connection</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1192,7 +1211,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Also note that some hosts will occasionally decide to pass a buffer containing zero samples, so make sure that your algorithm can deal with that!</p>
 <p>If the processor is receiving a MIDI input, then the midiMessages array will be filled with the MIDI messages for this block. Each message's timestamp will indicate the message's time, as a number of samples from the start of the block.</p>
 <p>Any messages left in the MIDI buffer when this method has finished are assumed to be the processor's MIDI output. This means that your processor should be careful to clear any incoming messages from the array if it doesn't want them to be passed-on.</p>
-<p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, let the UI components register as listeners, and then call sendChangeMessage() inside the <a class="el" href="classAudioProcessorGraph.html#a398355e90612416b87e02fa026a1f014" title="Renders the next block. ">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. ">AsyncUpdater</a> class in a similar way.</p>
+<p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, let the UI components register as listeners, and then call <a class="el" href="classChangeBroadcaster.html#a10f01d1c0a7fde85355321985a682cbd" title="Causes an asynchronous change message to be sent to all the registered listeners. ...">sendChangeMessage()</a> inside the <a class="el" href="classAudioProcessorGraph.html#a398355e90612416b87e02fa026a1f014" title="Renders the next block. ">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. ">AsyncUpdater</a> class in a similar way.</p>
 <dl class="section see"><dt>See Also</dt><dd>AudiobusLayout::getBusBuffer </dd></dl>
 
 <p>Implements <a class="el" href="classAudioProcessor.html#abbac77f68ba047cf60c4bc97326dcb58">AudioProcessor</a>.</p>
@@ -1243,7 +1262,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Also note that some hosts will occasionally decide to pass a buffer containing zero samples, so make sure that your algorithm can deal with that!</p>
 <p>If the processor is receiving a MIDI input, then the midiMessages array will be filled with the MIDI messages for this block. Each message's timestamp will indicate the message's time, as a number of samples from the start of the block.</p>
 <p>Any messages left in the MIDI buffer when this method has finished are assumed to be the processor's MIDI output. This means that your processor should be careful to clear any incoming messages from the array if it doesn't want them to be passed-on.</p>
-<p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, let the UI components register as listeners, and then call sendChangeMessage() inside the <a class="el" href="classAudioProcessorGraph.html#a398355e90612416b87e02fa026a1f014" title="Renders the next block. ">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. ">AsyncUpdater</a> class in a similar way.</p>
+<p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, let the UI components register as listeners, and then call <a class="el" href="classChangeBroadcaster.html#a10f01d1c0a7fde85355321985a682cbd" title="Causes an asynchronous change message to be sent to all the registered listeners. ...">sendChangeMessage()</a> inside the <a class="el" href="classAudioProcessorGraph.html#a398355e90612416b87e02fa026a1f014" title="Renders the next block. ">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. ">AsyncUpdater</a> class in a similar way.</p>
 <dl class="section see"><dt>See Also</dt><dd>AudiobusLayout::getBusBuffer </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classAudioProcessor.html#ac1d1db605c16ab803fadd100bb6ff2e8">AudioProcessor</a>.</p>
@@ -1734,37 +1753,13 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="acde235cdad97d2bba6dd828ceeb7c4e9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int AudioProcessorGraph::midiChannelIndex</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>A special number that represents the midi channel of a node. </p>
-<p>This is used as a channel index value if you want to refer to the midi input or output instead of an audio channel. </p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__AudioProcessorGraph_8h.html">juce_AudioProcessorGraph.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 27 2017 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 28 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

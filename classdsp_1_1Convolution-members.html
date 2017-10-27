@@ -94,9 +94,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>This is the complete list of members for <a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#a50446810cf3afb2dc8e7935b49b854d7">Convolution</a>()</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#afc1181a95f406edb7dceaec92bdf4d12">copyAndLoadImpulseResponseFromBuffer</a>(const AudioBuffer&lt; float &gt; &amp;buffer, double bufferSampleRate, bool wantsStereo, bool wantsTrimming, size_t size)</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#a072d812123b26be0dd7608e9360acf87">loadImpulseResponse</a>(const void *sourceData, size_t sourceDataSize, bool wantsStereo, bool wantsTrimming, size_t size)</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#ae275d81a6b6f33db06808b65ff3a6023">loadImpulseResponse</a>(const File &amp;fileImpulseResponse, bool wantsStereo, bool wantsTrimming, size_t size)</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#a36e5c6edf9d6232fb26572d4d040863b">copyAndLoadImpulseResponseFromBuffer</a>(const AudioBuffer&lt; float &gt; &amp;buffer, double bufferSampleRate, bool wantsStereo, bool wantsTrimming, bool wantsNormalization, size_t size)</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#aa0416dd0cd565622a4eaba9e2a49c67c">loadImpulseResponse</a>(const void *sourceData, size_t sourceDataSize, bool wantsStereo, bool wantsTrimming, size_t size, bool wantsNormalization=true)</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#a7ee4938386284fe47bbf123949e7e7d0">loadImpulseResponse</a>(const File &amp;fileImpulseResponse, bool wantsStereo, bool wantsTrimming, size_t size, bool wantsNormalization=true)</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#ad1c17f8ac668cfbc62710477ac4384a6">prepare</a>(const ProcessSpec &amp;)</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#a791e017af3c2256079c91875e6a68f6e">process</a>(const ProcessContext &amp;context) noexcept</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classdsp_1_1Convolution.html#ad957d14c1d0d0cb3a6c20c90e0126012">reset</a>() noexcept</td><td class="entry"><a class="el" href="classdsp_1_1Convolution.html">dsp::Convolution</a></td><td class="entry"></td></tr>
@@ -104,7 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 27 2017 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 28 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

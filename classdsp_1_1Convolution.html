@@ -115,15 +115,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a791e017af3c2256079c91875e6a68f6e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classdsp_1_1Convolution.html#a791e017af3c2256079c91875e6a68f6e">process</a> (const ProcessContext &amp;context) noexcept</td></tr>
 <tr class="memdesc:a791e017af3c2256079c91875e6a68f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the filter operation on the given set of samples, with optional stereo processing.  <a href="#a791e017af3c2256079c91875e6a68f6e">More...</a><br/></td></tr>
 <tr class="separator:a791e017af3c2256079c91875e6a68f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a072d812123b26be0dd7608e9360acf87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Convolution.html#a072d812123b26be0dd7608e9360acf87">loadImpulseResponse</a> (const void *sourceData, size_t sourceDataSize, bool wantsStereo, bool wantsTrimming, size_t size)</td></tr>
-<tr class="memdesc:a072d812123b26be0dd7608e9360acf87"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function loads an impulse response audio file from memory, added in a JUCE project with the Projucer as binary data.  <a href="#a072d812123b26be0dd7608e9360acf87">More...</a><br/></td></tr>
-<tr class="separator:a072d812123b26be0dd7608e9360acf87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae275d81a6b6f33db06808b65ff3a6023"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Convolution.html#ae275d81a6b6f33db06808b65ff3a6023">loadImpulseResponse</a> (const <a class="el" href="classFile.html">File</a> &amp;fileImpulseResponse, bool wantsStereo, bool wantsTrimming, size_t size)</td></tr>
-<tr class="memdesc:ae275d81a6b6f33db06808b65ff3a6023"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function loads an impulse response from an audio file on any drive.  <a href="#ae275d81a6b6f33db06808b65ff3a6023">More...</a><br/></td></tr>
-<tr class="separator:ae275d81a6b6f33db06808b65ff3a6023"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc1181a95f406edb7dceaec92bdf4d12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Convolution.html#afc1181a95f406edb7dceaec92bdf4d12">copyAndLoadImpulseResponseFromBuffer</a> (const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;buffer, double bufferSampleRate, bool wantsStereo, bool wantsTrimming, size_t size)</td></tr>
-<tr class="memdesc:afc1181a95f406edb7dceaec92bdf4d12"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function loads an impulse response from an audio buffer, which is copied before doing anything else.  <a href="#afc1181a95f406edb7dceaec92bdf4d12">More...</a><br/></td></tr>
-<tr class="separator:afc1181a95f406edb7dceaec92bdf4d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0416dd0cd565622a4eaba9e2a49c67c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Convolution.html#aa0416dd0cd565622a4eaba9e2a49c67c">loadImpulseResponse</a> (const void *sourceData, size_t sourceDataSize, bool wantsStereo, bool wantsTrimming, size_t size, bool wantsNormalization=true)</td></tr>
+<tr class="memdesc:aa0416dd0cd565622a4eaba9e2a49c67c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function loads an impulse response audio file from memory, added in a JUCE project with the Projucer as binary data.  <a href="#aa0416dd0cd565622a4eaba9e2a49c67c">More...</a><br/></td></tr>
+<tr class="separator:aa0416dd0cd565622a4eaba9e2a49c67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee4938386284fe47bbf123949e7e7d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Convolution.html#a7ee4938386284fe47bbf123949e7e7d0">loadImpulseResponse</a> (const <a class="el" href="classFile.html">File</a> &amp;fileImpulseResponse, bool wantsStereo, bool wantsTrimming, size_t size, bool wantsNormalization=true)</td></tr>
+<tr class="memdesc:a7ee4938386284fe47bbf123949e7e7d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function loads an impulse response from an audio file on any drive.  <a href="#a7ee4938386284fe47bbf123949e7e7d0">More...</a><br/></td></tr>
+<tr class="separator:a7ee4938386284fe47bbf123949e7e7d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e5c6edf9d6232fb26572d4d040863b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Convolution.html#a36e5c6edf9d6232fb26572d4d040863b">copyAndLoadImpulseResponseFromBuffer</a> (const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;buffer, double bufferSampleRate, bool wantsStereo, bool wantsTrimming, bool wantsNormalization, size_t size)</td></tr>
+<tr class="memdesc:a36e5c6edf9d6232fb26572d4d040863b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function loads an impulse response from an audio buffer, which is copied before doing anything else.  <a href="#a36e5c6edf9d6232fb26572d4d040863b">More...</a><br/></td></tr>
+<tr class="separator:a36e5c6edf9d6232fb26572d4d040863b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Performs stereo uniform-partitioned convolution of an input signal with an impulse response in the frequency domain, using the juce <a class="el" href="classdsp_1_1FFT.html" title="Performs a fast fourier transform. ">FFT</a> class. </p>
@@ -237,7 +237,7 @@ template&lt;typename ProcessContext &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a072d812123b26be0dd7608e9360acf87"></a>
+<a class="anchor" id="aa0416dd0cd565622a4eaba9e2a49c67c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -269,7 +269,13 @@ template&lt;typename ProcessContext &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>wantsNormalization</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -289,13 +295,14 @@ template&lt;typename ProcessContext &gt; </div>
     <tr><td class="paramname">wantsStereo</td><td>requests to load both stereo channels or only one mono channel </td></tr>
     <tr><td class="paramname">wantsTrimming</td><td>requests to trim the start and the end of the impulse response </td></tr>
     <tr><td class="paramname">size</td><td>the expected size for the impulse response after loading </td></tr>
+    <tr><td class="paramname">wantsNormalization</td><td>requests to normalize the impulse response amplitude </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="ae275d81a6b6f33db06808b65ff3a6023"></a>
+<a class="anchor" id="a7ee4938386284fe47bbf123949e7e7d0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -321,7 +328,13 @@ template&lt;typename ProcessContext &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>wantsNormalization</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -339,13 +352,14 @@ template&lt;typename ProcessContext &gt; </div>
     <tr><td class="paramname">wantsStereo</td><td>requests to load both stereo channels or only one mono channel </td></tr>
     <tr><td class="paramname">wantsTrimming</td><td>requests to trim the start and the end of the impulse response </td></tr>
     <tr><td class="paramname">size</td><td>the expected size for the impulse response after loading </td></tr>
+    <tr><td class="paramname">wantsNormalization</td><td>requests to normalize the impulse response amplitude </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="afc1181a95f406edb7dceaec92bdf4d12"></a>
+<a class="anchor" id="a36e5c6edf9d6232fb26572d4d040863b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -376,6 +390,12 @@ template&lt;typename ProcessContext &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>wantsNormalization</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
@@ -395,6 +415,7 @@ template&lt;typename ProcessContext &gt; </div>
     <tr><td class="paramname">bufferSampleRate</td><td>the sampleRate of the data in the <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer of floating point audio samples. ">AudioBuffer</a> </td></tr>
     <tr><td class="paramname">wantsStereo</td><td>requests to load both stereo channels or only one mono channel </td></tr>
     <tr><td class="paramname">wantsTrimming</td><td>requests to trim the start and the end of the impulse response </td></tr>
+    <tr><td class="paramname">wantsNormalization</td><td>requests to normalize the impulse response amplitude </td></tr>
     <tr><td class="paramname">size</td><td>the expected size for the impulse response after loading </td></tr>
   </table>
   </dd>
@@ -408,7 +429,7 @@ template&lt;typename ProcessContext &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 27 2017 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 28 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

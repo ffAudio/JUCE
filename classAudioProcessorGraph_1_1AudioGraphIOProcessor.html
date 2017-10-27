@@ -147,8 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8b67c5d29cffbf50018d3c8ada83a38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#ac8b67c5d29cffbf50018d3c8ada83a38">isOutput</a> () const noexcept</td></tr>
 <tr class="memdesc:ac8b67c5d29cffbf50018d3c8ada83a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this is an audio or midi output.  <a href="#ac8b67c5d29cffbf50018d3c8ada83a38">More...</a><br/></td></tr>
 <tr class="separator:ac8b67c5d29cffbf50018d3c8ada83a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eb56847dc607a88b1872e3f36b53722"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a8eb56847dc607a88b1872e3f36b53722">AudioGraphIOProcessor</a> (const <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761a">IODeviceType</a> type)</td></tr>
-<tr class="separator:a8eb56847dc607a88b1872e3f36b53722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac770bd425ad500b7f501a02102136e6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#ac770bd425ad500b7f501a02102136e6e">AudioGraphIOProcessor</a> (<a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761a">IODeviceType</a>)</td></tr>
+<tr class="separator:ac770bd425ad500b7f501a02102136e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d863be80c6fbec07b67cdaf4def49e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a75d863be80c6fbec07b67cdaf4def49e">~AudioGraphIOProcessor</a> ()</td></tr>
 <tr class="separator:a75d863be80c6fbec07b67cdaf4def49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf66f184db9cbee38e7fe0162d0d5b66"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#aaf66f184db9cbee38e7fe0162d0d5b66">getName</a> () const override</td></tr>
@@ -564,15 +564,15 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8eb56847dc607a88b1872e3f36b53722"></a>
+<a class="anchor" id="ac770bd425ad500b7f501a02102136e6e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">AudioProcessorGraph::AudioGraphIOProcessor::AudioGraphIOProcessor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761a">IODeviceType</a>&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761a">IODeviceType</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -863,7 +863,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Also note that some hosts will occasionally decide to pass a buffer containing zero samples, so make sure that your algorithm can deal with that!</p>
 <p>If the processor is receiving a MIDI input, then the midiMessages array will be filled with the MIDI messages for this block. Each message's timestamp will indicate the message's time, as a number of samples from the start of the block.</p>
 <p>Any messages left in the MIDI buffer when this method has finished are assumed to be the processor's MIDI output. This means that your processor should be careful to clear any incoming messages from the array if it doesn't want them to be passed-on.</p>
-<p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, let the UI components register as listeners, and then call sendChangeMessage() inside the <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#ae79b4debef5e39306aea4dfd6dff7580" title="Renders the next block. ">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. ">AsyncUpdater</a> class in a similar way.</p>
+<p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, let the UI components register as listeners, and then call <a class="el" href="classChangeBroadcaster.html#a10f01d1c0a7fde85355321985a682cbd" title="Causes an asynchronous change message to be sent to all the registered listeners. ...">sendChangeMessage()</a> inside the <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#ae79b4debef5e39306aea4dfd6dff7580" title="Renders the next block. ">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. ">AsyncUpdater</a> class in a similar way.</p>
 <dl class="section see"><dt>See Also</dt><dd>AudiobusLayout::getBusBuffer </dd></dl>
 
 <p>Implements <a class="el" href="classAudioProcessor.html#abbac77f68ba047cf60c4bc97326dcb58">AudioProcessor</a>.</p>
@@ -914,7 +914,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Also note that some hosts will occasionally decide to pass a buffer containing zero samples, so make sure that your algorithm can deal with that!</p>
 <p>If the processor is receiving a MIDI input, then the midiMessages array will be filled with the MIDI messages for this block. Each message's timestamp will indicate the message's time, as a number of samples from the start of the block.</p>
 <p>Any messages left in the MIDI buffer when this method has finished are assumed to be the processor's MIDI output. This means that your processor should be careful to clear any incoming messages from the array if it doesn't want them to be passed-on.</p>
-<p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, let the UI components register as listeners, and then call sendChangeMessage() inside the <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#ae79b4debef5e39306aea4dfd6dff7580" title="Renders the next block. ">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. ">AsyncUpdater</a> class in a similar way.</p>
+<p>Be very careful about what you do in this callback - it's going to be called by the audio thread, so any kind of interaction with the UI is absolutely out of the question. If you change a parameter in here and need to tell your UI to update itself, the best way is probably to inherit from a <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, let the UI components register as listeners, and then call <a class="el" href="classChangeBroadcaster.html#a10f01d1c0a7fde85355321985a682cbd" title="Causes an asynchronous change message to be sent to all the registered listeners. ...">sendChangeMessage()</a> inside the <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#ae79b4debef5e39306aea4dfd6dff7580" title="Renders the next block. ">processBlock()</a> method to send out an asynchronous message. You could also use the <a class="el" href="classAsyncUpdater.html" title="Has a callback method that is triggered asynchronously. ">AsyncUpdater</a> class in a similar way.</p>
 <dl class="section see"><dt>See Also</dt><dd>AudiobusLayout::getBusBuffer </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classAudioProcessor.html#ac1d1db605c16ab803fadd100bb6ff2e8">AudioProcessor</a>.</p>
@@ -1342,7 +1342,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 27 2017 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 28 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

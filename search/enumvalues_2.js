@@ -41,7 +41,7 @@ var searchData=
   ['controlbuttondown',['controlButtonDown',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75ae7cdfc666d66322628cb46fb3a4b32ef',1,'BlocksProtocol']]],
   ['controlbuttonmessage',['controlButtonMessage',['../namespaceBlocksProtocol.html#abee50d102d121b2b0bfe5e6704f94d0ea8cab329faf1c729fb02c3536b86a47c1',1,'BlocksProtocol']]],
   ['controlbuttonup',['controlButtonUp',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75a43e54c3b903be170a143c954e11ecc92',1,'BlocksProtocol']]],
-  ['copy',['copy',['../namespaceStandardApplicationCommandIDs.html#a3a2502bea3e0bd91f2e1d70d9d03f37da3584c202667823072c928fd699725466',1,'StandardApplicationCommandIDs']]],
+  ['copy',['copy',['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0a3584c202667823072c928fd699725466',1,'StandardApplicationCommandIDs']]],
   ['copyingcursor',['CopyingCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97abe0154531e3b7b07ea1241be32850c3c',1,'MouseCursor']]],
   ['crosshaircursor',['CrosshairCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97add4ed956814986c922cdeae70fdad9d3',1,'MouseCursor']]],
   ['ctrlaltcommandmodifiers',['ctrlAltCommandModifiers',['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba2647f9ed4b2db164973d8b735f3b216a',1,'ModifierKeys']]],
@@ -51,6 +51,6 @@ var searchData=
   ['currentapplicationfile',['currentApplicationFile',['../classFile.html#a3e19cafabb03c5838160263a6e76313da8292b316ce9eb8ebc0d0980b788a877c',1,'File']]],
   ['currentexecutablefile',['currentExecutableFile',['../classFile.html#a3e19cafabb03c5838160263a6e76313dab960741272c75e94482f295a516aae62',1,'File']]],
   ['curved',['curved',['../classPathStrokeType.html#af1cf21018ccb9aa84572c1da4ae513b8aa0e50e387cbe6533b830061006cb3747',1,'PathStrokeType']]],
-  ['cut',['cut',['../namespaceStandardApplicationCommandIDs.html#a3a2502bea3e0bd91f2e1d70d9d03f37dac0037bfec469a888d3a7ab1c0c222765',1,'StandardApplicationCommandIDs']]],
+  ['cut',['cut',['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0ac0037bfec469a888d3a7ab1c0c222765',1,'StandardApplicationCommandIDs']]],
   ['cycle',['cycle',['../group__LittleFootFunctions.html#ggaee3ea37f4f505980157cf93a84687bcbabee52b0bfbbdeada45fcac6ef19b93ea',1,'juce_LittleFootFunctions.dox']]]
 ];

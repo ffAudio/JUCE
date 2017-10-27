@@ -70,7 +70,7 @@ var searchData=
   ['disabledenormalisednumbersupport',['disableDenormalisedNumberSupport',['../classFloatVectorOperations.html#a11727a7e21b11fd5fa8c7f012de61333',1,'FloatVectorOperations']]],
   ['disablenonmainbuses',['disableNonMainBuses',['../classAudioProcessor.html#a95e1cedbe30a03547baa4f8341c5f04a',1,'AudioProcessor']]],
   ['disconnect',['disconnect',['../classInterprocessConnection.html#a16959b067e088c75663fcff8633d600f',1,'InterprocessConnection::disconnect()'],['../classOSCReceiver.html#adb7179630d20e6ddbf48e6ef380c3c67',1,'OSCReceiver::disconnect()'],['../classOSCSender.html#ac8c0a0ccec0ade4c28cba43773b095c5',1,'OSCSender::disconnect()']]],
-  ['disconnectnode',['disconnectNode',['../classAudioProcessorGraph.html#a8fb912ad3add171eb08c6e58a66e1687',1,'AudioProcessorGraph']]],
+  ['disconnectnode',['disconnectNode',['../classAudioProcessorGraph.html#a60812fead28a3bb348f0022d5d2bbaa8',1,'AudioProcessorGraph']]],
   ['discretechannels',['discreteChannels',['../classAudioChannelSet.html#a8366b0a736e2f3bb58120f3f51f67f01',1,'AudioChannelSet']]],
   ['dismiss',['dismiss',['../classCallOutBox.html#a4249288a642041f5311528e3f1d7d06e',1,'CallOutBox::dismiss()'],['../classOnlineUnlockForm.html#a074106db99230c8dacafff44ff57eb35',1,'OnlineUnlockForm::dismiss()']]],
   ['dismissallactivemenus',['dismissAllActiveMenus',['../classPopupMenu.html#a16f1d36e74b8dcf83738b1fcbdbe8166',1,'PopupMenu']]],
