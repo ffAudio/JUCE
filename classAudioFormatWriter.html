@@ -125,9 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4d09d96836ebe2779d2e82a090d0b29f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a4d09d96836ebe2779d2e82a090d0b29f">writeFromAudioSource</a> (<a class="el" href="classAudioSource.html">AudioSource</a> &amp;source, int numSamplesToRead, int samplesPerBlock=2048)</td></tr>
 <tr class="memdesc:a4d09d96836ebe2779d2e82a090d0b29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads some samples from an <a class="el" href="classAudioSource.html" title="Base class for objects that can produce a continuous stream of audio. ">AudioSource</a>, and writes these to the output.  <a href="#a4d09d96836ebe2779d2e82a090d0b29f">More...</a><br/></td></tr>
 <tr class="separator:a4d09d96836ebe2779d2e82a090d0b29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62f00db8e716c1d253d70be4c9d753a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a62f00db8e716c1d253d70be4c9d753a1">writeFromAudioSampleBuffer</a> (const <a class="el" href="group__juce__audio__basics-buffers.html#ga97a2916214efbd76c6b870f9c48efba0">AudioSampleBuffer</a> &amp;source, int startSample, int numSamples)</td></tr>
-<tr class="memdesc:a62f00db8e716c1d253d70be4c9d753a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some samples from an AudioSampleBuffer.  <a href="#a62f00db8e716c1d253d70be4c9d753a1">More...</a><br/></td></tr>
-<tr class="separator:a62f00db8e716c1d253d70be4c9d753a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172a2a4e347ba187655eabb5ebf304b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a172a2a4e347ba187655eabb5ebf304b3">writeFromAudioSampleBuffer</a> (const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;source, int startSample, int numSamples)</td></tr>
+<tr class="memdesc:a172a2a4e347ba187655eabb5ebf304b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some samples from an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>.  <a href="#a172a2a4e347ba187655eabb5ebf304b3">More...</a><br/></td></tr>
+<tr class="separator:a172a2a4e347ba187655eabb5ebf304b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3ceaa6f20c49a692f92b2e1603786be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ad3ceaa6f20c49a692f92b2e1603786be">writeFromFloatArrays</a> (const float *const *channels, int <a class="el" href="classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c">numChannels</a>, int numSamples)</td></tr>
 <tr class="memdesc:ad3ceaa6f20c49a692f92b2e1603786be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some samples from a set of float data channels.  <a href="#ad3ceaa6f20c49a692f92b2e1603786be">More...</a><br/></td></tr>
 <tr class="separator:ad3ceaa6f20c49a692f92b2e1603786be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -393,7 +393,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Writes a set of samples to the audio stream. </p>
-<p>Note that if you're trying to write the contents of an AudioSampleBuffer, you can use <a class="el" href="classAudioFormatWriter.html#a62f00db8e716c1d253d70be4c9d753a1" title="Writes some samples from an AudioSampleBuffer. ">writeFromAudioSampleBuffer()</a>.</p>
+<p>Note that if you're trying to write the contents of an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>, you can use <a class="el" href="classAudioFormatWriter.html#a172a2a4e347ba187655eabb5ebf304b3" title="Writes some samples from an AudioBuffer. ">writeFromAudioSampleBuffer()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">samplesToWrite</td><td>an array of arrays containing the sample data for each channel to write. This is a zero-terminated array of arrays, and can contain a different number of channels than the actual stream uses, and the writer should do its best to cope with this. If the format is fixed-point, each channel will be formatted as an array of signed integers using the full 32-bit range -0x80000000 to 0x7fffffff, regardless of the source's bit-depth. If it is a floating-point format, you should treat the arrays as arrays of floats, and just cast it to an (int**) to pass it into the method. </td></tr>
@@ -511,14 +511,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a62f00db8e716c1d253d70be4c9d753a1"></a>
+<a class="anchor" id="a172a2a4e347ba187655eabb5ebf304b3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioFormatWriter::writeFromAudioSampleBuffer </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__juce__audio__basics-buffers.html#ga97a2916214efbd76c6b870f9c48efba0">AudioSampleBuffer</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>source</em>, </td>
         </tr>
         <tr>
@@ -541,7 +541,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Writes some samples from an AudioSampleBuffer. </p>
+<p>Writes some samples from an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>. </p>
 
 </div>
 </div>
@@ -818,7 +818,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 29 2017 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 31 2017 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -305,6 +305,7 @@ var searchData=
   ['_7emultidocumentpanelwindow',['~MultiDocumentPanelWindow',['../classMultiDocumentPanelWindow.html#aa0f4c2871d1877ec636e6def20226e1a',1,'MultiDocumentPanelWindow']]],
   ['_7emultitimer',['~MultiTimer',['../classMultiTimer.html#a6b839b0a693cfaf5e42d8274450b9a9e',1,'MultiTimer']]],
   ['_7enamedpipe',['~NamedPipe',['../classNamedPipe.html#a24ff787de22c7abe0ad7b556296d3b0b',1,'NamedPipe']]],
+  ['_7enamedvalue',['~NamedValue',['../structNamedValueSet_1_1NamedValue.html#aae0cffb1b83c8db02de1ca85c5fd0d10',1,'NamedValueSet::NamedValue']]],
   ['_7enamedvalueset',['~NamedValueSet',['../classNamedValueSet.html#a5e23aed95819fe55a2e441fb66b31faa',1,'NamedValueSet']]],
   ['_7enativeimagetype',['~NativeImageType',['../classNativeImageType.html#a4693a40068bb9c18e2c76b9ee5d43d63',1,'NativeImageType']]],
   ['_7ensviewcomponent',['~NSViewComponent',['../classNSViewComponent.html#a8b7861229080258227eba895b5925bac',1,'NSViewComponent']]],

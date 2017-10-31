@@ -121,7 +121,7 @@ var searchData=
   ['writefloat',['writeFloat',['../classOutputStream.html#a0a1d967388deb957e573a8bfa0aede56',1,'OutputStream']]],
   ['writefloatbigendian',['writeFloatBigEndian',['../classOutputStream.html#a84cb925582b87dc5c1f5e6d569a74208',1,'OutputStream']]],
   ['writefromaudioreader',['writeFromAudioReader',['../classAudioFormatWriter.html#a3a691c94e9609383c915af71cbf760db',1,'AudioFormatWriter']]],
-  ['writefromaudiosamplebuffer',['writeFromAudioSampleBuffer',['../classAudioFormatWriter.html#a62f00db8e716c1d253d70be4c9d753a1',1,'AudioFormatWriter']]],
+  ['writefromaudiosamplebuffer',['writeFromAudioSampleBuffer',['../classAudioFormatWriter.html#a172a2a4e347ba187655eabb5ebf304b3',1,'AudioFormatWriter']]],
   ['writefromaudiosource',['writeFromAudioSource',['../classAudioFormatWriter.html#a4d09d96836ebe2779d2e82a090d0b29f',1,'AudioFormatWriter']]],
   ['writefromfloatarrays',['writeFromFloatArrays',['../classAudioFormatWriter.html#ad3ceaa6f20c49a692f92b2e1603786be',1,'AudioFormatWriter']]],
   ['writefrominputstream',['writeFromInputStream',['../classMemoryOutputStream.html#aae9401ec7495276cc1090cbf3937d2a5',1,'MemoryOutputStream::writeFromInputStream()'],['../classOutputStream.html#a9f80423e8a780f4124d9b7910d712cb1',1,'OutputStream::writeFromInputStream()']]],

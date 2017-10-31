@@ -119,9 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a99b62ab38df9acf50ce84e9488bf6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a9a99b62ab38df9acf50ce84e9488bf6e">reset</a> (int numChannels, double sampleRate, <a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> totalSamplesInSource=0) override</td></tr>
 <tr class="memdesc:a9a99b62ab38df9acf50ce84e9488bf6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the thumbnail, ready for adding data with the specified format.  <a href="#a9a99b62ab38df9acf50ce84e9488bf6e">More...</a><br/></td></tr>
 <tr class="separator:a9a99b62ab38df9acf50ce84e9488bf6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc6b12d4f8d8074dfd76398e775eeb90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#acc6b12d4f8d8074dfd76398e775eeb90">addBlock</a> (<a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> sampleNumberInSource, const <a class="el" href="group__juce__audio__basics-buffers.html#ga97a2916214efbd76c6b870f9c48efba0">AudioSampleBuffer</a> &amp;newData, int startOffsetInBuffer, int numSamples) override</td></tr>
-<tr class="memdesc:acc6b12d4f8d8074dfd76398e775eeb90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a block of level data to the thumbnail.  <a href="#acc6b12d4f8d8074dfd76398e775eeb90">More...</a><br/></td></tr>
-<tr class="separator:acc6b12d4f8d8074dfd76398e775eeb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96ef7c9a8d654f1659e5151ae8584417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a96ef7c9a8d654f1659e5151ae8584417">addBlock</a> (<a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> sampleNumberInSource, const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;newData, int startOffsetInBuffer, int numSamples) override</td></tr>
+<tr class="memdesc:a96ef7c9a8d654f1659e5151ae8584417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a block of level data to the thumbnail.  <a href="#a96ef7c9a8d654f1659e5151ae8584417">More...</a><br/></td></tr>
+<tr class="separator:a96ef7c9a8d654f1659e5151ae8584417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0f585f827cda690c98264045be8d1b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#aa0f585f827cda690c98264045be8d1b7">loadFrom</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input) override</td></tr>
 <tr class="memdesc:aa0f585f827cda690c98264045be8d1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the low res thumbnail data from an input stream.  <a href="#aa0f585f827cda690c98264045be8d1b7">More...</a><br/></td></tr>
 <tr class="separator:aa0f585f827cda690c98264045be8d1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -398,13 +398,13 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Resets the thumbnail, ready for adding data with the specified format. </p>
-<p>If you're going to generate a thumbnail yourself, call this before using <a class="el" href="classAudioThumbnail.html#acc6b12d4f8d8074dfd76398e775eeb90" title="Adds a block of level data to the thumbnail. ">addBlock()</a> to add the data. </p>
+<p>If you're going to generate a thumbnail yourself, call this before using <a class="el" href="classAudioThumbnail.html#a96ef7c9a8d654f1659e5151ae8584417" title="Adds a block of level data to the thumbnail. ">addBlock()</a> to add the data. </p>
 
 <p>Implements <a class="el" href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html#a48e39e836142669e489b04389123536a">AudioFormatWriter::ThreadedWriter::IncomingDataReceiver</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acc6b12d4f8d8074dfd76398e775eeb90"></a>
+<a class="anchor" id="a96ef7c9a8d654f1659e5151ae8584417"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -420,7 +420,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__juce__audio__basics-buffers.html#ga97a2916214efbd76c6b870f9c48efba0">AudioSampleBuffer</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>newData</em>, </td>
         </tr>
         <tr>
@@ -451,7 +451,7 @@ Public Member Functions</h2></td></tr>
 <p>Adds a block of level data to the thumbnail. </p>
 <p>Call <a class="el" href="classAudioThumbnail.html#a9a99b62ab38df9acf50ce84e9488bf6e" title="Resets the thumbnail, ready for adding data with the specified format. ">reset()</a> before using this, to tell the thumbnail about the data format. </p>
 
-<p>Implements <a class="el" href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html#aa4fbc037fadc84e796c5840fdf920063">AudioFormatWriter::ThreadedWriter::IncomingDataReceiver</a>.</p>
+<p>Implements <a class="el" href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html#a99266c872fd4ba2106800b5422a18bda">AudioFormatWriter::ThreadedWriter::IncomingDataReceiver</a>.</p>
 
 </div>
 </div>
@@ -888,7 +888,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 29 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 31 2017 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

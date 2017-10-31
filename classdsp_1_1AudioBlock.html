@@ -119,10 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aadd2738930cbe058ac3d27663e6c08b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a suitable amount of space in a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap. ">HeapBlock</a>, and initialises this object to point into it.  <a href="#aadd2738930cbe058ac3d27663e6c08b0">More...</a><br/></td></tr>
 <tr class="separator:aadd2738930cbe058ac3d27663e6c08b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50b2382b00e97e30474430fad6acadbf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a50b2382b00e97e30474430fad6acadbf">AudioBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; SampleType &gt; &amp;buffer) noexcept</td></tr>
-<tr class="memdesc:a50b2382b00e97e30474430fad6acadbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer of floating point audio samples. ">AudioBuffer</a>.  <a href="#a50b2382b00e97e30474430fad6acadbf">More...</a><br/></td></tr>
+<tr class="memdesc:a50b2382b00e97e30474430fad6acadbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>.  <a href="#a50b2382b00e97e30474430fad6acadbf">More...</a><br/></td></tr>
 <tr class="separator:a50b2382b00e97e30474430fad6acadbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaabcc4835be49c973bca33e8ddce444"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#adaabcc4835be49c973bca33e8ddce444">AudioBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; SampleType &gt; &amp;buffer, size_t startSampleIndex) noexcept</td></tr>
-<tr class="memdesc:adaabcc4835be49c973bca33e8ddce444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer of floating point audio samples. ">AudioBuffer</a>.  <a href="#adaabcc4835be49c973bca33e8ddce444">More...</a><br/></td></tr>
+<tr class="memdesc:adaabcc4835be49c973bca33e8ddce444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>.  <a href="#adaabcc4835be49c973bca33e8ddce444">More...</a><br/></td></tr>
 <tr class="separator:adaabcc4835be49c973bca33e8ddce444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb86512c11e1c3b1841afd42777ef136"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#adb86512c11e1c3b1841afd42777ef136">AudioBlock</a> (const <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a> &amp;other) noexcept=default</td></tr>
 <tr class="separator:adb86512c11e1c3b1841afd42777ef136"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,7 +259,7 @@ Static Public Member Functions</h2></td></tr>
 class dsp::AudioBlock&lt; SampleType &gt;</h3>
 
 <p>Minimal and lightweight data-structure which contains a list of pointers to channels containing some kind of sample data. </p>
-<p>This class doesn't own any of the data which it points to, it's simply a view into data that is owned elsewhere. You can construct one from some raw data that you've allocated yourself, or give it a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap. ">HeapBlock</a> to use, or give it an AudioSampleBuffer which it can refer to, but in all cases the user is responsible for making sure that the data doesn't get deleted while there's still an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> using it. </p>
+<p>This class doesn't own any of the data which it points to, it's simply a view into data that is owned elsewhere. You can construct one from some raw data that you've allocated yourself, or give it a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap. ">HeapBlock</a> to use, or give it an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> which it can refer to, but in all cases the user is responsible for making sure that the data doesn't get deleted while there's still an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> using it. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a685ac5e06593b78db6db78edd76ccce5"></a>
 <div class="memitem">
@@ -470,7 +470,7 @@ template&lt;typename SampleType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer of floating point audio samples. ">AudioBuffer</a>. </p>
+<p>Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>. </p>
 <p><a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> does not copy nor own the memory pointed to by dataToUse. Therefore it is the user's responsibility to ensure that the buffer is retained throughout the life-time of the <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> without being modified. </p>
 
 </div>
@@ -509,7 +509,7 @@ template&lt;typename SampleType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer of floating point audio samples. ">AudioBuffer</a>. </p>
+<p>Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>. </p>
 <p><a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> does not copy nor own the memory pointed to by dataToUse. Therefore it is the user's responsibility to ensure that the buffer is retained throughout the life-time of the <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> without being modified. </p>
 
 </div>
@@ -1835,7 +1835,7 @@ template&lt;typename FunctionType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 29 2017 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 31 2017 01:01:01 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

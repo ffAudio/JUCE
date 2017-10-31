@@ -7,7 +7,7 @@ var searchData=
   ['elementtype',['elementType',['../classPath_1_1Iterator.html#a3b33636d181ff130a4c0e475da2824db',1,'Path::Iterator']]],
   ['elevationangle',['elevationAngle',['../structVstIndividualSpeakerInfo.html#a8874c9f2022074295797aa549cc38815',1,'VstIndividualSpeakerInfo']]],
   ['emailbox',['emailBox',['../classOnlineUnlockForm.html#a280e428e2560942b321d724a85b8f6ba',1,'OnlineUnlockForm']]],
-  ['emptybuffer',['emptyBuffer',['../classStandalonePluginHolder.html#add80ae89f130d96688aa8fac62f405bf',1,'StandalonePluginHolder']]],
+  ['emptybuffer',['emptyBuffer',['../classStandalonePluginHolder.html#a6421f28f93071f8a5da01ca82187c9e9',1,'StandalonePluginHolder']]],
   ['emptyspace',['emptySpace',['../structVstEffectInterface.html#ab15796ca33277d2a99efcb0adf402595',1,'VstEffectInterface']]],
   ['enablelights',['enableLights',['../structPushNotifications_1_1Channel.html#ae23d135e8ccaed3431ae2c74ed132a68',1,'PushNotifications::Channel']]],
   ['enablevibration',['enableVibration',['../structPushNotifications_1_1Channel.html#abc5dbcbeff4633fdd1d8bcf21da5b036',1,'PushNotifications::Channel']]],

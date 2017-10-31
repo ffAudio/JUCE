@@ -122,9 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a416b14c55e39696fb86fb3fa0113eafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerVoice.html#a416b14c55e39696fb86fb3fa0113eafa">controllerMoved</a> (int controllerNumber, int newValue) override</td></tr>
 <tr class="memdesc:a416b14c55e39696fb86fb3fa0113eafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the voice know that a midi controller has been moved.  <a href="#a416b14c55e39696fb86fb3fa0113eafa">More...</a><br/></td></tr>
 <tr class="separator:a416b14c55e39696fb86fb3fa0113eafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a282d620c059aa9d0408c64c89c1c456b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerVoice.html#a282d620c059aa9d0408c64c89c1c456b">renderNextBlock</a> (<a class="el" href="group__juce__audio__basics-buffers.html#ga97a2916214efbd76c6b870f9c48efba0">AudioSampleBuffer</a> &amp;, int startSample, int numSamples) override</td></tr>
-<tr class="memdesc:a282d620c059aa9d0408c64c89c1c456b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block of data for this voice.  <a href="#a282d620c059aa9d0408c64c89c1c456b">More...</a><br/></td></tr>
-<tr class="separator:a282d620c059aa9d0408c64c89c1c456b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a098beb94467e21628a34d76140249"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerVoice.html#a51a098beb94467e21628a34d76140249">renderNextBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;, int startSample, int numSamples) override</td></tr>
+<tr class="memdesc:a51a098beb94467e21628a34d76140249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block of data for this voice.  <a href="#a51a098beb94467e21628a34d76140249">More...</a><br/></td></tr>
+<tr class="separator:a51a098beb94467e21628a34d76140249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classSynthesiserVoice"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classSynthesiserVoice')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classSynthesiserVoice.html">SynthesiserVoice</a></td></tr>
 <tr class="memitem:a365e31ac75ed304f623cb20d3dcc31fb inherit pub_methods_classSynthesiserVoice"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSynthesiserVoice.html#a365e31ac75ed304f623cb20d3dcc31fb">SynthesiserVoice</a> ()</td></tr>
 <tr class="memdesc:a365e31ac75ed304f623cb20d3dcc31fb inherit pub_methods_classSynthesiserVoice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a voice.  <a href="#a365e31ac75ed304f623cb20d3dcc31fb">More...</a><br/></td></tr>
@@ -422,7 +422,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a282d620c059aa9d0408c64c89c1c456b"></a>
+<a class="anchor" id="a51a098beb94467e21628a34d76140249"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -432,7 +432,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void SamplerVoice::renderNextBlock </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__audio__basics-buffers.html#ga97a2916214efbd76c6b870f9c48efba0">AudioSampleBuffer</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>outputBuffer</em>, </td>
         </tr>
         <tr>
@@ -476,7 +476,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 29 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 31 2017 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

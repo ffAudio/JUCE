@@ -105,7 +105,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af2bb531c0b42c48324d164d379c465e4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVST3BufferExchange.html#af2bb531c0b42c48324d164d379c465e4">assignRawPointer</a> (Steinberg::Vst::AudioBusBuffers &amp;vstBuffers, double **raw)</td></tr>
 <tr class="separator:af2bb531c0b42c48324d164d379c465e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a258f09e3c61c120d7c35e2c66bddd48a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVST3BufferExchange.html#a258f09e3c61c120d7c35e2c66bddd48a">associateBufferTo</a> (Steinberg::Vst::AudioBusBuffers &amp;vstBuffers, <a class="el" href="structVST3BufferExchange.html#a5aa67a699a8f31a5098536f335c43eb4">Bus</a> &amp;bus, <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt; &amp;buffer, int numChannels, int channelStartOffset, int sampleOffset=0)</td></tr>
-<tr class="memdesc:a258f09e3c61c120d7c35e2c66bddd48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a series of AudioSampleBuffer's channels to an AudioBusBuffers'.  <a href="#a258f09e3c61c120d7c35e2c66bddd48a">More...</a><br/></td></tr>
+<tr class="memdesc:a258f09e3c61c120d7c35e2c66bddd48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a series of <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>'s channels to an AudioBusBuffers'.  <a href="#a258f09e3c61c120d7c35e2c66bddd48a">More...</a><br/></td></tr>
 <tr class="separator:a258f09e3c61c120d7c35e2c66bddd48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef619a230b18ed73332f85a6e7e53b3f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVST3BufferExchange.html#aef619a230b18ed73332f85a6e7e53b3f">mapArrangementToBuses</a> (int &amp;channelIndexOffset, int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>, <a class="el" href="classArray.html">Array</a>&lt; Steinberg::Vst::AudioBusBuffers &gt; &amp;result, <a class="el" href="structVST3BufferExchange.html#a0a22108464b6d7df26e58b473f3b567f">BusMap</a> &amp;busMapToUse, const <a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;arrangement, <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt; &amp;source)</td></tr>
 <tr class="separator:aef619a230b18ed73332f85a6e7e53b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,8 +276,8 @@ template&lt;typename FloatType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Assigns a series of AudioSampleBuffer's channels to an AudioBusBuffers'. </p>
-<dl class="section warning"><dt>Warning</dt><dd>For speed, does not check the channel count and offsets according to the AudioSampleBuffer </dd></dl>
+<p>Assigns a series of <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>'s channels to an AudioBusBuffers'. </p>
+<dl class="section warning"><dt>Warning</dt><dd>For speed, does not check the channel count and offsets according to the <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="structVST3BufferExchange.html#aef619a230b18ed73332f85a6e7e53b3f">VST3BufferExchange&lt; float &gt;::mapArrangementToBuses()</a>.</p>
 
@@ -459,7 +459,7 @@ template&lt;typename FloatType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 29 2017 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 31 2017 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

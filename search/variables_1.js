@@ -22,7 +22,7 @@ var searchData=
   ['bottomleft',['bottomLeft',['../classDrawableComposite_1_1ValueTreeWrapper.html#ad52741ce0a23d56efc8563a97e16a4d6',1,'DrawableComposite::ValueTreeWrapper::bottomLeft()'],['../classDrawableImage_1_1ValueTreeWrapper.html#a645b1394e866d6d7c3a32b85fc3c9c4f',1,'DrawableImage::ValueTreeWrapper::bottomLeft()'],['../classDrawableRectangle_1_1ValueTreeWrapper.html#aa6b275efad14fda5688b27a786410c69',1,'DrawableRectangle::ValueTreeWrapper::bottomLeft()'],['../classDrawableText_1_1ValueTreeWrapper.html#a3ba68bedf56180c1563b22bc5cd1f8f8',1,'DrawableText::ValueTreeWrapper::bottomLeft()'],['../classRelativeParallelogram.html#a511fddacbb033a3c4afb228aa664e603',1,'RelativeParallelogram::bottomLeft()']]],
   ['bpm',['bpm',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a70442777df0b88595ac6865acd936722',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['brown',['brown',['../classColours.html#a4c9ecea4fcd6707c997848245cdb1aea',1,'Colours']]],
-  ['buffer',['buffer',['../structAudioSourceChannelInfo.html#abed0807b4447de67b8ffd29ef2f2d2d1',1,'AudioSourceChannelInfo']]],
+  ['buffer',['buffer',['../structAudioSourceChannelInfo.html#a2e5c55518a161daf6d36502e1db9f148',1,'AudioSourceChannelInfo']]],
   ['buffersize',['bufferSize',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#a2b6b158660e8f9381be469ce87232b8e',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['burlywood',['burlywood',['../classColours.html#a44803d0e7de49815d43c88d9b6042718',1,'Colours']]],
   ['busname',['busName',['../structAudioProcessor_1_1BusProperties.html#a43722826739bc1bc65598fa0b7ce77a5',1,'AudioProcessor::BusProperties']]],

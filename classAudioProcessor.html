@@ -225,7 +225,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa567504e979bf8ee6868878d21d05f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a356fa03d08448f40384f0194e943403b"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
 <tr class="memitem:a356fa03d08448f40384f0194e943403b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a356fa03d08448f40384f0194e943403b">getBusBuffer</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt; &amp;processBlockBuffer, bool isInput, int busIndex) const </td></tr>
-<tr class="memdesc:a356fa03d08448f40384f0194e943403b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer of floating point audio samples. ">AudioBuffer</a> containing a set of channel pointers for a specific bus.  <a href="#a356fa03d08448f40384f0194e943403b">More...</a><br/></td></tr>
+<tr class="memdesc:a356fa03d08448f40384f0194e943403b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> containing a set of channel pointers for a specific bus.  <a href="#a356fa03d08448f40384f0194e943403b">More...</a><br/></td></tr>
 <tr class="separator:a356fa03d08448f40384f0194e943403b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e40238c21042c81b6dcdea07f9b7e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a59e40238c21042c81b6dcdea07f9b7e6">checkBusesLayoutSupported</a> (const <a class="el" href="structAudioProcessor_1_1BusesLayout.html">BusesLayout</a> &amp;) const </td></tr>
 <tr class="memdesc:a59e40238c21042c81b6dcdea07f9b7e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the Audio processor is likely to support a given layout.  <a href="#a59e40238c21042c81b6dcdea07f9b7e6">More...</a><br/></td></tr>
@@ -1423,7 +1423,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the position of a bus's channels within the processBlock buffer. </p>
-<p>This can be called in processBlock to figure out which channel of the master AudioSampleBuffer maps onto a specific bus's channel. </p>
+<p>This can be called in processBlock to figure out which channel of the master <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> maps onto a specific bus's channel. </p>
 
 <p>Referenced by <a class="el" href="classAudioProcessor.html#a356fa03d08448f40384f0194e943403b">getBusBuffer()</a>.</p>
 
@@ -1504,8 +1504,8 @@ template&lt;typename FloatType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer of floating point audio samples. ">AudioBuffer</a> containing a set of channel pointers for a specific bus. </p>
-<p>This can be called in processBlock to get a buffer containing a sub-group of the master AudioSampleBuffer which contains all the plugin channels. </p>
+<p>Returns an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> containing a set of channel pointers for a specific bus. </p>
+<p>This can be called in processBlock to get a buffer containing a sub-group of the master <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> which contains all the plugin channels. </p>
 
 <p>References <a class="el" href="classAudioBuffer.html#a6f52c02a21eb14d53e2a6fa46a825f4f">AudioBuffer&lt; Type &gt;::getArrayOfWritePointers()</a>, <a class="el" href="classAudioProcessor.html#a17f5020380dbfcd84dff17578143fddc">getChannelCountOfBus()</a>, <a class="el" href="classAudioProcessor.html#af9de177654fe95cc9de951df15537c24">getChannelIndexInProcessBlockBuffer()</a>, and <a class="el" href="classAudioBuffer.html#a74e3eeed9991f6633570b3bbcd723e2b">AudioBuffer&lt; Type &gt;::getNumSamples()</a>.</p>
 
@@ -3967,7 +3967,7 @@ template&lt;int numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 29 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 31 2017 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
