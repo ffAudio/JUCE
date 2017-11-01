@@ -28,6 +28,7 @@ var searchData=
   ['updatematchedpairs',['updateMatchedPairs',['../classMidiMessageSequence.html#a84c73c931fad6357ea81af0323109606',1,'MidiMessageSequence']]],
   ['updatemousecursor',['updateMouseCursor',['../classComponent.html#a03057aba4ac79272f105e8839582309c',1,'Component']]],
   ['updateposition',['updatePosition',['../classCallOutBox.html#a19e7a01bb331faba5196e3aa3df07e40',1,'CallOutBox']]],
+  ['updatesmoothers',['updateSmoothers',['../classdsp_1_1LadderFilter.html#aa334772f51404b9f26fe533fa78a68aa',1,'dsp::LadderFilter']]],
   ['updatetext',['updateText',['../classSlider.html#acec04f6f7cca814b66c23ae5cf4a7b6a',1,'Slider']]],
   ['updatetouch',['updateTouch',['../classTouchList.html#a9f927c25bb5abfea37670b6369077dbc',1,'TouchList']]],
   ['updatetrackproperties',['updateTrackProperties',['../classAudioProcessor.html#a19f07b6c13420d4b9ddb6dc0caaeac77',1,'AudioProcessor']]],

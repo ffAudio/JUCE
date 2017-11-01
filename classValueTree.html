@@ -174,9 +174,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ea2ce53b4759a37d58e3f99d9702e36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIdentifier.html">Identifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a6ea2ce53b4759a37d58e3f99d9702e36">getPropertyName</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
 <tr class="memdesc:a6ea2ce53b4759a37d58e3f99d9702e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the identifier of the property with a given index.  <a href="#a6ea2ce53b4759a37d58e3f99d9702e36">More...</a><br/></td></tr>
 <tr class="separator:a6ea2ce53b4759a37d58e3f99d9702e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36d40c533583c723be757c77ade1a5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValue.html">Value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#aa36d40c533583c723be757c77ade1a5c">getPropertyAsValue</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;name, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:aa36d40c533583c723be757c77ade1a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object that can be used to control and respond to one of the tree's properties.  <a href="#aa36d40c533583c723be757c77ade1a5c">More...</a><br/></td></tr>
-<tr class="separator:aa36d40c533583c723be757c77ade1a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ab2c5a5adfc77bb0831bc5746e32c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValue.html">Value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a1ab2c5a5adfc77bb0831bc5746e32c51">getPropertyAsValue</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;name, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager, bool shouldUpdateSynchronously=false)</td></tr>
+<tr class="memdesc:a1ab2c5a5adfc77bb0831bc5746e32c51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object that can be used to control and respond to one of the tree's properties.  <a href="#a1ab2c5a5adfc77bb0831bc5746e32c51">More...</a><br/></td></tr>
+<tr class="separator:a1ab2c5a5adfc77bb0831bc5746e32c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2596a93fa05a1a0c95cd6c275e77982"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad2596a93fa05a1a0c95cd6c275e77982">copyPropertiesFrom</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;source, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
 <tr class="memdesc:ad2596a93fa05a1a0c95cd6c275e77982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites all the properties in this tree with the properties of the source tree.  <a href="#ad2596a93fa05a1a0c95cd6c275e77982">More...</a><br/></td></tr>
 <tr class="separator:ad2596a93fa05a1a0c95cd6c275e77982"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -877,7 +877,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa36d40c533583c723be757c77ade1a5c"></a>
+<a class="anchor" id="a1ab2c5a5adfc77bb0831bc5746e32c51"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -891,7 +891,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classUndoManager.html">UndoManager</a> *&#160;</td>
-          <td class="paramname"><em>undoManager</em>&#160;</td>
+          <td class="paramname"><em>undoManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shouldUpdateSynchronously</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -902,7 +908,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object that can be used to control and respond to one of the tree's properties. </p>
-<p>The <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object will maintain a reference to this tree, and will use the undo manager when it needs to change the value. Attaching a <a class="el" href="classValue_1_1Listener.html" title="Receives callbacks when a Value object changes. ">Value::Listener</a> to the value object will provide callbacks whenever the property changes. </p>
+<p>The <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object will maintain a reference to this tree, and will use the undo manager when it needs to change the value. Attaching a <a class="el" href="classValue_1_1Listener.html" title="Receives callbacks when a Value object changes. ">Value::Listener</a> to the value object will provide callbacks whenever the property changes. If shouldUpdateSynchronously is true the <a class="el" href="classValue_1_1Listener.html" title="Receives callbacks when a Value object changes. ">Value::Listener</a> will be updated synchronously. </p>
+<dl class="section see"><dt>See Also</dt><dd>ValueSource::sendChangeMessage (bool) </dd></dl>
 
 </div>
 </div>
@@ -1769,7 +1776,7 @@ template&lt;typename ElementComparator &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 31 2017 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 1 2017 01:00:54 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

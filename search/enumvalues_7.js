@@ -65,5 +65,7 @@ var searchData=
   ['hostopcodeupdateview',['hostOpcodeUpdateView',['../group__juce__audio__processors-format__types.html#gga13942f5626bb2fcba846e559fbc42385a784448a19ce174cd19f0a8a61570c308',1,'juce_VSTInterface.h']]],
   ['hostopcodevstversion',['hostOpcodeVstVersion',['../group__juce__audio__processors-format__types.html#gga13942f5626bb2fcba846e559fbc42385a5ec1df75a7f94af44d6b1d6f638a29a9',1,'juce_VSTInterface.h']]],
   ['hostopcodewillreplace',['hostOpcodeWillReplace',['../group__juce__audio__processors-format__types.html#gga13942f5626bb2fcba846e559fbc42385a14c772890894e8fc57677e742c15e41e',1,'juce_VSTInterface.h']]],
-  ['hostopcodewindowsize',['hostOpcodeWindowSize',['../group__juce__audio__processors-format__types.html#gga13942f5626bb2fcba846e559fbc42385ad7189c0add3ef974690125e5c2790ae9',1,'juce_VSTInterface.h']]]
+  ['hostopcodewindowsize',['hostOpcodeWindowSize',['../group__juce__audio__processors-format__types.html#gga13942f5626bb2fcba846e559fbc42385ad7189c0add3ef974690125e5c2790ae9',1,'juce_VSTInterface.h']]],
+  ['hpf12',['HPF12',['../classdsp_1_1LadderFilter.html#a03ae4d1f29b84051cd34abcaba97d61eaf18e50f81881a130c3c48a9c85bcb21d',1,'dsp::LadderFilter']]],
+  ['hpf24',['HPF24',['../classdsp_1_1LadderFilter.html#a03ae4d1f29b84051cd34abcaba97d61ea9c666a244c72a34aaff97e1853b61bfa',1,'dsp::LadderFilter']]]
 ];

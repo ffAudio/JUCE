@@ -41,5 +41,7 @@ var searchData=
   ['lowestnoteonchannel',['lowestNoteOnChannel',['../classMPEInstrument.html#a6253ed9c5e70322645b02865c70dc0b6a47f69f12a40825822a72ff0e4e8f5c4b',1,'MPEInstrument']]],
   ['lowpass',['lowPass',['../structdsp_1_1StateVariableFilter_1_1Parameters.html#a87d3f04b51a089f786e2fa24539f7b20a30b882e8d16c0cebb115332d4b7652ec',1,'dsp::StateVariableFilter::Parameters']]],
   ['lowpriority',['LowPriority',['../classProcess.html#ad7b18ceb7a8c0a2b6b71856894feb6efad7f3e46785b41d6d5db5e7afab065281',1,'Process']]],
-  ['lowresamplingquality',['lowResamplingQuality',['../classGraphics.html#a5da218e649d1b5ac3d67443ae77caf87a4eb9cfa2e544befd2d50708e3316b28e',1,'Graphics']]]
+  ['lowresamplingquality',['lowResamplingQuality',['../classGraphics.html#a5da218e649d1b5ac3d67443ae77caf87a4eb9cfa2e544befd2d50708e3316b28e',1,'Graphics']]],
+  ['lpf12',['LPF12',['../classdsp_1_1LadderFilter.html#a03ae4d1f29b84051cd34abcaba97d61ea4a46bff5a8645768bbf206205e4ac292',1,'dsp::LadderFilter']]],
+  ['lpf24',['LPF24',['../classdsp_1_1LadderFilter.html#a03ae4d1f29b84051cd34abcaba97d61ea0e725626182f118d07d120cee81e283b',1,'dsp::LadderFilter']]]
 ];

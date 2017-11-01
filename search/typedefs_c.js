@@ -4,6 +4,7 @@ var searchData=
   ['packetindex',['PacketIndex',['../namespaceBlocksProtocol.html#a75cae5d56d3812f53abe6c00c3f82b5d',1,'BlocksProtocol']]],
   ['packettimestamp',['PacketTimestamp',['../namespaceBlocksProtocol.html#aaa8038ca4f33f4c1805f59d4deeb4837',1,'BlocksProtocol']]],
   ['packettimestampoffset',['PacketTimestampOffset',['../namespaceBlocksProtocol.html#a71888c6b82d4a4c3aa28b41a92d39920',1,'BlocksProtocol']]],
+  ['parameters',['Parameters',['../classdsp_1_1Reverb.html#a67582b7d70a6a0f444be8e3649b184b3',1,'dsp::Reverb']]],
   ['parametertype',['ParameterType',['../classSelectedItemSet.html#a976c15de158f2e675310ff4a345a4ea5',1,'SelectedItemSet']]],
   ['plugininouts',['PluginInOuts',['../classStandaloneFilterWindow.html#a6c10ebbc7b2013247891e3c37a641f87',1,'StandaloneFilterWindow']]],
   ['pointer_5fsized_5fint',['pointer_sized_int',['../group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78',1,'juce_MathsFunctions.h']]],

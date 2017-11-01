@@ -104,9 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a437e2033bee8c4c610b4fd0086b47042"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinearSmoothedValue.html#a437e2033bee8c4c610b4fd0086b47042">reset</a> (double sampleRate, double rampLengthInSeconds) noexcept</td></tr>
 <tr class="memdesc:a437e2033bee8c4c610b4fd0086b47042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset to a new sample rate and ramp length.  <a href="#a437e2033bee8c4c610b4fd0086b47042">More...</a><br/></td></tr>
 <tr class="separator:a437e2033bee8c4c610b4fd0086b47042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7def206e183499e27803d5ff4e6b303"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinearSmoothedValue.html#aa7def206e183499e27803d5ff4e6b303">setValue</a> (FloatType newValue) noexcept</td></tr>
-<tr class="memdesc:aa7def206e183499e27803d5ff4e6b303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new target value.  <a href="#aa7def206e183499e27803d5ff4e6b303">More...</a><br/></td></tr>
-<tr class="separator:aa7def206e183499e27803d5ff4e6b303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab29c5526e10d6944e0f65e323c679d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinearSmoothedValue.html#ab29c5526e10d6944e0f65e323c679d1a">setValue</a> (FloatType newValue, bool force=false) noexcept</td></tr>
+<tr class="memdesc:ab29c5526e10d6944e0f65e323c679d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new target value.  <a href="#ab29c5526e10d6944e0f65e323c679d1a">More...</a><br/></td></tr>
+<tr class="separator:ab29c5526e10d6944e0f65e323c679d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e4fb08705169e714862724ae75745f0"><td class="memItemLeft" align="right" valign="top">FloatType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">getNextValue</a> () noexcept</td></tr>
 <tr class="memdesc:a1e4fb08705169e714862724ae75745f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the next value.  <a href="#a1e4fb08705169e714862724ae75745f0">More...</a><br/></td></tr>
 <tr class="separator:a1e4fb08705169e714862724ae75745f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,7 +236,7 @@ template&lt;typename FloatType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa7def206e183499e27803d5ff4e6b303"></a>
+<a class="anchor" id="ab29c5526e10d6944e0f65e323c679d1a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -249,8 +249,18 @@ template&lt;typename FloatType&gt; </div>
           <td class="memname">void <a class="el" href="classLinearSmoothedValue.html">LinearSmoothedValue</a>&lt; FloatType &gt;::setValue </td>
           <td>(</td>
           <td class="paramtype">FloatType&#160;</td>
-          <td class="paramname"><em>newValue</em></td><td>)</td>
+          <td class="paramname"><em>newValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -263,12 +273,12 @@ template&lt;typename FloatType&gt; </div>
 <p>Set a new target value. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">newValue</td><td>New target value </td></tr>
+    <tr><td class="paramname">newValue</td><td>New target value  if true, the value will be set immediately, bypassing the ramp </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Referenced by <a class="el" href="classdsp_1_1Oscillator.html#ac1e77b42e81054ce6937ac6c84c5d2e0">dsp::Oscillator&lt; SampleType &gt;::setFrequency()</a>, and <a class="el" href="classReverb.html#af1b8609045ccadf2f6c4760f9a6d945a">Reverb::setParameters()</a>.</p>
+<p>Referenced by <a class="el" href="classdsp_1_1Oscillator.html#a6db93c32ac708692c1596a266481a0e9">dsp::Oscillator&lt; SampleType &gt;::setFrequency()</a>, and <a class="el" href="classReverb.html#af1b8609045ccadf2f6c4760f9a6d945a">Reverb::setParameters()</a>.</p>
 
 </div>
 </div>
@@ -298,7 +308,7 @@ template&lt;typename FloatType&gt; </div>
 <p>Compute the next value. </p>
 <dl class="section return"><dt>Returns</dt><dd>Smoothed value </dd></dl>
 
-<p>Referenced by <a class="el" href="classLinearSmoothedValue.html#abd1abd9fd441941920563c1edbdeeca2">LinearSmoothedValue&lt; NumericType &gt;::applyGain()</a>, <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>, <a class="el" href="classReverb.html#a04c43dc7b91788df75f434a957499e2d">Reverb::processMono()</a>, <a class="el" href="classdsp_1_1Oscillator.html#a4545bde29a168c661f2cf5b44f8e7bec">dsp::Oscillator&lt; SampleType &gt;::processSample()</a>, and <a class="el" href="classReverb.html#aba79aa61c18e8b3cf70dfd83fda7d099">Reverb::processStereo()</a>.</p>
+<p>Referenced by <a class="el" href="classLinearSmoothedValue.html#abd1abd9fd441941920563c1edbdeeca2">LinearSmoothedValue&lt; Type &gt;::applyGain()</a>, <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>, <a class="el" href="classReverb.html#a04c43dc7b91788df75f434a957499e2d">Reverb::processMono()</a>, <a class="el" href="classdsp_1_1Oscillator.html#a4545bde29a168c661f2cf5b44f8e7bec">dsp::Oscillator&lt; SampleType &gt;::processSample()</a>, and <a class="el" href="classReverb.html#aba79aa61c18e8b3cf70dfd83fda7d099">Reverb::processStereo()</a>.</p>
 
 </div>
 </div>
@@ -327,7 +337,7 @@ template&lt;typename FloatType&gt; </div>
 
 <p>Returns true if the current value is currently being interpolated. </p>
 
-<p>Referenced by <a class="el" href="classLinearSmoothedValue.html#abd1abd9fd441941920563c1edbdeeca2">LinearSmoothedValue&lt; NumericType &gt;::applyGain()</a>, and <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>.</p>
+<p>Referenced by <a class="el" href="classLinearSmoothedValue.html#abd1abd9fd441941920563c1edbdeeca2">LinearSmoothedValue&lt; Type &gt;::applyGain()</a>, and <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>.</p>
 
 </div>
 </div>
@@ -502,7 +512,7 @@ template&lt;typename FloatType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 31 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 1 2017 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

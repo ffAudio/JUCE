@@ -118,7 +118,7 @@ var searchData=
   ['timesignumerator',['timeSigNumerator',['../structAudioPlayHead_1_1CurrentPositionInfo.html#aaf8ad36ef3b2d39d401542ae5ca0100c',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['timesliceclient',['TimeSliceClient',['../classTimeSliceClient.html',1,'']]],
   ['timeslicethread',['TimeSliceThread',['../classTimeSliceThread.html',1,'TimeSliceThread'],['../classTimeSliceThread.html#ad2fa29d3076a7c0b600e297cc18fc9d9',1,'TimeSliceThread::TimeSliceThread()']]],
-  ['timestamp',['Timestamp',['../classBlock.html#a7e97e8f893c4d37d02a50c4ea3fe42e6',1,'Block::Timestamp()'],['../structAnalyticsDestination_1_1AnalyticsEvent.html#a044602c744c99c3c22a04f800353521e',1,'AnalyticsDestination::AnalyticsEvent::timestamp()']]],
+  ['timestamp',['timestamp',['../structAnalyticsDestination_1_1AnalyticsEvent.html#a044602c744c99c3c22a04f800353521e',1,'AnalyticsDestination::AnalyticsEvent::timestamp()'],['../classBlock.html#a7e97e8f893c4d37d02a50c4ea3fe42e6',1,'Block::Timestamp()']]],
   ['title',['title',['../structInAppPurchases_1_1Product.html#a52c8e88535e3a2cf74e089d62b51600c',1,'InAppPurchases::Product']]],
   ['titlebarbuttons',['TitleBarButtons',['../classDocumentWindow.html#a104d68bc145157c6ce79169a36fc3c31',1,'DocumentWindow']]],
   ['titletextcolourid',['titleTextColourId',['../classFileChooserDialogBox.html#aec403ffe26c5b7e34b6811cfb063df75acafefa55a6db4bba4a908e5ea63b3a1f',1,'FileChooserDialogBox']]],
