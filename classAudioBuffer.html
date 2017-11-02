@@ -195,12 +195,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af5cde88e72248367626419733fc58fc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioBuffer.html#af5cde88e72248367626419733fc58fc2">applyGainRamp</a> (int startSample, int numSamples, Type startGain, Type endGain) noexcept</td></tr>
 <tr class="memdesc:af5cde88e72248367626419733fc58fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a range of gains to a region of all channels.  <a href="#af5cde88e72248367626419733fc58fc2">More...</a><br/></td></tr>
 <tr class="separator:af5cde88e72248367626419733fc58fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20c20b1e68b0e18f958dd9bcb5690a84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioBuffer.html#a20c20b1e68b0e18f958dd9bcb5690a84">addFrom</a> (int destChannel, int destStartSample, const <a class="el" href="classAudioBuffer.html">AudioBuffer</a> &amp;source, int sourceChannel, int sourceStartSample, int numSamples, Type gainToApplyToSource=(Type) 1) noexcept</td></tr>
-<tr class="memdesc:a20c20b1e68b0e18f958dd9bcb5690a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds samples from another buffer to this one.  <a href="#a20c20b1e68b0e18f958dd9bcb5690a84">More...</a><br/></td></tr>
-<tr class="separator:a20c20b1e68b0e18f958dd9bcb5690a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb01aeb057e87b639eb758896cfc9ca9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioBuffer.html#abb01aeb057e87b639eb758896cfc9ca9">addFrom</a> (int destChannel, int destStartSample, const Type *source, int numSamples, Type gainToApplyToSource=(Type) 1) noexcept</td></tr>
-<tr class="memdesc:abb01aeb057e87b639eb758896cfc9ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds samples from an array of floats to one of the channels.  <a href="#abb01aeb057e87b639eb758896cfc9ca9">More...</a><br/></td></tr>
-<tr class="separator:abb01aeb057e87b639eb758896cfc9ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2b03021cca3f0382d602d0b9755a08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioBuffer.html#abb2b03021cca3f0382d602d0b9755a08">addFrom</a> (int destChannel, int destStartSample, const <a class="el" href="classAudioBuffer.html">AudioBuffer</a> &amp;source, int sourceChannel, int sourceStartSample, int numSamples, Type gainToApplyToSource=Type(1)) noexcept</td></tr>
+<tr class="memdesc:abb2b03021cca3f0382d602d0b9755a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds samples from another buffer to this one.  <a href="#abb2b03021cca3f0382d602d0b9755a08">More...</a><br/></td></tr>
+<tr class="separator:abb2b03021cca3f0382d602d0b9755a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ad8d6eb40abc86e9940ae90c79c380"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioBuffer.html#ae4ad8d6eb40abc86e9940ae90c79c380">addFrom</a> (int destChannel, int destStartSample, const Type *source, int numSamples, Type gainToApplyToSource=Type(1)) noexcept</td></tr>
+<tr class="memdesc:ae4ad8d6eb40abc86e9940ae90c79c380"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds samples from an array of floats to one of the channels.  <a href="#ae4ad8d6eb40abc86e9940ae90c79c380">More...</a><br/></td></tr>
+<tr class="separator:ae4ad8d6eb40abc86e9940ae90c79c380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1853da41f2a3d87fa6291a2bf2adca05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioBuffer.html#a1853da41f2a3d87fa6291a2bf2adca05">addFromWithRamp</a> (int destChannel, int destStartSample, const Type *source, int numSamples, Type startGain, Type endGain) noexcept</td></tr>
 <tr class="memdesc:a1853da41f2a3d87fa6291a2bf2adca05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds samples from an array of floats, applying a gain ramp to them.  <a href="#a1853da41f2a3d87fa6291a2bf2adca05">More...</a><br/></td></tr>
 <tr class="separator:a1853da41f2a3d87fa6291a2bf2adca05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -831,6 +831,7 @@ template&lt;typename Type&gt; </div>
 <p>If keepExistingContent is true, it will try to preserve as much of the old data as it can in the new buffer.</p>
 <p>If clearExtraSpace is true, then any extra channels or space that is allocated will be also be cleared. If false, then this space is left uninitialised.</p>
 <p>If avoidReallocating is true, then changing the buffer's size won't reduce the amount of memory that is currently allocated (but it will still increase it if the new size is bigger than the amount it currently has). If this is false, then a new allocation will be done so that the buffer uses takes up the minimum amount of memory that it needs.</p>
+<p>Note that if keepExistingContent and avoidReallocating are both true, then it will only avoid reallocating if neither the channel count or length in samples increase.</p>
 <p>If the required memory can't be allocated, this will throw a std::bad_alloc exception. </p>
 
 <p>Referenced by <a class="el" href="classAudioBuffer.html#a88f19397f068366e13aa53a0b6f92913">AudioBuffer&lt; float &gt;::makeCopyOf()</a>, <a class="el" href="classAudioBuffer.html#af43cdfdf05d2de26b8fdaa6ab86dc246">AudioBuffer&lt; float &gt;::operator=()</a>, <a class="el" href="classAudioUnitHelpers_1_1CoreAudioBufferList.html#a7e4cd6becddb903c974fb6e643afe8b4">AudioUnitHelpers::CoreAudioBufferList::prepare()</a>, and <a class="el" href="classAudioUnitHelpers_1_1CoreAudioBufferList.html#ac802ae2d716fab534a42a53313648e7d">AudioUnitHelpers::CoreAudioBufferList::release()</a>.</p>
@@ -1481,7 +1482,7 @@ template&lt;typename Type&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a20c20b1e68b0e18f958dd9bcb5690a84"></a>
+<a class="anchor" id="abb2b03021cca3f0382d602d0b9755a08"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1530,7 +1531,7 @@ template&lt;typename Type&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Type&#160;</td>
-          <td class="paramname"><em>gainToApplyToSource</em> = <code>(Type)&#160;1</code>&#160;</td>
+          <td class="paramname"><em>gainToApplyToSource</em> = <code>Type&#160;(1)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1564,7 +1565,7 @@ template&lt;typename Type&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="abb01aeb057e87b639eb758896cfc9ca9"></a>
+<a class="anchor" id="ae4ad8d6eb40abc86e9940ae90c79c380"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1601,7 +1602,7 @@ template&lt;typename Type&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Type&#160;</td>
-          <td class="paramname"><em>gainToApplyToSource</em> = <code>(Type)&#160;1</code>&#160;</td>
+          <td class="paramname"><em>gainToApplyToSource</em> = <code>Type&#160;(1)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1774,7 +1775,7 @@ template&lt;typename Type&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioBuffer.html#a20c20b1e68b0e18f958dd9bcb5690a84" title="Adds samples from another buffer to this one. ">addFrom</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioBuffer.html#abb2b03021cca3f0382d602d0b9755a08" title="Adds samples from another buffer to this one. ">addFrom</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classAudioBuffer.html#ae1cff4483f4022ed49dc91eda31098c9">AudioBuffer&lt; float &gt;::copyFromWithRamp()</a>.</p>
 
@@ -1836,7 +1837,7 @@ template&lt;typename Type&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioBuffer.html#a20c20b1e68b0e18f958dd9bcb5690a84" title="Adds samples from another buffer to this one. ">addFrom</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioBuffer.html#abb2b03021cca3f0382d602d0b9755a08" title="Adds samples from another buffer to this one. ">addFrom</a> </dd></dl>
 
 </div>
 </div>
@@ -1903,7 +1904,7 @@ template&lt;typename Type&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioBuffer.html#a20c20b1e68b0e18f958dd9bcb5690a84" title="Adds samples from another buffer to this one. ">addFrom</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioBuffer.html#abb2b03021cca3f0382d602d0b9755a08" title="Adds samples from another buffer to this one. ">addFrom</a> </dd></dl>
 
 </div>
 </div>
@@ -1977,7 +1978,7 @@ template&lt;typename Type&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioBuffer.html#a20c20b1e68b0e18f958dd9bcb5690a84" title="Adds samples from another buffer to this one. ">addFrom</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioBuffer.html#abb2b03021cca3f0382d602d0b9755a08" title="Adds samples from another buffer to this one. ">addFrom</a> </dd></dl>
 
 </div>
 </div>
@@ -2253,7 +2254,7 @@ template&lt;typename Type&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 1 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 2 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

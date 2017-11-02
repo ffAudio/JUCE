@@ -108,7 +108,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acdf6d7e27b96a50fe06922737f0d082e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives an incoming message.  <a href="#acdf6d7e27b96a50fe06922737f0d082e">More...</a><br/></td></tr>
 <tr class="separator:acdf6d7e27b96a50fe06922737f0d082e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af31fb0fe3195c72e76e9ebdfa89cf344"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiInputCallback.html#af31fb0fe3195c72e76e9ebdfa89cf344">handlePartialSysexMessage</a> (<a class="el" href="classMidiInput.html">MidiInput</a> *source, const <a class="el" href="group__juce__core-maths.html#gadde6aaee8457bee49c2a92621fe22b79">uint8</a> *messageData, int numBytesSoFar, double timestamp)</td></tr>
-<tr class="memdesc:af31fb0fe3195c72e76e9ebdfa89cf344"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classNotification.html" title="Singleton class responsible for push notifications functionality. ">Notification</a> sent each time a packet of a multi-packet sysex message arrives.  <a href="#af31fb0fe3195c72e76e9ebdfa89cf344">More...</a><br/></td></tr>
+<tr class="memdesc:af31fb0fe3195c72e76e9ebdfa89cf344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification sent each time a packet of a multi-packet sysex message arrives.  <a href="#af31fb0fe3195c72e76e9ebdfa89cf344">More...</a><br/></td></tr>
 <tr class="separator:af31fb0fe3195c72e76e9ebdfa89cf344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -232,7 +232,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classNotification.html" title="Singleton class responsible for push notifications functionality. ">Notification</a> sent each time a packet of a multi-packet sysex message arrives. </p>
+<p>Notification sent each time a packet of a multi-packet sysex message arrives. </p>
 <p>If a long sysex message is broken up into multiple packets, this callback is made for each packet that arrives until the message is finished, at which point the normal <a class="el" href="classMidiInputCallback.html#acdf6d7e27b96a50fe06922737f0d082e" title="Receives an incoming message. ">handleIncomingMidiMessage()</a> callback will be made with the entire message.</p>
 <p>The message passed in will contain the start of a sysex, but won't be finished with the terminating 0xf7 byte. </p>
 
@@ -246,7 +246,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 1 2017 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 2 2017 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

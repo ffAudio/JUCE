@@ -274,7 +274,7 @@ var searchData=
   ['juce_5fgui_5fextra',['juce_gui_extra',['../group__juce__gui__extra.html',1,'']]],
   ['juce_5fgzipcompressoroutputstream_2eh',['juce_GZIPCompressorOutputStream.h',['../juce__GZIPCompressorOutputStream_8h.html',1,'']]],
   ['juce_5fgzipdecompressorinputstream_2eh',['juce_GZIPDecompressorInputStream.h',['../juce__GZIPDecompressorInputStream_8h.html',1,'']]],
-  ['juce_5fhandlenotificationintent',['juce_handleNotificationIntent',['../classPushNotifications.html#a3569eef10aa0ceb00c2c3e297ae13a19',1,'PushNotifications']]],
+  ['juce_5fhandlenotificationintent',['juce_handleNotificationIntent',['../classPushNotifications.html#aeef25ab97b697f573d93838f6fb64ea9',1,'PushNotifications']]],
   ['juce_5fhandlexembedevent',['juce_handleXEmbedEvent',['../classXEmbedComponent.html#ab77965533bbfc70c1bea0b5fcc314671',1,'XEmbedComponent']]],
   ['juce_5fhandlexembedevent',['juce_handleXEmbedEvent',['../group__juce__gui__extra-embedding.html#ga2cad300cf70fc35a54a9a260022017a9',1,'juce_XEmbedComponent.h']]],
   ['juce_5fhashmap_2eh',['juce_HashMap.h',['../juce__HashMap_8h.html',1,'']]],

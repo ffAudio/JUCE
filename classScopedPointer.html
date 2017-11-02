@@ -140,6 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6792ecbc86107b81bdfc76f61a589e60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedPointer.html#a6792ecbc86107b81bdfc76f61a589e60">reset</a> (ObjectType *newObject)</td></tr>
 <tr class="memdesc:a6792ecbc86107b81bdfc76f61a589e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this pointer to a new object, deleting the old object that it was previously pointing to if there was one.  <a href="#a6792ecbc86107b81bdfc76f61a589e60">More...</a><br/></td></tr>
 <tr class="separator:a6792ecbc86107b81bdfc76f61a589e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d96a7e7ae6f857c4d5b8c9d3f749e8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedPointer.html#a2d96a7e7ae6f857c4d5b8c9d3f749e8f">reset</a> (<a class="el" href="classScopedPointer.html">ScopedPointer</a> &amp;newObject)</td></tr>
+<tr class="memdesc:a2d96a7e7ae6f857c4d5b8c9d3f749e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this pointer to a new object, deleting the old object that it was previously pointing to if there was one.  <a href="#a2d96a7e7ae6f857c4d5b8c9d3f749e8f">More...</a><br/></td></tr>
+<tr class="separator:a2d96a7e7ae6f857c4d5b8c9d3f749e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10c8f696fec0cca763b067ec3e469199"><td class="memItemLeft" align="right" valign="top">ObjectType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedPointer.html#a10c8f696fec0cca763b067ec3e469199">release</a> () noexcept</td></tr>
 <tr class="memdesc:a10c8f696fec0cca763b067ec3e469199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detaches and returns the current object from this <a class="el" href="classScopedPointer.html" title="This class holds a pointer which is automatically deleted when this object goes out of scope...">ScopedPointer</a> without deleting it.  <a href="#a10c8f696fec0cca763b067ec3e469199">More...</a><br/></td></tr>
 <tr class="separator:a10c8f696fec0cca763b067ec3e469199"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,6 +449,8 @@ template&lt;class ObjectType&gt; </div>
 
 <p>Returns the object that this <a class="el" href="classScopedPointer.html" title="This class holds a pointer which is automatically deleted when this object goes out of scope...">ScopedPointer</a> refers to. </p>
 
+<p>Referenced by <a class="el" href="group__juce__core-memory.html#ga527cc02f3401c7e99831ab0cb77bb3e2">operator!=()</a>, and <a class="el" href="group__juce__core-memory.html#ga3cdb728c7715f5050637fe8fd0593254">operator==()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a2f48458a1656a6ef1bd35cb8452eed35"></a>
@@ -519,7 +524,7 @@ template&lt;class ObjectType&gt; </div>
 
 <p>Clears this pointer, deleting the object it points to if there is one. </p>
 
-<p>Referenced by <a class="el" href="classScopedPointer.html#afefc7940828d72c056e03804cd6bea9f">ScopedPointer&lt; ListViewport &gt;::operator=()</a>, and <a class="el" href="classScopedPointer.html#a3c540f0121065aafa5f9607362fc1450">ScopedPointer&lt; ListViewport &gt;::~ScopedPointer()</a>.</p>
+<p>Referenced by <a class="el" href="classScopedPointer.html#afefc7940828d72c056e03804cd6bea9f">ScopedPointer&lt; ListViewport &gt;::operator=()</a>, <a class="el" href="classOwnedArray.html#ae96b18f21808cd5a62fc35bff85e2df6">OwnedArray&lt; MarkerList::Marker &gt;::remove()</a>, <a class="el" href="classScopedPointer.html#a2d96a7e7ae6f857c4d5b8c9d3f749e8f">ScopedPointer&lt; ListViewport &gt;::reset()</a>, and <a class="el" href="classScopedPointer.html#a3c540f0121065aafa5f9607362fc1450">ScopedPointer&lt; ListViewport &gt;::~ScopedPointer()</a>.</p>
 
 </div>
 </div>
@@ -533,6 +538,26 @@ template&lt;class ObjectType&gt; </div>
           <td class="memname">void <a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; ObjectType &gt;::reset </td>
           <td>(</td>
           <td class="paramtype">ObjectType *&#160;</td>
+          <td class="paramname"><em>newObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets this pointer to a new object, deleting the old object that it was previously pointing to if there was one. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2d96a7e7ae6f857c4d5b8c9d3f749e8f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; ObjectType &gt;::reset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; ObjectType &gt; &amp;&#160;</td>
           <td class="paramname"><em>newObject</em></td><td>)</td>
           <td></td>
         </tr>
@@ -569,7 +594,7 @@ template&lt;class ObjectType&gt; </div>
 <p>Detaches and returns the current object from this <a class="el" href="classScopedPointer.html" title="This class holds a pointer which is automatically deleted when this object goes out of scope...">ScopedPointer</a> without deleting it. </p>
 <p>This will return the current object, and set the <a class="el" href="classScopedPointer.html" title="This class holds a pointer which is automatically deleted when this object goes out of scope...">ScopedPointer</a> to a null pointer. </p>
 
-<p>Referenced by <a class="el" href="classScopedPointer.html#afefc7940828d72c056e03804cd6bea9f">ScopedPointer&lt; ListViewport &gt;::operator=()</a>, and <a class="el" href="classOwnedArray.html#a383de41801934f65b720a7019ed6ac8a">OwnedArray&lt; MarkerList::Marker &gt;::set()</a>.</p>
+<p>Referenced by <a class="el" href="classScopedPointer.html#afefc7940828d72c056e03804cd6bea9f">ScopedPointer&lt; ListViewport &gt;::operator=()</a>, <a class="el" href="classScopedPointer.html#a2d96a7e7ae6f857c4d5b8c9d3f749e8f">ScopedPointer&lt; ListViewport &gt;::reset()</a>, and <a class="el" href="classOwnedArray.html#a383de41801934f65b720a7019ed6ac8a">OwnedArray&lt; MarkerList::Marker &gt;::set()</a>.</p>
 
 </div>
 </div>
@@ -628,7 +653,7 @@ template&lt;class ObjectType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 1 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 2 2017 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

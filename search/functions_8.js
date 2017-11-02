@@ -239,7 +239,7 @@ var searchData=
   ['isidentity',['isIdentity',['../classAffineTransform.html#a0763b5aa59da4d6ec25875baea87cc18',1,'AffineTransform']]],
   ['isimmediately',['isImmediately',['../classOSCTimeTag.html#a7a6b061fc6a642433b3f577607fecce5',1,'OSCTimeTag']]],
   ['isinapppurchasessupported',['isInAppPurchasesSupported',['../classInAppPurchases.html#aacedac3475ddfad6e85a018a960e6974',1,'InAppPurchases']]],
-  ['isinitialised',['isInitialised',['../classdsp_1_1LookupTable.html#a821652a5fb06c6b495c929757d6a05a3',1,'dsp::LookupTable']]],
+  ['isinitialised',['isInitialised',['../classdsp_1_1LookupTable.html#a821652a5fb06c6b495c929757d6a05a3',1,'dsp::LookupTable::isInitialised()'],['../classdsp_1_1Oscillator.html#a6ec62157f39059b7d281b2a4690a9bd8',1,'dsp::Oscillator::isInitialised()']]],
   ['isinitialising',['isInitialising',['../classJUCEApplicationBase.html#a50aeb95b30fa9f4859777ca5474dce09',1,'JUCEApplicationBase']]],
   ['isinput',['isInput',['../classAudioProcessor_1_1Bus.html#a99884e38bb15ac207964deacc29d9c56',1,'AudioProcessor::Bus::isInput()'],['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a31233f833064a84d01559714c2aead8c',1,'AudioProcessorGraph::AudioGraphIOProcessor::isInput()']]],
   ['isint',['isInt',['../classvar.html#a0cc29bf1409cc5a8cbdfdf22f0b87c04',1,'var']]],

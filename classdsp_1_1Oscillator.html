@@ -112,6 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a136ff07f5246995ee68cf7d033ac10e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oscillator.html#a136ff07f5246995ee68cf7d033ac10e0">Oscillator</a> (const <a class="el" href="classstd_1_1function.html">std::function</a>&lt; <a class="el" href="classdsp_1_1Oscillator.html#a61b87e14200ee8df42b1dd408d7f8858">NumericType</a>(<a class="el" href="classdsp_1_1Oscillator.html#a61b87e14200ee8df42b1dd408d7f8858">NumericType</a>)&gt; &amp;function, size_t lookupTableNumPoints=0)</td></tr>
 <tr class="memdesc:a136ff07f5246995ee68cf7d033ac10e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an oscillator with a periodic input function (-pi..pi).  <a href="#a136ff07f5246995ee68cf7d033ac10e0">More...</a><br/></td></tr>
 <tr class="separator:a136ff07f5246995ee68cf7d033ac10e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec62157f39059b7d281b2a4690a9bd8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oscillator.html#a6ec62157f39059b7d281b2a4690a9bd8">isInitialised</a> () const noexcept</td></tr>
+<tr class="memdesc:a6ec62157f39059b7d281b2a4690a9bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the <a class="el" href="classdsp_1_1Oscillator.html" title="Generates a signal based on a user-supplied function. ">Oscillator</a> has been initialised.  <a href="#a6ec62157f39059b7d281b2a4690a9bd8">More...</a><br/></td></tr>
+<tr class="separator:a6ec62157f39059b7d281b2a4690a9bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6724ce014b15f20d091f8603c85e46b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oscillator.html#a6724ce014b15f20d091f8603c85e46b0">initialise</a> (const <a class="el" href="classstd_1_1function.html">std::function</a>&lt; <a class="el" href="classdsp_1_1Oscillator.html#a61b87e14200ee8df42b1dd408d7f8858">NumericType</a>(<a class="el" href="classdsp_1_1Oscillator.html#a61b87e14200ee8df42b1dd408d7f8858">NumericType</a>)&gt; &amp;function, size_t lookupTableNumPoints=0)</td></tr>
 <tr class="memdesc:a6724ce014b15f20d091f8603c85e46b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises the oscillator with a waveform.  <a href="#a6724ce014b15f20d091f8603c85e46b0">More...</a><br/></td></tr>
 <tr class="separator:a6724ce014b15f20d091f8603c85e46b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +215,35 @@ template&lt;typename SampleType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6ec62157f39059b7d281b2a4690a9bd8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classdsp_1_1Oscillator.html">dsp::Oscillator</a>&lt; SampleType &gt;::isInitialised </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if the <a class="el" href="classdsp_1_1Oscillator.html" title="Generates a signal based on a user-supplied function. ">Oscillator</a> has been initialised. </p>
+
+<p>Referenced by <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>, and <a class="el" href="classdsp_1_1Oscillator.html#a4545bde29a168c661f2cf5b44f8e7bec">dsp::Oscillator&lt; SampleType &gt;::processSample()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a6724ce014b15f20d091f8603c85e46b0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -402,7 +434,7 @@ template&lt;typename SampleType &gt; </div>
 
 <p>Returns the result of processing a single sample. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#gaa929b9e10eedb3b7a6bd8f6ba2d9ddaa">double_Pi</a>, and <a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">LinearSmoothedValue&lt; FloatType &gt;::getNextValue()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#gaa929b9e10eedb3b7a6bd8f6ba2d9ddaa">double_Pi</a>, <a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">LinearSmoothedValue&lt; FloatType &gt;::getNextValue()</a>, <a class="el" href="classdsp_1_1Oscillator.html#a6ec62157f39059b7d281b2a4690a9bd8">dsp::Oscillator&lt; SampleType &gt;::isInitialised()</a>, and <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>
@@ -434,7 +466,7 @@ template&lt;typename ProcessContext &gt; </div>
 
 <p>Processes the input and output buffers supplied in the processing context. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#gaa929b9e10eedb3b7a6bd8f6ba2d9ddaa">double_Pi</a>, <a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">LinearSmoothedValue&lt; FloatType &gt;::getNextValue()</a>, <a class="el" href="classArray.html#a4c5c3e5ab20d17d6d5757e53773ba2ff">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getRawDataPointer()</a>, <a class="el" href="classLinearSmoothedValue.html#af79754c985489391bc1a88fb871854f8">LinearSmoothedValue&lt; FloatType &gt;::isSmoothing()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, and <a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::size()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#gaa929b9e10eedb3b7a6bd8f6ba2d9ddaa">double_Pi</a>, <a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">LinearSmoothedValue&lt; FloatType &gt;::getNextValue()</a>, <a class="el" href="classArray.html#a4c5c3e5ab20d17d6d5757e53773ba2ff">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getRawDataPointer()</a>, <a class="el" href="classdsp_1_1Oscillator.html#a6ec62157f39059b7d281b2a4690a9bd8">dsp::Oscillator&lt; SampleType &gt;::isInitialised()</a>, <a class="el" href="classLinearSmoothedValue.html#af79754c985489391bc1a88fb871854f8">LinearSmoothedValue&lt; FloatType &gt;::isSmoothing()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, and <a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::size()</a>.</p>
 
 </div>
 </div>
@@ -444,7 +476,7 @@ template&lt;typename ProcessContext &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 1 2017 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 2 2017 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
