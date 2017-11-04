@@ -119,10 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd3d8878df1c4510d5e682fd0aabe465"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEdgeTable.html#abd3d8878df1c4510d5e682fd0aabe465">~EdgeTable</a> ()</td></tr>
 <tr class="memdesc:abd3d8878df1c4510d5e682fd0aabe465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#abd3d8878df1c4510d5e682fd0aabe465">More...</a><br/></td></tr>
 <tr class="separator:abd3d8878df1c4510d5e682fd0aabe465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b4f654ca67629b18fd7bcfb181089db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEdgeTable.html#a8b4f654ca67629b18fd7bcfb181089db">clipToRectangle</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;r)</td></tr>
-<tr class="separator:a8b4f654ca67629b18fd7bcfb181089db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace4a4713af3e35ed6276ebc176e078e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEdgeTable.html#ace4a4713af3e35ed6276ebc176e078e1">excludeRectangle</a> (const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;r)</td></tr>
-<tr class="separator:ace4a4713af3e35ed6276ebc176e078e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e967dc5b560cadc093b4fddf89cd83b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEdgeTable.html#a3e967dc5b560cadc093b4fddf89cd83b">clipToRectangle</a> (<a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; r)</td></tr>
+<tr class="separator:a3e967dc5b560cadc093b4fddf89cd83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2517b763e364f765c9a6db60f007a9f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEdgeTable.html#a2517b763e364f765c9a6db60f007a9f1">excludeRectangle</a> (<a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; r)</td></tr>
+<tr class="separator:a2517b763e364f765c9a6db60f007a9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae97f9c60cc5f74f391088689e5b959c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEdgeTable.html#ae97f9c60cc5f74f391088689e5b959c7">clipToEdgeTable</a> (const <a class="el" href="classEdgeTable.html">EdgeTable</a> &amp;)</td></tr>
 <tr class="separator:ae97f9c60cc5f74f391088689e5b959c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65f05a5b115733ef69094e865987d295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEdgeTable.html#a65f05a5b115733ef69094e865987d295">clipLineToMask</a> (int x, int y, const <a class="el" href="group__juce__core-maths.html#gadde6aaee8457bee49c2a92621fe22b79">uint8</a> *mask, int maskStride, int numPixels)</td></tr>
@@ -349,14 +349,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8b4f654ca67629b18fd7bcfb181089db"></a>
+<a class="anchor" id="a3e967dc5b560cadc093b4fddf89cd83b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void EdgeTable::clipToRectangle </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td>
           <td class="paramname"><em>r</em></td><td>)</td>
           <td></td>
         </tr>
@@ -365,14 +365,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ace4a4713af3e35ed6276ebc176e078e1"></a>
+<a class="anchor" id="a2517b763e364f765c9a6db60f007a9f1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void EdgeTable::excludeRectangle </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td>
           <td class="paramname"><em>r</em></td><td>)</td>
           <td></td>
         </tr>
@@ -605,7 +605,7 @@ template&lt;class EdgeTableIterationCallback &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 3 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 4 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
