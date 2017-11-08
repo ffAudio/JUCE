@@ -10,6 +10,7 @@ var searchData=
   ['juce_5falertwindow_2eh',['juce_AlertWindow.h',['../juce__AlertWindow_8h.html',1,'']]],
   ['juce_5fanalytics_2eh',['juce_Analytics.h',['../juce__Analytics_8h.html',1,'']]],
   ['juce_5fanalyticsdestination_2eh',['juce_AnalyticsDestination.h',['../juce__AnalyticsDestination_8h.html',1,'']]],
+  ['juce_5fandroidviewcomponent_2eh',['juce_AndroidViewComponent.h',['../juce__AndroidViewComponent_8h.html',1,'']]],
   ['juce_5fanimatedappcomponent_2eh',['juce_AnimatedAppComponent.h',['../juce__AnimatedAppComponent_8h.html',1,'']]],
   ['juce_5fanimatedposition_2eh',['juce_AnimatedPosition.h',['../juce__AnimatedPosition_8h.html',1,'']]],
   ['juce_5fanimatedpositionbehaviours_2eh',['juce_AnimatedPositionBehaviours.h',['../juce__AnimatedPositionBehaviours_8h.html',1,'']]],

@@ -283,6 +283,7 @@ var searchData=
   ['copyto',['copyTo',['../classMemoryBlock.html#aacda2afa6101956c2c66ebca93c42c36',1,'MemoryBlock']]],
   ['copytoarray',['copyToArray',['../classLinkedListPointer.html#a2474d1f6e6156e9d5ffdcd3bb873b7c9',1,'LinkedListPointer']]],
   ['copytoclipboard',['copyToClipboard',['../classTextEditor.html#a6765bf476a80e6e69351a4971466be6f',1,'TextEditor::copyToClipboard()'],['../classCodeEditorComponent.html#a532ad67ec851021d4018bca1facec84b',1,'CodeEditorComponent::copyToClipboard()']]],
+  ['copytorawarray',['copyToRawArray',['../structdsp_1_1SIMDRegister.html#a421e73d350c016f412f1eb0bd35205ba',1,'dsp::SIMDRegister']]],
   ['copytoutf16',['copyToUTF16',['../classString.html#afa37808ed30e583f84bef142c2c9478d',1,'String']]],
   ['copytoutf32',['copyToUTF32',['../classString.html#a9ed1dd6451ad425adecb1e085b281e0b',1,'String']]],
   ['copytoutf8',['copyToUTF8',['../classString.html#a7f0b4a4704bda8f1a22a0078fb19ae06',1,'String']]],

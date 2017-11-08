@@ -150,6 +150,7 @@ var searchData=
   ['fromlines',['fromLines',['../classStringArray.html#aa65070cc0eda93b9ebb7da2b1325781b',1,'StringArray']]],
   ['fromnative',['fromNative',['../structdsp_1_1SIMDRegister.html#af3d34b98f35c7a68ba3b0593a8263cd1',1,'dsp::SIMDRegister']]],
   ['frompositiononborder',['fromPositionOnBorder',['../classResizableBorderComponent_1_1Zone.html#af901205cf8873913469933d0f1bcd577',1,'ResizableBorderComponent::Zone']]],
+  ['fromrawarray',['fromRawArray',['../structdsp_1_1SIMDRegister.html#a3ba0b5cab0724a8a2ef5ef9a5cd58907',1,'dsp::SIMDRegister']]],
   ['fromrgb',['fromRGB',['../classColour.html#a8229c3afbbab454c718ee2b08b56df8c',1,'Colour']]],
   ['fromrgba',['fromRGBA',['../classColour.html#a0611ddee8a4c8414645d6975f290a750',1,'Colour']]],
   ['fromstartandangle',['fromStartAndAngle',['../classLine.html#aa3f92ac1df630fc18acb4b3a4ba5b635',1,'Line']]],

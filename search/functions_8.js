@@ -403,7 +403,7 @@ var searchData=
   ['isselected',['isSelected',['../classSelectedItemSet.html#a431e7bbc3d316e1822596563b49adc73',1,'SelectedItemSet::isSelected()'],['../classTreeViewItem.html#a96351e2c95b73bf170b8818774a63cf6',1,'TreeViewItem::isSelected()']]],
   ['isshiftdown',['isShiftDown',['../classModifierKeys.html#afd9f4558046eccad2c3a3366c6bcf6b0',1,'ModifierKeys']]],
   ['isshowing',['isShowing',['../classComponent.html#acbbdd1274a2d0e9447e42c7ee7753dfe',1,'Component']]],
-  ['issimdaligned',['isSIMDAligned',['../structdsp_1_1SIMDRegister.html#abe5e51788f20b58dc9ae032c87646032',1,'dsp::SIMDRegister']]],
+  ['issimdaligned',['isSIMDAligned',['../structdsp_1_1SIMDRegister.html#a2615629aee806ef6b0990301544d2170',1,'dsp::SIMDRegister']]],
   ['issinglechannel',['isSingleChannel',['../classImage.html#a1176ae108a31a0f4b7b4be6b86bc6181',1,'Image']]],
   ['issingularity',['isSingularity',['../classAffineTransform.html#a6a5398b6aef3c585ae13c84434d6d498',1,'AffineTransform']]],
   ['issmoothing',['isSmoothing',['../classLinearSmoothedValue.html#af79754c985489391bc1a88fb871854f8',1,'LinearSmoothedValue::isSmoothing()'],['../classdsp_1_1Gain.html#a0a97200da210aa72c0bc7675ab7e6258',1,'dsp::Gain::isSmoothing()']]],

@@ -103,6 +103,11 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3d42454e96ba78b0eae4816a989f829c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdsp_1_1CmplxSIMDOps.html#a934ef4c9b666d2a2a14d601381b31021">vSIMDType</a> <br class="typebreak"/>
+JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1CmplxSIMDOps.html#a3d42454e96ba78b0eae4816a989f829c">load</a> (const Scalar *a) noexcept</td></tr>
+<tr class="separator:a3d42454e96ba78b0eae4816a989f829c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e674b4e042a15ec7e8179a9dcde361"><td class="memItemLeft" align="right" valign="top">static void JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1CmplxSIMDOps.html#ae0e674b4e042a15ec7e8179a9dcde361">store</a> (<a class="el" href="structdsp_1_1CmplxSIMDOps.html#a934ef4c9b666d2a2a14d601381b31021">vSIMDType</a> <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>, Scalar *dest) noexcept</td></tr>
+<tr class="separator:ae0e674b4e042a15ec7e8179a9dcde361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad805fafd17f0fbb9fb2ad0554f4d63f9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdsp_1_1CmplxSIMDOps.html#a934ef4c9b666d2a2a14d601381b31021">vSIMDType</a> <br class="typebreak"/>
 JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">expand</a> (Scalar s) noexcept</td></tr>
 <tr class="separator:ad805fafd17f0fbb9fb2ad0554f4d63f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +136,72 @@ template&lt;typename Scalar &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a3d42454e96ba78b0eae4816a989f829c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Scalar &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structdsp_1_1CmplxSIMDOps.html#a934ef4c9b666d2a2a14d601381b31021">vSIMDType</a> JUCE_VECTOR_CALLTYPE <a class="el" href="structdsp_1_1CmplxSIMDOps.html">dsp::CmplxSIMDOps</a>&lt; Scalar &gt;::load </td>
+          <td>(</td>
+          <td class="paramtype">const Scalar *&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="structdsp_1_1SIMDRegister.html#a3ba0b5cab0724a8a2ef5ef9a5cd58907">dsp::SIMDRegister&lt; Type &gt;::fromRawArray()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0e674b4e042a15ec7e8179a9dcde361"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Scalar &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void JUCE_VECTOR_CALLTYPE <a class="el" href="structdsp_1_1CmplxSIMDOps.html">dsp::CmplxSIMDOps</a>&lt; Scalar &gt;::store </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structdsp_1_1CmplxSIMDOps.html#a934ef4c9b666d2a2a14d601381b31021">vSIMDType</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Scalar *&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="structdsp_1_1SIMDRegister.html#a421e73d350c016f412f1eb0bd35205ba">dsp::SIMDRegister&lt; Type &gt;::copyToRawArray()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad805fafd17f0fbb9fb2ad0554f4d63f9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -275,7 +346,7 @@ template&lt;typename Scalar &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 7 2017 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 8 2017 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -115,9 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7cdf829373825e63f2dcb6637749a989"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a7cdf829373825e63f2dcb6637749a989">AudioBlock</a> (SampleType *const *channelData, size_t numberOfChannels, size_t startSampleIndex, size_t numberOfSamples) noexcept</td></tr>
 <tr class="memdesc:a7cdf829373825e63f2dcb6637749a989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> from a pointer to an array of channels.  <a href="#a7cdf829373825e63f2dcb6637749a989">More...</a><br/></td></tr>
 <tr class="separator:a7cdf829373825e63f2dcb6637749a989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadd2738930cbe058ac3d27663e6c08b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#aadd2738930cbe058ac3d27663e6c08b0">AudioBlock</a> (<a class="el" href="classHeapBlock.html">HeapBlock</a>&lt; char &gt; &amp;heapBlockToUseForAllocation, size_t numberOfChannels, size_t numberOfSamples) noexcept</td></tr>
-<tr class="memdesc:aadd2738930cbe058ac3d27663e6c08b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a suitable amount of space in a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap. ">HeapBlock</a>, and initialises this object to point into it.  <a href="#aadd2738930cbe058ac3d27663e6c08b0">More...</a><br/></td></tr>
-<tr class="separator:aadd2738930cbe058ac3d27663e6c08b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ba49c0e8ba6c5e0081aa40848999f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a84ba49c0e8ba6c5e0081aa40848999f2">AudioBlock</a> (<a class="el" href="classHeapBlock.html">HeapBlock</a>&lt; char &gt; &amp;heapBlockToUseForAllocation, size_t numberOfChannels, size_t numberOfSamples, size_t alignmentInBytes=defaultAlignment) noexcept</td></tr>
+<tr class="memdesc:a84ba49c0e8ba6c5e0081aa40848999f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a suitable amount of space in a <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap. ">HeapBlock</a>, and initialises this object to point into it.  <a href="#a84ba49c0e8ba6c5e0081aa40848999f2">More...</a><br/></td></tr>
+<tr class="separator:a84ba49c0e8ba6c5e0081aa40848999f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50b2382b00e97e30474430fad6acadbf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a50b2382b00e97e30474430fad6acadbf">AudioBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; SampleType &gt; &amp;buffer) noexcept</td></tr>
 <tr class="memdesc:a50b2382b00e97e30474430fad6acadbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that points to the data in an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>.  <a href="#a50b2382b00e97e30474430fad6acadbf">More...</a><br/></td></tr>
 <tr class="separator:a50b2382b00e97e30474430fad6acadbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -401,7 +401,7 @@ template&lt;typename SampleType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aadd2738930cbe058ac3d27663e6c08b0"></a>
+<a class="anchor" id="a84ba49c0e8ba6c5e0081aa40848999f2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -426,7 +426,13 @@ template&lt;typename SampleType&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>numberOfSamples</em>&#160;</td>
+          <td class="paramname"><em>numberOfSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>alignmentInBytes</em> = <code>defaultAlignment</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1835,7 +1841,7 @@ template&lt;typename FunctionType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 7 2017 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 8 2017 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

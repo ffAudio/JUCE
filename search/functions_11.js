@@ -268,7 +268,7 @@ var searchData=
   ['resizerectangleby',['resizeRectangleBy',['../classResizableBorderComponent_1_1Zone.html#acc3054a16f6d88c07b1db439ddf20d69',1,'ResizableBorderComponent::Zone']]],
   ['resizestart',['resizeStart',['../classComponentBoundsConstrainer.html#a93469c13206cd1f1a8662a4d031f6efc',1,'ComponentBoundsConstrainer']]],
   ['resizetofit',['resizeToFit',['../classStretchableObjectResizer.html#ad91dce94a524b769b10c663eec6f0b4e',1,'StretchableObjectResizer']]],
-  ['resizetofitview',['resizeToFitView',['../classNSViewComponent.html#a3d7466089ae77b3428df1986f89ad949',1,'NSViewComponent::resizeToFitView()'],['../classUIViewComponent.html#af65552c117379c5b6fd3b7b7021c4be0',1,'UIViewComponent::resizeToFitView()']]],
+  ['resizetofitview',['resizeToFitView',['../classAndroidViewComponent.html#aaa1ee6d178e2163f320ebab7fd5a1be2',1,'AndroidViewComponent::resizeToFitView()'],['../classNSViewComponent.html#a3d7466089ae77b3428df1986f89ad949',1,'NSViewComponent::resizeToFitView()'],['../classUIViewComponent.html#af65552c117379c5b6fd3b7b7021c4be0',1,'UIViewComponent::resizeToFitView()']]],
   ['resolve',['resolve',['../classRelativeCoordinate.html#a3f41920dc7782e0eea4d91e83b3b4bed',1,'RelativeCoordinate::resolve()'],['../classRelativePoint.html#a6b19278099037025cff45301abf0d52c',1,'RelativePoint::resolve()'],['../classRelativeRectangle.html#a697db976cfd6376b2e4eb4a650182be8',1,'RelativeRectangle::resolve()']]],
   ['resolvefourcorners',['resolveFourCorners',['../classRelativeParallelogram.html#a507aad3af1a02ac27a5d228dafc3386b',1,'RelativeParallelogram']]],
   ['resolvethreepoints',['resolveThreePoints',['../classRelativeParallelogram.html#a940e39998c909b64b0c8b3c518964414',1,'RelativeParallelogram']]],

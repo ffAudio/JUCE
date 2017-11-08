@@ -7,6 +7,7 @@ var searchData=
   ['_7eaiffaudioformat',['~AiffAudioFormat',['../classAiffAudioFormat.html#ac9dc64077a6e590b299e15c0896f4fd2',1,'AiffAudioFormat']]],
   ['_7ealertwindow',['~AlertWindow',['../classAlertWindow.html#a3c76e1a1ce702a161064eebb134f1adc',1,'AlertWindow']]],
   ['_7eanalyticsdestination',['~AnalyticsDestination',['../structAnalyticsDestination.html#adcb542bddc3381252ae0ca5e5c9d450c',1,'AnalyticsDestination']]],
+  ['_7eandroidviewcomponent',['~AndroidViewComponent',['../classAndroidViewComponent.html#a921ea37a82f3f28c1e5a722dc30ef428',1,'AndroidViewComponent']]],
   ['_7eappleremotedevice',['~AppleRemoteDevice',['../classAppleRemoteDevice.html#aa7ce0c2716f3a62e1eab5cbd23445ce0',1,'AppleRemoteDevice']]],
   ['_7eapplicationcommandmanager',['~ApplicationCommandManager',['../classApplicationCommandManager.html#affac02208039201c7e6a59599a1010df',1,'ApplicationCommandManager']]],
   ['_7eapplicationcommandmanagerlistener',['~ApplicationCommandManagerListener',['../classApplicationCommandManagerListener.html#a9b2c9f6c718ad68306791c2aeb29f754',1,'ApplicationCommandManagerListener']]],
