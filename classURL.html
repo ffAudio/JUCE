@@ -105,7 +105,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a24e0205b0375cff235d64cc33d8c8550"><td class="memItemLeft" align="right" valign="top">typedef bool(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> )(void *context, int bytesSent, int totalBytes)</td></tr>
-<tr class="memdesc:a24e0205b0375cff235d64cc33d8c8550"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback function can be used by the <a class="el" href="classURL.html#a3482388836fc1d25a380a6c167cdb3c9" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a> method.  <a href="#a24e0205b0375cff235d64cc33d8c8550">More...</a><br/></td></tr>
+<tr class="memdesc:a24e0205b0375cff235d64cc33d8c8550"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback function can be used by the <a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a> method.  <a href="#a24e0205b0375cff235d64cc33d8c8550">More...</a><br/></td></tr>
 <tr class="separator:a24e0205b0375cff235d64cc33d8c8550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -124,6 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae46c0eb51a565459f983c4b05a548599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8c69a46699c7fdd774d6bd83f281531"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#aa8c69a46699c7fdd774d6bd83f281531">operator=</a> (<a class="el" href="classURL.html">URL</a> &amp;&amp;)</td></tr>
 <tr class="separator:aa8c69a46699c7fdd774d6bd83f281531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5caeadd36e58749d3acbd38334d13aea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a5caeadd36e58749d3acbd38334d13aea">URL</a> (<a class="el" href="classFile.html">File</a>)</td></tr>
+<tr class="memdesc:a5caeadd36e58749d3acbd38334d13aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> referring to a local file on your disk using the <a href="file://">file://</a> scheme.  <a href="#a5caeadd36e58749d3acbd38334d13aea">More...</a><br/></td></tr>
+<tr class="separator:a5caeadd36e58749d3acbd38334d13aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a127152050325ba77075f00ee2630c33c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a127152050325ba77075f00ee2630c33c">~URL</a> ()</td></tr>
 <tr class="memdesc:a127152050325ba77075f00ee2630c33c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a127152050325ba77075f00ee2630c33c">More...</a><br/></td></tr>
 <tr class="separator:a127152050325ba77075f00ee2630c33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +153,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3900eeaf678969aab1ef8447a879786c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a3900eeaf678969aab1ef8447a879786c">getScheme</a> () const </td></tr>
 <tr class="memdesc:a3900eeaf678969aab1ef8447a879786c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the scheme of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#a3900eeaf678969aab1ef8447a879786c">More...</a><br/></td></tr>
 <tr class="separator:a3900eeaf678969aab1ef8447a879786c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5332b129d248c96e7807d78054d55773"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a5332b129d248c96e7807d78054d55773">isLocalFile</a> () const </td></tr>
+<tr class="memdesc:a5332b129d248c96e7807d78054d55773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> refers to a local file.  <a href="#a5332b129d248c96e7807d78054d55773">More...</a><br/></td></tr>
+<tr class="separator:a5332b129d248c96e7807d78054d55773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcbaf472c62bc474c7b30605e78cbf76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#adcbaf472c62bc474c7b30605e78cbf76">getLocalFile</a> () const </td></tr>
+<tr class="memdesc:adcbaf472c62bc474c7b30605e78cbf76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file path of the local file to which this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> refers to.  <a href="#adcbaf472c62bc474c7b30605e78cbf76">More...</a><br/></td></tr>
+<tr class="separator:adcbaf472c62bc474c7b30605e78cbf76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a956752231288358290d781e5f27eb150"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a956752231288358290d781e5f27eb150">getPort</a> () const </td></tr>
 <tr class="memdesc:a956752231288358290d781e5f27eb150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to read a port number from the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#a956752231288358290d781e5f27eb150">More...</a><br/></td></tr>
 <tr class="separator:a956752231288358290d781e5f27eb150"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,9 +204,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab56bf9814dfe828db465582b3af50c69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ab56bf9814dfe828db465582b3af50c69">launchInDefaultBrowser</a> () const </td></tr>
 <tr class="memdesc:ab56bf9814dfe828db465582b3af50c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to launch the system's default browser to open the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#ab56bf9814dfe828db465582b3af50c69">More...</a><br/></td></tr>
 <tr class="separator:ab56bf9814dfe828db465582b3af50c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3482388836fc1d25a380a6c167cdb3c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classWebInputStream.html">WebInputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a3482388836fc1d25a380a6c167cdb3c9">createInputStream</a> (bool doPostLikeRequest, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, int *statusCode=nullptr, int numRedirectsToFollow=5, <a class="el" href="classString.html">String</a> httpRequestCmd=<a class="el" href="classString.html">String</a>()) const </td></tr>
-<tr class="memdesc:a3482388836fc1d25a380a6c167cdb3c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#a3482388836fc1d25a380a6c167cdb3c9">More...</a><br/></td></tr>
-<tr class="separator:a3482388836fc1d25a380a6c167cdb3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab487b0c5d684af5f3b0a678479696105"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105">createInputStream</a> (bool doPostLikeRequest, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, int *statusCode=nullptr, int numRedirectsToFollow=5, <a class="el" href="classString.html">String</a> httpRequestCmd=<a class="el" href="classString.html">String</a>()) const </td></tr>
+<tr class="memdesc:ab487b0c5d684af5f3b0a678479696105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#ab487b0c5d684af5f3b0a678479696105">More...</a><br/></td></tr>
+<tr class="separator:ab487b0c5d684af5f3b0a678479696105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a591172ae1dbe6598848d83e5eff5f6d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL_1_1DownloadTask.html">DownloadTask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a591172ae1dbe6598848d83e5eff5f6d0">downloadToFile</a> (const <a class="el" href="classFile.html">File</a> &amp;targetLocation, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), <a class="el" href="structURL_1_1DownloadTask_1_1Listener.html">DownloadTask::Listener</a> *listener=nullptr, bool usePostCommand=false)</td></tr>
 <tr class="memdesc:a591172ae1dbe6598848d83e5eff5f6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> to a file.  <a href="#a591172ae1dbe6598848d83e5eff5f6d0">More...</a><br/></td></tr>
 <tr class="separator:a591172ae1dbe6598848d83e5eff5f6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,7 +252,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This callback function can be used by the <a class="el" href="classURL.html#a3482388836fc1d25a380a6c167cdb3c9" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a> method. </p>
+<p>This callback function can be used by the <a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a> method. </p>
 <p>It allows your app to receive progress updates during a lengthy POST operation. If you want to continue the operation, this should return true, or false to abort. </p>
 
 </div>
@@ -330,6 +339,32 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5caeadd36e58749d3acbd38334d13aea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">URL::URL </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classFile.html">File</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> referring to a local file on your disk using the <a href="file://">file://</a> scheme. </p>
 
 </div>
 </div>
@@ -538,6 +573,43 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the scheme of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>. </p>
 <p>E.g. for "http://www.xyz.com/foobar", this will return "http". (It won't include the colon). </p>
+
+</div>
+</div>
+<a class="anchor" id="a5332b129d248c96e7807d78054d55773"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool URL::isLocalFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> refers to a local file. </p>
+
+</div>
+</div>
+<a class="anchor" id="adcbaf472c62bc474c7b30605e78cbf76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFile.html">File</a> URL::getLocalFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the file path of the local file to which this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> refers to. </p>
+<p>If the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> does not represent a local file <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> (i.e. the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>'s scheme is not 'file') then this method will assert.</p>
+<p>This method also supports converting Android's content:// URLs to local file paths.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#a5332b129d248c96e7807d78054d55773" title="Returns true if this URL refers to a local file. ">isLocalFile</a> </dd></dl>
 
 </div>
 </div>
@@ -822,7 +894,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>, with a block of data to send as the POST data. </p>
 <p>If you're setting the POST data, be careful not to have any parameters set as well, otherwise it'll all get thrown in together, and might not have the desired effect.</p>
 <p>If the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> already contains some POST data, this will replace it, rather than being appended to it.</p>
-<p>This data will only be used if you specify a post operation when you call <a class="el" href="classURL.html#a3482388836fc1d25a380a6c167cdb3c9" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a>. </p>
+<p>This data will only be used if you specify a post operation when you call <a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a>. </p>
 
 </div>
 </div>
@@ -843,7 +915,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Returns a copy of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>, with a block of data to send as the POST data. </p>
 <p>If you're setting the POST data, be careful not to have any parameters set as well, otherwise it'll all get thrown in together, and might not have the desired effect.</p>
 <p>If the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> already contains some POST data, this will replace it, rather than being appended to it.</p>
-<p>This data will only be used if you specify a post operation when you call <a class="el" href="classURL.html#a3482388836fc1d25a380a6c167cdb3c9" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a>. </p>
+<p>This data will only be used if you specify a post operation when you call <a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a>. </p>
 
 </div>
 </div>
@@ -969,12 +1041,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3482388836fc1d25a380a6c167cdb3c9"></a>
+<a class="anchor" id="ab487b0c5d684af5f3b0a678479696105"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classWebInputStream.html">WebInputStream</a>* URL::createInputStream </td>
+          <td class="memname"><a class="el" href="classInputStream.html">InputStream</a>* URL::createInputStream </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>doPostLikeRequest</em>, </td>
@@ -1036,9 +1108,10 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>. </p>
-<p>This method is a convenience wrapper for creating a new <a class="el" href="classWebInputStream.html" title="An InputStream which can be used to read from a given url. ">WebInputStream</a> and setting some commonly used options. The returned <a class="el" href="classWebInputStream.html" title="An InputStream which can be used to read from a given url. ">WebInputStream</a> will have already been connected and reading can start instantly.</p>
 <p>Note that this method will block until the first byte of data has been received or an error has occurred.</p>
 <p>Note that on some platforms (Android, for example) it's not permitted to do any network action from the message thread, so you must only call it from a background thread.</p>
+<p>Unless the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> represents a local file, this method returns an instance of a <a class="el" href="classWebInputStream.html" title="An InputStream which can be used to read from a given url. ">WebInputStream</a>. You can use dynamic_cast to cast the return value to a <a class="el" href="classWebInputStream.html" title="An InputStream which can be used to read from a given url. ">WebInputStream</a> which allows you more fine-grained control of the transfer process.</p>
+<p>If the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> represents a local file, then this method simply returns a <a class="el" href="classFileInputStream.html" title="An input stream that reads from a local file. ">FileInputStream</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">doPostLikeRequest</td><td>if true, the parameters added to this class will be transferred via the HTTP headers which is typical for POST requests. Otherwise the parameters will be added to the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> address. Additionally, if the parameter httpRequestCmd is not specified (or empty) then this parameter will determine which HTTP request command will be used (POST or GET). </td></tr>
@@ -1307,7 +1380,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 9 2017 01:01:01 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 10 2017 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

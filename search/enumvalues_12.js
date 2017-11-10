@@ -21,6 +21,7 @@ var searchData=
   ['setmanybyteswithvalue',['setManyBytesWithValue',['../namespaceBlocksProtocol.html#a3ab101fceeb18db84767246616d6f770a190358a9ba9869ccb24764ed621a2820',1,'BlocksProtocol']]],
   ['setname',['setName',['../namespaceBlocksProtocol.html#a01770550cdd3086814fa4169d9fa39b4ade5d7a1c8b618fecc81bd22b79ef798a',1,'BlocksProtocol']]],
   ['setsequenceofbytes',['setSequenceOfBytes',['../namespaceBlocksProtocol.html#a3ab101fceeb18db84767246616d6f770ad0140b9a8883cfdbb221a2b252dbdefd',1,'BlocksProtocol']]],
+  ['shadowbasecolour',['shadowBaseColour',['../classSidePanel.html#a6cf8eb18bfffbc3ad3894e58ca04a81ea6ea3529ab9a39f78c359c64a38ccd6cb',1,'SidePanel']]],
   ['shadowcolourid',['shadowColourId',['../classMidiKeyboardComponent.html#a75cb05395efc61c447dc93e8873ab05eac149269e32db08853eb0c6d285b11f68',1,'MidiKeyboardComponent::shadowColourId()'],['../classTextEditor.html#aa805220923c93cd808a92fff0e3fb71dab6ed00bbcce56fef5ff92d6bb705f988',1,'TextEditor::shadowColourId()']]],
   ['shareddatachange',['sharedDataChange',['../namespaceBlocksProtocol.html#a01770550cdd3086814fa4169d9fa39b4a24dd14178f112a548f94ac8a9252f854',1,'BlocksProtocol']]],
   ['shiftmodifier',['shiftModifier',['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678baafc1c1b745213b6915f1932ecf0ea042',1,'ModifierKeys']]],

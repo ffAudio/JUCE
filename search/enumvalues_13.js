@@ -28,6 +28,7 @@ var searchData=
   ['thumbcolourid',['thumbColourId',['../classScrollBar.html#a5cdce553497ae1b7fc7fcd3caa805167a3b2685adf5143eb1c382b71cbed677ce',1,'ScrollBar::thumbColourId()'],['../classSlider.html#a1012002c53381ccc7c1fe7e604a75f44aee563b22e0033b0ed4f38e5296889835',1,'Slider::thumbColourId()']]],
   ['tickcolourid',['tickColourId',['../classToggleButton.html#a23091ad53b2ffcf4a9c6c463180a337da5ad10f3c5e921be75e40ec805cb3eb18',1,'ToggleButton']]],
   ['tickdisabledcolourid',['tickDisabledColourId',['../classToggleButton.html#a23091ad53b2ffcf4a9c6c463180a337da31a40a0a86aff9b13fb6f505951b2d22',1,'ToggleButton']]],
+  ['titletextcolour',['titleTextColour',['../classSidePanel.html#a6cf8eb18bfffbc3ad3894e58ca04a81eaf6a8cad75e680e8587d86f3fee3dd814',1,'SidePanel']]],
   ['titletextcolourid',['titleTextColourId',['../classFileChooserDialogBox.html#aec403ffe26c5b7e34b6811cfb063df75acafefa55a6db4bba4a908e5ea63b3a1f',1,'FileChooserDialogBox']]],
   ['toggle',['toggle',['../group__LittleFootFunctions.html#ggaee3ea37f4f505980157cf93a84687bcba092819a2032e8d9810e80313491acd21',1,'juce_LittleFootFunctions.dox']]],
   ['togglepulse',['togglePulse',['../group__LittleFootFunctions.html#ggaee3ea37f4f505980157cf93a84687bcba47b619d6b559142c2cbd0cd57e9334ae',1,'juce_LittleFootFunctions.dox']]],

@@ -4,5 +4,6 @@
 <area shape="rect" id="node4" href="$classLabel.html" title="A component that displays a text string, and can optionally become a text editor when clicked..." alt="" coords="273,107,327,133"/>
 <area shape="rect" id="node5" href="$classMultiDocumentPanel.html" title="A component that contains a set of other components either in floating windows or tabs..." alt="" coords="229,157,371,184"/>
 <area shape="rect" id="node6" href="$classRelativeCoordinatePositionerBase.html" title="Base class for Component::Positioners that are based upon relative coordinates. " alt="" coords="189,208,411,235"/>
-<area shape="rect" id="node7" href="$classViewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro..." alt="" coords="263,259,337,285"/>
+<area shape="rect" id="node7" href="$classSidePanel.html" title="A component that is positioned on either the left&#45; or right&#45;hand side of its parent, containing a header and some content. " alt="" coords="259,259,341,285"/>
+<area shape="rect" id="node8" href="$classViewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro..." alt="" coords="263,309,337,336"/>
 </map>

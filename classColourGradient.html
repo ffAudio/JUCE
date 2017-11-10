@@ -169,6 +169,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a95e4615b53d8c257903269522397f587"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classColourGradient.html">ColourGradient</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classColourGradient.html#a95e4615b53d8c257903269522397f587">horizontal</a> (<a class="el" href="classColour.html">Colour</a> colour1, float x1, <a class="el" href="classColour.html">Colour</a> colour2, float x2)</td></tr>
 <tr class="memdesc:a95e4615b53d8c257903269522397f587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a horizontal linear gradient between two X coordinates.  <a href="#a95e4615b53d8c257903269522397f587">More...</a><br/></td></tr>
 <tr class="separator:a95e4615b53d8c257903269522397f587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc627505799a737aacd431466e34a153"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:adc627505799a737aacd431466e34a153"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classColourGradient.html">ColourGradient</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classColourGradient.html#adc627505799a737aacd431466e34a153">vertical</a> (<a class="el" href="classColour.html">Colour</a> colourTop, <a class="el" href="classColour.html">Colour</a> colourBottom, <a class="el" href="classRectangle.html">Rectangle</a>&lt; Type &gt; area)</td></tr>
+<tr class="memdesc:adc627505799a737aacd431466e34a153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a vertical linear gradient from top to bottom in a rectangle.  <a href="#adc627505799a737aacd431466e34a153">More...</a><br/></td></tr>
+<tr class="separator:adc627505799a737aacd431466e34a153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62381b6286d9175e4e8451e9b4e5c035"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a62381b6286d9175e4e8451e9b4e5c035"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classColourGradient.html">ColourGradient</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classColourGradient.html#a62381b6286d9175e4e8451e9b4e5c035">horizontal</a> (<a class="el" href="classColour.html">Colour</a> colourLeft, <a class="el" href="classColour.html">Colour</a> colourRight, <a class="el" href="classRectangle.html">Rectangle</a>&lt; Type &gt; area)</td></tr>
+<tr class="memdesc:a62381b6286d9175e4e8451e9b4e5c035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a horizontal linear gradient from right to left in a rectangle.  <a href="#a62381b6286d9175e4e8451e9b4e5c035">More...</a><br/></td></tr>
+<tr class="separator:a62381b6286d9175e4e8451e9b4e5c035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -513,6 +521,98 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a horizontal linear gradient between two X coordinates. </p>
+
+</div>
+</div>
+<a class="anchor" id="adc627505799a737aacd431466e34a153"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classColourGradient.html">ColourGradient</a> ColourGradient::vertical </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classColour.html">Colour</a>&#160;</td>
+          <td class="paramname"><em>colourTop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classColour.html">Colour</a>&#160;</td>
+          <td class="paramname"><em>colourBottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classRectangle.html">Rectangle</a>&lt; Type &gt;&#160;</td>
+          <td class="paramname"><em>area</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a vertical linear gradient from top to bottom in a rectangle. </p>
+
+<p>References <a class="el" href="classRectangle.html#af6b325feb4f7b107bcc51aee56a5fbc1">Rectangle&lt; ValueType &gt;::getBottom()</a>, and <a class="el" href="classRectangle.html#a3050042669b496be5f029b1ab6fc1f52">Rectangle&lt; ValueType &gt;::getY()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a62381b6286d9175e4e8451e9b4e5c035"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classColourGradient.html">ColourGradient</a> ColourGradient::horizontal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classColour.html">Colour</a>&#160;</td>
+          <td class="paramname"><em>colourLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classColour.html">Colour</a>&#160;</td>
+          <td class="paramname"><em>colourRight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classRectangle.html">Rectangle</a>&lt; Type &gt;&#160;</td>
+          <td class="paramname"><em>area</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a horizontal linear gradient from right to left in a rectangle. </p>
+
+<p>References <a class="el" href="classRectangle.html#aeea826946e996fc0b3d8f44d21b181c0">Rectangle&lt; ValueType &gt;::getRight()</a>, and <a class="el" href="classRectangle.html#a4b8223fb659d6c7f95a72e8d3fbe793d">Rectangle&lt; ValueType &gt;::getX()</a>.</p>
 
 </div>
 </div>
@@ -973,7 +1073,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 9 2017 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 10 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

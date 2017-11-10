@@ -601,41 +601,41 @@
 </g>
 <!-- Node46 -->
 <g id="node46" class="node"><title>Node46</title>
-<g id="a_node46"><a xlink:href="classSlider.html" target="_top" xlink:title="A slider control for changing a value. ">
-<polygon fill="none" stroke="black" points="335.5,-76.5 335.5,-95.5 376.5,-95.5 376.5,-76.5 335.5,-76.5"/>
-<text text-anchor="middle" x="356" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Slider</text>
+<g id="a_node46"><a xlink:href="classSidePanel.html" target="_top" xlink:title="A component that is positioned on either the left&#45; or right&#45;hand side of its parent, containing a header and some content. ">
+<polygon fill="none" stroke="black" points="325.5,-76.5 325.5,-95.5 386.5,-95.5 386.5,-76.5 325.5,-76.5"/>
+<text text-anchor="middle" x="356" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">SidePanel</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node46 -->
 <g id="edge45" class="edge"><title>Node2&#45;&gt;Node46</title>
-<path fill="none" stroke="midnightblue" d="M221.677,-871.057C228.776,-868.195 235.335,-864.032 240,-858 291.244,-791.742 222.6,-169.533 276,-105 290.209,-87.8285 316.972,-84.6156 335.379,-84.6721"/>
+<path fill="none" stroke="midnightblue" d="M221.677,-871.057C228.776,-868.195 235.335,-864.032 240,-858 291.244,-791.742 222.6,-169.533 276,-105 287.781,-90.7629 308.191,-86.1213 325.315,-84.9829"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.254,-867.837 211.789,-874.207 222.379,-874.506 220.254,-867.837"/>
 </g>
 <!-- Node47 -->
 <g id="node47" class="node"><title>Node47</title>
-<g id="a_node47"><a xlink:href="classSplashScreen.html" target="_top" xlink:title="A component for showing a splash screen while your app starts up. ">
-<polygon fill="none" stroke="black" points="317.5,-38.5 317.5,-57.5 394.5,-57.5 394.5,-38.5 317.5,-38.5"/>
-<text text-anchor="middle" x="356" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplashScreen</text>
+<g id="a_node47"><a xlink:href="classSlider.html" target="_top" xlink:title="A slider control for changing a value. ">
+<polygon fill="none" stroke="black" points="335.5,-38.5 335.5,-57.5 376.5,-57.5 376.5,-38.5 335.5,-38.5"/>
+<text text-anchor="middle" x="356" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Slider</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node47 -->
 <g id="edge46" class="edge"><title>Node2&#45;&gt;Node47</title>
-<path fill="none" stroke="midnightblue" d="M221.688,-871.065C228.786,-868.203 235.342,-864.038 240,-858 293.745,-788.344 219.989,-134.847 276,-67 285.968,-54.925 302.145,-49.7493 317.271,-47.7599"/>
+<path fill="none" stroke="midnightblue" d="M221.688,-871.065C228.786,-868.203 235.342,-864.038 240,-858 293.745,-788.344 219.989,-134.847 276,-67 290.189,-49.8122 316.956,-46.6031 335.371,-46.6649"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.265,-867.845 211.8,-874.216 222.39,-874.515 220.265,-867.845"/>
 </g>
 <!-- Node48 -->
 <g id="node48" class="node"><title>Node48</title>
-<g id="a_node48"><a xlink:href="classStretchableLayoutResizerBar.html" target="_top" xlink:title="A component that acts as one of the vertical or horizontal bars you see being used to resize panels i...">
-<polygon fill="none" stroke="black" points="284,-0.5 284,-19.5 428,-19.5 428,-0.5 284,-0.5"/>
-<text text-anchor="middle" x="356" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">StretchableLayoutResizerBar</text>
+<g id="a_node48"><a xlink:href="classSplashScreen.html" target="_top" xlink:title="A component for showing a splash screen while your app starts up. ">
+<polygon fill="none" stroke="black" points="317.5,-0.5 317.5,-19.5 394.5,-19.5 394.5,-0.5 317.5,-0.5"/>
+<text text-anchor="middle" x="356" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplashScreen</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node48 -->
 <g id="edge47" class="edge"><title>Node2&#45;&gt;Node48</title>
-<path fill="none" stroke="midnightblue" d="M221.698,-871.073C228.795,-868.21 235.348,-864.042 240,-858 296.245,-784.946 217.378,-100.161 276,-29 279.139,-25.1893 282.897,-22.0655 287.045,-19.5119"/>
+<path fill="none" stroke="midnightblue" d="M221.698,-871.073C228.795,-868.21 235.348,-864.042 240,-858 296.245,-784.946 217.378,-100.161 276,-29 285.956,-16.9147 302.13,-11.7375 317.259,-9.74994"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.276,-867.853 211.81,-874.224 222.401,-874.523 220.276,-867.853"/>
 </g>
 </g>

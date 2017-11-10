@@ -320,7 +320,7 @@ var searchData=
   ['hollowplus',['hollowPlus',['../structDrumPadGridProgram_1_1GridFill.html#ae8c97bf48e8f16e99118f2d12dab6948a864352425ee15a656b54e8c4b851c654',1,'DrumPadGridProgram::GridFill']]],
   ['homekey',['homeKey',['../classKeyPress.html#ae811d47e771f147a949d1bb818d9c9bb',1,'KeyPress']]],
   ['honeydew',['honeydew',['../classColours.html#a5f2fec9693dfbde24317fa3fe3d29528',1,'Colours']]],
-  ['horizontal',['horizontal',['../classColourGradient.html#a95e4615b53d8c257903269522397f587',1,'ColourGradient']]],
+  ['horizontal',['horizontal',['../classColourGradient.html#a95e4615b53d8c257903269522397f587',1,'ColourGradient::horizontal(Colour colour1, float x1, Colour colour2, float x2)'],['../classColourGradient.html#a62381b6286d9175e4e8451e9b4e5c035',1,'ColourGradient::horizontal(Colour colourLeft, Colour colourRight, Rectangle&lt; Type &gt; area)']]],
   ['horizontalkeyboard',['horizontalKeyboard',['../classMidiKeyboardComponent.html#a6f6844672df93f8f631fa7e22cf0cdafa0b62143bbab080673411400a14d6abd0',1,'MidiKeyboardComponent']]],
   ['horizontallycentred',['horizontallyCentred',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbcac9fd148cf8547fab0e3aeee306223ab2',1,'Justification']]],
   ['horizontallyjustified',['horizontallyJustified',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbca0881c08fa2d58e9d6f36ab8bbea4b800',1,'Justification']]],

@@ -44,7 +44,7 @@
 <area shape="rect" id="node43" href="$classResizableCornerComponent.html" title="A component that resizes a parent component when dragged. " alt="" coords="387,2048,573,2075"/>
 <area shape="rect" id="node44" href="$classResizableEdgeComponent.html" title="A component that resizes its parent component when dragged. " alt="" coords="391,2099,569,2125"/>
 <area shape="rect" id="node45" href="$classScrollBar.html" title="A scrollbar component. " alt="" coords="443,2149,517,2176"/>
-<area shape="rect" id="node46" href="$classSlider.html" title="A slider control for changing a value. " alt="" coords="453,2200,507,2227"/>
-<area shape="rect" id="node47" href="$classSplashScreen.html" title="A component for showing a splash screen while your app starts up. " alt="" coords="429,2251,531,2277"/>
-<area shape="rect" id="node48" href="$classStretchableLayoutResizerBar.html" title="A component that acts as one of the vertical or horizontal bars you see being used to resize panels i..." alt="" coords="384,2301,576,2328"/>
+<area shape="rect" id="node46" href="$classSidePanel.html" title="A component that is positioned on either the left&#45; or right&#45;hand side of its parent, containing a header and some content. " alt="" coords="439,2200,521,2227"/>
+<area shape="rect" id="node47" href="$classSlider.html" title="A slider control for changing a value. " alt="" coords="453,2251,507,2277"/>
+<area shape="rect" id="node48" href="$classSplashScreen.html" title="A component for showing a splash screen while your app starts up. " alt="" coords="429,2301,531,2328"/>
 </map>
