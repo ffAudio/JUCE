@@ -73,6 +73,7 @@ var searchData=
   ['_7ebufferingaudioreader',['~BufferingAudioReader',['../classBufferingAudioReader.html#a568c48a6b62ce2acf4e0e59f7ac78711',1,'BufferingAudioReader']]],
   ['_7ebufferingaudiosource',['~BufferingAudioSource',['../classBufferingAudioSource.html#a2633cef1b35b4d435db60374d7b2859f',1,'BufferingAudioSource']]],
   ['_7ebuilder',['~Builder',['../classZipFile_1_1Builder.html#af57eaa53c5b996d60bc2854b6c73abd6',1,'ZipFile::Builder']]],
+  ['_7eburgermenucomponent',['~BurgerMenuComponent',['../classBurgerMenuComponent.html#a4fb107c0d004752509e215b313bd1806',1,'BurgerMenuComponent']]],
   ['_7eburnprogresslistener',['~BurnProgressListener',['../classAudioCDBurner_1_1BurnProgressListener.html#a8e20fe9f41f22d07a0392e843834841b',1,'AudioCDBurner::BurnProgressListener']]],
   ['_7ebutton',['~Button',['../classButton.html#a6d35cf666b119be6153a717427f9b5e2',1,'Button']]],
   ['_7ebuttonattachment',['~ButtonAttachment',['../classAudioProcessorValueTreeState_1_1ButtonAttachment.html#a0a24d9416dd0599256cbdde0cc188fb0',1,'AudioProcessorValueTreeState::ButtonAttachment']]],

@@ -27,6 +27,7 @@ var searchData=
   ['bufferingaudiosource',['BufferingAudioSource',['../classBufferingAudioSource.html',1,'']]],
   ['builder',['Builder',['../classZipFile_1_1Builder.html',1,'ZipFile']]],
   ['builtinfunction',['BuiltInFunction',['../structlittlefoot_1_1Compiler_1_1FunctionCall_1_1BuiltInFunction.html',1,'littlefoot::Compiler::FunctionCall']]],
+  ['burgermenucomponent',['BurgerMenuComponent',['../classBurgerMenuComponent.html',1,'']]],
   ['burnprogresslistener',['BurnProgressListener',['../classAudioCDBurner_1_1BurnProgressListener.html',1,'AudioCDBurner']]],
   ['bus',['Bus',['../classAudioProcessor_1_1Bus.html',1,'AudioProcessor']]],
   ['buseslayout',['BusesLayout',['../structAudioProcessor_1_1BusesLayout.html',1,'AudioProcessor']]],

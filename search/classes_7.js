@@ -122,6 +122,7 @@ var searchData=
   ['heapblock_3c_20range_3c_20int_20_3e_20_3e',['HeapBlock&lt; Range&lt; int &gt; &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20rectangle_20_3e',['HeapBlock&lt; Rectangle &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20relativepointpath_3a_3aelementbase_20_2a_20_3e',['HeapBlock&lt; RelativePointPath::ElementBase * &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20row_20_3e',['HeapBlock&lt; Row &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20sampletype_20_3e',['HeapBlock&lt; SampleType &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20scrollbar_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; ScrollBar::Listener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20selectableitemtype_20_3e',['HeapBlock&lt; SelectableItemType &gt;',['../classHeapBlock.html',1,'']]],

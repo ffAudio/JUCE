@@ -788,7 +788,7 @@ var searchData=
   ['getminvalue',['getMinValue',['../classStatisticsAccumulator.html#a8ec04c4af4a6d36dd88929ce1aa8cf08',1,'StatisticsAccumulator::getMinValue()'],['../classSlider.html#a518e19d02009336a5bbe3b9df1f8bd90',1,'Slider::getMinValue()']]],
   ['getminvalueobject',['getMinValueObject',['../classSlider.html#adeedf0e9e8a3402e7003bd637f04e167',1,'Slider']]],
   ['getmodalcomponent',['getModalComponent',['../classModalComponentManager.html#ae0cc69f288251b77294a0db2ae202259',1,'ModalComponentManager']]],
-  ['getmodel',['getModel',['../classMenuBarComponent.html#aacd0c446393f9b02b27a478f0d464160',1,'MenuBarComponent::getModel()'],['../classListBox.html#a3c71b8c2d45739b4860194c57148a135',1,'ListBox::getModel()'],['../classTableListBox.html#a9b854cb883e30cccd6957e9f6ffdb395',1,'TableListBox::getModel()']]],
+  ['getmodel',['getModel',['../classBurgerMenuComponent.html#a74f83b408c5754a9a1b690a83a430e2f',1,'BurgerMenuComponent::getModel()'],['../classMenuBarComponent.html#aacd0c446393f9b02b27a478f0d464160',1,'MenuBarComponent::getModel()'],['../classListBox.html#a3c71b8c2d45739b4860194c57148a135',1,'ListBox::getModel()'],['../classTableListBox.html#a9b854cb883e30cccd6957e9f6ffdb395',1,'TableListBox::getModel()']]],
   ['getmodeofendpoint',['getModeOfEndPoint',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a597cea5b170e400690358b5b00c4d5b5',1,'DrawablePath::ValueTreeWrapper::Element']]],
   ['getmodifiers',['getModifiers',['../classKeyPress.html#a1bc9306994b77cccb0055618ce8d355c',1,'KeyPress']]],
   ['getmonth',['getMonth',['../classTime.html#a50230e3a7285ba9f81ab0fd41a95b22e',1,'Time']]],

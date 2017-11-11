@@ -145,152 +145,152 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classButton.html" target="_top" xlink:title="A base class for buttons. ">
-<polygon fill="none" stroke="red" points="333.5,-1418.5 333.5,-1437.5 378.5,-1437.5 378.5,-1418.5 333.5,-1418.5"/>
-<text text-anchor="middle" x="356" y="-1425.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button</text>
+<g id="a_node11"><a xlink:href="classBurgerMenuComponent.html" target="_top" xlink:title="A component which lists all menu items and groups them into categories by their respective parent men...">
+<polygon fill="none" stroke="black" points="296.5,-1418.5 296.5,-1437.5 415.5,-1437.5 415.5,-1418.5 296.5,-1418.5"/>
+<text text-anchor="middle" x="356" y="-1425.5" font-family="Helvetica,sans-Serif" font-size="10.00">BurgerMenuComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node11 -->
 <g id="edge10" class="edge"><title>Node2&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M179.809,-896.899C183.767,-984.254 203.918,-1332.79 276,-1409 290.637,-1424.48 315.492,-1428.3 333.419,-1428.84"/>
+<path fill="none" stroke="midnightblue" d="M179.809,-896.899C183.767,-984.254 203.918,-1332.79 276,-1409 281.622,-1414.94 288.752,-1419.17 296.417,-1422.15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="183.3,-896.6 179.371,-886.761 176.306,-896.903 183.3,-896.6"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classCallOutBox.html" target="_top" xlink:title="A box with a small arrow that can be used as a temporary pop&#45;up window to show extra controls when a ...">
-<polygon fill="none" stroke="black" points="322.5,-1380.5 322.5,-1399.5 389.5,-1399.5 389.5,-1380.5 322.5,-1380.5"/>
-<text text-anchor="middle" x="356" y="-1387.5" font-family="Helvetica,sans-Serif" font-size="10.00">CallOutBox</text>
+<g id="a_node12"><a xlink:href="classButton.html" target="_top" xlink:title="A base class for buttons. ">
+<polygon fill="none" stroke="red" points="333.5,-1380.5 333.5,-1399.5 378.5,-1399.5 378.5,-1380.5 333.5,-1380.5"/>
+<text text-anchor="middle" x="356" y="-1387.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node12 -->
 <g id="edge11" class="edge"><title>Node2&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M180.122,-897.058C185.209,-980.743 208.843,-1300.95 276,-1371 287.812,-1383.32 306.107,-1388.24 322.118,-1390"/>
+<path fill="none" stroke="midnightblue" d="M180.122,-897.058C185.209,-980.743 208.843,-1300.95 276,-1371 290.741,-1386.38 315.578,-1390.22 333.472,-1390.79"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="183.604,-896.648 179.525,-886.87 176.616,-897.058 183.604,-896.648"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classCaretComponent.html" target="_top" xlink:title="CaretComponent">
-<polygon fill="none" stroke="black" points="310.5,-1342.5 310.5,-1361.5 401.5,-1361.5 401.5,-1342.5 310.5,-1342.5"/>
-<text text-anchor="middle" x="356" y="-1349.5" font-family="Helvetica,sans-Serif" font-size="10.00">CaretComponent</text>
+<g id="a_node13"><a xlink:href="classCallOutBox.html" target="_top" xlink:title="A box with a small arrow that can be used as a temporary pop&#45;up window to show extra controls when a ...">
+<polygon fill="none" stroke="black" points="322.5,-1342.5 322.5,-1361.5 389.5,-1361.5 389.5,-1342.5 322.5,-1342.5"/>
+<text text-anchor="middle" x="356" y="-1349.5" font-family="Helvetica,sans-Serif" font-size="10.00">CallOutBox</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node13 -->
 <g id="edge12" class="edge"><title>Node2&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M180.474,-897.026C186.734,-976.577 213.699,-1269.03 276,-1333 285.055,-1342.3 297.804,-1347.37 310.423,-1350.04"/>
+<path fill="none" stroke="midnightblue" d="M180.474,-897.026C186.734,-976.577 213.699,-1269.03 276,-1333 287.909,-1345.23 306.209,-1350.14 322.198,-1351.92"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="183.951,-896.59 179.699,-886.886 176.972,-897.124 183.951,-896.59"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classCodeEditorComponent.html" target="_top" xlink:title="A text editor component designed specifically for source code. ">
-<polygon fill="none" stroke="black" points="298,-1304.5 298,-1323.5 414,-1323.5 414,-1304.5 298,-1304.5"/>
-<text text-anchor="middle" x="356" y="-1311.5" font-family="Helvetica,sans-Serif" font-size="10.00">CodeEditorComponent</text>
+<g id="a_node14"><a xlink:href="classCaretComponent.html" target="_top" xlink:title="CaretComponent">
+<polygon fill="none" stroke="black" points="310.5,-1304.5 310.5,-1323.5 401.5,-1323.5 401.5,-1304.5 310.5,-1304.5"/>
+<text text-anchor="middle" x="356" y="-1311.5" font-family="Helvetica,sans-Serif" font-size="10.00">CaretComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node14 -->
 <g id="edge13" class="edge"><title>Node2&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M180.868,-896.79C188.338,-971.763 218.485,-1237.02 276,-1295 282.06,-1301.11 289.718,-1305.39 297.867,-1308.36"/>
+<path fill="none" stroke="midnightblue" d="M180.868,-896.79C188.338,-971.763 218.485,-1237.02 276,-1295 285.041,-1304.11 297.636,-1309.15 310.117,-1311.85"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="184.348,-896.416 179.896,-886.802 177.381,-897.094 184.348,-896.416"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classColourSelector.html" target="_top" xlink:title="A component that lets the user choose a colour. ">
-<polygon fill="none" stroke="black" points="315.5,-1266.5 315.5,-1285.5 396.5,-1285.5 396.5,-1266.5 315.5,-1266.5"/>
-<text text-anchor="middle" x="356" y="-1273.5" font-family="Helvetica,sans-Serif" font-size="10.00">ColourSelector</text>
+<g id="a_node15"><a xlink:href="classCodeEditorComponent.html" target="_top" xlink:title="A text editor component designed specifically for source code. ">
+<polygon fill="none" stroke="black" points="298,-1266.5 298,-1285.5 414,-1285.5 414,-1266.5 298,-1266.5"/>
+<text text-anchor="middle" x="356" y="-1273.5" font-family="Helvetica,sans-Serif" font-size="10.00">CodeEditorComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node15 -->
 <g id="edge14" class="edge"><title>Node2&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M181.357,-896.771C190.156,-967.288 223.304,-1205.03 276,-1257 286.345,-1267.2 301.154,-1272.27 315.16,-1274.68"/>
+<path fill="none" stroke="midnightblue" d="M181.357,-896.771C190.156,-967.288 223.304,-1205.03 276,-1257 282.127,-1263.04 289.819,-1267.28 297.983,-1270.24"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="184.802,-896.11 180.115,-886.609 177.854,-896.96 184.802,-896.11"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classComboBox.html" target="_top" xlink:title="A component that lets the user choose from a drop&#45;down list of choices. ">
-<polygon fill="none" stroke="black" points="323.5,-1228.5 323.5,-1247.5 388.5,-1247.5 388.5,-1228.5 323.5,-1228.5"/>
-<text text-anchor="middle" x="356" y="-1235.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComboBox</text>
+<g id="a_node16"><a xlink:href="classColourSelector.html" target="_top" xlink:title="A component that lets the user choose a colour. ">
+<polygon fill="none" stroke="black" points="315.5,-1228.5 315.5,-1247.5 396.5,-1247.5 396.5,-1228.5 315.5,-1228.5"/>
+<text text-anchor="middle" x="356" y="-1235.5" font-family="Helvetica,sans-Serif" font-size="10.00">ColourSelector</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node16 -->
 <g id="edge15" class="edge"><title>Node2&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M178.231,-896.677C177.089,-955.057 182.108,-1128.82 276,-1219 288.514,-1231.02 307.24,-1235.87 323.32,-1237.68"/>
+<path fill="none" stroke="midnightblue" d="M178.231,-896.677C177.089,-955.057 182.108,-1128.82 276,-1219 286.479,-1229.06 301.314,-1234.11 315.304,-1236.54"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="181.732,-896.694 178.517,-886.599 174.734,-896.495 181.732,-896.694"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classConcertinaPanel.html" target="_top" xlink:title="A panel which holds a vertical stack of components which can be expanded and contracted. ">
-<polygon fill="none" stroke="black" points="311.5,-1190.5 311.5,-1209.5 400.5,-1209.5 400.5,-1190.5 311.5,-1190.5"/>
-<text text-anchor="middle" x="356" y="-1197.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConcertinaPanel</text>
+<g id="a_node17"><a xlink:href="classComboBox.html" target="_top" xlink:title="A component that lets the user choose from a drop&#45;down list of choices. ">
+<polygon fill="none" stroke="black" points="323.5,-1190.5 323.5,-1209.5 388.5,-1209.5 388.5,-1190.5 323.5,-1190.5"/>
+<text text-anchor="middle" x="356" y="-1197.5" font-family="Helvetica,sans-Serif" font-size="10.00">ComboBox</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node17 -->
 <g id="edge16" class="edge"><title>Node2&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M179.055,-896.971C180.344,-951.246 191.706,-1102.63 276,-1181 285.608,-1189.93 298.661,-1194.88 311.388,-1197.56"/>
+<path fill="none" stroke="midnightblue" d="M179.055,-896.971C180.344,-951.246 191.706,-1102.63 276,-1181 288.708,-1192.81 307.441,-1197.66 323.476,-1199.51"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="182.551,-896.608 178.91,-886.659 175.551,-896.707 182.551,-896.608"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="classDrawable.html" target="_top" xlink:title="The base class for objects which can draw themselves, e.g. ">
-<polygon fill="none" stroke="red" points="327,-1152.5 327,-1171.5 385,-1171.5 385,-1152.5 327,-1152.5"/>
-<text text-anchor="middle" x="356" y="-1159.5" font-family="Helvetica,sans-Serif" font-size="10.00">Drawable</text>
+<g id="a_node18"><a xlink:href="classConcertinaPanel.html" target="_top" xlink:title="A panel which holds a vertical stack of components which can be expanded and contracted. ">
+<polygon fill="none" stroke="black" points="311.5,-1152.5 311.5,-1171.5 400.5,-1171.5 400.5,-1152.5 311.5,-1152.5"/>
+<text text-anchor="middle" x="356" y="-1159.5" font-family="Helvetica,sans-Serif" font-size="10.00">ConcertinaPanel</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node18 -->
 <g id="edge17" class="edge"><title>Node2&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M180.086,-896.767C183.909,-946.206 200.962,-1076.04 276,-1143 289.788,-1155.3 310.151,-1159.99 326.75,-1161.63"/>
+<path fill="none" stroke="midnightblue" d="M180.086,-896.767C183.909,-946.206 200.962,-1076.04 276,-1143 285.683,-1151.64 298.609,-1156.52 311.197,-1159.24"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="183.559,-896.245 179.398,-886.501 176.574,-896.712 183.559,-896.245"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classFileBrowserComponent.html" target="_top" xlink:title="A component for browsing and selecting a file or directory to open or save. ">
-<polygon fill="none" stroke="black" points="296.5,-1114.5 296.5,-1133.5 415.5,-1133.5 415.5,-1114.5 296.5,-1114.5"/>
-<text text-anchor="middle" x="356" y="-1121.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileBrowserComponent</text>
+<g id="a_node19"><a xlink:href="classDrawable.html" target="_top" xlink:title="The base class for objects which can draw themselves, e.g. ">
+<polygon fill="none" stroke="red" points="327,-1114.5 327,-1133.5 385,-1133.5 385,-1114.5 327,-1114.5"/>
+<text text-anchor="middle" x="356" y="-1121.5" font-family="Helvetica,sans-Serif" font-size="10.00">Drawable</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node19 -->
 <g id="edge18" class="edge"><title>Node2&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M181.413,-896.618C187.943,-940.94 210.147,-1049.27 276,-1105 281.923,-1110.01 288.947,-1113.75 296.326,-1116.52"/>
+<path fill="none" stroke="midnightblue" d="M181.413,-896.618C187.943,-940.94 210.147,-1049.27 276,-1105 290.106,-1116.94 310.463,-1121.63 326.978,-1123.37"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="184.863,-896.012 180.045,-886.575 177.927,-896.956 184.863,-896.012"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classFilenameComponent.html" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
-<polygon fill="none" stroke="black" points="302.5,-1076.5 302.5,-1095.5 409.5,-1095.5 409.5,-1076.5 302.5,-1076.5"/>
-<text text-anchor="middle" x="356" y="-1083.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilenameComponent</text>
+<g id="a_node20"><a xlink:href="classFileBrowserComponent.html" target="_top" xlink:title="A component for browsing and selecting a file or directory to open or save. ">
+<polygon fill="none" stroke="black" points="296.5,-1076.5 296.5,-1095.5 415.5,-1095.5 415.5,-1076.5 296.5,-1076.5"/>
+<text text-anchor="middle" x="356" y="-1083.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileBrowserComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node20 -->
 <g id="edge19" class="edge"><title>Node2&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M183.269,-896.744C192.748,-935.658 219.341,-1022.35 276,-1067 283.645,-1073.02 292.908,-1077.18 302.361,-1080.04"/>
+<path fill="none" stroke="midnightblue" d="M183.269,-896.744C192.748,-935.658 219.341,-1022.35 276,-1067 281.983,-1071.71 288.957,-1075.29 296.238,-1077.99"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="186.61,-895.659 180.949,-886.703 179.79,-897.234 186.61,-895.659"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classFilePreviewComponent.html" target="_top" xlink:title="Base class for components that live inside a file chooser dialog box and show previews of the files t...">
-<polygon fill="none" stroke="red" points="297,-1038.5 297,-1057.5 415,-1057.5 415,-1038.5 297,-1038.5"/>
-<text text-anchor="middle" x="356" y="-1045.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilePreviewComponent</text>
+<g id="a_node21"><a xlink:href="classFilenameComponent.html" target="_top" xlink:title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se...">
+<polygon fill="none" stroke="black" points="302.5,-1038.5 302.5,-1057.5 409.5,-1057.5 409.5,-1038.5 302.5,-1038.5"/>
+<text text-anchor="middle" x="356" y="-1045.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilenameComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node21 -->
 <g id="edge20" class="edge"><title>Node2&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M185.798,-896.362C198.302,-929.033 228.139,-994.874 276,-1029 282.202,-1033.42 289.303,-1036.82 296.647,-1039.44"/>
+<path fill="none" stroke="midnightblue" d="M185.798,-896.362C198.302,-929.033 228.139,-994.874 276,-1029 283.81,-1034.57 293.045,-1038.52 302.397,-1041.32"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="188.961,-894.823 182.221,-886.648 182.392,-897.242 188.961,-894.823"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classFileSearchPathListComponent.html" target="_top" xlink:title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. ">
-<polygon fill="none" stroke="black" points="281.5,-1000.5 281.5,-1019.5 430.5,-1019.5 430.5,-1000.5 281.5,-1000.5"/>
-<text text-anchor="middle" x="356" y="-1007.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileSearchPathListComponent</text>
+<g id="a_node22"><a xlink:href="classFilePreviewComponent.html" target="_top" xlink:title="Base class for components that live inside a file chooser dialog box and show previews of the files t...">
+<polygon fill="none" stroke="red" points="297,-1000.5 297,-1019.5 415,-1019.5 415,-1000.5 297,-1000.5"/>
+<text text-anchor="middle" x="356" y="-1007.5" font-family="Helvetica,sans-Serif" font-size="10.00">FilePreviewComponent</text>
 </a>
 </g>
 </g>
@@ -301,22 +301,22 @@
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="classGroupComponent.html" target="_top" xlink:title="A component that draws an outline around itself and has an optional title at the top, for drawing an outline around a group of controls. ">
-<polygon fill="none" stroke="black" points="309.5,-962.5 309.5,-981.5 402.5,-981.5 402.5,-962.5 309.5,-962.5"/>
-<text text-anchor="middle" x="356" y="-969.5" font-family="Helvetica,sans-Serif" font-size="10.00">GroupComponent</text>
+<g id="a_node23"><a xlink:href="classFileSearchPathListComponent.html" target="_top" xlink:title="Shows a set of file paths in a list, allowing them to be added, removed or re&#45;ordered. ">
+<polygon fill="none" stroke="black" points="281.5,-962.5 281.5,-981.5 430.5,-981.5 430.5,-962.5 281.5,-962.5"/>
+<text text-anchor="middle" x="356" y="-969.5" font-family="Helvetica,sans-Serif" font-size="10.00">FileSearchPathListComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node23 -->
 <g id="edge22" class="edge"><title>Node2&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M195.663,-893.783C213.853,-911.151 244.599,-937.819 276,-953 286.287,-957.973 297.973,-961.701 309.143,-964.475"/>
+<path fill="none" stroke="midnightblue" d="M195.663,-893.783C213.853,-911.151 244.599,-937.819 276,-953 284.001,-956.868 292.849,-959.983 301.641,-962.481"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="197.833,-891.011 188.231,-886.533 192.945,-896.021 197.833,-891.011"/>
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="classImageComponent.html" target="_top" xlink:title="A component that simply displays an image. ">
-<polygon fill="none" stroke="black" points="309,-924.5 309,-943.5 403,-943.5 403,-924.5 309,-924.5"/>
-<text text-anchor="middle" x="356" y="-931.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImageComponent</text>
+<g id="a_node24"><a xlink:href="classGroupComponent.html" target="_top" xlink:title="A component that draws an outline around itself and has an optional title at the top, for drawing an outline around a group of controls. ">
+<polygon fill="none" stroke="black" points="309.5,-924.5 309.5,-943.5 402.5,-943.5 402.5,-924.5 309.5,-924.5"/>
+<text text-anchor="middle" x="356" y="-931.5" font-family="Helvetica,sans-Serif" font-size="10.00">GroupComponent</text>
 </a>
 </g>
 </g>
@@ -327,244 +327,244 @@
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="classJUCESplashScreen.html" target="_top" xlink:title="The standard JUCE splash screen component. ">
-<polygon fill="none" stroke="black" points="304,-886.5 304,-905.5 408,-905.5 408,-886.5 304,-886.5"/>
-<text text-anchor="middle" x="356" y="-893.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUCESplashScreen</text>
+<g id="a_node25"><a xlink:href="classImageComponent.html" target="_top" xlink:title="A component that simply displays an image. ">
+<polygon fill="none" stroke="black" points="309,-886.5 309,-905.5 403,-905.5 403,-886.5 309,-886.5"/>
+<text text-anchor="middle" x="356" y="-893.5" font-family="Helvetica,sans-Serif" font-size="10.00">ImageComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node25 -->
 <g id="edge24" class="edge"><title>Node2&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M221.852,-881.626C246.569,-884.294 277.805,-887.666 303.809,-890.474"/>
+<path fill="none" stroke="midnightblue" d="M221.763,-881.616C248.123,-884.462 281.922,-888.111 308.881,-891.021"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="222.01,-878.123 211.692,-880.529 221.258,-885.082 222.01,-878.123"/>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="classKeyMappingEditorComponent.html" target="_top" xlink:title="A component to allow editing of the keymaps stored by a KeyPressMappingSet object. ">
-<polygon fill="none" stroke="black" points="283,-848.5 283,-867.5 429,-867.5 429,-848.5 283,-848.5"/>
-<text text-anchor="middle" x="356" y="-855.5" font-family="Helvetica,sans-Serif" font-size="10.00">KeyMappingEditorComponent</text>
+<g id="a_node26"><a xlink:href="classJUCESplashScreen.html" target="_top" xlink:title="The standard JUCE splash screen component. ">
+<polygon fill="none" stroke="black" points="304,-848.5 304,-867.5 408,-867.5 408,-848.5 304,-848.5"/>
+<text text-anchor="middle" x="356" y="-855.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUCESplashScreen</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node26 -->
 <g id="edge25" class="edge"><title>Node2&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M221.751,-872.385C240.079,-870.406 262.004,-868.039 282.727,-865.802"/>
+<path fill="none" stroke="midnightblue" d="M221.852,-872.374C246.569,-869.706 277.805,-866.334 303.809,-863.526"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="221.258,-868.918 211.692,-873.471 222.01,-875.877 221.258,-868.918"/>
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="classLabel.html" target="_top" xlink:title="A component that displays a text string, and can optionally become a text editor when clicked...">
-<polygon fill="none" stroke="black" points="336,-810.5 336,-829.5 376,-829.5 376,-810.5 336,-810.5"/>
-<text text-anchor="middle" x="356" y="-817.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
+<g id="a_node27"><a xlink:href="classKeyMappingEditorComponent.html" target="_top" xlink:title="A component to allow editing of the keymaps stored by a KeyPressMappingSet object. ">
+<polygon fill="none" stroke="black" points="283,-810.5 283,-829.5 429,-829.5 429,-810.5 283,-810.5"/>
+<text text-anchor="middle" x="356" y="-817.5" font-family="Helvetica,sans-Serif" font-size="10.00">KeyMappingEditorComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node27 -->
 <g id="edge26" class="edge"><title>Node2&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M221.445,-864.886C227.734,-862.774 234.085,-860.458 240,-858 256.707,-851.058 259.073,-845.387 276,-839 295.797,-831.53 319.517,-826.291 335.766,-823.233"/>
+<path fill="none" stroke="midnightblue" d="M221.445,-864.886C227.734,-862.774 234.085,-860.458 240,-858 256.707,-851.058 259.073,-845.387 276,-839 285.767,-835.315 296.488,-832.172 306.796,-829.567"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.13,-861.633 211.686,-868.031 222.277,-868.295 220.13,-861.633"/>
 </g>
 <!-- Node28 -->
 <g id="node28" class="node"><title>Node28</title>
-<g id="a_node28"><a xlink:href="classLassoComponent.html" target="_top" xlink:title="A component that acts as a rectangular selection region, which you drag with the mouse to select grou...">
-<polygon fill="none" stroke="black" points="282,-761 282,-791 430,-791 430,-761 282,-761"/>
-<text text-anchor="start" x="290" y="-779" font-family="Helvetica,sans-Serif" font-size="10.00">LassoComponent&lt; Selectable</text>
-<text text-anchor="middle" x="356" y="-768" font-family="Helvetica,sans-Serif" font-size="10.00">ItemType &gt;</text>
+<g id="a_node28"><a xlink:href="classLabel.html" target="_top" xlink:title="A component that displays a text string, and can optionally become a text editor when clicked...">
+<polygon fill="none" stroke="black" points="336,-772.5 336,-791.5 376,-791.5 376,-772.5 336,-772.5"/>
+<text text-anchor="middle" x="356" y="-779.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node28 -->
 <g id="edge27" class="edge"><title>Node2&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M221.447,-868.078C228.054,-865.513 234.502,-862.22 240,-858 263.767,-839.755 252.274,-819.299 276,-801 281.012,-797.134 286.635,-793.859 292.511,-791.085"/>
+<path fill="none" stroke="midnightblue" d="M221.447,-868.078C228.054,-865.513 234.502,-862.22 240,-858 263.767,-839.755 251.644,-818.452 276,-801 293.658,-788.347 318.66,-784.041 335.78,-782.619"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.109,-864.836 211.746,-871.34 222.34,-871.47 220.109,-864.836"/>
 </g>
 <!-- Node29 -->
 <g id="node29" class="node"><title>Node29</title>
-<g id="a_node29"><a xlink:href="classListBox.html" target="_top" xlink:title="A list of items that can be scrolled vertically. ">
-<polygon fill="none" stroke="red" points="331,-722.5 331,-741.5 381,-741.5 381,-722.5 331,-722.5"/>
-<text text-anchor="middle" x="356" y="-729.5" font-family="Helvetica,sans-Serif" font-size="10.00">ListBox</text>
+<g id="a_node29"><a xlink:href="classLassoComponent.html" target="_top" xlink:title="A component that acts as a rectangular selection region, which you drag with the mouse to select grou...">
+<polygon fill="none" stroke="black" points="282,-723 282,-753 430,-753 430,-723 282,-723"/>
+<text text-anchor="start" x="290" y="-741" font-family="Helvetica,sans-Serif" font-size="10.00">LassoComponent&lt; Selectable</text>
+<text text-anchor="middle" x="356" y="-730" font-family="Helvetica,sans-Serif" font-size="10.00">ItemType &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node29 -->
 <g id="edge28" class="edge"><title>Node2&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M221.264,-869.582C228.164,-866.848 234.758,-863.11 240,-858 275.626,-823.269 239.449,-785.756 276,-752 290.759,-738.369 313.451,-733.707 330.735,-732.257"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="220.16,-866.261 211.764,-872.722 222.357,-872.907 220.16,-866.261"/>
+<path fill="none" stroke="midnightblue" d="M221.119,-869.43C228.033,-866.712 234.67,-863.018 240,-858 272.875,-827.049 243.195,-794.025 276,-763 280.076,-759.145 284.744,-755.884 289.728,-753.126"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="220.014,-866.109 211.614,-872.566 222.207,-872.757 220.014,-866.109"/>
 </g>
 <!-- Node30 -->
 <g id="node30" class="node"><title>Node30</title>
-<g id="a_node30"><a xlink:href="classMenuBarComponent.html" target="_top" xlink:title="A menu bar component. ">
-<polygon fill="none" stroke="black" points="303,-684.5 303,-703.5 409,-703.5 409,-684.5 303,-684.5"/>
-<text text-anchor="middle" x="356" y="-691.5" font-family="Helvetica,sans-Serif" font-size="10.00">MenuBarComponent</text>
+<g id="a_node30"><a xlink:href="classListBox.html" target="_top" xlink:title="A list of items that can be scrolled vertically. ">
+<polygon fill="none" stroke="red" points="331,-684.5 331,-703.5 381,-703.5 381,-684.5 331,-684.5"/>
+<text text-anchor="middle" x="356" y="-691.5" font-family="Helvetica,sans-Serif" font-size="10.00">ListBox</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node30 -->
 <g id="edge29" class="edge"><title>Node2&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M221.197,-870.111C228.219,-867.328 234.873,-863.437 240,-858 285.557,-809.692 228.876,-759.78 276,-713 283.308,-705.745 292.872,-701.083 302.811,-698.125"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="219.934,-866.841 211.504,-873.259 222.096,-873.499 219.934,-866.841"/>
+<path fill="none" stroke="midnightblue" d="M221.405,-870.018C228.348,-867.242 234.921,-863.377 240,-858 285.3,-810.043 229.422,-760.717 276,-714 290.285,-699.673 313.261,-695.111 330.761,-693.876"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="220.222,-866.723 211.813,-873.168 222.406,-873.373 220.222,-866.723"/>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node"><title>Node31</title>
-<g id="a_node31"><a xlink:href="classMidiKeyboardComponent.html" target="_top" xlink:title="A component that displays a piano keyboard, whose notes can be clicked on. ">
-<polygon fill="none" stroke="black" points="293,-646.5 293,-665.5 419,-665.5 419,-646.5 293,-646.5"/>
-<text text-anchor="middle" x="356" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">MidiKeyboardComponent</text>
+<g id="a_node31"><a xlink:href="classMenuBarComponent.html" target="_top" xlink:title="A menu bar component. ">
+<polygon fill="none" stroke="black" points="303,-646.5 303,-665.5 409,-665.5 409,-646.5 303,-646.5"/>
+<text text-anchor="middle" x="356" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">MenuBarComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node31 -->
 <g id="edge30" class="edge"><title>Node2&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M221.417,-870.313C228.418,-867.511 235.008,-863.561 240,-858 295.374,-796.316 218.624,-734.825 276,-675 280.784,-670.011 286.632,-666.236 292.959,-663.393"/>
+<path fill="none" stroke="midnightblue" d="M221.417,-870.313C228.418,-867.511 235.008,-863.561 240,-858 295.374,-796.316 218.624,-734.825 276,-675 283.225,-667.466 292.875,-662.7 302.943,-659.731"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.155,-867.043 211.728,-873.465 222.32,-873.7 220.155,-867.043"/>
 </g>
 <!-- Node32 -->
 <g id="node32" class="node"><title>Node32</title>
-<g id="a_node32"><a xlink:href="classMultiDocumentPanel.html" target="_top" xlink:title="A component that contains a set of other components either in floating windows or tabs...">
-<polygon fill="none" stroke="black" points="302.5,-608.5 302.5,-627.5 409.5,-627.5 409.5,-608.5 302.5,-608.5"/>
-<text text-anchor="middle" x="356" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">MultiDocumentPanel</text>
+<g id="a_node32"><a xlink:href="classMidiKeyboardComponent.html" target="_top" xlink:title="A component that displays a piano keyboard, whose notes can be clicked on. ">
+<polygon fill="none" stroke="black" points="293,-608.5 293,-627.5 419,-627.5 419,-608.5 293,-608.5"/>
+<text text-anchor="middle" x="356" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">MidiKeyboardComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node32 -->
 <g id="edge31" class="edge"><title>Node2&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M221.353,-870.531C228.419,-867.712 235.049,-863.7 240,-858 305.257,-782.866 208.302,-709.942 276,-637 283.005,-629.452 292.439,-624.664 302.347,-621.675"/>
+<path fill="none" stroke="midnightblue" d="M221.353,-870.531C228.419,-867.712 235.049,-863.7 240,-858 305.257,-782.866 208.302,-709.942 276,-637 280.702,-631.934 286.498,-628.111 292.798,-625.241"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.01,-867.286 211.563,-873.681 222.154,-873.95 220.01,-867.286"/>
 </g>
 <!-- Node33 -->
 <g id="node33" class="node"><title>Node33</title>
-<g id="a_node33"><a xlink:href="classNSViewComponent.html" target="_top" xlink:title="A Mac&#45;specific class that can create and embed an NSView inside itself. ">
-<polygon fill="none" stroke="black" points="304.5,-570.5 304.5,-589.5 407.5,-589.5 407.5,-570.5 304.5,-570.5"/>
-<text text-anchor="middle" x="356" y="-577.5" font-family="Helvetica,sans-Serif" font-size="10.00">NSViewComponent</text>
+<g id="a_node33"><a xlink:href="classMultiDocumentPanel.html" target="_top" xlink:title="A component that contains a set of other components either in floating windows or tabs...">
+<polygon fill="none" stroke="black" points="302.5,-570.5 302.5,-589.5 409.5,-589.5 409.5,-570.5 302.5,-570.5"/>
+<text text-anchor="middle" x="356" y="-577.5" font-family="Helvetica,sans-Serif" font-size="10.00">MultiDocumentPanel</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node33 -->
 <g id="edge32" class="edge"><title>Node2&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M221.461,-870.624C228.518,-867.796 235.116,-863.757 240,-858 315.178,-769.373 197.942,-685.101 276,-599 283.39,-590.848 293.611,-585.9 304.251,-582.96"/>
+<path fill="none" stroke="midnightblue" d="M221.461,-870.624C228.518,-867.796 235.116,-863.757 240,-858 315.178,-769.373 197.942,-685.101 276,-599 282.916,-591.371 292.312,-586.548 302.211,-583.551"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.119,-867.379 211.673,-873.776 222.264,-874.042 220.119,-867.379"/>
 </g>
 <!-- Node34 -->
 <g id="node34" class="node"><title>Node34</title>
-<g id="a_node34"><a xlink:href="classOnlineUnlockForm.html" target="_top" xlink:title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU...">
-<polygon fill="none" stroke="black" points="307,-532.5 307,-551.5 405,-551.5 405,-532.5 307,-532.5"/>
-<text text-anchor="middle" x="356" y="-539.5" font-family="Helvetica,sans-Serif" font-size="10.00">OnlineUnlockForm</text>
+<g id="a_node34"><a xlink:href="classNSViewComponent.html" target="_top" xlink:title="A Mac&#45;specific class that can create and embed an NSView inside itself. ">
+<polygon fill="none" stroke="black" points="304.5,-532.5 304.5,-551.5 407.5,-551.5 407.5,-532.5 304.5,-532.5"/>
+<text text-anchor="middle" x="356" y="-539.5" font-family="Helvetica,sans-Serif" font-size="10.00">NSViewComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node34 -->
 <g id="edge33" class="edge"><title>Node2&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M221.543,-870.692C228.592,-867.859 235.167,-863.8 240,-858 325.122,-755.852 187.557,-660.287 276,-561 283.882,-552.152 295.097,-547.065 306.609,-544.223"/>
+<path fill="none" stroke="midnightblue" d="M221.543,-870.692C228.592,-867.859 235.167,-863.8 240,-858 325.122,-755.852 187.557,-660.287 276,-561 283.319,-552.784 293.511,-547.811 304.147,-544.867"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.201,-867.447 211.756,-873.845 222.347,-874.11 220.201,-867.447"/>
 </g>
 <!-- Node35 -->
 <g id="node35" class="node"><title>Node35</title>
-<g id="a_node35"><a xlink:href="classOpenGLAppComponent.html" target="_top" xlink:title="A base class for writing simple one&#45;page graphical apps. ">
-<polygon fill="none" stroke="black" points="296,-494.5 296,-513.5 416,-513.5 416,-494.5 296,-494.5"/>
-<text text-anchor="middle" x="356" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">OpenGLAppComponent</text>
+<g id="a_node35"><a xlink:href="classOnlineUnlockForm.html" target="_top" xlink:title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU...">
+<polygon fill="none" stroke="black" points="307,-494.5 307,-513.5 405,-513.5 405,-494.5 307,-494.5"/>
+<text text-anchor="middle" x="356" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">OnlineUnlockForm</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node35 -->
 <g id="edge34" class="edge"><title>Node2&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M221.393,-870.831C228.517,-867.989 235.158,-863.891 240,-858 335.082,-742.314 177.157,-635.49 276,-523 281.307,-516.96 288.168,-512.668 295.627,-509.644"/>
+<path fill="none" stroke="midnightblue" d="M221.393,-870.831C228.517,-867.989 235.158,-863.891 240,-858 335.082,-742.314 177.157,-635.49 276,-523 283.915,-513.993 295.283,-508.872 306.938,-506.05"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="219.97,-867.611 211.502,-873.979 222.093,-874.281 219.97,-867.611"/>
 </g>
 <!-- Node36 -->
 <g id="node36" class="node"><title>Node36</title>
-<g id="a_node36"><a xlink:href="classPluginListComponent.html" target="_top" xlink:title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them...">
-<polygon fill="none" stroke="black" points="301,-456.5 301,-475.5 411,-475.5 411,-456.5 301,-456.5"/>
-<text text-anchor="middle" x="356" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">PluginListComponent</text>
+<g id="a_node36"><a xlink:href="classOpenGLAppComponent.html" target="_top" xlink:title="A base class for writing simple one&#45;page graphical apps. ">
+<polygon fill="none" stroke="black" points="296,-456.5 296,-475.5 416,-475.5 416,-456.5 296,-456.5"/>
+<text text-anchor="middle" x="356" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">OpenGLAppComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node36 -->
 <g id="edge35" class="edge"><title>Node2&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M221.444,-870.873C228.564,-868.027 235.19,-863.917 240,-858 292.526,-793.381 221.373,-547.853 276,-485 282.478,-477.547 291.319,-472.749 300.748,-469.712"/>
+<path fill="none" stroke="midnightblue" d="M221.444,-870.873C228.564,-868.027 235.19,-863.917 240,-858 292.526,-793.381 221.373,-547.853 276,-485 281.367,-478.825 288.357,-474.472 295.96,-471.434"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.021,-867.653 211.554,-874.021 222.145,-874.323 220.021,-867.653"/>
 </g>
 <!-- Node37 -->
 <g id="node37" class="node"><title>Node37</title>
-<g id="a_node37"><a xlink:href="classPopupMenu_1_1CustomComponent.html" target="_top" xlink:title="A user&#45;defined component that can be used as an item in a popup menu. ">
-<polygon fill="none" stroke="black" points="276.5,-418.5 276.5,-437.5 435.5,-437.5 435.5,-418.5 276.5,-418.5"/>
-<text text-anchor="middle" x="356" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">PopupMenu::CustomComponent</text>
+<g id="a_node37"><a xlink:href="classPluginListComponent.html" target="_top" xlink:title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them...">
+<polygon fill="none" stroke="black" points="301,-418.5 301,-437.5 411,-437.5 411,-418.5 301,-418.5"/>
+<text text-anchor="middle" x="356" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">PluginListComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node37 -->
 <g id="edge36" class="edge"><title>Node2&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M221.486,-870.907C228.602,-868.058 235.216,-863.939 240,-858 297.515,-786.601 216.164,-516.465 276,-447 279.222,-443.259 283.04,-440.186 287.23,-437.668"/>
+<path fill="none" stroke="midnightblue" d="M221.486,-870.907C228.602,-868.058 235.216,-863.939 240,-858 297.515,-786.601 216.164,-516.465 276,-447 282.445,-439.518 291.271,-434.708 300.696,-431.667"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.063,-867.687 211.597,-874.056 222.187,-874.357 220.063,-867.687"/>
 </g>
 <!-- Node38 -->
 <g id="node38" class="node"><title>Node38</title>
-<g id="a_node38"><a xlink:href="classPreferencesPanel.html" target="_top" xlink:title="A component with a set of buttons at the top for changing between pages of preferences. ">
-<polygon fill="none" stroke="black" points="309,-380.5 309,-399.5 403,-399.5 403,-380.5 309,-380.5"/>
-<text text-anchor="middle" x="356" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">PreferencesPanel</text>
+<g id="a_node38"><a xlink:href="classPopupMenu_1_1CustomComponent.html" target="_top" xlink:title="A user&#45;defined component that can be used as an item in a popup menu. ">
+<polygon fill="none" stroke="black" points="276.5,-380.5 276.5,-399.5 435.5,-399.5 435.5,-380.5 276.5,-380.5"/>
+<text text-anchor="middle" x="356" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">PopupMenu::CustomComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node38 -->
 <g id="edge37" class="edge"><title>Node2&#45;&gt;Node38</title>
-<path fill="none" stroke="midnightblue" d="M221.522,-870.935C228.634,-868.084 235.238,-863.956 240,-858 302.506,-779.817 210.951,-485.081 276,-409 284.25,-399.35 296.464,-394.137 308.834,-391.434"/>
+<path fill="none" stroke="midnightblue" d="M221.522,-870.935C228.634,-868.084 235.238,-863.956 240,-858 302.506,-779.817 210.951,-485.081 276,-409 279.208,-405.247 283.016,-402.166 287.2,-399.642"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.099,-867.715 211.632,-874.084 222.223,-874.385 220.099,-867.715"/>
 </g>
 <!-- Node39 -->
 <g id="node39" class="node"><title>Node39</title>
-<g id="a_node39"><a xlink:href="classProgressBar.html" target="_top" xlink:title="A progress bar component. ">
-<polygon fill="none" stroke="black" points="320.5,-342.5 320.5,-361.5 391.5,-361.5 391.5,-342.5 320.5,-342.5"/>
-<text text-anchor="middle" x="356" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">ProgressBar</text>
+<g id="a_node39"><a xlink:href="classPreferencesPanel.html" target="_top" xlink:title="A component with a set of buttons at the top for changing between pages of preferences. ">
+<polygon fill="none" stroke="black" points="309,-342.5 309,-361.5 403,-361.5 403,-342.5 309,-342.5"/>
+<text text-anchor="middle" x="356" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">PreferencesPanel</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node39 -->
 <g id="edge38" class="edge"><title>Node2&#45;&gt;Node39</title>
-<path fill="none" stroke="midnightblue" d="M221.551,-870.959C228.662,-868.105 235.257,-863.971 240,-858 307.5,-773.03 205.736,-453.699 276,-371 286.778,-358.315 304.404,-353.287 320.276,-351.553"/>
+<path fill="none" stroke="midnightblue" d="M221.551,-870.959C228.662,-868.105 235.257,-863.971 240,-858 307.5,-773.03 205.736,-453.699 276,-371 284.22,-361.325 296.425,-356.104 308.796,-353.402"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.129,-867.739 211.662,-874.108 222.253,-874.408 220.129,-867.739"/>
 </g>
 <!-- Node40 -->
 <g id="node40" class="node"><title>Node40</title>
-<g id="a_node40"><a xlink:href="classPropertyComponent.html" target="_top" xlink:title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">
-<polygon fill="none" stroke="red" points="304,-304.5 304,-323.5 408,-323.5 408,-304.5 304,-304.5"/>
-<text text-anchor="middle" x="356" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyComponent</text>
+<g id="a_node40"><a xlink:href="classProgressBar.html" target="_top" xlink:title="A progress bar component. ">
+<polygon fill="none" stroke="black" points="320.5,-304.5 320.5,-323.5 391.5,-323.5 391.5,-304.5 320.5,-304.5"/>
+<text text-anchor="middle" x="356" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00">ProgressBar</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node40 -->
 <g id="edge39" class="edge"><title>Node2&#45;&gt;Node40</title>
-<path fill="none" stroke="midnightblue" d="M221.577,-870.979C228.685,-868.124 235.273,-863.984 240,-858 312.495,-766.242 200.52,-422.319 276,-333 283.102,-324.596 293.21,-319.549 303.833,-316.594"/>
+<path fill="none" stroke="midnightblue" d="M221.577,-870.979C228.685,-868.124 235.273,-863.984 240,-858 312.495,-766.242 200.52,-422.319 276,-333 286.744,-320.286 304.368,-315.256 320.247,-313.528"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.154,-867.759 211.688,-874.128 222.278,-874.429 220.154,-867.759"/>
 </g>
 <!-- Node41 -->
 <g id="node41" class="node"><title>Node41</title>
-<g id="a_node41"><a xlink:href="classPropertyPanel.html" target="_top" xlink:title="A panel that holds a list of PropertyComponent objects. ">
-<polygon fill="none" stroke="black" points="317,-266.5 317,-285.5 395,-285.5 395,-266.5 317,-266.5"/>
-<text text-anchor="middle" x="356" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyPanel</text>
+<g id="a_node41"><a xlink:href="classPropertyComponent.html" target="_top" xlink:title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">
+<polygon fill="none" stroke="red" points="304,-266.5 304,-285.5 408,-285.5 408,-266.5 304,-266.5"/>
+<text text-anchor="middle" x="356" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node41 -->
 <g id="edge40" class="edge"><title>Node2&#45;&gt;Node41</title>
-<path fill="none" stroke="midnightblue" d="M221.599,-870.996C228.705,-868.14 235.286,-863.995 240,-858 317.492,-759.451 195.302,-390.941 276,-295 285.988,-283.125 301.979,-277.947 316.969,-275.904"/>
+<path fill="none" stroke="midnightblue" d="M221.599,-870.996C228.705,-868.14 235.286,-863.995 240,-858 317.492,-759.451 195.302,-390.941 276,-295 283.083,-286.58 293.183,-281.527 303.805,-278.571"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.176,-867.776 211.71,-874.146 222.301,-874.446 220.176,-867.776"/>
 </g>
 <!-- Node42 -->
 <g id="node42" class="node"><title>Node42</title>
-<g id="a_node42"><a xlink:href="classResizableBorderComponent.html" target="_top" xlink:title="A component that resizes its parent component when dragged. ">
-<polygon fill="none" stroke="black" points="286.5,-228.5 286.5,-247.5 425.5,-247.5 425.5,-228.5 286.5,-228.5"/>
-<text text-anchor="middle" x="356" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableBorderComponent</text>
+<g id="a_node42"><a xlink:href="classPropertyPanel.html" target="_top" xlink:title="A panel that holds a list of PropertyComponent objects. ">
+<polygon fill="none" stroke="black" points="317,-228.5 317,-247.5 395,-247.5 395,-228.5 317,-228.5"/>
+<text text-anchor="middle" x="356" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyPanel</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node42 -->
 <g id="edge41" class="edge"><title>Node2&#45;&gt;Node42</title>
-<path fill="none" stroke="midnightblue" d="M221.618,-871.012C228.723,-868.154 235.298,-864.004 240,-858 322.49,-752.66 190.083,-359.564 276,-257 279.17,-253.215 282.951,-250.11 287.115,-247.57"/>
+<path fill="none" stroke="midnightblue" d="M221.618,-871.012C228.723,-868.154 235.298,-864.004 240,-858 322.49,-752.66 190.083,-359.564 276,-257 285.964,-245.105 301.951,-239.924 316.946,-237.884"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.196,-867.791 211.73,-874.161 222.32,-874.461 220.196,-867.791"/>
 </g>
 <!-- Node43 -->
 <g id="node43" class="node"><title>Node43</title>
-<g id="a_node43"><a xlink:href="classResizableCornerComponent.html" target="_top" xlink:title="A component that resizes a parent component when dragged. ">
-<polygon fill="none" stroke="black" points="286,-190.5 286,-209.5 426,-209.5 426,-190.5 286,-190.5"/>
-<text text-anchor="middle" x="356" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableCornerComponent</text>
+<g id="a_node43"><a xlink:href="classResizableBorderComponent.html" target="_top" xlink:title="A component that resizes its parent component when dragged. ">
+<polygon fill="none" stroke="black" points="286.5,-190.5 286.5,-209.5 425.5,-209.5 425.5,-190.5 286.5,-190.5"/>
+<text text-anchor="middle" x="356" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableBorderComponent</text>
 </a>
 </g>
 </g>
@@ -575,67 +575,67 @@
 </g>
 <!-- Node44 -->
 <g id="node44" class="node"><title>Node44</title>
-<g id="a_node44"><a xlink:href="classResizableEdgeComponent.html" target="_top" xlink:title="A component that resizes its parent component when dragged. ">
-<polygon fill="none" stroke="black" points="289.5,-152.5 289.5,-171.5 422.5,-171.5 422.5,-152.5 289.5,-152.5"/>
-<text text-anchor="middle" x="356" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableEdgeComponent</text>
+<g id="a_node44"><a xlink:href="classResizableCornerComponent.html" target="_top" xlink:title="A component that resizes a parent component when dragged. ">
+<polygon fill="none" stroke="black" points="286,-152.5 286,-171.5 426,-171.5 426,-152.5 286,-152.5"/>
+<text text-anchor="middle" x="356" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableCornerComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node44 -->
 <g id="edge43" class="edge"><title>Node2&#45;&gt;Node44</title>
-<path fill="none" stroke="midnightblue" d="M221.651,-871.037C228.752,-868.177 235.319,-864.02 240,-858 332.488,-739.073 179.643,-296.814 276,-181 279.699,-176.554 284.24,-173.045 289.257,-170.286"/>
+<path fill="none" stroke="midnightblue" d="M221.651,-871.037C228.752,-868.177 235.319,-864.02 240,-858 332.488,-739.073 179.643,-296.814 276,-181 279.158,-177.205 282.929,-174.092 287.086,-171.546"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.228,-867.817 211.762,-874.187 222.353,-874.486 220.228,-867.817"/>
 </g>
 <!-- Node45 -->
 <g id="node45" class="node"><title>Node45</title>
-<g id="a_node45"><a xlink:href="classScrollBar.html" target="_top" xlink:title="A scrollbar component. ">
-<polygon fill="none" stroke="black" points="328,-114.5 328,-133.5 384,-133.5 384,-114.5 328,-114.5"/>
-<text text-anchor="middle" x="356" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">ScrollBar</text>
+<g id="a_node45"><a xlink:href="classResizableEdgeComponent.html" target="_top" xlink:title="A component that resizes its parent component when dragged. ">
+<polygon fill="none" stroke="black" points="289.5,-114.5 289.5,-133.5 422.5,-133.5 422.5,-114.5 289.5,-114.5"/>
+<text text-anchor="middle" x="356" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResizableEdgeComponent</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node45 -->
 <g id="edge44" class="edge"><title>Node2&#45;&gt;Node45</title>
-<path fill="none" stroke="midnightblue" d="M221.664,-871.047C228.765,-868.186 235.327,-864.026 240,-858 337.488,-732.279 174.422,-265.44 276,-143 288.339,-128.126 310.097,-123.731 327.658,-122.858"/>
+<path fill="none" stroke="midnightblue" d="M221.664,-871.047C228.765,-868.186 235.327,-864.026 240,-858 337.488,-732.279 174.422,-265.44 276,-143 279.693,-138.549 284.229,-135.036 289.244,-132.275"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.242,-867.827 211.776,-874.197 222.367,-874.497 220.242,-867.827"/>
 </g>
 <!-- Node46 -->
 <g id="node46" class="node"><title>Node46</title>
-<g id="a_node46"><a xlink:href="classSidePanel.html" target="_top" xlink:title="A component that is positioned on either the left&#45; or right&#45;hand side of its parent, containing a header and some content. ">
-<polygon fill="none" stroke="black" points="325.5,-76.5 325.5,-95.5 386.5,-95.5 386.5,-76.5 325.5,-76.5"/>
-<text text-anchor="middle" x="356" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">SidePanel</text>
+<g id="a_node46"><a xlink:href="classScrollBar.html" target="_top" xlink:title="A scrollbar component. ">
+<polygon fill="none" stroke="black" points="328,-76.5 328,-95.5 384,-95.5 384,-76.5 328,-76.5"/>
+<text text-anchor="middle" x="356" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ScrollBar</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node46 -->
 <g id="edge45" class="edge"><title>Node2&#45;&gt;Node46</title>
-<path fill="none" stroke="midnightblue" d="M221.677,-871.057C228.776,-868.195 235.335,-864.032 240,-858 291.244,-791.742 222.6,-169.533 276,-105 287.781,-90.7629 308.191,-86.1213 325.315,-84.9829"/>
+<path fill="none" stroke="midnightblue" d="M221.677,-871.057C228.776,-868.195 235.335,-864.032 240,-858 291.244,-791.742 222.6,-169.533 276,-105 288.321,-90.1108 310.079,-85.7162 327.646,-84.8479"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.254,-867.837 211.789,-874.207 222.379,-874.506 220.254,-867.837"/>
 </g>
 <!-- Node47 -->
 <g id="node47" class="node"><title>Node47</title>
-<g id="a_node47"><a xlink:href="classSlider.html" target="_top" xlink:title="A slider control for changing a value. ">
-<polygon fill="none" stroke="black" points="335.5,-38.5 335.5,-57.5 376.5,-57.5 376.5,-38.5 335.5,-38.5"/>
-<text text-anchor="middle" x="356" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Slider</text>
+<g id="a_node47"><a xlink:href="classSidePanel.html" target="_top" xlink:title="A component that is positioned on either the left&#45; or right&#45;hand side of its parent, containing a header and some content. ">
+<polygon fill="none" stroke="black" points="325.5,-38.5 325.5,-57.5 386.5,-57.5 386.5,-38.5 325.5,-38.5"/>
+<text text-anchor="middle" x="356" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SidePanel</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node47 -->
 <g id="edge46" class="edge"><title>Node2&#45;&gt;Node47</title>
-<path fill="none" stroke="midnightblue" d="M221.688,-871.065C228.786,-868.203 235.342,-864.038 240,-858 293.745,-788.344 219.989,-134.847 276,-67 290.189,-49.8122 316.956,-46.6031 335.371,-46.6649"/>
+<path fill="none" stroke="midnightblue" d="M221.688,-871.065C228.786,-868.203 235.342,-864.038 240,-858 293.745,-788.344 219.989,-134.847 276,-67 287.765,-52.7494 308.175,-48.1081 325.303,-46.9732"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.265,-867.845 211.8,-874.216 222.39,-874.515 220.265,-867.845"/>
 </g>
 <!-- Node48 -->
 <g id="node48" class="node"><title>Node48</title>
-<g id="a_node48"><a xlink:href="classSplashScreen.html" target="_top" xlink:title="A component for showing a splash screen while your app starts up. ">
-<polygon fill="none" stroke="black" points="317.5,-0.5 317.5,-19.5 394.5,-19.5 394.5,-0.5 317.5,-0.5"/>
-<text text-anchor="middle" x="356" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SplashScreen</text>
+<g id="a_node48"><a xlink:href="classSlider.html" target="_top" xlink:title="A slider control for changing a value. ">
+<polygon fill="none" stroke="black" points="335.5,-0.5 335.5,-19.5 376.5,-19.5 376.5,-0.5 335.5,-0.5"/>
+<text text-anchor="middle" x="356" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Slider</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node48 -->
 <g id="edge47" class="edge"><title>Node2&#45;&gt;Node48</title>
-<path fill="none" stroke="midnightblue" d="M221.698,-871.073C228.795,-868.21 235.348,-864.042 240,-858 296.245,-784.946 217.378,-100.161 276,-29 285.956,-16.9147 302.13,-11.7375 317.259,-9.74994"/>
+<path fill="none" stroke="midnightblue" d="M221.698,-871.073C228.795,-868.21 235.348,-864.042 240,-858 296.245,-784.946 217.378,-100.161 276,-29 290.171,-11.7975 316.943,-8.59181 335.363,-8.65845"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="220.276,-867.853 211.81,-874.224 222.401,-874.523 220.276,-867.853"/>
 </g>
 </g>

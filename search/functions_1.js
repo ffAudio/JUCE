@@ -59,6 +59,7 @@ var searchData=
   ['bufferingaudioreader',['BufferingAudioReader',['../classBufferingAudioReader.html#ab68442def75d9d7b8a1f78883992041c',1,'BufferingAudioReader']]],
   ['bufferingaudiosource',['BufferingAudioSource',['../classBufferingAudioSource.html#a325821cdc46ccbfcbad4c0c4e224e9f6',1,'BufferingAudioSource']]],
   ['builder',['Builder',['../classZipFile_1_1Builder.html#a06cc76fa5f6df7e172409267fe37cbf5',1,'ZipFile::Builder']]],
+  ['burgermenucomponent',['BurgerMenuComponent',['../classBurgerMenuComponent.html#a5fbdc918b82de991d9a8e82a0e5f251b',1,'BurgerMenuComponent']]],
   ['burn',['burn',['../classAudioCDBurner.html#a4e98ca1f950b1c56fc0d021e0d293769',1,'AudioCDBurner']]],
   ['burnprogresslistener',['BurnProgressListener',['../classAudioCDBurner_1_1BurnProgressListener.html#ac4f6a46602763793156bcaf13f74a468',1,'AudioCDBurner::BurnProgressListener']]],
   ['button',['Button',['../classButton.html#a37f37f35bbcb27d88fc508be94dba87e',1,'Button']]],
