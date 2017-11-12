@@ -98,6 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueTree_1_1Iterator.html">Iterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structValueTree_1_1Iterator.html" title="Iterator for a ValueTree. ">Iterator</a> for a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>.  <a href="structValueTree_1_1Iterator.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree_1_1Listener.html">Listener</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classValueTree_1_1Listener.html" title="Listener class for events that happen to a ValueTree. ">Listener</a> class for events that happen to a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>.  <a href="classValueTree_1_1Listener.html#details">More...</a><br/></td></tr>
@@ -115,7 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac96c26d40b84ef461c1afb882453612c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a reference to another <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>.  <a href="#ac96c26d40b84ef461c1afb882453612c">More...</a><br/></td></tr>
 <tr class="separator:ac96c26d40b84ef461c1afb882453612c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac064e1f6095e5f21fc065d9f6b76a407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ac064e1f6095e5f21fc065d9f6b76a407">operator=</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;)</td></tr>
-<tr class="memdesc:ac064e1f6095e5f21fc065d9f6b76a407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes this object reference another node.  <a href="#ac064e1f6095e5f21fc065d9f6b76a407">More...</a><br/></td></tr>
+<tr class="memdesc:ac064e1f6095e5f21fc065d9f6b76a407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes this object to be a reference to the given tree.  <a href="#ac064e1f6095e5f21fc065d9f6b76a407">More...</a><br/></td></tr>
 <tr class="separator:ac064e1f6095e5f21fc065d9f6b76a407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7492a326b17d3840f6632137295e6f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ab7492a326b17d3840f6632137295e6f9">ValueTree</a> (<a class="el" href="classValueTree.html">ValueTree</a> &amp;&amp;) noexcept</td></tr>
 <tr class="memdesc:ab7492a326b17d3840f6632137295e6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#ab7492a326b17d3840f6632137295e6f9">More...</a><br/></td></tr>
@@ -124,25 +125,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4e0b4721cb1ec7f79c59192df3b97bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a4e0b4721cb1ec7f79c59192df3b97bcc">More...</a><br/></td></tr>
 <tr class="separator:a4e0b4721cb1ec7f79c59192df3b97bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a998b47680444a00866db876dada8f254"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a998b47680444a00866db876dada8f254">operator==</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;) const noexcept</td></tr>
-<tr class="memdesc:a998b47680444a00866db876dada8f254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if both this and the other tree node refer to the same underlying structure.  <a href="#a998b47680444a00866db876dada8f254">More...</a><br/></td></tr>
+<tr class="memdesc:a998b47680444a00866db876dada8f254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if both this and the other tree refer to the same underlying structure.  <a href="#a998b47680444a00866db876dada8f254">More...</a><br/></td></tr>
 <tr class="separator:a998b47680444a00866db876dada8f254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae70dad6ed84e611492a1c682a83fcce5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ae70dad6ed84e611492a1c682a83fcce5">operator!=</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;) const noexcept</td></tr>
-<tr class="memdesc:ae70dad6ed84e611492a1c682a83fcce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this and the other node refer to different underlying structures.  <a href="#ae70dad6ed84e611492a1c682a83fcce5">More...</a><br/></td></tr>
+<tr class="memdesc:ae70dad6ed84e611492a1c682a83fcce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this and the other tree refer to different underlying structures.  <a href="#ae70dad6ed84e611492a1c682a83fcce5">More...</a><br/></td></tr>
 <tr class="separator:ae70dad6ed84e611492a1c682a83fcce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fee40c899026e8ac370b5fd2ff30c99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a4fee40c899026e8ac370b5fd2ff30c99">isEquivalentTo</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;) const </td></tr>
 <tr class="memdesc:a4fee40c899026e8ac370b5fd2ff30c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a deep comparison between the properties and children of two trees.  <a href="#a4fee40c899026e8ac370b5fd2ff30c99">More...</a><br/></td></tr>
 <tr class="separator:a4fee40c899026e8ac370b5fd2ff30c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c1506afbe6b840e4ab43fabf275845a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a">isValid</a> () const noexcept</td></tr>
-<tr class="memdesc:a9c1506afbe6b840e4ab43fabf275845a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this node refers to some valid data.  <a href="#a9c1506afbe6b840e4ab43fabf275845a">More...</a><br/></td></tr>
+<tr class="memdesc:a9c1506afbe6b840e4ab43fabf275845a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this tree refers to some valid data.  <a href="#a9c1506afbe6b840e4ab43fabf275845a">More...</a><br/></td></tr>
 <tr class="separator:a9c1506afbe6b840e4ab43fabf275845a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad212f52a1dee540a97b256a57c881fed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad212f52a1dee540a97b256a57c881fed">createCopy</a> () const </td></tr>
-<tr class="memdesc:ad212f52a1dee540a97b256a57c881fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a deep copy of this tree and all its sub-nodes.  <a href="#ad212f52a1dee540a97b256a57c881fed">More...</a><br/></td></tr>
+<tr class="memdesc:ad212f52a1dee540a97b256a57c881fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a deep copy of this tree and all its sub-trees.  <a href="#ad212f52a1dee540a97b256a57c881fed">More...</a><br/></td></tr>
 <tr class="separator:ad212f52a1dee540a97b256a57c881fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba6256213ee02c418e9ef3d320f0ff1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIdentifier.html">Identifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#aaba6256213ee02c418e9ef3d320f0ff1">getType</a> () const noexcept</td></tr>
-<tr class="memdesc:aaba6256213ee02c418e9ef3d320f0ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of this node.  <a href="#aaba6256213ee02c418e9ef3d320f0ff1">More...</a><br/></td></tr>
+<tr class="memdesc:aaba6256213ee02c418e9ef3d320f0ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of this tree.  <a href="#aaba6256213ee02c418e9ef3d320f0ff1">More...</a><br/></td></tr>
 <tr class="separator:aaba6256213ee02c418e9ef3d320f0ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d41bc2066cae65b69aa614aa0f68ff1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a5d41bc2066cae65b69aa614aa0f68ff1">hasType</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;typeName) const noexcept</td></tr>
-<tr class="memdesc:a5d41bc2066cae65b69aa614aa0f68ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the node has this type.  <a href="#a5d41bc2066cae65b69aa614aa0f68ff1">More...</a><br/></td></tr>
+<tr class="memdesc:a5d41bc2066cae65b69aa614aa0f68ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the tree has this type.  <a href="#a5d41bc2066cae65b69aa614aa0f68ff1">More...</a><br/></td></tr>
 <tr class="separator:a5d41bc2066cae65b69aa614aa0f68ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16875a1c5f41f03f609a9d7870171fd6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classvar.html">var</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a16875a1c5f41f03f609a9d7870171fd6">getProperty</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;name) const noexcept</td></tr>
 <tr class="memdesc:a16875a1c5f41f03f609a9d7870171fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a named property.  <a href="#a16875a1c5f41f03f609a9d7870171fd6">More...</a><br/></td></tr>
@@ -157,19 +158,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a55c5127906a252590c8a64c48c5e99d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a named property.  <a href="#a55c5127906a252590c8a64c48c5e99d3">More...</a><br/></td></tr>
 <tr class="separator:a55c5127906a252590c8a64c48c5e99d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad236114dc2a8c41c799f1fc51d1614bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd">setProperty</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;name, const <a class="el" href="classvar.html">var</a> &amp;newValue, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:ad236114dc2a8c41c799f1fc51d1614bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes a named property of the node.  <a href="#ad236114dc2a8c41c799f1fc51d1614bd">More...</a><br/></td></tr>
+<tr class="memdesc:ad236114dc2a8c41c799f1fc51d1614bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes a named property of the tree.  <a href="#ad236114dc2a8c41c799f1fc51d1614bd">More...</a><br/></td></tr>
 <tr class="separator:ad236114dc2a8c41c799f1fc51d1614bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dbec0d665fb9d57b9fd7b3189ec0ee0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0dbec0d665fb9d57b9fd7b3189ec0ee0">hasProperty</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;name) const noexcept</td></tr>
-<tr class="memdesc:a0dbec0d665fb9d57b9fd7b3189ec0ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the node contains a named property.  <a href="#a0dbec0d665fb9d57b9fd7b3189ec0ee0">More...</a><br/></td></tr>
+<tr class="memdesc:a0dbec0d665fb9d57b9fd7b3189ec0ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the tree contains a named property.  <a href="#a0dbec0d665fb9d57b9fd7b3189ec0ee0">More...</a><br/></td></tr>
 <tr class="separator:a0dbec0d665fb9d57b9fd7b3189ec0ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a07b801bd317aa8bf1ee9da5644fc35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a2a07b801bd317aa8bf1ee9da5644fc35">removeProperty</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;name, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:a2a07b801bd317aa8bf1ee9da5644fc35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a property from the node.  <a href="#a2a07b801bd317aa8bf1ee9da5644fc35">More...</a><br/></td></tr>
+<tr class="memdesc:a2a07b801bd317aa8bf1ee9da5644fc35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a property from the tree.  <a href="#a2a07b801bd317aa8bf1ee9da5644fc35">More...</a><br/></td></tr>
 <tr class="separator:a2a07b801bd317aa8bf1ee9da5644fc35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f750331b6a680f48751302be9313467"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a2f750331b6a680f48751302be9313467">removeAllProperties</a> (<a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:a2f750331b6a680f48751302be9313467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all properties from the node.  <a href="#a2f750331b6a680f48751302be9313467">More...</a><br/></td></tr>
+<tr class="memdesc:a2f750331b6a680f48751302be9313467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all properties from the tree.  <a href="#a2f750331b6a680f48751302be9313467">More...</a><br/></td></tr>
 <tr class="separator:a2f750331b6a680f48751302be9313467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a018730ee95c743705aa9132a37829b32"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a018730ee95c743705aa9132a37829b32">getNumProperties</a> () const noexcept</td></tr>
-<tr class="memdesc:a018730ee95c743705aa9132a37829b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of properties that the node contains.  <a href="#a018730ee95c743705aa9132a37829b32">More...</a><br/></td></tr>
+<tr class="memdesc:a018730ee95c743705aa9132a37829b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of properties that the tree contains.  <a href="#a018730ee95c743705aa9132a37829b32">More...</a><br/></td></tr>
 <tr class="separator:a018730ee95c743705aa9132a37829b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ea2ce53b4759a37d58e3f99d9702e36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIdentifier.html">Identifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a6ea2ce53b4759a37d58e3f99d9702e36">getPropertyName</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
 <tr class="memdesc:a6ea2ce53b4759a37d58e3f99d9702e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the identifier of the property with a given index.  <a href="#a6ea2ce53b4759a37d58e3f99d9702e36">More...</a><br/></td></tr>
@@ -181,49 +182,52 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad2596a93fa05a1a0c95cd6c275e77982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites all the properties in this tree with the properties of the source tree.  <a href="#ad2596a93fa05a1a0c95cd6c275e77982">More...</a><br/></td></tr>
 <tr class="separator:ad2596a93fa05a1a0c95cd6c275e77982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72c1b4a7e3b9518568d4f692358c25e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a72c1b4a7e3b9518568d4f692358c25e5">getNumChildren</a> () const noexcept</td></tr>
-<tr class="memdesc:a72c1b4a7e3b9518568d4f692358c25e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of child nodes belonging to this one.  <a href="#a72c1b4a7e3b9518568d4f692358c25e5">More...</a><br/></td></tr>
+<tr class="memdesc:a72c1b4a7e3b9518568d4f692358c25e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of child trees inside this one.  <a href="#a72c1b4a7e3b9518568d4f692358c25e5">More...</a><br/></td></tr>
 <tr class="separator:a72c1b4a7e3b9518568d4f692358c25e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3c7ef24e903b145e7885820898240cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ae3c7ef24e903b145e7885820898240cb">getChild</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const </td></tr>
-<tr class="memdesc:ae3c7ef24e903b145e7885820898240cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of this node's child nodes.  <a href="#ae3c7ef24e903b145e7885820898240cb">More...</a><br/></td></tr>
+<tr class="memdesc:ae3c7ef24e903b145e7885820898240cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of this tree's sub-trees.  <a href="#ae3c7ef24e903b145e7885820898240cb">More...</a><br/></td></tr>
 <tr class="separator:ae3c7ef24e903b145e7885820898240cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00e9d09ad2439b9eb5cb79cb146c5a73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a00e9d09ad2439b9eb5cb79cb146c5a73">getChildWithName</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;type) const </td></tr>
-<tr class="memdesc:a00e9d09ad2439b9eb5cb79cb146c5a73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first child node with the specified type name.  <a href="#a00e9d09ad2439b9eb5cb79cb146c5a73">More...</a><br/></td></tr>
+<tr class="memdesc:a00e9d09ad2439b9eb5cb79cb146c5a73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first sub-tree with the specified type name.  <a href="#a00e9d09ad2439b9eb5cb79cb146c5a73">More...</a><br/></td></tr>
 <tr class="separator:a00e9d09ad2439b9eb5cb79cb146c5a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafb29876616f005939915de3e6968818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#aafb29876616f005939915de3e6968818">getOrCreateChildWithName</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;type, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:aafb29876616f005939915de3e6968818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first child node with the specified type name, creating and adding a child with this name if there wasn't already one there.  <a href="#aafb29876616f005939915de3e6968818">More...</a><br/></td></tr>
+<tr class="memdesc:aafb29876616f005939915de3e6968818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first sub-tree with the specified type name, creating and adding a child with this name if there wasn't already one there.  <a href="#aafb29876616f005939915de3e6968818">More...</a><br/></td></tr>
 <tr class="separator:aafb29876616f005939915de3e6968818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99c2e890ecbed6c7fab83c1a95d824a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a99c2e890ecbed6c7fab83c1a95d824a6">getChildWithProperty</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;propertyName, const <a class="el" href="classvar.html">var</a> &amp;propertyValue) const </td></tr>
-<tr class="memdesc:a99c2e890ecbed6c7fab83c1a95d824a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the first child node that has the specified property value.  <a href="#a99c2e890ecbed6c7fab83c1a95d824a6">More...</a><br/></td></tr>
+<tr class="memdesc:a99c2e890ecbed6c7fab83c1a95d824a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the first sub-tree that has the specified property value.  <a href="#a99c2e890ecbed6c7fab83c1a95d824a6">More...</a><br/></td></tr>
 <tr class="separator:a99c2e890ecbed6c7fab83c1a95d824a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d639299ef9dfedc651544e05f06693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a93d639299ef9dfedc651544e05f06693">addChild</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;child, int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:a93d639299ef9dfedc651544e05f06693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child to this node.  <a href="#a93d639299ef9dfedc651544e05f06693">More...</a><br/></td></tr>
+<tr class="memdesc:a93d639299ef9dfedc651544e05f06693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child to this tree.  <a href="#a93d639299ef9dfedc651544e05f06693">More...</a><br/></td></tr>
 <tr class="separator:a93d639299ef9dfedc651544e05f06693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3528b88d2a0af85e0d33dcaa75bc3ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ab3528b88d2a0af85e0d33dcaa75bc3ab">appendChild</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;child, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
+<tr class="memdesc:ab3528b88d2a0af85e0d33dcaa75bc3ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a new child sub-tree to this tree.  <a href="#ab3528b88d2a0af85e0d33dcaa75bc3ab">More...</a><br/></td></tr>
+<tr class="separator:ab3528b88d2a0af85e0d33dcaa75bc3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52b15bdb0b4a04b81c04e7059bb926c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a52b15bdb0b4a04b81c04e7059bb926c4">removeChild</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;child, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:a52b15bdb0b4a04b81c04e7059bb926c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the specified child from this node's child-list.  <a href="#a52b15bdb0b4a04b81c04e7059bb926c4">More...</a><br/></td></tr>
+<tr class="memdesc:a52b15bdb0b4a04b81c04e7059bb926c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the specified child from this tree's child-list.  <a href="#a52b15bdb0b4a04b81c04e7059bb926c4">More...</a><br/></td></tr>
 <tr class="separator:a52b15bdb0b4a04b81c04e7059bb926c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bee3734652dec6bb1d5c351a1268fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a3bee3734652dec6bb1d5c351a1268fc0">removeChild</a> (int childIndex, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:a3bee3734652dec6bb1d5c351a1268fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a child from this node's child-list.  <a href="#a3bee3734652dec6bb1d5c351a1268fc0">More...</a><br/></td></tr>
+<tr class="memdesc:a3bee3734652dec6bb1d5c351a1268fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a sub-tree from this tree.  <a href="#a3bee3734652dec6bb1d5c351a1268fc0">More...</a><br/></td></tr>
 <tr class="separator:a3bee3734652dec6bb1d5c351a1268fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91f8a28e02a782b0c95f855d0c29f0d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a91f8a28e02a782b0c95f855d0c29f0d9">removeAllChildren</a> (<a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:a91f8a28e02a782b0c95f855d0c29f0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all child-nodes from this node.  <a href="#a91f8a28e02a782b0c95f855d0c29f0d9">More...</a><br/></td></tr>
+<tr class="memdesc:a91f8a28e02a782b0c95f855d0c29f0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all child-trees.  <a href="#a91f8a28e02a782b0c95f855d0c29f0d9">More...</a><br/></td></tr>
 <tr class="separator:a91f8a28e02a782b0c95f855d0c29f0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7d20bf6964bfc8c4a975543bca8ce53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ab7d20bf6964bfc8c4a975543bca8ce53">moveChild</a> (int currentIndex, int newIndex, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:ab7d20bf6964bfc8c4a975543bca8ce53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves one of the children to a different index.  <a href="#ab7d20bf6964bfc8c4a975543bca8ce53">More...</a><br/></td></tr>
+<tr class="memdesc:ab7d20bf6964bfc8c4a975543bca8ce53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves one of the sub-trees to a different index.  <a href="#ab7d20bf6964bfc8c4a975543bca8ce53">More...</a><br/></td></tr>
 <tr class="separator:ab7d20bf6964bfc8c4a975543bca8ce53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1973a657c1c2907c9996038e7e756fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad1973a657c1c2907c9996038e7e756fe">isAChildOf</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;possibleParent) const noexcept</td></tr>
-<tr class="memdesc:ad1973a657c1c2907c9996038e7e756fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this node is anywhere below the specified parent node.  <a href="#ad1973a657c1c2907c9996038e7e756fe">More...</a><br/></td></tr>
+<tr class="memdesc:ad1973a657c1c2907c9996038e7e756fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this tree is a sub-tree (at any depth) of the given parent.  <a href="#ad1973a657c1c2907c9996038e7e756fe">More...</a><br/></td></tr>
 <tr class="separator:ad1973a657c1c2907c9996038e7e756fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc3e5c14e02f7ee3a958006d5146b78"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#aecc3e5c14e02f7ee3a958006d5146b78">indexOf</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;child) const noexcept</td></tr>
 <tr class="memdesc:aecc3e5c14e02f7ee3a958006d5146b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of a child item in this parent.  <a href="#aecc3e5c14e02f7ee3a958006d5146b78">More...</a><br/></td></tr>
 <tr class="separator:aecc3e5c14e02f7ee3a958006d5146b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22561c896d9bcdb763d27aacbb5815c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad22561c896d9bcdb763d27aacbb5815c">getParent</a> () const noexcept</td></tr>
-<tr class="memdesc:ad22561c896d9bcdb763d27aacbb5815c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the parent node that contains this one.  <a href="#ad22561c896d9bcdb763d27aacbb5815c">More...</a><br/></td></tr>
+<tr class="memdesc:ad22561c896d9bcdb763d27aacbb5815c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the parent tree that contains this one.  <a href="#ad22561c896d9bcdb763d27aacbb5815c">More...</a><br/></td></tr>
 <tr class="separator:ad22561c896d9bcdb763d27aacbb5815c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a16465630ab6a1c6a7bcb65ee77a3df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a4a16465630ab6a1c6a7bcb65ee77a3df">getRoot</a> () const noexcept</td></tr>
-<tr class="memdesc:a4a16465630ab6a1c6a7bcb65ee77a3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recusrively finds the highest-level parent node that contains this one.  <a href="#a4a16465630ab6a1c6a7bcb65ee77a3df">More...</a><br/></td></tr>
+<tr class="memdesc:a4a16465630ab6a1c6a7bcb65ee77a3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively finds the highest-level parent tree that contains this one.  <a href="#a4a16465630ab6a1c6a7bcb65ee77a3df">More...</a><br/></td></tr>
 <tr class="separator:a4a16465630ab6a1c6a7bcb65ee77a3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83099cde9f794842a2378c2935976a90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a83099cde9f794842a2378c2935976a90">getSibling</a> (int delta) const noexcept</td></tr>
-<tr class="memdesc:a83099cde9f794842a2378c2935976a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of this node's siblings in its parent's child list.  <a href="#a83099cde9f794842a2378c2935976a90">More...</a><br/></td></tr>
+<tr class="memdesc:a83099cde9f794842a2378c2935976a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of this tree's siblings in its parent's child list.  <a href="#a83099cde9f794842a2378c2935976a90">More...</a><br/></td></tr>
 <tr class="separator:a83099cde9f794842a2378c2935976a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cf33db0574a9f2673cde96bcfd808c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structValueTree_1_1Iterator.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a2cf33db0574a9f2673cde96bcfd808c5">begin</a> () const noexcept</td></tr>
 <tr class="memdesc:a2cf33db0574a9f2673cde96bcfd808c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a start iterator for the children in this tree.  <a href="#a2cf33db0574a9f2673cde96bcfd808c5">More...</a><br/></td></tr>
@@ -232,7 +236,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a40346edfb70253a482cd0642ac5ac577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an end iterator for the children in this tree.  <a href="#a40346edfb70253a482cd0642ac5ac577">More...</a><br/></td></tr>
 <tr class="separator:a40346edfb70253a482cd0642ac5ac577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957">createXml</a> () const </td></tr>
-<tr class="memdesc:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> that holds a complete image of this node and all its children.  <a href="#ad4b6941292f6ba19b1f4c7a91b82f957">More...</a><br/></td></tr>
+<tr class="memdesc:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> that holds a complete image of this tree and all its children.  <a href="#ad4b6941292f6ba19b1f4c7a91b82f957">More...</a><br/></td></tr>
 <tr class="separator:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac1da90e499eea7233b6eb7d0d7d190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a4ac1da90e499eea7233b6eb7d0d7d190">toXmlString</a> () const </td></tr>
 <tr class="memdesc:a4ac1da90e499eea7233b6eb7d0d7d190"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns a string containing an XML representation of the tree.  <a href="#a4ac1da90e499eea7233b6eb7d0d7d190">More...</a><br/></td></tr>
@@ -241,13 +245,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0a2a0fa2cf051fef99cab56db74a4266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores this tree (and all its children) in a binary format.  <a href="#a0a2a0fa2cf051fef99cab56db74a4266">More...</a><br/></td></tr>
 <tr class="separator:a0a2a0fa2cf051fef99cab56db74a4266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a0d82471cb1119fc1a7b7018e3af394"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0a0d82471cb1119fc1a7b7018e3af394">addListener</a> (<a class="el" href="classValueTree_1_1Listener.html">Listener</a> *listener)</td></tr>
-<tr class="memdesc:a0a0d82471cb1119fc1a7b7018e3af394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener to receive callbacks when this node is changed.  <a href="#a0a0d82471cb1119fc1a7b7018e3af394">More...</a><br/></td></tr>
+<tr class="memdesc:a0a0d82471cb1119fc1a7b7018e3af394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener to receive callbacks when this tree is changed in some way.  <a href="#a0a0d82471cb1119fc1a7b7018e3af394">More...</a><br/></td></tr>
 <tr class="separator:a0a0d82471cb1119fc1a7b7018e3af394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8930aa94cb6e3714ef9e7449d08e5f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ac8930aa94cb6e3714ef9e7449d08e5f6">removeListener</a> (<a class="el" href="classValueTree_1_1Listener.html">Listener</a> *listener)</td></tr>
-<tr class="memdesc:ac8930aa94cb6e3714ef9e7449d08e5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a listener that was previously added with <a class="el" href="classValueTree.html#a0a0d82471cb1119fc1a7b7018e3af394" title="Adds a listener to receive callbacks when this node is changed. ">addListener()</a>.  <a href="#ac8930aa94cb6e3714ef9e7449d08e5f6">More...</a><br/></td></tr>
+<tr class="memdesc:ac8930aa94cb6e3714ef9e7449d08e5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a listener that was previously added with <a class="el" href="classValueTree.html#a0a0d82471cb1119fc1a7b7018e3af394" title="Adds a listener to receive callbacks when this tree is changed in some way. ">addListener()</a>.  <a href="#ac8930aa94cb6e3714ef9e7449d08e5f6">More...</a><br/></td></tr>
 <tr class="separator:ac8930aa94cb6e3714ef9e7449d08e5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85b3ee8728b1c7e5e91b898c35f1b73e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a85b3ee8728b1c7e5e91b898c35f1b73e">setPropertyExcludingListener</a> (<a class="el" href="classValueTree_1_1Listener.html">Listener</a> *listenerToExclude, const <a class="el" href="classIdentifier.html">Identifier</a> &amp;name, const <a class="el" href="classvar.html">var</a> &amp;newValue, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:a85b3ee8728b1c7e5e91b898c35f1b73e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes a named property of the node, but will not notify a specified listener of the change.  <a href="#a85b3ee8728b1c7e5e91b898c35f1b73e">More...</a><br/></td></tr>
+<tr class="memdesc:a85b3ee8728b1c7e5e91b898c35f1b73e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes a named property of the tree, but will not notify a specified listener of the change.  <a href="#a85b3ee8728b1c7e5e91b898c35f1b73e">More...</a><br/></td></tr>
 <tr class="separator:a85b3ee8728b1c7e5e91b898c35f1b73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a164ff183e358b982b1a1f5dd1176ab88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a164ff183e358b982b1a1f5dd1176ab88">sendPropertyChangeMessage</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;property)</td></tr>
 <tr class="memdesc:a164ff183e358b982b1a1f5dd1176ab88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Causes a property-change callback to be triggered for the specified property, calling any listeners that are registered.  <a href="#a164ff183e358b982b1a1f5dd1176ab88">More...</a><br/></td></tr>
@@ -263,7 +267,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d2f1bdd6313e53f256ed015986f837a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a">fromXml</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml)</td></tr>
-<tr class="memdesc:a0d2f1bdd6313e53f256ed015986f837a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to recreate a node from its XML representation.  <a href="#a0d2f1bdd6313e53f256ed015986f837a">More...</a><br/></td></tr>
+<tr class="memdesc:a0d2f1bdd6313e53f256ed015986f837a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to recreate a tree from its XML representation.  <a href="#a0d2f1bdd6313e53f256ed015986f837a">More...</a><br/></td></tr>
 <tr class="separator:a0d2f1bdd6313e53f256ed015986f837a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad41a9e45b2d15699b4e27bed3b31109c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad41a9e45b2d15699b4e27bed3b31109c">readFromStream</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)</td></tr>
 <tr class="memdesc:ad41a9e45b2d15699b4e27bed3b31109c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads a tree from a stream that was written with <a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266" title="Stores this tree (and all its children) in a binary format. ">writeToStream()</a>.  <a href="#ad41a9e45b2d15699b4e27bed3b31109c">More...</a><br/></td></tr>
@@ -278,12 +282,12 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A powerful tree structure that can be used to hold free-form data, and which can handle its own undo and redo behaviour. </p>
 <p>A <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> contains a list of named properties as var objects, and also holds any number of sub-trees.</p>
-<p>Create <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> objects on the stack, and don't be afraid to copy them around, as they're simply a lightweight reference to a shared data container. Creating a copy of another <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> simply creates a new reference to the same underlying object - to make a separate, deep copy of a tree you should explicitly call <a class="el" href="classValueTree.html#ad212f52a1dee540a97b256a57c881fed" title="Returns a deep copy of this tree and all its sub-nodes. ">createCopy()</a>.</p>
+<p>Create <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> objects on the stack, and don't be afraid to copy them around, as they're simply a lightweight reference to a shared data container. Creating a copy of another <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> simply creates a new reference to the same underlying object - to make a separate, deep copy of a tree you should explicitly call <a class="el" href="classValueTree.html#ad212f52a1dee540a97b256a57c881fed" title="Returns a deep copy of this tree and all its sub-trees. ">createCopy()</a>.</p>
 <p>Each <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> has a type name, in much the same way as an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> has a tag name, and much of the structure of a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> is similar to an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> tree. You can convert a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> to and from an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a>, and as long as the XML doesn't contain text elements, the conversion works well and makes a good serialisation format. They can also be serialised to a binary format, which is very fast and compact.</p>
-<p>All the methods that change data take an optional <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands. ">UndoManager</a>, which will be used to track any changes to the object. For this to work, you have to be careful to consistently always use the same <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands. ">UndoManager</a> for all operations to any node inside the tree.</p>
+<p>All the methods that change data take an optional <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands. ">UndoManager</a>, which will be used to track any changes to the object. For this to work, you have to be careful to consistently always use the same <a class="el" href="classUndoManager.html" title="Manages a list of undo/redo commands. ">UndoManager</a> for all operations to any sub-tree inside the tree.</p>
 <p>A <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> can only be a child of one parent at a time, so if you're moving one from one tree to another, be careful to always remove it first, before adding it. This could also mess up your undo/redo chain, so be wary! In a debug build you should hit assertions if you try to do anything dangerous, but there are still plenty of ways it could go wrong.</p>
 <p>Note that although the children in a tree have a fixed order, the properties are not guaranteed to be stored in any particular order, so don't expect that a property's index will correspond to the order in which the property was added, or that it will remain constant when other properties are added or removed.</p>
-<p>Listeners can be added to a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> to be told when properies change and when nodes are added or removed.</p>
+<p>Listeners can be added to a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> to be told when properies change and when sub-trees are added or removed.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ad5671081941b3db9db42bf7fcbd2629c"></a>
@@ -335,7 +339,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates an empty <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> with the given type name. </p>
-<p>Like an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a>, each <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> node has a type, which you can access with <a class="el" href="classValueTree.html#aaba6256213ee02c418e9ef3d320f0ff1" title="Returns the type of this node. ">getType()</a> and <a class="el" href="classValueTree.html#a5d41bc2066cae65b69aa614aa0f68ff1" title="Returns true if the node has this type. ">hasType()</a>. </p>
+<p>Like an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a>, each <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> has a type, which you can access with <a class="el" href="classValueTree.html#aaba6256213ee02c418e9ef3d320f0ff1" title="Returns the type of this tree. ">getType()</a> and <a class="el" href="classValueTree.html#a5d41bc2066cae65b69aa614aa0f68ff1" title="Returns true if the tree has this type. ">hasType()</a>. </p>
 
 </div>
 </div>
@@ -423,7 +427,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Makes this object reference another node. </p>
+<p>Changes this object to be a reference to the given tree. </p>
 
 </div>
 </div>
@@ -449,8 +453,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if both this and the other tree node refer to the same underlying structure. </p>
-<p>Note that this isn't a value comparison - two independently-created trees which contain identical data are not considered equal. </p>
+<p>Returns true if both this and the other tree refer to the same underlying structure. </p>
+<p>Note that this isn't a value comparison - two independently-created trees which contain identical data are NOT considered equal. </p>
 
 </div>
 </div>
@@ -476,7 +480,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if this and the other node refer to different underlying structures. </p>
+<p>Returns true if this and the other tree refer to different underlying structures. </p>
 <p>Note that this isn't a value comparison - two independently-created trees which contain identical data are not considered equal. </p>
 
 </div>
@@ -496,7 +500,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs a deep comparison between the properties and children of two trees. </p>
-<p>If all the properties and children of the two trees are the same (recursively), this returns true. The normal <a class="el" href="classValueTree.html#a998b47680444a00866db876dada8f254" title="Returns true if both this and the other tree node refer to the same underlying structure. ">operator==()</a> only checks whether two trees refer to the same shared data structure, so use this method if you need to do a proper value comparison. </p>
+<p>If all the properties and children of the two trees are the same (recursively), this returns true. The normal <a class="el" href="classValueTree.html#a998b47680444a00866db876dada8f254" title="Returns true if both this and the other tree refer to the same underlying structure. ">operator==()</a> only checks whether two trees refer to the same shared data structure, so use this method if you need to do a proper value comparison. </p>
 
 </div>
 </div>
@@ -521,8 +525,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if this node refers to some valid data. </p>
-<p>It's hard to create an invalid node, but you might get one returned, e.g. by an out-of-range call to <a class="el" href="classValueTree.html#ae3c7ef24e903b145e7885820898240cb" title="Returns one of this node&#39;s child nodes. ">getChild()</a>. </p>
+<p>Returns true if this tree refers to some valid data. </p>
+<p>An invalid tree is one that was created with the default constructor. </p>
 
 </div>
 </div>
@@ -539,7 +543,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a deep copy of this tree and all its sub-nodes. </p>
+<p>Returns a deep copy of this tree and all its sub-trees. </p>
 
 </div>
 </div>
@@ -564,9 +568,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the type of this node. </p>
+<p>Returns the type of this tree. </p>
 <p>The type is specified when the <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> is created. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a5d41bc2066cae65b69aa614aa0f68ff1" title="Returns true if the node has this type. ">hasType</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a5d41bc2066cae65b69aa614aa0f68ff1" title="Returns true if the tree has this type. ">hasType</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#ac8097562285b0095974394de4bc59551">DrawablePath::ValueTreeWrapper::Element::getType()</a>.</p>
 
@@ -594,8 +598,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if the node has this type. </p>
+<p>Returns true if the tree has this type. </p>
 <p>The comparison is case-sensitive. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#aaba6256213ee02c418e9ef3d320f0ff1" title="Returns the type of this tree. ">getType</a> </dd></dl>
 
 </div>
 </div>
@@ -623,7 +628,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the value of a named property. </p>
 <p>If no such property has been set, this will return a void variant. You can also use operator[] to get a property. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd" title="Changes a named property of the node. ">setProperty</a>, <a class="el" href="classValueTree.html#ad22d040f68cf2f91784e18573cc6949a" title="Returns a pointer to the value of a named property, or nullptr if the property doesn&#39;t exist...">getPropertyPointer</a>, <a class="el" href="classValueTree.html#a0dbec0d665fb9d57b9fd7b3189ec0ee0" title="Returns true if the node contains a named property. ">hasProperty</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd" title="Changes a named property of the tree. ">setProperty</a>, <a class="el" href="classValueTree.html#ad22d040f68cf2f91784e18573cc6949a" title="Returns a pointer to the value of a named property, or nullptr if the property doesn&#39;t exist...">getPropertyPointer</a>, <a class="el" href="classValueTree.html#a0dbec0d665fb9d57b9fd7b3189ec0ee0" title="Returns true if the tree contains a named property. ">hasProperty</a> </dd></dl>
 
 </div>
 </div>
@@ -653,7 +658,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the value of a named property, or the value of defaultReturnValue if the property doesn't exist. </p>
 <p>You can also use operator[] and getProperty to get a property. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classValueTree.html#a16875a1c5f41f03f609a9d7870171fd6" title="Returns the value of a named property. ">getProperty</a>, <a class="el" href="classValueTree.html#ad22d040f68cf2f91784e18573cc6949a" title="Returns a pointer to the value of a named property, or nullptr if the property doesn&#39;t exist...">getPropertyPointer</a>, <a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd" title="Changes a named property of the node. ">setProperty</a>, <a class="el" href="classValueTree.html#a0dbec0d665fb9d57b9fd7b3189ec0ee0" title="Returns true if the node contains a named property. ">hasProperty</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classValueTree.html#a16875a1c5f41f03f609a9d7870171fd6" title="Returns the value of a named property. ">getProperty</a>, <a class="el" href="classValueTree.html#ad22d040f68cf2f91784e18573cc6949a" title="Returns a pointer to the value of a named property, or nullptr if the property doesn&#39;t exist...">getPropertyPointer</a>, <a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd" title="Changes a named property of the tree. ">setProperty</a>, <a class="el" href="classValueTree.html#a0dbec0d665fb9d57b9fd7b3189ec0ee0" title="Returns true if the tree contains a named property. ">hasProperty</a> </dd></dl>
 
 </div>
 </div>
@@ -680,7 +685,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to the value of a named property, or nullptr if the property doesn't exist. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classValueTree.html#a16875a1c5f41f03f609a9d7870171fd6" title="Returns the value of a named property. ">getProperty</a>, <a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd" title="Changes a named property of the node. ">setProperty</a>, <a class="el" href="classValueTree.html#a0dbec0d665fb9d57b9fd7b3189ec0ee0" title="Returns true if the node contains a named property. ">hasProperty</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classValueTree.html#a16875a1c5f41f03f609a9d7870171fd6" title="Returns the value of a named property. ">getProperty</a>, <a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd" title="Changes a named property of the tree. ">setProperty</a>, <a class="el" href="classValueTree.html#a0dbec0d665fb9d57b9fd7b3189ec0ee0" title="Returns true if the tree contains a named property. ">hasProperty</a> </dd></dl>
 
 </div>
 </div>
@@ -742,9 +747,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Changes a named property of the node. </p>
-<p>The name identifier must not be an empty string. If the undoManager parameter is non-null, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classValueTree.html#a16875a1c5f41f03f609a9d7870171fd6" title="Returns the value of a named property. ">getProperty</a>, <a class="el" href="classValueTree.html#a2a07b801bd317aa8bf1ee9da5644fc35" title="Removes a property from the node. ">removeProperty</a> </dd></dl>
+<p>Changes a named property of the tree. </p>
+<p>The name identifier must not be an empty string. If the undoManager parameter is not nullptr, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. Be very careful not to mix undoable and non-undoable changes! </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classvar.html" title="A variant class, that can be used to hold a range of primitive values. ">var</a>, <a class="el" href="classValueTree.html#a16875a1c5f41f03f609a9d7870171fd6" title="Returns the value of a named property. ">getProperty</a>, <a class="el" href="classValueTree.html#a2a07b801bd317aa8bf1ee9da5644fc35" title="Removes a property from the tree. ">removeProperty</a> </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>a reference to the value tree, so that you can daisy-chain calls to this method. </dd></dl>
 
 </div>
@@ -771,7 +776,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if the node contains a named property. </p>
+<p>Returns true if the tree contains a named property. </p>
 
 </div>
 </div>
@@ -799,8 +804,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Removes a property from the node. </p>
-<p>If the undoManager parameter is non-null, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. </p>
+<p>Removes a property from the tree. </p>
+<p>If the undoManager parameter is not nullptr, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. Be very careful not to mix undoable and non-undoable changes! </p>
 
 </div>
 </div>
@@ -818,8 +823,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Removes all properties from the node. </p>
-<p>If the undoManager parameter is non-null, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. </p>
+<p>Removes all properties from the tree. </p>
+<p>If the undoManager parameter is not nullptr, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. Be very careful not to mix undoable and non-undoable changes! </p>
 
 </div>
 </div>
@@ -844,7 +849,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the total number of properties that the node contains. </p>
+<p>Returns the total number of properties that the tree contains. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a16875a1c5f41f03f609a9d7870171fd6" title="Returns the value of a named property. ">getProperty</a>. </dd></dl>
 
 </div>
@@ -873,7 +878,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the identifier of the property with a given index. </p>
 <p>Note that properties are not guaranteed to be stored in any particular order, so don't expect that the index will correspond to the order in which the property was added, or that it will remain constant when other properties are added or removed. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a018730ee95c743705aa9132a37829b32" title="Returns the total number of properties that the node contains. ">getNumProperties</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a018730ee95c743705aa9132a37829b32" title="Returns the total number of properties that the tree contains. ">getNumProperties</a> </dd></dl>
 
 </div>
 </div>
@@ -963,8 +968,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the number of child nodes belonging to this one. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ae3c7ef24e903b145e7885820898240cb" title="Returns one of this node&#39;s child nodes. ">getChild</a> </dd></dl>
+<p>Returns the number of child trees inside this one. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ae3c7ef24e903b145e7885820898240cb" title="Returns one of this tree&#39;s sub-trees. ">getChild</a> </dd></dl>
 
 </div>
 </div>
@@ -982,8 +987,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns one of this node's child nodes. </p>
-<p>If the index is out of range, it'll return an invalid node. (See <a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a" title="Returns true if this node refers to some valid data. ">isValid()</a> to find out whether a node is valid). </p>
+<p>Returns one of this tree's sub-trees. </p>
+<p>If the index is out of range, it'll return an invalid tree. (You can use <a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a" title="Returns true if this tree refers to some valid data. ">isValid()</a> to check whether a tree is valid) </p>
 
 </div>
 </div>
@@ -1001,9 +1006,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the first child node with the specified type name. </p>
-<p>If no such node is found, it'll return an invalid node. (See <a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a" title="Returns true if this node refers to some valid data. ">isValid()</a> to find out whether a node is valid). </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#aafb29876616f005939915de3e6968818" title="Returns the first child node with the specified type name, creating and adding a child with this name...">getOrCreateChildWithName</a> </dd></dl>
+<p>Returns the first sub-tree with the specified type name. </p>
+<p>If no such child tree exists, it'll return an invalid tree. (You can use <a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a" title="Returns true if this tree refers to some valid data. ">isValid()</a> to check whether a tree is valid) </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#aafb29876616f005939915de3e6968818" title="Returns the first sub-tree with the specified type name, creating and adding a child with this name i...">getOrCreateChildWithName</a> </dd></dl>
 
 </div>
 </div>
@@ -1031,9 +1036,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the first child node with the specified type name, creating and adding a child with this name if there wasn't already one there. </p>
+<p>Returns the first sub-tree with the specified type name, creating and adding a child with this name if there wasn't already one there. </p>
 <p>The only time this will return an invalid object is when the object that you're calling the method on is itself invalid. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a00e9d09ad2439b9eb5cb79cb146c5a73" title="Returns the first child node with the specified type name. ">getChildWithName</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a00e9d09ad2439b9eb5cb79cb146c5a73" title="Returns the first sub-tree with the specified type name. ">getChildWithName</a> </dd></dl>
 
 </div>
 </div>
@@ -1061,9 +1066,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Looks for the first child node that has the specified property value. </p>
-<p>This will scan the child nodes in order, until it finds one that has property that matches the specified value.</p>
-<p>If no such node is found, it'll return an invalid node. (See <a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a" title="Returns true if this node refers to some valid data. ">isValid()</a> to find out whether a node is valid). </p>
+<p>Looks for the first sub-tree that has the specified property value. </p>
+<p>This will scan the child trees in order, until it finds one that has property that matches the specified value. If no such tree is found, it'll return an invalid object. (You can use <a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a" title="Returns true if this tree refers to some valid data. ">isValid()</a> to check whether a tree is valid) </p>
 
 </div>
 </div>
@@ -1097,10 +1101,39 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds a child to this node. </p>
-<p>Make sure that the child is removed from any former parent node before calling this, or you'll hit an assertion.</p>
-<p>If the index is &lt; 0 or greater than the current number of child nodes, the new node will be added at the end of the list.</p>
-<p>If the undoManager parameter is non-null, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. </p>
+<p>Adds a child to this tree. </p>
+<p>Make sure that the child being added has first been removed from any former parent before calling this, or else you'll hit an assertion. If the index is &lt; 0 or greater than the current number of sub-trees, the new one will be added at the end of the list. If the undoManager parameter is not nullptr, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. Be very careful not to mix undoable and non-undoable changes! </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ab3528b88d2a0af85e0d33dcaa75bc3ab" title="Appends a new child sub-tree to this tree. ">appendChild</a>, <a class="el" href="classValueTree.html#a52b15bdb0b4a04b81c04e7059bb926c4" title="Removes the specified child from this tree&#39;s child-list. ">removeChild</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab3528b88d2a0af85e0d33dcaa75bc3ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ValueTree::appendChild </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
+          <td class="paramname"><em>child</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classUndoManager.html">UndoManager</a> *&#160;</td>
+          <td class="paramname"><em>undoManager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a new child sub-tree to this tree. </p>
+<p>This is equivalent to calling <a class="el" href="classValueTree.html#a93d639299ef9dfedc651544e05f06693" title="Adds a child to this tree. ">addChild()</a> with an index of -1. See <a class="el" href="classValueTree.html#a93d639299ef9dfedc651544e05f06693" title="Adds a child to this tree. ">addChild()</a> for more details. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a93d639299ef9dfedc651544e05f06693" title="Adds a child to this tree. ">addChild</a>, <a class="el" href="classValueTree.html#a52b15bdb0b4a04b81c04e7059bb926c4" title="Removes the specified child from this tree&#39;s child-list. ">removeChild</a> </dd></dl>
 
 </div>
 </div>
@@ -1128,8 +1161,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Removes the specified child from this node's child-list. </p>
-<p>If the undoManager parameter is non-null, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. </p>
+<p>Removes the specified child from this tree's child-list. </p>
+<p>If the undoManager parameter is not nullptr, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. Be very careful not to mix undoable and non-undoable changes! </p>
 
 </div>
 </div>
@@ -1157,8 +1190,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Removes a child from this node's child-list. </p>
-<p>If the undoManager parameter is non-null, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. </p>
+<p>Removes a sub-tree from this tree. </p>
+<p>If the index is out-of-range, nothing will be changed. If the undoManager parameter is not nullptr, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. Be very careful not to mix undoable and non-undoable changes! </p>
 
 </div>
 </div>
@@ -1176,8 +1209,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Removes all child-nodes from this node. </p>
-<p>If the undoManager parameter is non-null, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. </p>
+<p>Removes all child-trees. </p>
+<p>If the undoManager parameter is not nullptr, its <a class="el" href="classUndoManager.html#a5f8b51dbb061ca3a1a8916938e0e2f49" title="Performs an action and adds it to the undo history list. ">UndoManager::perform()</a> method will be used, so that this change can be undone. Be very careful not to mix undoable and non-undoable changes! </p>
 
 </div>
 </div>
@@ -1211,7 +1244,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Moves one of the children to a different index. </p>
+<p>Moves one of the sub-trees to a different index. </p>
 <p>This will move the child to a specified index, shuffling along any intervening items as required. So for example, if you have a list of { 0, 1, 2, 3, 4, 5 }, then calling move (2, 4) would result in { 0, 1, 3, 4, 2, 5 }.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1246,8 +1279,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if this node is anywhere below the specified parent node. </p>
-<p>This returns true if the node is a child-of-a-child, as well as a direct child. </p>
+<p>Returns true if this tree is a sub-tree (at any depth) of the given parent. </p>
+<p>This searches recursively, so returns true if it's a sub-tree at any level below the parent. </p>
 
 </div>
 </div>
@@ -1299,8 +1332,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the parent node that contains this one. </p>
-<p>If the node has no parent, this will return an invalid node. (See <a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a" title="Returns true if this node refers to some valid data. ">isValid()</a> to find out whether a node is valid). </p>
+<p>Returns the parent tree that contains this one. </p>
+<p>If the tree has no parent, this will return an invalid object. (You can use <a class="el" href="classValueTree.html#a9c1506afbe6b840e4ab43fabf275845a" title="Returns true if this tree refers to some valid data. ">isValid()</a> to check whether a tree is valid) </p>
 
 </div>
 </div>
@@ -1325,8 +1358,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Recusrively finds the highest-level parent node that contains this one. </p>
-<p>If the node has no parent, this will return itself. </p>
+<p>Recursively finds the highest-level parent tree that contains this one. </p>
+<p>If the tree has no parent, this will return itself. </p>
 
 </div>
 </div>
@@ -1352,8 +1385,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns one of this node's siblings in its parent's child list. </p>
-<p>The delta specifies how far to move through the list, so a value of 1 would return the node that follows this one, -1 would return the node before it, 0 will return this node itself, etc. If the requested position is beyond the range of available nodes, this will return an empty <a class="el" href="classValueTree.html#ad5671081941b3db9db42bf7fcbd2629c" title="Creates an empty, invalid ValueTree. ">ValueTree()</a>. </p>
+<p>Returns one of this tree's siblings in its parent's child list. </p>
+<p>The delta specifies how far to move through the list, so a value of 1 would return the tree that follows this one, -1 would return the tree before it, 0 will return this one, etc. If the requested position is beyond the start or end of the child list, this will return an invalid object. </p>
 
 </div>
 </div>
@@ -1420,10 +1453,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> that holds a complete image of this node and all its children. </p>
-<p>If this node is invalid, this may return nullptr. Otherwise, the XML that is produced can be used to recreate a similar node by calling <a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a node from its XML representation. ">fromXml()</a>.</p>
-<p>The caller must delete the object that is returned.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a node from its XML representation. ">fromXml</a> </dd></dl>
+<p>Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> that holds a complete image of this tree and all its children. </p>
+<p>If this tree is invalid, this may return nullptr. Otherwise, the XML that is produced can be used to recreate a similar tree by calling <a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a tree from its XML representation. ">ValueTree::fromXml()</a>. The caller must delete the object that is returned. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a tree from its XML representation. ">fromXml</a>, <a class="el" href="classValueTree.html#a4ac1da90e499eea7233b6eb7d0d7d190" title="This returns a string containing an XML representation of the tree. ">toXmlString</a> </dd></dl>
 
 </div>
 </div>
@@ -1449,8 +1481,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Tries to recreate a node from its XML representation. </p>
-<p>This isn't designed to cope with random XML data - for a sensible result, it should only be fed XML that was created by the <a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957" title="Creates an XmlElement that holds a complete image of this node and all its children. ">createXml()</a> method. </p>
+<p>Tries to recreate a tree from its XML representation. </p>
+<p>This isn't designed to cope with random XML data - it should only be fed XML that was created by the <a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957" title="Creates an XmlElement that holds a complete image of this tree and all its children. ">createXml()</a> method. </p>
 
 </div>
 </div>
@@ -1469,6 +1501,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>This returns a string containing an XML representation of the tree. </p>
 <p>This is quite handy for debugging purposes, as it provides a quick way to view a tree. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957" title="Creates an XmlElement that holds a complete image of this tree and all its children. ">createXml()</a> </dd></dl>
 
 </div>
 </div>
@@ -1604,7 +1637,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds a listener to receive callbacks when this node is changed. </p>
+<p>Adds a listener to receive callbacks when this tree is changed in some way. </p>
 <p>The listener is added to this specific <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> object, and not to the shared object that it refers to. When this object is deleted, all the listeners will be lost, even if other references to the same <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> still exist. And if you use the operator= to make this refer to a different <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>, any listeners will begin listening to changes to the new tree instead of the old one.</p>
 <p>When you're adding a listener, make sure that you add it to a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> instance that will last for as long as you need the listener. In general, you'd never want to add a listener to a local stack-based <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>, and would usually add one to a member variable.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ac8930aa94cb6e3714ef9e7449d08e5f6" title="Removes a listener that was previously added with addListener(). ">removeListener</a> </dd></dl>
@@ -1627,7 +1660,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Removes a listener that was previously added with <a class="el" href="classValueTree.html#a0a0d82471cb1119fc1a7b7018e3af394" title="Adds a listener to receive callbacks when this node is changed. ">addListener()</a>. </p>
+<p>Removes a listener that was previously added with <a class="el" href="classValueTree.html#a0a0d82471cb1119fc1a7b7018e3af394" title="Adds a listener to receive callbacks when this tree is changed in some way. ">addListener()</a>. </p>
 
 </div>
 </div>
@@ -1667,8 +1700,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Changes a named property of the node, but will not notify a specified listener of the change. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd" title="Changes a named property of the node. ">setProperty</a> </dd></dl>
+<p>Changes a named property of the tree, but will not notify a specified listener of the change. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ad236114dc2a8c41c799f1fc51d1614bd" title="Changes a named property of the tree. ">setProperty</a> </dd></dl>
 
 </div>
 </div>
@@ -1776,7 +1809,7 @@ template&lt;typename ElementComparator &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 11 2017 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 12 2017 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
