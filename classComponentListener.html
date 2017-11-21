@@ -125,6 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a948f7c07d7dabde3b6cc7a7ceac29cec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentListener.html#a948f7c07d7dabde3b6cc7a7ceac29cec">componentBeingDeleted</a> (<a class="el" href="classComponent.html">Component</a> &amp;component)</td></tr>
 <tr class="memdesc:a948f7c07d7dabde3b6cc7a7ceac29cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the component is in the process of being deleted.  <a href="#a948f7c07d7dabde3b6cc7a7ceac29cec">More...</a><br/></td></tr>
 <tr class="separator:a948f7c07d7dabde3b6cc7a7ceac29cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa073becfd46bbde053bc8aba43c33ce6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentListener.html#aa073becfd46bbde053bc8aba43c33ce6">componentEnablementChanged</a> (<a class="el" href="classComponent.html">Component</a> &amp;component)</td></tr>
+<tr class="separator:aa073becfd46bbde053bc8aba43c33ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Gets informed about changes to a component's hierarchy or position. </p>
@@ -373,6 +375,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called when the component's name is changed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">component</td><td>the component that had its name changed </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a64d1ad9a0f8f0d1757e62ac738b36b35" title="Sets the name of this component. ">Component::setName</a>, <a class="el" href="classComponent.html#a9d410bec5641d596bb8dbcf95d8b46a5" title="Returns the name of this component. ">Component::getName</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classMultiDocumentPanel.html#ada04c9d5ad89f28200ccb7bdda875a7d">MultiDocumentPanel</a>.</p>
@@ -403,9 +411,39 @@ Public Member Functions</h2></td></tr>
 
 <p>Called when the component is in the process of being deleted. </p>
 <p>This callback is made from inside the destructor, so be very, very cautious about what you do in here.</p>
-<p>In particular, bear in mind that it's the <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a> base class's destructor that calls this - so if the object that's being deleted is a subclass of <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a>, then the subclass layers of the object will already have been destructed when it gets to this point! </p>
+<p>In particular, bear in mind that it's the <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a> base class's destructor that calls this - so if the object that's being deleted is a subclass of <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a>, then the subclass layers of the object will already have been destructed when it gets to this point!</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">component</td><td>the component that was deleted </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented in <a class="el" href="classComponentMovementWatcher.html#a62fb9c96c645f1198a725abe7fcf1a73">ComponentMovementWatcher</a>, and <a class="el" href="classRelativeCoordinatePositionerBase.html#aec6f18ba52c2a515b3219e3ecbb26dd0">RelativeCoordinatePositionerBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa073becfd46bbde053bc8aba43c33ce6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ComponentListener::componentEnablementChanged </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> &amp;&#160;</td>
+          <td class="paramname"><em>component</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -415,7 +453,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 18 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 21 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

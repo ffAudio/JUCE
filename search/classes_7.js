@@ -160,6 +160,7 @@ var searchData=
   ['heapblock_3c_20uniformtextsection_20_2a_20_3e',['HeapBlock&lt; UniformTextSection * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20unittestrunner_3a_3atestresult_20_2a_20_3e',['HeapBlock&lt; UnitTestRunner::TestResult * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20upload_20_2a_20_3e',['HeapBlock&lt; Upload * &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20url_20_3e',['HeapBlock&lt; URL &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20value_20_2a_20_3e',['HeapBlock&lt; Value * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20value_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; Value::Listener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20valuetree_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; ValueTree::Listener * &gt;',['../classHeapBlock.html',1,'']]],

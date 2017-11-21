@@ -350,6 +350,7 @@ var searchData=
   ['isparentof',['isParentOf',['../classComponent.html#a2fc08a04c79abc21d65c70855b792ab9',1,'Component']]],
   ['ispen',['isPen',['../classMouseInputSource.html#ad49aa3fe550df7f9267cbf348a5744bf',1,'MouseInputSource']]],
   ['ispitchwheel',['isPitchWheel',['../classMidiMessage.html#aaa504ef83e8d0c5fd8f652bf0712c4e1',1,'MidiMessage']]],
+  ['isplatformdialogavailable',['isPlatformDialogAvailable',['../classFileChooser.html#abd0c4f123d2c2a47f55523cd2fb74f00',1,'FileChooser']]],
   ['isplaying',['isPlaying',['../classAudioIODevice.html#af8b5c71cb2512bcdf477267e3fc4faf7',1,'AudioIODevice::isPlaying()'],['../classAudioTransportSource.html#aa730c63d2cff661d8bfcb5c002ec0bce',1,'AudioTransportSource::isPlaying()'],['../classVideoComponent.html#afdb0c7943aa6629f04d973c0cb76d635',1,'VideoComponent::isPlaying()']]],
   ['isplayingbutreleased',['isPlayingButReleased',['../classMPESynthesiserVoice.html#af5ba4a685cf06eb2be693c237135ad0b',1,'MPESynthesiserVoice::isPlayingButReleased()'],['../classSynthesiserVoice.html#aa928c0b5d570b8b82f8d86b60e2a6597',1,'SynthesiserVoice::isPlayingButReleased()']]],
   ['isplayingchannel',['isPlayingChannel',['../classSynthesiserVoice.html#abcf916eea8d11a986d308223e1ebb4d1',1,'SynthesiserVoice']]],

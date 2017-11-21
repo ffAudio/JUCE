@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classFileChooser-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FileChooser Class Reference<div class="ingroups"><a class="el" href="group__juce__gui__basics-filebrowser.html">filebrowser</a></div></div>  </div>
@@ -119,12 +120,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2510d29a867b3f9f5adfa90e17c88068"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a2510d29a867b3f9f5adfa90e17c88068">showDialog</a> (int flags, <a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComponent)</td></tr>
 <tr class="memdesc:a2510d29a867b3f9f5adfa90e17c88068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs a dialog box for the given set of option flags.  <a href="#a2510d29a867b3f9f5adfa90e17c88068">More...</a><br/></td></tr>
 <tr class="separator:a2510d29a867b3f9f5adfa90e17c88068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac888983e4abdd8401ba7d6124ae64ff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#ac888983e4abdd8401ba7d6124ae64ff3">launchAsync</a> (int flags, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(const <a class="el" href="classFileChooser.html">FileChooser</a> &amp;)&gt;, <a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComponent=nullptr)</td></tr>
+<tr class="memdesc:ac888983e4abdd8401ba7d6124ae64ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this method to launch the file browser window asynchronously.  <a href="#ac888983e4abdd8401ba7d6124ae64ff3">More...</a><br/></td></tr>
+<tr class="separator:ac888983e4abdd8401ba7d6124ae64ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83beadbc2806f8c8945d672af96fc671"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671">getResult</a> () const </td></tr>
 <tr class="memdesc:a83beadbc2806f8c8945d672af96fc671"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last file that was chosen by one of the browseFor methods.  <a href="#a83beadbc2806f8c8945d672af96fc671">More...</a><br/></td></tr>
 <tr class="separator:a83beadbc2806f8c8945d672af96fc671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8bd26e64a0af0b8d97c6ac2cabc1e2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classFile.html">File</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a3d8bd26e64a0af0b8d97c6ac2cabc1e2">getResults</a> () const noexcept</td></tr>
-<tr class="memdesc:a3d8bd26e64a0af0b8d97c6ac2cabc1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of all the files that were chosen during the last call to a browse method.  <a href="#a3d8bd26e64a0af0b8d97c6ac2cabc1e2">More...</a><br/></td></tr>
-<tr class="separator:a3d8bd26e64a0af0b8d97c6ac2cabc1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3301a62424e3505628edd132eaf540b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classFile.html">File</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#ad3301a62424e3505628edd132eaf540b">getResults</a> () const noexcept</td></tr>
+<tr class="memdesc:ad3301a62424e3505628edd132eaf540b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of all the files that were chosen during the last call to a browse method.  <a href="#ad3301a62424e3505628edd132eaf540b">More...</a><br/></td></tr>
+<tr class="separator:ad3301a62424e3505628edd132eaf540b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79f45e17055abca664d406f613e3f951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a79f45e17055abca664d406f613e3f951">getURLResult</a> () const </td></tr>
+<tr class="memdesc:a79f45e17055abca664d406f613e3f951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last document that was chosen by one of the browseFor methods.  <a href="#a79f45e17055abca664d406f613e3f951">More...</a><br/></td></tr>
+<tr class="separator:a79f45e17055abca664d406f613e3f951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a706e69ecda3cb2a616a6fa4efcab8ef0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classURL.html">URL</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a706e69ecda3cb2a616a6fa4efcab8ef0">getURLResults</a> () const noexcept</td></tr>
+<tr class="memdesc:a706e69ecda3cb2a616a6fa4efcab8ef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of all the files that were chosen during the last call to a browse method.  <a href="#a706e69ecda3cb2a616a6fa4efcab8ef0">More...</a><br/></td></tr>
+<tr class="separator:a706e69ecda3cb2a616a6fa4efcab8ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:abd0c4f123d2c2a47f55523cd2fb74f00"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#abd0c4f123d2c2a47f55523cd2fb74f00">isPlatformDialogAvailable</a> ()</td></tr>
+<tr class="memdesc:abd0c4f123d2c2a47f55523cd2fb74f00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if a native filechooser is currently available on this platform.  <a href="#abd0c4f123d2c2a47f55523cd2fb74f00">More...</a><br/></td></tr>
+<tr class="separator:abd0c4f123d2c2a47f55523cd2fb74f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Creates a dialog box to choose a file or directory to load or save. </p>
@@ -269,7 +285,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Same as browseForFileToOpen, but allows the user to select multiple files. </p>
-<p>The files that are returned can be obtained by calling <a class="el" href="classFileChooser.html#a3d8bd26e64a0af0b8d97c6ac2cabc1e2" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults()</a>. See <a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21" title="Shows a dialog box to choose a file to open. ">browseForFileToOpen()</a> for more info about the behaviour of this method. </p>
+<p>The files that are returned can be obtained by calling <a class="el" href="classFileChooser.html#ad3301a62424e3505628edd132eaf540b" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults()</a>. See <a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21" title="Shows a dialog box to choose a file to open. ">browseForFileToOpen()</a> for more info about the behaviour of this method. </p>
 
 </div>
 </div>
@@ -337,7 +353,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Same as browseForFileToOpen, but allows the user to select multiple files and directories. </p>
-<p>The files that are returned can be obtained by calling <a class="el" href="classFileChooser.html#a3d8bd26e64a0af0b8d97c6ac2cabc1e2" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults()</a>. See <a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21" title="Shows a dialog box to choose a file to open. ">browseForFileToOpen()</a> for more info about the behaviour of this method. </p>
+<p>The files that are returned can be obtained by calling <a class="el" href="classFileChooser.html#ad3301a62424e3505628edd132eaf540b" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults()</a>. See <a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21" title="Shows a dialog box to choose a file to open. ">browseForFileToOpen()</a> for more info about the behaviour of this method. </p>
 
 </div>
 </div>
@@ -372,6 +388,44 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac888983e4abdd8401ba7d6124ae64ff3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FileChooser::launchAsync </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(const <a class="el" href="classFileChooser.html">FileChooser</a> &amp;)&gt;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *&#160;</td>
+          <td class="paramname"><em>previewComponent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use this method to launch the file browser window asynchronously. </p>
+<p>This will create a file browser dialog based on the settings in this structure and will launch it modally, returning immediately.</p>
+<p>You must specify a callback which is called when the file browser is canceled or a file is selected. To abort the file selection, simply delete the <a class="el" href="classFileChooser.html" title="Creates a dialog box to choose a file or directory to load or save. ">FileChooser</a> object.</p>
+<p>You can use the <a class="el" href="classModalCallbackFunction.html#a47c2e0f447876fabf4644d1cae159a0f" title="This is a utility function to create a ModalComponentManager::Callback that will call a static functi...">ModalCallbackFunction::create</a> method to wrap a lambda into a modal Callback object.</p>
+<p>You must ensure that the lifetime of the callback object is longer than the lifetime of the file-chooser. </p>
+
+</div>
+</div>
 <a class="anchor" id="a83beadbc2806f8c8945d672af96fc671"></a>
 <div class="memitem">
 <div class="memproto">
@@ -388,14 +442,15 @@ Public Member Functions</h2></td></tr>
 <p>Returns the last file that was chosen by one of the browseFor methods. </p>
 <p>After calling the appropriate browseFor... method, this method lets you find out what file or directory they chose.</p>
 <p>Note that the file returned is only valid if the browse method returned true (i.e. if the user pressed 'ok' rather than cancelling).</p>
-<p>If you're using a multiple-file select, then use the <a class="el" href="classFileChooser.html#a3d8bd26e64a0af0b8d97c6ac2cabc1e2" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults()</a> method instead, to obtain the list of all files chosen.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a3d8bd26e64a0af0b8d97c6ac2cabc1e2" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults</a> </dd></dl>
+<p>On mobile platforms, the file browser may return a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> instead of a local file. Therefore, om mobile platforms, you should call <a class="el" href="classFileChooser.html#a79f45e17055abca664d406f613e3f951" title="Returns the last document that was chosen by one of the browseFor methods. ">getURLResult()</a> instead.</p>
+<p>If you're using a multiple-file select, then use the <a class="el" href="classFileChooser.html#ad3301a62424e3505628edd132eaf540b" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults()</a> method instead, to obtain the list of all files chosen.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a79f45e17055abca664d406f613e3f951" title="Returns the last document that was chosen by one of the browseFor methods. ">getURLResult</a>, <a class="el" href="classFileChooser.html#ad3301a62424e3505628edd132eaf540b" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">StandalonePluginHolder::askUserToLoadState()</a>, <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">StandalonePluginHolder::askUserToSaveState()</a>, and <a class="el" href="classStandalonePluginHolder.html#a51b7121cdd9169e12d633fd09930ad86">StandalonePluginHolder::setLastFile()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a3d8bd26e64a0af0b8d97c6ac2cabc1e2"></a>
+<a class="anchor" id="ad3301a62424e3505628edd132eaf540b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -403,7 +458,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classArray.html">Array</a>&lt;<a class="el" href="classFile.html">File</a>&gt;&amp; FileChooser::getResults </td>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt;<a class="el" href="classFile.html">File</a>&gt; FileChooser::getResults </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -417,8 +472,82 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a list of all the files that were chosen during the last call to a browse method. </p>
+<p>On mobile platforms, the file browser may return a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> instead of a local file. Therefore, om mobile platforms, you should call <a class="el" href="classFileChooser.html#a706e69ecda3cb2a616a6fa4efcab8ef0" title="Returns a list of all the files that were chosen during the last call to a browse method...">getURLResults()</a> instead.</p>
 <p>This array may be empty if no files were chosen, or can contain multiple entries if multiple files were chosen.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671" title="Returns the last file that was chosen by one of the browseFor methods. ">getResult</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a706e69ecda3cb2a616a6fa4efcab8ef0" title="Returns a list of all the files that were chosen during the last call to a browse method...">getURLResults</a>, <a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671" title="Returns the last file that was chosen by one of the browseFor methods. ">getResult</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a79f45e17055abca664d406f613e3f951"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classURL.html">URL</a> FileChooser::getURLResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the last document that was chosen by one of the browseFor methods. </p>
+<p>Use this method if you are using the <a class="el" href="classFileChooser.html" title="Creates a dialog box to choose a file or directory to load or save. ">FileChooser</a> on a mobile platform which may return a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> to a remote document. If a local file is chosen then you can convert this file to a JUCE <a class="el" href="classFile.html" title="Represents a local file or directory. ">File</a> class via the <a class="el" href="classURL.html#adcbaf472c62bc474c7b30605e78cbf76" title="Returns the file path of the local file to which this URL refers to. ">URL::getLocalFile</a> method.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671" title="Returns the last file that was chosen by one of the browseFor methods. ">getResult</a>, <a class="el" href="classURL.html#adcbaf472c62bc474c7b30605e78cbf76" title="Returns the file path of the local file to which this URL refers to. ">URL::getLocalFile</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a706e69ecda3cb2a616a6fa4efcab8ef0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classArray.html">Array</a>&lt;<a class="el" href="classURL.html">URL</a>&gt;&amp; FileChooser::getURLResults </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a list of all the files that were chosen during the last call to a browse method. </p>
+<p>Use this method if you are using the <a class="el" href="classFileChooser.html" title="Creates a dialog box to choose a file or directory to load or save. ">FileChooser</a> on a mobile platform which may return a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> to a remote document. If a local file is chosen then you can convert this file to a JUCE <a class="el" href="classFile.html" title="Represents a local file or directory. ">File</a> class via the <a class="el" href="classURL.html#adcbaf472c62bc474c7b30605e78cbf76" title="Returns the file path of the local file to which this URL refers to. ">URL::getLocalFile</a> method.</p>
+<p>This array may be empty if no files were chosen, or can contain multiple entries if multiple files were chosen.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#ad3301a62424e3505628edd132eaf540b" title="Returns a list of all the files that were chosen during the last call to a browse method...">getResults</a>, <a class="el" href="classURL.html#adcbaf472c62bc474c7b30605e78cbf76" title="Returns the file path of the local file to which this URL refers to. ">URL::getLocalFile</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abd0c4f123d2c2a47f55523cd2fb74f00"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool FileChooser::isPlatformDialogAvailable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns if a native filechooser is currently available on this platform. </p>
+<p>Note: On iOS this will only return true if you have iCloud permissions and code-signing enabled in the Projucer and have added iCloud containers to your app in Apple's online developer portal. Additionally, the user must have installed the iCloud app on their device and used the app at leat once. </p>
 
 </div>
 </div>
@@ -428,7 +557,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 18 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 21 2017 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
