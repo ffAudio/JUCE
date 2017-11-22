@@ -50,6 +50,9 @@ var searchData=
   ['cubictoelement',['cubicToElement',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9a52369502d5292f097e27a5f499e95a67',1,'RelativePointPath']]],
   ['currentapplicationfile',['currentApplicationFile',['../classFile.html#a3e19cafabb03c5838160263a6e76313da8292b316ce9eb8ebc0d0980b788a877c',1,'File']]],
   ['currentexecutablefile',['currentExecutableFile',['../classFile.html#a3e19cafabb03c5838160263a6e76313dab960741272c75e94482f295a516aae62',1,'File']]],
+  ['currentpathboxarrowcolourid',['currentPathBoxArrowColourId',['../classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a1acec1fc239e7e5e3d40f254d15afb43',1,'FileBrowserComponent']]],
+  ['currentpathboxbackgroundcolourid',['currentPathBoxBackgroundColourId',['../classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a9e59f48a735768536c0bb1c2cc9a650b',1,'FileBrowserComponent']]],
+  ['currentpathboxtextcolourid',['currentPathBoxTextColourId',['../classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a8dfb2c5d90f580d76c464501e3cb0ebb',1,'FileBrowserComponent']]],
   ['curved',['curved',['../classPathStrokeType.html#af1cf21018ccb9aa84572c1da4ae513b8aa0e50e387cbe6533b830061006cb3747',1,'PathStrokeType']]],
   ['cut',['cut',['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0ac0037bfec469a888d3a7ab1c0c222765',1,'StandardApplicationCommandIDs']]],
   ['cycle',['cycle',['../group__LittleFootFunctions.html#ggaee3ea37f4f505980157cf93a84687bcbabee52b0bfbbdeada45fcac6ef19b93ea',1,'juce_LittleFootFunctions.dox']]]

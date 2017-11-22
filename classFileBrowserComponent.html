@@ -127,6 +127,17 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a32888a950cc0e51c8e1350f53bea43d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various options for the browser.  <a href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6">More...</a><br/></td></tr>
 <tr class="separator:a32888a950cc0e51c8e1350f53bea43d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c8e2837fcbc106996be4a651181090"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090">ColourIds</a> { <br/>
+&#160;&#160;<a class="el" href="classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a9e59f48a735768536c0bb1c2cc9a650b">currentPathBoxBackgroundColourId</a> = 0x1000640, 
+<a class="el" href="classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a8dfb2c5d90f580d76c464501e3cb0ebb">currentPathBoxTextColourId</a> = 0x1000641, 
+<a class="el" href="classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a1acec1fc239e7e5e3d40f254d15afb43">currentPathBoxArrowColourId</a> = 0x1000642, 
+<a class="el" href="classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a2001af1644a66113c5c3a3eb36d94154">filenameBoxBackgroundColourId</a> = 0x1000643, 
+<br/>
+&#160;&#160;<a class="el" href="classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a7cf84d50e74ddbe5e28c001ce47d9d5d">filenameBoxTextColourId</a> = 0x1000644
+<br/>
+ }</td></tr>
+<tr class="memdesc:a97c8e2837fcbc106996be4a651181090"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of colour IDs to use to change the colour of various aspects of the <a class="el" href="classFileBrowserComponent.html" title="A component for browsing and selecting a file or directory to open or save. ">FileBrowserComponent</a>.  <a href="classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090">More...</a><br/></td></tr>
+<tr class="separator:a97c8e2837fcbc106996be4a651181090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a7fd775ea6b1190d5d694fdffa539dfac inherit pub_types_classComponent"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfac">FocusChangeType</a> { <a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfaca350527c976c183a1543958e0698572df">focusChangedByMouseClick</a>, 
 <a class="el" href="classComponent.html#a7fd775ea6b1190d5d694fdffa539dfaca1a14be78d7c4bdf7cdd9a08100bb6a43">focusChangedByTabKey</a>, 
@@ -193,6 +204,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92160e65690ad6288ef9eff9da052ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2be160fd2d593e77edd60b056160ca76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBrowserComponent.html#a2be160fd2d593e77edd60b056160ca76">resized</a> () override</td></tr>
 <tr class="separator:a2be160fd2d593e77edd60b056160ca76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e5378b0bd86365226e4e508d8a17b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBrowserComponent.html#aa4e5378b0bd86365226e4e508d8a17b9">lookAndFeelChanged</a> () override</td></tr>
+<tr class="separator:aa4e5378b0bd86365226e4e508d8a17b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c9216ed18ca568412170c89dd709d86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBrowserComponent.html#a9c9216ed18ca568412170c89dd709d86">buttonClicked</a> (<a class="el" href="classButton.html">Button</a> *) override</td></tr>
 <tr class="separator:a9c9216ed18ca568412170c89dd709d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e55a512b35b04dce0a9c16ef5028487"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileBrowserComponent.html#a8e55a512b35b04dce0a9c16ef5028487">comboBoxChanged</a> (<a class="el" href="classComboBox.html">ComboBox</a> *) override</td></tr>
@@ -531,9 +544,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f2c10cd9840844a5be16e5deeef6f50 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a6f2c10cd9840844a5be16e5deeef6f50">setLookAndFeel</a> (<a class="el" href="classLookAndFeel.html">LookAndFeel</a> *newLookAndFeel)</td></tr>
 <tr class="memdesc:a6f2c10cd9840844a5be16e5deeef6f50 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the look and feel to use for this component.  <a href="#a6f2c10cd9840844a5be16e5deeef6f50">More...</a><br/></td></tr>
 <tr class="separator:a6f2c10cd9840844a5be16e5deeef6f50 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74af5830b815f6f985768a5673d01cf2 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a74af5830b815f6f985768a5673d01cf2">lookAndFeelChanged</a> ()</td></tr>
-<tr class="memdesc:a74af5830b815f6f985768a5673d01cf2 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to let the component react to a change in the look-and-feel setting.  <a href="#a74af5830b815f6f985768a5673d01cf2">More...</a><br/></td></tr>
-<tr class="separator:a74af5830b815f6f985768a5673d01cf2 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac314d2449213d7942eca083addfcd097 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ac314d2449213d7942eca083addfcd097">sendLookAndFeelChange</a> ()</td></tr>
 <tr class="memdesc:ac314d2449213d7942eca083addfcd097 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the <a class="el" href="classComponent.html#a74af5830b815f6f985768a5673d01cf2" title="Called to let the component react to a change in the look-and-feel setting. ">lookAndFeelChanged()</a> method in this component and all its children.  <a href="#ac314d2449213d7942eca083addfcd097">More...</a><br/></td></tr>
 <tr class="separator:ac314d2449213d7942eca083addfcd097 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -873,6 +883,39 @@ Protected Member Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a32888a950cc0e51c8e1350f53bea43d6adc75e7af7e6f7a5df0c9abb8c2e2252e"></a>doNotClearFileNameOnRootChange</em>&#160;</td><td class="fielddoc">
 <p>specifies that the file name should not be cleared upon root change. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="a97c8e2837fcbc106996be4a651181090"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090">FileBrowserComponent::ColourIds</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A set of colour IDs to use to change the colour of various aspects of the <a class="el" href="classFileBrowserComponent.html" title="A component for browsing and selecting a file or directory to open or save. ">FileBrowserComponent</a>. </p>
+<p>These constants can be used either via the <a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose. ">Component::setColour()</a>, or <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose. ">LookAndFeel::setColour()</a> methods.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a875e6cc05407cea2d6a04dced62e13cd" title="Registers a colour to be used for a particular purpose. ">Component::setColour</a>, <a class="el" href="classComponent.html#a5e4c30e25faebe1d0854f96623d6d890" title="Looks for a colour that has been registered with the given colour ID number. ">Component::findColour</a>, <a class="el" href="classLookAndFeel.html#a167a1e914771f32e433a0d45aaba45e3" title="Registers a colour to be used for a particular purpose. ">LookAndFeel::setColour</a>, <a class="el" href="classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b" title="Looks for a colour that has been registered with the given colour ID number. ">LookAndFeel::findColour</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a97c8e2837fcbc106996be4a651181090a9e59f48a735768536c0bb1c2cc9a650b"></a>currentPathBoxBackgroundColourId</em>&#160;</td><td class="fielddoc">
+<p>The colour to use to fill the background of the current path <a class="el" href="classComboBox.html" title="A component that lets the user choose from a drop-down list of choices. ">ComboBox</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a97c8e2837fcbc106996be4a651181090a8dfb2c5d90f580d76c464501e3cb0ebb"></a>currentPathBoxTextColourId</em>&#160;</td><td class="fielddoc">
+<p>The colour to use for the text of the current path <a class="el" href="classComboBox.html" title="A component that lets the user choose from a drop-down list of choices. ">ComboBox</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a97c8e2837fcbc106996be4a651181090a1acec1fc239e7e5e3d40f254d15afb43"></a>currentPathBoxArrowColourId</em>&#160;</td><td class="fielddoc">
+<p>The colour to use to draw the arrow of the current path <a class="el" href="classComboBox.html" title="A component that lets the user choose from a drop-down list of choices. ">ComboBox</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a97c8e2837fcbc106996be4a651181090a2001af1644a66113c5c3a3eb36d94154"></a>filenameBoxBackgroundColourId</em>&#160;</td><td class="fielddoc">
+<p>The colour to use to fill the background of the filename <a class="el" href="classTextEditor.html" title="An editable text box. ">TextEditor</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a97c8e2837fcbc106996be4a651181090a7cf84d50e74ddbe5e28c001ce47d9d5d"></a>filenameBoxTextColourId</em>&#160;</td><td class="fielddoc">
+<p>The colour to use for the text of the filename <a class="el" href="classTextEditor.html" title="An editable text box. ">TextEditor</a>. </p>
 </td></tr>
 </table>
 
@@ -1338,6 +1381,31 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa4e5378b0bd86365226e4e508d8a17b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FileBrowserComponent::lookAndFeelChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#a74af5830b815f6f985768a5673d01cf2">Component</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a9c9216ed18ca568412170c89dd709d86"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1799,7 +1867,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 21 2017 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 22 2017 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
