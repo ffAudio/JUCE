@@ -109,7 +109,7 @@ var searchData=
   ['brown',['brown',['../classColours.html#a4c9ecea4fcd6707c997848245cdb1aea',1,'Colours']]],
   ['browsefordirectory',['browseForDirectory',['../classFileChooser.html#afdbce2d962f0c6c117d897e9e8687116',1,'FileChooser']]],
   ['browseforfiletoopen',['browseForFileToOpen',['../classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21',1,'FileChooser']]],
-  ['browseforfiletosave',['browseForFileToSave',['../classFileChooser.html#a1ccbbb48aefc471ea70c34f9ab18fcd1',1,'FileChooser']]],
+  ['browseforfiletosave',['browseForFileToSave',['../classFileChooser.html#a3e4e2e9b465ba9d1a26be16b68b34299',1,'FileChooser']]],
   ['browseformultiplefilesordirectories',['browseForMultipleFilesOrDirectories',['../classFileChooser.html#add78111ba95fce8ad0f3ab22a0338b30',1,'FileChooser']]],
   ['browseformultiplefilestoopen',['browseForMultipleFilesToOpen',['../classFileChooser.html#a5088972374f57336e534539f404e517e',1,'FileChooser']]],
   ['browserrootchanged',['browserRootChanged',['../classFileBrowserComponent.html#ac6d459f5785fd31ff9f54f81d6384e7f',1,'FileBrowserComponent::browserRootChanged()'],['../classFileBrowserListener.html#aa113aeb21edd4ac76d0f205aa5b4218c',1,'FileBrowserListener::browserRootChanged()']]],

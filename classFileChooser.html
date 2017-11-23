@@ -108,21 +108,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5088972374f57336e534539f404e517e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a5088972374f57336e534539f404e517e">browseForMultipleFilesToOpen</a> (<a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComponent=nullptr)</td></tr>
 <tr class="memdesc:a5088972374f57336e534539f404e517e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as browseForFileToOpen, but allows the user to select multiple files.  <a href="#a5088972374f57336e534539f404e517e">More...</a><br/></td></tr>
 <tr class="separator:a5088972374f57336e534539f404e517e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ccbbb48aefc471ea70c34f9ab18fcd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a1ccbbb48aefc471ea70c34f9ab18fcd1">browseForFileToSave</a> (bool warnAboutOverwritingExistingFiles)</td></tr>
-<tr class="memdesc:a1ccbbb48aefc471ea70c34f9ab18fcd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a dialog box to choose a file to save.  <a href="#a1ccbbb48aefc471ea70c34f9ab18fcd1">More...</a><br/></td></tr>
-<tr class="separator:a1ccbbb48aefc471ea70c34f9ab18fcd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4e2e9b465ba9d1a26be16b68b34299"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a3e4e2e9b465ba9d1a26be16b68b34299">browseForFileToSave</a> (bool warnAboutOverwritingExistingFiles, const <a class="el" href="classFile.html">File</a> &amp;fileWhichShouldBeSaved=<a class="el" href="classFile.html">File</a>())</td></tr>
+<tr class="memdesc:a3e4e2e9b465ba9d1a26be16b68b34299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a dialog box to choose a file to save.  <a href="#a3e4e2e9b465ba9d1a26be16b68b34299">More...</a><br/></td></tr>
+<tr class="separator:a3e4e2e9b465ba9d1a26be16b68b34299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdbce2d962f0c6c117d897e9e8687116"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#afdbce2d962f0c6c117d897e9e8687116">browseForDirectory</a> ()</td></tr>
 <tr class="memdesc:afdbce2d962f0c6c117d897e9e8687116"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a dialog box to choose a directory.  <a href="#afdbce2d962f0c6c117d897e9e8687116">More...</a><br/></td></tr>
 <tr class="separator:afdbce2d962f0c6c117d897e9e8687116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add78111ba95fce8ad0f3ab22a0338b30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#add78111ba95fce8ad0f3ab22a0338b30">browseForMultipleFilesOrDirectories</a> (<a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComponent=nullptr)</td></tr>
 <tr class="memdesc:add78111ba95fce8ad0f3ab22a0338b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as browseForFileToOpen, but allows the user to select multiple files and directories.  <a href="#add78111ba95fce8ad0f3ab22a0338b30">More...</a><br/></td></tr>
 <tr class="separator:add78111ba95fce8ad0f3ab22a0338b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2510d29a867b3f9f5adfa90e17c88068"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a2510d29a867b3f9f5adfa90e17c88068">showDialog</a> (int flags, <a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComponent)</td></tr>
-<tr class="memdesc:a2510d29a867b3f9f5adfa90e17c88068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs a dialog box for the given set of option flags.  <a href="#a2510d29a867b3f9f5adfa90e17c88068">More...</a><br/></td></tr>
-<tr class="separator:a2510d29a867b3f9f5adfa90e17c88068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac888983e4abdd8401ba7d6124ae64ff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#ac888983e4abdd8401ba7d6124ae64ff3">launchAsync</a> (int flags, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(const <a class="el" href="classFileChooser.html">FileChooser</a> &amp;)&gt;, <a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComponent=nullptr)</td></tr>
-<tr class="memdesc:ac888983e4abdd8401ba7d6124ae64ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this method to launch the file browser window asynchronously.  <a href="#ac888983e4abdd8401ba7d6124ae64ff3">More...</a><br/></td></tr>
-<tr class="separator:ac888983e4abdd8401ba7d6124ae64ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaaa6a192e1b7abfcc7f0be78379d841"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#adaaa6a192e1b7abfcc7f0be78379d841">showDialog</a> (int flags, <a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComponent, const <a class="el" href="classFile.html">File</a> &amp;fileWhichShouldBeSaved=<a class="el" href="classFile.html">File</a>())</td></tr>
+<tr class="memdesc:adaaa6a192e1b7abfcc7f0be78379d841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs a dialog box for the given set of option flags.  <a href="#adaaa6a192e1b7abfcc7f0be78379d841">More...</a><br/></td></tr>
+<tr class="separator:adaaa6a192e1b7abfcc7f0be78379d841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7713d8dc48c8a5ad0f1f554f3980f5e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a7713d8dc48c8a5ad0f1f554f3980f5e9">launchAsync</a> (int flags, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(const <a class="el" href="classFileChooser.html">FileChooser</a> &amp;)&gt;, <a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *previewComponent=nullptr, const <a class="el" href="classFile.html">File</a> &amp;fileWhichShouldBeSaved=<a class="el" href="classFile.html">File</a>())</td></tr>
+<tr class="memdesc:a7713d8dc48c8a5ad0f1f554f3980f5e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use this method to launch the file browser window asynchronously.  <a href="#a7713d8dc48c8a5ad0f1f554f3980f5e9">More...</a><br/></td></tr>
+<tr class="separator:a7713d8dc48c8a5ad0f1f554f3980f5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83beadbc2806f8c8945d672af96fc671"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671">getResult</a> () const </td></tr>
 <tr class="memdesc:a83beadbc2806f8c8945d672af96fc671"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last file that was chosen by one of the browseFor methods.  <a href="#a83beadbc2806f8c8945d672af96fc671">More...</a><br/></td></tr>
 <tr class="separator:a83beadbc2806f8c8945d672af96fc671"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,14 +212,14 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dialogBoxTitle</td><td>a text string to display in the dialog box to tell the user what's going on </td></tr>
-    <tr><td class="paramname">initialFileOrDirectory</td><td>the file or directory that should be selected when the dialog box opens. If this parameter is set to <a class="el" href="classFile.html" title="Represents a local file or directory. ">File()</a>, a sensible default directory will be used instead. </td></tr>
+    <tr><td class="paramname">initialFileOrDirectory</td><td>the file or directory that should be selected when the dialog box opens. If this parameter is set to <a class="el" href="classFile.html" title="Represents a local file or directory. ">File()</a>, a sensible default directory will be used instead. This parameter is ignored for native iOS file choosers. </td></tr>
     <tr><td class="paramname">filePatternsAllowed</td><td>a set of file patterns to specify which files can be selected - each pattern should be separated by a comma or semi-colon, e.g. "*" or "*.jpg;*.gif". An empty string means that all files are allowed </td></tr>
     <tr><td class="paramname">useOSNativeDialogBox</td><td>if true, then a native dialog box will be used if possible; if false, then a Juce-based browser dialog box will always be used </td></tr>
     <tr><td class="paramname">treatFilePackagesAsDirectories</td><td>if true, then the file chooser will allow the selection of files inside packages when invoked on OS X and when using native dialog boxes.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21" title="Shows a dialog box to choose a file to open. ">browseForFileToOpen</a>, <a class="el" href="classFileChooser.html#a1ccbbb48aefc471ea70c34f9ab18fcd1" title="Shows a dialog box to choose a file to save. ">browseForFileToSave</a>, <a class="el" href="classFileChooser.html#afdbce2d962f0c6c117d897e9e8687116" title="Shows a dialog box to choose a directory. ">browseForDirectory</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21" title="Shows a dialog box to choose a file to open. ">browseForFileToOpen</a>, <a class="el" href="classFileChooser.html#a3e4e2e9b465ba9d1a26be16b68b34299" title="Shows a dialog box to choose a file to save. ">browseForFileToSave</a>, <a class="el" href="classFileChooser.html#afdbce2d962f0c6c117d897e9e8687116" title="Shows a dialog box to choose a directory. ">browseForDirectory</a> </dd></dl>
 
 </div>
 </div>
@@ -264,7 +264,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the user selected a file, in which case, use the <a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671" title="Returns the last file that was chosen by one of the browseFor methods. ">getResult()</a> method to find out what it was. Returns false if they cancelled instead. </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a1ccbbb48aefc471ea70c34f9ab18fcd1" title="Shows a dialog box to choose a file to save. ">browseForFileToSave</a>, <a class="el" href="classFileChooser.html#afdbce2d962f0c6c117d897e9e8687116" title="Shows a dialog box to choose a directory. ">browseForDirectory</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a3e4e2e9b465ba9d1a26be16b68b34299" title="Shows a dialog box to choose a file to save. ">browseForFileToSave</a>, <a class="el" href="classFileChooser.html#afdbce2d962f0c6c117d897e9e8687116" title="Shows a dialog box to choose a directory. ">browseForDirectory</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">StandalonePluginHolder::askUserToLoadState()</a>.</p>
 
@@ -289,7 +289,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1ccbbb48aefc471ea70c34f9ab18fcd1"></a>
+<a class="anchor" id="a3e4e2e9b465ba9d1a26be16b68b34299"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -297,8 +297,18 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">bool FileChooser::browseForFileToSave </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>warnAboutOverwritingExistingFiles</em></td><td>)</td>
+          <td class="paramname"><em>warnAboutOverwritingExistingFiles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileWhichShouldBeSaved</em> = <code><a class="el" href="classFile.html">File</a>()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -308,6 +318,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">warnAboutOverwritingExistingFiles</td><td>if true, the dialog box will ask the user if they're sure they want to overwrite a file that already exists </td></tr>
+    <tr><td class="paramname">fileWhichShouldBeSaved</td><td>if this parameter is specified, then, if the the user selects a valid location to save the file, fileWhichShouldBeSaved will automaitcally be moved to the location selected by the user when the user clicks 'ok'. If you do not specify this parameter, then it is your responsibility to save your file at the location that is returned from this file chooser. Typically, when using this parameter, you already write the file you wish to save to a temporary location and then supply the path to this file to this parameter. This parameter is required on iOS when using native file save dialogs but can be used on all other platforms. </td></tr>
   </table>
   </dd>
 </dl>
@@ -334,7 +345,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Shows a dialog box to choose a directory. </p>
 <p>This will display the dialog box modally, using an "open directory" mode, so it will only allow directories to be returned, not files.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if the user chose a directory and pressed 'ok', in which case, use the <a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671" title="Returns the last file that was chosen by one of the browseFor methods. ">getResult()</a> method to find out what they chose. Returns false if they cancelled instead. </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21" title="Shows a dialog box to choose a file to open. ">browseForFileToOpen</a>, <a class="el" href="classFileChooser.html#a1ccbbb48aefc471ea70c34f9ab18fcd1" title="Shows a dialog box to choose a file to save. ">browseForFileToSave</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileChooser.html#a546ef74bcd139b67a90e4459cd591d21" title="Shows a dialog box to choose a file to open. ">browseForFileToOpen</a>, <a class="el" href="classFileChooser.html#a3e4e2e9b465ba9d1a26be16b68b34299" title="Shows a dialog box to choose a file to save. ">browseForFileToSave</a> </dd></dl>
 
 </div>
 </div>
@@ -357,7 +368,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2510d29a867b3f9f5adfa90e17c88068"></a>
+<a class="anchor" id="adaaa6a192e1b7abfcc7f0be78379d841"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -371,7 +382,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *&#160;</td>
-          <td class="paramname"><em>previewComponent</em>&#160;</td>
+          <td class="paramname"><em>previewComponent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileWhichShouldBeSaved</em> = <code><a class="el" href="classFile.html">File</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -383,12 +400,18 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Runs a dialog box for the given set of option flags. </p>
 <p>The flag values used are those in <a class="el" href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6" title="Various options for the browser. ">FileBrowserComponent::FileChooserFlags</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileWhichShouldBeSaved</td><td>if this parameter is specified and saveMode is specified, then, if the the user selects a valid location to save the file, fileWhichShouldBeSaved will automaitcally be moved to the location selected by the user when the user clicks 'ok'. If you do not specify this parameter, then it is your responsibility to save your file at the location that is returned from this file chooser. Typically, when using this parameter, you already write the file you wish to save to a temporary location and then supply the path to this file to this parameter. This parameter is required on iOS when using native file save dialogs but can be used on all other platforms.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the user chose a directory and pressed 'ok', in which case, use the <a class="el" href="classFileChooser.html#a83beadbc2806f8c8945d672af96fc671" title="Returns the last file that was chosen by one of the browseFor methods. ">getResult()</a> method to find out what they chose. Returns false if they cancelled instead. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6" title="Various options for the browser. ">FileBrowserComponent::FileChooserFlags</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ac888983e4abdd8401ba7d6124ae64ff3"></a>
+<a class="anchor" id="a7713d8dc48c8a5ad0f1f554f3980f5e9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -408,7 +431,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classFilePreviewComponent.html">FilePreviewComponent</a> *&#160;</td>
-          <td class="paramname"><em>previewComponent</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>previewComponent</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileWhichShouldBeSaved</em> = <code><a class="el" href="classFile.html">File</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -422,7 +451,13 @@ Static Public Member Functions</h2></td></tr>
 <p>This will create a file browser dialog based on the settings in this structure and will launch it modally, returning immediately.</p>
 <p>You must specify a callback which is called when the file browser is canceled or a file is selected. To abort the file selection, simply delete the <a class="el" href="classFileChooser.html" title="Creates a dialog box to choose a file or directory to load or save. ">FileChooser</a> object.</p>
 <p>You can use the <a class="el" href="classModalCallbackFunction.html#a47c2e0f447876fabf4644d1cae159a0f" title="This is a utility function to create a ModalComponentManager::Callback that will call a static functi...">ModalCallbackFunction::create</a> method to wrap a lambda into a modal Callback object.</p>
-<p>You must ensure that the lifetime of the callback object is longer than the lifetime of the file-chooser. </p>
+<p>You must ensure that the lifetime of the callback object is longer than the lifetime of the file-chooser.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileWhichShouldBeSaved</td><td>if this parameter is specified and saveMode is specified, then, if the the user selects a valid location to save the file, fileWhichShouldBeSaved will automaitcally be moved to the location selected by the user when the user clicks 'ok'. If you do not specify this parameter, then it is your responsibility to save your file at the location that is returned from this file chooser. Typically, when using this parameter, you already write the file you wish to save to a temporary location and then supply the path to this file to this parameter. This parameter is required on iOS when using native file save dialogs but can be used on all other platforms. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -557,7 +592,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 22 2017 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 23 2017 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
