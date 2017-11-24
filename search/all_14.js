@@ -131,7 +131,7 @@ var searchData=
   ['userdesktopdirectory',['userDesktopDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313da4776bc5e304bf2857ed5ede0fbbc4060',1,'File']]],
   ['userdocumentsdirectory',['userDocumentsDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313da72c8fbf94445ccce6b01470265c8f397',1,'File']]],
   ['userhomedirectory',['userHomeDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313da8620eabc38cfbd921a52d10157463c5e',1,'File']]],
-  ['userid',['userID',['../structAnalyticsDestination_1_1AnalyticsEvent.html#a2d253f17697dfb4471a71e9bddc29a36',1,'AnalyticsDestination::AnalyticsEvent::userID()'],['../classAnalytics.html#a174d19cff18057dc217e089efbaa82c9',1,'Analytics::userId()']]],
+  ['userid',['userId',['../classAnalytics.html#a174d19cff18057dc217e089efbaa82c9',1,'Analytics::userId()'],['../structAnalyticsDestination_1_1AnalyticsEvent.html#a2d253f17697dfb4471a71e9bddc29a36',1,'AnalyticsDestination::AnalyticsEvent::userID()']]],
   ['usermoviesdirectory',['userMoviesDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313dadcb6e6c19c350d8020615417b0505da8',1,'File']]],
   ['usermusicdirectory',['userMusicDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313dad0662607d7763c1940693b9f80673567',1,'File']]],
   ['userpicturesdirectory',['userPicturesDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313daa8e7ec352e54ab4efcae250eba502313',1,'File']]],

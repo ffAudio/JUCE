@@ -190,7 +190,7 @@ var searchData=
   ['allocate',['allocate',['../classHeapBlock.html#a270cb60aeab3ed372e901d64cdc9b9ab',1,'HeapBlock']]],
   ['allsoundoff',['allSoundOff',['../classMidiMessage.html#a3a56275d5dd5bebc9edba4e6ab8aa467',1,'MidiMessage']]],
   ['alphachanged',['alphaChanged',['../classComponent.html#af83c72f9c98476811522ba8cad855003',1,'Component::alphaChanged()'],['../classNSViewComponent.html#a6302dbcb95361a82312a1633f5762bbc',1,'NSViewComponent::alphaChanged()']]],
-  ['ambisonic',['ambisonic',['../classAudioChannelSet.html#a16dde93635a1374f6b398ad65b49fa75',1,'AudioChannelSet']]],
+  ['ambisonic',['ambisonic',['../classAudioChannelSet.html#ac2cc547f1c51027a7b6b20f401a8968e',1,'AudioChannelSet']]],
   ['analyticsdestination',['AnalyticsDestination',['../structAnalyticsDestination.html#aedb5466a3cba85dac81fc3c5b44ca337',1,'AnalyticsDestination']]],
   ['androidviewcomponent',['AndroidViewComponent',['../classAndroidViewComponent.html#a52c5d6ef2283569b05d665831b9970dd',1,'AndroidViewComponent']]],
   ['animatecomponent',['animateComponent',['../classComponentAnimator.html#ac4606415aa267cdb0be7e8f17abd8435',1,'ComponentAnimator']]],
