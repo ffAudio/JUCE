@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="structjuce_1_1CoreAudioLayouts-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -94,6 +95,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:acb094b97ddf71d66115775ff3ddabe82"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="structjuce_1_1CoreAudioLayouts.html#acb094b97ddf71d66115775ff3ddabe82a92697805ee1cd21c5221ca7e4152ed35">coreAudioHOASN3DLayoutTag</a> = (190U&lt;&lt;16) | 0
+ }</td></tr>
+<tr class="separator:acb094b97ddf71d66115775ff3ddabe82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d5ef7933a56c8e69f050609b8e84da1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classAudioChannelSet.html">AudioChannelSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjuce_1_1CoreAudioLayouts.html#a3d5ef7933a56c8e69f050609b8e84da1">fromCoreAudio</a> (const AudioChannelLayout &amp;layout)</td></tr>
@@ -116,6 +123,23 @@ Static Public Member Functions</h2></td></tr>
 &lt; <a class="el" href="classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652e">AudioChannelSet::ChannelType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structjuce_1_1CoreAudioLayouts.html#af47e0bd93725ae19d74f9c5635299455">getSpeakerLayoutForCoreAudioTag</a> (AudioChannelLayoutTag tag)</td></tr>
 <tr class="separator:af47e0bd93725ae19d74f9c5635299455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="acb094b97ddf71d66115775ff3ddabe82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="acb094b97ddf71d66115775ff3ddabe82a92697805ee1cd21c5221ca7e4152ed35"></a>coreAudioHOASN3DLayoutTag</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a3d5ef7933a56c8e69f050609b8e84da1"></a>
 <div class="memitem">
@@ -200,7 +224,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Convert JUCE's <a class="el" href="classAudioChannelSet.html" title="Represents a set of audio channel types. ">AudioChannelSet</a> to CoreAudio's AudioChannelLayoutTag. </p>
 <p>Note that this method cannot preserve the order of channels. </p>
 
-<p>References <a class="el" href="classAudioChannelSet.html#a769021b5cd3b2ca28dd3fec8a43bb98d">AudioChannelSet::addChannel()</a>, <a class="el" href="classAudioChannelSet.html#a1c77eedca94fdb0200946ea347ba39b7">AudioChannelSet::getAmbisonicOrder()</a>, <a class="el" href="group__juce__core-maths.html#ga53205e331c49a67a9a7af0710d44d65e">numElementsInArray()</a>, <a class="el" href="classAudioChannelSet.html#ad7be564dafc89bddf37dea65d7f014ba">AudioChannelSet::size()</a>, and <a class="el" href="classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652eaaa4afa88e8da74c57e088bb364518d6c">AudioChannelSet::unknown</a>.</p>
+<p>References <a class="el" href="classAudioChannelSet.html#a769021b5cd3b2ca28dd3fec8a43bb98d">AudioChannelSet::addChannel()</a>, <a class="el" href="structjuce_1_1CoreAudioLayouts.html#acb094b97ddf71d66115775ff3ddabe82a92697805ee1cd21c5221ca7e4152ed35">coreAudioHOASN3DLayoutTag</a>, <a class="el" href="classAudioChannelSet.html#a1c77eedca94fdb0200946ea347ba39b7">AudioChannelSet::getAmbisonicOrder()</a>, <a class="el" href="group__juce__core-maths.html#ga53205e331c49a67a9a7af0710d44d65e">numElementsInArray()</a>, <a class="el" href="classAudioChannelSet.html#ad7be564dafc89bddf37dea65d7f014ba">AudioChannelSet::size()</a>, and <a class="el" href="classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652eaaa4afa88e8da74c57e088bb364518d6c">AudioChannelSet::unknown</a>.</p>
 
 </div>
 </div>
@@ -279,7 +303,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classArray.html#a52da22e285e44171b6d6fa785a7d536a">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::add()</a>, <a class="el" href="classAudioChannelSet.html#ac2cc547f1c51027a7b6b20f401a8968e">AudioChannelSet::ambisonic()</a>, <a class="el" href="classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652ead39bcac579ad18bca050376e1696af4a">AudioChannelSet::discreteChannel0</a>, <a class="el" href="classAudioChannelSet.html#a7a7e2a25d1cc20a15d5f7ec7faa8f0a7">AudioChannelSet::getChannelTypes()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, <a class="el" href="group__juce__core-maths.html#gaafa7f705c9f978725910c5956d04226c">jmax()</a>, <a class="el" href="group__juce__core-maths.html#ga53205e331c49a67a9a7af0710d44d65e">numElementsInArray()</a>, and <a class="el" href="classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652eaaa4afa88e8da74c57e088bb364518d6c">AudioChannelSet::unknown</a>.</p>
+<p>References <a class="el" href="classArray.html#a52da22e285e44171b6d6fa785a7d536a">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::add()</a>, <a class="el" href="classAudioChannelSet.html#ac2cc547f1c51027a7b6b20f401a8968e">AudioChannelSet::ambisonic()</a>, <a class="el" href="structjuce_1_1CoreAudioLayouts.html#acb094b97ddf71d66115775ff3ddabe82a92697805ee1cd21c5221ca7e4152ed35">coreAudioHOASN3DLayoutTag</a>, <a class="el" href="classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652ead39bcac579ad18bca050376e1696af4a">AudioChannelSet::discreteChannel0</a>, <a class="el" href="classAudioChannelSet.html#a7a7e2a25d1cc20a15d5f7ec7faa8f0a7">AudioChannelSet::getChannelTypes()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, <a class="el" href="group__juce__core-maths.html#gaafa7f705c9f978725910c5956d04226c">jmax()</a>, <a class="el" href="group__juce__core-maths.html#ga53205e331c49a67a9a7af0710d44d65e">numElementsInArray()</a>, and <a class="el" href="classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652eaaa4afa88e8da74c57e088bb364518d6c">AudioChannelSet::unknown</a>.</p>
 
 <p>Referenced by <a class="el" href="structjuce_1_1CoreAudioLayouts.html#a09e9d079c77bb0054e349106218c4b36">fromCoreAudio()</a>, and <a class="el" href="structjuce_1_1CoreAudioLayouts.html#aa0be9fd166ec78c986641f3f4d7677ba">getCoreAudioLayoutChannels()</a>.</p>
 
@@ -291,7 +315,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 24 2017 01:00:53 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 25 2017 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

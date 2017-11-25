@@ -265,7 +265,7 @@ var searchData=
   ['fraction',['fraction',['../structGrid_1_1Fr.html#a61017c40010278bfb0b7bde8a2d470f0',1,'Grid::Fr']]],
   ['framerate',['frameRate',['../structAudioPlayHead_1_1CurrentPositionInfo.html#aca5544d9204e4fedfdf6088dcdf339aa',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['frameratetype',['FrameRateType',['../classAudioPlayHead.html#a9afad1749c8002945b2a6921eef92b25',1,'AudioPlayHead']]],
-  ['framespersecond',['framesPerSecond',['../classAudioCDReader.html#a22da3f942ca90769b63123bc05bad836abcf6b807bcb841f2ae1fb9c3f518aa61',1,'AudioCDReader']]],
+  ['framespersecond',['framesPerSecond',['../classAudioCDReader.html#af9abb10b984fcb3c790b02c5751c9ad3abcf6b807bcb841f2ae1fb9c3f518aa61',1,'AudioCDReader']]],
   ['free',['free',['../classHeapBlock.html#a8ec3fb69997d6f530d60cb5e0969f97f',1,'HeapBlock']]],
   ['freezemode',['freezeMode',['../structReverb_1_1Parameters.html#a394c3bfbd67ad681222410952dbed0c6',1,'Reverb::Parameters']]],
   ['from14bitint',['from14BitInt',['../classMPEValue.html#ab8606e727fc51c6175949d8d35af3693',1,'MPEValue']]],

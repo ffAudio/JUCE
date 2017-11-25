@@ -41,8 +41,9 @@ var searchData=
   ['controlbuttondown',['controlButtonDown',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75ae7cdfc666d66322628cb46fb3a4b32ef',1,'BlocksProtocol']]],
   ['controlbuttonmessage',['controlButtonMessage',['../namespaceBlocksProtocol.html#abee50d102d121b2b0bfe5e6704f94d0ea8cab329faf1c729fb02c3536b86a47c1',1,'BlocksProtocol']]],
   ['controlbuttonup',['controlButtonUp',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75a43e54c3b903be170a143c954e11ecc92',1,'BlocksProtocol']]],
-  ['copy',['copy',['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0a3584c202667823072c928fd699725466',1,'StandardApplicationCommandIDs']]],
+  ['copy',['copy',['../namespaceStandardApplicationCommandIDs.html#a7888896f76408059bfe6a8ac9db5c984a3584c202667823072c928fd699725466',1,'StandardApplicationCommandIDs']]],
   ['copyingcursor',['CopyingCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97abe0154531e3b7b07ea1241be32850c3c',1,'MouseCursor']]],
+  ['coreaudiohoasn3dlayouttag',['coreAudioHOASN3DLayoutTag',['../structjuce_1_1CoreAudioLayouts.html#acb094b97ddf71d66115775ff3ddabe82a92697805ee1cd21c5221ca7e4152ed35',1,'juce::CoreAudioLayouts']]],
   ['crosshaircursor',['CrosshairCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97add4ed956814986c922cdeae70fdad9d3',1,'MouseCursor']]],
   ['ctrlaltcommandmodifiers',['ctrlAltCommandModifiers',['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba2647f9ed4b2db164973d8b735f3b216a',1,'ModifierKeys']]],
   ['ctrlmodifier',['ctrlModifier',['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba1328b9c57c54ec51dbbfacb537cc737b',1,'ModifierKeys']]],
@@ -54,6 +55,6 @@ var searchData=
   ['currentpathboxbackgroundcolourid',['currentPathBoxBackgroundColourId',['../classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a9e59f48a735768536c0bb1c2cc9a650b',1,'FileBrowserComponent']]],
   ['currentpathboxtextcolourid',['currentPathBoxTextColourId',['../classFileBrowserComponent.html#a97c8e2837fcbc106996be4a651181090a8dfb2c5d90f580d76c464501e3cb0ebb',1,'FileBrowserComponent']]],
   ['curved',['curved',['../classPathStrokeType.html#af1cf21018ccb9aa84572c1da4ae513b8aa0e50e387cbe6533b830061006cb3747',1,'PathStrokeType']]],
-  ['cut',['cut',['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0ac0037bfec469a888d3a7ab1c0c222765',1,'StandardApplicationCommandIDs']]],
+  ['cut',['cut',['../namespaceStandardApplicationCommandIDs.html#a7888896f76408059bfe6a8ac9db5c984ac0037bfec469a888d3a7ab1c0c222765',1,'StandardApplicationCommandIDs']]],
   ['cycle',['cycle',['../group__LittleFootFunctions.html#ggaee3ea37f4f505980157cf93a84687bcbabee52b0bfbbdeada45fcac6ef19b93ea',1,'juce_LittleFootFunctions.dox']]]
 ];
