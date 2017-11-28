@@ -418,6 +418,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd2216ecd5029923097d6baabab400ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#afd2216ecd5029923097d6baabab400ec">setPaintingIsUnclipped</a> (bool shouldPaintWithoutClipping) noexcept</td></tr>
 <tr class="memdesc:afd2216ecd5029923097d6baabab400ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">This allows you to indicate that this component doesn't require its graphics context to be clipped when it is being painted.  <a href="#afd2216ecd5029923097d6baabab400ec">More...</a><br/></td></tr>
 <tr class="separator:afd2216ecd5029923097d6baabab400ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92969d17b0de1c11e68233db4ce3f178"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a92969d17b0de1c11e68233db4ce3f178">isPaintingUnclipped</a> () const noexcept</td></tr>
+<tr class="memdesc:a92969d17b0de1c11e68233db4ce3f178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this component doesn't require its graphics context to be clipped when it is being painted.  <a href="#a92969d17b0de1c11e68233db4ce3f178">More...</a><br/></td></tr>
+<tr class="separator:a92969d17b0de1c11e68233db4ce3f178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06800d0a55016e738c55078d82ef49fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a06800d0a55016e738c55078d82ef49fd">setComponentEffect</a> (<a class="el" href="classImageEffectFilter.html">ImageEffectFilter</a> *newEffect)</td></tr>
 <tr class="memdesc:a06800d0a55016e738c55078d82ef49fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an effect filter to alter the component's appearance.  <a href="#a06800d0a55016e738c55078d82ef49fd">More...</a><br/></td></tr>
 <tr class="separator:a06800d0a55016e738c55078d82ef49fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3459,6 +3462,31 @@ template&lt;class TargetClass &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a92969d17b0de1c11e68233db4ce3f178"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Component::isPaintingUnclipped </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this component doesn't require its graphics context to be clipped when it is being painted. </p>
+
+</div>
+</div>
 <a class="anchor" id="a06800d0a55016e738c55078d82ef49fd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -6137,7 +6165,7 @@ template&lt;class TargetClass &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 27 2017 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 28 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

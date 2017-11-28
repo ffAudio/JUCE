@@ -119,7 +119,7 @@ var searchData=
   ['addprogressbarcomponent',['addProgressBarComponent',['../classAlertWindow.html#a9b7ccfa6a4b4d3e871d20b4690c35b34',1,'AlertWindow']]],
   ['addproperties',['addProperties',['../classPropertyPanel.html#a304e2a044d426e027a3b98856f83fcde',1,'PropertyPanel']]],
   ['addquadrilateral',['addQuadrilateral',['../classPath.html#aced2dafcb8a12f73fcffe032def577be',1,'Path']]],
-  ['addrange',['addRange',['../classSparseSet.html#a0887e0e73216a5d30dc399888fa304e5',1,'SparseSet']]],
+  ['addrange',['addRange',['../classSparseSet.html#af5c79666e9e795e602c5a50ba94a3286',1,'SparseSet']]],
   ['addrecentlyusedfile',['addRecentlyUsedFile',['../classFilenameComponent.html#a4a49fee3ac243a55e7ef7db10535b432',1,'FilenameComponent']]],
   ['addrectangle',['addRectangle',['../classPath.html#af63b8419acedc43ced5c79578be0f0ea',1,'Path::addRectangle(float x, float y, float width, float height)'],['../classPath.html#ad335f4ab5ece92001a69022f4ec6a38e',1,'Path::addRectangle(Rectangle&lt; ValueType &gt; rectangle)']]],
   ['addrequestfactorysyncmessage',['addRequestFactorySyncMessage',['../structBlocksProtocol_1_1HostPacketBuilder.html#a6da6744805be7dd19e0d9e32ecf46eb9',1,'BlocksProtocol::HostPacketBuilder']]],

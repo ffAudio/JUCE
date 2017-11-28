@@ -184,7 +184,7 @@ Public Member Functions</h2></td></tr>
 <p>This callback will be called after you call <a class="el" href="classPushNotifications.html#a3ff861e614e0e2ddd7f8a7d21bc2234f" title="Sends an asynchronous request to retrieve current settings that are currently in use. ">requestSettingsUsed()</a> or <a class="el" href="classPushNotifications.html#a955877ef0523bcc0d5d2c99dfc3c7271" title="Initialises push notifications on current device with the settings provided. ">requestPermissionsWithSettings()</a>. </p>
 <p>Note that settings are currently only used on iOS. When called on other platforms, <a class="el" href="structPushNotifications_1_1Settings.html" title="Describes settings we want to use for current device. ">Settings</a> with no categories and all allow flags set to true will be received in <a class="el" href="structPushNotifications_1_1Listener.html#a7d2d2b7d2f784e18030e9c16893d9c1c" title="This callback will be called after you call requestSettingsUsed() or requestPermissionsWithSettings()...">Listener::notificationSettingsReceived()</a>. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -213,7 +213,7 @@ Public Member Functions</h2></td></tr>
 <p>Called when the list of pending notifications, requested by calling <a class="el" href="classPushNotifications.html#afe82fe103cde96872ac4156b245723d1" title="iOS only: sends an asynchronous request to retrieve a list of notifications that were scheduled and n...">getPendingLocalNotifications()</a> is returned. </p>
 <p>iOS 10 or above only. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -254,7 +254,7 @@ Public Member Functions</h2></td></tr>
 <p>Note: on Android, if remote notification was received while the app was in the background and then user pressed on it, the notification object received in this callback will contain only "properties" member set. Hence, if you want to know what was the notification title, content etc, you need to set them as additional properties, so that you will be able to restore them from "properties" dictionary.</p>
 <p>Note you can receive this callback on startup, if the application was launched from a notification. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -343,7 +343,7 @@ Public Member Functions</h2></td></tr>
 
 <p>For iOS10 and Android, this can be also called when a user dismissed the notification before responding to it. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -373,7 +373,7 @@ Public Member Functions</h2></td></tr>
 <p>Returns notifications that are visible in the notification area on the device and that are still waiting for a user action/response.</p>
 <p>On iOS, iOS version 10 or higher is required. On Android, API level 18 or higher is required. For unsupported platforms, an empty array will be returned. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -402,7 +402,7 @@ Public Member Functions</h2></td></tr>
 <p>Called whenever a token gets refreshed. </p>
 <p>You should monitor any token updates, because only the last token that is assigned to device is valid and can be used. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -457,7 +457,7 @@ Public Member Functions</h2></td></tr>
 <p>Called when an upstream message sent with <a class="el" href="classPushNotifications.html#a1f10cfe551f2d059cad352a374d9b212" title="Android only: sends an upstream message to your app server. ">PushNotifications::sendUpstreamMessage()</a> has been sent successfully. </p>
 <p>Bear in mind that in may take several minutes or more to receive this callback. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -496,7 +496,7 @@ Public Member Functions</h2></td></tr>
 <p>Called when there was an error sending an upstream message with <a class="el" href="classPushNotifications.html#a1f10cfe551f2d059cad352a374d9b212" title="Android only: sends an upstream message to your app server. ">PushNotifications::sendUpstreamMessage()</a>. </p>
 <p>Bear in mind that in may take several minutes or more to receive this callback. </p>
 
-<p>References <a class="el" href="group__juce__core-maths.html#ga07a40f89c351c7e7a7f98a62beaa1e4a">ignoreUnused()</a>.</p>
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
 
 </div>
 </div>
@@ -506,7 +506,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 27 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 28 2017 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -189,6 +189,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92b3e6e54a5c424822a3531f8c44789c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15d92b5c0ac9908e381d7fdc4088301f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V4.html#a15d92b5c0ac9908e381d7fdc4088301f">positionComboBoxText</a> (<a class="el" href="classComboBox.html">ComboBox</a> &amp;, <a class="el" href="classLabel.html">Label</a> &amp;) override</td></tr>
 <tr class="separator:a15d92b5c0ac9908e381d7fdc4088301f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f02d9cce3d9167eecea80349d1d82c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V4.html#a5f02d9cce3d9167eecea80349d1d82c2">getSliderThumbRadius</a> (<a class="el" href="classSlider.html">Slider</a> &amp;) override</td></tr>
+<tr class="separator:a5f02d9cce3d9167eecea80349d1d82c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a3956a3c5b66c83001c773e8c671f22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V4.html#a5a3956a3c5b66c83001c773e8c671f22">drawLinearSlider</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, float sliderPos, float minSliderPos, float maxSliderPos, const <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888">Slider::SliderStyle</a>, <a class="el" href="classSlider.html">Slider</a> &amp;) override</td></tr>
 <tr class="separator:a5a3956a3c5b66c83001c773e8c671f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a853e1ecd2b3f1cf687348e699e83e5b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V4.html#a853e1ecd2b3f1cf687348e699e83e5b4">drawRotarySlider</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, float sliderPosProportional, float rotaryStartAngle, float rotaryEndAngle, <a class="el" href="classSlider.html">Slider</a> &amp;) override</td></tr>
@@ -326,8 +328,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6f7d84ed6514c03bdf5cb2d4846a39f1 inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7827b9717981ca84af3513cbfeac35d inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#ae7827b9717981ca84af3513cbfeac35d">drawLinearSliderThumb</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int x, int y, int width, int height, float sliderPos, float minSliderPos, float maxSliderPos, const <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888">Slider::SliderStyle</a>, <a class="el" href="classSlider.html">Slider</a> &amp;) override</td></tr>
 <tr class="separator:ae7827b9717981ca84af3513cbfeac35d inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae514defd3f51c0af1ca3ba00d2341242 inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#ae514defd3f51c0af1ca3ba00d2341242">getSliderThumbRadius</a> (<a class="el" href="classSlider.html">Slider</a> &amp;) override</td></tr>
-<tr class="separator:ae514defd3f51c0af1ca3ba00d2341242 inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa65e595f2058a2ac3d38394653efa137 inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#aa65e595f2058a2ac3d38394653efa137">createSliderButton</a> (<a class="el" href="classSlider.html">Slider</a> &amp;, bool isIncrement) override</td></tr>
 <tr class="separator:aa65e595f2058a2ac3d38394653efa137 inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac70ab8e20f4b27f5c9c7ac3fec5c3ce9 inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLabel.html">Label</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#ac70ab8e20f4b27f5c9c7ac3fec5c3ce9">createSliderTextBox</a> (<a class="el" href="classSlider.html">Slider</a> &amp;) override</td></tr>
@@ -383,6 +383,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae8d75101edbc109e95ced5dbb781795d inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f46815e1ca478f6dc0e36fa46f4601 inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#a88f46815e1ca478f6dc0e36fa46f4601">paintToolbarButtonBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, int width, int height, bool isMouseOver, bool isMouseDown, <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> &amp;) override</td></tr>
 <tr class="separator:a88f46815e1ca478f6dc0e36fa46f4601 inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac054c63247cf0d506d13b4e94b1d47ba inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#ac054c63247cf0d506d13b4e94b1d47ba">getPropertyPanelSectionHeaderHeight</a> (const <a class="el" href="classString.html">String</a> &amp;sectionTitle) override</td></tr>
+<tr class="separator:ac054c63247cf0d506d13b4e94b1d47ba inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c4017eced71a17959e66194220471c5 inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#a0c4017eced71a17959e66194220471c5">getCallOutBoxBorderSize</a> (const <a class="el" href="classCallOutBox.html">CallOutBox</a> &amp;) override</td></tr>
 <tr class="separator:a0c4017eced71a17959e66194220471c5 inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f109dc1e11791b09e5c3e6e8bae3aff inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#a1f109dc1e11791b09e5c3e6e8bae3aff">getSidePanelTitleFont</a> (<a class="el" href="classSidePanel.html">SidePanel</a> &amp;) override</td></tr>
@@ -2302,6 +2304,32 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5f02d9cce3d9167eecea80349d1d82c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int LookAndFeel_V4::getSliderThumbRadius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSlider.html">Slider</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classLookAndFeel__V2.html#ae514defd3f51c0af1ca3ba00d2341242">LookAndFeel_V2</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5a3956a3c5b66c83001c773e8c671f22"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3082,7 +3110,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 27 2017 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 28 2017 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -210,7 +210,7 @@ var searchData=
   ['float32be',['float32BE',['../classAudioDataConverters.html#ab61072a75ca010290e4c03efc8078a50a967b624b78df07208abf588c3c87636c',1,'AudioDataConverters']]],
   ['float32le',['float32LE',['../classAudioDataConverters.html#ab61072a75ca010290e4c03efc8078a50ac0a9af131ea728266516d78d7ed60b60',1,'AudioDataConverters']]],
   ['float_5f',['float_',['../namespacelittlefoot.html#a4fb4051df81acdbcaa446ab5a02dd8e7aefe6d5085c67bc38cd3746f2dc8013e1',1,'littlefoot']]],
-  ['float_5fpi',['float_Pi',['../group__juce__core-maths.html#gac93fbc5e59d440cab26842b9c575d161',1,'juce_MathsFunctions.h']]],
+  ['float_5fpi',['float_Pi',['../group__juce__core-maths.html#gad72991ce1d75b613ea66a31011f661bc',1,'juce_MathsFunctions.h']]],
   ['floating',['floating',['../structBlockConfigManager.html#a6148f6d6cdb6f788bd6d009b40f072eeab1431d9ddac49a1469a9c9c5040e6737',1,'BlockConfigManager']]],
   ['floatingwindows',['FloatingWindows',['../classMultiDocumentPanel.html#a493599178acb0ddea50f7059faa4f8f3aa9d0aa1885d047c950adf06e10b47014',1,'MultiDocumentPanel']]],
   ['floattoint',['floatToInt',['../structlittlefoot_1_1Program.html#a696cd51fa37bde0f34e9c218f46035d5',1,'littlefoot::Program']]],

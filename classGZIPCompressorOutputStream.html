@@ -110,6 +110,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a2f1c6a296dc75495e5541751585ea2ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGZIPCompressorOutputStream.html#a2f1c6a296dc75495e5541751585ea2ff">GZIPCompressorOutputStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;destStream, int compressionLevel=-1, int windowBits=0)</td></tr>
+<tr class="memdesc:a2f1c6a296dc75495e5541751585ea2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a compression stream.  <a href="#a2f1c6a296dc75495e5541751585ea2ff">More...</a><br/></td></tr>
+<tr class="separator:a2f1c6a296dc75495e5541751585ea2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa445af101582747f35c1a4bcc2d824d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGZIPCompressorOutputStream.html#aa445af101582747f35c1a4bcc2d824d3">GZIPCompressorOutputStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> *destStream, int compressionLevel=-1, bool deleteDestStreamWhenDestroyed=false, int windowBits=0)</td></tr>
 <tr class="memdesc:aa445af101582747f35c1a4bcc2d824d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a compression stream.  <a href="#aa445af101582747f35c1a4bcc2d824d3">More...</a><br/></td></tr>
 <tr class="separator:aa445af101582747f35c1a4bcc2d824d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +226,48 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a2f1c6a296dc75495e5541751585ea2ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GZIPCompressorOutputStream::GZIPCompressorOutputStream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classOutputStream.html">OutputStream</a> &amp;&#160;</td>
+          <td class="paramname"><em>destStream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>compressionLevel</em> = <code>-1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>windowBits</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a compression stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destStream</td><td>the stream into which the compressed data will be written </td></tr>
+    <tr><td class="paramname">compressionLevel</td><td>how much to compress the data, between 0 and 9, where 0 is non-compressed storage, 1 is the fastest/lowest compression, and 9 is the slowest/highest compression. Any value outside this range indicates that a default compression level should be used. </td></tr>
+    <tr><td class="paramname">windowBits</td><td>this is used internally to change the window size used by zlib - leave it as 0 unless you specifically need to set its value for some reason </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="aa445af101582747f35c1a4bcc2d824d3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -262,9 +307,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Creates a compression stream. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">destStream</td><td>the stream into which the compressed data should be written </td></tr>
+    <tr><td class="paramname">destStream</td><td>the stream into which the compressed data will be written. Ownership of this object depends on the value of deleteDestStreamWhenDestroyed </td></tr>
     <tr><td class="paramname">compressionLevel</td><td>how much to compress the data, between 0 and 9, where 0 is non-compressed storage, 1 is the fastest/lowest compression, and 9 is the slowest/highest compression. Any value outside this range indicates that a default compression level should be used. </td></tr>
-    <tr><td class="paramname">deleteDestStreamWhenDestroyed</td><td>whether or not to delete the destStream object when this stream is destroyed </td></tr>
+    <tr><td class="paramname">deleteDestStreamWhenDestroyed</td><td>whether or not the <a class="el" href="classGZIPCompressorOutputStream.html" title="A stream which uses zlib to compress the data written into it. ">GZIPCompressorOutputStream</a> will delete the destStream object when it is destroyed </td></tr>
     <tr><td class="paramname">windowBits</td><td>this is used internally to change the window size used by zlib - leave it as 0 unless you specifically need to set its value for some reason </td></tr>
   </table>
   </dd>
@@ -429,7 +474,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 27 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 28 2017 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
