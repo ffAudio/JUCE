@@ -1111,7 +1111,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Components can override this method to draw their content. </p>
 <p>The <a class="el" href="classSidePanel.html#a0da838d1a2391b6cce424190e2226ef2" title="Components can override this method to draw their content. ">paint()</a> method gets called when a region of a component needs redrawing, either because the component's <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn. ">repaint()</a> method has been called, or because something has happened on the screen that means a section of a window needs to be redrawn.</p>
 <p>Any child components will draw themselves over whatever this method draws. If you need to paint over the top of your child components, you can also implement the <a class="el" href="classComponent.html#aa15dc77c06b5a0a4192090b4a323f79c" title="Components can override this method to draw over the top of their children. ">paintOverChildren()</a> method to do this.</p>
-<p>If you want to cause a component to redraw itself, this is done asynchronously - calling the <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn. ">repaint()</a> method marks a region of the component as "dirty", and the <a class="el" href="classSidePanel.html#a0da838d1a2391b6cce424190e2226ef2" title="Components can override this method to draw their content. ">paint()</a> method will automatically be called sometime later, by the message thread, to paint any bits that need refreshing. In Juce (and almost all modern UI frameworks), you never redraw something synchronously.</p>
+<p>If you want to cause a component to redraw itself, this is done asynchronously - calling the <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn. ">repaint()</a> method marks a region of the component as "dirty", and the <a class="el" href="classSidePanel.html#a0da838d1a2391b6cce424190e2226ef2" title="Components can override this method to draw their content. ">paint()</a> method will automatically be called sometime later, by the message thread, to paint any bits that need refreshing. In JUCE (and almost all modern UI frameworks), you never redraw something synchronously.</p>
 <p>You should never need to call this method directly - to take a snapshot of the component you could use <a class="el" href="classComponent.html#a275e46e5a8147f89c142c91ba5c793a5" title="Generates a snapshot of part of this component. ">createComponentSnapshot()</a> or <a class="el" href="classComponent.html#a2c960bd5ec5ac76d18e82b6883096714" title="Draws this component and all its subcomponents onto the specified graphics context. ">paintEntireComponent()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1234,7 +1234,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 28 2017 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 29 2017 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

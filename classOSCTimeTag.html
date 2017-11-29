@@ -103,10 +103,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4c76b42ba03bf4c0789f325b8fbe0e92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> object from a raw binary OSC time tag.  <a href="#a4c76b42ba03bf4c0789f325b8fbe0e92">More...</a><br/></td></tr>
 <tr class="separator:a4c76b42ba03bf4c0789f325b8fbe0e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbc1ed60a931dff6b394a6cc343126e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCTimeTag.html#abbc1ed60a931dff6b394a6cc343126e2">OSCTimeTag</a> (<a class="el" href="classTime.html">Time</a> time) noexcept</td></tr>
-<tr class="memdesc:abbc1ed60a931dff6b394a6cc343126e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> object from a Juce <a class="el" href="classTime.html" title="Holds an absolute date and time. ">Time</a> object.  <a href="#abbc1ed60a931dff6b394a6cc343126e2">More...</a><br/></td></tr>
+<tr class="memdesc:abbc1ed60a931dff6b394a6cc343126e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> object from a juce::Time object.  <a href="#abbc1ed60a931dff6b394a6cc343126e2">More...</a><br/></td></tr>
 <tr class="separator:abbc1ed60a931dff6b394a6cc343126e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac433f096735c43fe1214eed57315fc8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCTimeTag.html#ac433f096735c43fe1214eed57315fc8a">toTime</a> () const noexcept</td></tr>
-<tr class="memdesc:ac433f096735c43fe1214eed57315fc8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a Juce <a class="el" href="classTime.html" title="Holds an absolute date and time. ">Time</a> object representing the same time as the <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a>.  <a href="#ac433f096735c43fe1214eed57315fc8a">More...</a><br/></td></tr>
+<tr class="memdesc:ac433f096735c43fe1214eed57315fc8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a juce::Time object representing the same time as the <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a>.  <a href="#ac433f096735c43fe1214eed57315fc8a">More...</a><br/></td></tr>
 <tr class="separator:ac433f096735c43fe1214eed57315fc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a6b061fc6a642433b3f577607fecce5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCTimeTag.html#a7a6b061fc6a642433b3f577607fecce5">isImmediately</a> () const noexcept</td></tr>
 <tr class="memdesc:a7a6b061fc6a642433b3f577607fecce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> object has the special value representing "immedately".  <a href="#a7a6b061fc6a642433b3f577607fecce5">More...</a><br/></td></tr>
@@ -126,7 +126,7 @@ Static Public Attributes</h2></td></tr>
 <p>OSC time tags are part of <a class="el" href="classOSCBundle.html" title="An OSC bundle. ">OSCBundle</a> objects.</p>
 <p>In accordance with the OSC 1.0 specification, the internal timestamp stored in <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> uses the same binary format as NTP timestamps. The representation is by a 64 bit fixed point number. The first 32 bits specify the number of seconds since midnight on January 1, 1900, and the last 32 bits specify fractional parts of a second to a precision of about 200 picoseconds.</p>
 <p>The time tag value consisting of 63 zero bits followed by a one in the least significant bit is a special case meaning "immediately".</p>
-<p>For a more user-friendly time format, convert <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> to a juce::Time object using <a class="el" href="classOSCTimeTag.html#ac433f096735c43fe1214eed57315fc8a" title="Returns a Juce Time object representing the same time as the OSCTimeTag. ">toTime()</a>. </p>
+<p>For a more user-friendly time format, convert <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> to a juce::Time object using <a class="el" href="classOSCTimeTag.html#ac433f096735c43fe1214eed57315fc8a" title="Returns a juce::Time object representing the same time as the OSCTimeTag. ">toTime()</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aebad6cb86fc729e065dcee9703dad724"></a>
 <div class="memitem">
@@ -202,7 +202,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> object from a Juce <a class="el" href="classTime.html" title="Holds an absolute date and time. ">Time</a> object. </p>
+<p>Constructs an <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> object from a juce::Time object. </p>
 
 </div>
 </div>
@@ -228,8 +228,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a Juce <a class="el" href="classTime.html" title="Holds an absolute date and time. ">Time</a> object representing the same time as the <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a>. </p>
-<p>If the <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> has the special value representing "immediately", the resulting Juce <a class="el" href="classTime.html" title="Holds an absolute date and time. ">Time</a> object will represent an arbitrary point of time (but guaranteed to be in the past), since Juce <a class="el" href="classTime.html" title="Holds an absolute date and time. ">Time</a> does not have such a special value. </p>
+<p>Returns a juce::Time object representing the same time as the <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a>. </p>
+<p>If the <a class="el" href="classOSCTimeTag.html" title="An OSC time tag. ">OSCTimeTag</a> has the special value representing "immediately", the resulting juce::Time object will represent an arbitrary point of time (but guaranteed to be in the past), since juce::Time does not have such a special value. </p>
 
 </div>
 </div>
@@ -312,7 +312,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 28 2017 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 29 2017 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -153,6 +153,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f0026f5d2dafca3c101e70e4b34780f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#a9f0026f5d2dafca3c101e70e4b34780f">~Block</a> ()</td></tr>
 <tr class="memdesc:a9f0026f5d2dafca3c101e70e4b34780f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a9f0026f5d2dafca3c101e70e4b34780f">More...</a><br/></td></tr>
 <tr class="separator:a9f0026f5d2dafca3c101e70e4b34780f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08b81f48b08bb863bc668e722f18a4d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#a08b81f48b08bb863bc668e722f18a4d0">operator==</a> (const <a class="el" href="classBlock.html">Block</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:a08b81f48b08bb863bc668e722f18a4d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two blocks are considered equal if they have the same UID.  <a href="#a08b81f48b08bb863bc668e722f18a4d0">More...</a><br/></td></tr>
+<tr class="separator:a08b81f48b08bb863bc668e722f18a4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8804202dbaf2d863eef686216214bbd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#aa8804202dbaf2d863eef686216214bbd">operator!=</a> (const <a class="el" href="classBlock.html">Block</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:aa8804202dbaf2d863eef686216214bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two blocks are considered equal if they have the same UID.  <a href="#aa8804202dbaf2d863eef686216214bbd">More...</a><br/></td></tr>
+<tr class="separator:aa8804202dbaf2d863eef686216214bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa09e9ff13441f8c6689acb398870c715"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classBlock.html#a2c6b3c425b9b8cb708b23e553fa81324">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#aa09e9ff13441f8c6689acb398870c715">getType</a> () const =0</td></tr>
 <tr class="memdesc:aa09e9ff13441f8c6689acb398870c715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of this device.  <a href="#aa09e9ff13441f8c6689acb398870c715">More...</a><br/></td></tr>
 <tr class="separator:aa09e9ff13441f8c6689acb398870c715"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -510,6 +516,62 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a08b81f48b08bb863bc668e722f18a4d0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Block::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classBlock.html">Block</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Two blocks are considered equal if they have the same UID. </p>
+
+<p>References <a class="el" href="classBlock.html#a8a1c23c1f7ca58fcc032eb45cfc029d9">uid</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa8804202dbaf2d863eef686216214bbd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Block::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classBlock.html">Block</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Two blocks are considered equal if they have the same UID. </p>
+
+<p>References <a class="el" href="classBlock.html#a8a1c23c1f7ca58fcc032eb45cfc029d9">uid</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa09e9ff13441f8c6689acb398870c715"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1885,6 +1947,8 @@ Protected Attributes</h2></td></tr>
 <p>This <a class="el" href="classBlock.html" title="Represents an individual BLOCKS device. ">Block</a>'s UID. </p>
 <p>This will be globally unique, and remains constant for a particular device. </p>
 
+<p>Referenced by <a class="el" href="classBlock.html#aa8804202dbaf2d863eef686216214bbd">operator!=()</a>, and <a class="el" href="classBlock.html#a08b81f48b08bb863bc668e722f18a4d0">operator==()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a86de54de4f53ae04cc3fdd5ce9b841bf"></a>
@@ -1933,7 +1997,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 28 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 29 2017 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

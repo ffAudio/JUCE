@@ -745,7 +745,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A Windows-specific class that can create and embed an ActiveX control inside itself. </p>
 <p>To use it, create one of these, put it in place and make sure it's visible in a window, then use <a class="el" href="classActiveXControlComponent.html#ae54c9bc9f943e8cd566d88fd777febdb" title="Tries to create an ActiveX control and embed it in this peer. ">createControl()</a> to instantiate an ActiveX control. The control will then be moved and resized to follow the movements of this component.</p>
-<p>Of course, since the control is a heavyweight window, it'll obliterate any juce components that may overlap this component, but that's life. </p>
+<p>Of course, since the control is a heavyweight window, it'll obliterate any JUCE components that may overlap this component, but that's life. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af7b5ac27646fe23cb28c7aa5d22a3529"></a>
 <div class="memitem">
@@ -797,7 +797,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Tries to create an ActiveX control and embed it in this peer. </p>
-<p>The peer controlIID is a pointer to an IID structure - it's treated as a void* because when including the Juce headers, you might not always have included windows.h first, in which case IID wouldn't be defined.</p>
+<p>The peer controlIID is a pointer to an IID structure - it's treated as a void* because when including the JUCE headers, you might not always have included windows.h first, in which case IID wouldn't be defined.</p>
 <p>e.g.</p>
 <div class="fragment"><div class="line"><span class="keyword">const</span> IID myIID = __uuidof (QTControl);</div>
 <div class="line">myControlComp-&gt;createControl (&amp;myIID);</div>
@@ -862,7 +862,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Does a QueryInterface call on the embedded control object. </p>
 <p>This allows you to cast the control to whatever type of COM object you need.</p>
-<p>The iid parameter is a pointer to an IID structure - it's treated as a void* because when including the Juce headers, you might not always have included windows.h first, in which case IID wouldn't be defined, but you should just pass a pointer to an IID.</p>
+<p>The iid parameter is a pointer to an IID structure - it's treated as a void* because when including the JUCE headers, you might not always have included windows.h first, in which case IID wouldn't be defined, but you should just pass a pointer to an IID.</p>
 <p>e.g.</p>
 <div class="fragment"><div class="line"><span class="keyword">const</span> IID iid = __uuidof (IOleWindow);</div>
 <div class="line"></div>
@@ -995,7 +995,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 28 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 29 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

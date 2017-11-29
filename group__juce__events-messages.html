@@ -97,7 +97,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes derived from this will be automatically deleted when the application exits.  <a href="classDeletedAtShutdown.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedJuceInitialiser__GUI.html">ScopedJuceInitialiser_GUI</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A utility object that helps you initialise and shutdown Juce correctly using an RAII pattern.  <a href="classScopedJuceInitialiser__GUI.html#details">More...</a><br/></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A utility object that helps you initialise and shutdown JUCE correctly using an RAII pattern.  <a href="classScopedJuceInitialiser__GUI.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessage.html">Message</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base class for objects that can be sent to a <a class="el" href="classMessageListener.html" title="MessageListener subclasses can post and receive Message objects. ">MessageListener</a>.  <a href="classMessage.html#details">More...</a><br/></td></tr>
@@ -264,8 +264,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initialises Juce's GUI classes. </p>
-<p>If you're embedding Juce into an application that uses its own event-loop rather than using the START_JUCE_APPLICATION macro, call this function before making any Juce calls, to make sure things are initialised correctly.</p>
-<p>Note that if you're creating a Juce DLL for Windows, you may also need to call the <a class="el" href="classProcess.html#a82a86c921a568fe5af4968de5c42adb7" title="WINDOWS ONLY - Sets a new module handle to be used by the library. ">Process::setCurrentModuleInstanceHandle()</a> method.</p>
+<p>If you're embedding JUCE into an application that uses its own event-loop rather than using the START_JUCE_APPLICATION macro, call this function before making any JUCE calls, to make sure things are initialised correctly.</p>
+<p>Note that if you're creating a JUCE DLL for Windows, you may also need to call the <a class="el" href="classProcess.html#a82a86c921a568fe5af4968de5c42adb7" title="WINDOWS ONLY - Sets a new module handle to be used by the library. ">Process::setCurrentModuleInstanceHandle()</a> method.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by Juce&#39;s GUI classes. ">shutdownJuce_GUI()</a> </dd></dl>
 
 </div>
@@ -284,7 +284,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clears up any static data being used by Juce's GUI classes. </p>
-<p>If you're embedding Juce into an application that uses its own event-loop rather than using the START_JUCE_APPLICATION macro, call this function in your shutdown code to clean up any juce objects that might be lying around.</p>
+<p>If you're embedding JUCE into an application that uses its own event-loop rather than using the START_JUCE_APPLICATION macro, call this function in your shutdown code to clean up any JUCE objects that might be lying around.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises Juce&#39;s GUI classes. ">initialiseJuce_GUI()</a> </dd></dl>
 
 </div>
@@ -292,7 +292,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 28 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 29 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

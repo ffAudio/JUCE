@@ -1442,7 +1442,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the component's width in pixels. </p>
 
-<p>Referenced by <a class="el" href="classTabbedButtonBar.html#a44df869b4403b979c451a0cab3f4f5b8">TabbedButtonBar::getThickness()</a>, and <a class="el" href="classStandaloneFilterWindow.html#a0c395c528f3c5e17233b657719620b1b">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classTabbedButtonBar.html#a44df869b4403b979c451a0cab3f4f5b8">TabbedButtonBar::getThickness()</a>.</p>
 
 </div>
 </div>
@@ -1469,7 +1469,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the component's height in pixels. </p>
 
-<p>Referenced by <a class="el" href="classTabbedButtonBar.html#a44df869b4403b979c451a0cab3f4f5b8">TabbedButtonBar::getThickness()</a>, and <a class="el" href="classStandaloneFilterWindow.html#a0c395c528f3c5e17233b657719620b1b">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classTabbedButtonBar.html#a44df869b4403b979c451a0cab3f4f5b8">TabbedButtonBar::getThickness()</a>.</p>
 
 </div>
 </div>
@@ -2259,8 +2259,6 @@ Static Public Member Functions</h2></td></tr>
 <p>Changes the component's size and centres it within its parent. </p>
 <p>After changing the size, the component will be moved so that it's centred within its parent. If the component is on the desktop (or has no parent component), then it'll be centred within the main monitor area. </p>
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a0c395c528f3c5e17233b657719620b1b">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a42d13229962acb1cdf4328c4a490ffef"></a>
@@ -2694,8 +2692,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Adds a child component to this one, and also makes the child visible if it isn't already. </p>
 <p>This is the same as calling setVisible (true) on the child and then <a class="el" href="classComponent.html#a3340a63ebd9f3a9df41bc0e8fbe3bf0c" title="Adds a child component to this one. ">addChildComponent()</a>. See <a class="el" href="classComponent.html#a3340a63ebd9f3a9df41bc0e8fbe3bf0c" title="Adds a child component to this one. ">addChildComponent()</a> for more details. </p>
-
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a0c395c528f3c5e17233b657719620b1b">StandaloneFilterWindow::StandaloneFilterWindow()</a>.</p>
 
 </div>
 </div>
@@ -4342,7 +4338,7 @@ template&lt;class TargetClass &gt; </div>
 <p>Components can override this method to draw their content. </p>
 <p>The <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content. ">paint()</a> method gets called when a region of a component needs redrawing, either because the component's <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn. ">repaint()</a> method has been called, or because something has happened on the screen that means a section of a window needs to be redrawn.</p>
 <p>Any child components will draw themselves over whatever this method draws. If you need to paint over the top of your child components, you can also implement the <a class="el" href="classComponent.html#aa15dc77c06b5a0a4192090b4a323f79c" title="Components can override this method to draw over the top of their children. ">paintOverChildren()</a> method to do this.</p>
-<p>If you want to cause a component to redraw itself, this is done asynchronously - calling the <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn. ">repaint()</a> method marks a region of the component as "dirty", and the <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content. ">paint()</a> method will automatically be called sometime later, by the message thread, to paint any bits that need refreshing. In Juce (and almost all modern UI frameworks), you never redraw something synchronously.</p>
+<p>If you want to cause a component to redraw itself, this is done asynchronously - calling the <a class="el" href="classComponent.html#af3ab3eabec93dd60faf983370f3a1206" title="Marks the whole component as needing to be redrawn. ">repaint()</a> method marks a region of the component as "dirty", and the <a class="el" href="classComponent.html#a7cf1862f4af5909ea72827898114a182" title="Components can override this method to draw their content. ">paint()</a> method will automatically be called sometime later, by the message thread, to paint any bits that need refreshing. In JUCE (and almost all modern UI frameworks), you never redraw something synchronously.</p>
 <p>You should never need to call this method directly - to take a snapshot of the component you could use <a class="el" href="classComponent.html#a275e46e5a8147f89c142c91ba5c793a5" title="Generates a snapshot of part of this component. ">createComponentSnapshot()</a> or <a class="el" href="classComponent.html#a2c960bd5ec5ac76d18e82b6883096714" title="Draws this component and all its subcomponents onto the specified graphics context. ">paintEntireComponent()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -6165,7 +6161,7 @@ template&lt;class TargetClass &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 28 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 29 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
