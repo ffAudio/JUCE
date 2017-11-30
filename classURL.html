@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classURL-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">URL Class Reference<div class="ingroups"><a class="el" href="group__juce__core-network.html">network</a></div></div>  </div>
@@ -207,6 +208,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab487b0c5d684af5f3b0a678479696105"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105">createInputStream</a> (bool doPostLikeRequest, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, int *statusCode=nullptr, int numRedirectsToFollow=5, <a class="el" href="classString.html">String</a> httpRequestCmd=<a class="el" href="classString.html">String</a>()) const </td></tr>
 <tr class="memdesc:ab487b0c5d684af5f3b0a678479696105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#ab487b0c5d684af5f3b0a678479696105">More...</a><br/></td></tr>
 <tr class="separator:ab487b0c5d684af5f3b0a678479696105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e19b5a3622ca88f9202cb8ec42f8b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputStream.html">OutputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a78e19b5a3622ca88f9202cb8ec42f8b8">createOutputStream</a> () const </td></tr>
+<tr class="memdesc:a78e19b5a3622ca88f9202cb8ec42f8b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open an output stream to a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> for writing.  <a href="#a78e19b5a3622ca88f9202cb8ec42f8b8">More...</a><br/></td></tr>
+<tr class="separator:a78e19b5a3622ca88f9202cb8ec42f8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a591172ae1dbe6598848d83e5eff5f6d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL_1_1DownloadTask.html">DownloadTask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a591172ae1dbe6598848d83e5eff5f6d0">downloadToFile</a> (const <a class="el" href="classFile.html">File</a> &amp;targetLocation, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), <a class="el" href="structURL_1_1DownloadTask_1_1Listener.html">DownloadTask::Listener</a> *listener=nullptr, bool usePostCommand=false)</td></tr>
 <tr class="memdesc:a591172ae1dbe6598848d83e5eff5f6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> to a file.  <a href="#a591172ae1dbe6598848d83e5eff5f6d0">More...</a><br/></td></tr>
 <tr class="separator:a591172ae1dbe6598848d83e5eff5f6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,6 +241,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a8a3e4344e94b6d074df5f7223f9c77"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a9a8a3e4344e94b6d074df5f7223f9c77">createWithoutParsing</a> (const <a class="el" href="classString.html">String</a> &amp;url)</td></tr>
 <tr class="memdesc:a9a8a3e4344e94b6d074df5f7223f9c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> without attempting to remove any embedded parameters from the string.  <a href="#a9a8a3e4344e94b6d074df5f7223f9c77">More...</a><br/></td></tr>
 <tr class="separator:a9a8a3e4344e94b6d074df5f7223f9c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:aa52855861e522d77a650d6dec7cbc980"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#aa52855861e522d77a650d6dec7cbc980">setURLBookmark</a> (<a class="el" href="classURL.html">URL</a> &amp;, void *)</td></tr>
+<tr class="separator:aa52855861e522d77a650d6dec7cbc980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b1e9ce6ef335a59328eb23f73b4b8c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a58b1e9ce6ef335a59328eb23f73b4b8c">getURLBookmark</a> (<a class="el" href="classURL.html">URL</a> &amp;)</td></tr>
+<tr class="separator:a58b1e9ce6ef335a59328eb23f73b4b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> and has a bunch of useful functions to manipulate it. </p>
@@ -1130,6 +1141,24 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a78e19b5a3622ca88f9202cb8ec42f8b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classOutputStream.html">OutputStream</a>* URL::createOutputStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attempts to open an output stream to a <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> for writing. </p>
+<p>This method can only be used for certain scheme types such as local files and content:// URIs on Android. </p>
+
+</div>
+</div>
 <a class="anchor" id="a591172ae1dbe6598848d83e5eff5f6d0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1374,13 +1403,72 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="aa52855861e522d77a650d6dec7cbc980"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setURLBookmark </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classURL.html">URL</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a58b1e9ce6ef335a59328eb23f73b4b8c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* getURLBookmark </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classURL.html">URL</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__URL_8h.html">juce_URL.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 29 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 30 2017 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

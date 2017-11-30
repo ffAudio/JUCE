@@ -104,6 +104,8 @@ var searchData=
   ['getblacklistedfiles',['getBlacklistedFiles',['../classKnownPluginList.html#ad68c90f8aa49a1b61d36ed3eb1aafe12',1,'KnownPluginList']]],
   ['getblacknotelength',['getBlackNoteLength',['../classMidiKeyboardComponent.html#a9d6b952c6d99bed0a4d84b53d368d70b',1,'MidiKeyboardComponent']]],
   ['getblacknotelengthproportion',['getBlackNoteLengthProportion',['../classMidiKeyboardComponent.html#ae0cc6ec03b64f99012979e2692f009ea',1,'MidiKeyboardComponent']]],
+  ['getblacknotewidth',['getBlackNoteWidth',['../classMidiKeyboardComponent.html#ab87c5c3d1f745f6284da86eb7888829c',1,'MidiKeyboardComponent']]],
+  ['getblacknotewidthproportion',['getBlackNoteWidthProportion',['../classMidiKeyboardComponent.html#acc46616d13121e1fc47514a77da60698',1,'MidiKeyboardComponent']]],
   ['getblob',['getBlob',['../classOSCArgument.html#a75b0188e5ea6314ab0d49503095d9e5c',1,'OSCArgument']]],
   ['getblockidforblockincluster',['getBlockIdForBlockInCluster',['../group__LittleFootFunctions.html#ga9fe0d0edf7526345f85fff5e4f329d72',1,'juce_LittleFootFunctions.dox']]],
   ['getblockidforindex',['getBlockIDForIndex',['../group__LittleFootFunctions.html#ga62ddc93ea4be19d990bf08c6719e0a5a',1,'juce_LittleFootFunctions.dox']]],
