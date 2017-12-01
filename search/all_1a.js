@@ -398,6 +398,7 @@ var searchData=
   ['_7eshapebutton',['~ShapeButton',['../classShapeButton.html#a5a3275bba2b41d705d107236ea28e251',1,'ShapeButton']]],
   ['_7esharedresourcepointer',['~SharedResourcePointer',['../classSharedResourcePointer.html#a47c04d52fa4de0490c3d3873dbc2ecf2',1,'SharedResourcePointer']]],
   ['_7esidepanel',['~SidePanel',['../classSidePanel.html#a786b67fd9bf9e9006ab73afae704e4f6',1,'SidePanel']]],
+  ['_7esimdregister',['~SIMDRegister',['../structdsp_1_1SIMDRegister.html#a6869f2e68673ea238c88bc3a8f7b94c4',1,'dsp::SIMDRegister']]],
   ['_7esinglethreadedreferencecountedobject',['~SingleThreadedReferenceCountedObject',['../classSingleThreadedReferenceCountedObject.html#abf19dff5e45014675c24ab5c5235cb90',1,'SingleThreadedReferenceCountedObject']]],
   ['_7eslider',['~Slider',['../classSlider.html#aaca12abbe07a83f925d66339aa332028',1,'Slider']]],
   ['_7esliderattachment',['~SliderAttachment',['../classAudioProcessorValueTreeState_1_1SliderAttachment.html#aecf549281970c64fe7d94160f5acaf70',1,'AudioProcessorValueTreeState::SliderAttachment']]],
