@@ -174,7 +174,7 @@ var searchData=
   ['removealljobs',['removeAllJobs',['../classThreadPool.html#a621253ea8de07a09a6c18238f8d33ced',1,'ThreadPool']]],
   ['removeallpendinglocalnotifications',['removeAllPendingLocalNotifications',['../classPushNotifications.html#af5dc80e3b70b7ba59a98c0ae5d66d5ec',1,'PushNotifications']]],
   ['removeallproperties',['removeAllProperties',['../classValueTree.html#a2f750331b6a680f48751302be9313467',1,'ValueTree']]],
-  ['removeandreturn',['removeAndReturn',['../classArray.html#af1a03b0e4ae3120db6886fea3d895afe',1,'Array::removeAndReturn()'],['../classOwnedArray.html#a835f729e76ae314063c4a7b2e8d208ec',1,'OwnedArray::removeAndReturn()'],['../classReferenceCountedArray.html#aa9a388888e3c833af3e47b903edd0dfc',1,'ReferenceCountedArray::removeAndReturn()']]],
+  ['removeandreturn',['removeAndReturn',['../classArray.html#a1db30bedb108c88d145cf9e13457c65a',1,'Array::removeAndReturn()'],['../classOwnedArray.html#a835f729e76ae314063c4a7b2e8d208ec',1,'OwnedArray::removeAndReturn()'],['../classReferenceCountedArray.html#aa9a388888e3c833af3e47b903edd0dfc',1,'ReferenceCountedArray::removeAndReturn()']]],
   ['removeandreturnitem',['removeAndReturnItem',['../classToolbar.html#a4ee06cb31e5f6444f28b652847cdc3fe',1,'Toolbar']]],
   ['removeattribute',['removeAttribute',['../classXmlElement.html#a5ae4479d33c784716542766ce39ff805',1,'XmlElement']]],
   ['removeaudiocallback',['removeAudioCallback',['../classAudioDeviceManager.html#af6d672043bfc5ca423ea0ca41b5ad2d1',1,'AudioDeviceManager']]],

@@ -5,6 +5,7 @@ var searchData=
   ['days',['days',['../classRelativeTime.html#a97b1773403606835c173f26a0a03f5e6',1,'RelativeTime']]],
   ['deactivatecurrentcontext',['deactivateCurrentContext',['../classOpenGLContext.html#a5a3ece9be728d97e0343ae17a71f6562',1,'OpenGLContext']]],
   ['deassignchannel',['deassignChannel',['../group__LittleFootFunctions.html#ga1be0d36e941d3682f124bbf8b278911c',1,'juce_LittleFootFunctions.dox']]],
+  ['dec',['dec',['../structAtomicIncrementDecrement.html#afc5c7ff1a44205c58bcd26e0281bff2e',1,'AtomicIncrementDecrement::dec()'],['../structAtomicIncrementDecrement_3_01Type_01_5_01_4.html#a55915bdc693818343a627aa35ab75e94',1,'AtomicIncrementDecrement&lt; Type * &gt;::dec()']]],
   ['decibelstogain',['decibelsToGain',['../classDecibels.html#aa8114cb97adb33d7723e8a5bc6f67c18',1,'Decibels']]],
   ['decodeimage',['decodeImage',['../classImageFileFormat.html#a7ece13108d27014ff96e67ce80dd4092',1,'ImageFileFormat::decodeImage()'],['../classPNGImageFormat.html#a673c4af27ec2b84cd2a3c68289956e89',1,'PNGImageFormat::decodeImage()'],['../classJPEGImageFormat.html#a5e8ca3478c69a084e03ec544ce6dfd46',1,'JPEGImageFormat::decodeImage()'],['../classGIFImageFormat.html#a3d590bd7724eb6bbbc66874c64ebc60e',1,'GIFImageFormat::decodeImage()']]],
   ['decreferencecount',['decReferenceCount',['../classReferenceCountedObject.html#a523f06d996130f24b36996b28b83d802',1,'ReferenceCountedObject::decReferenceCount()'],['../classSingleThreadedReferenceCountedObject.html#aa690489ec6e529bf4588c46092d09156',1,'SingleThreadedReferenceCountedObject::decReferenceCount()']]],

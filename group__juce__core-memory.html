@@ -85,8 +85,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicBase.html">AtomicBase&lt; Type &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomic.html">Atomic&lt; Type &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple class to hold a primitive value and perform atomic operations on it.  <a href="classAtomic.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomic_3_01void_01_5_01_4.html">Atomic&lt; void * &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomicIncrementDecrement.html">AtomicIncrementDecrement&lt; Type &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomicIncrementDecrement_3_01Type_01_5_01_4.html">AtomicIncrementDecrement&lt; Type * &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classByteOrder.html">ByteOrder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains static methods for converting the byte order between different endiannesses.  <a href="classByteOrder.html#details">More...</a><br/></td></tr>
@@ -130,6 +138,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ga1b526d9ae416f2ae30d7f84da12db6bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga1b526d9ae416f2ae30d7f84da12db6bc">JUCE_64BIT_ATOMICS_UNAVAILABLE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga1b526d9ae416f2ae30d7f84da12db6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab3639a79598b35f2116f4572af0d93f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gab3639a79598b35f2116f4572af0d93f1">JUCE_LEAK_DETECTOR</a>(OwnerClass)</td></tr>
 <tr class="memdesc:gab3639a79598b35f2116f4572af0d93f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro lets you embed a leak-detecting object inside a class.  <a href="#gab3639a79598b35f2116f4572af0d93f1">More...</a><br/></td></tr>
 <tr class="separator:gab3639a79598b35f2116f4572af0d93f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,6 +269,28 @@ Functions</h2></td></tr>
 <tr class="memitem:ga527cc02f3401c7e99831ab0cb77bb3e2"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga527cc02f3401c7e99831ab0cb77bb3e2">operator!=</a> (const <a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; ObjectType &gt; &amp;pointer, decltype(nullptr)) noexcept</td></tr>
 <tr class="memdesc:ga527cc02f3401c7e99831ab0cb77bb3e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a <a class="el" href="classScopedPointer.html" title="This class holds a pointer which is automatically deleted when this object goes out of scope...">ScopedPointer</a> with a nullptr.  <a href="#ga527cc02f3401c7e99831ab0cb77bb3e2">More...</a><br/></td></tr>
 <tr class="separator:ga527cc02f3401c7e99831ab0cb77bb3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga30bc9133fdccbf4496fc8d9fab013840"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga30bc9133fdccbf4496fc8d9fab013840">AtomicBase&lt; Type &gt;::get</a> () const noexcept</td></tr>
+<tr class="separator:ga30bc9133fdccbf4496fc8d9fab013840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacafe5e585e1e9a17a8c648882d2fc815"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gacafe5e585e1e9a17a8c648882d2fc815">AtomicBase&lt; Type &gt;::exchange</a> (Type) noexcept</td></tr>
+<tr class="separator:gacafe5e585e1e9a17a8c648882d2fc815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a7ba896941874fb59a3f128913a3aaf"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga4a7ba896941874fb59a3f128913a3aaf">Atomic&lt; Type &gt;::operator+=</a> (DiffType amountToAdd) noexcept</td></tr>
+<tr class="memdesc:ga4a7ba896941874fb59a3f128913a3aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically adds a number to this value, returning the new value.  <a href="#ga4a7ba896941874fb59a3f128913a3aaf">More...</a><br/></td></tr>
+<tr class="separator:ga4a7ba896941874fb59a3f128913a3aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07571339cdc9cb7b5f3e92f6e7542b14"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga07571339cdc9cb7b5f3e92f6e7542b14">Atomic&lt; Type &gt;::operator-=</a> (DiffType amountToSubtract) noexcept</td></tr>
+<tr class="memdesc:ga07571339cdc9cb7b5f3e92f6e7542b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically subtracts a number from this value, returning the new value.  <a href="#ga07571339cdc9cb7b5f3e92f6e7542b14">More...</a><br/></td></tr>
+<tr class="separator:ga07571339cdc9cb7b5f3e92f6e7542b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9cc5a6c2e1f07cc097317fe1685819dd"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga9cc5a6c2e1f07cc097317fe1685819dd">Atomic&lt; Type &gt;::operator++</a> () noexcept</td></tr>
+<tr class="memdesc:ga9cc5a6c2e1f07cc097317fe1685819dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically increments this value, returning the new value.  <a href="#ga9cc5a6c2e1f07cc097317fe1685819dd">More...</a><br/></td></tr>
+<tr class="separator:ga9cc5a6c2e1f07cc097317fe1685819dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf3a3f87cb87e822d678dfb67f458895"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gadf3a3f87cb87e822d678dfb67f458895">Atomic&lt; Type &gt;::operator--</a> () noexcept</td></tr>
+<tr class="memdesc:gadf3a3f87cb87e822d678dfb67f458895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically decrements this value, returning the new value.  <a href="#gadf3a3f87cb87e822d678dfb67f458895">More...</a><br/></td></tr>
+<tr class="separator:gadf3a3f87cb87e822d678dfb67f458895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3d36444788b3fff9d57097fdb6a584d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaa3d36444788b3fff9d57097fdb6a584d">AtomicBase&lt; Type &gt;::compareAndSetBool</a> (Type, Type) noexcept</td></tr>
+<tr class="separator:gaa3d36444788b3fff9d57097fdb6a584d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a143452ee2747bf9077c5c556cb0c03"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga8a143452ee2747bf9077c5c556cb0c03">AtomicBase&lt; Type &gt;::compareAndSetValue</a> (Type, Type) noexcept</td></tr>
+<tr class="separator:ga8a143452ee2747bf9077c5c556cb0c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04f1fc54fc2b0e948560dfacc3cdd1db"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga04f1fc54fc2b0e948560dfacc3cdd1db">AtomicBase&lt; Type &gt;::memoryBarrier</a> () noexcept</td></tr>
+<tr class="separator:ga04f1fc54fc2b0e948560dfacc3cdd1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf4c3a3d79adb200b85182e80f5c765c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="group__juce__core-maths.html#ga05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaf4c3a3d79adb200b85182e80f5c765c0">ByteOrder::swap</a> (<a class="el" href="group__juce__core-maths.html#ga05f6b0ae8f6a6e135b0e290c25fe0e4e">uint16</a> <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>) noexcept</td></tr>
 <tr class="memdesc:gaf4c3a3d79adb200b85182e80f5c765c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the upper and lower bytes of a 16-bit integer.  <a href="#gaf4c3a3d79adb200b85182e80f5c765c0">More...</a><br/></td></tr>
 <tr class="separator:gaf4c3a3d79adb200b85182e80f5c765c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -355,6 +387,18 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="ga1b526d9ae416f2ae30d7f84da12db6bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JUCE_64BIT_ATOMICS_UNAVAILABLE&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="gab3639a79598b35f2116f4572af0d93f1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1551,6 +1595,280 @@ template&lt;class ObjectType &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ga30bc9133fdccbf4496fc8d9fab013840"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type <a class="el" href="classAtomicBase.html">AtomicBase</a>&lt; Type &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classAtomic.html#ad39856229e8d4e3da9088d31bad55b9e">Atomic&lt; Thread::ThreadID &gt;::get()</a>, and <a class="el" href="classAtomic_3_01void_01_5_01_4.html#a4ac5ac0d02234fbea3ce7ed186e28138">Atomic&lt; void * &gt;::get()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gacafe5e585e1e9a17a8c648882d2fc815"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type <a class="el" href="classAtomicBase.html">AtomicBase</a>&lt; Type &gt;::exchange </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>newValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classAtomic.html#ac224791c1725400f6cb6a37aa7b4dd7f">Atomic&lt; Thread::ThreadID &gt;::exchange()</a>, <a class="el" href="classAtomic_3_01void_01_5_01_4.html#ab4ff52bad6fdefaf3e34d00ce1676271">Atomic&lt; void * &gt;::exchange()</a>, <a class="el" href="classAtomicBase.html#af01f2c00f2d470fe60f3afd703b765a9">AtomicBase&lt; Thread::ThreadID &gt;::operator=()</a>, and <a class="el" href="classAtomicBase.html#a27c118d0cfdc48a2bbb22839a307f9ac">AtomicBase&lt; Thread::ThreadID &gt;::set()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga4a7ba896941874fb59a3f128913a3aaf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type <a class="el" href="classAtomic.html">Atomic</a>&lt; Type &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAtomic.html#a1e72933a773e5f84bac851aec9ec7b03">DiffType</a>&#160;</td>
+          <td class="paramname"><em>amountToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically adds a number to this value, returning the new value. </p>
+
+</div>
+</div>
+<a class="anchor" id="ga07571339cdc9cb7b5f3e92f6e7542b14"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type <a class="el" href="classAtomic.html">Atomic</a>&lt; Type &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAtomic.html#a1e72933a773e5f84bac851aec9ec7b03">DiffType</a>&#160;</td>
+          <td class="paramname"><em>amountToSubtract</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically subtracts a number from this value, returning the new value. </p>
+
+<p>References <a class="el" href="group__juce__core-text.html#ga6d460ba81bfa9206b0258b8af122bc64">operator+=()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga9cc5a6c2e1f07cc097317fe1685819dd"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type <a class="el" href="classAtomic.html">Atomic</a>&lt; Type &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically increments this value, returning the new value. </p>
+
+<p>References <a class="el" href="structAtomicIncrementDecrement.html#ae3c4ea8eb858efb0381ed3046e7e28cb">AtomicIncrementDecrement&lt; Type &gt;::inc()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gadf3a3f87cb87e822d678dfb67f458895"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type <a class="el" href="classAtomic.html">Atomic</a>&lt; Type &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically decrements this value, returning the new value. </p>
+
+<p>References <a class="el" href="structAtomicIncrementDecrement.html#afc5c7ff1a44205c58bcd26e0281bff2e">AtomicIncrementDecrement&lt; Type &gt;::dec()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaa3d36444788b3fff9d57097fdb6a584d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classAtomicBase.html">AtomicBase</a>&lt; Type &gt;::compareAndSetBool </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>newValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>valueToCompare</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classAtomic.html#a9c0966a21db3a9d4649f8c869bb38fa0">Atomic&lt; Thread::ThreadID &gt;::compareAndSetBool()</a>, and <a class="el" href="classAtomic_3_01void_01_5_01_4.html#af9b280da059cc975c658aa50c4f339b1">Atomic&lt; void * &gt;::compareAndSetBool()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga8a143452ee2747bf9077c5c556cb0c03"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Type <a class="el" href="classAtomicBase.html">AtomicBase</a>&lt; Type &gt;::compareAndSetValue </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>newValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>valueToCompare</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classAtomic.html#a9d80abdbdf76b8afd9cbf9baf8851910">Atomic&lt; Thread::ThreadID &gt;::compareAndSetValue()</a>, and <a class="el" href="classAtomic_3_01void_01_5_01_4.html#acc52bed16ff9b509c6102a0ffe408f43">Atomic&lt; void * &gt;::compareAndSetValue()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga04f1fc54fc2b0e948560dfacc3cdd1db"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classAtomicBase.html">AtomicBase</a>&lt; Type &gt;::memoryBarrier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classAtomic.html#af427d87b6e491f44d6b57551815c89d5">Atomic&lt; Thread::ThreadID &gt;::memoryBarrier()</a>, and <a class="el" href="classAtomic_3_01void_01_5_01_4.html#af2297832bb008acf9b54501ed358613a">Atomic&lt; void * &gt;::memoryBarrier()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="gaf4c3a3d79adb200b85182e80f5c765c0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2407,7 +2725,7 @@ template&lt;class ObjectType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 1 2017 01:00:28 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Dec 5 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -91,7 +91,7 @@ var searchData=
   ['events',['events',['../structVstEventBlock.html#ad61ca31c4fe6303cd4a16f75b02c1930',1,'VstEventBlock']]],
   ['eventtime',['eventTime',['../classMouseEvent.html#ad2980025e848cebfad0d6ad43f61c648',1,'MouseEvent']]],
   ['eventtimestamp',['eventTimestamp',['../structTouchSurface_1_1Touch.html#ad5cba9e5283f8d4ce1d6137bf5610cb1',1,'TouchSurface::Touch']]],
-  ['exchange',['exchange',['../classAtomic.html#ac224791c1725400f6cb6a37aa7b4dd7f',1,'Atomic']]],
+  ['exchange',['exchange',['../classAtomic.html#ac224791c1725400f6cb6a37aa7b4dd7f',1,'Atomic::exchange()'],['../group__juce__core-memory.html#gacafe5e585e1e9a17a8c648882d2fc815',1,'AtomicBase::exchange()'],['../classAtomic_3_01void_01_5_01_4.html#ab4ff52bad6fdefaf3e34d00ce1676271',1,'Atomic&lt; void * &gt;::exchange()']]],
   ['excludecliprectangle',['excludeClipRectangle',['../classLowLevelGraphicsContext.html#a3e116f9953846c0506f06bdc3db24822',1,'LowLevelGraphicsContext::excludeClipRectangle()'],['../classLowLevelGraphicsPostScriptRenderer.html#ad1e23e51c84641b7995b08ba56671e7c',1,'LowLevelGraphicsPostScriptRenderer::excludeClipRectangle()']]],
   ['excludeclipregion',['excludeClipRegion',['../classGraphics.html#a50949e3315daf0cb8c3c0abbdb272720',1,'Graphics']]],
   ['excluderectangle',['excludeRectangle',['../classEdgeTable.html#a2517b763e364f765c9a6db60f007a9f1',1,'EdgeTable']]],
