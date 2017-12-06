@@ -99,15 +99,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a99884e38bb15ac207964deacc29d9c56"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor_1_1Bus.html#a99884e38bb15ac207964deacc29d9c56">isInput</a> () const </td></tr>
-<tr class="memdesc:a99884e38bb15ac207964deacc29d9c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this bus is an input bus.  <a href="#a99884e38bb15ac207964deacc29d9c56">More...</a><br/></td></tr>
-<tr class="separator:a99884e38bb15ac207964deacc29d9c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4aae2c0527a0390e6286c0e9a981e46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor_1_1Bus.html#aa4aae2c0527a0390e6286c0e9a981e46">getBusIndex</a> () const </td></tr>
-<tr class="memdesc:aa4aae2c0527a0390e6286c0e9a981e46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of this bus.  <a href="#aa4aae2c0527a0390e6286c0e9a981e46">More...</a><br/></td></tr>
-<tr class="separator:aa4aae2c0527a0390e6286c0e9a981e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae28be30fbd772e9af64f5eec8f029211"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor_1_1Bus.html#ae28be30fbd772e9af64f5eec8f029211">isMain</a> () const </td></tr>
-<tr class="memdesc:ae28be30fbd772e9af64f5eec8f029211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current bus is the main input or output bus.  <a href="#ae28be30fbd772e9af64f5eec8f029211">More...</a><br/></td></tr>
-<tr class="separator:ae28be30fbd772e9af64f5eec8f029211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af55039b74330d2b1493f61e39cde570c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor_1_1Bus.html#af55039b74330d2b1493f61e39cde570c">isInput</a> () const noexcept</td></tr>
+<tr class="memdesc:af55039b74330d2b1493f61e39cde570c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this bus is an input bus.  <a href="#af55039b74330d2b1493f61e39cde570c">More...</a><br/></td></tr>
+<tr class="separator:af55039b74330d2b1493f61e39cde570c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a095184688f034f80120a90af7e5f5d97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor_1_1Bus.html#a095184688f034f80120a90af7e5f5d97">getBusIndex</a> () const noexcept</td></tr>
+<tr class="memdesc:a095184688f034f80120a90af7e5f5d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of this bus.  <a href="#a095184688f034f80120a90af7e5f5d97">More...</a><br/></td></tr>
+<tr class="separator:a095184688f034f80120a90af7e5f5d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7918ad56e7cd61ded9db670081231fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor_1_1Bus.html#ac7918ad56e7cd61ded9db670081231fe">isMain</a> () const noexcept</td></tr>
+<tr class="memdesc:ac7918ad56e7cd61ded9db670081231fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current bus is the main input or output bus.  <a href="#ac7918ad56e7cd61ded9db670081231fe">More...</a><br/></td></tr>
+<tr class="separator:ac7918ad56e7cd61ded9db670081231fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60b8dbfd65d66a65799f951fb6f51328"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor_1_1Bus.html#a60b8dbfd65d66a65799f951fb6f51328">getName</a> () const noexcept</td></tr>
 <tr class="memdesc:a60b8dbfd65d66a65799f951fb6f51328"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bus's name.  <a href="#a60b8dbfd65d66a65799f951fb6f51328">More...</a><br/></td></tr>
 <tr class="separator:a60b8dbfd65d66a65799f951fb6f51328"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,9 +169,12 @@ Public Member Functions</h2></td></tr>
 <p>Effectively a bus description is a named set of channel types.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioChannelSet.html" title="Represents a set of audio channel types. ">AudioChannelSet</a>, <a class="el" href="classAudioProcessor.html#a9aea2fb2745c0baf3a5fa90a00b14df6" title="Dynamically request an additional bus. ">AudioProcessor::addBus</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a99884e38bb15ac207964deacc29d9c56"></a>
+<a class="anchor" id="af55039b74330d2b1493f61e39cde570c"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessor::Bus::isInput </td>
@@ -180,15 +183,23 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns true if this bus is an input bus. </p>
 
 </div>
 </div>
-<a class="anchor" id="aa4aae2c0527a0390e6286c0e9a981e46"></a>
+<a class="anchor" id="a095184688f034f80120a90af7e5f5d97"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int AudioProcessor::Bus::getBusIndex </td>
@@ -197,15 +208,23 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns the index of this bus. </p>
 
 </div>
 </div>
-<a class="anchor" id="ae28be30fbd772e9af64f5eec8f029211"></a>
+<a class="anchor" id="ac7918ad56e7cd61ded9db670081231fe"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool AudioProcessor::Bus::isMain </td>
@@ -214,6 +233,11 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns true if the current bus is the main input or output bus. </p>
@@ -649,7 +673,7 @@ template&lt;typename FloatType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 5 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 6 2017 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
