@@ -14,6 +14,7 @@ var searchData=
   ['sendnotificationsync',['sendNotificationSync',['../group__juce__events-messages.html#gga25a31a4bdc02a0d0adb743e26dd14ba9a7d155564527e7a503eedb2be0e677e2c',1,'juce_NotificationType.h']]],
   ['separatorbarid',['separatorBarId',['../classToolbarItemFactory.html#a415ffaa38b6306574ad6777ccf6d2ac4a38897536f81bb5f607c2b71757e1e33c',1,'ToolbarItemFactory']]],
   ['separatorcolourid',['separatorColourId',['../classToolbar.html#ae89655c1fc755d7648eedcefcb620bc9a5af4bc29284ef81090fa15f11a0f30e8',1,'Toolbar']]],
+  ['service',['service',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886a2b8ddfc5d49aea3e52b16fda77552898',1,'PushNotifications::Notification']]],
   ['setconfig',['setConfig',['../namespaceBlocksProtocol.html#ad54d15b68ca1356e84793a7c60c5b524a9531f8dec238e91a95dd4486e301566a',1,'BlocksProtocol']]],
   ['setconfigstate',['setConfigState',['../namespaceBlocksProtocol.html#ad54d15b68ca1356e84793a7c60c5b524a087d503f8b4909dee907f632de0d3334',1,'BlocksProtocol']]],
   ['setfewbyteswithlastvalue',['setFewBytesWithLastValue',['../namespaceBlocksProtocol.html#a3ab101fceeb18db84767246616d6f770a9044476b25e129d6eba9c40b734d226a',1,'BlocksProtocol']]],
@@ -28,6 +29,8 @@ var searchData=
   ['showalphachannel',['showAlphaChannel',['../classColourSelector.html#a42bcef80614375bb812096797d7439f4a532b65a28bec85b05e7a1af509d537b3',1,'ColourSelector']]],
   ['showcolourattop',['showColourAtTop',['../classColourSelector.html#a42bcef80614375bb812096797d7439f4ad6696687d1305adef49791cb79f44ab2',1,'ColourSelector']]],
   ['showcolourspace',['showColourspace',['../classColourSelector.html#a42bcef80614375bb812096797d7439f4ab4838306154c4cb269920a01c2a6495b',1,'ColourSelector']]],
+  ['showcompletely',['showCompletely',['../structPushNotifications_1_1Notification.html#a568bf82c27f5e2bb3dda95db616c6e74ad3fed3dafeb70a8b82053cf0f29a00d0',1,'PushNotifications::Notification']]],
+  ['showpartially',['showPartially',['../structPushNotifications_1_1Notification.html#a568bf82c27f5e2bb3dda95db616c6e74a36160dbdafe718cb85868f02b859e576',1,'PushNotifications::Notification']]],
   ['showresettodefaultsbutton',['showResetToDefaultsButton',['../classToolbar.html#a9036434be5b014285c69d2b87841fb3fa0b0997b8269ec1a5b8fb9f6da93ee2c9',1,'Toolbar']]],
   ['showsliders',['showSliders',['../classColourSelector.html#a42bcef80614375bb812096797d7439f4acb7837c2bed5ec3fe11c19408b9d8f68',1,'ColourSelector']]],
   ['singlechannel',['SingleChannel',['../classImage.html#ab47b5746d2df286ae6f8da6af5463c01ab8bd2ed5df42fd15bd349195d81b64b4',1,'Image']]],
@@ -37,7 +40,9 @@ var searchData=
   ['slidecc',['slideCC',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79ac930dcda6c231efe6195697026b52f67',1,'BlocksProtocol']]],
   ['slidemode',['slideMode',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a4db4ee799aaa23db696a44ccae72c523',1,'BlocksProtocol']]],
   ['slidesensitivity',['slideSensitivity',['../classControlButton.html#a891776295057786f99f14631b1aa2794acca11dd1c754621ac2d4ef3686f68e60',1,'ControlButton::slideSensitivity()'],['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a8f5980da036dc1cbfb7606420f4d5463',1,'BlocksProtocol::slideSensitivity()']]],
+  ['small',['small',['../structPushNotifications_1_1Notification.html#afd2a1061a669e3573ff9e0f7e5ea07fea0c5fadc8803dda79477fe24ec8515a31',1,'PushNotifications::Notification']]],
   ['snap',['snap',['../classControlButton.html#a891776295057786f99f14631b1aa2794ac1514f029b82b12f7617e3b81472bea0',1,'ControlButton']]],
+  ['social',['social',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886ab380425fac6abcd1692f6905e0d817a8',1,'PushNotifications::Notification']]],
   ['sortable',['sortable',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831acb2ae4c6ff02d7f6d9621f70340c2012',1,'TableHeaderComponent']]],
   ['sortalphabetically',['sortAlphabetically',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a13fa4bc46bb8b6c70670f13fa2a8ad4e',1,'KnownPluginList']]],
   ['sortbycategory',['sortByCategory',['../classKnownPluginList.html#a6beabfccc86796527f663f30f3514098a2a27fc73f320a500d812f660663eee11',1,'KnownPluginList']]],
@@ -58,6 +63,7 @@ var searchData=
   ['start',['start',['../classGrid.html#afbf79b83305b5be690b37136e2b08ed0aea2b2676c28c0db26d39331a336c6b92',1,'Grid::start()'],['../classGrid.html#a2da60621ddd7f571005268e6a4c02c95aea2b2676c28c0db26d39331a336c6b92',1,'Grid::start()'],['../classGrid.html#a409e1ab0e5437a211a6c0234f6dff4f6aea2b2676c28c0db26d39331a336c6b92',1,'Grid::start()'],['../classGrid.html#a2b6407a788846a62b2c1c39e48dbe93caea2b2676c28c0db26d39331a336c6b92',1,'Grid::start()'],['../classGridItem.html#acdffd5a5ee38b411ae6766f7daf733c6aea2b2676c28c0db26d39331a336c6b92',1,'GridItem::start()'],['../classGridItem.html#a329b27636a1396f65ea1cf4118fc7002aea2b2676c28c0db26d39331a336c6b92',1,'GridItem::start()']]],
   ['startnewsubpath',['startNewSubPath',['../classPath_1_1Iterator.html#a62b1a329e3fdbcbdad78bb6c90c7bcfdaebfff5dcac5415d6c7274ad2ef633215',1,'Path::Iterator']]],
   ['startsubpathelement',['startSubPathElement',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9aacd2c47de9bdc570838c943b21b058e5',1,'RelativePointPath']]],
+  ['status',['status',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886af01e45779ae0f7b4128d63dd98bae5e7',1,'PushNotifications::Notification']]],
   ['steinbergcubase4',['SteinbergCubase4',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8ac364901a67009772e9870bfcae9d7090',1,'PluginHostType']]],
   ['steinbergcubase5',['SteinbergCubase5',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8afddd08fe15ce7ccf7781dd0dd4cd0cbd',1,'PluginHostType']]],
   ['steinbergcubase5bridged',['SteinbergCubase5Bridged',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5f89e0578cf0b6bbfc5d90460890c2eb',1,'PluginHostType']]],
@@ -88,5 +94,6 @@ var searchData=
   ['sustained',['sustained',['../structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a3394b891d4bdd77fd39d141102c4a4bd',1,'MPENote']]],
   ['switched',['switched',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0ae278b856f84c176f8a1628c118e902fc',1,'AppleRemoteDevice']]],
   ['symboltype',['symbolType',['../classExpression.html#aa416ac50fdbe8bdea9c59f5c78f0c85baef74a77024f2e22f163d3b2346b99162',1,'Expression']]],
-  ['sysex',['sysex',['../group__LittleFootFunctions.html#gga8005f1f182fd0248a710ca64f72508d4a2868e44729ef465f8774fb5bd3947fca',1,'juce_LittleFootFunctions.dox']]]
+  ['sysex',['sysex',['../group__LittleFootFunctions.html#gga8005f1f182fd0248a710ca64f72508d4a2868e44729ef465f8774fb5bd3947fca',1,'juce_LittleFootFunctions.dox']]],
+  ['system',['system',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886ae90c0697c51bd3c69049e9896d6e9abe',1,'PushNotifications::Notification']]]
 ];

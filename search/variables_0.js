@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['accentcolour',['accentColour',['../structPushNotifications_1_1Notification.html#a6130e6fb2632f565b03fe1e83aaa0d9b',1,'PushNotifications::Notification']]],
   ['accumulationbufferalphabits',['accumulationBufferAlphaBits',['../classOpenGLPixelFormat.html#aa3bfc867775483eed692c117c44c4da6',1,'OpenGLPixelFormat']]],
   ['accumulationbufferbluebits',['accumulationBufferBlueBits',['../classOpenGLPixelFormat.html#abc38758c1e8b54f5002a0518c78c328d',1,'OpenGLPixelFormat']]],
   ['accumulationbuffergreenbits',['accumulationBufferGreenBits',['../classOpenGLPixelFormat.html#a473582e91fe1a2c9c1585185ee57e03c',1,'OpenGLPixelFormat']]],
@@ -14,9 +15,10 @@ var searchData=
   ['acidrootset',['acidRootSet',['../classWavAudioFormat.html#a1a41fd73c4b5cda2314cb18953804e11',1,'WavAudioFormat']]],
   ['acidstretch',['acidStretch',['../classWavAudioFormat.html#a2e7ca2a8981dd749b7eb8aff8fb3ef8a',1,'WavAudioFormat']]],
   ['acidtempo',['acidTempo',['../classWavAudioFormat.html#ac534d5f34f226b43dd6c03387f9aa9a5',1,'WavAudioFormat']]],
-  ['actions',['actions',['../structPushNotifications_1_1Settings_1_1Category.html#a9d683623a02780751a4ade7f0db55220',1,'PushNotifications::Settings::Category']]],
+  ['actions',['actions',['../structPushNotifications_1_1Notification.html#a0a9804791528133bf6a31f293300e29e',1,'PushNotifications::Notification::actions()'],['../structPushNotifications_1_1Settings_1_1Category.html#a9d683623a02780751a4ade7f0db55220',1,'PushNotifications::Settings::Category::actions()']]],
   ['active',['active',['../classIIRFilter.html#ace0c7930049d2cca00bebc4b7f9c3a82',1,'IIRFilter']]],
   ['address',['address',['../structlittlefoot_1_1Compiler_1_1CodeGenerator_1_1MarkerAndAddress.html#aae4d6b05b1e4a5b166fe19e8495a2416',1,'littlefoot::Compiler::CodeGenerator::MarkerAndAddress::address()'],['../classIPAddress.html#a2be5eab7b1b7d2e39d8d5367642f3004',1,'IPAddress::address()']]],
+  ['alertonlyonce',['alertOnlyOnce',['../structPushNotifications_1_1Notification.html#ab134a2585ba8b5064397ed3c56202af0',1,'PushNotifications::Notification']]],
   ['aliceblue',['aliceblue',['../classColours.html#aa90d486409e9c3634ec3f9abbaeb14d7',1,'Colours']]],
   ['aligncontent',['alignContent',['../classFlexBox.html#a8e1ae8a873d7ff198f439d3088192bcf',1,'FlexBox::alignContent()'],['../classGrid.html#a315d33b518dd1dc90068a51822b030ac',1,'Grid::alignContent()']]],
   ['alignitems',['alignItems',['../classFlexBox.html#a9e928c10773d54e50e4bfcfc2814f541',1,'FlexBox::alignItems()'],['../classGrid.html#a1ea337d65d875793edcfd4b195040f39',1,'Grid::alignItems()']]],
@@ -24,6 +26,7 @@ var searchData=
   ['allmemory',['allMemory',['../structlittlefoot_1_1Runner.html#ad0ff9af73ebe752e5b0021a6dc4d6ac7',1,'littlefoot::Runner']]],
   ['allowalert',['allowAlert',['../structPushNotifications_1_1Settings.html#adb0e3b50f514b8179823c55b4c5ee295',1,'PushNotifications::Settings']]],
   ['allowbadge',['allowBadge',['../structPushNotifications_1_1Settings.html#a36b3ffa30490b4a45cc7817186f29a14',1,'PushNotifications::Settings']]],
+  ['allowedresponses',['allowedResponses',['../structPushNotifications_1_1Notification_1_1Action.html#a3d60731f473175aa7dbe1b853227ed8b',1,'PushNotifications::Notification::Action']]],
   ['allowsound',['allowSound',['../structPushNotifications_1_1Settings.html#ab9d707cf7dc2476213ac57ecb6a0cd4d',1,'PushNotifications::Settings']]],
   ['alphabits',['alphaBits',['../classOpenGLPixelFormat.html#a4d947e7a9831d9158f2a0b519d7d3497',1,'OpenGLPixelFormat']]],
   ['anchor',['anchor',['../classTextLayout_1_1Glyph.html#a5ed7fd244c70a76748ced04c222cfb87',1,'TextLayout::Glyph']]],

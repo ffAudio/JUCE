@@ -8,6 +8,7 @@ var searchData=
   ['unknownhost',['UnknownHost',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a1c752bc3862092e36ae81d35612e0763',1,'PluginHostType']]],
   ['unknowninstruction',['unknownInstruction',['../structlittlefoot_1_1Runner.html#a8bee4ec6b7ef24029af89651ecd452c9a447753cb7b28e87df3e72384caf41dcf',1,'littlefoot::Runner']]],
   ['unknownos',['UnknownOS',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa5c49c960dbbdd90f196e55237d268f03',1,'SystemStats']]],
+  ['unspecified',['unspecified',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886a51991f458fd433dfe2821ebabb899774',1,'PushNotifications::Notification']]],
   ['up',['up',['../classControlButton.html#a891776295057786f99f14631b1aa2794a4fe52d5d0ca24d13da9a3aa436615c90',1,'ControlButton::up()'],['../structDrumPadGridProgram.html#ae0883fdca11734f26ab431b89c52255fac78595093d85411cd8dd90149f7f5b85',1,'DrumPadGridProgram::up()']]],
   ['updateconfig',['updateConfig',['../namespaceBlocksProtocol.html#ad54d15b68ca1356e84793a7c60c5b524a76e24fa39a3019c30b46aac24dd0dbc0',1,'BlocksProtocol']]],
   ['updateuserconfig',['updateUserConfig',['../namespaceBlocksProtocol.html#ad54d15b68ca1356e84793a7c60c5b524a78c8896cfdb8903dd3653d4b187e5cb6',1,'BlocksProtocol']]],

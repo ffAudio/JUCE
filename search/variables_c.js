@@ -17,7 +17,7 @@ var searchData=
   ['mat10',['mat10',['../classAffineTransform.html#af75941aa8f1180b3b324732613780740',1,'AffineTransform']]],
   ['mat11',['mat11',['../classAffineTransform.html#a808a65da0b88a09f0e2ac752fd2648ef',1,'AffineTransform']]],
   ['mat12',['mat12',['../classAffineTransform.html#ae26718eb62e1240ad8f800f7e7ce3a74',1,'AffineTransform']]],
-  ['max',['max',['../structBlockConfigManager_1_1ConfigDescription.html#add78fbe617a4b3bc3ac08b85b6a24637',1,'BlockConfigManager::ConfigDescription']]],
+  ['max',['max',['../structBlockConfigManager_1_1ConfigDescription.html#add78fbe617a4b3bc3ac08b85b6a24637',1,'BlockConfigManager::ConfigDescription::max()'],['../structPushNotifications_1_1Notification_1_1Progress.html#a7b640edb7dd3f94da1a01b3e33c65451',1,'PushNotifications::Notification::Progress::max()']]],
   ['maxheight',['maxHeight',['../classFlexItem.html#a166fa48e4268692cce0419f8ed5ad56a',1,'FlexItem::maxHeight()'],['../classGridItem.html#aebe1c6bf8c616570acf4021b32d9572a',1,'GridItem::maxHeight()']]],
   ['maximumblocksize',['maximumBlockSize',['../structdsp_1_1ProcessSpec.html#aa57b782ce7ef5dd262ed688b39d7ac26',1,'dsp::ProcessSpec']]],
   ['maximumexecutiontime',['maximumExecutionTime',['../classJavascriptEngine.html#a4a08635cda469509d851264f9fcf2c46',1,'JavascriptEngine']]],
@@ -53,6 +53,8 @@ var searchData=
   ['modificationtime',['modificationTime',['../structDirectoryContentsList_1_1FileInfo.html#a35f194ff92e35671d7616d1d9e1524b7',1,'DirectoryContentsList::FileInfo']]],
   ['mods',['mods',['../classMouseEvent.html#aaabc365b704e243b193b41113d4e50de',1,'MouseEvent']]],
   ['mousedowntime',['mouseDownTime',['../classMouseEvent.html#a0636f798ed2f13b00d9927a275016c3e',1,'MouseEvent']]],
+  ['mstobeoff',['msToBeOff',['../structPushNotifications_1_1Notification_1_1LedBlinkPattern.html#a09acefee2562c54b6e6fc9d8a64d66a3',1,'PushNotifications::Notification::LedBlinkPattern']]],
+  ['mstobeon',['msToBeOn',['../structPushNotifications_1_1Notification_1_1LedBlinkPattern.html#aefc8bc1d79e2e9013a26d4c4cecd8875',1,'PushNotifications::Notification::LedBlinkPattern']]],
   ['multisamplinglevel',['multisamplingLevel',['../classOpenGLPixelFormat.html#afa2032cde8affb7698f038ba5784365a',1,'OpenGLPixelFormat']]],
   ['musicalposition',['musicalPosition',['../structVstTimingInformation.html#aeca45f565ed1c0175beb01484cf3a0d9',1,'VstTimingInformation']]]
 ];

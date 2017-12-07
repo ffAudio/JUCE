@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['icon',['icon',['../structPushNotifications_1_1Notification_1_1Action.html#a58ac4140dcf5271800e1cdb14cd1d709',1,'PushNotifications::Notification::Action::icon()'],['../structPushNotifications_1_1Notification.html#aab28676de02331d6929926f8dcaf621d',1,'PushNotifications::Notification::icon()']]],
   ['id3album',['id3album',['../classOggVorbisAudioFormat.html#ab00862fe52a02021c8f34df09002a7e7',1,'OggVorbisAudioFormat']]],
   ['id3artist',['id3artist',['../classOggVorbisAudioFormat.html#ac88645d7fd07e48cd71ee8ad7b559e95',1,'OggVorbisAudioFormat']]],
   ['id3comment',['id3comment',['../classOggVorbisAudioFormat.html#a9bcec7c7659b16b1f2852a10e4a93b4c',1,'OggVorbisAudioFormat']]],
@@ -7,7 +8,7 @@ var searchData=
   ['id3genre',['id3genre',['../classOggVorbisAudioFormat.html#a847fe9bee42986db987526a470c9656a',1,'OggVorbisAudioFormat']]],
   ['id3title',['id3title',['../classOggVorbisAudioFormat.html#a531f4523711824414005c291cb9c697b',1,'OggVorbisAudioFormat']]],
   ['id3tracknumber',['id3trackNumber',['../classOggVorbisAudioFormat.html#a8e62f3cf046edc5ac4d859fd27f30c51',1,'OggVorbisAudioFormat']]],
-  ['identifier',['identifier',['../structPushNotifications_1_1Settings_1_1Category.html#a7a16cc95c307432f6502b5cef3c91705',1,'PushNotifications::Settings::Category::identifier()'],['../structPushNotifications_1_1Channel.html#a6dce78b77fe8fb7aa56214de38dab116',1,'PushNotifications::Channel::identifier()'],['../structPushNotifications_1_1ChannelGroup.html#a1e36cdd925a332877e5040b356dfdc03',1,'PushNotifications::ChannelGroup::identifier()'],['../structInAppPurchases_1_1Product.html#acafb3d9767164ece22a2f95bd74ce751',1,'InAppPurchases::Product::identifier()']]],
+  ['identifier',['identifier',['../structPushNotifications_1_1Notification_1_1Action.html#a3830686b118d58a2a4230001656f7951',1,'PushNotifications::Notification::Action::identifier()'],['../structPushNotifications_1_1Notification.html#a6d835a3d61e23b1342ff1e0de3857a5b',1,'PushNotifications::Notification::identifier()'],['../structPushNotifications_1_1Settings_1_1Category.html#a7a16cc95c307432f6502b5cef3c91705',1,'PushNotifications::Settings::Category::identifier()'],['../structPushNotifications_1_1Channel.html#a6dce78b77fe8fb7aa56214de38dab116',1,'PushNotifications::Channel::identifier()'],['../structPushNotifications_1_1ChannelGroup.html#a1e36cdd925a332877e5040b356dfdc03',1,'PushNotifications::ChannelGroup::identifier()'],['../structInAppPurchases_1_1Product.html#acafb3d9767164ece22a2f95bd74ce751',1,'InAppPurchases::Product::identifier()']]],
   ['idproperty',['idProperty',['../classComponentBuilder.html#aded44aa66f9f06a544e758dc6391664e',1,'ComponentBuilder']]],
   ['ignorecaseofkeynames',['ignoreCaseOfKeyNames',['../structPropertiesFile_1_1Options.html#a430d4a3168ac0be324f7a5c8a40f514a',1,'PropertiesFile::Options']]],
   ['image',['image',['../classFillType.html#a10bd0d13433133545b26ea3894b3c641',1,'FillType::image()'],['../classDrawableImage_1_1ValueTreeWrapper.html#a2926330f303d36706fe0f2fa865bd798',1,'DrawableImage::ValueTreeWrapper::image()'],['../structPopupMenu_1_1Item.html#a2533be9faa4eac392ae5d21d4eb10768',1,'PopupMenu::Item::image()']]],
@@ -15,6 +16,7 @@ var searchData=
   ['imageopacity',['imageOpacity',['../classDrawableShape_1_1FillAndStrokeState.html#a5103d236724f9a2757d7ae78f058dbf6',1,'DrawableShape::FillAndStrokeState']]],
   ['immediately',['immediately',['../classOSCTimeTag.html#acc9dc841287eccfc21cbe030c473111c',1,'OSCTimeTag']]],
   ['importance',['importance',['../structPushNotifications_1_1Channel.html#a5e3ef96c7d505e4cc500bec621050577',1,'PushNotifications::Channel']]],
+  ['indeterminate',['indeterminate',['../structPushNotifications_1_1Notification_1_1Progress.html#a157c9028d9bbeee92332a298740ae272',1,'PushNotifications::Notification::Progress']]],
   ['index',['index',['../structVstEffectInterface.html#a5a98c772a3c0208bd5473d687659f8cd',1,'VstEffectInterface::index()'],['../structBlock_1_1ConnectionPort.html#a01544db019387950e10d511a23817614',1,'Block::ConnectionPort::index()'],['../structTouchSurface_1_1Touch.html#a465f1d2a737768682eb5a2b69b3c8f26',1,'TouchSurface::Touch::index()'],['../structlittlefoot_1_1Compiler_1_1CodeGenerator_1_1Marker.html#a04b8e56ddb911fad02af78daa8c97474',1,'littlefoot::Compiler::CodeGenerator::Marker::index()'],['../structBlocksProtocol_1_1DeviceStatus.html#aaca78b3c47e2355bbd3d61f0a7b91e03',1,'BlocksProtocol::DeviceStatus::index()'],['../structBlocksProtocol_1_1DeviceVersion.html#aa22c4b72ae8a47e7b89d78bb64263222',1,'BlocksProtocol::DeviceVersion::index()'],['../structBlocksProtocol_1_1DeviceName.html#a7a9f931b4de17c4ba8d34a1bab191b20',1,'BlocksProtocol::DeviceName::index()']]],
   ['indianred',['indianred',['../classColours.html#a5a356968d2d4f49b369afa56c0ec3f43',1,'Colours']]],
   ['indigo',['indigo',['../classColours.html#a087ca459fcd267cdda383c5bf5ab0f0e',1,'Colours']]],
@@ -63,7 +65,6 @@ var searchData=
   ['issectionheader',['isSectionHeader',['../structPopupMenu_1_1Item.html#a0a362bd33e4eb4ec8946c654014149d2',1,'PopupMenu::Item']]],
   ['isseparator',['isSeparator',['../structPopupMenu_1_1Item.html#aaa1315800a3586af05b9213ef1ed182a',1,'PopupMenu::Item']]],
   ['issmooth',['isSmooth',['../structMouseWheelDetails.html#a01a4af26811a69fe0465d6797cc122d3',1,'MouseWheelDetails']]],
-  ['issuspended',['isSuspended',['../classAnalytics.html#a075b84c9f107ba407a59c1478623c198',1,'Analytics']]],
   ['isticked',['isTicked',['../structPopupMenu_1_1Item.html#a06e1905971ec79f5e810149655e59af6',1,'PopupMenu::Item']]],
   ['istouchend',['isTouchEnd',['../structTouchSurface_1_1Touch.html#aee5e426dccf104d28083af3b67f38151',1,'TouchSurface::Touch']]],
   ['istouchstart',['isTouchStart',['../structTouchSurface_1_1Touch.html#abbb23178c550bc0a0a7ddd40fb931002',1,'TouchSurface::Touch']]],

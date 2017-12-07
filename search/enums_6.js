@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hosttype',['HostType',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8',1,'PluginHostType']]]
+  ['groupalertbehaviour',['GroupAlertBehaviour',['../structPushNotifications_1_1Notification.html#a0b0ce080a35f9ebf967b04058be893ec',1,'PushNotifications::Notification']]]
 ];

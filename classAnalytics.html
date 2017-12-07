@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -71,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -84,7 +85,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classAnalytics-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Analytics Class Reference<div class="ingroups"><a class="el" href="group__juce__analytics-analytics.html">analytics</a></div></div>  </div>
@@ -117,18 +117,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a08e81ee784704639e45d5d3c69087c1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a08e81ee784704639e45d5d3c69087c1f">setSuspended</a> (bool shouldBeSuspended)</td></tr>
 <tr class="memdesc:a08e81ee784704639e45d5d3c69087c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspends analytics submission to AnalyticsDestinations.  <a href="#a08e81ee784704639e45d5d3c69087c1f">More...</a><br/></td></tr>
 <tr class="separator:a08e81ee784704639e45d5d3c69087c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a174d19cff18057dc217e089efbaa82c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-memory.html#gac46b66c5d38d6bd3a937af241d152a44">juce_DeclareSingleton</a>(<a class="el" href="classAnalytics.html">Analytics</a>, <br class="typebreak"/>
-true) private <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a174d19cff18057dc217e089efbaa82c9">userId</a></td></tr>
-<tr class="separator:a174d19cff18057dc217e089efbaa82c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7990d994d977ac8aa384de1c5921ae3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringPairArray.html">StringPairArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#ab7990d994d977ac8aa384de1c5921ae3">userProperties</a></td></tr>
-<tr class="separator:ab7990d994d977ac8aa384de1c5921ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a075b84c9f107ba407a59c1478623c198"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a075b84c9f107ba407a59c1478623c198">isSuspended</a> = false</td></tr>
-<tr class="separator:a075b84c9f107ba407a59c1478623c198"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5745563d6bd0bf954e68aaad577a26e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="structAnalyticsDestination.html">AnalyticsDestination</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a5745563d6bd0bf954e68aaad577a26e2">destinations</a></td></tr>
-<tr class="separator:a5745563d6bd0bf954e68aaad577a26e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -282,62 +270,13 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a174d19cff18057dc217e089efbaa82c9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__juce__core-memory.html#gac46b66c5d38d6bd3a937af241d152a44">juce_DeclareSingleton</a> (<a class="el" href="classAnalytics.html">Analytics</a>, true) private <a class="el" href="classString.html">String</a> Analytics::userId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab7990d994d977ac8aa384de1c5921ae3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classStringPairArray.html">StringPairArray</a> Analytics::userProperties</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a075b84c9f107ba407a59c1478623c198"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Analytics::isSuspended = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5745563d6bd0bf954e68aaad577a26e2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classOwnedArray.html">OwnedArray</a>&lt;<a class="el" href="structAnalyticsDestination.html">AnalyticsDestination</a>&gt; Analytics::destinations</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__Analytics_8h.html">juce_Analytics.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 6 2017 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 7 2017 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

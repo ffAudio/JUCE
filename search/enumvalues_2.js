@@ -2,6 +2,7 @@ var searchData=
 [
   ['cakewalksonar8',['CakewalkSonar8',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a9346912590305747f0c38d7c3208de17',1,'PluginHostType']]],
   ['cakewalksonargeneric',['CakewalkSonarGeneric',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a0b64ed512c677bef44381479de35c425',1,'PluginHostType']]],
+  ['call',['call',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886ac0cf2d883f0dba78427b3e97f05e42ee',1,'PushNotifications::Notification']]],
   ['cancelled',['cancelled',['../structInAppPurchases_1_1Download.html#a5291a850795414d13ff21f08de0f5a7da38881e0a24039dc2621e1d6f86cb71f7',1,'InAppPurchases::Download']]],
   ['canselectdirectories',['canSelectDirectories',['../classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6ab7e808e7b8a33afb0150e9ea6047c2dd',1,'FileBrowserComponent']]],
   ['canselectfiles',['canSelectFiles',['../classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6a07878819a9559235bff2789c1fdbd8e9',1,'FileBrowserComponent']]],
@@ -16,6 +17,7 @@ var searchData=
   ['centredtop',['centredTop',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbca3a44a2451bf933ef23b99d19c53db3a5',1,'Justification']]],
   ['centresurround',['centreSurround',['../classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652ea1dac16a2969777c1255fb1e074e0f452',1,'AudioChannelSet']]],
   ['chord',['chord',['../classControlButton.html#a891776295057786f99f14631b1aa2794ab542ef25973fab8e5c2d404281d0532d',1,'ControlButton::chord()'],['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a5946d7ec62d3eb031c5d7bb6cad409ea',1,'BlocksProtocol::chord()']]],
+  ['chronometer',['chronometer',['../structPushNotifications_1_1Notification.html#ae15fe6967de9288cf08cf3f394f852c6ac4377d021aa5107658715c2f485d6d7f',1,'PushNotifications::Notification']]],
   ['click',['click',['../classControlButton.html#a891776295057786f99f14631b1aa2794ac8335e20c2d77b2a60b7dfe6c95b4144',1,'ControlButton']]],
   ['closebutton',['closeButton',['../classDocumentWindow.html#a104d68bc145157c6ce79169a36fc3c31a80e87a70beeecc78adc89517fa1df978',1,'DocumentWindow']]],
   ['closepath',['closePath',['../classPath_1_1Iterator.html#a62b1a329e3fdbcbdad78bb6c90c7bcfda38a8ed95a6ef321e0a558c3807bac952',1,'Path::Iterator']]],
@@ -44,6 +46,7 @@ var searchData=
   ['copy',['copy',['../namespaceStandardApplicationCommandIDs.html#a7888896f76408059bfe6a8ac9db5c984a3584c202667823072c928fd699725466',1,'StandardApplicationCommandIDs']]],
   ['copyingcursor',['CopyingCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97abe0154531e3b7b07ea1241be32850c3c',1,'MouseCursor']]],
   ['coreaudiohoasn3dlayouttag',['coreAudioHOASN3DLayoutTag',['../structjuce_1_1CoreAudioLayouts.html#acb094b97ddf71d66115775ff3ddabe82a92697805ee1cd21c5221ca7e4152ed35',1,'juce::CoreAudioLayouts']]],
+  ['countdownchronometer',['countDownChronometer',['../structPushNotifications_1_1Notification.html#ae15fe6967de9288cf08cf3f394f852c6a7f74a5fbaaff50766da087627c7c1d93',1,'PushNotifications::Notification']]],
   ['crosshaircursor',['CrosshairCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97add4ed956814986c922cdeae70fdad9d3',1,'MouseCursor']]],
   ['ctrlaltcommandmodifiers',['ctrlAltCommandModifiers',['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba2647f9ed4b2db164973d8b735f3b216a',1,'ModifierKeys']]],
   ['ctrlmodifier',['ctrlModifier',['../classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba1328b9c57c54ec51dbbfacb537cc737b',1,'ModifierKeys']]],

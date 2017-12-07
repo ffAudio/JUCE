@@ -78,5 +78,6 @@ var searchData=
   ['presssensitivity',['pressSensitivity',['../classControlButton.html#a891776295057786f99f14631b1aa2794acfd2544e0c838cfeb444fc95ce8d3b37',1,'ControlButton']]],
   ['pressuresensitivity',['pressureSensitivity',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a9c90900cb1d7eb5321331d9f1ebb8452',1,'BlocksProtocol']]],
   ['programeventmessage',['programEventMessage',['../namespaceBlocksProtocol.html#abee50d102d121b2b0bfe5e6704f94d0ea9283291fdb038f5f77a68b5dfbfcfd46',1,'BlocksProtocol::programEventMessage()'],['../namespaceBlocksProtocol.html#abee50d102d121b2b0bfe5e6704f94d0ea5c2c992fda89945d916a0bcef7e24d4c',1,'BlocksProtocol::programEventMessage()'],['../namespaceBlocksProtocol.html#abee50d102d121b2b0bfe5e6704f94d0ea5c2c992fda89945d916a0bcef7e24d4c',1,'BlocksProtocol::programEventMessage()']]],
+  ['promo',['promo',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886a894ec0e07eefb970b53352a591f005d7',1,'PushNotifications::Notification']]],
   ['putnumbersinbrackets',['putNumbersInBrackets',['../classTemporaryFile.html#af04f4ef2ea1bee0b20cdb4c072442e8da756fae13005d397744383ecd04539914',1,'TemporaryFile']]]
 ];

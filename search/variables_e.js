@@ -5,6 +5,7 @@ var searchData=
   ['oldlace',['oldlace',['../classColours.html#a8854bc208ff4c18d1359d48061801eed',1,'Colours']]],
   ['olive',['olive',['../classColours.html#afa863de7d2e3c645092e981ef4b47349',1,'Colours']]],
   ['olivedrab',['olivedrab',['../classColours.html#a470482f79ccbabc1cfe7c44e4123acfd',1,'Colours']]],
+  ['ongoing',['ongoing',['../structPushNotifications_1_1Notification.html#a6c506f4a331cd7a88540a514c8b689c8',1,'PushNotifications::Notification']]],
   ['op',['op',['../structVstEffectInterface.html#ae9e2049d1a535490eab468bf76f2fb6a',1,'VstEffectInterface::op()'],['../structlittlefoot_1_1Compiler_1_1FunctionCall_1_1BuiltInFunction.html#a5050bc138e342a11f083cf11d5d85778',1,'littlefoot::Compiler::FunctionCall::BuiltInFunction::op()']]],
   ['opacity',['opacity',['../classDrawableImage_1_1ValueTreeWrapper.html#a2eb3f522f2a263945932325aec6c8ffd',1,'DrawableImage::ValueTreeWrapper']]],
   ['openglcontext',['openGLContext',['../classOpenGLAppComponent.html#a1237b3326c1c7c571107548d4fc20cf8',1,'OpenGLAppComponent']]],

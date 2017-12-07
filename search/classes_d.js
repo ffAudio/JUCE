@@ -13,5 +13,6 @@ var searchData=
   ['nodeandchannel',['NodeAndChannel',['../structAudioProcessorGraph_1_1NodeAndChannel.html',1,'AudioProcessorGraph']]],
   ['normalisablerange',['NormalisableRange',['../classNormalisableRange.html',1,'']]],
   ['normalisablerange_3c_20float_20_3e',['NormalisableRange&lt; float &gt;',['../classNormalisableRange.html',1,'']]],
+  ['notification',['Notification',['../structPushNotifications_1_1Notification.html',1,'PushNotifications']]],
   ['nsviewcomponent',['NSViewComponent',['../classNSViewComponent.html',1,'']]]
 ];

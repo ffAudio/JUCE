@@ -11,7 +11,7 @@ var searchData=
   ['version1',['version1',['../structvst2FxBank.html#ab189deec49c098dc2b584d44477b13f8',1,'vst2FxBank']]],
   ['version2',['version2',['../structvst2FxBank.html#a7ae72ef85595f74ce8a52353a2fca307',1,'vst2FxBank']]],
   ['versionnumber',['versionNumber',['../classBlock.html#ab0a9f022d5a0f691f753e4b8203c4d4c',1,'Block']]],
-  ['vibrationpattern',['vibrationPattern',['../structPushNotifications_1_1Channel.html#a7b0ab8e6ce7d3fecb538cb74730ea818',1,'PushNotifications::Channel']]],
+  ['vibrationpattern',['vibrationPattern',['../structPushNotifications_1_1Notification.html#a11d67737e656b05529698fe54c7bc5f1',1,'PushNotifications::Notification::vibrationPattern()'],['../structPushNotifications_1_1Channel.html#a7b0ab8e6ce7d3fecb538cb74730ea818',1,'PushNotifications::Channel::vibrationPattern()']]],
   ['violet',['violet',['../classColours.html#a47d1f14979982a28936c5ec4f90e82aa',1,'Colours']]],
   ['voices',['voices',['../classMPESynthesiser.html#ae8ff04bfb33a5de6d649ed78bab37274',1,'MPESynthesiser::voices()'],['../classSynthesiser.html#a260d964d6764a51b2315233e0bf76980',1,'Synthesiser::voices()']]],
   ['voiceslock',['voicesLock',['../classMPESynthesiser.html#a7431fe9de7fd7b6216e5526406691e09',1,'MPESynthesiser']]],

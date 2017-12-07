@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['badgeicontype',['BadgeIconType',['../structPushNotifications_1_1Notification.html#afd2a1061a669e3573ff9e0f7e5ea07fe',1,'PushNotifications::Notification']]],
   ['bitsizes',['BitSizes',['../namespaceBlocksProtocol.html#abee50d102d121b2b0bfe5e6704f94d0e',1,'BlocksProtocol']]],
   ['bubbleplacement',['BubblePlacement',['../classBubbleComponent.html#aba96d481d723fd2549f497ccd7ed41a3',1,'BubbleComponent']]],
   ['buttonfunction',['ButtonFunction',['../classControlButton.html#a891776295057786f99f14631b1aa2794',1,'ControlButton']]],

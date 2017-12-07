@@ -3,7 +3,7 @@ var searchData=
   ['octave',['octave',['../classControlButton.html#a891776295057786f99f14631b1aa2794a340de50f29503c78ff28749dead05530',1,'ControlButton::octave()'],['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a3ae6840d1c1e774fefa4226ef68ea795',1,'BlocksProtocol::octave()']]],
   ['octavetopology',['octaveTopology',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a1a9cc654549a979e66c8549189608bb1',1,'BlocksProtocol']]],
   ['odditemscolourid',['oddItemsColourId',['../classTreeView.html#abeebe6dbdc6ae466495aabc64eb51d6aae28e90557dcf45d9ab9f18d22cd01269',1,'TreeView']]],
-  ['off',['off',['../structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b',1,'MPENote']]],
+  ['off',['off',['../structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b',1,'MPENote::off()'],['../structPushNotifications_1_1Notification.html#ae15fe6967de9288cf08cf3f394f852c6a75aaa8521751b8009d180a09e00e975c',1,'PushNotifications::Notification::off()']]],
   ['ok',['ok',['../structlittlefoot_1_1Runner.html#a8bee4ec6b7ef24029af89651ecd452c9a444bcb3a3fcf8389296c49467f27e1d6',1,'littlefoot::Runner']]],
   ['onlyincreaseinsize',['onlyIncreaseInSize',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda54aea49f09ca4f2ac6e5c81859067b7d',1,'RectanglePlacement']]],
   ['onlyreduceinsize',['onlyReduceInSize',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda32d2c8f0142b82c188af878548f4d238',1,'RectanglePlacement']]],

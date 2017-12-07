@@ -117,6 +117,7 @@ var searchData=
   ['heapblock_3c_20popupmenu_3a_3aitem_20_2a_20_3e',['HeapBlock&lt; PopupMenu::Item * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20positionedglyph_20_3e',['HeapBlock&lt; PositionedGlyph &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20progressbar_20_2a_20_3e',['HeapBlock&lt; ProgressBar * &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20pushnotifications_3a_3anotification_3a_3aaction_20_3e',['HeapBlock&lt; PushNotifications::Notification::Action &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20pushnotifications_3a_3apushnotifications_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; PushNotifications::PushNotifications::Listener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20pushnotifications_3a_3asettings_3a_3acategory_20_3e',['HeapBlock&lt; PushNotifications::Settings::Category &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20range_3c_20int_20_3e_20_3e',['HeapBlock&lt; Range&lt; int &gt; &gt;',['../classHeapBlock.html',1,'']]],

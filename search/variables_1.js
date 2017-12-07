@@ -1,6 +1,8 @@
 var searchData=
 [
   ['backspacekey',['backspaceKey',['../classKeyPress.html#a035471d297e6f91fc8e86d91539da361',1,'KeyPress']]],
+  ['badgeicontype',['badgeIconType',['../structPushNotifications_1_1Notification.html#a3c98736545afceca72fb3b687fae90b4',1,'PushNotifications::Notification']]],
+  ['badgenumber',['badgeNumber',['../structPushNotifications_1_1Notification.html#a26221328434151a2769f681734155477',1,'PushNotifications::Notification']]],
   ['batterycharging',['batteryCharging',['../structBlocksProtocol_1_1DeviceStatus.html#a8ca8398567d29e74f7c62729454c534c',1,'BlocksProtocol::DeviceStatus']]],
   ['batterylevel',['batteryLevel',['../structBlocksProtocol_1_1DeviceStatus.html#a6ae88e346c3f7d918530bf03e022c9a0',1,'BlocksProtocol::DeviceStatus']]],
   ['behaviour',['behaviour',['../classAnimatedPosition.html#a8dee430f7730c4f6ff98b7f53d2f1d7b',1,'AnimatedPosition']]],
@@ -18,6 +20,7 @@ var searchData=
   ['blue',['blue',['../classColours.html#a6a834cffeaa15537e4781d8d24968a87',1,'Colours']]],
   ['bluebits',['blueBits',['../classOpenGLPixelFormat.html#a309d74a66aa876591508d76573597a04',1,'OpenGLPixelFormat']]],
   ['blueviolet',['blueviolet',['../classColours.html#a1720311a325df81523fac5513a1253a1',1,'Colours']]],
+  ['body',['body',['../structPushNotifications_1_1Notification.html#a6511da8d84be37a1bc4dcd62ad731f5a',1,'PushNotifications::Notification']]],
   ['bottom',['bottom',['../structFlexItem_1_1Margin.html#a536dd94d80a74fdb271b3c57943d90d8',1,'FlexItem::Margin::bottom()'],['../structGridItem_1_1Margin.html#a45795971ac320f976d7a91bd918022e4',1,'GridItem::Margin::bottom()'],['../structRelativeCoordinate_1_1Strings.html#a1926a95dd993f12e970056199edb70fb',1,'RelativeCoordinate::Strings::bottom()'],['../classRelativeRectangle.html#a9575cf18e56f073da861de4b55ae9d57',1,'RelativeRectangle::bottom()']]],
   ['bottomleft',['bottomLeft',['../classDrawableComposite_1_1ValueTreeWrapper.html#ad52741ce0a23d56efc8563a97e16a4d6',1,'DrawableComposite::ValueTreeWrapper::bottomLeft()'],['../classDrawableImage_1_1ValueTreeWrapper.html#a645b1394e866d6d7c3a32b85fc3c9c4f',1,'DrawableImage::ValueTreeWrapper::bottomLeft()'],['../classDrawableRectangle_1_1ValueTreeWrapper.html#aa6b275efad14fda5688b27a786410c69',1,'DrawableRectangle::ValueTreeWrapper::bottomLeft()'],['../classDrawableText_1_1ValueTreeWrapper.html#a3ba68bedf56180c1563b22bc5cd1f8f8',1,'DrawableText::ValueTreeWrapper::bottomLeft()'],['../classRelativeParallelogram.html#a511fddacbb033a3c4afb228aa664e603',1,'RelativeParallelogram::bottomLeft()']]],
   ['bpm',['bpm',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a70442777df0b88595ac6865acd936722',1,'AudioPlayHead::CurrentPositionInfo']]],

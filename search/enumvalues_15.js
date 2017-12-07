@@ -6,6 +6,8 @@ var searchData=
   ['verticalkeyboardfacingleft',['verticalKeyboardFacingLeft',['../classMidiKeyboardComponent.html#a6f6844672df93f8f631fa7e22cf0cdafa9c90bd6998f744646d80f46f7dfa80a7',1,'MidiKeyboardComponent']]],
   ['verticalkeyboardfacingright',['verticalKeyboardFacingRight',['../classMidiKeyboardComponent.html#a6f6844672df93f8f631fa7e22cf0cdafae068b9f8ab1fd8850cdd7e3f26f8eb1c',1,'MidiKeyboardComponent']]],
   ['verticallycentred',['verticallyCentred',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbca8a4ec09c32a9a1111e72ec7a9b6f9411',1,'Justification']]],
+  ['veryhigh',['veryHigh',['../structPushNotifications_1_1Notification.html#a90a1b86b07e15d5cc253e904c66e8b70a273721bfb6054e388dc64b135e3d6413',1,'PushNotifications::Notification']]],
+  ['verylow',['veryLow',['../structPushNotifications_1_1Notification.html#a90a1b86b07e15d5cc253e904c66e8b70a60816fa9412bb62cedbbcffaef598d7e',1,'PushNotifications::Notification']]],
   ['visible',['visible',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831a7f601c3d9bc982c5e1ba5797dc9e1973',1,'TableHeaderComponent']]],
   ['void_5f',['void_',['../namespacelittlefoot.html#a4fb4051df81acdbcaa446ab5a02dd8e7ada11add8aadb6bd651f74d36402f4d66',1,'littlefoot']]],
   ['volume',['volume',['../classControlButton.html#a891776295057786f99f14631b1aa2794a45e67203fbd33289e4cb8d3b5f3b66ed',1,'ControlButton::volume()'],['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a5904d5686629cfdce2d84b69023453c2',1,'BlocksProtocol::volume()']]],
