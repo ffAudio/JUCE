@@ -10,5 +10,6 @@ var searchData=
   ['keysignaturemetaevent',['keySignatureMetaEvent',['../classMidiMessage.html#af293098dc762316469a0bb1edfa4f53c',1,'MidiMessage']]],
   ['keystatechanged',['keyStateChanged',['../classMidiKeyboardComponent.html#a6dd0d6d6b7a12124c1b9cd5d6b64c198',1,'MidiKeyboardComponent::keyStateChanged()'],['../classKeyPressMappingSet.html#a0329856dd3e6ec50d64114f197045491',1,'KeyPressMappingSet::keyStateChanged()'],['../classComponent.html#aeff4d2fdbae4d5974e43b62ab3c304f9',1,'Component::keyStateChanged()'],['../classKeyListener.html#aa3efa1c9c4ebfb754c9d68180a40b6c7',1,'KeyListener::keyStateChanged()'],['../classComboBox.html#a35cf3423079da7b0605956fb9ec39174',1,'ComboBox::keyStateChanged()'],['../classListBox.html#a84e49fbbf1ddf3af400f06e741ee0910',1,'ListBox::keyStateChanged()'],['../classTextEditor.html#a616706ad06c8a6a1c00f62a4c6e0d448',1,'TextEditor::keyStateChanged()']]],
   ['kill',['kill',['../classChildProcess.html#a524fd75e18a0aa94a8518ce49432413c',1,'ChildProcess']]],
+  ['killslaveprocess',['killSlaveProcess',['../classChildProcessMaster.html#a24cc02de67be6dd5e976c2e1c35cddba',1,'ChildProcessMaster']]],
   ['knownpluginlist',['KnownPluginList',['../classKnownPluginList.html#a9e42fc0a1b1819ad21a734f6380fb1a9',1,'KnownPluginList']]]
 ];

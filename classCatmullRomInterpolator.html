@@ -106,9 +106,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab45fe99084ea9fa7e55ee47004615550"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCatmullRomInterpolator.html#ab45fe99084ea9fa7e55ee47004615550">process</a> (double speedRatio, const float *inputSamples, float *outputSamples, int numOutputSamplesToProduce) noexcept</td></tr>
 <tr class="memdesc:ab45fe99084ea9fa7e55ee47004615550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resamples a stream of samples.  <a href="#ab45fe99084ea9fa7e55ee47004615550">More...</a><br/></td></tr>
 <tr class="separator:ab45fe99084ea9fa7e55ee47004615550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5540651e4ebc49ba05729585857c4ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCatmullRomInterpolator.html#ac5540651e4ebc49ba05729585857c4ae">process</a> (double speedRatio, const float *inputSamples, float *outputSamples, int numOutputSamplesToProduce, int available, int wrapAround) noexcept</td></tr>
+<tr class="memdesc:ac5540651e4ebc49ba05729585857c4ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resamples a stream of samples.  <a href="#ac5540651e4ebc49ba05729585857c4ae">More...</a><br/></td></tr>
+<tr class="separator:ac5540651e4ebc49ba05729585857c4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ee27f940e8ee293768a3283a6c63276"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCatmullRomInterpolator.html#a8ee27f940e8ee293768a3283a6c63276">processAdding</a> (double speedRatio, const float *inputSamples, float *outputSamples, int numOutputSamplesToProduce, float gain) noexcept</td></tr>
 <tr class="memdesc:a8ee27f940e8ee293768a3283a6c63276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resamples a stream of samples, adding the results to the output data with a gain.  <a href="#a8ee27f940e8ee293768a3283a6c63276">More...</a><br/></td></tr>
 <tr class="separator:a8ee27f940e8ee293768a3283a6c63276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab558a3d7cc0cd897861d69fbe03ef31b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCatmullRomInterpolator.html#ab558a3d7cc0cd897861d69fbe03ef31b">processAdding</a> (double speedRatio, const float *inputSamples, float *outputSamples, int numOutputSamplesToProduce, int available, int wrapAround, float gain) noexcept</td></tr>
+<tr class="memdesc:ab558a3d7cc0cd897861d69fbe03ef31b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resamples a stream of samples, adding the results to the output data with a gain.  <a href="#ab558a3d7cc0cd897861d69fbe03ef31b">More...</a><br/></td></tr>
+<tr class="separator:ab558a3d7cc0cd897861d69fbe03ef31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interpolator for resampling a stream of floats using Catmull-Rom interpolation. </p>
@@ -246,6 +252,78 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac5540651e4ebc49ba05729585857c4ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CatmullRomInterpolator::process </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speedRatio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>inputSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>outputSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numOutputSamplesToProduce</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>available</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>wrapAround</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resamples a stream of samples. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">speedRatio</td><td>the number of input samples to use for each output sample </td></tr>
+    <tr><td class="paramname">inputSamples</td><td>the source data to read from. This must contain at least (speedRatio * numOutputSamplesToProduce) samples. </td></tr>
+    <tr><td class="paramname">outputSamples</td><td>the buffer to write the results into </td></tr>
+    <tr><td class="paramname">numOutputSamplesToProduce</td><td>the number of output samples that should be created </td></tr>
+    <tr><td class="paramname">available</td><td>the number of available input samples. If it needs more samples than available, it either wraps back for wrapAround samples, or it feeds zeroes </td></tr>
+    <tr><td class="paramname">wrapAround</td><td>if the stream exceeds available samples, it wraps back for wrapAround samples. If wrapAround is set to 0, it will feed zeroes.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the actual number of input samples that were used </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a8ee27f940e8ee293768a3283a6c63276"></a>
 <div class="memitem">
 <div class="memproto">
@@ -311,13 +389,92 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab558a3d7cc0cd897861d69fbe03ef31b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CatmullRomInterpolator::processAdding </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>speedRatio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>inputSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>outputSamples</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numOutputSamplesToProduce</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>available</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>wrapAround</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resamples a stream of samples, adding the results to the output data with a gain. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">speedRatio</td><td>the number of input samples to use for each output sample </td></tr>
+    <tr><td class="paramname">inputSamples</td><td>the source data to read from. This must contain at least (speedRatio * numOutputSamplesToProduce) samples. </td></tr>
+    <tr><td class="paramname">outputSamples</td><td>the buffer to write the results to - the result values will be added to any pre-existing data in this buffer after being multiplied by the gain factor </td></tr>
+    <tr><td class="paramname">numOutputSamplesToProduce</td><td>the number of output samples that should be created </td></tr>
+    <tr><td class="paramname">available</td><td>the number of available input samples. If it needs more samples than available, it either wraps back for wrapAround samples, or it feeds zeroes </td></tr>
+    <tr><td class="paramname">wrapAround</td><td>if the stream exceeds available samples, it wraps back for wrapAround samples. If wrapAround is set to 0, it will feed zeroes. </td></tr>
+    <tr><td class="paramname">gain</td><td>a gain factor to multiply the resulting samples by before adding them to the destination buffer</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the actual number of input samples that were used </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__CatmullRomInterpolator_8h.html">juce_CatmullRomInterpolator.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 7 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 8 2017 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

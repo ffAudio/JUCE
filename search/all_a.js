@@ -25,6 +25,7 @@ var searchData=
   ['keyword',['Keyword',['../classGridItem.html#a642bb074bd7fbbf3448a50067e082f29',1,'GridItem']]],
   ['khaki',['khaki',['../classColours.html#a3dbd6496fffe6448949acef248ddb3f6',1,'Colours']]],
   ['kill',['kill',['../classChildProcess.html#a524fd75e18a0aa94a8518ce49432413c',1,'ChildProcess']]],
+  ['killslaveprocess',['killSlaveProcess',['../classChildProcessMaster.html#a24cc02de67be6dd5e976c2e1c35cddba',1,'ChildProcessMaster']]],
   ['knownpluginlist',['KnownPluginList',['../classKnownPluginList.html',1,'KnownPluginList'],['../classKnownPluginList.html#a9e42fc0a1b1819ad21a734f6380fb1a9',1,'KnownPluginList::KnownPluginList()']]],
   ['kplugcateganalysis',['kPlugCategAnalysis',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a33016aaefb7b6266b64b2acc6fe1a34b',1,'juce_VSTInterface.h']]],
   ['kplugcategeffect',['kPlugCategEffect',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350ad31c1e5f938ce881dc149ac8c7f5d0e1',1,'juce_VSTInterface.h']]],
