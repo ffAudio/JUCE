@@ -408,6 +408,7 @@ var searchData=
   ['issectionopen',['isSectionOpen',['../classPropertyPanel.html#a1e6203d3944d38363567f171e79eb4d7',1,'PropertyPanel']]],
   ['isselected',['isSelected',['../classSelectedItemSet.html#a431e7bbc3d316e1822596563b49adc73',1,'SelectedItemSet::isSelected()'],['../classTreeViewItem.html#a96351e2c95b73bf170b8818774a63cf6',1,'TreeViewItem::isSelected()']]],
   ['isshiftdown',['isShiftDown',['../classModifierKeys.html#afd9f4558046eccad2c3a3366c6bcf6b0',1,'ModifierKeys']]],
+  ['isshortcut',['isShortcut',['../classFile.html#a652df87a6aa3f8385e97895c5b2cfdbd',1,'File']]],
   ['isshowing',['isShowing',['../classComponent.html#acbbdd1274a2d0e9447e42c7ee7753dfe',1,'Component']]],
   ['issimdaligned',['isSIMDAligned',['../structdsp_1_1SIMDRegister.html#a2615629aee806ef6b0990301544d2170',1,'dsp::SIMDRegister']]],
   ['issinglechannel',['isSingleChannel',['../classImage.html#a1176ae108a31a0f4b7b4be6b86bc6181',1,'Image']]],

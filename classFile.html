@@ -129,7 +129,10 @@ Public Types</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dafdae061dc559a8e9ac3a9623d2cd8081">invokedExecutableFile</a>, 
 <a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dafab1d75c642d3f8eb23564f1cfb408a3">hostApplicationPath</a>, 
-<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dad4f66736251eab2cdaa21dd5a709ed21">globalApplicationsDirectory</a>
+<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da136a833b01572278717c702ddde213ce">windowsSystemDirectory</a>, 
+<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dad4f66736251eab2cdaa21dd5a709ed21">globalApplicationsDirectory</a>, 
+<br/>
+&#160;&#160;<a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313daf546c8ff08e2ace7856e72422586cbd4">globalApplicationsDirectoryX86</a>
 <br/>
  }</td></tr>
 <tr class="memdesc:a3e19cafabb03c5838160263a6e76313d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of types of location that can be passed to the <a class="el" href="classFile.html#a2a4396bc0e6f8b0430f6f54d029899e5" title="Finds the location of a special type of file or directory, such as a home folder or documents folder...">getSpecialLocation()</a> method.  <a href="classFile.html#a3e19cafabb03c5838160263a6e76313d">More...</a><br/></td></tr>
@@ -374,6 +377,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6bbe2fbfc5436894574380b185fc2f87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a6bbe2fbfc5436894574380b185fc2f87">getLinkedTarget</a> () const </td></tr>
 <tr class="memdesc:a6bbe2fbfc5436894574380b185fc2f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this file is a link or alias, this returns the file that it points to.  <a href="#a6bbe2fbfc5436894574380b185fc2f87">More...</a><br/></td></tr>
 <tr class="separator:a6bbe2fbfc5436894574380b185fc2f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa0b11b5ec08ab3842d7117975c295a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#afa0b11b5ec08ab3842d7117975c295a0">createShortcut</a> (const <a class="el" href="classString.html">String</a> &amp;description, const <a class="el" href="classFile.html">File</a> &amp;linkFileToCreate) const </td></tr>
+<tr class="memdesc:afa0b11b5ec08ab3842d7117975c295a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Windows ONLY - Creates a win32 .LNK shortcut file that links to this file.  <a href="#afa0b11b5ec08ab3842d7117975c295a0">More...</a><br/></td></tr>
+<tr class="separator:afa0b11b5ec08ab3842d7117975c295a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a652df87a6aa3f8385e97895c5b2cfdbd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a652df87a6aa3f8385e97895c5b2cfdbd">isShortcut</a> () const </td></tr>
+<tr class="memdesc:a652df87a6aa3f8385e97895c5b2cfdbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Windows ONLY - Returns true if this is a win32 .LNK file.  <a href="#a652df87a6aa3f8385e97895c5b2cfdbd">More...</a><br/></td></tr>
+<tr class="separator:a652df87a6aa3f8385e97895c5b2cfdbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e68c24206a274e21ce7777aa2a0d295"><td class="memItemLeft" align="right" valign="top">OSType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a4e68c24206a274e21ce7777aa2a0d295">getMacOSType</a> () const </td></tr>
 <tr class="memdesc:a4e68c24206a274e21ce7777aa2a0d295"><td class="mdescLeft">&#160;</td><td class="mdescRight">OSX ONLY - Finds the OSType of a file from the its resources.  <a href="#a4e68c24206a274e21ce7777aa2a0d295">More...</a><br/></td></tr>
 <tr class="separator:a4e68c24206a274e21ce7777aa2a0d295"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -528,9 +537,17 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313dafab1d75c642d3f8eb23564f1cfb408a3"></a>hostApplicationPath</em>&#160;</td><td class="fielddoc">
 <p>In a plugin, this will return the path of the host executable. </p>
 </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313da136a833b01572278717c702ddde213ce"></a>windowsSystemDirectory</em>&#160;</td><td class="fielddoc">
+<p>On a Windows machine, returns the location of the Windows/System32 folder. </p>
+</td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313dad4f66736251eab2cdaa21dd5a709ed21"></a>globalApplicationsDirectory</em>&#160;</td><td class="fielddoc">
 <p>The directory in which applications normally get installed. </p>
 <p>So on windows, this would be something like "C:\Program Files", on the Mac "/Applications", or "/usr" on linux. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a3e19cafabb03c5838160263a6e76313daf546c8ff08e2ace7856e72422586cbd4"></a>globalApplicationsDirectoryX86</em>&#160;</td><td class="fielddoc">
+<p>On a Windows machine, returns the directory in which 32 bit applications normally get installed. </p>
+<p>On a 64 bit machine this would be something like "C:\Program Files (x86)", whereas for 32 bit machines this would match globalApplicationsDirectory and be something like "C:\Program Files".</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dad4f66736251eab2cdaa21dd5a709ed21" title="The directory in which applications normally get installed. ">globalApplicationsDirectory</a> </dd></dl>
 </td></tr>
 </table>
 
@@ -2673,6 +2690,51 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afa0b11b5ec08ab3842d7117975c295a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool File::createShortcut </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>linkFileToCreate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Windows ONLY - Creates a win32 .LNK shortcut file that links to this file. </p>
+
+</div>
+</div>
+<a class="anchor" id="a652df87a6aa3f8385e97895c5b2cfdbd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool File::isShortcut </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Windows ONLY - Returns true if this is a win32 .LNK file. </p>
+
+</div>
+</div>
 <a class="anchor" id="a4e68c24206a274e21ce7777aa2a0d295"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2730,7 +2792,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 11 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Dec 12 2017 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

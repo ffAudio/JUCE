@@ -35,6 +35,7 @@ var searchData=
   ['windows7',['Windows7',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaad260305d49564b976ea39d057c71d490',1,'SystemStats']]],
   ['windows8_5f0',['Windows8_0',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa7f8df0a5a0b0cefe6a61417d08da9e69',1,'SystemStats']]],
   ['windows8_5f1',['Windows8_1',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa88a5787da3863bd5553168c5271e5b36',1,'SystemStats']]],
+  ['windowssystemdirectory',['windowsSystemDirectory',['../classFile.html#a3e19cafabb03c5838160263a6e76313da136a833b01572278717c702ddde213ce',1,'File']]],
   ['winvista',['WinVista',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaae9197b9bc532344d2641a414036a35f0',1,'SystemStats']]],
   ['winxp',['WinXP',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaad72958e105bc6eb69321f2696a74aa51',1,'SystemStats']]],
   ['wow64_5f32bit',['WoW64_32bit',['../classWindowsRegistry.html#a7d8812634430aef14423cd2d70cf38d8aebdad7d4910de1d81c338585cc3b3500',1,'WindowsRegistry']]],
