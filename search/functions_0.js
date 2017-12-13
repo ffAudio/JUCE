@@ -179,6 +179,7 @@ var searchData=
   ['addxy',['addXY',['../classPoint.html#a555fd3f808036a24d9ba1f4079430712',1,'Point']]],
   ['addzone',['addZone',['../classMPEMessages.html#a892d1ee5c734a8b92fa114c7d49e5e38',1,'MPEMessages::addZone()'],['../classMPEZoneLayout.html#a2539db09285894f55239d72481f087cd',1,'MPEZoneLayout::addZone()']]],
   ['adjustedtogivenewresult',['adjustedToGiveNewResult',['../classExpression.html#acc82cfe769a77bbf86288990d1bdc817',1,'Expression']]],
+  ['advance',['advance',['../structdsp_1_1Phase.html#a39a4d5b6b73022891432851d99040880',1,'dsp::Phase']]],
   ['affinetransform',['AffineTransform',['../classAffineTransform.html#af920ca0af025f2c337ce6342dc127c12',1,'AffineTransform::AffineTransform() noexcept'],['../classAffineTransform.html#a1a35a2dab8547478314c2a3fcfa27efd',1,'AffineTransform::AffineTransform(const AffineTransform &amp;other) noexcept'],['../classAffineTransform.html#a22e8e27cf365cbd18474863a840b5f0e',1,'AffineTransform::AffineTransform(float mat00, float mat01, float mat02, float mat10, float mat11, float mat12) noexcept']]],
   ['aftertouchchange',['aftertouchChange',['../classMidiMessage.html#a650e86fdb73ee07e68594e9296edba45',1,'MidiMessage']]],
   ['aftertouchchanged',['aftertouchChanged',['../classSynthesiserVoice.html#a9b5ada8bbf89e4be218b6ffecb770b30',1,'SynthesiserVoice']]],

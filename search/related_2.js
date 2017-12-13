@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['juce_5fcontentsharergetstreamtypes',['juce_contentSharerGetStreamTypes',['../classContentSharer.html#a367219c60d577e1a2655d769f2b3bf15',1,'ContentSharer']]],
+  ['juce_5fcontentshareropenfile',['juce_contentSharerOpenFile',['../classContentSharer.html#a03a502d73dbd3f091c8f5aaad79b84db',1,'ContentSharer']]],
+  ['juce_5fcontentsharerquery',['juce_contentSharerQuery',['../classContentSharer.html#afc462a31a8164e4161cb9b27cf502f5c',1,'ContentSharer']]],
+  ['juce_5fcontentsharingcompleted',['juce_contentSharingCompleted',['../classContentSharer.html#a0daa04dd5fe74dda16cf14e506810417',1,'ContentSharer']]],
   ['juce_5ffirebasedevicenotificationstokenrefreshed',['juce_firebaseDeviceNotificationsTokenRefreshed',['../classPushNotifications.html#ab65f32a9e3976da59fb85a1448f436c7',1,'PushNotifications']]],
   ['juce_5ffirebaseremotemessagesdeleted',['juce_firebaseRemoteMessagesDeleted',['../classPushNotifications.html#a74e270493bf82ffd747a9605ee751b36',1,'PushNotifications']]],
   ['juce_5ffirebaseremotemessagesenderror',['juce_firebaseRemoteMessageSendError',['../classPushNotifications.html#accc3f82e8d837740046a00b7a3826dcb',1,'PushNotifications']]],

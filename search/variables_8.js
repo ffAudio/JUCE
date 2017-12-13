@@ -30,6 +30,7 @@ var searchData=
   ['inputs',['inputs',['../structVstEffectInterface.html#a2ecc279bc01e3d13897652824a79b73e',1,'VstEffectInterface::inputs()'],['../structVstEffectInterface.html#a3b5b71680a1d73cdb912ef1f906c50f1',1,'VstEffectInterface::inputs()']]],
   ['insertedtext',['insertedText',['../structTextDiff_1_1Change.html#a6ddf900c18c62706054a85342c100f9a',1,'TextDiff::Change']]],
   ['insertkey',['insertKey',['../classKeyPress.html#af62c3ffd333fc440eca6596b56df48b8',1,'KeyPress']]],
+  ['instance',['instance',['../structSingletonHolder.html#ae8ff7f824ffd2694be7a2b5b3f8fc03c',1,'SingletonHolder']]],
   ['instrument',['instrument',['../structMPESynthesiserBase.html#a714dfff07d6efda0363f4f0e62839482',1,'MPESynthesiserBase']]],
   ['int32',['int32',['../classOSCTypes.html#a385cc294c1427151d8bf7a260f0719e6',1,'OSCTypes']]],
   ['interfaceidentifier',['interfaceIdentifier',['../structVstEffectInterface.html#ae351b8d58b4b16522c439ce3ebab8416',1,'VstEffectInterface']]],

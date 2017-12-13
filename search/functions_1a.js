@@ -400,6 +400,7 @@ var searchData=
   ['_7esidepanel',['~SidePanel',['../classSidePanel.html#a786b67fd9bf9e9006ab73afae704e4f6',1,'SidePanel']]],
   ['_7esimdregister',['~SIMDRegister',['../structdsp_1_1SIMDRegister.html#a7078192f09f2ca4b649aca6cc1463845',1,'dsp::SIMDRegister']]],
   ['_7esinglethreadedreferencecountedobject',['~SingleThreadedReferenceCountedObject',['../classSingleThreadedReferenceCountedObject.html#abf19dff5e45014675c24ab5c5235cb90',1,'SingleThreadedReferenceCountedObject']]],
+  ['_7esingletonholder',['~SingletonHolder',['../structSingletonHolder.html#a54c1eb5fe706ba88cfbc5edc04b72c5d',1,'SingletonHolder']]],
   ['_7eslider',['~Slider',['../classSlider.html#aaca12abbe07a83f925d66339aa332028',1,'Slider']]],
   ['_7esliderattachment',['~SliderAttachment',['../classAudioProcessorValueTreeState_1_1SliderAttachment.html#aecf549281970c64fe7d94160f5acaf70',1,'AudioProcessorValueTreeState::SliderAttachment']]],
   ['_7esliderpropertycomponent',['~SliderPropertyComponent',['../classSliderPropertyComponent.html#a62dca91705c2af7c440327ebf4f9b627',1,'SliderPropertyComponent']]],

@@ -86,34 +86,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">juce_Singleton.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSingletonHolder.html">SingletonHolder&lt; Type, MutexType, onlyCreateOncePerRun &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by the JUCE_DECLARE_SINGLETON macros to manage a static pointer to a singleton instance.  <a href="structSingletonHolder.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:gac46b66c5d38d6bd3a937af241d152a44"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gac46b66c5d38d6bd3a937af241d152a44">juce_DeclareSingleton</a>(classname, doNotRecreateAfterDeletion)</td></tr>
-<tr class="memdesc:gac46b66c5d38d6bd3a937af241d152a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="group__juce__core-memory.html#gac46b66c5d38d6bd3a937af241d152a44">More...</a><br/></td></tr>
-<tr class="separator:gac46b66c5d38d6bd3a937af241d152a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga514301c5c269b87e3a3e3da3a6640f8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga514301c5c269b87e3a3e3da3a6640f8f">juce_ImplementSingleton</a>(classname)</td></tr>
-<tr class="memdesc:ga514301c5c269b87e3a3e3da3a6640f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a counterpart to the juce_DeclareSingleton macro.  <a href="group__juce__core-memory.html#ga514301c5c269b87e3a3e3da3a6640f8f">More...</a><br/></td></tr>
-<tr class="separator:ga514301c5c269b87e3a3e3da3a6640f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga253f51f3a9ac2b4795e2ce08b2a756d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga253f51f3a9ac2b4795e2ce08b2a756d9">juce_DeclareSingleton_SingleThreaded</a>(classname, doNotRecreateAfterDeletion)</td></tr>
-<tr class="memdesc:ga253f51f3a9ac2b4795e2ce08b2a756d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="group__juce__core-memory.html#ga253f51f3a9ac2b4795e2ce08b2a756d9">More...</a><br/></td></tr>
-<tr class="separator:ga253f51f3a9ac2b4795e2ce08b2a756d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga354e37d287b39d02097f4f74be14af51"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga354e37d287b39d02097f4f74be14af51">juce_DeclareSingleton_SingleThreaded_Minimal</a>(classname)</td></tr>
-<tr class="memdesc:ga354e37d287b39d02097f4f74be14af51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="group__juce__core-memory.html#ga354e37d287b39d02097f4f74be14af51">More...</a><br/></td></tr>
-<tr class="separator:ga354e37d287b39d02097f4f74be14af51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4404ed444ce628bab43d7fb68f7f1884"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga4404ed444ce628bab43d7fb68f7f1884">juce_ImplementSingleton_SingleThreaded</a>(classname)</td></tr>
-<tr class="memdesc:ga4404ed444ce628bab43d7fb68f7f1884"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a counterpart to the juce_DeclareSingleton_SingleThreaded macro.  <a href="group__juce__core-memory.html#ga4404ed444ce628bab43d7fb68f7f1884">More...</a><br/></td></tr>
-<tr class="separator:ga4404ed444ce628bab43d7fb68f7f1884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd79c49d860c4386b12231ca141a41b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9">JUCE_DECLARE_SINGLETON</a>(Classname, doNotRecreateAfterDeletion)</td></tr>
+<tr class="memdesc:gacd79c49d860c4386b12231ca141a41b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to generate the appropriate methods and boilerplate for a singleton class.  <a href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9">More...</a><br/></td></tr>
+<tr class="separator:gacd79c49d860c4386b12231ca141a41b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2068ca3607c637f8ec10cf6c9c219b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaa2068ca3607c637f8ec10cf6c9c219b7">JUCE_IMPLEMENT_SINGLETON</a>(Classname)</td></tr>
+<tr class="memdesc:gaa2068ca3607c637f8ec10cf6c9c219b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a counterpart to the JUCE_DECLARE_SINGLETON macros.  <a href="group__juce__core-memory.html#gaa2068ca3607c637f8ec10cf6c9c219b7">More...</a><br/></td></tr>
+<tr class="separator:gaa2068ca3607c637f8ec10cf6c9c219b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga711afb23b347c6584e48b308bc9fa750"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga711afb23b347c6584e48b308bc9fa750">JUCE_DECLARE_SINGLETON_SINGLETHREADED</a>(Classname, doNotRecreateAfterDeletion)</td></tr>
+<tr class="memdesc:ga711afb23b347c6584e48b308bc9fa750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="group__juce__core-memory.html#ga711afb23b347c6584e48b308bc9fa750">More...</a><br/></td></tr>
+<tr class="separator:ga711afb23b347c6584e48b308bc9fa750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf86c4799059ea3f12feb2c9a90abc5d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaf86c4799059ea3f12feb2c9a90abc5d1">JUCE_DECLARE_SINGLETON_SINGLETHREADED_MINIMAL</a>(Classname)</td></tr>
+<tr class="memdesc:gaf86c4799059ea3f12feb2c9a90abc5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="group__juce__core-memory.html#gaf86c4799059ea3f12feb2c9a90abc5d1">More...</a><br/></td></tr>
+<tr class="separator:gaf86c4799059ea3f12feb2c9a90abc5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 12 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 13 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

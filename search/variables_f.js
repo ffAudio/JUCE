@@ -20,6 +20,7 @@ var searchData=
   ['peachpuff',['peachpuff',['../classColours.html#aa83a3ec486288727ffa82d9e8e4a82b0',1,'Colours']]],
   ['person',['person',['../structPushNotifications_1_1Notification.html#a00f2b66e133af0e9329e87b5145e5b72',1,'PushNotifications::Notification']]],
   ['peru',['peru',['../classColours.html#a8417b7053caaf567a98eb61eccf57838',1,'Colours']]],
+  ['phase',['phase',['../structdsp_1_1Phase.html#a07412209f3d89714ed6b47e7f3578320',1,'dsp::Phase']]],
   ['pi',['pi',['../group__juce__core-maths.html#gaaec4bd5a00718fbf776203289b9b8645',1,'MathConstants']]],
   ['pink',['pink',['../classColours.html#aa959194b957e4113dcdc9ec488464229',1,'Colours']]],
   ['pitchbend',['pitchbend',['../structMPENote.html#aebfdbfc173bc19cc97b97659c412078f',1,'MPENote']]],

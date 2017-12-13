@@ -133,6 +133,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSharedResourcePointer.html">SharedResourcePointer&lt; SharedObjectType &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A smart-pointer that automatically creates and manages the lifetime of a shared static instance of a class.  <a href="classSharedResourcePointer.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSingletonHolder.html">SingletonHolder&lt; Type, MutexType, onlyCreateOncePerRun &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by the JUCE_DECLARE_SINGLETON macros to manage a static pointer to a singleton instance.  <a href="structSingletonHolder.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeakReference.html">WeakReference&lt; ObjectType, ReferenceCountingType &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class acts as a pointer which will automatically become null if the object to which it points is deleted.  <a href="classWeakReference.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,21 +153,18 @@ Macros</h2></td></tr>
 <tr class="memitem:ga881926ad904a631336e5d4b15f05c548"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga881926ad904a631336e5d4b15f05c548">juce_UseDebuggingNewOperator</a></td></tr>
 <tr class="memdesc:ga881926ad904a631336e5d4b15f05c548"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Deprecated) This was a Windows-specific way of checking for object leaks - now please use the JUCE_LEAK_DETECTOR instead.  <a href="#ga881926ad904a631336e5d4b15f05c548">More...</a><br/></td></tr>
 <tr class="separator:ga881926ad904a631336e5d4b15f05c548"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac46b66c5d38d6bd3a937af241d152a44"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gac46b66c5d38d6bd3a937af241d152a44">juce_DeclareSingleton</a>(classname, doNotRecreateAfterDeletion)</td></tr>
-<tr class="memdesc:gac46b66c5d38d6bd3a937af241d152a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="#gac46b66c5d38d6bd3a937af241d152a44">More...</a><br/></td></tr>
-<tr class="separator:gac46b66c5d38d6bd3a937af241d152a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga514301c5c269b87e3a3e3da3a6640f8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga514301c5c269b87e3a3e3da3a6640f8f">juce_ImplementSingleton</a>(classname)</td></tr>
-<tr class="memdesc:ga514301c5c269b87e3a3e3da3a6640f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a counterpart to the juce_DeclareSingleton macro.  <a href="#ga514301c5c269b87e3a3e3da3a6640f8f">More...</a><br/></td></tr>
-<tr class="separator:ga514301c5c269b87e3a3e3da3a6640f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga253f51f3a9ac2b4795e2ce08b2a756d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga253f51f3a9ac2b4795e2ce08b2a756d9">juce_DeclareSingleton_SingleThreaded</a>(classname, doNotRecreateAfterDeletion)</td></tr>
-<tr class="memdesc:ga253f51f3a9ac2b4795e2ce08b2a756d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="#ga253f51f3a9ac2b4795e2ce08b2a756d9">More...</a><br/></td></tr>
-<tr class="separator:ga253f51f3a9ac2b4795e2ce08b2a756d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga354e37d287b39d02097f4f74be14af51"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga354e37d287b39d02097f4f74be14af51">juce_DeclareSingleton_SingleThreaded_Minimal</a>(classname)</td></tr>
-<tr class="memdesc:ga354e37d287b39d02097f4f74be14af51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="#ga354e37d287b39d02097f4f74be14af51">More...</a><br/></td></tr>
-<tr class="separator:ga354e37d287b39d02097f4f74be14af51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4404ed444ce628bab43d7fb68f7f1884"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga4404ed444ce628bab43d7fb68f7f1884">juce_ImplementSingleton_SingleThreaded</a>(classname)</td></tr>
-<tr class="memdesc:ga4404ed444ce628bab43d7fb68f7f1884"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a counterpart to the juce_DeclareSingleton_SingleThreaded macro.  <a href="#ga4404ed444ce628bab43d7fb68f7f1884">More...</a><br/></td></tr>
-<tr class="separator:ga4404ed444ce628bab43d7fb68f7f1884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd79c49d860c4386b12231ca141a41b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9">JUCE_DECLARE_SINGLETON</a>(Classname, doNotRecreateAfterDeletion)</td></tr>
+<tr class="memdesc:gacd79c49d860c4386b12231ca141a41b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to generate the appropriate methods and boilerplate for a singleton class.  <a href="#gacd79c49d860c4386b12231ca141a41b9">More...</a><br/></td></tr>
+<tr class="separator:gacd79c49d860c4386b12231ca141a41b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2068ca3607c637f8ec10cf6c9c219b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaa2068ca3607c637f8ec10cf6c9c219b7">JUCE_IMPLEMENT_SINGLETON</a>(Classname)</td></tr>
+<tr class="memdesc:gaa2068ca3607c637f8ec10cf6c9c219b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a counterpart to the JUCE_DECLARE_SINGLETON macros.  <a href="#gaa2068ca3607c637f8ec10cf6c9c219b7">More...</a><br/></td></tr>
+<tr class="separator:gaa2068ca3607c637f8ec10cf6c9c219b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga711afb23b347c6584e48b308bc9fa750"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga711afb23b347c6584e48b308bc9fa750">JUCE_DECLARE_SINGLETON_SINGLETHREADED</a>(Classname, doNotRecreateAfterDeletion)</td></tr>
+<tr class="memdesc:ga711afb23b347c6584e48b308bc9fa750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="#ga711afb23b347c6584e48b308bc9fa750">More...</a><br/></td></tr>
+<tr class="separator:ga711afb23b347c6584e48b308bc9fa750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf86c4799059ea3f12feb2c9a90abc5d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#gaf86c4799059ea3f12feb2c9a90abc5d1">JUCE_DECLARE_SINGLETON_SINGLETHREADED_MINIMAL</a>(Classname)</td></tr>
+<tr class="memdesc:gaf86c4799059ea3f12feb2c9a90abc5d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to declare member variables and methods for a singleton class.  <a href="#gaf86c4799059ea3f12feb2c9a90abc5d1">More...</a><br/></td></tr>
+<tr class="separator:gaf86c4799059ea3f12feb2c9a90abc5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga557fa9dbf924a150e27f0cf0dad368b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-memory.html#ga557fa9dbf924a150e27f0cf0dad368b0">JUCE_DECLARE_WEAK_REFERENCEABLE</a>(Class)</td></tr>
 <tr class="memdesc:ga557fa9dbf924a150e27f0cf0dad368b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro to easily allow a class to be made weak-referenceable.  <a href="#ga557fa9dbf924a150e27f0cf0dad368b0">More...</a><br/></td></tr>
 <tr class="separator:ga557fa9dbf924a150e27f0cf0dad368b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -462,15 +462,15 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="gac46b66c5d38d6bd3a937af241d152a44"></a>
+<a class="anchor" id="gacd79c49d860c4386b12231ca141a41b9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define juce_DeclareSingleton</td>
+          <td class="memname">#define JUCE_DECLARE_SINGLETON</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">classname, </td>
+          <td class="paramname">Classname, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -485,19 +485,25 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Macro to declare member variables and methods for a singleton class. </p>
-<p>To use this, add the line juce_DeclareSingleton (MyClass, doNotRecreateAfterDeletion) to the class's definition.</p>
-<p>Then put a macro juce_ImplementSingleton (MyClass) along with the class's implementation code.</p>
+<b>Value:</b><div class="fragment"><div class="line">\</div>
+<div class="line">    static juce::SingletonHolder&lt;Classname, juce::CriticalSection, doNotRecreateAfterDeletion&gt; singletonHolder; \</div>
+<div class="line">    friend decltype (singletonHolder); \</div>
+<div class="line">\</div>
+<div class="line">    static Classname* <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> getInstance()                           { <span class="keywordflow">return</span> singletonHolder.get(); } \</div>
+<div class="line">    static Classname* <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> getInstanceWithoutCreating() noexcept   { <span class="keywordflow">return</span> singletonHolder.instance; } \</div>
+<div class="line">    static <span class="keywordtype">void</span> <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> deleteInstance() noexcept                     { singletonHolder.deleteInstance(); } \</div>
+<div class="line">    void clearSingletonInstance() noexcept                                  { singletonHolder.clear (<span class="keyword">this</span>); }</div>
+<div class="ttc" id="group__juce__core-system_html_gaf0b3f78ca801d88a7912f4c6bbf50e58"><div class="ttname"><a href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a></div><div class="ttdeci">#define JUCE_CALLTYPE</div><div class="ttdoc">This macro defines the C calling convention used as the standard for JUCE calls. </div><div class="ttdef"><b>Definition:</b> juce_PlatformDefs.h:45</div></div>
+</div><!-- fragment -->
+<p>Macro to generate the appropriate methods and boilerplate for a singleton class. </p>
+<p>To use this, add the line <a class="el" href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9" title="Macro to generate the appropriate methods and boilerplate for a singleton class. ">JUCE_DECLARE_SINGLETON(MyClass, doNotRecreateAfterDeletion)</a> to the class's definition.</p>
+<p>Then put a macro <a class="el" href="group__juce__core-memory.html#gaa2068ca3607c637f8ec10cf6c9c219b7" title="This is a counterpart to the JUCE_DECLARE_SINGLETON macros. ">JUCE_IMPLEMENT_SINGLETON(MyClass)</a> along with the class's implementation code.</p>
 <p>It's also a very good idea to also add the call clearSingletonInstance() in your class's destructor, in case it is deleted by other means than deleteInstance()</p>
 <p>Clients can then call the static method MyClass::getInstance() to get a pointer to the singleton, or MyClass::getInstanceWithoutCreating() which will return nullptr if no instance currently exists.</p>
 <p>e.g.</p>
-<div class="fragment"><div class="line"><span class="keyword">class </span>MySingleton</div>
+<div class="fragment"><div class="line"><span class="keyword">struct </span>MySingleton</div>
 <div class="line">{</div>
-<div class="line"><span class="keyword">public</span>:</div>
-<div class="line">    MySingleton()</div>
-<div class="line">    {</div>
-<div class="line">    }</div>
+<div class="line">    MySingleton() {}</div>
 <div class="line"></div>
 <div class="line">    ~MySingleton()</div>
 <div class="line">    {</div>
@@ -506,55 +512,55 @@ Functions</h2></td></tr>
 <div class="line">        clearSingletonInstance();</div>
 <div class="line">    }</div>
 <div class="line"></div>
-<div class="line">    <a class="code" href="group__juce__core-memory.html#gac46b66c5d38d6bd3a937af241d152a44">juce_DeclareSingleton</a> (MySingleton, <span class="keyword">false</span>)</div>
+<div class="line">    <a class="code" href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9">JUCE_DECLARE_SINGLETON</a> (MySingleton, <span class="keyword">false</span>)</div>
 <div class="line">};</div>
 <div class="line"></div>
-<div class="line"><a class="code" href="group__juce__core-memory.html#ga514301c5c269b87e3a3e3da3a6640f8f">juce_ImplementSingleton</a> (MySingleton)</div>
+<div class="line"><span class="comment">// ..and this goes in a suitable .cpp file:</span></div>
+<div class="line"><a class="code" href="group__juce__core-memory.html#gaa2068ca3607c637f8ec10cf6c9c219b7">JUCE_IMPLEMENT_SINGLETON</a> (MySingleton)</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="comment">// example of usage:</span></div>
-<div class="line">MySingleton* m = MySingleton::getInstance(); <span class="comment">// creates the singleton if there isn&#39;t already one.</span></div>
+<div class="line">auto* m = MySingleton::getInstance(); <span class="comment">// creates the singleton if there isn&#39;t already one.</span></div>
 <div class="line"></div>
 <div class="line">...</div>
 <div class="line"></div>
 <div class="line">MySingleton::deleteInstance(); <span class="comment">// safely deletes the singleton (if it&#39;s been created).</span></div>
 </div><!-- fragment --><p>If doNotRecreateAfterDeletion = true, it won't allow the object to be created more than once during the process's lifetime - i.e. after you've created and deleted the object, getInstance() will refuse to create another one. This can be useful to stop objects being accidentally re-created during your app's shutdown code.</p>
-<p>If you know that your object will only be created and deleted by a single thread, you can use the slightly more efficient <a class="el" href="group__juce__core-memory.html#ga253f51f3a9ac2b4795e2ce08b2a756d9" title="Macro to declare member variables and methods for a singleton class. ">juce_DeclareSingleton_SingleThreaded()</a> macro instead of this one.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__core-memory.html#ga514301c5c269b87e3a3e3da3a6640f8f" title="This is a counterpart to the juce_DeclareSingleton macro. ">juce_ImplementSingleton</a>, <a class="el" href="group__juce__core-memory.html#ga253f51f3a9ac2b4795e2ce08b2a756d9" title="Macro to declare member variables and methods for a singleton class. ">juce_DeclareSingleton_SingleThreaded</a> </dd></dl>
+<p>If you know that your object will only be created and deleted by a single thread, you can use the slightly more efficient JUCE_DECLARE_SINGLETON_SINGLETHREADED macro instead of this one.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__core-memory.html#gaa2068ca3607c637f8ec10cf6c9c219b7" title="This is a counterpart to the JUCE_DECLARE_SINGLETON macros. ">JUCE_IMPLEMENT_SINGLETON</a>, <a class="el" href="group__juce__core-memory.html#ga711afb23b347c6584e48b308bc9fa750" title="Macro to declare member variables and methods for a singleton class. ">JUCE_DECLARE_SINGLETON_SINGLETHREADED</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ga514301c5c269b87e3a3e3da3a6640f8f"></a>
+<a class="anchor" id="gaa2068ca3607c637f8ec10cf6c9c219b7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define juce_ImplementSingleton</td>
+          <td class="memname">#define JUCE_IMPLEMENT_SINGLETON</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">classname</td><td>)</td>
+          <td class="paramname">Classname</td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">\</div>
-<div class="line">    classname* classname::_singletonInstance = <span class="keyword">nullptr</span>; \</div>
-<div class="line">    juce::CriticalSection classname::_singletonLock;</div>
+<div class="line">    decltype (Classname::singletonHolder) Classname::singletonHolder;</div>
 </div><!-- fragment -->
-<p>This is a counterpart to the juce_DeclareSingleton macro. </p>
-<p>After adding the juce_DeclareSingleton to the class definition, this macro has to be used in the cpp file. </p>
+<p>This is a counterpart to the JUCE_DECLARE_SINGLETON macros. </p>
+<p>After adding the JUCE_DECLARE_SINGLETON to the class definition, this macro has to be used in the cpp file. </p>
 
 </div>
 </div>
-<a class="anchor" id="ga253f51f3a9ac2b4795e2ce08b2a756d9"></a>
+<a class="anchor" id="ga711afb23b347c6584e48b308bc9fa750"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define juce_DeclareSingleton_SingleThreaded</td>
+          <td class="memname">#define JUCE_DECLARE_SINGLETON_SINGLETHREADED</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">classname, </td>
+          <td class="paramname">Classname, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -569,86 +575,52 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Value:</b><div class="fragment"><div class="line">\</div>
+<div class="line">    static juce::SingletonHolder&lt;Classname, juce::DummyCriticalSection, doNotRecreateAfterDeletion&gt; singletonHolder; \</div>
+<div class="line">    friend decltype (singletonHolder); \</div>
+<div class="line">\</div>
+<div class="line">    static Classname* <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> getInstance()                           { <span class="keywordflow">return</span> singletonHolder.get(); } \</div>
+<div class="line">    static Classname* <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> getInstanceWithoutCreating() noexcept   { <span class="keywordflow">return</span> singletonHolder.instance; } \</div>
+<div class="line">    static <span class="keywordtype">void</span> <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> deleteInstance() noexcept                     { singletonHolder.deleteInstance(); } \</div>
+<div class="line">    void clearSingletonInstance() noexcept                                  { singletonHolder.clear (<span class="keyword">this</span>); }</div>
+<div class="ttc" id="group__juce__core-system_html_gaf0b3f78ca801d88a7912f4c6bbf50e58"><div class="ttname"><a href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a></div><div class="ttdeci">#define JUCE_CALLTYPE</div><div class="ttdoc">This macro defines the C calling convention used as the standard for JUCE calls. </div><div class="ttdef"><b>Definition:</b> juce_PlatformDefs.h:45</div></div>
+</div><!-- fragment -->
 <p>Macro to declare member variables and methods for a singleton class. </p>
-<p>This is exactly the same as juce_DeclareSingleton, but doesn't use a critical section to make access to it thread-safe. If you know that your object will only ever be created or deleted by a single thread, then this is a more efficient version to use.</p>
+<p>This is exactly the same as JUCE_DECLARE_SINGLETON, but doesn't use a critical section to make access to it thread-safe. If you know that your object will only ever be created or deleted by a single thread, then this is a more efficient version to use.</p>
 <p>If doNotRecreateAfterDeletion = true, it won't allow the object to be created more than once during the process's lifetime - i.e. after you've created and deleted the object, getInstance() will refuse to create another one. This can be useful to stop objects being accidentally re-created during your app's shutdown code.</p>
-<p>See the documentation for juce_DeclareSingleton for more information about how to use it, the only difference being that you have to use juce_ImplementSingleton_SingleThreaded instead of juce_ImplementSingleton.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__core-memory.html#ga4404ed444ce628bab43d7fb68f7f1884" title="This is a counterpart to the juce_DeclareSingleton_SingleThreaded macro. ">juce_ImplementSingleton_SingleThreaded</a>, <a class="el" href="group__juce__core-memory.html#gac46b66c5d38d6bd3a937af241d152a44" title="Macro to declare member variables and methods for a singleton class. ">juce_DeclareSingleton</a>, <a class="el" href="group__juce__core-memory.html#ga354e37d287b39d02097f4f74be14af51" title="Macro to declare member variables and methods for a singleton class. ">juce_DeclareSingleton_SingleThreaded_Minimal</a> </dd></dl>
+<p>See the documentation for JUCE_DECLARE_SINGLETON for more information about how to use it. Just like JUCE_DECLARE_SINGLETON you need to also have a corresponding JUCE_IMPLEMENT_SINGLETON statement somewhere in your code.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__core-memory.html#gaa2068ca3607c637f8ec10cf6c9c219b7" title="This is a counterpart to the JUCE_DECLARE_SINGLETON macros. ">JUCE_IMPLEMENT_SINGLETON</a>, <a class="el" href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9" title="Macro to generate the appropriate methods and boilerplate for a singleton class. ">JUCE_DECLARE_SINGLETON</a>, <a class="el" href="group__juce__core-memory.html#gaf86c4799059ea3f12feb2c9a90abc5d1" title="Macro to declare member variables and methods for a singleton class. ">JUCE_DECLARE_SINGLETON_SINGLETHREADED_MINIMAL</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ga354e37d287b39d02097f4f74be14af51"></a>
+<a class="anchor" id="gaf86c4799059ea3f12feb2c9a90abc5d1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define juce_DeclareSingleton_SingleThreaded_Minimal</td>
+          <td class="memname">#define JUCE_DECLARE_SINGLETON_SINGLETHREADED_MINIMAL</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">classname</td><td>)</td>
+          <td class="paramname">Classname</td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">\</div>
-<div class="line">    static classname* _singletonInstance;  \</div>
+<div class="line">    static juce::SingletonHolder&lt;Classname, juce::DummyCriticalSection, false&gt; singletonHolder; \</div>
+<div class="line">    friend decltype (singletonHolder); \</div>
 <div class="line">\</div>
-<div class="line">    static classname* getInstance() \</div>
-<div class="line">    { \</div>
-<div class="line">        if (_singletonInstance == <span class="keyword">nullptr</span>) \</div>
-<div class="line">            _singletonInstance = <span class="keyword">new</span> classname(); \</div>
-<div class="line">\</div>
-<div class="line">        return _singletonInstance; \</div>
-<div class="line">    } \</div>
-<div class="line">\</div>
-<div class="line">    static <span class="keyword">inline</span> classname* getInstanceWithoutCreating() noexcept\</div>
-<div class="line">    { \</div>
-<div class="line">        return _singletonInstance; \</div>
-<div class="line">    } \</div>
-<div class="line">\</div>
-<div class="line">    static <span class="keywordtype">void</span> deleteInstance() \</div>
-<div class="line">    { \</div>
-<div class="line">        if (_singletonInstance != <span class="keyword">nullptr</span>) \</div>
-<div class="line">        { \</div>
-<div class="line">            classname* <span class="keyword">const</span> old = _singletonInstance; \</div>
-<div class="line">            _singletonInstance = <span class="keyword">nullptr</span>; \</div>
-<div class="line">            delete old; \</div>
-<div class="line">        } \</div>
-<div class="line">    } \</div>
-<div class="line">\</div>
-<div class="line">    void clearSingletonInstance() noexcept\</div>
-<div class="line">    { \</div>
-<div class="line">        if (_singletonInstance == <span class="keyword">this</span>) \</div>
-<div class="line">            _singletonInstance = <span class="keyword">nullptr</span>; \</div>
-<div class="line">    }</div>
+<div class="line">    static Classname* <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> getInstance()                           { <span class="keywordflow">return</span> singletonHolder.getWithoutChecking(); } \</div>
+<div class="line">    static Classname* <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> getInstanceWithoutCreating() noexcept   { <span class="keywordflow">return</span> singletonHolder.instance; } \</div>
+<div class="line">    static <span class="keywordtype">void</span> <a class="code" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> deleteInstance() noexcept                     { singletonHolder.deleteInstance(); } \</div>
+<div class="line">    void clearSingletonInstance() noexcept                                  { singletonHolder.clear (<span class="keyword">this</span>); }</div>
+<div class="ttc" id="group__juce__core-system_html_gaf0b3f78ca801d88a7912f4c6bbf50e58"><div class="ttname"><a href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a></div><div class="ttdeci">#define JUCE_CALLTYPE</div><div class="ttdoc">This macro defines the C calling convention used as the standard for JUCE calls. </div><div class="ttdef"><b>Definition:</b> juce_PlatformDefs.h:45</div></div>
 </div><!-- fragment -->
 <p>Macro to declare member variables and methods for a singleton class. </p>
-<p>This is like juce_DeclareSingleton_SingleThreaded, but doesn't do any checking for recursion or repeated instantiation. It's intended for use as a lightweight version of a singleton, where you're using it in very straightforward circumstances and don't need the extra checking.</p>
-<p>Just use the normal juce_ImplementSingleton_SingleThreaded as the counterpart to this declaration, as you would with juce_DeclareSingleton_SingleThreaded.</p>
-<p>See the documentation for juce_DeclareSingleton for more information about how to use it, the only difference being that you have to use juce_ImplementSingleton_SingleThreaded instead of juce_ImplementSingleton.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__core-memory.html#ga4404ed444ce628bab43d7fb68f7f1884" title="This is a counterpart to the juce_DeclareSingleton_SingleThreaded macro. ">juce_ImplementSingleton_SingleThreaded</a>, <a class="el" href="group__juce__core-memory.html#gac46b66c5d38d6bd3a937af241d152a44" title="Macro to declare member variables and methods for a singleton class. ">juce_DeclareSingleton</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ga4404ed444ce628bab43d7fb68f7f1884"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define juce_ImplementSingleton_SingleThreaded</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">classname</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">\</div>
-<div class="line">    classname* classname::_singletonInstance = <span class="keyword">nullptr</span>;</div>
-</div><!-- fragment -->
-<p>This is a counterpart to the juce_DeclareSingleton_SingleThreaded macro. </p>
-<p>After adding juce_DeclareSingleton_SingleThreaded or juce_DeclareSingleton_SingleThreaded_Minimal to the class definition, this macro has to be used somewhere in the cpp file. </p>
+<p>This is like JUCE_DECLARE_SINGLETON_SINGLETHREADED, but doesn't do any checking for recursion or repeated instantiation. It's intended for use as a lightweight version of a singleton, where you're using it in very straightforward circumstances and don't need the extra checking.</p>
+<p>Just use the normal JUCE_IMPLEMENT_SINGLETON_SINGLETHREADED as the counterpart to this declaration, as you would with JUCE_DECLARE_SINGLETON_SINGLETHREADED.</p>
+<p>See the documentation for JUCE_DECLARE_SINGLETON for more information about how to use it, the only difference being that you have to use JUCE_IMPLEMENT_SINGLETON_SINGLETHREADED instead of JUCE_IMPLEMENT_SINGLETON.</p>
+<dl class="section see"><dt>See Also</dt><dd>JUCE_IMPLEMENT_SINGLETON_SINGLETHREADED, <a class="el" href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9" title="Macro to generate the appropriate methods and boilerplate for a singleton class. ">JUCE_DECLARE_SINGLETON</a> </dd></dl>
 
 </div>
 </div>
@@ -2726,7 +2698,7 @@ template&lt;typename Type &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 12 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 13 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

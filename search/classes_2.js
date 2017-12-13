@@ -59,6 +59,7 @@ var searchData=
   ['connection',['Connection',['../structAudioProcessorGraph_1_1Connection.html',1,'AudioProcessorGraph']]],
   ['connectionport',['ConnectionPort',['../structBlock_1_1ConnectionPort.html',1,'Block']]],
   ['containerdeletepolicy',['ContainerDeletePolicy',['../structContainerDeletePolicy.html',1,'']]],
+  ['contentsharer',['ContentSharer',['../classContentSharer.html',1,'']]],
   ['continuouswithmomentum',['ContinuousWithMomentum',['../structAnimatedPositionBehaviours_1_1ContinuousWithMomentum.html',1,'AnimatedPositionBehaviours']]],
   ['controlbutton',['ControlButton',['../classControlButton.html',1,'']]],
   ['converter',['Converter',['../classAudioData_1_1Converter.html',1,'AudioData']]],

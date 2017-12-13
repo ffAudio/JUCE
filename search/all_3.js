@@ -78,7 +78,7 @@ var searchData=
   ['deleteevent',['deleteEvent',['../classMidiMessageSequence.html#a67b6db1465ea07fb7493909409d89a44',1,'MidiMessageSequence']]],
   ['deletefile',['deleteFile',['../classFile.html#acca30337faecf8c3d97a1e70c725db23',1,'File']]],
   ['deleteforwards',['deleteForwards',['../classTextEditor.html#a855bfe3297879cdb7000e23f1f4d3695',1,'TextEditor::deleteForwards()'],['../classCodeEditorComponent.html#a2fbd2473cca409c0faa16ad5d7493878',1,'CodeEditorComponent::deleteForwards()']]],
-  ['deleteinstance',['deleteInstance',['../classMessageManager.html#a4bdcb8bd5ef27480b49d6b1ff6ecdaa9',1,'MessageManager']]],
+  ['deleteinstance',['deleteInstance',['../structSingletonHolder.html#a8b4154ab3ecd3d0b433ab64ec37e3590',1,'SingletonHolder::deleteInstance()'],['../classMessageManager.html#a4bdcb8bd5ef27480b49d6b1ff6ecdaa9',1,'MessageManager::deleteInstance()']]],
   ['deletekey',['deleteKey',['../classKeyPress.html#ae568c9aba033acf0c24390f24304b9e5',1,'KeyPress::deleteKey()'],['../classWindowsRegistry.html#a784cc82704f8b6fc1047075a31d9972f',1,'WindowsRegistry::deleteKey()']]],
   ['deletekeypressed',['deleteKeyPressed',['../classFileSearchPathListComponent.html#ace140fd2d45192c23045808085657b3a',1,'FileSearchPathListComponent::deleteKeyPressed()'],['../classListBoxModel.html#acc840517aac4398dd378ce1e5bd668ac',1,'ListBoxModel::deleteKeyPressed()'],['../classTableListBoxModel.html#a5f17bdc591ef08f7b89e65275e22e46f',1,'TableListBoxModel::deleteKeyPressed()'],['../classTableListBox.html#ae9b7978011b47044454721da340a2c09',1,'TableListBox::deleteKeyPressed()']]],
   ['deletemidichannelmessages',['deleteMidiChannelMessages',['../classMidiMessageSequence.html#a47466395fc2296b724defd56076cd5ed',1,'MidiMessageSequence']]],

@@ -12,6 +12,8 @@ var searchData=
   ['pathstroketype',['PathStrokeType',['../classPathStrokeType.html',1,'']]],
   ['pendetails',['PenDetails',['../structPenDetails.html',1,'']]],
   ['performancecounter',['PerformanceCounter',['../classPerformanceCounter.html',1,'']]],
+  ['phase',['Phase',['../structdsp_1_1Phase.html',1,'dsp']]],
+  ['phase_3c_20numerictype_20_3e',['Phase&lt; NumericType &gt;',['../structdsp_1_1Phase.html',1,'dsp']]],
   ['physicaltopologysource',['PhysicalTopologySource',['../classPhysicalTopologySource.html',1,'']]],
   ['pixelalpha',['PixelAlpha',['../classPixelAlpha.html',1,'']]],
   ['pixelargb',['PixelARGB',['../classPixelARGB.html',1,'']]],
