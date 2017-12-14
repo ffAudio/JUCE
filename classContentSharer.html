@@ -221,7 +221,7 @@ Friends</h2></td></tr>
 <div class="line">g.fillEllipse (20, 20, 300, 200);</div>
 <div class="line"><a class="code" href="classArray.html">Array&lt;Image&gt;</a> images;</div>
 <div class="line">images.<a class="code" href="classArray.html#a52da22e285e44171b6d6fa785a7d536a">add</a> (myImage);</div>
-<div class="line">ContentSharer::getInstance()-&gt;shareImages (images);</div>
+<div class="line">ContentSharer::getInstance()-&gt;shareImages (images, myCallback);</div>
 </div><!-- fragment --><p>Upon completion you will receive a callback with a sharing result. Note: Sadly on Android the returned success flag may be wrong as there is no standard way the sharing targets report if the sharing operation succeeded. Also, the optional error message is always empty on Android. </p>
 
 </div>
@@ -419,7 +419,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 13 2017 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 14 2017 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

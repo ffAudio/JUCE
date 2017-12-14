@@ -320,7 +320,7 @@ var searchData=
   ['connections',['connections',['../structBlockTopology.html#a13c44d0f739830ed25c65eed8321aa28',1,'BlockTopology']]],
   ['connectorport',['ConnectorPort',['../namespaceBlocksProtocol.html#a1db5e098ab83aadeae6a82a25ed9efc8',1,'BlocksProtocol']]],
   ['connecttopipe',['connectToPipe',['../classInterprocessConnection.html#abafb2228ed136a2b34e2de03709eb9a7',1,'InterprocessConnection']]],
-  ['connecttosocket',['connectToSocket',['../classInterprocessConnection.html#a007450a6ca6dc60bb48d384479d9a49d',1,'InterprocessConnection']]],
+  ['connecttosocket',['connectToSocket',['../classInterprocessConnection.html#a007450a6ca6dc60bb48d384479d9a49d',1,'InterprocessConnection::connectToSocket()'],['../classOSCReceiver.html#adddfe03be7df7480d842b50cc78a2221',1,'OSCReceiver::connectToSocket()'],['../classOSCSender.html#aeb19fa47497eef8612c0baa015ec7eb3',1,'OSCSender::connectToSocket()']]],
   ['consolidate',['consolidate',['../classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db',1,'RectangleList']]],
   ['constanttype',['constantType',['../classExpression.html#aa416ac50fdbe8bdea9c59f5c78f0c85ba4c05ef0368ceb383ecdd4933ddb3b5db',1,'Expression']]],
   ['constrainedwithin',['constrainedWithin',['../classRectangle.html#a5dae3865af00a4264f7f26ea4eeecf98',1,'Rectangle']]],

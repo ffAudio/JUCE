@@ -129,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac257f28515be7a4520e0811b3449239b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#ac257f28515be7a4520e0811b3449239b">connect</a> (int portNumber)</td></tr>
 <tr class="memdesc:ac257f28515be7a4520e0811b3449239b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to the specified UDP port using a datagram socket, and starts listening to OSC packets arriving on this port.  <a href="#ac257f28515be7a4520e0811b3449239b">More...</a><br/></td></tr>
 <tr class="separator:ac257f28515be7a4520e0811b3449239b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddfe03be7df7480d842b50cc78a2221"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#adddfe03be7df7480d842b50cc78a2221">connectToSocket</a> (<a class="el" href="classDatagramSocket.html">DatagramSocket</a> &amp;socketToUse)</td></tr>
+<tr class="memdesc:adddfe03be7df7480d842b50cc78a2221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to a UDP datagram socket that is already set up, and starts listening to OSC packets arriving on this port.  <a href="#adddfe03be7df7480d842b50cc78a2221">More...</a><br/></td></tr>
+<tr class="separator:adddfe03be7df7480d842b50cc78a2221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb7179630d20e6ddbf48e6ef380c3c67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#adb7179630d20e6ddbf48e6ef380c3c67">disconnect</a> ()</td></tr>
 <tr class="memdesc:adb7179630d20e6ddbf48e6ef380c3c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects from the currently used UDP port.  <a href="#adb7179630d20e6ddbf48e6ef380c3c67">More...</a><br/></td></tr>
 <tr class="separator:adb7179630d20e6ddbf48e6ef380c3c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,6 +233,26 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Connects to the specified UDP port using a datagram socket, and starts listening to OSC packets arriving on this port. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the connection was successful; false otherwise. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="adddfe03be7df7480d842b50cc78a2221"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OSCReceiver::connectToSocket </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classDatagramSocket.html">DatagramSocket</a> &amp;&#160;</td>
+          <td class="paramname"><em>socketToUse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connects to a UDP datagram socket that is already set up, and starts listening to OSC packets arriving on this port. </p>
+<p>Make sure that the object you give it doesn't get deleted while this object is still using it! </p>
 <dl class="section return"><dt>Returns</dt><dd>true if the connection was successful; false otherwise. </dd></dl>
 
 </div>
@@ -445,7 +468,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 13 2017 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 14 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

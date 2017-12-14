@@ -206,7 +206,7 @@ var searchData=
   ['connectionlost',['connectionLost',['../classInterprocessConnection.html#a83bf2f27d14ea3a9c7e1a88e18e31351',1,'InterprocessConnection']]],
   ['connectionmade',['connectionMade',['../classInterprocessConnection.html#a6491a1c39849ecbdb6093965cfd47b03',1,'InterprocessConnection']]],
   ['connecttopipe',['connectToPipe',['../classInterprocessConnection.html#abafb2228ed136a2b34e2de03709eb9a7',1,'InterprocessConnection']]],
-  ['connecttosocket',['connectToSocket',['../classInterprocessConnection.html#a007450a6ca6dc60bb48d384479d9a49d',1,'InterprocessConnection']]],
+  ['connecttosocket',['connectToSocket',['../classInterprocessConnection.html#a007450a6ca6dc60bb48d384479d9a49d',1,'InterprocessConnection::connectToSocket()'],['../classOSCReceiver.html#adddfe03be7df7480d842b50cc78a2221',1,'OSCReceiver::connectToSocket()'],['../classOSCSender.html#aeb19fa47497eef8612c0baa015ec7eb3',1,'OSCSender::connectToSocket()']]],
   ['consolidate',['consolidate',['../classRectangleList.html#a9e26bdb6310e0660c0b7ada7919546db',1,'RectangleList']]],
   ['constrainedwithin',['constrainedWithin',['../classRectangle.html#a5dae3865af00a4264f7f26ea4eeecf98',1,'Rectangle']]],
   ['constrainrange',['constrainRange',['../classRange.html#a4303a16b170ae1626bdd693f7fa17872',1,'Range']]],

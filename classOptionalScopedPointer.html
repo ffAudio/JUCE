@@ -126,8 +126,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf99bfb609b72988d875d1091af6cb42"><td class="memItemLeft" align="right" valign="top">ObjectType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#acf99bfb609b72988d875d1091af6cb42">release</a> () noexcept</td></tr>
 <tr class="memdesc:acf99bfb609b72988d875d1091af6cb42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the current object from this <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> without deleting it.  <a href="#acf99bfb609b72988d875d1091af6cb42">More...</a><br/></td></tr>
 <tr class="separator:acf99bfb609b72988d875d1091af6cb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed41a6c80a9254397bbefefa69a21b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#afed41a6c80a9254397bbefefa69a21b9">reset</a> ()</td></tr>
+<tr class="memdesc:afed41a6c80a9254397bbefefa69a21b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets this pointer to null, possibly deleting the object that it holds, if it has ownership of it.  <a href="#afed41a6c80a9254397bbefefa69a21b9">More...</a><br/></td></tr>
+<tr class="separator:afed41a6c80a9254397bbefefa69a21b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae30fe3a7e3ff51f427056ab155dbafd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#ae30fe3a7e3ff51f427056ab155dbafd0">clear</a> ()</td></tr>
-<tr class="memdesc:ae30fe3a7e3ff51f427056ab155dbafd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets this pointer to null, possibly deleting the object that it holds, if it has ownership of it.  <a href="#ae30fe3a7e3ff51f427056ab155dbafd0">More...</a><br/></td></tr>
+<tr class="memdesc:ae30fe3a7e3ff51f427056ab155dbafd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the same thing as <a class="el" href="classOptionalScopedPointer.html#afed41a6c80a9254397bbefefa69a21b9" title="Resets this pointer to null, possibly deleting the object that it holds, if it has ownership of it...">reset()</a>.  <a href="#ae30fe3a7e3ff51f427056ab155dbafd0">More...</a><br/></td></tr>
 <tr class="separator:ae30fe3a7e3ff51f427056ab155dbafd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae526986fb0292d7b3623687e52b96fb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOptionalScopedPointer.html#ae526986fb0292d7b3623687e52b96fb7">set</a> (ObjectType *newObject, bool takeOwnership)</td></tr>
 <tr class="memdesc:ae526986fb0292d7b3623687e52b96fb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes this <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> point at a new object, specifying whether the <a class="el" href="classOptionalScopedPointer.html" title="Holds a pointer to an object which can optionally be deleted when this pointer goes out of scope...">OptionalScopedPointer</a> will take ownership of the object.  <a href="#ae526986fb0292d7b3623687e52b96fb7">More...</a><br/></td></tr>
@@ -405,6 +408,27 @@ template&lt;class ObjectType&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="afed41a6c80a9254397bbefefa69a21b9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classOptionalScopedPointer.html">OptionalScopedPointer</a>&lt; ObjectType &gt;::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets this pointer to null, possibly deleting the object that it holds, if it has ownership of it. </p>
+
+<p>Referenced by <a class="el" href="classOptionalScopedPointer.html#ae30fe3a7e3ff51f427056ab155dbafd0">OptionalScopedPointer&lt; OutputStream &gt;::clear()</a>, <a class="el" href="classOptionalScopedPointer.html#a8f773129ee4e44990551b34faf5d0dd5">OptionalScopedPointer&lt; OutputStream &gt;::operator=()</a>, <a class="el" href="classOptionalScopedPointer.html#ae526986fb0292d7b3623687e52b96fb7">OptionalScopedPointer&lt; OutputStream &gt;::set()</a>, and <a class="el" href="classOptionalScopedPointer.html#a0e0508d3dc7dd9603e001cb72191ad56">OptionalScopedPointer&lt; OutputStream &gt;::~OptionalScopedPointer()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae30fe3a7e3ff51f427056ab155dbafd0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -420,9 +444,7 @@ template&lt;class ObjectType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Resets this pointer to null, possibly deleting the object that it holds, if it has ownership of it. </p>
-
-<p>Referenced by <a class="el" href="classOptionalScopedPointer.html#a8f773129ee4e44990551b34faf5d0dd5">OptionalScopedPointer&lt; OutputStream &gt;::operator=()</a>, <a class="el" href="classOptionalScopedPointer.html#ae526986fb0292d7b3623687e52b96fb7">OptionalScopedPointer&lt; OutputStream &gt;::set()</a>, and <a class="el" href="classOptionalScopedPointer.html#a0e0508d3dc7dd9603e001cb72191ad56">OptionalScopedPointer&lt; OutputStream &gt;::~OptionalScopedPointer()</a>.</p>
+<p>Does the same thing as <a class="el" href="classOptionalScopedPointer.html#afed41a6c80a9254397bbefefa69a21b9" title="Resets this pointer to null, possibly deleting the object that it holds, if it has ownership of it...">reset()</a>. </p>
 
 </div>
 </div>
@@ -563,7 +585,7 @@ template&lt;class ObjectType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 13 2017 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 14 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

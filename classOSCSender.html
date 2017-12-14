@@ -105,6 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a83d9b111303882895c0465336716ab5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCSender.html#a83d9b111303882895c0465336716ab5b">connect</a> (const <a class="el" href="classString.html">String</a> &amp;targetHostName, int targetPortNumber)</td></tr>
 <tr class="memdesc:a83d9b111303882895c0465336716ab5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to a datagram socket and prepares the socket for sending OSC packets to the specified target.  <a href="#a83d9b111303882895c0465336716ab5b">More...</a><br/></td></tr>
 <tr class="separator:a83d9b111303882895c0465336716ab5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb19fa47497eef8612c0baa015ec7eb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCSender.html#aeb19fa47497eef8612c0baa015ec7eb3">connectToSocket</a> (<a class="el" href="classDatagramSocket.html">DatagramSocket</a> &amp;socket, const <a class="el" href="classString.html">String</a> &amp;targetHostName, int targetPortNumber)</td></tr>
+<tr class="memdesc:aeb19fa47497eef8612c0baa015ec7eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses an existing datagram socket for sending OSC packets to the specified target.  <a href="#aeb19fa47497eef8612c0baa015ec7eb3">More...</a><br/></td></tr>
+<tr class="separator:aeb19fa47497eef8612c0baa015ec7eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8c0a0ccec0ade4c28cba43773b095c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCSender.html#ac8c0a0ccec0ade4c28cba43773b095c5">disconnect</a> ()</td></tr>
 <tr class="memdesc:ac8c0a0ccec0ade4c28cba43773b095c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects from the currently used UDP port.  <a href="#ac8c0a0ccec0ade4c28cba43773b095c5">More...</a><br/></td></tr>
 <tr class="separator:ac8c0a0ccec0ade4c28cba43773b095c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +196,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Connects to a datagram socket and prepares the socket for sending OSC packets to the specified target. </p>
+<p>Note: the operating system will choose which specific network adapter(s) to bind your socket to, and which local port to use for the sender.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">targetHostName</td><td>The remote host to which messages will be send. </td></tr>
@@ -200,9 +204,52 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if the connection was successful; false otherwise.</dd></dl>
-<p>Note: the operating system will choose which specific network adapter(s) to bind your socket to, and which local port to use for the sender.</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the connection was successful; false otherwise. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOSCSender.html#ad76a32479cdbac1353f26edb0464a2eb" title="Sends an OSC message to the target. ">send</a>, <a class="el" href="classOSCSender.html#ac8c0a0ccec0ade4c28cba43773b095c5" title="Disconnects from the currently used UDP port. ">disconnect</a>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aeb19fa47497eef8612c0baa015ec7eb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OSCSender::connectToSocket </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classDatagramSocket.html">DatagramSocket</a> &amp;&#160;</td>
+          <td class="paramname"><em>socket</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>targetHostName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>targetPortNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Uses an existing datagram socket for sending OSC packets to the specified target. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">socket</td><td>An existing datagram socket. Make sure this doesn't get deleted while this class is still using it! </td></tr>
+    <tr><td class="paramname">targetHostName</td><td>The remote host to which messages will be send. </td></tr>
+    <tr><td class="paramname">targetPortNumber</td><td>The remote UDP port number on which the host will receive the messages.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the connection was successful; false otherwise. </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOSCSender.html#a83d9b111303882895c0465336716ab5b" title="Connects to a datagram socket and prepares the socket for sending OSC packets to the specified target...">connect</a>, <a class="el" href="classOSCSender.html#ad76a32479cdbac1353f26edb0464a2eb" title="Sends an OSC message to the target. ">send</a>, <a class="el" href="classOSCSender.html#ac8c0a0ccec0ade4c28cba43773b095c5" title="Disconnects from the currently used UDP port. ">disconnect</a>. </dd></dl>
 
 </div>
 </div>
@@ -220,7 +267,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Disconnects from the currently used UDP port. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if the disconnection was successful; false otherwise.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the disconnection was successful; false otherwise. </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOSCSender.html#a83d9b111303882895c0465336716ab5b" title="Connects to a datagram socket and prepares the socket for sending OSC packets to the specified target...">connect</a>. </dd></dl>
 
 </div>
@@ -373,7 +420,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 13 2017 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 14 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
