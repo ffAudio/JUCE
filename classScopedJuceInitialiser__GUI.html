@@ -97,15 +97,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1342c78002291c0ce1cf77c38fac2c9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedJuceInitialiser__GUI.html#a1342c78002291c0ce1cf77c38fac2c9c">ScopedJuceInitialiser_GUI</a> ()</td></tr>
-<tr class="memdesc:a1342c78002291c0ce1cf77c38fac2c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor simply calls <a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises Juce&#39;s GUI classes. ">initialiseJuce_GUI()</a>.  <a href="#a1342c78002291c0ce1cf77c38fac2c9c">More...</a><br/></td></tr>
+<tr class="memdesc:a1342c78002291c0ce1cf77c38fac2c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor simply calls <a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises JUCE&#39;s GUI classes. ">initialiseJuce_GUI()</a>.  <a href="#a1342c78002291c0ce1cf77c38fac2c9c">More...</a><br/></td></tr>
 <tr class="separator:a1342c78002291c0ce1cf77c38fac2c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a689e8564ee0ea5b806340008252a1a5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScopedJuceInitialiser__GUI.html#a689e8564ee0ea5b806340008252a1a5f">~ScopedJuceInitialiser_GUI</a> ()</td></tr>
-<tr class="memdesc:a689e8564ee0ea5b806340008252a1a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor simply calls <a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by Juce&#39;s GUI classes. ">shutdownJuce_GUI()</a>.  <a href="#a689e8564ee0ea5b806340008252a1a5f">More...</a><br/></td></tr>
+<tr class="memdesc:a689e8564ee0ea5b806340008252a1a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor simply calls <a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by JUCE&#39;s GUI classes. ">shutdownJuce_GUI()</a>.  <a href="#a689e8564ee0ea5b806340008252a1a5f">More...</a><br/></td></tr>
 <tr class="separator:a689e8564ee0ea5b806340008252a1a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A utility object that helps you initialise and shutdown JUCE correctly using an RAII pattern. </p>
-<p>When the first instance of this class is created, it calls <a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises Juce&#39;s GUI classes. ">initialiseJuce_GUI()</a>, and when the last instance is deleted, it calls <a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by Juce&#39;s GUI classes. ">shutdownJuce_GUI()</a>, so that you can easily be sure that as long as at least one instance of the class exists, the library will be initialised.</p>
+<p>When the first instance of this class is created, it calls <a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises JUCE&#39;s GUI classes. ">initialiseJuce_GUI()</a>, and when the last instance is deleted, it calls <a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by JUCE&#39;s GUI classes. ">shutdownJuce_GUI()</a>, so that you can easily be sure that as long as at least one instance of the class exists, the library will be initialised.</p>
 <p>This class is particularly handy to use at the beginning of a console app's main() function, because it'll take care of shutting down whenever you return from the main() call.</p>
 <p>Be careful with your threading though - to be safe, you should always make sure that these objects are created and deleted on the message thread. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -122,7 +122,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The constructor simply calls <a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises Juce&#39;s GUI classes. ">initialiseJuce_GUI()</a>. </p>
+<p>The constructor simply calls <a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises JUCE&#39;s GUI classes. ">initialiseJuce_GUI()</a>. </p>
 
 </div>
 </div>
@@ -139,7 +139,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The destructor simply calls <a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by Juce&#39;s GUI classes. ">shutdownJuce_GUI()</a>. </p>
+<p>The destructor simply calls <a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by JUCE&#39;s GUI classes. ">shutdownJuce_GUI()</a>. </p>
 
 </div>
 </div>
@@ -149,7 +149,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 14 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 15 2017 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

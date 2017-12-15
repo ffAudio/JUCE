@@ -161,6 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adcbaf472c62bc474c7b30605e78cbf76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#adcbaf472c62bc474c7b30605e78cbf76">getLocalFile</a> () const </td></tr>
 <tr class="memdesc:adcbaf472c62bc474c7b30605e78cbf76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file path of the local file to which this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> refers to.  <a href="#adcbaf472c62bc474c7b30605e78cbf76">More...</a><br/></td></tr>
 <tr class="separator:adcbaf472c62bc474c7b30605e78cbf76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe211a71a1cabfb120263d246469000a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#afe211a71a1cabfb120263d246469000a">getFileName</a> () const </td></tr>
+<tr class="memdesc:afe211a71a1cabfb120263d246469000a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file name.  <a href="#afe211a71a1cabfb120263d246469000a">More...</a><br/></td></tr>
+<tr class="separator:afe211a71a1cabfb120263d246469000a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a956752231288358290d781e5f27eb150"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a956752231288358290d781e5f27eb150">getPort</a> () const </td></tr>
 <tr class="memdesc:a956752231288358290d781e5f27eb150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to read a port number from the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#a956752231288358290d781e5f27eb150">More...</a><br/></td></tr>
 <tr class="separator:a956752231288358290d781e5f27eb150"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -622,6 +625,25 @@ Friends</h2></td></tr>
 <p>If the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> does not represent a local file <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> (i.e. the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>'s scheme is not 'file') then this method will assert.</p>
 <p>This method also supports converting Android's content:// URLs to local file paths.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#a5332b129d248c96e7807d78054d55773" title="Returns true if this URL refers to a local file. ">isLocalFile</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afe211a71a1cabfb120263d246469000a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> URL::getFileName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the file name. </p>
+<p>For all but Android's content:// scheme, it will simply return the last segment of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>. E.g. for "http://www.xyz.com/foo/bar.txt", this will return "bar.txt".</p>
+<p>For Android's content:// scheme, it will attempt to resolve the filename located under the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>. </p>
 
 </div>
 </div>
@@ -1469,7 +1491,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 14 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 15 2017 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

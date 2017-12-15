@@ -448,7 +448,7 @@ var searchData=
   ['getfileextensions',['getFileExtensions',['../classAudioFormat.html#abdd4d2abc5bd62654c2ae29ab9b0ff51',1,'AudioFormat']]],
   ['getfileidentifier',['getFileIdentifier',['../classFile.html#aa081bbcf3c3b9bac62237f8f00b0c8a2',1,'File']]],
   ['getfileinfo',['getFileInfo',['../classDirectoryContentsList.html#a74b2f00f25fa733aba8ff1294a913d56',1,'DirectoryContentsList']]],
-  ['getfilename',['getFileName',['../classFile.html#aef4bc6319861669081767d0efcd427db',1,'File']]],
+  ['getfilename',['getFileName',['../classFile.html#aef4bc6319861669081767d0efcd427db',1,'File::getFileName()'],['../classURL.html#afe211a71a1cabfb120263d246469000a',1,'URL::getFileName()']]],
   ['getfilenamewithoutextension',['getFileNameWithoutExtension',['../classFile.html#a93ab669b92bba0ca0517c2b54e98242a',1,'File']]],
   ['getfilepatterns',['getFilePatterns',['../classStandalonePluginHolder.html#a5a8cd39a398b0b62838a4ec62778429e',1,'StandalonePluginHolder']]],
   ['getfill',['getFill',['../classDrawableShape.html#adbe8f3b0aa43997ac4029485d87b4b88',1,'DrawableShape::getFill()'],['../classDrawableShape_1_1FillAndStrokeState.html#a4bbfcc962666df3263f031a354f75742',1,'DrawableShape::FillAndStrokeState::getFill()']]],

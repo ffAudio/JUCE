@@ -147,10 +147,10 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gaa648b242fe6ecc639ac53ec9c969822f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#ga65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a> void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f">initialiseJuce_GUI</a> ()</td></tr>
-<tr class="memdesc:gaa648b242fe6ecc639ac53ec9c969822f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises Juce's GUI classes.  <a href="#gaa648b242fe6ecc639ac53ec9c969822f">More...</a><br/></td></tr>
+<tr class="memdesc:gaa648b242fe6ecc639ac53ec9c969822f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialises JUCE's GUI classes.  <a href="#gaa648b242fe6ecc639ac53ec9c969822f">More...</a><br/></td></tr>
 <tr class="separator:gaa648b242fe6ecc639ac53ec9c969822f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1c949ca46c8ef9bcefbaf9256ab6ff80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#ga65961b3bfbda0ffb83750d914cee38fb">JUCE_API</a> void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80">shutdownJuce_GUI</a> ()</td></tr>
-<tr class="memdesc:ga1c949ca46c8ef9bcefbaf9256ab6ff80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears up any static data being used by Juce's GUI classes.  <a href="#ga1c949ca46c8ef9bcefbaf9256ab6ff80">More...</a><br/></td></tr>
+<tr class="memdesc:ga1c949ca46c8ef9bcefbaf9256ab6ff80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears up any static data being used by JUCE's GUI classes.  <a href="#ga1c949ca46c8ef9bcefbaf9256ab6ff80">More...</a><br/></td></tr>
 <tr class="separator:ga1c949ca46c8ef9bcefbaf9256ab6ff80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -264,10 +264,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initialises Juce's GUI classes. </p>
+<p>Initialises JUCE's GUI classes. </p>
 <p>If you're embedding JUCE into an application that uses its own event-loop rather than using the START_JUCE_APPLICATION macro, call this function before making any JUCE calls, to make sure things are initialised correctly.</p>
 <p>Note that if you're creating a JUCE DLL for Windows, you may also need to call the <a class="el" href="classProcess.html#a82a86c921a568fe5af4968de5c42adb7" title="WINDOWS ONLY - Sets a new module handle to be used by the library. ">Process::setCurrentModuleInstanceHandle()</a> method.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by Juce&#39;s GUI classes. ">shutdownJuce_GUI()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__events-messages.html#ga1c949ca46c8ef9bcefbaf9256ab6ff80" title="Clears up any static data being used by JUCE&#39;s GUI classes. ">shutdownJuce_GUI()</a> </dd></dl>
 
 </div>
 </div>
@@ -284,16 +284,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Clears up any static data being used by Juce's GUI classes. </p>
+<p>Clears up any static data being used by JUCE's GUI classes. </p>
 <p>If you're embedding JUCE into an application that uses its own event-loop rather than using the START_JUCE_APPLICATION macro, call this function in your shutdown code to clean up any JUCE objects that might be lying around.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises Juce&#39;s GUI classes. ">initialiseJuce_GUI()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__events-messages.html#gaa648b242fe6ecc639ac53ec9c969822f" title="Initialises JUCE&#39;s GUI classes. ">initialiseJuce_GUI()</a> </dd></dl>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 14 2017 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 15 2017 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -618,9 +618,8 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Macro to declare member variables and methods for a singleton class. </p>
 <p>This is like JUCE_DECLARE_SINGLETON_SINGLETHREADED, but doesn't do any checking for recursion or repeated instantiation. It's intended for use as a lightweight version of a singleton, where you're using it in very straightforward circumstances and don't need the extra checking.</p>
-<p>Just use the normal JUCE_IMPLEMENT_SINGLETON_SINGLETHREADED as the counterpart to this declaration, as you would with JUCE_DECLARE_SINGLETON_SINGLETHREADED.</p>
-<p>See the documentation for JUCE_DECLARE_SINGLETON for more information about how to use it, the only difference being that you have to use JUCE_IMPLEMENT_SINGLETON_SINGLETHREADED instead of JUCE_IMPLEMENT_SINGLETON.</p>
-<dl class="section see"><dt>See Also</dt><dd>JUCE_IMPLEMENT_SINGLETON_SINGLETHREADED, <a class="el" href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9" title="Macro to generate the appropriate methods and boilerplate for a singleton class. ">JUCE_DECLARE_SINGLETON</a> </dd></dl>
+<p>See the documentation for JUCE_DECLARE_SINGLETON for more information about how to use it. Just like JUCE_DECLARE_SINGLETON you need to also have a corresponding JUCE_IMPLEMENT_SINGLETON statement somewhere in your code.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__juce__core-memory.html#gaa2068ca3607c637f8ec10cf6c9c219b7" title="This is a counterpart to the JUCE_DECLARE_SINGLETON macros. ">JUCE_IMPLEMENT_SINGLETON</a>, <a class="el" href="group__juce__core-memory.html#gacd79c49d860c4386b12231ca141a41b9" title="Macro to generate the appropriate methods and boilerplate for a singleton class. ">JUCE_DECLARE_SINGLETON</a> </dd></dl>
 
 </div>
 </div>
@@ -2698,7 +2697,7 @@ template&lt;typename Type &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 14 2017 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 15 2017 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
