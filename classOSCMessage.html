@@ -115,9 +115,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c3261179a87ee57b79d9cd64c2a8a63"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCMessage.html#a4c3261179a87ee57b79d9cd64c2a8a63">isEmpty</a> () const noexcept</td></tr>
 <tr class="memdesc:a4c3261179a87ee57b79d9cd64c2a8a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the <a class="el" href="classOSCMessage.html" title="An OSC Message. ">OSCMessage</a> contains no <a class="el" href="classOSCArgument.html" title="An OSC argument. ">OSCArgument</a> objects; false otherwise.  <a href="#a4c3261179a87ee57b79d9cd64c2a8a63">More...</a><br/></td></tr>
 <tr class="separator:a4c3261179a87ee57b79d9cd64c2a8a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addc773f65d099f846daffd8cf4b0a829"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOSCArgument.html">OSCArgument</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCMessage.html#addc773f65d099f846daffd8cf4b0a829">operator[]</a> (const int i) const noexcept</td></tr>
-<tr class="memdesc:addc773f65d099f846daffd8cf4b0a829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the <a class="el" href="classOSCArgument.html" title="An OSC argument. ">OSCArgument</a> at index i in the <a class="el" href="classOSCMessage.html" title="An OSC Message. ">OSCMessage</a> object.  <a href="#addc773f65d099f846daffd8cf4b0a829">More...</a><br/></td></tr>
-<tr class="separator:addc773f65d099f846daffd8cf4b0a829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3fb55a4a01e00bb4a87a1e443cf6631"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOSCArgument.html">OSCArgument</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCMessage.html#ae3fb55a4a01e00bb4a87a1e443cf6631">operator[]</a> (const int i) noexcept</td></tr>
+<tr class="memdesc:ae3fb55a4a01e00bb4a87a1e443cf6631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the <a class="el" href="classOSCArgument.html" title="An OSC argument. ">OSCArgument</a> at index i in the <a class="el" href="classOSCMessage.html" title="An OSC Message. ">OSCMessage</a> object.  <a href="#ae3fb55a4a01e00bb4a87a1e443cf6631">More...</a><br/></td></tr>
+<tr class="separator:ae3fb55a4a01e00bb4a87a1e443cf6631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5d9debff2739ed887e04ff6d4d78244"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOSCArgument.html">OSCArgument</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCMessage.html#ab5d9debff2739ed887e04ff6d4d78244">operator[]</a> (const int i) const noexcept</td></tr>
+<tr class="separator:ab5d9debff2739ed887e04ff6d4d78244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146f7cbb7dc702f1459a706e74c4bb71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOSCArgument.html">OSCArgument</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCMessage.html#a146f7cbb7dc702f1459a706e74c4bb71">begin</a> () const noexcept</td></tr>
 <tr class="memdesc:a146f7cbb7dc702f1459a706e74c4bb71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first <a class="el" href="classOSCArgument.html" title="An OSC argument. ">OSCArgument</a> in the <a class="el" href="classOSCMessage.html" title="An OSC Message. ">OSCMessage</a> object.  <a href="#a146f7cbb7dc702f1459a706e74c4bb71">More...</a><br/></td></tr>
 <tr class="separator:a146f7cbb7dc702f1459a706e74c4bb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,7 +290,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="addc773f65d099f846daffd8cf4b0a829"></a>
+<a class="anchor" id="ae3fb55a4a01e00bb4a87a1e443cf6631"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -297,6 +299,33 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classOSCArgument.html">OSCArgument</a>&amp; OSCMessage::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the <a class="el" href="classOSCArgument.html" title="An OSC argument. ">OSCArgument</a> at index i in the <a class="el" href="classOSCMessage.html" title="An OSC Message. ">OSCMessage</a> object. </p>
+<p>This method does not check the range and results in undefined behaviour in case i &lt; 0 or i &gt;= <a class="el" href="classOSCMessage.html#a59bc329c81577375af70e5afdad75c28" title="Returns the number of OSCArgument objects that belong to this OSCMessage. ">size()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab5d9debff2739ed887e04ff6d4d78244"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classOSCArgument.html">OSCArgument</a>&amp; OSCMessage::operator[] </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -309,9 +338,6 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Returns a reference to the <a class="el" href="classOSCArgument.html" title="An OSC argument. ">OSCArgument</a> at index i in the <a class="el" href="classOSCMessage.html" title="An OSC Message. ">OSCMessage</a> object. </p>
-<p>This method does not check the range and results in undefined behaviour in case i &lt; 0 or i &gt;= <a class="el" href="classOSCMessage.html#a59bc329c81577375af70e5afdad75c28" title="Returns the number of OSCArgument objects that belong to this OSCMessage. ">size()</a>. </p>
 
 </div>
 </div>
@@ -482,7 +508,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 16 2017 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -127,21 +127,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af4f017dcbccd3308c1a83cc230df3ae3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#af4f017dcbccd3308c1a83cc230df3ae3">getNumZones</a> () const noexcept</td></tr>
 <tr class="memdesc:af4f017dcbccd3308c1a83cc230df3ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current number of MPE zones.  <a href="#af4f017dcbccd3308c1a83cc230df3ae3">More...</a><br/></td></tr>
 <tr class="separator:af4f017dcbccd3308c1a83cc230df3ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c4fff68e432d141f490e4ec879be5f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a3c4fff68e432d141f490e4ec879be5f2">getZoneByIndex</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
-<tr class="memdesc:a3c4fff68e432d141f490e4ec879be5f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the MPE zone at the given index, or nullptr if there is no such zone.  <a href="#a3c4fff68e432d141f490e4ec879be5f2">More...</a><br/></td></tr>
-<tr class="separator:a3c4fff68e432d141f490e4ec879be5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9d451a6d26a4b6dcaa63f8a036bad8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#aa9d451a6d26a4b6dcaa63f8a036bad8a">getZoneByChannel</a> (int midiChannel) const noexcept</td></tr>
-<tr class="memdesc:aa9d451a6d26a4b6dcaa63f8a036bad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the zone which uses the specified channel (1-16), or nullptr if there is no such zone.  <a href="#aa9d451a6d26a4b6dcaa63f8a036bad8a">More...</a><br/></td></tr>
-<tr class="separator:aa9d451a6d26a4b6dcaa63f8a036bad8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d73e408a76c8718ae6f9ef45875a1b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a1d73e408a76c8718ae6f9ef45875a1b7">getZoneByMasterChannel</a> (int midiChannel) const noexcept</td></tr>
-<tr class="memdesc:a1d73e408a76c8718ae6f9ef45875a1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the zone which has the specified channel (1-16) as its master channel, or nullptr if there is no such zone.  <a href="#a1d73e408a76c8718ae6f9ef45875a1b7">More...</a><br/></td></tr>
-<tr class="separator:a1d73e408a76c8718ae6f9ef45875a1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a613bd0a75d53ca9f7a71ce45213a2dc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a613bd0a75d53ca9f7a71ce45213a2dc6">getZoneByFirstNoteChannel</a> (int midiChannel) const noexcept</td></tr>
-<tr class="memdesc:a613bd0a75d53ca9f7a71ce45213a2dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the zone which has the specified channel (1-16) as its first note channel, or nullptr if there is no such zone.  <a href="#a613bd0a75d53ca9f7a71ce45213a2dc6">More...</a><br/></td></tr>
-<tr class="separator:a613bd0a75d53ca9f7a71ce45213a2dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a029714df9f8ffe8761ee4e991ea709"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a7a029714df9f8ffe8761ee4e991ea709">getZoneByNoteChannel</a> (int midiChannel) const noexcept</td></tr>
-<tr class="memdesc:a7a029714df9f8ffe8761ee4e991ea709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the zone which has the specified channel (1-16) as one of its note channels, or nullptr if there is no such zone.  <a href="#a7a029714df9f8ffe8761ee4e991ea709">More...</a><br/></td></tr>
-<tr class="separator:a7a029714df9f8ffe8761ee4e991ea709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee6b3511639c7cbcb6c15bdd19bab82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a8ee6b3511639c7cbcb6c15bdd19bab82">getZoneByIndex</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) noexcept</td></tr>
+<tr class="memdesc:a8ee6b3511639c7cbcb6c15bdd19bab82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the MPE zone at the given index, or nullptr if there is no such zone.  <a href="#a8ee6b3511639c7cbcb6c15bdd19bab82">More...</a><br/></td></tr>
+<tr class="separator:a8ee6b3511639c7cbcb6c15bdd19bab82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb5219ef980e0c98de9a274d7f50748"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a3eb5219ef980e0c98de9a274d7f50748">getZoneByIndex</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
+<tr class="separator:a3eb5219ef980e0c98de9a274d7f50748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386b49656bf0b13ca1db5e46a9078584"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a386b49656bf0b13ca1db5e46a9078584">getZoneByChannel</a> (int midiChannel) noexcept</td></tr>
+<tr class="memdesc:a386b49656bf0b13ca1db5e46a9078584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the zone which uses the specified channel (1-16), or nullptr if there is no such zone.  <a href="#a386b49656bf0b13ca1db5e46a9078584">More...</a><br/></td></tr>
+<tr class="separator:a386b49656bf0b13ca1db5e46a9078584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d5245ca5329433b3079ea59ea210a9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#ad3d5245ca5329433b3079ea59ea210a9">getZoneByChannel</a> (int midiChannel) const noexcept</td></tr>
+<tr class="separator:ad3d5245ca5329433b3079ea59ea210a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9c450fa79c3e40a8106682716846265"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#ae9c450fa79c3e40a8106682716846265">getZoneByMasterChannel</a> (int midiChannel) noexcept</td></tr>
+<tr class="memdesc:ae9c450fa79c3e40a8106682716846265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the zone which has the specified channel (1-16) as its master channel, or nullptr if there is no such zone.  <a href="#ae9c450fa79c3e40a8106682716846265">More...</a><br/></td></tr>
+<tr class="separator:ae9c450fa79c3e40a8106682716846265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e77c80899cf0f5728fb7ae3beb8392"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a86e77c80899cf0f5728fb7ae3beb8392">getZoneByMasterChannel</a> (int midiChannel) const noexcept</td></tr>
+<tr class="separator:a86e77c80899cf0f5728fb7ae3beb8392"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70fdadbb871ca4cd0310bd72339a74f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a70fdadbb871ca4cd0310bd72339a74f6">getZoneByFirstNoteChannel</a> (int midiChannel) noexcept</td></tr>
+<tr class="memdesc:a70fdadbb871ca4cd0310bd72339a74f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the zone which has the specified channel (1-16) as its first note channel, or nullptr if there is no such zone.  <a href="#a70fdadbb871ca4cd0310bd72339a74f6">More...</a><br/></td></tr>
+<tr class="separator:a70fdadbb871ca4cd0310bd72339a74f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d74502a51386495f6e40dbc56e6083"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#ae9d74502a51386495f6e40dbc56e6083">getZoneByFirstNoteChannel</a> (int midiChannel) const noexcept</td></tr>
+<tr class="separator:ae9d74502a51386495f6e40dbc56e6083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee0ddaaecc7145b2e2e780e6c771a035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#aee0ddaaecc7145b2e2e780e6c771a035">getZoneByNoteChannel</a> (int midiChannel) noexcept</td></tr>
+<tr class="memdesc:aee0ddaaecc7145b2e2e780e6c771a035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the zone which has the specified channel (1-16) as one of its note channels, or nullptr if there is no such zone.  <a href="#aee0ddaaecc7145b2e2e780e6c771a035">More...</a><br/></td></tr>
+<tr class="separator:aee0ddaaecc7145b2e2e780e6c771a035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99421f70c3fc1e58ada8f460fbe6ed75"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMPEZone.html">MPEZone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a99421f70c3fc1e58ada8f460fbe6ed75">getZoneByNoteChannel</a> (int midiChannel) const noexcept</td></tr>
+<tr class="separator:a99421f70c3fc1e58ada8f460fbe6ed75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1646514b879aebd48659764d968c87dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEZoneLayout.html#a1646514b879aebd48659764d968c87dc">addListener</a> (<a class="el" href="classMPEZoneLayout_1_1Listener.html">Listener</a> *const listenerToAdd) noexcept</td></tr>
 <tr class="memdesc:a1646514b879aebd48659764d968c87dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener.  <a href="#a1646514b879aebd48659764d968c87dc">More...</a><br/></td></tr>
 <tr class="separator:a1646514b879aebd48659764d968c87dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,7 +338,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3c4fff68e432d141f490e4ec879be5f2"></a>
+<a class="anchor" id="a8ee6b3511639c7cbcb6c15bdd19bab82"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -340,7 +350,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -355,7 +365,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa9d451a6d26a4b6dcaa63f8a036bad8a"></a>
+<a class="anchor" id="a3eb5219ef980e0c98de9a274d7f50748"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMPEZone.html">MPEZone</a>* MPEZoneLayout::getZoneByIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a386b49656bf0b13ca1db5e46a9078584"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -367,7 +401,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiChannel</em></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -381,7 +415,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1d73e408a76c8718ae6f9ef45875a1b7"></a>
+<a class="anchor" id="ad3d5245ca5329433b3079ea59ea210a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMPEZone.html">MPEZone</a>* MPEZoneLayout::getZoneByChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae9c450fa79c3e40a8106682716846265"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -393,7 +451,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiChannel</em></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -407,7 +465,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a613bd0a75d53ca9f7a71ce45213a2dc6"></a>
+<a class="anchor" id="a86e77c80899cf0f5728fb7ae3beb8392"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMPEZone.html">MPEZone</a>* MPEZoneLayout::getZoneByMasterChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a70fdadbb871ca4cd0310bd72339a74f6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -419,7 +501,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiChannel</em></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -433,7 +515,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7a029714df9f8ffe8761ee4e991ea709"></a>
+<a class="anchor" id="ae9d74502a51386495f6e40dbc56e6083"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -441,7 +523,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMPEZone.html">MPEZone</a>* MPEZoneLayout::getZoneByNoteChannel </td>
+          <td class="memname">const <a class="el" href="structMPEZone.html">MPEZone</a>* MPEZoneLayout::getZoneByFirstNoteChannel </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>midiChannel</em></td><td>)</td>
@@ -455,7 +537,55 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a class="anchor" id="aee0ddaaecc7145b2e2e780e6c771a035"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMPEZone.html">MPEZone</a>* MPEZoneLayout::getZoneByNoteChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>Returns a pointer to the zone which has the specified channel (1-16) as one of its note channels, or nullptr if there is no such zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a99421f70c3fc1e58ada8f460fbe6ed75"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMPEZone.html">MPEZone</a>* MPEZoneLayout::getZoneByNoteChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>midiChannel</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -517,7 +647,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 16 2017 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

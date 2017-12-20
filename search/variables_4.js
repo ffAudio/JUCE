@@ -25,6 +25,7 @@ var searchData=
   ['events',['events',['../structVstEventBlock.html#ad61ca31c4fe6303cd4a16f75b02c1930',1,'VstEventBlock']]],
   ['eventtime',['eventTime',['../classMouseEvent.html#ad2980025e848cebfad0d6ad43f61c648',1,'MouseEvent']]],
   ['eventtimestamp',['eventTimestamp',['../structTouchSurface_1_1Touch.html#ad5cba9e5283f8d4ce1d6137bf5610cb1',1,'TouchSurface::Touch']]],
+  ['eventtype',['eventType',['../structAnalyticsDestination_1_1AnalyticsEvent.html#af142f71461a3822f5daa8cf116b67c6a',1,'AnalyticsDestination::AnalyticsEvent']]],
   ['extensions',['extensions',['../classOpenGLContext.html#a3e204724fd78bbc272023525226caad7',1,'OpenGLContext']]],
   ['extracomponent',['extraComponent',['../classTabBarButton.html#ac4408d42f00d2f84fc6a43a4a125d929',1,'TabBarButton']]],
   ['extracompplacement',['extraCompPlacement',['../classTabBarButton.html#a3f80996350cf67bf9fa08e9777ae4fff',1,'TabBarButton']]]

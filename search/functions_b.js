@@ -84,7 +84,7 @@ var searchData=
   ['lockwasgained',['lockWasGained',['../classMessageManagerLock.html#a5f3d8b6abc27aa324a882abc6e2d96ba',1,'MessageManagerLock']]],
   ['log',['log',['../group__LittleFootFunctions.html#ga0bab463ca31298ee80199958df6c10a0',1,'juce_LittleFootFunctions.dox']]],
   ['logbatchedevents',['logBatchedEvents',['../classThreadedAnalyticsDestination.html#a72822517bc35699a4f474a35979e1430',1,'ThreadedAnalyticsDestination']]],
-  ['logevent',['logEvent',['../classAnalytics.html#a9318a6ca7f20043279489364da2974a6',1,'Analytics::logEvent()'],['../structAnalyticsDestination.html#a915afe9dfa5adb575454363e5367a4bd',1,'AnalyticsDestination::logEvent()'],['../classThreadedAnalyticsDestination.html#aa2feea61818648554f35f4e2e781c2d7',1,'ThreadedAnalyticsDestination::logEvent()']]],
+  ['logevent',['logEvent',['../classAnalytics.html#ac5bb011af4531acb593ef9b23e0a3993',1,'Analytics::logEvent()'],['../structAnalyticsDestination.html#a915afe9dfa5adb575454363e5367a4bd',1,'AnalyticsDestination::logEvent()'],['../classThreadedAnalyticsDestination.html#aa2feea61818648554f35f4e2e781c2d7',1,'ThreadedAnalyticsDestination::logEvent()']]],
   ['logger',['Logger',['../classLogger.html#abc41bfb031d896170c7675fa96a6b30c',1,'Logger']]],
   ['loghex',['logHex',['../group__LittleFootFunctions.html#ga3621e403d6be0bc2312338e684c1e197',1,'juce_LittleFootFunctions.dox']]],
   ['logmessage',['logMessage',['../classFileLogger.html#aaf1bc4062f89bc56c9926bb1af268bb4',1,'FileLogger::logMessage()'],['../classLogger.html#ab2ef7f6552d425bf729b7d1a7ed5160f',1,'Logger::logMessage()'],['../classUnitTest.html#a1c91c1b7758fffd3536042238f00005b',1,'UnitTest::logMessage()'],['../classUnitTestRunner.html#abda0a15326302c1d6ce444869e304eeb',1,'UnitTestRunner::logMessage()']]],

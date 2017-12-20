@@ -143,7 +143,7 @@ class dsp::Oversampling&lt; SampleType &gt;</h3>
 <p>It can be configured to do 2 times, 4 times, 8 times or 16 times oversampling using a multi-stage approach, either polyphase allpass <a class="el" href="namespacedsp_1_1IIR.html">IIR</a> filters or <a class="el" href="namespacedsp_1_1FIR.html" title="Classes for FIR filter processing. ">FIR</a> filters for the filtering, and reports successfully the latency added by the filter stages.</p>
 <p>The principle of oversampling is to increase the sample rate of a given non-linear process, to prevent it from creating aliasing. <a class="el" href="classdsp_1_1Oversampling.html" title="A processing class performing multi-channel oversampling. ">Oversampling</a> works by upsampling N times the input signal, processing the upsampling signal with the increased internal sample rate, and downsample the result to get back the original processing sample rate.</p>
 <p>Choose between <a class="el" href="namespacedsp_1_1FIR.html" title="Classes for FIR filter processing. ">FIR</a> or <a class="el" href="namespacedsp_1_1IIR.html">IIR</a> filtering depending on your needs in term of latency and phase distortion. With <a class="el" href="namespacedsp_1_1FIR.html" title="Classes for FIR filter processing. ">FIR</a> filters, the phase is linear but the latency is maximum. With <a class="el" href="namespacedsp_1_1IIR.html">IIR</a> filtering, the phase is compromised around the Nyquist frequency but the latency is minimum.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structdsp_1_1FilterDesign.html" title="This class provides a set of functions which generates FIR::Coefficients and IIR::Coefficients, of high-order lowpass filters. ">FilterDesign</a>. </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structdsp_1_1FilterDesign.html" title="This class provides a set of functions which generates FIR::Coefficients and IIR::Coefficients, of high-order low-pass filters. ">FilterDesign</a>. </dd></dl>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="ac3d048707b7807badec0df770c9778f8"></a>
 <div class="memitem">
@@ -410,7 +410,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 16 2017 01:01:07 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

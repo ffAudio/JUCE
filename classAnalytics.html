@@ -105,17 +105,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2afffff98a15499fef14df9ce2795794"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a2afffff98a15499fef14df9ce2795794">addDestination</a> (<a class="el" href="structAnalyticsDestination.html">AnalyticsDestination</a> *destination)</td></tr>
 <tr class="memdesc:a2afffff98a15499fef14df9ce2795794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an <a class="el" href="structAnalyticsDestination.html" title="An interface for handling analytics events collected by an Analytics object. ">AnalyticsDestination</a> to the list of AnalyticsDestinations managed by this <a class="el" href="classAnalytics.html" title="A singleton class to manage analytics data. ">Analytics</a> object.  <a href="#a2afffff98a15499fef14df9ce2795794">More...</a><br/></td></tr>
 <tr class="separator:a2afffff98a15499fef14df9ce2795794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf460082f47474edb3e4ebc7ab6746c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOwnedArray.html">OwnedArray</a><br class="typebreak"/>
+&lt; <a class="el" href="structAnalyticsDestination.html">AnalyticsDestination</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a4cf460082f47474edb3e4ebc7ab6746c">getDestinations</a> ()</td></tr>
+<tr class="memdesc:a4cf460082f47474edb3e4ebc7ab6746c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the array of AnalyticsDestinations managed by this class.  <a href="#a4cf460082f47474edb3e4ebc7ab6746c">More...</a><br/></td></tr>
+<tr class="separator:a4cf460082f47474edb3e4ebc7ab6746c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5880aa98f8906a8f85071cd12afe8a74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a5880aa98f8906a8f85071cd12afe8a74">setUserId</a> (const <a class="el" href="classString.html">String</a> &amp;newUserId)</td></tr>
 <tr class="memdesc:a5880aa98f8906a8f85071cd12afe8a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a user ID that will be added to all AnalyticsEvents sent to AnalyticsDestinations.  <a href="#a5880aa98f8906a8f85071cd12afe8a74">More...</a><br/></td></tr>
 <tr class="separator:a5880aa98f8906a8f85071cd12afe8a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a190a838c9c0253ea00ff1d6985a684fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a190a838c9c0253ea00ff1d6985a684fb">setUserProperties</a> (const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;properties)</td></tr>
 <tr class="memdesc:a190a838c9c0253ea00ff1d6985a684fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets some user properties that will be added to all AnalyticsEvents sent to AnalyticsDestinations.  <a href="#a190a838c9c0253ea00ff1d6985a684fb">More...</a><br/></td></tr>
 <tr class="separator:a190a838c9c0253ea00ff1d6985a684fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9318a6ca7f20043279489364da2974a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a9318a6ca7f20043279489364da2974a6">logEvent</a> (const <a class="el" href="classString.html">String</a> &amp;eventName, const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;parameters)</td></tr>
-<tr class="memdesc:a9318a6ca7f20043279489364da2974a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an AnalyticsEvent to all AnalyticsDestinations.  <a href="#a9318a6ca7f20043279489364da2974a6">More...</a><br/></td></tr>
-<tr class="separator:a9318a6ca7f20043279489364da2974a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5bb011af4531acb593ef9b23e0a3993"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#ac5bb011af4531acb593ef9b23e0a3993">logEvent</a> (const <a class="el" href="classString.html">String</a> &amp;eventName, const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;parameters, int eventType=0)</td></tr>
+<tr class="memdesc:ac5bb011af4531acb593ef9b23e0a3993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an AnalyticsEvent to all AnalyticsDestinations.  <a href="#ac5bb011af4531acb593ef9b23e0a3993">More...</a><br/></td></tr>
+<tr class="separator:ac5bb011af4531acb593ef9b23e0a3993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08e81ee784704639e45d5d3c69087c1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAnalytics.html#a08e81ee784704639e45d5d3c69087c1f">setSuspended</a> (bool shouldBeSuspended)</td></tr>
-<tr class="memdesc:a08e81ee784704639e45d5d3c69087c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspends analytics submission to AnalyticsDestinations.  <a href="#a08e81ee784704639e45d5d3c69087c1f">More...</a><br/></td></tr>
+<tr class="memdesc:a08e81ee784704639e45d5d3c69087c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suspends analytics submissions to AnalyticsDestinations.  <a href="#a08e81ee784704639e45d5d3c69087c1f">More...</a><br/></td></tr>
 <tr class="separator:a08e81ee784704639e45d5d3c69087c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -159,6 +163,24 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a4cf460082f47474edb3e4ebc7ab6746c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classOwnedArray.html">OwnedArray</a>&lt;<a class="el" href="structAnalyticsDestination.html">AnalyticsDestination</a>&gt;&amp; Analytics::getDestinations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the array of AnalyticsDestinations managed by this class. </p>
+<p>If you have added any subclasses of <a class="el" href="classThreadedAnalyticsDestination.html" title="A base class for dispatching analytics events on a dedicated thread. ">ThreadedAnalyticsDestination</a> to this class then you can remove them from this list to force them to flush any pending events. </p>
 
 </div>
 </div>
@@ -210,7 +232,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9318a6ca7f20043279489364da2974a6"></a>
+<a class="anchor" id="ac5bb011af4531acb593ef9b23e0a3993"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -224,7 +246,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;&#160;</td>
-          <td class="paramname"><em>parameters</em>&#160;</td>
+          <td class="paramname"><em>parameters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>eventType</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -235,11 +263,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sends an AnalyticsEvent to all AnalyticsDestinations. </p>
-<p>The AnalyticsEvent will be timestamped, and will have the userId and userProperties populated by values previously set by calls to setUserId and setUserProperties. The name and parameters will be populated by the arguments supplied to this function.</p>
+<p>The AnalyticsEvent will be timestamped, and will have the userId and userProperties populated by values previously set by calls to setUserId and setUserProperties. The name, parameters and type will be populated by the arguments supplied to this function.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">eventName</td><td>the event name </td></tr>
     <tr><td class="paramname">parameters</td><td>the event parameters </td></tr>
+    <tr><td class="paramname">eventType</td><td>(optional) an integer to indicate the event type, which will be set to 0 if not supplied. </td></tr>
   </table>
   </dd>
 </dl>
@@ -260,7 +289,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Suspends analytics submission to AnalyticsDestinations. </p>
+<p>Suspends analytics submissions to AnalyticsDestinations. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">shouldBeSuspended</td><td>if event submission should be suspended </td></tr>
@@ -276,7 +305,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 16 2017 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

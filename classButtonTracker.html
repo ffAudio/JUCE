@@ -102,9 +102,9 @@ Inheritance diagram for ButtonTracker:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5cb61e9574296ea9bc3ae4ff5ac8152b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButtonTracker.html#a5cb61e9574296ea9bc3ae4ff5ac8152b">ButtonTracker</a> (<a class="el" href="classButton.html">Button</a> &amp;buttonToTrack, const <a class="el" href="classString.html">String</a> &amp;triggeredEventName, const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;triggeredEventParameters={})</td></tr>
-<tr class="memdesc:a5cb61e9574296ea9bc3ae4ff5ac8152b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creating one of these automatically sends analytics events to the <a class="el" href="classAnalytics.html" title="A singleton class to manage analytics data. ">Analytics</a> singeton when the corresponding button is clicked.  <a href="#a5cb61e9574296ea9bc3ae4ff5ac8152b">More...</a><br/></td></tr>
-<tr class="separator:a5cb61e9574296ea9bc3ae4ff5ac8152b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1259a8b4aabb8ad4928a90599f1a0d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButtonTracker.html#ac1259a8b4aabb8ad4928a90599f1a0d8">ButtonTracker</a> (<a class="el" href="classButton.html">Button</a> &amp;buttonToTrack, const <a class="el" href="classString.html">String</a> &amp;triggeredEventName, const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;triggeredEventParameters={}, int triggeredEventType=0)</td></tr>
+<tr class="memdesc:ac1259a8b4aabb8ad4928a90599f1a0d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creating one of these automatically sends analytics events to the <a class="el" href="classAnalytics.html" title="A singleton class to manage analytics data. ">Analytics</a> singeton when the corresponding button is clicked.  <a href="#ac1259a8b4aabb8ad4928a90599f1a0d8">More...</a><br/></td></tr>
+<tr class="separator:ac1259a8b4aabb8ad4928a90599f1a0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a712c1df67c49d7a2b46fab953979c57b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButtonTracker.html#a712c1df67c49d7a2b46fab953979c57b">~ButtonTracker</a> ()</td></tr>
 <tr class="memdesc:a712c1df67c49d7a2b46fab953979c57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a712c1df67c49d7a2b46fab953979c57b">More...</a><br/></td></tr>
 <tr class="separator:a712c1df67c49d7a2b46fab953979c57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,7 +113,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A class that automatically sends analytics events to the <a class="el" href="classAnalytics.html" title="A singleton class to manage analytics data. ">Analytics</a> singleton when a button is clicked. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAnalytics.html" title="A singleton class to manage analytics data. ">Analytics</a>, <a class="el" href="structAnalyticsDestination_1_1AnalyticsEvent.html" title="Contains information about an event to be logged. ">AnalyticsDestination::AnalyticsEvent</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a5cb61e9574296ea9bc3ae4ff5ac8152b"></a>
+<a class="anchor" id="ac1259a8b4aabb8ad4928a90599f1a0d8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -133,7 +133,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classStringPairArray.html">StringPairArray</a> &amp;&#160;</td>
-          <td class="paramname"><em>triggeredEventParameters</em> = <code>{}</code>&#160;</td>
+          <td class="paramname"><em>triggeredEventParameters</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>triggeredEventType</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -149,7 +155,8 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">buttonToTrack</td><td>the button to track </td></tr>
     <tr><td class="paramname">triggeredEventName</td><td>the name of the generated event </td></tr>
-    <tr><td class="paramname">triggeredEventParameters</td><td>the parameters to add to the generated event</td></tr>
+    <tr><td class="paramname">triggeredEventParameters</td><td>the parameters to add to the generated event </td></tr>
+    <tr><td class="paramname">triggeredEventType</td><td>(optional) an integer to indicate the event type, which will be set to 0 if not supplied.</td></tr>
   </table>
   </dd>
 </dl>
@@ -180,7 +187,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 16 2017 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

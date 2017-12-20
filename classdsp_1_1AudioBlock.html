@@ -145,6 +145,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a96bdc3a29dd27f9917149d0bb64f23bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a96bdc3a29dd27f9917149d0bb64f23bd">getSubsetChannelBlock</a> (size_t channelStart, size_t numChannelsToUse) noexcept</td></tr>
 <tr class="memdesc:a96bdc3a29dd27f9917149d0bb64f23bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a subset of continguous channels.  <a href="#a96bdc3a29dd27f9917149d0bb64f23bd">More...</a><br/></td></tr>
 <tr class="separator:a96bdc3a29dd27f9917149d0bb64f23bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25f70274e41426a45b24522a2972f190"><td class="memItemLeft" align="right" valign="top">SampleType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a25f70274e41426a45b24522a2972f190">getSample</a> (int channel, int sampleIndex) const noexcept</td></tr>
+<tr class="memdesc:a25f70274e41426a45b24522a2972f190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a sample from the buffer.  <a href="#a25f70274e41426a45b24522a2972f190">More...</a><br/></td></tr>
+<tr class="separator:a25f70274e41426a45b24522a2972f190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace22dc119936051db057031de5014f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#aace22dc119936051db057031de5014f7">setSample</a> (int destChannel, int destSample, SampleType newValue) noexcept</td></tr>
+<tr class="memdesc:aace22dc119936051db057031de5014f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies a sample in the buffer.  <a href="#aace22dc119936051db057031de5014f7">More...</a><br/></td></tr>
+<tr class="separator:aace22dc119936051db057031de5014f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86118eb1e179e6f94bb447f5d28320b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a86118eb1e179e6f94bb447f5d28320b4">addSample</a> (int destChannel, int destSample, SampleType valueToAdd) noexcept</td></tr>
+<tr class="memdesc:a86118eb1e179e6f94bb447f5d28320b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a value to a sample in the buffer.  <a href="#a86118eb1e179e6f94bb447f5d28320b4">More...</a><br/></td></tr>
+<tr class="separator:a86118eb1e179e6f94bb447f5d28320b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e1f5ca85803bdaec6527d2bebe23a4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a3e1f5ca85803bdaec6527d2bebe23a4e">clear</a> () noexcept</td></tr>
 <tr class="memdesc:a3e1f5ca85803bdaec6527d2bebe23a4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the memory described by this <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a>.  <a href="#a3e1f5ca85803bdaec6527d2bebe23a4e">More...</a><br/></td></tr>
 <tr class="separator:a3e1f5ca85803bdaec6527d2bebe23a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -755,6 +764,135 @@ template&lt;typename SampleType&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a25f70274e41426a45b24522a2972f190"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SampleType <a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt;::getSample </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sampleIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a sample from the buffer. </p>
+<p>The channel and index are not checked - they are expected to be in-range. If not, an assertion will be thrown, but in a release build, you're into 'undefined behaviour' territory. </p>
+
+</div>
+</div>
+<a class="anchor" id="aace22dc119936051db057031de5014f7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt;::setSample </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destChannel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SampleType&#160;</td>
+          <td class="paramname"><em>newValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modifies a sample in the buffer. </p>
+<p>The channel and index are not checked - they are expected to be in-range. If not, an assertion will be thrown, but in a release build, you're into 'undefined behaviour' territory. </p>
+
+</div>
+</div>
+<a class="anchor" id="a86118eb1e179e6f94bb447f5d28320b4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt;::addSample </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destChannel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>destSample</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SampleType&#160;</td>
+          <td class="paramname"><em>valueToAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a value to a sample in the buffer. </p>
+<p>The channel and index are not checked - they are expected to be in-range. If not, an assertion will be thrown, but in a release build, you're into 'undefined behaviour' territory. </p>
 
 </div>
 </div>
@@ -1844,7 +1982,7 @@ template&lt;typename FunctionType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 16 2017 01:01:07 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -221,7 +221,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Also, if you pass an already existing file on iOS, that file will be automatically copied to the destination chosen by user and if it can be previewed, its preview will be presented in the dialog too. You will still be able to write into this file copy, since its <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> will be returned by <a class="el" href="classFileChooser.html#a79f45e17055abca664d406f613e3f951" title="Returns the last document that was chosen by one of the browseFor methods. ">getURLResult()</a>. This can be useful when you want to save e.g. an image, so that you can pass a (temporary) file with low quality preview and after the user picks the destination, you can write a high quality image into the copied file. If you create such a temporary file, you need to delete it yourself, once it is not needed anymore.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filePatternsAllowed</td><td>a set of file patterns to specify which files can be selected - each pattern should be separated by a comma or semi-colon, e.g. "*" or "*.jpg;*.gif". An empty string means that all files are allowed </td></tr>
+    <tr><td class="paramname">filePatternsAllowed</td><td>a set of file patterns to specify which files can be selected - each pattern should be separated by a comma or semi-colon, e.g. "*" or "*.jpg;*.gif". The native MacOS file browser only supports wildcard that specify extensions, so "*.jpg" is OK but "myfilename*" will not work. An empty string means that all files are allowed </td></tr>
     <tr><td class="paramname">useOSNativeDialogBox</td><td>if true, then a native dialog box will be used if possible; if false, then a Juce-based browser dialog box will always be used </td></tr>
     <tr><td class="paramname">treatFilePackagesAsDirectories</td><td>if true, then the file chooser will allow the selection of files inside packages when invoked on OS X and when using native dialog boxes.</td></tr>
   </table>
@@ -567,7 +567,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 16 2017 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
