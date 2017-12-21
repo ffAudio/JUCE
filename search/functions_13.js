@@ -113,7 +113,7 @@ var searchData=
   ['transformall',['transformAll',['../classRectangleList.html#a3ada18acf295f59a9a00294205079d92',1,'RectangleList']]],
   ['transformcontexttocorrectorigin',['transformContextToCorrectOrigin',['../classDrawable.html#a5677834b7ae237a1777080ff6d246c7a',1,'Drawable']]],
   ['transformed',['transformed',['../classFillType.html#a5750bc2f18b31abf87555c132334056b',1,'FillType']]],
-  ['transformedby',['transformedBy',['../classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4',1,'Point::transformedBy()'],['../classRectangle.html#ab103d804bdf15b7ac1381dc79d6742b9',1,'Rectangle::transformedBy()']]],
+  ['transformedby',['transformedBy',['../classParallelogram.html#a39646590bc7ce781b9e3314bddace341',1,'Parallelogram::transformedBy()'],['../classPoint.html#aa30fec65a5bea3c630f2e6b2cd356ba4',1,'Point::transformedBy()'],['../classRectangle.html#ab103d804bdf15b7ac1381dc79d6742b9',1,'Rectangle::transformedBy()']]],
   ['transformpoint',['transformPoint',['../classAffineTransform.html#ade9df23412c79acaf89f5dbdf7da6add',1,'AffineTransform']]],
   ['transformpoints',['transformPoints',['../classAffineTransform.html#a991a8c5f94062033d7a5e75dff84ff72',1,'AffineTransform::transformPoints(ValueType &amp;x1, ValueType &amp;y1, ValueType &amp;x2, ValueType &amp;y2) const noexcept'],['../classAffineTransform.html#aa4083c3ff6cab1119de654554cade3b0',1,'AffineTransform::transformPoints(ValueType &amp;x1, ValueType &amp;y1, ValueType &amp;x2, ValueType &amp;y2, ValueType &amp;x3, ValueType &amp;y3) const noexcept']]],
   ['transformtopology',['transformTopology',['../structRuleBasedTopologySource_1_1Rule.html#a5eadbda331af433fd24b0455f6ca73b9',1,'RuleBasedTopologySource::Rule']]],

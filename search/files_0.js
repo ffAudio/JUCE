@@ -362,6 +362,7 @@ var searchData=
   ['juce_5foutputstream_2eh',['juce_OutputStream.h',['../juce__OutputStream_8h.html',1,'']]],
   ['juce_5foversampling_2eh',['juce_Oversampling.h',['../juce__Oversampling_8h.html',1,'']]],
   ['juce_5fownedarray_2eh',['juce_OwnedArray.h',['../juce__OwnedArray_8h.html',1,'']]],
+  ['juce_5fparallelogram_2eh',['juce_Parallelogram.h',['../juce__Parallelogram_8h.html',1,'']]],
   ['juce_5fpath_2eh',['juce_Path.h',['../juce__Path_8h.html',1,'']]],
   ['juce_5fpathiterator_2eh',['juce_PathIterator.h',['../juce__PathIterator_8h.html',1,'']]],
   ['juce_5fpathstroketype_2eh',['juce_PathStrokeType.h',['../juce__PathStrokeType_8h.html',1,'']]],
