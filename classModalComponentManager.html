@@ -116,12 +116,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae0cc69f288251b77294a0db2ae202259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#ae0cc69f288251b77294a0db2ae202259">getModalComponent</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const </td></tr>
 <tr class="memdesc:ae0cc69f288251b77294a0db2ae202259"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the components being shown modally.  <a href="#ae0cc69f288251b77294a0db2ae202259">More...</a><br/></td></tr>
 <tr class="separator:ae0cc69f288251b77294a0db2ae202259"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a680e783f606445b929f266335fee5bd4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#a680e783f606445b929f266335fee5bd4">isModal</a> (<a class="el" href="classComponent.html">Component</a> *component) const </td></tr>
-<tr class="memdesc:a680e783f606445b929f266335fee5bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified component is in a modal state.  <a href="#a680e783f606445b929f266335fee5bd4">More...</a><br/></td></tr>
-<tr class="separator:a680e783f606445b929f266335fee5bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd4a81dfce7204dff84cb0c7b5c85d83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#abd4a81dfce7204dff84cb0c7b5c85d83">isFrontModalComponent</a> (<a class="el" href="classComponent.html">Component</a> *component) const </td></tr>
-<tr class="memdesc:abd4a81dfce7204dff84cb0c7b5c85d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified component is currently the topmost modal component.  <a href="#abd4a81dfce7204dff84cb0c7b5c85d83">More...</a><br/></td></tr>
-<tr class="separator:abd4a81dfce7204dff84cb0c7b5c85d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab714c0f5f7eb6a3ae02c086c3b96a634"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#ab714c0f5f7eb6a3ae02c086c3b96a634">isModal</a> (const <a class="el" href="classComponent.html">Component</a> *component) const </td></tr>
+<tr class="memdesc:ab714c0f5f7eb6a3ae02c086c3b96a634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified component is in a modal state.  <a href="#ab714c0f5f7eb6a3ae02c086c3b96a634">More...</a><br/></td></tr>
+<tr class="separator:ab714c0f5f7eb6a3ae02c086c3b96a634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36dcff836f3fa03bdfd99c808c875f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#ad36dcff836f3fa03bdfd99c808c875f9">isFrontModalComponent</a> (const <a class="el" href="classComponent.html">Component</a> *component) const </td></tr>
+<tr class="memdesc:ad36dcff836f3fa03bdfd99c808c875f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the specified component is currently the topmost modal component.  <a href="#ad36dcff836f3fa03bdfd99c808c875f9">More...</a><br/></td></tr>
+<tr class="separator:ad36dcff836f3fa03bdfd99c808c875f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ce962253cf2c8e42d5575ad2a41d888"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModalComponentManager.html#a2ce962253cf2c8e42d5575ad2a41d888">attachCallback</a> (<a class="el" href="classComponent.html">Component</a> *component, <a class="el" href="classModalComponentManager_1_1Callback.html">Callback</a> *callback)</td></tr>
 <tr class="memdesc:a2ce962253cf2c8e42d5575ad2a41d888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new callback that will be called when the specified modal component is dismissed.  <a href="#a2ce962253cf2c8e42d5575ad2a41d888">More...</a><br/></td></tr>
 <tr class="separator:a2ce962253cf2c8e42d5575ad2a41d888"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,14 +240,14 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a680e783f606445b929f266335fee5bd4"></a>
+<a class="anchor" id="ab714c0f5f7eb6a3ae02c086c3b96a634"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool ModalComponentManager::isModal </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classComponent.html">Component</a> *&#160;</td>
           <td class="paramname"><em>component</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -258,14 +258,14 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abd4a81dfce7204dff84cb0c7b5c85d83"></a>
+<a class="anchor" id="ad36dcff836f3fa03bdfd99c808c875f9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool ModalComponentManager::isFrontModalComponent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classComponent.html">Component</a> *&#160;</td>
           <td class="paramname"><em>component</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -391,7 +391,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 22 2017 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Dec 23 2017 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -187,7 +187,7 @@ var searchData=
   ['removechild',['removeChild',['../classValueTree.html#a52b15bdb0b4a04b81c04e7059bb926c4',1,'ValueTree::removeChild(const ValueTree &amp;child, UndoManager *undoManager)'],['../classValueTree.html#a3bee3734652dec6bb1d5c351a1268fc0',1,'ValueTree::removeChild(int childIndex, UndoManager *undoManager)']]],
   ['removechildcomponent',['removeChildComponent',['../classComponent.html#a221324c67c9fb048895b8730dbf1b642',1,'Component::removeChildComponent(Component *childToRemove)'],['../classComponent.html#a9f27c66bb660ca98e1713878db39bdfd',1,'Component::removeChildComponent(int childIndexToRemove)']]],
   ['removechildelement',['removeChildElement',['../classXmlElement.html#ab1a572007f8cef5199dce0b5abc57f01',1,'XmlElement']]],
-  ['removecolour',['removeColour',['../classColourGradient.html#a55bbee0ea470af294d36d19256e7d419',1,'ColourGradient::removeColour()'],['../classComponent.html#a7c3179a6a241477c590ea23ff99e867d',1,'Component::removeColour()']]],
+  ['removecolour',['removeColour',['../classColourGradient.html#a55bbee0ea470af294d36d19256e7d419',1,'ColourGradient::removeColour()'],['../classComponent.html#a29686d4cd540f9abdac20ccefafe0086',1,'Component::removeColour()']]],
   ['removecolumn',['removeColumn',['../classTableHeaderComponent.html#a6642d29de80979c31d0b5ee6bd399730',1,'TableHeaderComponent']]],
   ['removecommand',['removeCommand',['../classApplicationCommandManager.html#a910296ce97f93bc7fcd8a24085ac7ca6',1,'ApplicationCommandManager']]],
   ['removecomponentlistener',['removeComponentListener',['../classComponent.html#a7a74ad0359e05321223f1d09bcfddddd',1,'Component']]],

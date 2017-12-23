@@ -132,7 +132,7 @@ var searchData=
   ['findavailabledevices',['findAvailableDevices',['../classAudioCDBurner.html#aa91adde6eab8e134842597c331cc3afb',1,'AudioCDBurner']]],
   ['findchildfiles',['findChildFiles',['../classFile.html#a6b382c3eb3cbbbfd7ef5550e42b5260a',1,'File::findChildFiles()'],['../classFileSearchPath.html#a4ba70d62200ad57a85b1cb0ade33b1cf',1,'FileSearchPath::findChildFiles()']]],
   ['findchildwithid',['findChildWithID',['../classComponent.html#a5607d97a62a8c9d8d1d28ce3b31dd764',1,'Component']]],
-  ['findcolour',['findColour',['../classComponent.html#a5e4c30e25faebe1d0854f96623d6d890',1,'Component::findColour()'],['../classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b',1,'LookAndFeel::findColour()']]],
+  ['findcolour',['findColour',['../classComponent.html#a31d1d633a84a029b03d923b24f61bee4',1,'Component::findColour()'],['../classLookAndFeel.html#aa7f9faa480c9ec9d61b66672425f380b',1,'LookAndFeel::findColour()']]],
   ['findcolourforname',['findColourForName',['../classColours.html#a4399e0f5d7c504f1ecaa7b3ee7ac3f35',1,'Colours']]],
   ['findcommandforkeypress',['findCommandForKeyPress',['../classKeyPressMappingSet.html#a748d3657cb192844b1ff7cfa1044231d',1,'KeyPressMappingSet']]],
   ['findcomponentat',['findComponentAt',['../classDesktop.html#add5f26846a67075522535c285c644a06',1,'Desktop']]],
