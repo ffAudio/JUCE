@@ -1,6 +1,7 @@
 <map id="DrawablePath" name="DrawablePath">
-<area shape="rect" id="node2" href="$classDrawableShape.html" title="A base class implementing common functionality for Drawable classes which consist of some kind of fil..." alt="" coords="5,229,120,256"/>
-<area shape="rect" id="node3" href="$classDrawable.html" title="The base class for objects which can draw themselves, e.g. " alt="" coords="24,155,100,181"/>
-<area shape="rect" id="node4" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="18,80,107,107"/>
-<area shape="rect" id="node5" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="9,5,116,32"/>
+<area shape="rect" id="node2" href="$classDrawableShape.html" title="A base class implementing common functionality for Drawable classes which consist of some kind of fil..." alt="" coords="83,229,197,256"/>
+<area shape="rect" id="node3" href="$classDrawable.html" title="The base class for objects which can draw themselves, e.g. " alt="" coords="101,155,177,181"/>
+<area shape="rect" id="node4" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node5" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node6" href="$structMarkerList_1_1MarkerListHolder.html" title="A base class for objects that want to provide a MarkerList. " alt="" coords="127,80,317,107"/>
 </map>

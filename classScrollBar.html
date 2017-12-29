@@ -740,9 +740,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adfab11b32c622b327a823c6565f637f4 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#adfab11b32c622b327a823c6565f637f4">colourChanged</a> ()</td></tr>
 <tr class="memdesc:adfab11b32c622b327a823c6565f637f4 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when a colour is changed by the <a class="el" href="classComponent.html#aad68f45fb458d0cac645c0910193142d" title="Registers a colour to be used for a particular purpose. ">setColour()</a> method.  <a href="#adfab11b32c622b327a823c6565f637f4">More...</a><br/></td></tr>
 <tr class="separator:adfab11b32c622b327a823c6565f637f4 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c2b7f738ccfcf541b72a6ce8283fce0 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMarkerList.html">MarkerList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a2c2b7f738ccfcf541b72a6ce8283fce0">getMarkers</a> (bool xAxis)</td></tr>
-<tr class="memdesc:a2c2b7f738ccfcf541b72a6ce8283fce0 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Components can implement this method to provide a <a class="el" href="classMarkerList.html" title="Holds a set of named marker points along a one-dimensional axis. ">MarkerList</a>.  <a href="#a2c2b7f738ccfcf541b72a6ce8283fce0">More...</a><br/></td></tr>
-<tr class="separator:a2c2b7f738ccfcf541b72a6ce8283fce0 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d340d822e9a91fc665d73bbe1e91d72 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a0d340d822e9a91fc665d73bbe1e91d72">getWindowHandle</a> () const </td></tr>
 <tr class="memdesc:a0d340d822e9a91fc665d73bbe1e91d72 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the underlying native window handle for this component.  <a href="#a0d340d822e9a91fc665d73bbe1e91d72">More...</a><br/></td></tr>
 <tr class="separator:a0d340d822e9a91fc665d73bbe1e91d72 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1012,6 +1009,13 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Sets the minimum and maximum values that the bar will move between. </p>
 <p>The bar's thumb will always be constrained so that the entire thumb lies within this range.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newRangeLimit</td><td>the new range. </td></tr>
+    <tr><td class="paramname">notification</td><td>whether to send a notification of the change to listeners. A notification will only be sent if the range has changed.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classScrollBar.html#af807244de9bb5f597c4791ae1d72a722" title="Changes the position of the scrollbar&#39;s &#39;thumb&#39;. ">setCurrentRange</a> </dd></dl>
 
 </div>
@@ -1048,6 +1052,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Sets the minimum and maximum values that the bar will move between. </p>
 <p>The bar's thumb will always be constrained so that the entire thumb lies within this range.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">minimum</td><td>the new range minimum. </td></tr>
+    <tr><td class="paramname">maximum</td><td>the new range maximum. </td></tr>
+    <tr><td class="paramname">notification</td><td>whether to send a notification of the change to listeners. A notification will only be sent if the range has changed.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classScrollBar.html#af807244de9bb5f597c4791ae1d72a722" title="Changes the position of the scrollbar&#39;s &#39;thumb&#39;. ">setCurrentRange</a> </dd></dl>
 
 </div>
@@ -1369,7 +1381,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Moves the scrollbar by a number of single-steps. </p>
 <p>This will move the bar by a multiple of its single-step interval (as specified using the <a class="el" href="classScrollBar.html#a4aa3ea30550b8b8a4bea07f1a2ce1ca7" title="Sets the amount by which the up and down buttons will move the bar. ">setSingleStepSize()</a> method).</p>
-<p>A positive value here will move the bar down or to the right, a negative value moves it up or to the left. </p>
+<p>A positive value here will move the bar down or to the right, a negative value moves it up or to the left.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">howManySteps</td><td>the number of steps to move the scrollbar </td></tr>
+    <tr><td class="paramname">notification</td><td>whether to send a notification of the change to listeners. A notification will only be sent if the position has changed.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the scrollbar's position actually changed. </dd></dl>
 
 </div>
@@ -1400,7 +1419,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Moves the scroll bar up or down in pages. </p>
 <p>This will move the bar by a multiple of its current thumb size, effectively doing a page-up or down.</p>
-<p>A positive value here will move the bar down or to the right, a negative value moves it up or to the left. </p>
+<p>A positive value here will move the bar down or to the right, a negative value moves it up or to the left.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">howManyPages</td><td>the number of pages to move the scrollbar </td></tr>
+    <tr><td class="paramname">notification</td><td>whether to send a notification of the change to listeners. A notification will only be sent if the position has changed.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the scrollbar's position actually changed. </dd></dl>
 
 </div>
@@ -1420,7 +1446,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Scrolls to the top (or left). </p>
-<p>This is the same as calling setCurrentRangeStart (<a class="el" href="classScrollBar.html#a438704ee01c11fc84e8cbd1f766c3269" title="Returns the lower value that the thumb can be set to. ">getMinimumRangeLimit()</a>); </p>
+<p>This is the same as calling setCurrentRangeStart (<a class="el" href="classScrollBar.html#a438704ee01c11fc84e8cbd1f766c3269" title="Returns the lower value that the thumb can be set to. ">getMinimumRangeLimit()</a>);</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">notification</td><td>whether to send a notification of the change to listeners. A notification will only be sent if the position has changed.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the scrollbar's position actually changed. </dd></dl>
 
 </div>
@@ -1440,7 +1472,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Scrolls to the bottom (or right). </p>
-<p>This is the same as calling setCurrentRangeStart (<a class="el" href="classScrollBar.html#aad13763a765d119a2790a9bf67a7f85a" title="Returns the upper value that the thumb can be set to. ">getMaximumRangeLimit()</a> - <a class="el" href="classScrollBar.html#a681e8686f439c6cc57a0426136961b5e" title="Returns the current size of the thumb. ">getCurrentRangeSize()</a>); </p>
+<p>This is the same as calling setCurrentRangeStart (<a class="el" href="classScrollBar.html#aad13763a765d119a2790a9bf67a7f85a" title="Returns the upper value that the thumb can be set to. ">getMaximumRangeLimit()</a> - <a class="el" href="classScrollBar.html#a681e8686f439c6cc57a0426136961b5e" title="Returns the current size of the thumb. ">getCurrentRangeSize()</a>);</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">notification</td><td>whether to send a notification of the change to listeners. A notification will only be sent if the position has changed.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the scrollbar's position actually changed. </dd></dl>
 
 </div>
@@ -1764,7 +1802,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 23 2017 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 29 2017 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

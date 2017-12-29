@@ -717,7 +717,7 @@ var searchData=
   ['getmarkerlist',['getMarkerList',['../classDrawableComposite_1_1ValueTreeWrapper.html#ae091784eb7137a5cc92364bc6e774594',1,'DrawableComposite::ValueTreeWrapper']]],
   ['getmarkerlistcreating',['getMarkerListCreating',['../classDrawableComposite_1_1ValueTreeWrapper.html#afebe568ce8bee588640594d061808606',1,'DrawableComposite::ValueTreeWrapper']]],
   ['getmarkerposition',['getMarkerPosition',['../classMarkerList.html#ab24986317f17d5d2f5a2a56a95f72154',1,'MarkerList']]],
-  ['getmarkers',['getMarkers',['../classComponent.html#a2c2b7f738ccfcf541b72a6ce8283fce0',1,'Component::getMarkers()'],['../classDrawableComposite.html#a3e27579fe6e7d79e6084fdc70e10a5a3',1,'DrawableComposite::getMarkers()']]],
+  ['getmarkers',['getMarkers',['../classDrawable.html#a4a1af63646c93bd10209db353c01d33d',1,'Drawable::getMarkers()'],['../classDrawableComposite.html#a3e27579fe6e7d79e6084fdc70e10a5a3',1,'DrawableComposite::getMarkers()'],['../structMarkerList_1_1MarkerListHolder.html#a1c78b0a666d3bbd4923f67bafceb1143',1,'MarkerList::MarkerListHolder::getMarkers()']]],
   ['getmarkerstate',['getMarkerState',['../classMarkerList_1_1ValueTreeWrapper.html#a4b923a2d493b7a579656bf6108f3113f',1,'MarkerList::ValueTreeWrapper::getMarkerState(int index) const '],['../classMarkerList_1_1ValueTreeWrapper.html#a866747fc701bd7d496a6a37639ee0b47',1,'MarkerList::ValueTreeWrapper::getMarkerState(const String &amp;name) const ']]],
   ['getmasterchannel',['getMasterChannel',['../structMPEZone.html#a5c8402c080b6ee1ae2259a6833728fa8',1,'MPEZone']]],
   ['getmasterpitchbendrange',['getMasterPitchbendRange',['../structMPEZone.html#a8c32eb9cec3506e4e21b833235fad1b2',1,'MPEZone']]],

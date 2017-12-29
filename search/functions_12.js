@@ -277,7 +277,7 @@ var searchData=
   ['setdrive',['setDrive',['../classdsp_1_1LadderFilter.html#a2175d66c77669f06dc3ae5fc692578d0',1,'dsp::LadderFilter']]],
   ['setdropshadowenabled',['setDropShadowEnabled',['../classTopLevelWindow.html#aed7017ec50e075cca022b5c11ce5fdff',1,'TopLevelWindow']]],
   ['setedgeindent',['setEdgeIndent',['../classDrawableButton.html#a92a1179fe613504e1c0286bea62f9d7b',1,'DrawableButton']]],
-  ['seteditable',['setEditable',['../classLabel.html#a9342a397932d82bb1d196ebf9a8969d8',1,'Label']]],
+  ['seteditable',['setEditable',['../classTextPropertyComponent.html#a097aa7f90cdb7bda76796419ef78bc8b',1,'TextPropertyComponent::setEditable()'],['../classLabel.html#a9342a397932d82bb1d196ebf9a8969d8',1,'Label::setEditable()']]],
   ['seteditabletext',['setEditableText',['../classComboBox.html#af11edea3da851e2e0cb231f2cffa57aa',1,'ComboBox']]],
   ['seteditingactive',['setEditingActive',['../classToolbar.html#ab2bdef593ea0ea565b98241072860b11',1,'Toolbar']]],
   ['seteditingmode',['setEditingMode',['../classToolbarItemComponent.html#ae4647dbdbea1004901b845f0082dcd9b',1,'ToolbarItemComponent']]],

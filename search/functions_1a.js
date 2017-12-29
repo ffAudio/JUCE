@@ -262,6 +262,7 @@ var searchData=
   ['_7elowlevelgraphicssoftwarerenderer',['~LowLevelGraphicsSoftwareRenderer',['../classLowLevelGraphicsSoftwareRenderer.html#aa1594e25b78ce4f55d1a4c785fdce3ba',1,'LowLevelGraphicsSoftwareRenderer']]],
   ['_7eluatokeniser',['~LuaTokeniser',['../classLuaTokeniser.html#a433abb5068dfd59fefdbaff4a56341ff',1,'LuaTokeniser']]],
   ['_7emarkerlist',['~MarkerList',['../classMarkerList.html#a3c564a517aa72ffeee0f5c16f4b5f0e6',1,'MarkerList']]],
+  ['_7emarkerlistholder',['~MarkerListHolder',['../structMarkerList_1_1MarkerListHolder.html#a8241408a7c476b3df6211323d76ddd17',1,'MarkerList::MarkerListHolder']]],
   ['_7emaster',['~Master',['../classWeakReference_1_1Master.html#a9fc11ef197bae4a674b18e4793bed161',1,'WeakReference::Master']]],
   ['_7emd5',['~MD5',['../classMD5.html#ae8c0b386b7f6b7ac3e6f89a50884fe32',1,'MD5']]],
   ['_7ememoryblock',['~MemoryBlock',['../classMemoryBlock.html#aa6d4a35c7a288f4333201f82ca52658b',1,'MemoryBlock']]],

@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <li>"left", "right", "top", "bottom" refer to the position of those edges in this component, so e.g. for a component whose width is always 100, you might set the right edge to the "left + 100".</li>
 <li>"[id].left", "[id].right", "[id].top", "[id].bottom", "[id].width", "[id].height", where [id] is the identifier of one of this component's siblings. A component's identifier is set with <a class="el" href="classComponent.html#ac41c215031a087064add6d3a180abd1d" title="Sets the component&#39;s ID string. ">Component::setComponentID()</a>. So for example if you want your component to always be 50 pixels to the right of the one called "xyz", you could set your left edge to be "xyz.right + 50".</li>
 <li>Instead of an [id], you can use the name "parent" to refer to this component's parent. Like any other component, these values are relative to their component's parent, so "parent.right" won't be very useful for positioning a component because it refers to a position with the parent's parent.. but "parent.width" can be used for setting positions relative to the parent's size. E.g. to make a 10x10 component which remains 1 pixel away from its parent's bottom-right, you could use "right - 10, bottom - 10, parent.width - 1, parent.height - 1".</li>
-<li>The name of one of the parent component's markers can also be used as a symbol. For markers to be used, the parent component must implement its <a class="el" href="classComponent.html#a2c2b7f738ccfcf541b72a6ce8283fce0" title="Components can implement this method to provide a MarkerList. ">Component::getMarkers()</a> method, and return at least one valid <a class="el" href="classMarkerList.html" title="Holds a set of named marker points along a one-dimensional axis. ">MarkerList</a>. So if you want your component's top edge to be 10 pixels below the marker called "foobar", you'd set it to "foobar + 10".</li>
+<li>The name of one of the parent component's markers can also be used as a symbol. For markers to be used, the parent component must implement its Component::getMarkers() method, and return at least one valid <a class="el" href="classMarkerList.html" title="Holds a set of named marker points along a one-dimensional axis. ">MarkerList</a>. So if you want your component's top edge to be 10 pixels below the marker called "foobar", you'd set it to "foobar + 10".</li>
 </ul>
 <p>See the <a class="el" href="classExpression.html" title="A class for dynamically evaluating simple numeric expressions. ">Expression</a> class for details about the operators that are supported, but for example if you wanted to make your component remains centred within its parent with a size of 100, 100, you could express it as: </p>
 <div class="fragment"><div class="line">myComp.setBounds (RelativeBounds (<span class="stringliteral">&quot;parent.width / 2 - 50, parent.height / 2 - 50, left + 100, top + 100&quot;</span>));</div>
@@ -553,7 +553,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 23 2017 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 29 2017 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
