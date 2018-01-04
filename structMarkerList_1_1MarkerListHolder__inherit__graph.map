@@ -1,9 +1,0 @@
-<map id="MarkerList::MarkerListHolder" name="MarkerList::MarkerListHolder">
-<area shape="rect" id="node2" href="$classDrawable.html" title="The base class for objects which can draw themselves, e.g. " alt="" coords="256,80,332,107"/>
-<area shape="rect" id="node3" href="$classDrawableComposite.html" title="A drawable object which acts as a container for a set of other Drawables. " alt="" coords="5,155,144,181"/>
-<area shape="rect" id="node4" href="$classDrawableImage.html" title="A drawable object which is a bitmap image. " alt="" coords="169,155,281,181"/>
-<area shape="rect" id="node5" href="$classDrawableShape.html" title="A base class implementing common functionality for Drawable classes which consist of some kind of fil..." alt="" coords="307,155,421,181"/>
-<area shape="rect" id="node8" href="$classDrawableText.html" title="A drawable object which renders a line of text. " alt="" coords="446,155,548,181"/>
-<area shape="rect" id="node6" href="$classDrawablePath.html" title="A drawable object which renders a filled or outlined shape. " alt="" coords="240,229,344,256"/>
-<area shape="rect" id="node7" href="$classDrawableRectangle.html" title="A Drawable object which draws a rectangle. " alt="" coords="368,229,503,256"/>
-</map>

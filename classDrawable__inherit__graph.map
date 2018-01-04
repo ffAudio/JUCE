@@ -1,11 +1,10 @@
 <map id="Drawable" name="Drawable">
-<area shape="rect" id="node5" href="$classDrawableComposite.html" title="A drawable object which acts as a container for a set of other Drawables. " alt="" coords="5,229,144,256"/>
-<area shape="rect" id="node6" href="$classDrawableImage.html" title="A drawable object which is a bitmap image. " alt="" coords="169,229,281,256"/>
-<area shape="rect" id="node7" href="$classDrawableShape.html" title="A base class implementing common functionality for Drawable classes which consist of some kind of fil..." alt="" coords="307,229,421,256"/>
-<area shape="rect" id="node10" href="$classDrawableText.html" title="A drawable object which renders a line of text. " alt="" coords="446,229,548,256"/>
-<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="169,80,257,107"/>
-<area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="160,5,267,32"/>
-<area shape="rect" id="node4" href="$structMarkerList_1_1MarkerListHolder.html" title="A base class for objects that want to provide a MarkerList. " alt="" coords="282,80,472,107"/>
-<area shape="rect" id="node8" href="$classDrawablePath.html" title="A drawable object which renders a filled or outlined shape. " alt="" coords="240,304,344,331"/>
-<area shape="rect" id="node9" href="$classDrawableRectangle.html" title="A Drawable object which draws a rectangle. " alt="" coords="368,304,503,331"/>
+<area shape="rect" id="node4" href="$classDrawableComposite.html" title="A drawable object which acts as a container for a set of other Drawables. " alt="" coords="5,229,144,256"/>
+<area shape="rect" id="node5" href="$classDrawableImage.html" title="A drawable object which is a bitmap image. " alt="" coords="169,229,281,256"/>
+<area shape="rect" id="node6" href="$classDrawableShape.html" title="A base class implementing common functionality for Drawable classes which consist of some kind of fil..." alt="" coords="307,229,421,256"/>
+<area shape="rect" id="node9" href="$classDrawableText.html" title="A drawable object which renders a line of text. " alt="" coords="446,229,548,256"/>
+<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="250,80,339,107"/>
+<area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="241,5,348,32"/>
+<area shape="rect" id="node7" href="$classDrawablePath.html" title="A drawable object which renders a filled or outlined shape. " alt="" coords="240,304,344,331"/>
+<area shape="rect" id="node8" href="$classDrawableRectangle.html" title="A Drawable object which draws a rectangle. " alt="" coords="368,304,503,331"/>
 </map>

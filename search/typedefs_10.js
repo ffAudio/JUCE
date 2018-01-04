@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['tableheaderlistener',['TableHeaderListener',['../group__juce__gui__basics-widgets.html#gab85495eafcdcfa2d8b0cd9fc7d7d1096',1,'juce_TableHeaderComponent.h']]],
-  ['texteditorlistener',['TextEditorListener',['../group__juce__gui__basics-widgets.html#ga5c863c0182e29eaf0ed83f2427572913',1,'juce_TextEditor.h']]],
   ['thistype',['ThisType',['../classListenerList.html#a3b96ee4d2b3e77dfddce53f2451c4556',1,'ListenerList']]],
   ['threadid',['ThreadID',['../classThread.html#a077e20855a3c974c2fc6f9e7caa8412c',1,'Thread']]],
   ['timestamp',['Timestamp',['../classBlock.html#a7e97e8f893c4d37d02a50c4ea3fe42e6',1,'Block']]],

@@ -2,7 +2,6 @@ var searchData=
 [
   ['value',['value',['../group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389',1,'juce_VSTInterface.h']]],
   ['value_5ftype',['value_type',['../structdsp_1_1SIMDRegister.html#aa5acfdaa10d375342f139d1f628c15e9',1,'dsp::SIMDRegister']]],
-  ['valuelistener',['ValueListener',['../group__juce__data__structures-values.html#ga2cfaae906f9f1deed5ed703d8e63d613',1,'juce_Value.h']]],
   ['vectortype',['VectorType',['../classDraggable3DOrientation.html#a90d8df29b27c60dc36909f3bff86226e',1,'Draggable3DOrientation']]],
   ['vmasksimdtype',['vMaskSIMDType',['../structdsp_1_1SIMDRegister.html#a78e2569aac84933cd2c507a89c84c081',1,'dsp::SIMDRegister']]],
   ['vmasktype',['vMaskType',['../structdsp_1_1SIMDRegister.html#a57f3b7c9e32a2180380bef25b6c2108e',1,'dsp::SIMDRegister']]],

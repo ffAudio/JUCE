@@ -7,8 +7,6 @@ var searchData=
   ['scopedtrylocktype',['ScopedTryLockType',['../classCriticalSection.html#a745e5e36d8c6a33ea1fcbbfa2fff00a3',1,'CriticalSection::ScopedTryLockType()'],['../classMessageManager_1_1Lock.html#aa6c312d59b1e33fc5736fbc24921d534',1,'MessageManager::Lock::ScopedTryLockType()']]],
   ['scopedunlock',['ScopedUnlock',['../group__juce__core-threads.html#ga4cc435f24ace2a8f59b488ed66d9cf2c',1,'juce_CriticalSection.h']]],
   ['scopedunlocktype',['ScopedUnlockType',['../classCriticalSection.html#a69d6b613f2638fbae341cfd06df478c7',1,'CriticalSection::ScopedUnlockType()'],['../classDummyCriticalSection.html#a455be3752f5f32c56fabe0b7b477b6f2',1,'DummyCriticalSection::ScopedUnlockType()'],['../classSpinLock.html#ae531d71996d5122e0caa8a10212cf585',1,'SpinLock::ScopedUnlockType()'],['../classMessageManager_1_1Lock.html#a074aff6e6d713bf387b82c1ea4956eab',1,'MessageManager::Lock::ScopedUnlockType()']]],
-  ['scrollbarlistener',['ScrollBarListener',['../group__juce__gui__basics-layout.html#gaca2ee37ad48d18a710340db288ea80c3',1,'juce_ScrollBar.h']]],
   ['sharedref',['SharedRef',['../classWeakReference.html#a3fd7e314186f261fc5be42b68dd0d16e',1,'WeakReference']]],
-  ['sliderlistener',['SliderListener',['../group__juce__gui__basics-widgets.html#gaef569434c5f0f6aca195bc50e4af0a0c',1,'juce_Slider.h']]],
   ['sourcetype',['SourceType',['../structAudioFormatReader_1_1ReadHelper.html#a8a24767200ed43a8317fb20d84c2ad17',1,'AudioFormatReader::ReadHelper::SourceType()'],['../structAudioFormatWriter_1_1WriteHelper.html#a783e948eebc1915c108e97bef8a2698b',1,'AudioFormatWriter::WriteHelper::SourceType()']]]
 ];

@@ -150,7 +150,7 @@ var searchData=
   ['_7edynamiclibrary',['~DynamicLibrary',['../classDynamicLibrary.html#a25dd7a7cd386fbc1c8abde597c39c881',1,'DynamicLibrary']]],
   ['_7edynamicobject',['~DynamicObject',['../classDynamicObject.html#a149b612e1f0288b115178874bd0cba93',1,'DynamicObject']]],
   ['_7eedgetable',['~EdgeTable',['../classEdgeTable.html#abd3d8878df1c4510d5e682fd0aabe465',1,'EdgeTable']]],
-  ['_7eelement',['~Element',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a161eab4724ba67c2a24ec899f156231a',1,'DrawablePath::ValueTreeWrapper::Element::~Element()'],['../classOSCBundle_1_1Element.html#a855ed7ec111c15fdcb7676c8b83aa39a',1,'OSCBundle::Element::~Element()']]],
+  ['_7eelement',['~Element',['../classOSCBundle_1_1Element.html#a855ed7ec111c15fdcb7676c8b83aa39a',1,'OSCBundle::Element']]],
   ['_7eelementbase',['~ElementBase',['../classRelativePointPath_1_1ElementBase.html#ab9a7b6619bc610376575f47d6be35299',1,'RelativePointPath::ElementBase']]],
   ['_7eexpression',['~Expression',['../classExpression.html#a3e99570b177da619eeb2c5787cbb148e',1,'Expression']]],
   ['_7eextrafunctions',['~ExtraFunctions',['../classVSTPluginFormat_1_1ExtraFunctions.html#a418480f384cbcf39594cc543a98e8a42',1,'VSTPluginFormat::ExtraFunctions']]],

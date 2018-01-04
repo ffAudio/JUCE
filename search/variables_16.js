@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['wetlevel',['wetLevel',['../structReverb_1_1Parameters.html#ae029e68c8dc8fa0acb34373237377fec',1,'Reverb::Parameters']]],
-  ['wheat',['wheat',['../classColours.html#ad1fd92baa1ca57d2e51995df721bb326',1,'Colours']]],
-  ['white',['white',['../classColours.html#a9e57055bbdf8261e776d2ea8bb44514a',1,'Colours']]],
-  ['whitesmoke',['whitesmoke',['../classColours.html#a0ef54946314ce5243c7cc6aa7d04fbb2',1,'Colours']]],
-  ['width',['width',['../structReverb_1_1Parameters.html#a2104c314f4804e3ff6e5cc7d524c3b1d',1,'Reverb::Parameters::width()'],['../classTextLayout_1_1Glyph.html#a3c24f2ea2314f119c3d9e38882c83bf0',1,'TextLayout::Glyph::width()'],['../classImage_1_1BitmapData.html#a9eea8066d52a09fb2fce0ae4dd49df1b',1,'Image::BitmapData::width()'],['../classImagePixelData.html#ac31ea8f068a17b9ee554261069b20a38',1,'ImagePixelData::width()'],['../classFlexItem.html#a87d745f6e6a2a000cc25b51bfd5c6572',1,'FlexItem::width()'],['../classGridItem.html#a786793b7836e037ecea34a8fc8477220',1,'GridItem::width()'],['../structRelativeCoordinate_1_1Strings.html#a287d3fb774b46a3bb1e74ffc4b3cb95d',1,'RelativeCoordinate::Strings::width()']]],
-  ['widthunits',['widthUnits',['../structBlocksProtocol_1_1BlockDataSheet.html#a17112fc0715764f5c36cbd0b11d1ebac',1,'BlocksProtocol::BlockDataSheet']]],
-  ['wrappertype',['wrapperType',['../classAudioProcessor.html#a7bf4a5cf41e84de51aab7ccb75d1f897',1,'AudioProcessor']]]
+  ['x',['x',['../structTouchSurface_1_1Touch.html#abcc36c738f52cd180d5f1445e8da358b',1,'TouchSurface::Touch::x()'],['../structBlocksProtocol_1_1BlockDataSheet_1_1ButtonInfo.html#a838b1d8bb38f1b41d689f4e3614055ac',1,'BlocksProtocol::BlockDataSheet::ButtonInfo::x()'],['../structBlocksProtocol_1_1BlockDataSheet_1_1StatusLEDInfo.html#af431b7de71c95f532d1d2450f974aa7c',1,'BlocksProtocol::BlockDataSheet::StatusLEDInfo::x()'],['../structBlocksProtocol_1_1TouchPosition.html#a924333d28d25617640eddd2b931ecf80',1,'BlocksProtocol::TouchPosition::x()'],['../classPoint.html#aba3ea63445b55dec2d740776b1059065',1,'Point::x()'],['../classMouseEvent.html#af3127333fe067df8158c9bb3da36ec84',1,'MouseEvent::x()'],['../structRelativeCoordinate_1_1Strings.html#a5607965ea686d15ac7e85933b7fc3203',1,'RelativeCoordinate::Strings::x()'],['../classRelativePoint.html#acaa3243ea9f7839e929e968e37348259',1,'RelativePoint::x()'],['../classVector3D.html#aa5d3c8c349b5603b1f71bb3eae33a882',1,'Vector3D::x()']]],
+  ['x1',['x1',['../classPath_1_1Iterator.html#a0041a7b85083e9083c570b8b46a96d91',1,'Path::Iterator::x1()'],['../classPathFlatteningIterator.html#aeb4902696a4f694a69eb7c48b274b2ff',1,'PathFlatteningIterator::x1()']]],
+  ['x2',['x2',['../classPath_1_1Iterator.html#a2f5da180f00bd2e9356d65b2c241d52e',1,'Path::Iterator::x2()'],['../classPathFlatteningIterator.html#a88aeb6be633806b5b6e2e8cc7172e1e0',1,'PathFlatteningIterator::x2()']]],
+  ['x3',['x3',['../classPath_1_1Iterator.html#afb477336904d08b7869a536444071df0',1,'Path::Iterator']]],
+  ['xoffset',['xOffset',['../structLowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a10d46be69faae4c3c27ae95dfac5a713',1,'LowLevelGraphicsPostScriptRenderer::SavedState']]],
+  ['xvelocity',['xVelocity',['../structTouchSurface_1_1Touch.html#ac21bd9597d030f2cdddd181401b5851b',1,'TouchSurface::Touch']]]
 ];

@@ -43,7 +43,6 @@ var searchData=
   ['linen',['linen',['../classColours.html#ae78b2b6dd2b4f69df9653603310ebf94',1,'Colours']]],
   ['lineorigin',['lineOrigin',['../classTextLayout_1_1Line.html#a12a2bd00c15e016262513495600e1a8b',1,'TextLayout::Line']]],
   ['linestride',['lineStride',['../classImage_1_1BitmapData.html#a0c9d05e29235f0b395fa57b26b13d67a',1,'Image::BitmapData']]],
-  ['linetoelement',['lineToElement',['../classDrawablePath_1_1ValueTreeWrapper_1_1Element.html#a4675f4374c85907b4fe86d21ffe58116',1,'DrawablePath::ValueTreeWrapper::Element']]],
   ['listeners',['listeners',['../classControlButton.html#a855a438e559c21cee293ed824d138b26',1,'ControlButton::listeners()'],['../classTouchSurface.html#a42d2c6dcee747e2511f2bea4884c96a7',1,'TouchSurface::listeners()'],['../classTopologySource.html#a3c9f12605642baff76d5da04e9452b3d',1,'TopologySource::listeners()'],['../classImagePixelData.html#ad5691cb6ebf342c88985e139e8891b85',1,'ImagePixelData::listeners()'],['../classDirectoryContentsDisplayComponent.html#a5f7300e0d637b48e8a2f3abd067a7144',1,'DirectoryContentsDisplayComponent::listeners()']]],
   ['localonly',['localOnly',['../structPushNotifications_1_1Notification.html#acffc0eaaec0cd229ac2328378d05f0e7',1,'PushNotifications::Notification']]],
   ['localposition',['localPosition',['../classDragAndDropTarget_1_1SourceDetails.html#ae56f0216335992ae66fdfacc3f4c6837',1,'DragAndDropTarget::SourceDetails']]],

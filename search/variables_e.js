@@ -5,9 +5,15 @@ var searchData=
   ['oldlace',['oldlace',['../classColours.html#a8854bc208ff4c18d1359d48061801eed',1,'Colours']]],
   ['olive',['olive',['../classColours.html#afa863de7d2e3c645092e981ef4b47349',1,'Colours']]],
   ['olivedrab',['olivedrab',['../classColours.html#a470482f79ccbabc1cfe7c44e4123acfd',1,'Colours']]],
+  ['onchange',['onChange',['../classComboBox.html#a9cf2e20990541b9fbb539cd4a8e0ac4e',1,'ComboBox']]],
+  ['onclick',['onClick',['../classButton.html#a30b76ab312dc7f66e67596ae20540ec2',1,'Button']]],
+  ['onescapekey',['onEscapeKey',['../classTextEditor.html#a23265c4ea9faadcbb5dbc21359ace16b',1,'TextEditor']]],
+  ['onfocuslost',['onFocusLost',['../classTextEditor.html#a6b50b93169799fcd65be706fc7a5703c',1,'TextEditor']]],
   ['ongoing',['ongoing',['../structPushNotifications_1_1Notification.html#a6c506f4a331cd7a88540a514c8b689c8',1,'PushNotifications::Notification']]],
+  ['onreturnkey',['onReturnKey',['../classTextEditor.html#ac5ba45ff247b024411782937a8eab829',1,'TextEditor']]],
+  ['onstatechange',['onStateChange',['../classButton.html#a286cdacca4d6232ba0597f1bd2d48b4f',1,'Button']]],
+  ['ontextchange',['onTextChange',['../classTextEditor.html#a26a5f4afddb5fee9801bf6951b7e7ae9',1,'TextEditor']]],
   ['op',['op',['../structVstEffectInterface.html#ae9e2049d1a535490eab468bf76f2fb6a',1,'VstEffectInterface::op()'],['../structlittlefoot_1_1Compiler_1_1FunctionCall_1_1BuiltInFunction.html#a5050bc138e342a11f083cf11d5d85778',1,'littlefoot::Compiler::FunctionCall::BuiltInFunction::op()']]],
-  ['opacity',['opacity',['../classDrawableImage_1_1ValueTreeWrapper.html#a2eb3f522f2a263945932325aec6c8ffd',1,'DrawableImage::ValueTreeWrapper']]],
   ['openglcontext',['openGLContext',['../classOpenGLAppComponent.html#a1237b3326c1c7c571107548d4fc20cf8',1,'OpenGLAppComponent']]],
   ['opt',['opt',['../structVstEffectInterface.html#a36e28751deaa1754063cc51e631e2ceb',1,'VstEffectInterface']]],
   ['optionnames',['optionNames',['../structBlock_1_1ConfigMetaData.html#a817279cab678fd75cc69ff7dfd1dfcee',1,'Block::ConfigMetaData::optionNames()'],['../structBlockConfigManager_1_1ConfigDescription.html#a85c7efdd2b251618a1a482662a4454f2',1,'BlockConfigManager::ConfigDescription::optionNames()']]],
@@ -30,6 +36,5 @@ var searchData=
   ['outputlayouts',['outputLayouts',['../structAudioProcessor_1_1BusesProperties.html#ad62c87a7502481e0b70cc7cebfd9b04d',1,'AudioProcessor::BusesProperties']]],
   ['outputs',['outputs',['../structVstEffectInterface.html#a5ebc70cc07762f8d4c8dfb4763bf544a',1,'VstEffectInterface::outputs()'],['../structVstEffectInterface.html#a1aca16208f4fa4da97dfb37b2b50e665',1,'VstEffectInterface::outputs()']]],
   ['overlappixels',['overlapPixels',['../classTabBarButton.html#a8eb442941d7072f18f85769824e03ef2',1,'TabBarButton']]],
-  ['overlay',['overlay',['../classDrawableImage_1_1ValueTreeWrapper.html#a87c038c00ada31d98fa53ff64e0372a6',1,'DrawableImage::ValueTreeWrapper']]],
   ['owner',['owner',['../classTabBarButton.html#a67052f9de125edd4a5c5c4976076a798',1,'TabBarButton']]]
 ];

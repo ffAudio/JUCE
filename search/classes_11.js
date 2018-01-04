@@ -37,7 +37,6 @@ var searchData=
   ['referencecountedobjectptr_3c_20value_3a_3avaluesource_20_3e',['ReferenceCountedObjectPtr&lt; Value::ValueSource &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['relativecoordinate',['RelativeCoordinate',['../classRelativeCoordinate.html',1,'']]],
   ['relativecoordinatepositionerbase',['RelativeCoordinatePositionerBase',['../classRelativeCoordinatePositionerBase.html',1,'']]],
-  ['relativefilltype',['RelativeFillType',['../classDrawableShape_1_1RelativeFillType.html',1,'DrawableShape']]],
   ['relativeparallelogram',['RelativeParallelogram',['../classRelativeParallelogram.html',1,'']]],
   ['relativepoint',['RelativePoint',['../classRelativePoint.html',1,'']]],
   ['relativepointpath',['RelativePointPath',['../classRelativePointPath.html',1,'']]],

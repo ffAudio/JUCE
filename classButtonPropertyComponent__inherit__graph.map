@@ -4,5 +4,4 @@
 <area shape="rect" id="node4" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
 <area shape="rect" id="node5" href="$classSettableTooltipClient.html" title="An implementation of TooltipClient that stores the tooltip string and a method for changing it..." alt="" coords="127,80,269,107"/>
 <area shape="rect" id="node6" href="$classTooltipClient.html" title="Components that want to use pop&#45;up tooltips should implement this interface. " alt="" coords="151,5,245,32"/>
-<area shape="rect" id="node7" href="$classButton_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="221,155,336,181"/>
 </map>

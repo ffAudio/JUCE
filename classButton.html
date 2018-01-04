@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classButton-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -780,6 +781,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1bc2223e107e4122d251f5b90049140c inherit pub_methods_classTooltipClient"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTooltipClient.html#a1bc2223e107e4122d251f5b90049140c">~TooltipClient</a> ()</td></tr>
 <tr class="memdesc:a1bc2223e107e4122d251f5b90049140c inherit pub_methods_classTooltipClient"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1bc2223e107e4122d251f5b90049140c">More...</a><br/></td></tr>
 <tr class="separator:a1bc2223e107e4122d251f5b90049140c inherit pub_methods_classTooltipClient"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a30b76ab312dc7f66e67596ae20540ec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a30b76ab312dc7f66e67596ae20540ec2">onClick</a></td></tr>
+<tr class="memdesc:a30b76ab312dc7f66e67596ae20540ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">You can assign a lambda to this callback object to have it called when the button is clicked.  <a href="#a30b76ab312dc7f66e67596ae20540ec2">More...</a><br/></td></tr>
+<tr class="separator:a30b76ab312dc7f66e67596ae20540ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286cdacca4d6232ba0597f1bd2d48b4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classButton.html#a286cdacca4d6232ba0597f1bd2d48b4f">onStateChange</a></td></tr>
+<tr class="memdesc:a286cdacca4d6232ba0597f1bd2d48b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">You can assign a lambda to this callback object to have it called when the button's state changes.  <a href="#a286cdacca4d6232ba0597f1bd2d48b4f">More...</a><br/></td></tr>
+<tr class="separator:a286cdacca4d6232ba0597f1bd2d48b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -1833,9 +1843,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This method is called when the button has been clicked. </p>
-<p>Subclasses can override this to perform whatever they actions they need to do.</p>
-<p>Alternatively, a <a class="el" href="classButton_1_1Listener.html" title="Used to receive callbacks when a button is clicked. ">Button::Listener</a> can be added to the button, and these listeners will be called when the click occurs.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classButton.html#a8a6488055955fede16492a90a8967168" title="Causes the button to act as if it&#39;s been clicked. ">triggerClick</a> </dd></dl>
+<p>Subclasses can override this to perform whatever they actions they need to do. In general, you wouldn't use this method to receive clicks, but should get your callbacks by attaching a <a class="el" href="classstd_1_1function.html" title="This class provides an alternative to std::function that is compatible with OS X 10.6 and earlier. ">std::function</a> to the onClick callback, or adding a <a class="el" href="classButton_1_1Listener.html" title="Used to receive callbacks when a button is clicked. ">Button::Listener</a>. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classButton.html#a8a6488055955fede16492a90a8967168" title="Causes the button to act as if it&#39;s been clicked. ">triggerClick</a>, <a class="el" href="classButton.html#a30b76ab312dc7f66e67596ae20540ec2" title="You can assign a lambda to this callback object to have it called when the button is clicked...">onClick</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classHyperlinkButton.html#a0d4c984d5108f962a6c6db6f97c95215">HyperlinkButton</a>.</p>
 
@@ -2314,13 +2323,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a30b76ab312dc7f66e67596ae20540ec2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classstd_1_1function.html">std::function</a>&lt;void()&gt; Button::onClick</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>You can assign a lambda to this callback object to have it called when the button is clicked. </p>
+
+</div>
+</div>
+<a class="anchor" id="a286cdacca4d6232ba0597f1bd2d48b4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classstd_1_1function.html">std::function</a>&lt;void()&gt; Button::onStateChange</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>You can assign a lambda to this callback object to have it called when the button's state changes. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__Button_8h.html">juce_Button.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 3 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 4 2018 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

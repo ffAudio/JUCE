@@ -3,5 +3,4 @@
 <area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
 <area shape="rect" id="node4" href="$classFileDragAndDropTarget.html" title="Components derived from this class can have files dropped onto them by an external application..." alt="" coords="127,80,285,107"/>
 <area shape="rect" id="node5" href="$classChangeListener.html" title="Receives change event callbacks that are sent out by a ChangeBroadcaster. " alt="" coords="310,80,423,107"/>
-<area shape="rect" id="node6" href="$classButton_1_1Listener.html" title="Used to receive callbacks when a button is clicked. " alt="" coords="448,80,563,107"/>
 </map>
