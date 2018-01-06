@@ -5,6 +5,7 @@ var searchData=
   ['valuetree',['ValueTree',['../classValueTree.html',1,'']]],
   ['valuetreesynchroniser',['ValueTreeSynchroniser',['../classValueTreeSynchroniser.html',1,'']]],
   ['valuetreewrapper',['ValueTreeWrapper',['../classMarkerList_1_1ValueTreeWrapper.html',1,'MarkerList']]],
+  ['valuewithdefault',['ValueWithDefault',['../classValueWithDefault.html',1,'']]],
   ['var',['var',['../classvar.html',1,'']]],
   ['variantconverter',['VariantConverter',['../structVariantConverter.html',1,'']]],
   ['variantconverter_3c_20string_20_3e',['VariantConverter&lt; String &gt;',['../structVariantConverter_3_01String_01_4.html',1,'']]],

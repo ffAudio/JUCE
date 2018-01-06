@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79dc6e09dda1ebed5523a0581cff7630"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextPropertyComponent.html#a79dc6e09dda1ebed5523a0581cff7630">TextPropertyComponent</a> (const <a class="el" href="classValue.html">Value</a> &amp;valueToControl, const <a class="el" href="classString.html">String</a> &amp;propertyName, int maxNumChars, bool isMultiLine, bool isEditable=true)</td></tr>
 <tr class="memdesc:a79dc6e09dda1ebed5523a0581cff7630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a text property component.  <a href="#a79dc6e09dda1ebed5523a0581cff7630">More...</a><br/></td></tr>
 <tr class="separator:a79dc6e09dda1ebed5523a0581cff7630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ec158e9b098a7b9a0e057f28423255"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextPropertyComponent.html#a10ec158e9b098a7b9a0e057f28423255">TextPropertyComponent</a> (const <a class="el" href="classValueWithDefault.html">ValueWithDefault</a> &amp;valueToControl, const <a class="el" href="classString.html">String</a> &amp;propertyName, int maxNumChars, bool isMultiLine, bool isEditable=true)</td></tr>
+<tr class="memdesc:a10ec158e9b098a7b9a0e057f28423255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a text property component with a default value.  <a href="#a10ec158e9b098a7b9a0e057f28423255">More...</a><br/></td></tr>
+<tr class="separator:a10ec158e9b098a7b9a0e057f28423255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6939a16ffd859b2a1c1198286912da7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextPropertyComponent.html#a6939a16ffd859b2a1c1198286912da7a">~TextPropertyComponent</a> ()</td></tr>
 <tr class="memdesc:a6939a16ffd859b2a1c1198286912da7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a6939a16ffd859b2a1c1198286912da7a">More...</a><br/></td></tr>
 <tr class="separator:a6939a16ffd859b2a1c1198286912da7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -942,6 +945,63 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a10ec158e9b098a7b9a0e057f28423255"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextPropertyComponent::TextPropertyComponent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classValueWithDefault.html">ValueWithDefault</a> &amp;&#160;</td>
+          <td class="paramname"><em>valueToControl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>propertyName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxNumChars</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isMultiLine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isEditable</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a text property component with a default value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">valueToControl</td><td>The <a class="el" href="classValueWithDefault.html" title="This class acts as a wrapper around a property inside a ValueTree. ">ValueWithDefault</a> that is controlled by the <a class="el" href="classTextPropertyComponent.html" title="A PropertyComponent that shows its value as editable text. ">TextPropertyComponent</a> </td></tr>
+    <tr><td class="paramname">propertyName</td><td>The name of the property </td></tr>
+    <tr><td class="paramname">maxNumChars</td><td>If not zero, then this specifies the maximum allowable length of the string. If zero, then the string will have no length limit. </td></tr>
+    <tr><td class="paramname">isMultiLine</td><td>Sets whether the text editor allows carriage returns. </td></tr>
+    <tr><td class="paramname">isEditable</td><td>Sets whether the text editor is editable. The default is true.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classTextEditor.html" title="An editable text box. ">TextEditor</a>, <a class="el" href="classTextPropertyComponent.html#a097aa7f90cdb7bda76796419ef78bc8b" title="Sets whether the text editor is editable. ">setEditable</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a6939a16ffd859b2a1c1198286912da7a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1188,7 +1248,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jan 6 2018 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
