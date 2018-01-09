@@ -228,9 +228,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a807ee244e5a714a8db257e102ec5496d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a807ee244e5a714a8db257e102ec5496d">getVelocityBasedMode</a> () const noexcept</td></tr>
 <tr class="memdesc:a807ee244e5a714a8db257e102ec5496d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if velocity-based mode is active.  <a href="#a807ee244e5a714a8db257e102ec5496d">More...</a><br/></td></tr>
 <tr class="separator:a807ee244e5a714a8db257e102ec5496d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add6fe31d11f1c783aafeca6294b13858"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#add6fe31d11f1c783aafeca6294b13858">setVelocityModeParameters</a> (double sensitivity=1.0, int threshold=1, double offset=0.0, bool userCanPressKeyToSwapMode=true)</td></tr>
-<tr class="memdesc:add6fe31d11f1c783aafeca6294b13858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes aspects of the scaling used when in velocity-sensitive mode.  <a href="#add6fe31d11f1c783aafeca6294b13858">More...</a><br/></td></tr>
-<tr class="separator:add6fe31d11f1c783aafeca6294b13858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c37989ff5f6453f2c44f1a7455e1c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a47c37989ff5f6453f2c44f1a7455e1c1">setVelocityModeParameters</a> (double sensitivity=1.0, int threshold=1, double offset=0.0, bool userCanPressKeyToSwapMode=true, <a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678b">ModifierKeys::Flags</a> modifiersToSwapModes=<a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba2647f9ed4b2db164973d8b735f3b216a">ModifierKeys::ctrlAltCommandModifiers</a>)</td></tr>
+<tr class="memdesc:a47c37989ff5f6453f2c44f1a7455e1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes aspects of the scaling used when in velocity-sensitive mode.  <a href="#a47c37989ff5f6453f2c44f1a7455e1c1">More...</a><br/></td></tr>
+<tr class="separator:a47c37989ff5f6453f2c44f1a7455e1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a547bab3deb827a47e12d90a47c957c10"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSlider.html#a547bab3deb827a47e12d90a47c957c10">getVelocitySensitivity</a> () const noexcept</td></tr>
 <tr class="memdesc:a547bab3deb827a47e12d90a47c957c10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the velocity sensitivity setting.  <a href="#a547bab3deb827a47e12d90a47c957c10">More...</a><br/></td></tr>
 <tr class="separator:a547bab3deb827a47e12d90a47c957c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1542,7 +1542,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="add6fe31d11f1c783aafeca6294b13858"></a>
+<a class="anchor" id="a47c37989ff5f6453f2c44f1a7455e1c1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1568,7 +1568,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>userCanPressKeyToSwapMode</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>userCanPressKeyToSwapMode</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678b">ModifierKeys::Flags</a>&#160;</td>
+          <td class="paramname"><em>modifiersToSwapModes</em> = <code><a class="el" href="classModifierKeys.html#acdd2a85defa6a705d74e1a63d193678ba2647f9ed4b2db164973d8b735f3b216a">ModifierKeys::ctrlAltCommandModifiers</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1586,6 +1592,7 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">threshold</td><td>the minimum number of pixels that the mouse needs to move for it to be treated as a movement </td></tr>
     <tr><td class="paramname">offset</td><td>values greater than 0.0 increase the minimum speed that will be used when the threshold is reached </td></tr>
     <tr><td class="paramname">userCanPressKeyToSwapMode</td><td>if true, then the user can hold down the ctrl or command key to toggle velocity-sensitive mode </td></tr>
+    <tr><td class="paramname">modifiersToSwapModes</td><td>this is a set of modifier flags which will be tested when determining whether to enable/disable velocity-sensitive mode </td></tr>
   </table>
   </dd>
 </dl>
@@ -1614,7 +1621,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the velocity sensitivity setting. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#add6fe31d11f1c783aafeca6294b13858" title="Changes aspects of the scaling used when in velocity-sensitive mode. ">setVelocityModeParameters</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a47c37989ff5f6453f2c44f1a7455e1c1" title="Changes aspects of the scaling used when in velocity-sensitive mode. ">setVelocityModeParameters</a> </dd></dl>
 
 </div>
 </div>
@@ -1640,7 +1647,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the velocity threshold setting. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#add6fe31d11f1c783aafeca6294b13858" title="Changes aspects of the scaling used when in velocity-sensitive mode. ">setVelocityModeParameters</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a47c37989ff5f6453f2c44f1a7455e1c1" title="Changes aspects of the scaling used when in velocity-sensitive mode. ">setVelocityModeParameters</a> </dd></dl>
 
 </div>
 </div>
@@ -1666,7 +1673,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the velocity offset setting. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#add6fe31d11f1c783aafeca6294b13858" title="Changes aspects of the scaling used when in velocity-sensitive mode. ">setVelocityModeParameters</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a47c37989ff5f6453f2c44f1a7455e1c1" title="Changes aspects of the scaling used when in velocity-sensitive mode. ">setVelocityModeParameters</a> </dd></dl>
 
 </div>
 </div>
@@ -1692,7 +1699,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the velocity user key setting. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#add6fe31d11f1c783aafeca6294b13858" title="Changes aspects of the scaling used when in velocity-sensitive mode. ">setVelocityModeParameters</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSlider.html#a47c37989ff5f6453f2c44f1a7455e1c1" title="Changes aspects of the scaling used when in velocity-sensitive mode. ">setVelocityModeParameters</a> </dd></dl>
 
 </div>
 </div>
@@ -3689,7 +3696,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 7 2018 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 9 2018 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
