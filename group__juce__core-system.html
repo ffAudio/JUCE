@@ -91,12 +91,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga1bd79588ea529f27e89c255c0ebd7be3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#ga1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a></td></tr>
-<tr class="memdesc:ga1bd79588ea529f27e89c255c0ebd7be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro can be placed after a method declaration to allow the use of the C++11 feature "= delete" on all compilers.  <a href="#ga1bd79588ea529f27e89c255c0ebd7be3">More...</a><br/></td></tr>
-<tr class="separator:ga1bd79588ea529f27e89c255c0ebd7be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf41251c36d1579b74e6c54bf4fa5383a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a></td></tr>
 <tr class="separator:gaf41251c36d1579b74e6c54bf4fa5383a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac707ede30b800f8e5c6da73f3e19719e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#gac707ede30b800f8e5c6da73f3e19719e">JUCE_ATOMIC_AVAILABLE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memitem:gac707ede30b800f8e5c6da73f3e19719e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#gac707ede30b800f8e5c6da73f3e19719e">JUCE_ATOMIC_AVAILABLE</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:gac707ede30b800f8e5c6da73f3e19719e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf0b3f78ca801d88a7912f4c6bbf50e58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a></td></tr>
 <tr class="memdesc:gaf0b3f78ca801d88a7912f4c6bbf50e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">This macro defines the C calling convention used as the standard for JUCE calls.  <a href="#gaf0b3f78ca801d88a7912f4c6bbf50e58">More...</a><br/></td></tr>
@@ -189,21 +186,6 @@ Macros</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="ga1bd79588ea529f27e89c255c0ebd7be3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define JUCE_DELETED_FUNCTION</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This macro can be placed after a method declaration to allow the use of the C++11 feature "= delete" on all compilers. </p>
-<p>On newer compilers that support it, it does the C++11 "= delete", but on older ones it's just an empty definition. </p>
-
-</div>
-</div>
 <a class="anchor" id="gaf41251c36d1579b74e6c54bf4fa5383a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +205,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define JUCE_ATOMIC_AVAILABLE&#160;&#160;&#160;0</td>
+          <td class="memname">#define JUCE_ATOMIC_AVAILABLE&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -438,9 +420,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">className (<span class="keyword">const</span> className&amp;) <a class="code" href="group__juce__core-system.html#ga1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a>;\</div>
-<div class="line">    className&amp; operator= (const className&amp;) JUCE_DELETED_FUNCTION;</div>
-<div class="ttc" id="group__juce__core-system_html_ga1bd79588ea529f27e89c255c0ebd7be3"><div class="ttname"><a href="group__juce__core-system.html#ga1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a></div><div class="ttdeci">#define JUCE_DELETED_FUNCTION</div><div class="ttdoc">This macro can be placed after a method declaration to allow the use of the C++11 feature &quot;= delete&quot; ...</div><div class="ttdef"><b>Definition:</b> juce_CompilerSupport.h:144</div></div>
+<b>Value:</b><div class="fragment"><div class="line">className (<span class="keyword">const</span> className&amp;) = <span class="keyword">delete</span>;\</div>
+<div class="line">    className&amp; operator= (<span class="keyword">const</span> className&amp;) = <span class="keyword">delete</span>;</div>
 </div><!-- fragment -->
 <p>This is a shorthand macro for declaring stubs for a class's copy constructor and operator=. </p>
 <p>For example, instead of </p>
@@ -495,9 +476,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">private</span>: \</div>
-<div class="line">    static <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span> (size_t) <a class="code" href="group__juce__core-system.html#ga1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a>; \</div>
-<div class="line">    static <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span> (<span class="keywordtype">void</span>*) <a class="code" href="group__juce__core-system.html#ga1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a>;</div>
-<div class="ttc" id="group__juce__core-system_html_ga1bd79588ea529f27e89c255c0ebd7be3"><div class="ttname"><a href="group__juce__core-system.html#ga1bd79588ea529f27e89c255c0ebd7be3">JUCE_DELETED_FUNCTION</a></div><div class="ttdeci">#define JUCE_DELETED_FUNCTION</div><div class="ttdoc">This macro can be placed after a method declaration to allow the use of the C++11 feature &quot;= delete&quot; ...</div><div class="ttdef"><b>Definition:</b> juce_CompilerSupport.h:144</div></div>
+<div class="line">    static <span class="keywordtype">void</span>* <span class="keyword">operator</span> <span class="keyword">new</span> (size_t) = <span class="keyword">delete</span>; \</div>
+<div class="line">    static <span class="keywordtype">void</span> <span class="keyword">operator</span> <span class="keyword">delete</span> (<span class="keywordtype">void</span>*) = <span class="keyword">delete</span>;</div>
 </div><!-- fragment -->
 <p>This macro can be added to class definitions to disable the use of new/delete to allocate the object on the heap, forcing it to only be used as a stack or member variable. </p>
 
@@ -801,7 +781,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 11 2018 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 12 2018 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
