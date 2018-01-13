@@ -120,6 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a95597e162d39500971678a44ff3568ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called repeatedly to fetch subsequent blocks of audio data.  <a href="#a95597e162d39500971678a44ff3568ec">More...</a><br/></td></tr>
 <tr class="separator:a95597e162d39500971678a44ff3568ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40f1e657f048d02c5d065de566a84d92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioAppComponent.html#a40f1e657f048d02c5d065de566a84d92">shutdownAudio</a> ()</td></tr>
+<tr class="memdesc:a40f1e657f048d02c5d065de566a84d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shuts down the audio device and clears the audio source.  <a href="#a40f1e657f048d02c5d065de566a84d92">More...</a><br/></td></tr>
 <tr class="separator:a40f1e657f048d02c5d065de566a84d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a5ee1827aaa22388d22da5200b70eeeee inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a5ee1827aaa22388d22da5200b70eeeee">Component</a> () noexcept</td></tr>
@@ -930,6 +931,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Shuts down the audio device and clears the audio source. </p>
+<p>This method should be called in the destructor of the derived class otherwise an assertion will be triggered. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -951,7 +955,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 12 2018 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jan 13 2018 01:00:29 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

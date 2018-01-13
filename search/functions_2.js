@@ -281,6 +281,7 @@ var searchData=
   ['copyfrom',['copyFrom',['../classAudioBuffer.html#a9ec751bfa23564c011bf3940ca17b743',1,'AudioBuffer::copyFrom(int destChannel, int destStartSample, const AudioBuffer &amp;source, int sourceChannel, int sourceStartSample, int numSamples) noexcept'],['../classAudioBuffer.html#a80d6c874d56ebfbf3c0aca2d2b8c4ab7',1,'AudioBuffer::copyFrom(int destChannel, int destStartSample, const Type *source, int numSamples) noexcept'],['../classAudioBuffer.html#a2684ecc739be23105f3a2f0605e2a928',1,'AudioBuffer::copyFrom(int destChannel, int destStartSample, const Type *source, int numSamples, Type gain) noexcept'],['../classMemoryBlock.html#a31d3f1d7a0269229c5f0c36ab0b9dc40',1,'MemoryBlock::copyFrom()']]],
   ['copyfromwithramp',['copyFromWithRamp',['../classAudioBuffer.html#ae1cff4483f4022ed49dc91eda31098c9',1,'AudioBuffer']]],
   ['copypropertiesfrom',['copyPropertiesFrom',['../classValueTree.html#ad2596a93fa05a1a0c95cd6c275e77982',1,'ValueTree']]],
+  ['copystate',['copyState',['../classAudioProcessorValueTreeState.html#a2e8c24940157ec6032da68c3abebab27',1,'AudioProcessorValueTreeState']]],
   ['copytexttoclipboard',['copyTextToClipboard',['../classSystemClipboard.html#ab0efb785d53db6f2986950d591313ba5',1,'SystemClipboard']]],
   ['copytexture',['copyTexture',['../classOpenGLContext.html#ac0bf3594cb79029af5ee5eb66a14f152',1,'OpenGLContext']]],
   ['copyto',['copyTo',['../classMemoryBlock.html#aacda2afa6101956c2c66ebca93c42c36',1,'MemoryBlock']]],

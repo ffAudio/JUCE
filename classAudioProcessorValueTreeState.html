@@ -146,6 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a057ab89b864fbc1ad83f3ead47a5685c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNormalisableRange.html">NormalisableRange</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorValueTreeState.html#a057ab89b864fbc1ad83f3ead47a5685c">getParameterRange</a> (<a class="el" href="classStringRef.html">StringRef</a> parameterID) const noexcept</td></tr>
 <tr class="memdesc:a057ab89b864fbc1ad83f3ead47a5685c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range that was set when the given parameter was created.  <a href="#a057ab89b864fbc1ad83f3ead47a5685c">More...</a><br/></td></tr>
 <tr class="separator:a057ab89b864fbc1ad83f3ead47a5685c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8c24940157ec6032da68c3abebab27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorValueTreeState.html#a2e8c24940157ec6032da68c3abebab27">copyState</a> ()</td></tr>
+<tr class="memdesc:a2e8c24940157ec6032da68c3abebab27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the state value tree.  <a href="#a2e8c24940157ec6032da68c3abebab27">More...</a><br/></td></tr>
+<tr class="separator:a2e8c24940157ec6032da68c3abebab27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabb748808e24bdc2fa06dba23bf6bb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorValueTreeState.html#afabb748808e24bdc2fa06dba23bf6bb3">replaceState</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;newState)</td></tr>
+<tr class="memdesc:afabb748808e24bdc2fa06dba23bf6bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the state value tree.  <a href="#afabb748808e24bdc2fa06dba23bf6bb3">More...</a><br/></td></tr>
+<tr class="separator:afabb748808e24bdc2fa06dba23bf6bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -472,6 +478,43 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2e8c24940157ec6032da68c3abebab27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classValueTree.html">ValueTree</a> AudioProcessorValueTreeState::copyState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a copy of the state value tree. </p>
+<p>The <a class="el" href="classAudioProcessorValueTreeState.html" title="This class contains a ValueTree which is used to manage an AudioProcessor&#39;s entire state...">AudioProcessorValueTreeState</a>'s <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> is updated internally on the message thread, but there may be cases when you may want to access the state from a different thread (getStateInformation is a good example). This method flushes all pending audio parameter value updates and returns a copy of the state in a thread safe way. </p>
+
+</div>
+</div>
+<a class="anchor" id="afabb748808e24bdc2fa06dba23bf6bb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioProcessorValueTreeState::replaceState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
+          <td class="paramname"><em>newState</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replaces the state value tree. </p>
+<p>The <a class="el" href="classAudioProcessorValueTreeState.html" title="This class contains a ValueTree which is used to manage an AudioProcessor&#39;s entire state...">AudioProcessorValueTreeState</a>'s <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> is updated internally on the message thread, but there may be cases when you may want to modify the state from a different thread (setStateInformation is a good example). This method allows you to replace the state in a thread safe way. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="aa50efe71cc5b2c9bf0b5c661d0b36c54"></a>
 <div class="memitem">
@@ -522,7 +565,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 12 2018 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jan 13 2018 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

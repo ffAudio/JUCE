@@ -218,6 +218,7 @@ var searchData=
   ['replacemetadatainfile',['replaceMetadataInFile',['../classWavAudioFormat.html#a1f6a333b084402d486af76d518971160',1,'WavAudioFormat']]],
   ['replacenext',['replaceNext',['../classLinkedListPointer.html#a52ef66e128a22c2f2f89b2090320312d',1,'LinkedListPointer']]],
   ['replacesection',['replaceSection',['../classString.html#ad31328c3ca7f43bae6c32fc59ff7b118',1,'String::replaceSection()'],['../classCodeDocument.html#ae6ec45481f08161ffcb222eafba21c32',1,'CodeDocument::replaceSection()']]],
+  ['replacestate',['replaceState',['../classAudioProcessorValueTreeState.html#afabb748808e24bdc2fa06dba23bf6bb3',1,'AudioProcessorValueTreeState']]],
   ['replacewith',['replaceWith',['../classMemoryBlock.html#ad396877d63f2a45095535895a9b5071f',1,'MemoryBlock']]],
   ['replacewithabsolutevalueof',['replaceWithAbsoluteValueOf',['../classdsp_1_1AudioBlock.html#a1fef116489ab8aea058115360d81fcec',1,'dsp::AudioBlock']]],
   ['replacewithdata',['replaceWithData',['../classFile.html#ac1828d341ded515c7606984aabd4614f',1,'File']]],
