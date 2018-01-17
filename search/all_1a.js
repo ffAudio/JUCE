@@ -390,6 +390,7 @@ var searchData=
   ['_7escopednodenormals',['~ScopedNoDenormals',['../classScopedNoDenormals.html#a4abedd6fe49dbbeae8f2e3f6664f7c18',1,'ScopedNoDenormals']]],
   ['_7escopedpointer',['~ScopedPointer',['../classScopedPointer.html#a3c540f0121065aafa5f9607362fc1450',1,'ScopedPointer']]],
   ['_7escopedreadlock',['~ScopedReadLock',['../classScopedReadLock.html#a81becd93947c0103c2c9461e4ddbe594',1,'ScopedReadLock']]],
+  ['_7escopedreadwrite',['~ScopedReadWrite',['../classAbstractFifo_1_1ScopedReadWrite.html#ac6e912012c4631c3fd1a4cedaef48e8c',1,'AbstractFifo::ScopedReadWrite']]],
   ['_7escopedsavestate',['~ScopedSaveState',['../classGraphics_1_1ScopedSaveState.html#a3330e087bb4afe184909a96725563665',1,'Graphics::ScopedSaveState']]],
   ['_7escopedtimemeasurement',['~ScopedTimeMeasurement',['../classScopedTimeMeasurement.html#a1dfa65b56f09fbbae13f5ba26bb775f9',1,'ScopedTimeMeasurement']]],
   ['_7escopedvaluesetter',['~ScopedValueSetter',['../classScopedValueSetter.html#adb7bf2e716234b227f3c8d3a5c25827d',1,'ScopedValueSetter']]],

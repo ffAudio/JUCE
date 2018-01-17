@@ -16,6 +16,8 @@ var searchData=
   ['block',['block',['../structBlock_1_1Program.html#a2b39067fad835a24a04776556cc5a972',1,'Block::Program::block()'],['../classControlButton.html#a59d4781c4364a7e78d20b31c58be0fb0',1,'ControlButton::block()'],['../classLEDGrid.html#a4c4acb32d76e95e6791ef629e8000bd8',1,'LEDGrid::block()'],['../classLEDRow.html#a7045a32380f8f6b030273c9af5150f8d',1,'LEDRow::block()'],['../classStatusLight.html#abcadf91771de7451dea784d2433e5df5',1,'StatusLight::block()'],['../classTouchSurface.html#a162504809b62b001219b38571a75f5d8',1,'TouchSurface::block()']]],
   ['blocks',['blocks',['../structBlockTopology.html#a526d6f3eb1da5b434176445fe68657de',1,'BlockTopology']]],
   ['blocksize',['blockSize',['../structlittlefoot_1_1LittleFootRemoteHeap.html#a83daba2fa01ad08647fd4dccfff31f44',1,'littlefoot::LittleFootRemoteHeap']]],
+  ['blocksize1',['blockSize1',['../classAbstractFifo_1_1ScopedReadWrite.html#aa98241b5139af22b05f87235200d21bb',1,'AbstractFifo::ScopedReadWrite']]],
+  ['blocksize2',['blockSize2',['../classAbstractFifo_1_1ScopedReadWrite.html#a4afe53356dd095b34eaf7b59ea5a6790',1,'AbstractFifo::ScopedReadWrite']]],
   ['blockuid',['blockUID',['../structTouchSurface_1_1Touch.html#a2c743c393566bb6ae8830d694c3ac098',1,'TouchSurface::Touch']]],
   ['blue',['blue',['../classColours.html#a6a834cffeaa15537e4781d8d24968a87',1,'Colours']]],
   ['bluebits',['blueBits',['../classOpenGLPixelFormat.html#a309d74a66aa876591508d76573597a04',1,'OpenGLPixelFormat']]],

@@ -84,6 +84,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classAbstractFifo-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -94,6 +96,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Encapsulates the logic required to implement a lock-free FIFO.  
  <a href="classAbstractFifo.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractFifo_1_1ScopedReadWrite.html">ScopedReadWrite</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a350395d221c77cbf5ede3dc3fb7e94a5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractFifo.html#a350395d221c77cbf5ede3dc3fb7e94a5">ScopedRead</a> = <a class="el" href="classAbstractFifo_1_1ScopedReadWrite.html">ScopedReadWrite</a>&lt; <a class="el" href="classAbstractFifo.html#ad44e74b791663d469b6d984a4db7c4bdaecae13117d6f0584c25a9da6c8f8415e">ReadOrWrite::read</a> &gt;</td></tr>
+<tr class="separator:a350395d221c77cbf5ede3dc3fb7e94a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3afb176f8bf6530586412c1b9f661c2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractFifo.html#ac3afb176f8bf6530586412c1b9f661c2">ScopedWrite</a> = <a class="el" href="classAbstractFifo_1_1ScopedReadWrite.html">ScopedReadWrite</a>&lt; <a class="el" href="classAbstractFifo.html#ad44e74b791663d469b6d984a4db7c4bdaefb2a684e4afb7d55e6147fbe5a332ee">ReadOrWrite::write</a> &gt;</td></tr>
+<tr class="separator:ac3afb176f8bf6530586412c1b9f661c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:accd680c366b4b8ca4f30ee8fb2b37b75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractFifo.html#accd680c366b4b8ca4f30ee8fb2b37b75">AbstractFifo</a> (int capacity) noexcept</td></tr>
@@ -129,6 +143,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a651019308fd148a1d1a84947d57e1679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractFifo.html#a651019308fd148a1d1a84947d57e1679">finishedRead</a> (int numRead) noexcept</td></tr>
 <tr class="memdesc:a651019308fd148a1d1a84947d57e1679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after reading from the FIFO, to indicate that this many items have now been consumed.  <a href="#a651019308fd148a1d1a84947d57e1679">More...</a><br/></td></tr>
 <tr class="separator:a651019308fd148a1d1a84947d57e1679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41c705711ad487e127df59cd978ef24c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAbstractFifo.html#a350395d221c77cbf5ede3dc3fb7e94a5">ScopedRead</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractFifo.html#a41c705711ad487e127df59cd978ef24c">read</a> (int numToRead) noexcept</td></tr>
+<tr class="memdesc:a41c705711ad487e127df59cd978ef24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces prepareToRead/finishedRead with a single function.  <a href="#a41c705711ad487e127df59cd978ef24c">More...</a><br/></td></tr>
+<tr class="separator:a41c705711ad487e127df59cd978ef24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48538526da96e5c929821be0b705ea1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAbstractFifo.html#ac3afb176f8bf6530586412c1b9f661c2">ScopedWrite</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractFifo.html#ad48538526da96e5c929821be0b705ea1">write</a> (int numToWrite) noexcept</td></tr>
+<tr class="memdesc:ad48538526da96e5c929821be0b705ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces prepareToWrite/finishedWrite with a single function.  <a href="#ad48538526da96e5c929821be0b705ea1">More...</a><br/></td></tr>
+<tr class="separator:ad48538526da96e5c929821be0b705ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Encapsulates the logic required to implement a lock-free FIFO. </p>
@@ -175,7 +195,32 @@ Public Member Functions</h2></td></tr>
 <div class="line">    <a class="code" href="classAbstractFifo.html">AbstractFifo</a> abstractFifo;</div>
 <div class="line">    <span class="keywordtype">int</span> myBuffer [1024];</div>
 <div class="line">};</div>
-</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><!-- fragment --> </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a350395d221c77cbf5ede3dc3fb7e94a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classAbstractFifo.html#a350395d221c77cbf5ede3dc3fb7e94a5">AbstractFifo::ScopedRead</a> =  <a class="el" href="classAbstractFifo_1_1ScopedReadWrite.html">ScopedReadWrite</a>&lt;<a class="el" href="classAbstractFifo.html#ad44e74b791663d469b6d984a4db7c4bdaecae13117d6f0584c25a9da6c8f8415e">ReadOrWrite::read</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac3afb176f8bf6530586412c1b9f661c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classAbstractFifo.html#ac3afb176f8bf6530586412c1b9f661c2">AbstractFifo::ScopedWrite</a> =  <a class="el" href="classAbstractFifo_1_1ScopedReadWrite.html">ScopedReadWrite</a>&lt;<a class="el" href="classAbstractFifo.html#ad44e74b791663d469b6d984a4db7c4bdaefb2a684e4afb7d55e6147fbe5a332ee">ReadOrWrite::write</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="accd680c366b4b8ca4f30ee8fb2b37b75"></a>
 <div class="memitem">
 <div class="memproto">
@@ -565,13 +610,93 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a41c705711ad487e127df59cd978ef24c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAbstractFifo.html#a350395d221c77cbf5ede3dc3fb7e94a5">ScopedRead</a> AbstractFifo::read </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numToRead</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replaces prepareToRead/finishedRead with a single function. </p>
+<p>This function returns an object which contains the start indices and block sizes, and also automatically finishes the read operation when it goes out of scope. </p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">    <span class="keyword">auto</span> readHandle = fifo.read (4);</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0; i != readHandle.blockSize1; ++i)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// read the item at index readHandle.startIndex1 + i</span></div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0; i != readHandle.blockSize2; ++i)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// read the item at index readHandle.startIndex2 + i</span></div>
+<div class="line">    }</div>
+<div class="line">} <span class="comment">// readHandle goes out of scope here, finishing the read operation</span></div>
+</div><!-- fragment --> 
+</div>
+</div>
+<a class="anchor" id="ad48538526da96e5c929821be0b705ea1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAbstractFifo.html#ac3afb176f8bf6530586412c1b9f661c2">ScopedWrite</a> AbstractFifo::write </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numToWrite</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replaces prepareToWrite/finishedWrite with a single function. </p>
+<p>This function returns an object which contains the start indices and block sizes, and also automatically finishes the write operation when it goes out of scope. </p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">    <span class="keyword">auto</span> writeHandle = fifo.write (5);</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0; i != writeHandle.blockSize1; ++i)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// write the item at index writeHandle.startIndex1 + i</span></div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0; i != writeHandle.blockSize2; ++i)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// write the item at index writeHandle.startIndex2 + i</span></div>
+<div class="line">    }</div>
+<div class="line">} <span class="comment">// writeHandle goes out of scope here, finishing the write operation</span></div>
+</div><!-- fragment --> 
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__AbstractFifo_8h.html">juce_AbstractFifo.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 16 2018 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 17 2018 01:00:22 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
