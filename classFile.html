@@ -299,6 +299,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1bef0d97a327689afa9d95151cca542f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a1bef0d97a327689afa9d95151cca542f">copyDirectoryTo</a> (const <a class="el" href="classFile.html">File</a> &amp;newDirectory) const </td></tr>
 <tr class="memdesc:a1bef0d97a327689afa9d95151cca542f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a directory.  <a href="#a1bef0d97a327689afa9d95151cca542f">More...</a><br/></td></tr>
 <tr class="separator:a1bef0d97a327689afa9d95151cca542f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8434bac36f4d544bb8cea6a4ffc656d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classFile.html">File</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a8434bac36f4d544bb8cea6a4ffc656d7">findChildFiles</a> (int whatToLookFor, bool searchRecursively, const <a class="el" href="classString.html">String</a> &amp;wildCardPattern=&quot;*&quot;) const </td></tr>
+<tr class="memdesc:a8434bac36f4d544bb8cea6a4ffc656d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches this directory for files matching a wildcard pattern.  <a href="#a8434bac36f4d544bb8cea6a4ffc656d7">More...</a><br/></td></tr>
+<tr class="separator:a8434bac36f4d544bb8cea6a4ffc656d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b382c3eb3cbbbfd7ef5550e42b5260a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a6b382c3eb3cbbbfd7ef5550e42b5260a">findChildFiles</a> (<a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classFile.html">File</a> &gt; &amp;results, int whatToLookFor, bool searchRecursively, const <a class="el" href="classString.html">String</a> &amp;wildCardPattern=&quot;*&quot;) const </td></tr>
 <tr class="memdesc:a6b382c3eb3cbbbfd7ef5550e42b5260a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches inside a directory for files matching a wildcard pattern.  <a href="#a6b382c3eb3cbbbfd7ef5550e42b5260a">More...</a><br/></td></tr>
 <tr class="separator:a6b382c3eb3cbbbfd7ef5550e42b5260a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1743,6 +1746,51 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8434bac36f4d544bb8cea6a4ffc656d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classArray.html">Array</a>&lt;<a class="el" href="classFile.html">File</a>&gt; File::findChildFiles </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>whatToLookFor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>searchRecursively</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>wildCardPattern</em> = <code>&quot;*&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches this directory for files matching a wildcard pattern. </p>
+<p>Assuming that this file is a directory, this method will search it for either files or subdirectories whose names match a filename pattern. Note that the order in which files are returned is completely undefined!</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">whatToLookFor</td><td>a value from the TypesOfFileToFind enum, specifying whether to return files, directories, or both. If the ignoreHiddenFiles flag is also added to this value, hidden files won't be returned </td></tr>
+    <tr><td class="paramname">searchRecursively</td><td>if true, all subdirectories will be recursed into to do an exhaustive search </td></tr>
+    <tr><td class="paramname">wildCardPattern</td><td>the filename pattern to search for, e.g. "*.txt" </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the set of files that were found</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a07e0af731f18680d32dd74043784a073" title="Searches inside a directory and counts how many files match a wildcard pattern. ">getNumberOfChildFiles</a>, <a class="el" href="classDirectoryIterator.html" title="Searches through the files in a directory, returning each file that is found. ">DirectoryIterator</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a6b382c3eb3cbbbfd7ef5550e42b5260a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1780,18 +1828,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Searches inside a directory for files matching a wildcard pattern. </p>
-<p>Assuming that this file is a directory, this method will search it for either files or subdirectories whose names match a filename pattern. Note that the order in which files are returned is completely undefined!</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">results</td><td>an array to which <a class="el" href="classFile.html" title="Represents a local file or directory. ">File</a> objects will be added for the files that the search comes up with </td></tr>
-    <tr><td class="paramname">whatToLookFor</td><td>a value from the TypesOfFileToFind enum, specifying whether to return files, directories, or both. If the ignoreHiddenFiles flag is also added to this value, hidden files won't be returned </td></tr>
-    <tr><td class="paramname">searchRecursively</td><td>if true, all subdirectories will be recursed into to do an exhaustive search </td></tr>
-    <tr><td class="paramname">wildCardPattern</td><td>the filename pattern to search for, e.g. "*.txt" </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the number of results that have been found</dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a07e0af731f18680d32dd74043784a073" title="Searches inside a directory and counts how many files match a wildcard pattern. ">getNumberOfChildFiles</a>, <a class="el" href="classDirectoryIterator.html" title="Searches through the files in a directory, returning each file that is found. ">DirectoryIterator</a> </dd></dl>
+<p>Note that there's a newer, better version of this method which returns the results array, and in almost all cases, you should use that one instead! This one is kept around mainly for legacy code to use. </p>
 
 </div>
 </div>
@@ -1830,7 +1867,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number of matches found </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a6b382c3eb3cbbbfd7ef5550e42b5260a" title="Searches inside a directory for files matching a wildcard pattern. ">findChildFiles</a>, <a class="el" href="classDirectoryIterator.html" title="Searches through the files in a directory, returning each file that is found. ">DirectoryIterator</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a8434bac36f4d544bb8cea6a4ffc656d7" title="Searches this directory for files matching a wildcard pattern. ">findChildFiles</a>, <a class="el" href="classDirectoryIterator.html" title="Searches through the files in a directory, returning each file that is found. ">DirectoryIterator</a> </dd></dl>
 
 </div>
 </div>
@@ -1848,7 +1885,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if this file is a directory that contains one or more subdirectories. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a0d02d044cfec9c218a57bd7f00ff71f1" title="Checks whether the file is a directory that exists. ">isDirectory</a>, <a class="el" href="classFile.html#a6b382c3eb3cbbbfd7ef5550e42b5260a" title="Searches inside a directory for files matching a wildcard pattern. ">findChildFiles</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a0d02d044cfec9c218a57bd7f00ff71f1" title="Checks whether the file is a directory that exists. ">isDirectory</a>, <a class="el" href="classFile.html#a8434bac36f4d544bb8cea6a4ffc656d7" title="Searches this directory for files matching a wildcard pattern. ">findChildFiles</a> </dd></dl>
 
 </div>
 </div>
@@ -2792,7 +2829,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 17 2018 01:00:26 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 18 2018 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
