@@ -1,7 +1,5 @@
 <map id="Button::Listener" name="Button::Listener">
-<area shape="rect" id="node2" href="$classAlertWindow.html" title="A window that displays a message and has buttons for the user to react to it. " alt="" coords="5,80,101,107"/>
-<area shape="rect" id="node3" href="$classButtonTracker.html" title="A class that automatically sends analytics events to the Analytics singleton when a button is clicked..." alt="" coords="125,80,229,107"/>
-<area shape="rect" id="node4" href="$classOnlineUnlockForm.html" title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU..." alt="" coords="253,80,383,107"/>
-<area shape="rect" id="node5" href="$classPreferencesPanel.html" title="A component with a set of buttons at the top for changing between pages of preferences. " alt="" coords="408,80,533,107"/>
-<area shape="rect" id="node6" href="$classStandaloneFilterWindow.html" title="A class that can be used to run a simple standalone application containing your filter. " alt="" coords="557,80,720,107"/>
+<area shape="rect" id="node2" href="$classButtonTracker.html" title="A class that automatically sends analytics events to the Analytics singleton when a button is clicked..." alt="" coords="5,80,109,107"/>
+<area shape="rect" id="node3" href="$classOnlineUnlockForm.html" title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU..." alt="" coords="133,80,263,107"/>
+<area shape="rect" id="node4" href="$classStandaloneFilterWindow.html" title="A class that can be used to run a simple standalone application containing your filter. " alt="" coords="288,80,451,107"/>
 </map>

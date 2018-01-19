@@ -1,7 +1,7 @@
 var searchData=
 [
   ['label',['Label',['../classLabel.html#ad6d7e15decfae7d38cc9396037f9b220',1,'Label']]],
-  ['labeltextchanged',['labelTextChanged',['../classComboBox.html#a8db239b93e77646b61f3646bc223844b',1,'ComboBox::labelTextChanged()'],['../classLabel_1_1Listener.html#ad2a3e79ba106bfa64cab523e197b1514',1,'Label::Listener::labelTextChanged()']]],
+  ['labeltextchanged',['labelTextChanged',['../classLabel_1_1Listener.html#ad2a3e79ba106bfa64cab523e197b1514',1,'Label::Listener']]],
   ['ladderfilter',['LadderFilter',['../classdsp_1_1LadderFilter.html#af90b68dc9cbce6ddc691caf826d3a48c',1,'dsp::LadderFilter']]],
   ['ladspapluginformat',['LADSPAPluginFormat',['../classLADSPAPluginFormat.html#ae3cc50623da55617adb06af890421929',1,'LADSPAPluginFormat']]],
   ['lagrangeinterpolator',['LagrangeInterpolator',['../classLagrangeInterpolator.html#a5ab3665c8906de897990d2db77cc88ca',1,'LagrangeInterpolator']]],
