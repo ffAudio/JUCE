@@ -113,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af2f66bc6973b9a7561af455bd6fb331c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#af2f66bc6973b9a7561af455bd6fb331c">ValueTree</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;type)</td></tr>
 <tr class="memdesc:af2f66bc6973b9a7561af455bd6fb331c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> with the given type name.  <a href="#af2f66bc6973b9a7561af455bd6fb331c">More...</a><br/></td></tr>
 <tr class="separator:af2f66bc6973b9a7561af455bd6fb331c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3644fb37118b6a74c05c030146525de2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a3644fb37118b6a74c05c030146525de2">ValueTree</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;type, std::initializer_list&lt; std::pair&lt; <a class="el" href="classIdentifier.html">Identifier</a>, <a class="el" href="classvar.html">var</a> &gt;&gt; properties, std::initializer_list&lt; <a class="el" href="classValueTree.html">ValueTree</a> &gt; subTrees={})</td></tr>
+<tr class="memdesc:a3644fb37118b6a74c05c030146525de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a value tree from nested lists of properties and ValueTrees.  <a href="#a3644fb37118b6a74c05c030146525de2">More...</a><br/></td></tr>
+<tr class="separator:a3644fb37118b6a74c05c030146525de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac96c26d40b84ef461c1afb882453612c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ac96c26d40b84ef461c1afb882453612c">ValueTree</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;) noexcept</td></tr>
 <tr class="memdesc:ac96c26d40b84ef461c1afb882453612c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a reference to another <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>.  <a href="#ac96c26d40b84ef461c1afb882453612c">More...</a><br/></td></tr>
 <tr class="separator:ac96c26d40b84ef461c1afb882453612c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -342,6 +345,69 @@ Static Public Member Functions</h2></td></tr>
 <p>Creates an empty <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> with the given type name. </p>
 <p>Like an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a>, each <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a> has a type, which you can access with <a class="el" href="classValueTree.html#aaba6256213ee02c418e9ef3d320f0ff1" title="Returns the type of this tree. ">getType()</a> and <a class="el" href="classValueTree.html#a5d41bc2066cae65b69aa614aa0f68ff1" title="Returns true if the tree has this type. ">hasType()</a>. </p>
 
+</div>
+</div>
+<a class="anchor" id="a3644fb37118b6a74c05c030146525de2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ValueTree::ValueTree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classIdentifier.html">Identifier</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::initializer_list&lt; std::pair&lt; <a class="el" href="classIdentifier.html">Identifier</a>, <a class="el" href="classvar.html">var</a> &gt;&gt;&#160;</td>
+          <td class="paramname"><em>properties</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::initializer_list&lt; <a class="el" href="classValueTree.html">ValueTree</a> &gt;&#160;</td>
+          <td class="paramname"><em>subTrees</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a value tree from nested lists of properties and ValueTrees. </p>
+<p>This code,</p>
+<div class="fragment"><div class="line"><a class="code" href="classValueTree.html">ValueTree</a> groups</div>
+<div class="line">{ <span class="stringliteral">&quot;ParameterGroups&quot;</span>, {},</div>
+<div class="line">  {</div>
+<div class="line">    { <span class="stringliteral">&quot;Group&quot;</span>, {{ <span class="stringliteral">&quot;name&quot;</span>, <span class="stringliteral">&quot;Tone Controls&quot;</span> }},</div>
+<div class="line">      {</div>
+<div class="line">        { <span class="stringliteral">&quot;Parameter&quot;</span>, {{ <span class="stringliteral">&quot;id&quot;</span>, <span class="stringliteral">&quot;distortion&quot;</span> }, { <span class="stringliteral">&quot;value&quot;</span>, 0.5 }}},</div>
+<div class="line">        { <span class="stringliteral">&quot;Parameter&quot;</span>, {{ <span class="stringliteral">&quot;id&quot;</span>, <span class="stringliteral">&quot;reverb&quot;</span> },     { <span class="stringliteral">&quot;value&quot;</span>, 0.5 }}}</div>
+<div class="line">      }</div>
+<div class="line">    },</div>
+<div class="line">    { <span class="stringliteral">&quot;Group&quot;</span>, {{ <span class="stringliteral">&quot;name&quot;</span>, <span class="stringliteral">&quot;Other Controls&quot;</span> }},</div>
+<div class="line">      {</div>
+<div class="line">        { <span class="stringliteral">&quot;Parameter&quot;</span>, {{ <span class="stringliteral">&quot;id&quot;</span>, <span class="stringliteral">&quot;drywet&quot;</span> }, { <span class="stringliteral">&quot;value&quot;</span>, 0.5 }}},</div>
+<div class="line">        { <span class="stringliteral">&quot;Parameter&quot;</span>, {{ <span class="stringliteral">&quot;id&quot;</span>, <span class="stringliteral">&quot;gain&quot;</span> },   { <span class="stringliteral">&quot;value&quot;</span>, 0.5 }}}</div>
+<div class="line">      }</div>
+<div class="line">    }</div>
+<div class="line">  }</div>
+<div class="line">};</div>
+</div><!-- fragment --><p>produces this tree:</p>
+<pre class="fragment">&lt;ParameterGroups&gt;
+  &lt;Group name="Tone Controls"&gt;
+    &lt;Parameter id="distortion" value="0.5"/&gt;
+    &lt;Parameter id="reverb" value="0.5"/&gt;
+  &lt;/Group&gt;
+  &lt;Group name="Other Controls"&gt;
+    &lt;Parameter id="drywet" value="0.5"/&gt;
+    &lt;Parameter id="gain" value="0.5"/&gt;
+  &lt;/Group&gt;
+&lt;/ParameterGroups&gt;
+</pre> 
 </div>
 </div>
 <a class="anchor" id="ac96c26d40b84ef461c1afb882453612c"></a>
@@ -1816,7 +1882,7 @@ template&lt;typename ElementComparator &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 19 2018 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jan 20 2018 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
