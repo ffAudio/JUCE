@@ -167,7 +167,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac35766febed68ea0d7fd632a11e3479b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts another <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> to the receiver.  <a href="#ac35766febed68ea0d7fd632a11e3479b">More...</a><br/></td></tr>
 <tr class="separator:ac35766febed68ea0d7fd632a11e3479b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac71fb3bcdeaa6fb7d0860b8718fa51e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdsp_1_1SIMDRegister.html">SIMDRegister</a> &amp;JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1SIMDRegister.html#ac71fb3bcdeaa6fb7d0860b8718fa51e4">operator*=</a> (<a class="el" href="structdsp_1_1SIMDRegister.html">SIMDRegister</a> v) noexcept</td></tr>
-<tr class="memdesc:ac71fb3bcdeaa6fb7d0860b8718fa51e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts another <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> to the receiver.  <a href="#ac71fb3bcdeaa6fb7d0860b8718fa51e4">More...</a><br/></td></tr>
+<tr class="memdesc:ac71fb3bcdeaa6fb7d0860b8718fa51e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies another <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> to the receiver.  <a href="#ac71fb3bcdeaa6fb7d0860b8718fa51e4">More...</a><br/></td></tr>
 <tr class="separator:ac71fb3bcdeaa6fb7d0860b8718fa51e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa06ce82c5ffa829af4a28901407a392d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdsp_1_1SIMDRegister.html">SIMDRegister</a> &amp;JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1SIMDRegister.html#aa06ce82c5ffa829af4a28901407a392d">operator=</a> (<a class="el" href="structdsp_1_1SIMDRegister.html#a506133c4d9b3059008dac4f6b318c2c0">ElementType</a> s) noexcept</td></tr>
 <tr class="memdesc:aa06ce82c5ffa829af4a28901407a392d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Broadcasts the scalar to all elements of the receiver.  <a href="#aa06ce82c5ffa829af4a28901407a392d">More...</a><br/></td></tr>
@@ -215,7 +215,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae2b2b9af72e9865b3f059cdfe55c7baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector where each element is the difference of the corresponding element in the receiver and the scalar s.  <a href="#ae2b2b9af72e9865b3f059cdfe55c7baf">More...</a><br/></td></tr>
 <tr class="separator:ae2b2b9af72e9865b3f059cdfe55c7baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a324d13f0efe1666347e310a2461070a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdsp_1_1SIMDRegister.html">SIMDRegister</a> JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1SIMDRegister.html#a324d13f0efe1666347e310a2461070a7">operator*</a> (<a class="el" href="structdsp_1_1SIMDRegister.html#a506133c4d9b3059008dac4f6b318c2c0">ElementType</a> s) const noexcept</td></tr>
-<tr class="memdesc:a324d13f0efe1666347e310a2461070a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector where each element is the difference of the corresponding element in the receiver and the scalar s.  <a href="#a324d13f0efe1666347e310a2461070a7">More...</a><br/></td></tr>
+<tr class="memdesc:a324d13f0efe1666347e310a2461070a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector where each element is the product of the corresponding element in the receiver and the scalar s.  <a href="#a324d13f0efe1666347e310a2461070a7">More...</a><br/></td></tr>
 <tr class="separator:a324d13f0efe1666347e310a2461070a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa8d939ba66d3503d810dee181ac5b3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdsp_1_1SIMDRegister.html">SIMDRegister</a> JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1SIMDRegister.html#afa8d939ba66d3503d810dee181ac5b3e">operator&amp;</a> (<a class="el" href="structdsp_1_1SIMDRegister.html#a57f3b7c9e32a2180380bef25b6c2108e">vMaskType</a> v) const noexcept</td></tr>
 <tr class="memdesc:afa8d939ba66d3503d810dee181ac5b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bit-and of the receiver and v.  <a href="#afa8d939ba66d3503d810dee181ac5b3e">More...</a><br/></td></tr>
@@ -886,7 +886,7 @@ template&lt;typename Type&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Subtracts another <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> to the receiver. </p>
+<p>Multiplies another <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> to the receiver. </p>
 
 <p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#abf84de263a37a8b889109072d21c6ba4">dsp::CmplxSIMDOps&lt; Scalar &gt;::mul()</a>.</p>
 
@@ -1350,7 +1350,7 @@ template&lt;typename Type&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a vector where each element is the difference of the corresponding element in the receiver and the scalar s. </p>
+<p>Returns a vector where each element is the product of the corresponding element in the receiver and the scalar s. </p>
 
 <p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>, and <a class="el" href="structdsp_1_1CmplxSIMDOps.html#abf84de263a37a8b889109072d21c6ba4">dsp::CmplxSIMDOps&lt; Scalar &gt;::mul()</a>.</p>
 
@@ -2196,7 +2196,7 @@ template&lt;typename Type&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 23 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 24 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

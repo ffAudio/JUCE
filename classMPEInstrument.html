@@ -93,6 +93,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">MPEInstrument Class Reference<div class="ingroups"><a class="el" href="group__juce__audio__basics-mpe.html">mpe</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class represents an instrument handling MPE.  
+ <a href="classMPEInstrument.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -125,10 +128,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a60a37c57cd5206090b4d2d866b959746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-sets the zone layout of the instrument to the one passed in.  <a href="#a60a37c57cd5206090b4d2d866b959746">More...</a><br/></td></tr>
 <tr class="separator:a60a37c57cd5206090b4d2d866b959746"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72e76f50599b741da70f6ab6e49a0450"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEInstrument.html#a72e76f50599b741da70f6ab6e49a0450">isNoteChannel</a> (int midiChannel) const noexcept</td></tr>
-<tr class="memdesc:a72e76f50599b741da70f6ab6e49a0450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given MIDI channel (1-16) is a note channel in any of the <a class="el" href="classMPEInstrument.html">MPEInstrument</a>'s MPE zones; false otherwise.  <a href="#a72e76f50599b741da70f6ab6e49a0450">More...</a><br/></td></tr>
+<tr class="memdesc:a72e76f50599b741da70f6ab6e49a0450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given MIDI channel (1-16) is a note channel in any of the <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a>'s MPE zones; false otherwise.  <a href="#a72e76f50599b741da70f6ab6e49a0450">More...</a><br/></td></tr>
 <tr class="separator:a72e76f50599b741da70f6ab6e49a0450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad832a76615272bf724839709c0a0aaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEInstrument.html#aad832a76615272bf724839709c0a0aaf">isMasterChannel</a> (int midiChannel) const noexcept</td></tr>
-<tr class="memdesc:aad832a76615272bf724839709c0a0aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given MIDI channel (1-16) is a master channel in any of the <a class="el" href="classMPEInstrument.html">MPEInstrument</a>'s MPE zones; false otherwise.  <a href="#aad832a76615272bf724839709c0a0aaf">More...</a><br/></td></tr>
+<tr class="memdesc:aad832a76615272bf724839709c0a0aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given MIDI channel (1-16) is a master channel in any of the <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a>'s MPE zones; false otherwise.  <a href="#aad832a76615272bf724839709c0a0aaf">More...</a><br/></td></tr>
 <tr class="separator:aad832a76615272bf724839709c0a0aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8ffdce53374855ed114ca92004bcce6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEInstrument.html#aa8ffdce53374855ed114ca92004bcce6">setPressureTrackingMode</a> (<a class="el" href="classMPEInstrument.html#a6253ed9c5e70322645b02865c70dc0b6">TrackingMode</a> modeToUse)</td></tr>
 <tr class="memdesc:aa8ffdce53374855ed114ca92004bcce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the MPE tracking mode for the pressure dimension.  <a href="#aa8ffdce53374855ed114ca92004bcce6">More...</a><br/></td></tr>
@@ -211,7 +214,19 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad41d0a0ff109319ceab4a72ebca7187e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCriticalSection.html">CriticalSection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEInstrument.html#ad41d0a0ff109319ceab4a72ebca7187e">lock</a></td></tr>
 <tr class="separator:ad41d0a0ff109319ceab4a72ebca7187e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class represents an instrument handling MPE. </p>
+<p>It has an MPE zone layout and maintans a state of currently active (playing) notes and the values of their dimensions of expression.</p>
+<p>You can trigger and modulate notes:</p>
+<ul>
+<li>by passing MIDI messages with the method processNextMidiEvent;</li>
+<li>by directly calling the methods noteOn, noteOff etc.</li>
+</ul>
+<p>The class implements the channel and note management logic specified in MPE. If you pass it a message, it will know what notes on what channels (if any) should be affected by that message.</p>
+<p>The class has a <a class="el" href="classMPEInstrument_1_1Listener.html" title="Derive from this class to be informed about any changes in the expressive MIDI notes played by this i...">Listener</a> class with the three callbacks MPENoteAdded, MPENoteChanged, and MPENoteFinished. Implement such a <a class="el" href="classMPEInstrument_1_1Listener.html" title="Derive from this class to be informed about any changes in the expressive MIDI notes played by this i...">Listener</a> class to react to note changes and trigger some functionality for your application that depends on the MPE note state. For example, you can use this class to write an MPE visualiser.</p>
+<p>If you want to write a real-time audio synth with MPE functionality, you should instead use the classes <a class="el" href="structMPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. ">MPESynthesiserBase</a>, which adds the ability to render audio and to manage voices.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structMPENote.html" title="This struct represents a playing MPE note. ">MPENote</a>, <a class="el" href="classMPEZoneLayout.html" title="This class represents the current MPE zone layout of a device capable of handling MPE...">MPEZoneLayout</a>, <a class="el" href="classMPESynthesiser.html" title="Base class for an MPE-compatible musical device that can play sounds. ">MPESynthesiser</a> </dd></dl>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a6253ed9c5e70322645b02865c70dc0b6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -227,16 +242,16 @@ Protected Attributes</h2></td></tr>
 <p>The default is lastNotePlayedOnChannel. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a6253ed9c5e70322645b02865c70dc0b6a88bee5e48b4e40245b2743809737fd2e"></a>lastNotePlayedOnChannel</em>&#160;</td><td class="fielddoc">
+<p>The most recent note on the channel that is still played (key down and/or sustained). </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a6253ed9c5e70322645b02865c70dc0b6a47f69f12a40825822a72ff0e4e8f5c4b"></a>lowestNoteOnChannel</em>&#160;</td><td class="fielddoc">
-<p>The most recent note on the channel that is still played (key down and/or sustained) </p>
-</td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a6253ed9c5e70322645b02865c70dc0b6ad52768b05c36483f44c933044a35d4dd"></a>highestNoteOnChannel</em>&#160;</td><td class="fielddoc">
 <p>The lowest note (by initialNote) on the channel with the note key still down. </p>
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a6253ed9c5e70322645b02865c70dc0b6a5985b27bfdbfc4172099d3da5a24a044"></a>allNotesOnChannel</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a6253ed9c5e70322645b02865c70dc0b6ad52768b05c36483f44c933044a35d4dd"></a>highestNoteOnChannel</em>&#160;</td><td class="fielddoc">
 <p>The highest note (by initialNote) on the channel with the note key still down. </p>
-<p>All notes on the channel (key down and/or sustained) </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a6253ed9c5e70322645b02865c70dc0b6a5985b27bfdbfc4172099d3da5a24a044"></a>allNotesOnChannel</em>&#160;</td><td class="fielddoc">
+<p>All notes on the channel (key down and/or sustained). </p>
 </td></tr>
 </table>
 
@@ -365,7 +380,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if the given MIDI channel (1-16) is a note channel in any of the <a class="el" href="classMPEInstrument.html">MPEInstrument</a>'s MPE zones; false otherwise. </p>
+<p>Returns true if the given MIDI channel (1-16) is a note channel in any of the <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a>'s MPE zones; false otherwise. </p>
 <p>When in legacy mode, this will return true if the given channel is contained in the current legacy mode channel range; false otherwise. </p>
 
 </div>
@@ -392,7 +407,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if the given MIDI channel (1-16) is a master channel in any of the <a class="el" href="classMPEInstrument.html">MPEInstrument</a>'s MPE zones; false otherwise. </p>
+<p>Returns true if the given MIDI channel (1-16) is a master channel in any of the <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a>'s MPE zones; false otherwise. </p>
 <p>When in legacy mode, this will always return false. </p>
 
 </div>
@@ -1138,7 +1153,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 23 2018 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 24 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

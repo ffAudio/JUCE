@@ -108,7 +108,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a64e54c0339818c5df93c2cb531b249c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a64e54c0339818c5df93c2cb531b249c8">More...</a><br/></td></tr>
 <tr class="separator:a64e54c0339818c5df93c2cb531b249c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23c16b0fed549ee37e887695976cebad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a23c16b0fed549ee37e887695976cebad">MPESynthesiser</a> (<a class="el" href="classMPEInstrument.html">MPEInstrument</a> *<a class="el" href="structMPESynthesiserBase.html#a714dfff07d6efda0363f4f0e62839482">instrument</a>)</td></tr>
-<tr class="memdesc:a23c16b0fed549ee37e887695976cebad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to pass to the synthesiser a custom <a class="el" href="classMPEInstrument.html">MPEInstrument</a> object to handle the MPE note state, MIDI channel assignment etc.  <a href="#a23c16b0fed549ee37e887695976cebad">More...</a><br/></td></tr>
+<tr class="memdesc:a23c16b0fed549ee37e887695976cebad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to pass to the synthesiser a custom <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a> object to handle the MPE note state, MIDI channel assignment etc.  <a href="#a23c16b0fed549ee37e887695976cebad">More...</a><br/></td></tr>
 <tr class="separator:a23c16b0fed549ee37e887695976cebad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12a9a600b33b5c04c3616b7ed724e689"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a12a9a600b33b5c04c3616b7ed724e689">~MPESynthesiser</a> ()</td></tr>
 <tr class="memdesc:a12a9a600b33b5c04c3616b7ed724e689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a12a9a600b33b5c04c3616b7ed724e689">More...</a><br/></td></tr>
@@ -269,7 +269,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Then you can use the <a class="el" href="classMPESynthesiser.html#acd5a57224ed678670766c3f0e1c611ac" title="Adds a new voice to the synth. ">addVoice()</a> methods to give the synthesiser a set of voices it can use to play notes. If you only give it one voice it will be monophonic - the more voices it has, the more polyphony it'll have available.</p>
 <p>Then repeatedly call the <a class="el" href="structMPESynthesiserBase.html#a6b0bfbf04857771b9df5c49ea7ba14df" title="Creates the next block of audio output. ">renderNextBlock()</a> method to produce the audio (inherited from <a class="el" href="structMPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. ">MPESynthesiserBase</a>). The voices will be started, stopped, and modulated automatically, based on the MPE/MIDI messages that the synthesiser receives.</p>
 <p>Before rendering, be sure to call the <a class="el" href="classMPESynthesiser.html#aaa4de3655921d4971ad4334001f096b1" title="Tells the synthesiser what the sample rate is for the audio it&#39;s being used to render. ">setCurrentPlaybackSampleRate()</a> to tell it what the target playback rate is. This value is passed on to the voices so that they can pitch their output correctly.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structMPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. ">MPESynthesiserBase</a>, MPESythesiserVoice, <a class="el" href="structMPENote.html" title="This struct represents a playing MPE note. ">MPENote</a>, <a class="el" href="classMPEInstrument.html">MPEInstrument</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structMPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. ">MPESynthesiserBase</a>, <a class="el" href="classMPESynthesiserVoice.html" title="Represents an MPE voice that an MPESynthesiser can use to play a sound. ">MPESynthesiserVoice</a>, <a class="el" href="structMPENote.html" title="This struct represents a playing MPE note. ">MPENote</a>, <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a64e54c0339818c5df93c2cb531b249c8"></a>
 <div class="memitem">
@@ -304,9 +304,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor to pass to the synthesiser a custom <a class="el" href="classMPEInstrument.html">MPEInstrument</a> object to handle the MPE note state, MIDI channel assignment etc. </p>
+<p>Constructor to pass to the synthesiser a custom <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a> object to handle the MPE note state, MIDI channel assignment etc. </p>
 <p>(in case you need custom logic for this that goes beyond MIDI and MPE). The synthesiser will take ownership of this object.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structMPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. ">MPESynthesiserBase</a>, <a class="el" href="classMPEInstrument.html">MPEInstrument</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structMPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. ">MPESynthesiserBase</a>, <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a> </dd></dl>
 
 </div>
 </div>
@@ -1127,7 +1127,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 23 2018 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 24 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

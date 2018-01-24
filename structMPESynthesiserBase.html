@@ -205,9 +205,9 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Derive from this class to create a basic audio generator capable of MPE. </p>
 <p>Implement the callbacks of <a class="el" href="classMPEInstrument_1_1Listener.html" title="Derive from this class to be informed about any changes in the expressive MIDI notes played by this i...">MPEInstrument::Listener</a> (noteAdded, notePressureChanged etc.) to let your audio generator know that MPE notes were triggered, modulated, or released. What to do inside them, and how that influences your audio generator, is up to you!</p>
-<p>This class uses an instance of <a class="el" href="classMPEInstrument.html">MPEInstrument</a> internally to handle the MPE note state logic.</p>
+<p>This class uses an instance of <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a> internally to handle the MPE note state logic.</p>
 <p>This class is a very low-level base class for an MPE instrument. If you need something more sophisticated, have a look at <a class="el" href="classMPESynthesiser.html" title="Base class for an MPE-compatible musical device that can play sounds. ">MPESynthesiser</a>. This class extends <a class="el" href="structMPESynthesiserBase.html" title="Derive from this class to create a basic audio generator capable of MPE. ">MPESynthesiserBase</a> by adding the concept of voices that can play notes, a voice stealing algorithm, and much more.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMPESynthesiser.html" title="Base class for an MPE-compatible musical device that can play sounds. ">MPESynthesiser</a>, <a class="el" href="classMPEInstrument.html">MPEInstrument</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMPESynthesiser.html" title="Base class for an MPE-compatible musical device that can play sounds. ">MPESynthesiser</a>, <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a> </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a6903ed04f13f9683e5587e3be5c9b5f7"></a>
 <div class="memitem">
@@ -254,7 +254,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<p>If you use this constructor, the synthesiser will take ownership of the provided instrument object, and will use it internally to handle the MPE note state logic. This is useful if you want to use an instance of your own class derived from <a class="el" href="classMPEInstrument.html">MPEInstrument</a> for the MPE logic. </p>
+<p>If you use this constructor, the synthesiser will take ownership of the provided instrument object, and will use it internally to handle the MPE note state logic. This is useful if you want to use an instance of your own class derived from <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a> for the MPE logic. </p>
 
 </div>
 </div>
@@ -789,7 +789,7 @@ template&lt;typename floatType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 23 2018 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 24 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
