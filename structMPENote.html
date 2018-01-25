@@ -175,12 +175,16 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b"></a>off</em>&#160;</td><td class="fielddoc">
+<p>The key is up (off). </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a20106ff137c1a5f0b8e6e099ff3fc922a895ffc865cb90899c347efefb881e2ce"></a>keyDown</em>&#160;</td><td class="fielddoc">
+<p>The note key is currently down (pressed). </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a20106ff137c1a5f0b8e6e099ff3fc922a3394b891d4bdd77fd39d141102c4a4bd"></a>sustained</em>&#160;</td><td class="fielddoc">
+<p>The note is sustained (by a sustain or sostenuto pedal). </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a20106ff137c1a5f0b8e6e099ff3fc922a31c427116ac75e042f9f5315a7aad129"></a>keyDownAndSustained</em>&#160;</td><td class="fielddoc">
+<p>The note key is down and sustained (by a sustain or sostenuto pedal). </p>
 </td></tr>
 </table>
 
@@ -258,7 +262,7 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">pitchbend</td><td>The initial per-note pitchbend of the note.</td></tr>
     <tr><td class="paramname">pressure</td><td>The initial pressure of the note.</td></tr>
     <tr><td class="paramname">timbre</td><td>The timbre value of the note.</td></tr>
-    <tr><td class="paramname">keyState</td><td>The key state of the note (whether the key is down and/or the note is sustained). This value must not be <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b">MPENote::off</a>, since you are triggering a new note. (If not specified, the default value will be MPENOte::keyDown.) </td></tr>
+    <tr><td class="paramname">keyState</td><td>The key state of the note (whether the key is down and/or the note is sustained). This value must not be <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b" title="The key is up (off). ">MPENote::off</a>, since you are triggering a new note. (If not specified, the default value will be <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a895ffc865cb90899c347efefb881e2ce" title="The note key is currently down (pressed). ">MPENote::keyDown</a>.) </td></tr>
   </table>
   </dd>
 </dl>
@@ -287,7 +291,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Default constructor. </p>
-<p>Constructs an invalid MPE note (a note with the key state <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b">MPENote::off</a> and an invalid MIDI channel. The only allowed use for such a note is to call <a class="el" href="structMPENote.html#a7cc337facd416d2da4ff19a16af1f842" title="Checks whether the MPE note is valid. ">isValid()</a> on it; everything else is undefined behaviour. </p>
+<p>Constructs an invalid MPE note (a note with the key state <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b" title="The key is up (off). ">MPENote::off</a> and an invalid MIDI channel. The only allowed use for such a note is to call <a class="el" href="structMPENote.html#a7cc337facd416d2da4ff19a16af1f842" title="Checks whether the MPE note is valid. ">isValid()</a> on it; everything else is undefined behaviour. </p>
 
 </div>
 </div>
@@ -515,7 +519,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The release velocity ("lift") of the note after a note-off has been received. </p>
-<p>This dimension will only have a meaningful value after a note-off has been received for the note (and keyState is set to <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b">MPENote::off</a> or MPENOte::sustained). Initially, the value is undefined. </p>
+<p>This dimension will only have a meaningful value after a note-off has been received for the note (and keyState is set to <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b" title="The key is up (off). ">MPENote::off</a> or MPENOte::sustained). Initially, the value is undefined. </p>
 
 </div>
 </div>
@@ -556,7 +560,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 24 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jan 25 2018 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
