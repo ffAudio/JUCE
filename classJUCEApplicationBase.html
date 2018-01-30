@@ -136,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb182f77016ee90f8d5443abcb0bb3f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplicationBase.html#adb182f77016ee90f8d5443abcb0bb3f0">unhandledException</a> (const std::exception *, const <a class="el" href="classString.html">String</a> &amp;sourceFilename, int lineNumber)=0</td></tr>
 <tr class="memdesc:adb182f77016ee90f8d5443abcb0bb3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any unhandled exceptions make it through to the message dispatch loop, this callback will be triggered, in case you want to log them or do some other type of error-handling.  <a href="#adb182f77016ee90f8d5443abcb0bb3f0">More...</a><br/></td></tr>
 <tr class="separator:adb182f77016ee90f8d5443abcb0bb3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7584d1550d85bcce7203fc29cdf57d66"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplicationBase.html#a7584d1550d85bcce7203fc29cdf57d66">memoryWarningReceived</a> ()</td></tr>
+<tr class="memdesc:a7584d1550d85bcce7203fc29cdf57d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the operating system to indicate that you should reduce your memory footprint.  <a href="#a7584d1550d85bcce7203fc29cdf57d66">More...</a><br/></td></tr>
+<tr class="separator:a7584d1550d85bcce7203fc29cdf57d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfda4c28041c0166758cedd67139307a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJUCEApplicationBase.html#adfda4c28041c0166758cedd67139307a">backButtonPressed</a> ()</td></tr>
 <tr class="memdesc:adfda4c28041c0166758cedd67139307a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override this method to be informed when the back button is pressed on a device.  <a href="#adfda4c28041c0166758cedd67139307a">More...</a><br/></td></tr>
 <tr class="separator:adfda4c28041c0166758cedd67139307a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -587,6 +590,35 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a7584d1550d85bcce7203fc29cdf57d66"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void JUCEApplicationBase::memoryWarningReceived </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by the operating system to indicate that you should reduce your memory footprint. </p>
+<p>You should override this method to free up some memory gracefully, if possible, otherwise the host may forcibly kill your app.</p>
+<p>At the moment this method is only called on iOS. </p>
+
+<p>References <a class="el" href="group__juce__core-system.html#gadc044ce5efecbecf2f5a44cd00db67b3">jassertfalse</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="adfda4c28041c0166758cedd67139307a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -806,7 +838,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 27 2018 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 30 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

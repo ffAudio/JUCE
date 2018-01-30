@@ -161,6 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a49e88e7d6c7c40899624beb9e3508f3a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a49e88e7d6c7c40899624beb9e3508f3a">releaseResources</a> ()=0</td></tr>
 <tr class="memdesc:a49e88e7d6c7c40899624beb9e3508f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after playback has stopped, to let the object free up any resources it no longer needs.  <a href="#a49e88e7d6c7c40899624beb9e3508f3a">More...</a><br/></td></tr>
 <tr class="separator:a49e88e7d6c7c40899624beb9e3508f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1d9ee950c000e9fc7efa3754866bb3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5b1d9ee950c000e9fc7efa3754866bb3">memoryWarningReceived</a> ()</td></tr>
+<tr class="memdesc:a5b1d9ee950c000e9fc7efa3754866bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to indicate that you should reduce your memory footprint.  <a href="#a5b1d9ee950c000e9fc7efa3754866bb3">More...</a><br/></td></tr>
+<tr class="separator:a5b1d9ee950c000e9fc7efa3754866bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbac77f68ba047cf60c4bc97326dcb58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#abbac77f68ba047cf60c4bc97326dcb58">processBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;buffer, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)=0</td></tr>
 <tr class="memdesc:abbac77f68ba047cf60c4bc97326dcb58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block.  <a href="#abbac77f68ba047cf60c4bc97326dcb58">More...</a><br/></td></tr>
 <tr class="separator:abbac77f68ba047cf60c4bc97326dcb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -783,6 +786,35 @@ Protected Attributes</h2></td></tr>
 <p>Called after playback has stopped, to let the object free up any resources it no longer needs. </p>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a74875e2099b8c5a68845d69c8907f96a">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a920975ffb790ec27cd243ababd8e3576">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b1d9ee950c000e9fc7efa3754866bb3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AudioProcessor::memoryWarningReceived </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by the host to indicate that you should reduce your memory footprint. </p>
+<p>You should override this method to free up some memory gracefully, if possible, otherwise the host may forcibly unload your <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a>.</p>
+<p>At the moment this method is only called when your <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> is an AUv3 plug-in running on iOS. </p>
+
+<p>References <a class="el" href="group__juce__core-system.html#gadc044ce5efecbecf2f5a44cd00db67b3">jassertfalse</a>.</p>
 
 </div>
 </div>
@@ -3945,7 +3977,7 @@ template&lt;int numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 27 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 30 2018 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
