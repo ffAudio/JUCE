@@ -144,6 +144,7 @@ Public Types</h2></td></tr>
 <tr class="memdesc:a04899ac7b51f4c911cfdee1dda12d4dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classBlock.html" title="Represents an individual BLOCKS device. ">Block</a> class is reference-counted, so <a class="el" href="classBlock.html#a04899ac7b51f4c911cfdee1dda12d4dd" title="The Block class is reference-counted, so Block::Array is useful when you are storing lists of them...">Block::Array</a> is useful when you are storing lists of them.  <a href="#a04899ac7b51f4c911cfdee1dda12d4dd">More...</a><br/></td></tr>
 <tr class="separator:a04899ac7b51f4c911cfdee1dda12d4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23857e2a9f15761beabb4b7a3339e156"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#a23857e2a9f15761beabb4b7a3339e156">UID</a> = <a class="el" href="group__juce__core-maths.html#ga29940ae63ec06c9998bba873e25407ad">uint64</a></td></tr>
+<tr class="memdesc:a23857e2a9f15761beabb4b7a3339e156"><td class="mdescLeft">&#160;</td><td class="mdescRight">This type is used for the unique block identifier.  <a href="#a23857e2a9f15761beabb4b7a3339e156">More...</a><br/></td></tr>
 <tr class="separator:a23857e2a9f15761beabb4b7a3339e156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e97e8f893c4d37d02a50c4ea3fe42e6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#a7e97e8f893c4d37d02a50c4ea3fe42e6">Timestamp</a> = <a class="el" href="group__juce__core-maths.html#ga1134b580f8da4de94ca6b1de4d37975e">uint32</a></td></tr>
 <tr class="memdesc:a7e97e8f893c4d37d02a50c4ea3fe42e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This type is used for timestamping events.  <a href="#a7e97e8f893c4d37d02a50c4ea3fe42e6">More...</a><br/></td></tr>
@@ -377,6 +378,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This type is used for the unique block identifier. </p>
+
 </div>
 </div>
 <a class="anchor" id="a7e97e8f893c4d37d02a50c4ea3fe42e6"></a>
@@ -409,18 +412,25 @@ Protected Attributes</h2></td></tr>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBlock.html#aa09e9ff13441f8c6689acb398870c715" title="Returns the type of this device. ">Block::getType()</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a2c6b3c425b9b8cb708b23e553fa81324a55520dc971c98c77e00eb4331207058d"></a>unknown</em>&#160;</td><td class="fielddoc">
+<p>Unknown block type. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2c6b3c425b9b8cb708b23e553fa81324ae901f3708edf53ccf96ff94ff361a3fa"></a>lightPadBlock</em>&#160;</td><td class="fielddoc">
+<p>Lightpad block type. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2c6b3c425b9b8cb708b23e553fa81324a93f75ccb833781bd24f8ad1755da25e3"></a>liveBlock</em>&#160;</td><td class="fielddoc">
+<p>Live control block type. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2c6b3c425b9b8cb708b23e553fa81324a53a61b7ffc6c027d254d52373a5d2d2b"></a>loopBlock</em>&#160;</td><td class="fielddoc">
+<p>Loop control block type. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2c6b3c425b9b8cb708b23e553fa81324a98ca592426170135a53fdd46bc6d2a53"></a>developerControlBlock</em>&#160;</td><td class="fielddoc">
+<p>Developer control block type. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2c6b3c425b9b8cb708b23e553fa81324a96792e301d0fbaeea7e35a88b1bbb054"></a>touchBlock</em>&#160;</td><td class="fielddoc">
+<p>Touch control block type. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2c6b3c425b9b8cb708b23e553fa81324ad44a5d974e8503f978e605adc27ca156"></a>seaboardBlock</em>&#160;</td><td class="fielddoc">
+<p>Seaboard block type. </p>
 </td></tr>
 </table>
 
@@ -1998,7 +2008,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 30 2018 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
