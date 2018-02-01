@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afb6fc7615226392390431941644378ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginListComponent.html#afb6fc7615226392390431941644378ce">scanFor</a> (<a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;)</td></tr>
 <tr class="memdesc:afb6fc7615226392390431941644378ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers an asynchronous scan for the given format.  <a href="#afb6fc7615226392390431941644378ce">More...</a><br/></td></tr>
 <tr class="separator:afb6fc7615226392390431941644378ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac26204404f0e88ca57860ad5b5fe1d79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginListComponent.html#ac26204404f0e88ca57860ad5b5fe1d79">scanFor</a> (<a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;, const <a class="el" href="classStringArray.html">StringArray</a> &amp;filesOrIdentifiersToScan)</td></tr>
+<tr class="memdesc:ac26204404f0e88ca57860ad5b5fe1d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers an asynchronous scan for the given format and scans only the given files or identifiers.  <a href="#ac26204404f0e88ca57860ad5b5fe1d79">More...</a><br/></td></tr>
+<tr class="separator:ac26204404f0e88ca57860ad5b5fe1d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f4c9532a8789249254667149978addb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginListComponent.html#a6f4c9532a8789249254667149978addb">isScanning</a> () const noexcept</td></tr>
 <tr class="memdesc:a6f4c9532a8789249254667149978addb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there's currently a scan in progress.  <a href="#a6f4c9532a8789249254667149978addb">More...</a><br/></td></tr>
 <tr class="separator:a6f4c9532a8789249254667149978addb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -981,6 +984,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac26204404f0e88ca57860ad5b5fe1d79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PluginListComponent::scanFor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td>
+          <td class="paramname"><em>filesOrIdentifiersToScan</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Triggers an asynchronous scan for the given format and scans only the given files or identifiers. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioPluginFormat.html#a74b24832af4eb78213ffaa35937d8ac6" title="Searches a suggested set of directories for any plugins in this format. ">AudioPluginFormat::searchPathsForPlugins</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a6f4c9532a8789249254667149978addb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1073,7 +1105,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 31 2018 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 1 2018 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
