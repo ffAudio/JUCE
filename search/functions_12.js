@@ -520,7 +520,7 @@ var searchData=
   ['setpixelcolour',['setPixelColour',['../classImage_1_1BitmapData.html#ad76af08dda45202751c3a6103cd42030',1,'Image::BitmapData']]],
   ['setpixelformat',['setPixelFormat',['../classOpenGLContext.html#aeb49920c5ee4e4694fa4cbd1700b2acb',1,'OpenGLContext']]],
   ['setplayconfigdetails',['setPlayConfigDetails',['../classAudioProcessor.html#a6364f81b66aaa3d772889c78cdf60b46',1,'AudioProcessor']]],
-  ['setplayhead',['setPlayHead',['../classAudioProcessor.html#a9015f8476c07b173e3c9919b3036339d',1,'AudioProcessor::setPlayHead()'],['../classAudioProcessorGraph.html#a83cd84fdac4a503fe25bc0155bfe9ece',1,'AudioProcessorGraph::setPlayHead()']]],
+  ['setplayhead',['setPlayHead',['../classAudioProcessor.html#a9015f8476c07b173e3c9919b3036339d',1,'AudioProcessor']]],
   ['setplayposition',['setPlayPosition',['../classVideoComponent.html#a6a86bf214d3e0acf657fac949f03937e',1,'VideoComponent']]],
   ['setplayspeed',['setPlaySpeed',['../classVideoComponent.html#a2c4877f02766b0925ec7112efec02b4d',1,'VideoComponent']]],
   ['setpopupdisplayenabled',['setPopupDisplayEnabled',['../classSlider.html#a7f4a021b7d39650cd4a2d04b4f1f7414',1,'Slider']]],

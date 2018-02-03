@@ -233,9 +233,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4afc3d267dff6778bb0647e6f18836c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a4afc3d267dff6778bb0647e6f18836c6">setNonRealtime</a> (bool) noexceptoverride</td></tr>
 <tr class="memdesc:a4afc3d267dff6778bb0647e6f18836c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to tell this processor whether it's being used in a non-realtime capacity for offline rendering or bouncing.  <a href="#a4afc3d267dff6778bb0647e6f18836c6">More...</a><br/></td></tr>
 <tr class="separator:a4afc3d267dff6778bb0647e6f18836c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83cd84fdac4a503fe25bc0155bfe9ece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a83cd84fdac4a503fe25bc0155bfe9ece">setPlayHead</a> (<a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *) override</td></tr>
-<tr class="memdesc:a83cd84fdac4a503fe25bc0155bfe9ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the processor to use this playhead object.  <a href="#a83cd84fdac4a503fe25bc0155bfe9ece">More...</a><br/></td></tr>
-<tr class="separator:a83cd84fdac4a503fe25bc0155bfe9ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dd74d5bbb00c8d0ae5dbdb074565a7b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorGraph.html#a8dd74d5bbb00c8d0ae5dbdb074565a7b">getTailLengthSeconds</a> () const override</td></tr>
 <tr class="memdesc:a8dd74d5bbb00c8d0ae5dbdb074565a7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the processor's tail, in seconds.  <a href="#a8dd74d5bbb00c8d0ae5dbdb074565a7b">More...</a><br/></td></tr>
 <tr class="separator:a8dd74d5bbb00c8d0ae5dbdb074565a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -499,6 +496,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0bb6996a1f0710330b0a3e426fb22866 inherit pub_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0bb6996a1f0710330b0a3e426fb22866">removeListener</a> (<a class="el" href="classAudioProcessorListener.html">AudioProcessorListener</a> *listenerToRemove)</td></tr>
 <tr class="memdesc:a0bb6996a1f0710330b0a3e426fb22866 inherit pub_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously added listener.  <a href="#a0bb6996a1f0710330b0a3e426fb22866">More...</a><br/></td></tr>
 <tr class="separator:a0bb6996a1f0710330b0a3e426fb22866 inherit pub_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9015f8476c07b173e3c9919b3036339d inherit pub_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a9015f8476c07b173e3c9919b3036339d">setPlayHead</a> (<a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *newPlayHead)</td></tr>
+<tr class="memdesc:a9015f8476c07b173e3c9919b3036339d inherit pub_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the processor to use this playhead object.  <a href="#a9015f8476c07b173e3c9919b3036339d">More...</a><br/></td></tr>
+<tr class="separator:a9015f8476c07b173e3c9919b3036339d inherit pub_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6364f81b66aaa3d772889c78cdf60b46 inherit pub_methods_classAudioProcessor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6364f81b66aaa3d772889c78cdf60b46">setPlayConfigDetails</a> (int numIns, int numOuts, double sampleRate, int blockSize)</td></tr>
 <tr class="memdesc:a6364f81b66aaa3d772889c78cdf60b46 inherit pub_methods_classAudioProcessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called by the processor to specify its details before being played.  <a href="#a6364f81b66aaa3d772889c78cdf60b46">More...</a><br/></td></tr>
 <tr class="separator:a6364f81b66aaa3d772889c78cdf60b46 inherit pub_methods_classAudioProcessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1358,35 +1358,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a83cd84fdac4a503fe25bc0155bfe9ece"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AudioProcessorGraph::setPlayHead </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *&#160;</td>
-          <td class="paramname"><em>newPlayHead</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Tells the processor to use this playhead object. </p>
-<p>The processor will not take ownership of the object, so the caller must delete it when it is no longer being used. </p>
-
-<p>Reimplemented from <a class="el" href="classAudioProcessor.html#a9015f8476c07b173e3c9919b3036339d">AudioProcessor</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a8dd74d5bbb00c8d0ae5dbdb074565a7b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1763,7 +1734,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 2 2018 01:00:22 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Feb 3 2018 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
