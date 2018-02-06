@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structValueTree_1_1Iterator-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -98,6 +99,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p><a class="el" href="structValueTree_1_1Iterator.html" title="Iterator for a ValueTree. ">Iterator</a> for a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>.  
  <a href="structValueTree_1_1Iterator.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ae31297758b4d0eb288e7e4195bad82b2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueTree_1_1Iterator.html#ae31297758b4d0eb288e7e4195bad82b2">difference_type</a> = std::ptrdiff_t</td></tr>
+<tr class="separator:ae31297758b4d0eb288e7e4195bad82b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac54f6a5cdd9dcc2345eee2f8f9be086c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueTree_1_1Iterator.html#ac54f6a5cdd9dcc2345eee2f8f9be086c">value_type</a> = <a class="el" href="classValueTree.html">ValueTree</a></td></tr>
+<tr class="separator:ac54f6a5cdd9dcc2345eee2f8f9be086c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a35fa8d0ffc64c9c2d611310fc24e7d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueTree_1_1Iterator.html#a0a35fa8d0ffc64c9c2d611310fc24e7d">reference</a> = <a class="el" href="classValueTree.html">ValueTree</a> &amp;</td></tr>
+<tr class="separator:a0a35fa8d0ffc64c9c2d611310fc24e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70207657ea8bd1ae3c05602250c0714f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueTree_1_1Iterator.html#a70207657ea8bd1ae3c05602250c0714f">pointer</a> = <a class="el" href="classValueTree.html">ValueTree</a> *</td></tr>
+<tr class="separator:a70207657ea8bd1ae3c05602250c0714f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced8994f06c0dba5bb872e88fe89586c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueTree_1_1Iterator.html#aced8994f06c0dba5bb872e88fe89586c">iterator_category</a> = std::forward_iterator_tag</td></tr>
+<tr class="separator:aced8994f06c0dba5bb872e88fe89586c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a884bf2e0ac9c06422755d5137d356a0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structValueTree_1_1Iterator.html#a884bf2e0ac9c06422755d5137d356a0d">Iterator</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;, bool isEnd) noexcept</td></tr>
@@ -112,7 +126,68 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="structValueTree_1_1Iterator.html" title="Iterator for a ValueTree. ">Iterator</a> for a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>. </p>
 <p>You shouldn't ever need to use this class directly - it's used internally by <a class="el" href="classValueTree.html#a2cf33db0574a9f2673cde96bcfd808c5" title="Returns a start iterator for the children in this tree. ">ValueTree::begin()</a> and <a class="el" href="classValueTree.html#a40346edfb70253a482cd0642ac5ac577" title="Returns an end iterator for the children in this tree. ">ValueTree::end()</a> to allow range-based-for loops on a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="ae31297758b4d0eb288e7e4195bad82b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structValueTree_1_1Iterator.html#ae31297758b4d0eb288e7e4195bad82b2">ValueTree::Iterator::difference_type</a> =  std::ptrdiff_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac54f6a5cdd9dcc2345eee2f8f9be086c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structValueTree_1_1Iterator.html#ac54f6a5cdd9dcc2345eee2f8f9be086c">ValueTree::Iterator::value_type</a> =  <a class="el" href="classValueTree.html">ValueTree</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0a35fa8d0ffc64c9c2d611310fc24e7d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structValueTree_1_1Iterator.html#a0a35fa8d0ffc64c9c2d611310fc24e7d">ValueTree::Iterator::reference</a> =  <a class="el" href="classValueTree.html">ValueTree</a>&amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a70207657ea8bd1ae3c05602250c0714f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structValueTree_1_1Iterator.html#a70207657ea8bd1ae3c05602250c0714f">ValueTree::Iterator::pointer</a> =  <a class="el" href="classValueTree.html">ValueTree</a>*</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aced8994f06c0dba5bb872e88fe89586c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structValueTree_1_1Iterator.html#aced8994f06c0dba5bb872e88fe89586c">ValueTree::Iterator::iterator_category</a> =  std::forward_iterator_tag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a884bf2e0ac9c06422755d5137d356a0d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -216,7 +291,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 3 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 6 2018 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

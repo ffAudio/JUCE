@@ -7,6 +7,7 @@ var searchData=
   ['parameters',['Parameters',['../classdsp_1_1Reverb.html#a67582b7d70a6a0f444be8e3649b184b3',1,'dsp::Reverb']]],
   ['parametertype',['ParameterType',['../classSelectedItemSet.html#a976c15de158f2e675310ff4a345a4ea5',1,'SelectedItemSet']]],
   ['plugininouts',['PluginInOuts',['../classStandaloneFilterWindow.html#a6c10ebbc7b2013247891e3c37a641f87',1,'StandaloneFilterWindow']]],
+  ['pointer',['pointer',['../structValueTree_1_1Iterator.html#a70207657ea8bd1ae3c05602250c0714f',1,'ValueTree::Iterator']]],
   ['pointer_5fsized_5fint',['pointer_sized_int',['../group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78',1,'juce_MathsFunctions.h']]],
   ['pointer_5fsized_5fuint',['pointer_sized_uint',['../group__juce__core-maths.html#ga2d432c371b407ba6f36d34aa95229423',1,'juce_MathsFunctions.h']]],
   ['primitivetype',['PrimitiveType',['../structdsp_1_1SIMDRegister.html#a0ff1c88cb5d27f3e11536c8a24ec0633',1,'dsp::SIMDRegister']]],

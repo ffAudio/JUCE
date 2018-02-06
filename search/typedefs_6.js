@@ -8,5 +8,6 @@ var searchData=
   ['int64',['int64',['../group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df',1,'juce_MathsFunctions.h']]],
   ['int8',['int8',['../namespacelittlefoot.html#a0e7499324fa7198411b83aec5a9581e4',1,'littlefoot::int8()'],['../group__juce__core-maths.html#ga1b956fe1df85f3c132b21edb4e116458',1,'int8():&#160;juce_MathsFunctions.h']]],
   ['itemarray',['ItemArray',['../classSelectedItemSet.html#aa3cd462d404a5449eab0f85f04a08187',1,'SelectedItemSet']]],
-  ['itemtype',['ItemType',['../classSelectedItemSet.html#adac8d78df1c308ca17aa9cbfada787fa',1,'SelectedItemSet']]]
+  ['itemtype',['ItemType',['../classSelectedItemSet.html#adac8d78df1c308ca17aa9cbfada787fa',1,'SelectedItemSet']]],
+  ['iterator_5fcategory',['iterator_category',['../structValueTree_1_1Iterator.html#aced8994f06c0dba5bb872e88fe89586c',1,'ValueTree::Iterator']]]
 ];
