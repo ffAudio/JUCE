@@ -377,6 +377,7 @@ var searchData=
   ['getdevicedescription',['getDeviceDescription',['../classBlock.html#a9bf4c5524d032bed6f4f9fe7ac42aac1',1,'Block::getDeviceDescription()'],['../classSystemStats.html#a6207099299458ff24641883b01a083e5',1,'SystemStats::getDeviceDescription()']]],
   ['getdeviceidentifiers',['getDeviceIdentifiers',['../classSystemStats.html#a615e7128ab91eab1a76aa4cf40476b90',1,'SystemStats']]],
   ['getdevicemanager',['getDeviceManager',['../classStandaloneFilterWindow.html#aa912d8a4473ce219db1605b56049b51e',1,'StandaloneFilterWindow']]],
+  ['getdevicemanufacturer',['getDeviceManufacturer',['../classSystemStats.html#a18375cec90b25fb88e24a3306a049916',1,'SystemStats']]],
   ['getdevicenames',['getDeviceNames',['../classAudioIODeviceType.html#ade867e4e10fb4ba6c91bc1bcba8573cb',1,'AudioIODeviceType']]],
   ['getdevices',['getDevices',['../classMidiInput.html#ab2e0e7bb96700f9e2ecd77bc3b96d42f',1,'MidiInput::getDevices()'],['../classMidiOutput.html#a59a303f5b44aa772903984818b6b7275',1,'MidiOutput::getDevices()']]],
   ['getdevicetoken',['getDeviceToken',['../classPushNotifications.html#a2a2b875b1d213dcd2d92334689e1bae1',1,'PushNotifications']]],

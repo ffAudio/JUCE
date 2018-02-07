@@ -208,7 +208,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">numInputChannels</td><td>the number of pointers to channel data in the inputChannelData array. </td></tr>
     <tr><td class="paramname">outputChannelData</td><td>a set of arrays which need to be filled with the data that should be sent to each outgoing channel of the device. There will be one channel of data for each output channel that was enabled when the audio device was opened (see <a class="el" href="classAudioIODevice.html#a519b91efd6bf7bf88fbe85eb5510629f" title="Tries to open the device ready to play. ">AudioIODevice::open()</a>) The initial contents of the array is undefined, so the callback function must fill all the channels with zeros if its output is silence. Failing to do this could cause quite an unpleasant noise! </td></tr>
     <tr><td class="paramname">numOutputChannels</td><td>the number of pointers to channel data in the outputChannelData array. </td></tr>
-    <tr><td class="paramname">numSamples</td><td>the number of samples in each channel of the input and output arrays. The number of samples will depend on the audio device's buffer size and will usually remain constant, although this isn't guaranteed, so make sure your code can cope with reasonable changes in the buffer size from one callback to the next. </td></tr>
+    <tr><td class="paramname">numSamples</td><td>the number of samples in each channel of the input and output arrays. The number of samples will depend on the audio device's buffer size and will usually remain constant, although this isn't guaranteed. For example, on Android, on devices which support it, Android will chop up your audio processing into several smaller callbacks to ensure higher audio performance. So make sure your code can cope with reasonable changes in the buffer size from one callback to the next. </td></tr>
   </table>
   </dd>
 </dl>
@@ -315,7 +315,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 6 2018 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 7 2018 01:00:54 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
