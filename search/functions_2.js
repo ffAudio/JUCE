@@ -119,6 +119,7 @@ var searchData=
   ['clearkeymappings',['clearKeyMappings',['../classMidiKeyboardComponent.html#a24880c249ce33326d3bc1636b2b116a4',1,'MidiKeyboardComponent']]],
   ['clearpointer',['clearPointer',['../classWeakReference_1_1SharedPointer.html#a6e1786def84d6ce74d2befe690843f6a',1,'WeakReference::SharedPointer']]],
   ['clearquick',['clearQuick',['../classArray.html#a96bcb7013ec2d56da8b918da7fc0809c',1,'Array::clearQuick()'],['../classOwnedArray.html#a96fee75673d70e8cf7548bcc0588dddf',1,'OwnedArray::clearQuick()'],['../classReferenceCountedArray.html#ad5a34e648c3dfc01493ca92838835bd1',1,'ReferenceCountedArray::clearQuick()'],['../classSortedSet.html#a792064a68e61905a9ee6968e2cbc4ee6',1,'SortedSet::clearQuick()'],['../classStringArray.html#af9d9a976e22e13835726d090d84dff29',1,'StringArray::clearQuick()']]],
+  ['clearrecentfilesnatively',['clearRecentFilesNatively',['../classRecentlyOpenedFilesList.html#a1aacf691c91474a497e9baaa93e4632a',1,'RecentlyOpenedFilesList']]],
   ['clearrules',['clearRules',['../classRuleBasedTopologySource.html#ac2e356922f970bc90a49e61149718b73',1,'RuleBasedTopologySource']]],
   ['clearsamples',['clearSamples',['../classAudioData_1_1Pointer.html#a8b123e357446ef1faa6731790d421969',1,'AudioData::Pointer']]],
   ['clearsamplesbeyondavailablelength',['clearSamplesBeyondAvailableLength',['../classAudioFormatReader.html#a263fd3b6a51850da53fe57688f9ccb46',1,'AudioFormatReader']]],
