@@ -20,6 +20,7 @@ var searchData=
   ['indigo',['indigo',['../classColours.html#a087ca459fcd267cdda383c5bf5ab0f0e',1,'Colours']]],
   ['informativemessage',['informativeMessage',['../structOnlineUnlockStatus_1_1UnlockResult.html#a8accead62bf1964370bffd579ecc4f40',1,'OnlineUnlockStatus::UnlockResult']]],
   ['initialnote',['initialNote',['../structMPENote.html#a76415e99eca6956fd16ed014e226a5ce',1,'MPENote']]],
+  ['initialtimbre',['initialTimbre',['../structMPENote.html#abe36f62d18c4acbec22396c19fd307ff',1,'MPENote']]],
   ['input',['input',['../classAudioFormatReader.html#a81797ede6915ec762408d8ed23ec4d10',1,'AudioFormatReader']]],
   ['inputbuses',['inputBuses',['../structAudioProcessor_1_1BusesLayout.html#a73c26adffea9b970150aa2c204155db6',1,'AudioProcessor::BusesLayout']]],
   ['inputchannels',['inputChannels',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#a9365767334c0819bb45754100c743fae',1,'AudioDeviceManager::AudioDeviceSetup']]],

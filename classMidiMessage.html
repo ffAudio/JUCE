@@ -288,6 +288,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af87b936f883b459c1e9cb87c0bfec783"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#af87b936f883b459c1e9cb87c0bfec783">isAllSoundOff</a> () const noexcept</td></tr>
 <tr class="memdesc:af87b936f883b459c1e9cb87c0bfec783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether this message is an all-sound-off message.  <a href="#af87b936f883b459c1e9cb87c0bfec783">More...</a><br/></td></tr>
 <tr class="separator:af87b936f883b459c1e9cb87c0bfec783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6313eee002685de08c684bb79be34fd6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#a6313eee002685de08c684bb79be34fd6">isResetAllControllers</a> () const noexcept</td></tr>
+<tr class="memdesc:a6313eee002685de08c684bb79be34fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether this message is a reset all controllers message.  <a href="#a6313eee002685de08c684bb79be34fd6">More...</a><br/></td></tr>
+<tr class="separator:a6313eee002685de08c684bb79be34fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1ec120f33d7cb7fc186f254493cf553"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiMessage.html#ac1ec120f33d7cb7fc186f254493cf553">isMetaEvent</a> () const noexcept</td></tr>
 <tr class="memdesc:ac1ec120f33d7cb7fc186f254493cf553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this event is a meta-event.  <a href="#ac1ec120f33d7cb7fc186f254493cf553">More...</a><br/></td></tr>
 <tr class="separator:ac1ec120f33d7cb7fc186f254493cf553"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2678,6 +2681,32 @@ template&lt;typename... Data&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a6313eee002685de08c684bb79be34fd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MidiMessage::isResetAllControllers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks whether this message is a reset all controllers message. </p>
+<dl class="section see"><dt>See Also</dt><dd>allControllerOff </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a8e4c49679c88dc562ca523060fffc11e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4686,7 +4715,7 @@ template&lt;typename... Data&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 8 2018 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 9 2018 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

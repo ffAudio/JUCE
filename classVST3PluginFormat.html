@@ -85,6 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classVST3PluginFormat-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">VST3PluginFormat Class Reference<div class="ingroups"><a class="el" href="group__juce__audio__processors-format__types.html">format_types</a></div></div>  </div>
@@ -151,6 +152,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac7c1dd944b69054af6b8633bb43fcb5e inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#ac7c1dd944b69054af6b8633bb43fcb5e">createPluginInstanceAsync</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description, double initialSampleRate, int initialBufferSize, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, const <a class="el" href="classString.html">String</a> &amp;)&gt; completionCallback)</td></tr>
 <tr class="separator:ac7c1dd944b69054af6b8633bb43fcb5e inherit pub_methods_classAudioPluginFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a5c7825501a795c0c254ba257ad31b960"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVST3PluginFormat.html#a5c7825501a795c0c254ba257ad31b960">setStateFromVSTPresetFile</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, const <a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;)</td></tr>
+<tr class="memdesc:a5c7825501a795c0c254ba257ad31b960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to reload a VST3 plugin's state from some preset file data.  <a href="#a5c7825501a795c0c254ba257ad31b960">More...</a><br/></td></tr>
+<tr class="separator:a5c7825501a795c0c254ba257ad31b960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classAudioPluginFormat"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classAudioPluginFormat')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a></td></tr>
@@ -195,6 +202,43 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a5c7825501a795c0c254ba257ad31b960"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool VST3PluginFormat::setStateFromVSTPresetFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to reload a VST3 plugin's state from some preset file data. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classVSTPluginFormat.html#a2cda6559c2fa9cba7e0ada4ab00d5d53" title="Attempts to reload a VST plugin&#39;s state from some FXB or FXP data. ">VSTPluginFormat::loadFromFXBFile</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="adf9f02a4783fcfcaf689327396590c82"></a>
 <div class="memitem">
 <div class="memproto">
@@ -491,7 +535,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 8 2018 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 9 2018 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

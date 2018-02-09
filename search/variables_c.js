@@ -10,6 +10,7 @@ var searchData=
   ['marker',['marker',['../structlittlefoot_1_1Compiler_1_1CodeGenerator_1_1MarkerAndAddress.html#adde022b4b1c5832f1572e848c2b1c8b0',1,'littlefoot::Compiler::CodeGenerator::MarkerAndAddress']]],
   ['markertag',['markerTag',['../classMarkerList_1_1ValueTreeWrapper.html#a6ee3f514e213161c74b047b9bc6011d2',1,'MarkerList::ValueTreeWrapper']]],
   ['maroon',['maroon',['../classColours.html#a4790622961dd6a1eff7179d89cc78617',1,'Colours']]],
+  ['masterpitchbendrange',['masterPitchbendRange',['../structMPEZoneLayout_1_1Zone.html#a90c96070a462a3d4439d375425717065',1,'MPEZoneLayout::Zone']]],
   ['mat',['mat',['../classMatrix3D.html#ad7e9eecc94c0a33a029a5de12c5c056b',1,'Matrix3D']]],
   ['mat00',['mat00',['../classAffineTransform.html#a1e675f5137df72253566699cd385c7ad',1,'AffineTransform']]],
   ['mat01',['mat01',['../classAffineTransform.html#ac253c675d087474d5fcb83d5b6025496',1,'AffineTransform']]],

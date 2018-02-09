@@ -103,6 +103,7 @@ Public Types</h2></td></tr>
 <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a3394b891d4bdd77fd39d141102c4a4bd">sustained</a> = 2, 
 <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a31c427116ac75e042f9f5315a7aad129">keyDownAndSustained</a> = 3
  }</td></tr>
+<tr class="memdesc:a20106ff137c1a5f0b8e6e099ff3fc922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible values for the note key state.  <a href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922">More...</a><br/></td></tr>
 <tr class="separator:a20106ff137c1a5f0b8e6e099ff3fc922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -146,8 +147,11 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af04939884198c48da9927e76e4f3ff90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMPEValue.html">MPEValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPENote.html#af04939884198c48da9927e76e4f3ff90">pressure</a> { <a class="el" href="classMPEValue.html#ac7d202aceda6794e12b067980ef06cf0">MPEValue::centreValue</a>() }</td></tr>
 <tr class="memdesc:af04939884198c48da9927e76e4f3ff90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current pressure with which the note is held down.  <a href="#af04939884198c48da9927e76e4f3ff90">More...</a><br/></td></tr>
 <tr class="separator:af04939884198c48da9927e76e4f3ff90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe36f62d18c4acbec22396c19fd307ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMPEValue.html">MPEValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPENote.html#abe36f62d18c4acbec22396c19fd307ff">initialTimbre</a> { <a class="el" href="classMPEValue.html#ac7d202aceda6794e12b067980ef06cf0">MPEValue::centreValue</a>() }</td></tr>
+<tr class="memdesc:abe36f62d18c4acbec22396c19fd307ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inital value of timbre when the note was triggered.  <a href="#abe36f62d18c4acbec22396c19fd307ff">More...</a><br/></td></tr>
+<tr class="separator:abe36f62d18c4acbec22396c19fd307ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea15b7b7d5b9c55cbf7d479aa8e46a90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMPEValue.html">MPEValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPENote.html#aea15b7b7d5b9c55cbf7d479aa8e46a90">timbre</a> { <a class="el" href="classMPEValue.html#ac7d202aceda6794e12b067980ef06cf0">MPEValue::centreValue</a>() }</td></tr>
-<tr class="memdesc:aea15b7b7d5b9c55cbf7d479aa8e46a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current value of the note's third expressive dimension, tyically encoding some kind of timbre parameter.  <a href="#aea15b7b7d5b9c55cbf7d479aa8e46a90">More...</a><br/></td></tr>
+<tr class="memdesc:aea15b7b7d5b9c55cbf7d479aa8e46a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current value of the note's third expressive dimension, typically encoding some kind of timbre parameter.  <a href="#aea15b7b7d5b9c55cbf7d479aa8e46a90">More...</a><br/></td></tr>
 <tr class="separator:aea15b7b7d5b9c55cbf7d479aa8e46a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e46888c40a2d3eaf4b8c5129b21de6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMPEValue.html">MPEValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPENote.html#a9e46888c40a2d3eaf4b8c5129b21de6e">noteOffVelocity</a> { <a class="el" href="classMPEValue.html#afc5db923984aac0f4d7de4b4605079ac">MPEValue::minValue</a>() }</td></tr>
 <tr class="memdesc:a9e46888c40a2d3eaf4b8c5129b21de6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The release velocity ("lift") of the note after a note-off has been received.  <a href="#a9e46888c40a2d3eaf4b8c5129b21de6e">More...</a><br/></td></tr>
@@ -173,6 +177,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Possible values for the note key state. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b"></a>off</em>&#160;</td><td class="fielddoc">
 <p>The key is up (off). </p>
@@ -256,7 +262,7 @@ Public Attributes</h2></td></tr>
 <p>Constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">midiChannel</td><td>The MIDI channel of the note, between 2 and 16. (Channel 1 can never be a note channel in MPE).</td></tr>
+    <tr><td class="paramname">midiChannel</td><td>The MIDI channel of the note, between 2 and 15. (Channel 1 and channel 16 can never be note channels in MPE).</td></tr>
     <tr><td class="paramname">initialNote</td><td>The MIDI note number, between 0 and 127.</td></tr>
     <tr><td class="paramname">velocity</td><td>The note-on velocity of the note.</td></tr>
     <tr><td class="paramname">pitchbend</td><td>The initial per-note pitchbend of the note.</td></tr>
@@ -344,7 +350,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the current frequency of the note in Hertz. </p>
-<p>This is the a sum of the initialNote and the totalPitchbendInSemitones, converted to Hertz. </p>
+<p>This is the sum of the initialNote and the totalPitchbendInSemitones, converted to Hertz. </p>
 
 </div>
 </div>
@@ -493,6 +499,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abe36f62d18c4acbec22396c19fd307ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMPEValue.html">MPEValue</a> MPENote::initialTimbre { <a class="el" href="classMPEValue.html#ac7d202aceda6794e12b067980ef06cf0">MPEValue::centreValue</a>() }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inital value of timbre when the note was triggered. </p>
+<p>This should never change during the lifetime of an <a class="el" href="structMPENote.html" title="This struct represents a playing MPE note. ">MPENote</a> object. </p>
+
+</div>
+</div>
 <a class="anchor" id="aea15b7b7d5b9c55cbf7d479aa8e46a90"></a>
 <div class="memitem">
 <div class="memproto">
@@ -503,7 +524,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Current value of the note's third expressive dimension, tyically encoding some kind of timbre parameter. </p>
+<p>Current value of the note's third expressive dimension, typically encoding some kind of timbre parameter. </p>
 <p>This dimension can be modulated while the note sounds. </p>
 
 </div>
@@ -519,7 +540,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The release velocity ("lift") of the note after a note-off has been received. </p>
-<p>This dimension will only have a meaningful value after a note-off has been received for the note (and keyState is set to <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b" title="The key is up (off). ">MPENote::off</a> or MPENOte::sustained). Initially, the value is undefined. </p>
+<p>This dimension will only have a meaningful value after a note-off has been received for the note (and keyState is set to <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922adeb8e0c25e24978beb9013836745cb4b" title="The key is up (off). ">MPENote::off</a> or <a class="el" href="structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a3394b891d4bdd77fd39d141102c4a4bd" title="The note is sustained (by a sustain or sostenuto pedal). ">MPENote::sustained</a>). Initially, the value is undefined. </p>
 
 </div>
 </div>
@@ -560,7 +581,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 8 2018 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 9 2018 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

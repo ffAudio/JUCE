@@ -144,7 +144,6 @@ var searchData=
   ['trimstart',['trimStart',['../classString.html#afc8c1ef8badb8787ca6057506ad9b742',1,'String']]],
   ['truncate',['truncate',['../classFileOutputStream.html#a663c7e264306c74ed58f2639acec5797',1,'FileOutputStream']]],
   ['truncatepositivetounsignedint',['truncatePositiveToUnsignedInt',['../group__juce__core-maths.html#ga39f99e3d469c913c7e6d7f42ba5af746',1,'juce_MathsFunctions.h']]],
-  ['truncatetofit',['truncateToFit',['../structMPEZone.html#aa788aba111e390bc59f035106bac2ad5',1,'MPEZone']]],
   ['tryenter',['tryEnter',['../classCriticalSection.html#a2c12101da7ebf8455de49652f377d313',1,'CriticalSection::tryEnter()'],['../classDummyCriticalSection.html#a55f19ff3a0b0f91a1d025939d1c03a3c',1,'DummyCriticalSection::tryEnter()'],['../classSpinLock.html#a4581a24b50dad1a9803b19f65af70aaf',1,'SpinLock::tryEnter()'],['../classMessageManager_1_1Lock.html#a6f6f36cab30fcd814ee47000ed8496f2',1,'MessageManager::Lock::tryEnter()']]],
   ['tryenterread',['tryEnterRead',['../classReadWriteLock.html#adfc94e3cea69acf123d343eca82bdc51',1,'ReadWriteLock']]],
   ['tryenterwrite',['tryEnterWrite',['../classReadWriteLock.html#ac7f0b0aefca34943957ac1623b97a8a2',1,'ReadWriteLock']]],

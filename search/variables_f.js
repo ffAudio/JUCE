@@ -18,6 +18,7 @@ var searchData=
   ['passwordbox',['passwordBox',['../classOnlineUnlockForm.html#acc068c52c2ce6302f98b107bad3de684',1,'OnlineUnlockForm']]],
   ['path',['path',['../classDrawableShape.html#a21fde06c1c09e9498575cbbfd36e7793',1,'DrawableShape']]],
   ['peachpuff',['peachpuff',['../classColours.html#aa83a3ec486288727ffa82d9e8e4a82b0',1,'Colours']]],
+  ['pernotepitchbendrange',['perNotePitchbendRange',['../structMPEZoneLayout_1_1Zone.html#ae5f849443b3268cf79670f457d443fb8',1,'MPEZoneLayout::Zone']]],
   ['person',['person',['../structPushNotifications_1_1Notification.html#a00f2b66e133af0e9329e87b5145e5b72',1,'PushNotifications::Notification']]],
   ['peru',['peru',['../classColours.html#a8417b7053caaf567a98eb61eccf57838',1,'Colours']]],
   ['phase',['phase',['../structdsp_1_1Phase.html#a07412209f3d89714ed6b47e7f3578320',1,'dsp::Phase']]],

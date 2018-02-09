@@ -92,26 +92,41 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>This helper class contains the necessary helper functions to generate MIDI messages that are exclusive to MPE, such as defining MPE zones and setting per-note and master pitchbend ranges.  
+<p>This helper class contains the necessary helper functions to generate MIDI messages that are exclusive to MPE, such as defining the upper and lower MPE zones and setting per-note and master pitchbend ranges.  
  <a href="classMPEMessages.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a892d1ee5c734a8b92fa114c7d49e5e38"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a892d1ee5c734a8b92fa114c7d49e5e38">addZone</a> (<a class="el" href="structMPEZone.html">MPEZone</a> zone)</td></tr>
-<tr class="memdesc:a892d1ee5c734a8b92fa114c7d49e5e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will define a new MPE zone.  <a href="#a892d1ee5c734a8b92fa114c7d49e5e38">More...</a><br/></td></tr>
-<tr class="separator:a892d1ee5c734a8b92fa114c7d49e5e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08a651850cd4a9d741a08d691825dba9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a08a651850cd4a9d741a08d691825dba9">perNotePitchbendRange</a> (<a class="el" href="structMPEZone.html">MPEZone</a> zone)</td></tr>
-<tr class="memdesc:a08a651850cd4a9d741a08d691825dba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will change the per-note pitchbend range of an existing MPE zone.  <a href="#a08a651850cd4a9d741a08d691825dba9">More...</a><br/></td></tr>
-<tr class="separator:a08a651850cd4a9d741a08d691825dba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b3b7e9f1638d1454137e65ec0f652ef"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a9b3b7e9f1638d1454137e65ec0f652ef">masterPitchbendRange</a> (<a class="el" href="structMPEZone.html">MPEZone</a> zone)</td></tr>
-<tr class="memdesc:a9b3b7e9f1638d1454137e65ec0f652ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will change the master pitchbend range of an existing MPE zone.  <a href="#a9b3b7e9f1638d1454137e65ec0f652ef">More...</a><br/></td></tr>
-<tr class="separator:a9b3b7e9f1638d1454137e65ec0f652ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5725b687a5b543c52bdb46f72906c649"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a5725b687a5b543c52bdb46f72906c649">setLowerZone</a> (int numMemberChannels=0, int perNotePitchbendRange=48, int masterPitchbendRange=2)</td></tr>
+<tr class="memdesc:a5725b687a5b543c52bdb46f72906c649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the lower MPE zone.  <a href="#a5725b687a5b543c52bdb46f72906c649">More...</a><br/></td></tr>
+<tr class="separator:a5725b687a5b543c52bdb46f72906c649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8520ca57e249bc3b5021a4f1df05765a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a8520ca57e249bc3b5021a4f1df05765a">setUpperZone</a> (int numMemberChannels=0, int perNotePitchbendRange=48, int masterPitchbendRange=2)</td></tr>
+<tr class="memdesc:a8520ca57e249bc3b5021a4f1df05765a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the upper MPE zone.  <a href="#a8520ca57e249bc3b5021a4f1df05765a">More...</a><br/></td></tr>
+<tr class="separator:a8520ca57e249bc3b5021a4f1df05765a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27983331120873d6800b6740406889fa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a27983331120873d6800b6740406889fa">setLowerZonePerNotePitchbendRange</a> (int perNotePitchbendRange=48)</td></tr>
+<tr class="memdesc:a27983331120873d6800b6740406889fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the per-note pitchbend range of the lower MPE zone.  <a href="#a27983331120873d6800b6740406889fa">More...</a><br/></td></tr>
+<tr class="separator:a27983331120873d6800b6740406889fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc61c34e229675bd0e936c8bdc77ea40"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#adc61c34e229675bd0e936c8bdc77ea40">setUpperZonePerNotePitchbendRange</a> (int perNotePitchbendRange=48)</td></tr>
+<tr class="memdesc:adc61c34e229675bd0e936c8bdc77ea40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the per-note pitchbend range of the upper MPE zone.  <a href="#adc61c34e229675bd0e936c8bdc77ea40">More...</a><br/></td></tr>
+<tr class="separator:adc61c34e229675bd0e936c8bdc77ea40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf085f42ac262de2ad1f87fcf3df878"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#adcf085f42ac262de2ad1f87fcf3df878">setLowerZoneMasterPitchbendRange</a> (int masterPitchbendRange=2)</td></tr>
+<tr class="memdesc:adcf085f42ac262de2ad1f87fcf3df878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the master pitchbend range of the lower MPE zone.  <a href="#adcf085f42ac262de2ad1f87fcf3df878">More...</a><br/></td></tr>
+<tr class="separator:adcf085f42ac262de2ad1f87fcf3df878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee118e907bb929fbba02ac5d42284b8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a6ee118e907bb929fbba02ac5d42284b8">setUpperZoneMasterPitchbendRange</a> (int masterPitchbendRange=2)</td></tr>
+<tr class="memdesc:a6ee118e907bb929fbba02ac5d42284b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the master pitchbend range of the upper MPE zone.  <a href="#a6ee118e907bb929fbba02ac5d42284b8">More...</a><br/></td></tr>
+<tr class="separator:a6ee118e907bb929fbba02ac5d42284b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3274475f26589e70e07e242ac461bf6f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a3274475f26589e70e07e242ac461bf6f">clearLowerZone</a> ()</td></tr>
+<tr class="memdesc:a3274475f26589e70e07e242ac461bf6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will clear the lower zone.  <a href="#a3274475f26589e70e07e242ac461bf6f">More...</a><br/></td></tr>
+<tr class="separator:a3274475f26589e70e07e242ac461bf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685498611e98497fb2ac1813590d0047"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a685498611e98497fb2ac1813590d0047">clearUpperZone</a> ()</td></tr>
+<tr class="memdesc:a685498611e98497fb2ac1813590d0047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will clear the upper zone.  <a href="#a685498611e98497fb2ac1813590d0047">More...</a><br/></td></tr>
+<tr class="separator:a685498611e98497fb2ac1813590d0047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd71490eb42bccb50b03186742f1efc2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#afd71490eb42bccb50b03186742f1efc2">clearAllZones</a> ()</td></tr>
-<tr class="memdesc:afd71490eb42bccb50b03186742f1efc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will erase all currently defined MPE zones.  <a href="#afd71490eb42bccb50b03186742f1efc2">More...</a><br/></td></tr>
+<tr class="memdesc:afd71490eb42bccb50b03186742f1efc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will clear the lower and upper zones.  <a href="#afd71490eb42bccb50b03186742f1efc2">More...</a><br/></td></tr>
 <tr class="separator:afd71490eb42bccb50b03186742f1efc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89e08749090d02fd04fc7d80a013f951"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a89e08749090d02fd04fc7d80a013f951">setZoneLayout</a> (const <a class="el" href="classMPEZoneLayout.html">MPEZoneLayout</a> &amp;layout)</td></tr>
-<tr class="memdesc:a89e08749090d02fd04fc7d80a013f951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will reset the whole MPE zone layout of the device to the laoyut passed in.  <a href="#a89e08749090d02fd04fc7d80a013f951">More...</a><br/></td></tr>
-<tr class="separator:a89e08749090d02fd04fc7d80a013f951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a844f773051331924fca504a3fd70173a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEMessages.html#a844f773051331924fca504a3fd70173a">setZoneLayout</a> (<a class="el" href="classMPEZoneLayout.html">MPEZoneLayout</a> layout)</td></tr>
+<tr class="memdesc:a844f773051331924fca504a3fd70173a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will reset the whole MPE zone layout of the device to the laoyut passed in.  <a href="#a844f773051331924fca504a3fd70173a">More...</a><br/></td></tr>
+<tr class="separator:a844f773051331924fca504a3fd70173a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -120,13 +135,13 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:abef11ba61a0031916d74066f718b407d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This helper class contains the necessary helper functions to generate MIDI messages that are exclusive to MPE, such as defining MPE zones and setting per-note and master pitchbend ranges. </p>
+<div class="textblock"><p>This helper class contains the necessary helper functions to generate MIDI messages that are exclusive to MPE, such as defining the upper and lower MPE zones and setting per-note and master pitchbend ranges. </p>
 <p>You can then send them to your MPE device using <a class="el" href="classMidiOutput.html#ae54072205364d56260eaa11c7771289f" title="Sends out a sequence of MIDI messages immediately. ">MidiOutput::sendBlockOfMessagesNow</a>.</p>
 <p>All other MPE messages like per-note pitchbend, pressure, and third dimension, are ordinary MIDI messages that should be created using the <a class="el" href="classMidiMessage.html" title="Encapsulates a MIDI message. ">MidiMessage</a> class instead. You just need to take care to send them to the appropriate per-note MIDI channel.</p>
 <p>Note: if you are working with an <a class="el" href="classMPEZoneLayout.html" title="This class represents the current MPE zone layout of a device capable of handling MPE...">MPEZoneLayout</a> object inside your app, you should not use the message sequences provided here. Instead, you should change the zone layout programmatically with the member functions provided in the <a class="el" href="classMPEZoneLayout.html" title="This class represents the current MPE zone layout of a device capable of handling MPE...">MPEZoneLayout</a> class itself. You should also make sure that the Expressive MIDI zone layout of your C++ code and of the MPE device are kept in sync.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html" title="Encapsulates a MIDI message. ">MidiMessage</a>, <a class="el" href="classMPEZoneLayout.html" title="This class represents the current MPE zone layout of a device capable of handling MPE...">MPEZoneLayout</a>, <a class="el" href="structMPEZone.html" title="This struct represents an MPE Zone. ">MPEZone</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html" title="Encapsulates a MIDI message. ">MidiMessage</a>, <a class="el" href="classMPEZoneLayout.html" title="This class represents the current MPE zone layout of a device capable of handling MPE...">MPEZoneLayout</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a892d1ee5c734a8b92fa114c7d49e5e38"></a>
+<a class="anchor" id="a5725b687a5b543c52bdb46f72906c649"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -134,10 +149,94 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::addZone </td>
+          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::setLowerZone </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structMPEZone.html">MPEZone</a>&#160;</td>
-          <td class="paramname"><em>zone</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numMemberChannels</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>perNotePitchbendRange</em> = <code>48</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>masterPitchbendRange</em> = <code>2</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the lower MPE zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8520ca57e249bc3b5021a4f1df05765a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::setUpperZone </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numMemberChannels</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>perNotePitchbendRange</em> = <code>48</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>masterPitchbendRange</em> = <code>2</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the upper MPE zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a27983331120873d6800b6740406889fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::setLowerZonePerNotePitchbendRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>perNotePitchbendRange</em> = <code>48</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -148,11 +247,11 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will define a new MPE zone. </p>
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the per-note pitchbend range of the lower MPE zone. </p>
 
 </div>
 </div>
-<a class="anchor" id="a08a651850cd4a9d741a08d691825dba9"></a>
+<a class="anchor" id="adc61c34e229675bd0e936c8bdc77ea40"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -160,10 +259,10 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::perNotePitchbendRange </td>
+          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::setUpperZonePerNotePitchbendRange </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structMPEZone.html">MPEZone</a>&#160;</td>
-          <td class="paramname"><em>zone</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>perNotePitchbendRange</em> = <code>48</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -174,11 +273,11 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will change the per-note pitchbend range of an existing MPE zone. </p>
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the per-note pitchbend range of the upper MPE zone. </p>
 
 </div>
 </div>
-<a class="anchor" id="a9b3b7e9f1638d1454137e65ec0f652ef"></a>
+<a class="anchor" id="adcf085f42ac262de2ad1f87fcf3df878"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -186,10 +285,10 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::masterPitchbendRange </td>
+          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::setLowerZoneMasterPitchbendRange </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structMPEZone.html">MPEZone</a>&#160;</td>
-          <td class="paramname"><em>zone</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>masterPitchbendRange</em> = <code>2</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -200,7 +299,83 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will change the master pitchbend range of an existing MPE zone. </p>
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the master pitchbend range of the lower MPE zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ee118e907bb929fbba02ac5d42284b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::setUpperZoneMasterPitchbendRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>masterPitchbendRange</em> = <code>2</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will set the master pitchbend range of the upper MPE zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3274475f26589e70e07e242ac461bf6f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::clearLowerZone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will clear the lower zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a685498611e98497fb2ac1813590d0047"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::clearUpperZone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will clear the upper zone. </p>
 
 </div>
 </div>
@@ -225,11 +400,11 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will erase all currently defined MPE zones. </p>
+<p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will clear the lower and upper zones. </p>
 
 </div>
 </div>
-<a class="anchor" id="a89e08749090d02fd04fc7d80a013f951"></a>
+<a class="anchor" id="a844f773051331924fca504a3fd70173a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -239,7 +414,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="classMidiBuffer.html">MidiBuffer</a> MPEMessages::setZoneLayout </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMPEZoneLayout.html">MPEZoneLayout</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classMPEZoneLayout.html">MPEZoneLayout</a>&#160;</td>
           <td class="paramname"><em>layout</em></td><td>)</td>
           <td></td>
         </tr>
@@ -252,7 +427,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the sequence of MIDI messages that, if sent to an Expressive MIDI device, will reset the whole MPE zone layout of the device to the laoyut passed in. </p>
-<p>This will first clear all currently defined MPE zones, then add all zones contained in the passed-in zone layout, and set their per-note and master pitchbend ranges to their current values. </p>
+<p>This will first clear the current lower and upper zones, then then set the zones contained in the passed-in zone layout, and set their per-note and master pitchbend ranges to their current values. </p>
 
 </div>
 </div>
@@ -276,7 +451,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The RPN number used for MPE zone layout messages. </p>
-<p>Note: This number can change in later versions of MPE.</p>
 <p>Pitchbend range messages (both per-note and master) are instead sent on RPN 0 as in standard MIDI 1.0. </p>
 
 </div>
@@ -287,7 +461,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 8 2018 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 9 2018 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

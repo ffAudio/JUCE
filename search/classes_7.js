@@ -105,7 +105,6 @@ var searchData=
   ['heapblock_3c_20mpeinstrument_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; MPEInstrument::Listener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20mpenote_20_3e',['HeapBlock&lt; MPENote &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20mpesynthesiservoice_20_2a_20_3e',['HeapBlock&lt; MPESynthesiserVoice * &gt;',['../classHeapBlock.html',1,'']]],
-  ['heapblock_3c_20mpezone_20_3e',['HeapBlock&lt; MPEZone &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20mpezonelayout_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; MPEZoneLayout::Listener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20namedvalueset_3a_3anamedvalue_20_3e',['HeapBlock&lt; NamedValueSet::NamedValue &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20numerictype_20_3e',['HeapBlock&lt; NumericType &gt;',['../classHeapBlock.html',1,'']]],

@@ -63,7 +63,6 @@ var searchData=
   ['performrealonlyforwardtransform',['performRealOnlyForwardTransform',['../classdsp_1_1FFT.html#a741278c596a0f050c7ba3aa496aae89f',1,'dsp::FFT']]],
   ['performrealonlyinversetransform',['performRealOnlyInverseTransform',['../classdsp_1_1FFT.html#aac11526dee412dd3cc0143d0065ea0b1',1,'dsp::FFT']]],
   ['performtest',['performTest',['../classUnitTest.html#a45ac76c71297c8d336e1503515e34232',1,'UnitTest']]],
-  ['pernotepitchbendrange',['perNotePitchbendRange',['../classMPEMessages.html#a08a651850cd4a9d741a08d691825dba9',1,'MPEMessages']]],
   ['physicaltopologysource',['PhysicalTopologySource',['../classPhysicalTopologySource.html#a626fd1c4ef50b821fe8905d1535f73f5',1,'PhysicalTopologySource::PhysicalTopologySource()'],['../classPhysicalTopologySource.html#a20031cc8685d98abd0cbc55951774271',1,'PhysicalTopologySource::PhysicalTopologySource(DeviceDetector &amp;detectorToUse)']]],
   ['pitchbend',['pitchbend',['../classMPEInstrument.html#ada2ec3f0dc9821d2c8fbf86402c05444',1,'MPEInstrument']]],
   ['pitchbendtopitchwheelpos',['pitchbendToPitchwheelPos',['../classMidiMessage.html#aaa9b7273ede328166d038587d871ba4c',1,'MidiMessage']]],
