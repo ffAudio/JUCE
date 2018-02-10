@@ -213,7 +213,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dialogBoxTitle</td><td>a text string to display in the dialog box to tell the user what's going on </td></tr>
-    <tr><td class="paramname">initialFileOrDirectory</td><td>the file or directory that should be selected when the dialog box opens. If this parameter is set to <a class="el" href="classFile.html" title="Represents a local file or directory. ">File()</a>, a sensible default directory will be used instead.</td></tr>
+    <tr><td class="paramname">initialFileOrDirectory</td><td>the file or directory that should be selected when the dialog box opens. If this parameter is set to <a class="el" href="classFile.html" title="Represents a local file or directory. ">File()</a>, a sensible default directory will be used instead. When using native dialogs, not all platforms will actually select the file. For example, on macOS, when initialFileOrDirectory is a file, only the parent directory of initialFileOrDirectory will be used as the initial directory of the native file chooser.</td></tr>
   </table>
   </dd>
 </dl>
@@ -567,7 +567,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 9 2018 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Feb 10 2018 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
