@@ -156,6 +156,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb0ee23392584cc91d1894120d49a750"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#aeb0ee23392584cc91d1894120d49a750">isDiscrete</a> () const </td></tr>
 <tr class="memdesc:aeb0ee23392584cc91d1894120d49a750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the parameter uses discrete values, based on the result of getNumSteps, or allows the host to select values continuously.  <a href="#aeb0ee23392584cc91d1894120d49a750">More...</a><br/></td></tr>
 <tr class="separator:aeb0ee23392584cc91d1894120d49a750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ab1c8f8c8183c90631c5dee6333a6d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#a76ab1c8f8c8183c90631c5dee6333a6d">isBoolean</a> () const </td></tr>
+<tr class="memdesc:a76ab1c8f8c8183c90631c5dee6333a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the parameter represents a boolean switch, typically with "On" and "Off" states.  <a href="#a76ab1c8f8c8183c90631c5dee6333a6d">More...</a><br/></td></tr>
+<tr class="separator:a76ab1c8f8c8183c90631c5dee6333a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5bd8a255ef5dd285787ab0b5a7a7d76"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#aa5bd8a255ef5dd285787ab0b5a7a7d76">getText</a> (float <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>, int) const </td></tr>
 <tr class="memdesc:aa5bd8a255ef5dd285787ab0b5a7a7d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a textual version of the supplied parameter value.  <a href="#aa5bd8a255ef5dd285787ab0b5a7a7d76">More...</a><br/></td></tr>
 <tr class="separator:aa5bd8a255ef5dd285787ab0b5a7a7d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -513,6 +516,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a76ab1c8f8c8183c90631c5dee6333a6d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AudioProcessorParameter::isBoolean </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns whether the parameter represents a boolean switch, typically with "On" and "Off" states. </p>
+<p>This information may or may not be used, depending on the host. If you want the host to display a switch, rather than a two item dropdown menu, override this method to return true. You also need to override <a class="el" href="classAudioProcessorParameter.html#aeb0ee23392584cc91d1894120d49a750" title="Returns whether the parameter uses discrete values, based on the result of getNumSteps, or allows the host to select values continuously. ">isDiscrete()</a> to return <code>true</code> and <a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of steps that this parameter&#39;s range should be quantised into. ...">getNumSteps()</a> to return <code>2</code>.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessorParameter.html#aeb0ee23392584cc91d1894120d49a750" title="Returns whether the parameter uses discrete values, based on the result of getNumSteps, or allows the host to select values continuously. ">isDiscrete</a> <a class="el" href="classAudioProcessorParameter.html#a4707ab253ff2585a12f3e4a42958e0d6" title="Returns the number of steps that this parameter&#39;s range should be quantised into. ...">getNumSteps</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aa5bd8a255ef5dd285787ab0b5a7a7d76"></a>
 <div class="memitem">
 <div class="memproto">
@@ -710,7 +740,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 14 2018 01:00:27 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 15 2018 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

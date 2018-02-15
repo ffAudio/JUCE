@@ -126,6 +126,7 @@ var searchData=
   ['isblob',['isBlob',['../classOSCArgument.html#a1f25c4f500393b19bad346e22f888e82',1,'OSCArgument']]],
   ['isbold',['isBold',['../classFont.html#a4edbda1c220656c7f2cea27e06464c15',1,'Font']]],
   ['isbool',['isBool',['../classvar.html#a99de9f07b4ff064a6f9f3f8d22773899',1,'var']]],
+  ['isboolean',['isBoolean',['../classAudioProcessorParameter.html#a76ab1c8f8c8183c90631c5dee6333a6d',1,'AudioProcessorParameter']]],
   ['isbroughttofrontonmouseclick',['isBroughtToFrontOnMouseClick',['../classComponent.html#aa8f9bdf4bef08d89b75b173421fae668',1,'Component']]],
   ['isbundle',['isBundle',['../classFile.html#ad4b60fb8cb686a14d5a34dd669f9df5a',1,'File::isBundle()'],['../classOSCBundle_1_1Element.html#aca9a2295d1644e569d898857a4d97021',1,'OSCBundle::Element::isBundle()']]],
   ['isbuseslayoutsupported',['isBusesLayoutSupported',['../classAudioProcessor.html#a2eee96c0d18913e18fb353bf868bcad2',1,'AudioProcessor']]],
