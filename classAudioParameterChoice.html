@@ -162,6 +162,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a35b9c23ce77721f84bc4686e217d76f7 inherit pub_methods_classAudioProcessorParameter"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#a35b9c23ce77721f84bc4686e217d76f7">getParameterIndex</a> () const noexcept</td></tr>
 <tr class="memdesc:a35b9c23ce77721f84bc4686e217d76f7 inherit pub_methods_classAudioProcessorParameter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of this parameter in its parent processor's parameter list.  <a href="#a35b9c23ce77721f84bc4686e217d76f7">More...</a><br/></td></tr>
 <tr class="separator:a35b9c23ce77721f84bc4686e217d76f7 inherit pub_methods_classAudioProcessorParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e54fead318e3f817cde15bceae589ed inherit pub_methods_classAudioProcessorParameter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#a1e54fead318e3f817cde15bceae589ed">addListener</a> (<a class="el" href="classAudioProcessorParameter_1_1Listener.html">Listener</a> *newListener)</td></tr>
+<tr class="memdesc:a1e54fead318e3f817cde15bceae589ed inherit pub_methods_classAudioProcessorParameter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a listener to receive events when the parameter's state changes.  <a href="#a1e54fead318e3f817cde15bceae589ed">More...</a><br/></td></tr>
+<tr class="separator:a1e54fead318e3f817cde15bceae589ed inherit pub_methods_classAudioProcessorParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bcbe5fd73895a3b52c23ac309e604f7 inherit pub_methods_classAudioProcessorParameter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#a5bcbe5fd73895a3b52c23ac309e604f7">removeListener</a> (<a class="el" href="classAudioProcessorParameter_1_1Listener.html">Listener</a> *listener)</td></tr>
+<tr class="memdesc:a5bcbe5fd73895a3b52c23ac309e604f7 inherit pub_methods_classAudioProcessorParameter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously registered parameter listener.  <a href="#a5bcbe5fd73895a3b52c23ac309e604f7">More...</a><br/></td></tr>
+<tr class="separator:a5bcbe5fd73895a3b52c23ac309e604f7 inherit pub_methods_classAudioProcessorParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa3ed19aa3840819a58fc5a68d6f854d inherit pub_methods_classAudioProcessorParameter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessorParameter.html#aaa3ed19aa3840819a58fc5a68d6f854d">sendValueChangedMessageToListeners</a> (float newValue)</td></tr>
+<tr class="separator:aaa3ed19aa3840819a58fc5a68d6f854d inherit pub_methods_classAudioProcessorParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -443,7 +451,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 15 2018 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 16 2018 01:00:23 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

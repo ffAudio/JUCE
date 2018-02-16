@@ -138,7 +138,7 @@ var searchData=
   ['movecaretup',['moveCaretUp',['../classTextEditor.html#ac823fa08b0a21a2edb100f91e3c82d57',1,'TextEditor::moveCaretUp()'],['../classCodeEditorComponent.html#afb9d164bf55a9332feb3f9cfeac9344a',1,'CodeEditorComponent::moveCaretUp()']]],
   ['movechild',['moveChild',['../classValueTree.html#ab7d20bf6964bfc8c4a975543bca8ce53',1,'ValueTree']]],
   ['movecolumn',['moveColumn',['../classTableHeaderComponent.html#a183bd15db8f1b3cc61ef612cbcc2aa8f',1,'TableHeaderComponent']]],
-  ['moved',['moved',['../classComponent.html#a1b94f2816dc8bc20473620e0db0e8246',1,'Component::moved()'],['../classCallOutBox.html#adbe7b39dc2d141143b8168aae6559bfe',1,'CallOutBox::moved()'],['../classResizableWindow.html#acfb2ced15e476e78f9a71b0214414798',1,'ResizableWindow::moved()']]],
+  ['moved',['moved',['../classComponent.html#a1b94f2816dc8bc20473620e0db0e8246',1,'Component::moved()'],['../classSidePanel.html#a02e8ea9c1acae6cbd062916ee89c4431',1,'SidePanel::moved()'],['../classCallOutBox.html#adbe7b39dc2d141143b8168aae6559bfe',1,'CallOutBox::moved()'],['../classResizableWindow.html#acfb2ced15e476e78f9a71b0214414798',1,'ResizableWindow::moved()']]],
   ['movedby',['movedBy',['../classCodeDocument_1_1Position.html#a59543ea662ac12a61babeaa13351a1ec',1,'CodeDocument::Position']]],
   ['movedbylines',['movedByLines',['../classCodeDocument_1_1Position.html#a55669800547700638bc09b391f86f68b',1,'CodeDocument::Position']]],
   ['movedtoendat',['movedToEndAt',['../classRange.html#a5ea22f43dcf5400fa812ef86f0b2b237',1,'Range']]],

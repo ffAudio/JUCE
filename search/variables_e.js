@@ -14,6 +14,8 @@ var searchData=
   ['onescapekey',['onEscapeKey',['../classTextEditor.html#a23265c4ea9faadcbb5dbc21359ace16b',1,'TextEditor']]],
   ['onfocuslost',['onFocusLost',['../classTextEditor.html#a6b50b93169799fcd65be706fc7a5703c',1,'TextEditor']]],
   ['ongoing',['ongoing',['../structPushNotifications_1_1Notification.html#a6c506f4a331cd7a88540a514c8b689c8',1,'PushNotifications::Notification']]],
+  ['onpanelmove',['onPanelMove',['../classSidePanel.html#a88090dbefe3358009a2d70482946ab04',1,'SidePanel']]],
+  ['onpanelshowhide',['onPanelShowHide',['../classSidePanel.html#ab614e90739bab93656cd648602d8bc38',1,'SidePanel']]],
   ['onreturnkey',['onReturnKey',['../classTextEditor.html#ac5ba45ff247b024411782937a8eab829',1,'TextEditor']]],
   ['onstatechange',['onStateChange',['../classButton.html#a286cdacca4d6232ba0597f1bd2d48b4f',1,'Button']]],
   ['ontextchange',['onTextChange',['../classLabel.html#a5ba80ea5ea965a001e2eacf75fc0314b',1,'Label::onTextChange()'],['../classTextEditor.html#a26a5f4afddb5fee9801bf6951b7e7ae9',1,'TextEditor::onTextChange()']]],

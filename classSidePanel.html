@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classSidePanel-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">SidePanel Class Reference<div class="ingroups"><a class="el" href="group__juce__gui__basics-layout.html">layout</a></div></div>  </div>
@@ -159,6 +160,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae5b489317f611557da0a49c4e61c545"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel.html#aae5b489317f611557da0a49c4e61c545">setTitleBarHeight</a> (int newHeight) noexcept</td></tr>
 <tr class="memdesc:aae5b489317f611557da0a49c4e61c545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the height of the title bar at the top of the <a class="el" href="classSidePanel.html" title="A component that is positioned on either the left- or right-hand side of its parent, containing a header and some content. ">SidePanel</a>.  <a href="#aae5b489317f611557da0a49c4e61c545">More...</a><br/></td></tr>
 <tr class="separator:aae5b489317f611557da0a49c4e61c545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e8ea9c1acae6cbd062916ee89c4431"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel.html#a02e8ea9c1acae6cbd062916ee89c4431">moved</a> () override</td></tr>
+<tr class="memdesc:a02e8ea9c1acae6cbd062916ee89c4431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this component's position has been changed.  <a href="#a02e8ea9c1acae6cbd062916ee89c4431">More...</a><br/></td></tr>
+<tr class="separator:a02e8ea9c1acae6cbd062916ee89c4431"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b9227297386b97d3a2fb7db62d1bfaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel.html#a8b9227297386b97d3a2fb7db62d1bfaf">resized</a> () override</td></tr>
 <tr class="memdesc:a8b9227297386b97d3a2fb7db62d1bfaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this component's size has been changed.  <a href="#a8b9227297386b97d3a2fb7db62d1bfaf">More...</a><br/></td></tr>
 <tr class="separator:a8b9227297386b97d3a2fb7db62d1bfaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -632,9 +636,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afe14919a4a06747a9b7c98e2cff0ef3a inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#afe14919a4a06747a9b7c98e2cff0ef3a">getMouseXYRelative</a> () const </td></tr>
 <tr class="memdesc:afe14919a4a06747a9b7c98e2cff0ef3a inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mouse's current position, relative to this component.  <a href="#afe14919a4a06747a9b7c98e2cff0ef3a">More...</a><br/></td></tr>
 <tr class="separator:afe14919a4a06747a9b7c98e2cff0ef3a inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b94f2816dc8bc20473620e0db0e8246 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a1b94f2816dc8bc20473620e0db0e8246">moved</a> ()</td></tr>
-<tr class="memdesc:a1b94f2816dc8bc20473620e0db0e8246 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this component's position has been changed.  <a href="#a1b94f2816dc8bc20473620e0db0e8246">More...</a><br/></td></tr>
-<tr class="separator:a1b94f2816dc8bc20473620e0db0e8246 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a081b2618e5169d656167614bee91defe inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a081b2618e5169d656167614bee91defe">childBoundsChanged</a> (<a class="el" href="classComponent.html">Component</a> *child)</td></tr>
 <tr class="memdesc:a081b2618e5169d656167614bee91defe inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when one of this component's children is moved or resized.  <a href="#a081b2618e5169d656167614bee91defe">More...</a><br/></td></tr>
 <tr class="separator:a081b2618e5169d656167614bee91defe inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -726,6 +727,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d4fc9354c8e4109c9b8f0d4b50dd440 inherit pub_methods_classMouseListener"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseListener.html#a9d4fc9354c8e4109c9b8f0d4b50dd440">~MouseListener</a> ()</td></tr>
 <tr class="memdesc:a9d4fc9354c8e4109c9b8f0d4b50dd440 inherit pub_methods_classMouseListener"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a9d4fc9354c8e4109c9b8f0d4b50dd440">More...</a><br/></td></tr>
 <tr class="separator:a9d4fc9354c8e4109c9b8f0d4b50dd440 inherit pub_methods_classMouseListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a88090dbefe3358009a2d70482946ab04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel.html#a88090dbefe3358009a2d70482946ab04">onPanelMove</a></td></tr>
+<tr class="memdesc:a88090dbefe3358009a2d70482946ab04"><td class="mdescLeft">&#160;</td><td class="mdescRight">You can assign a lambda to this callback object and it will be called when the panel is moved.  <a href="#a88090dbefe3358009a2d70482946ab04">More...</a><br/></td></tr>
+<tr class="separator:a88090dbefe3358009a2d70482946ab04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab614e90739bab93656cd648602d8bc38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(bool)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSidePanel.html#ab614e90739bab93656cd648602d8bc38">onPanelShowHide</a></td></tr>
+<tr class="memdesc:ab614e90739bab93656cd648602d8bc38"><td class="mdescLeft">&#160;</td><td class="mdescRight">You can assign a lambda to this callback object and it will be called when the panel is shown or hidden.  <a href="#ab614e90739bab93656cd648602d8bc38">More...</a><br/></td></tr>
+<tr class="separator:ab614e90739bab93656cd648602d8bc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1046,6 +1056,37 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a02e8ea9c1acae6cbd062916ee89c4431"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SidePanel::moved </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when this component's position has been changed. </p>
+<p>This is called when the position relative to its parent changes, not when its absolute position on the screen changes (so it won't be called for all child components when a parent component is moved).</p>
+<p>The method is called synchronously as a result of the setBounds, setTopLeftPosition or any of the other repositioning methods, and like <a class="el" href="classSidePanel.html#a8b9227297386b97d3a2fb7db62d1bfaf" title="Called when this component&#39;s size has been changed. ">resized()</a>, it will be called each time those methods are called.</p>
+<p>If the component is a top-level window on the desktop, its position could also be changed by operating-system factors beyond the application's control.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSidePanel.html#a8b9227297386b97d3a2fb7db62d1bfaf" title="Called when this component&#39;s size has been changed. ">resized</a>, <a class="el" href="classComponent.html#a64cbeee83a441e20ed5e7acb600ae107" title="Changes the component&#39;s position and size. ">setBounds</a> </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classComponent.html#a1b94f2816dc8bc20473620e0db0e8246">Component</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a8b9227297386b97d3a2fb7db62d1bfaf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1071,7 +1112,7 @@ Additional Inherited Members</h2></td></tr>
 <p>A component can implement this method to do things such as laying out its child components when its width or height changes.</p>
 <p>The method is called synchronously as a result of the setBounds or setSize methods, so repeatedly changing a components size will repeatedly call its resized method (unlike things like repainting, where multiple calls to repaint are coalesced together).</p>
 <p>If the component is a top-level window on the desktop, its size could also be changed by operating-system factors beyond the application's control.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a1b94f2816dc8bc20473620e0db0e8246" title="Called when this component&#39;s position has been changed. ">moved</a>, <a class="el" href="classComponent.html#af7e0443344448fcbbefc2b3dd985e43f" title="Changes the size of the component. ">setSize</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSidePanel.html#a02e8ea9c1acae6cbd062916ee89c4431" title="Called when this component&#39;s position has been changed. ">moved</a>, <a class="el" href="classComponent.html#af7e0443344448fcbbefc2b3dd985e43f" title="Changes the size of the component. ">setSize</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classComponent.html#ad896183a68d71daf5816982d1fefd960">Component</a>.</p>
 
@@ -1219,13 +1260,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a88090dbefe3358009a2d70482946ab04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classstd_1_1function.html">std::function</a>&lt;void()&gt; SidePanel::onPanelMove</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>You can assign a lambda to this callback object and it will be called when the panel is moved. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab614e90739bab93656cd648602d8bc38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classstd_1_1function.html">std::function</a>&lt;void(bool)&gt; SidePanel::onPanelShowHide</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>You can assign a lambda to this callback object and it will be called when the panel is shown or hidden. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__SidePanel_8h.html">juce_SidePanel.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 15 2018 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 16 2018 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
