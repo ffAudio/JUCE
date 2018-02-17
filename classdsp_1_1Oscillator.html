@@ -131,9 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac4f0e60d1e0bdc56b78c31aa0bdb05d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oscillator.html#ac4f0e60d1e0bdc56b78c31aa0bdb05d8">reset</a> () noexcept</td></tr>
 <tr class="memdesc:ac4f0e60d1e0bdc56b78c31aa0bdb05d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the internal state of the oscillator.  <a href="#ac4f0e60d1e0bdc56b78c31aa0bdb05d8">More...</a><br/></td></tr>
 <tr class="separator:ac4f0e60d1e0bdc56b78c31aa0bdb05d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4545bde29a168c661f2cf5b44f8e7bec"><td class="memItemLeft" align="right" valign="top">SampleType JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oscillator.html#a4545bde29a168c661f2cf5b44f8e7bec">processSample</a> (SampleType) noexcept</td></tr>
-<tr class="memdesc:a4545bde29a168c661f2cf5b44f8e7bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the result of processing a single sample.  <a href="#a4545bde29a168c661f2cf5b44f8e7bec">More...</a><br/></td></tr>
-<tr class="separator:a4545bde29a168c661f2cf5b44f8e7bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7353f99cb2606b5e63738b4a121e18be"><td class="memItemLeft" align="right" valign="top">SampleType JUCE_VECTOR_CALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oscillator.html#a7353f99cb2606b5e63738b4a121e18be">processSample</a> (SampleType input) noexcept</td></tr>
+<tr class="memdesc:a7353f99cb2606b5e63738b4a121e18be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the result of processing a single sample.  <a href="#a7353f99cb2606b5e63738b4a121e18be">More...</a><br/></td></tr>
+<tr class="separator:a7353f99cb2606b5e63738b4a121e18be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9910808dcf8b7909df5ee15f8df6501e"><td class="memTemplParams" colspan="2">template&lt;typename ProcessContext &gt; </td></tr>
 <tr class="memitem:a9910808dcf8b7909df5ee15f8df6501e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">process</a> (const ProcessContext &amp;context) noexcept</td></tr>
 <tr class="memdesc:a9910808dcf8b7909df5ee15f8df6501e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes the input and output buffers supplied in the processing context.  <a href="#a9910808dcf8b7909df5ee15f8df6501e">More...</a><br/></td></tr>
@@ -241,7 +241,7 @@ template&lt;typename SampleType &gt; </div>
 
 <p>Returns true if the <a class="el" href="classdsp_1_1Oscillator.html" title="Generates a signal based on a user-supplied function. ">Oscillator</a> has been initialised. </p>
 
-<p>Referenced by <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>, and <a class="el" href="classdsp_1_1Oscillator.html#a4545bde29a168c661f2cf5b44f8e7bec">dsp::Oscillator&lt; SampleType &gt;::processSample()</a>.</p>
+<p>Referenced by <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>, and <a class="el" href="classdsp_1_1Oscillator.html#a7353f99cb2606b5e63738b4a121e18be">dsp::Oscillator&lt; SampleType &gt;::processSample()</a>.</p>
 
 </div>
 </div>
@@ -407,7 +407,7 @@ template&lt;typename SampleType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a4545bde29a168c661f2cf5b44f8e7bec"></a>
+<a class="anchor" id="a7353f99cb2606b5e63738b4a121e18be"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -420,7 +420,7 @@ template&lt;typename SampleType &gt; </div>
           <td class="memname">SampleType JUCE_VECTOR_CALLTYPE <a class="el" href="classdsp_1_1Oscillator.html">dsp::Oscillator</a>&lt; SampleType &gt;::processSample </td>
           <td>(</td>
           <td class="paramtype">SampleType&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -465,7 +465,7 @@ template&lt;typename ProcessContext &gt; </div>
 
 <p>Processes the input and output buffers supplied in the processing context. </p>
 
-<p>References <a class="el" href="structdsp_1_1Phase.html#a39a4d5b6b73022891432851d99040880">dsp::Phase&lt; Type &gt;::advance()</a>, <a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">LinearSmoothedValue&lt; FloatType &gt;::getNextValue()</a>, <a class="el" href="classArray.html#a4c5c3e5ab20d17d6d5757e53773ba2ff">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getRawDataPointer()</a>, <a class="el" href="classdsp_1_1Oscillator.html#a6ec62157f39059b7d281b2a4690a9bd8">dsp::Oscillator&lt; SampleType &gt;::isInitialised()</a>, <a class="el" href="classLinearSmoothedValue.html#af79754c985489391bc1a88fb871854f8">LinearSmoothedValue&lt; FloatType &gt;::isSmoothing()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, <a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::size()</a>, and <a class="el" href="classLinearSmoothedValue.html#ac365e9ec4988ec762b86e2f97720c0ea">LinearSmoothedValue&lt; FloatType &gt;::skip()</a>.</p>
+<p>References <a class="el" href="structdsp_1_1Phase.html#a39a4d5b6b73022891432851d99040880">dsp::Phase&lt; Type &gt;::advance()</a>, <a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">LinearSmoothedValue&lt; FloatType &gt;::getNextValue()</a>, <a class="el" href="classArray.html#a4c5c3e5ab20d17d6d5757e53773ba2ff">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::getRawDataPointer()</a>, <a class="el" href="classdsp_1_1Oscillator.html#a6ec62157f39059b7d281b2a4690a9bd8">dsp::Oscillator&lt; SampleType &gt;::isInitialised()</a>, <a class="el" href="classLinearSmoothedValue.html#af79754c985489391bc1a88fb871854f8">LinearSmoothedValue&lt; FloatType &gt;::isSmoothing()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, <a class="el" href="group__juce__core-maths.html#ga5f370a17b53016056464e8cb860ad297">jmin()</a>, <a class="el" href="classArray.html#ae79ec3b32d0c9a80dfff8ffbc41f8523">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::size()</a>, and <a class="el" href="classLinearSmoothedValue.html#ac365e9ec4988ec762b86e2f97720c0ea">LinearSmoothedValue&lt; FloatType &gt;::skip()</a>.</p>
 
 </div>
 </div>
@@ -475,7 +475,7 @@ template&lt;typename ProcessContext &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 16 2018 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Feb 17 2018 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
