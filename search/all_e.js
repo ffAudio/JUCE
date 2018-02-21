@@ -195,7 +195,7 @@ var searchData=
   ['oversamplingengine',['OversamplingEngine',['../classdsp_1_1OversamplingEngine.html',1,'dsp']]],
   ['oversamplingengine_3c_20sampletype_20_3e',['OversamplingEngine&lt; SampleType &gt;',['../classdsp_1_1OversamplingEngine.html',1,'dsp']]],
   ['overwritetargetfilewithtemporary',['overwriteTargetFileWithTemporary',['../classTemporaryFile.html#aaf1c2513c6bd7b1ba343fe53cddd0fd0',1,'TemporaryFile']]],
-  ['ownedarray',['OwnedArray',['../classOwnedArray.html',1,'OwnedArray&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;'],['../classOwnedArray.html#aaef9b9d43ed2ac8568ba73ef0c4805f9',1,'OwnedArray::OwnedArray() noexcept'],['../classOwnedArray.html#a1b96d5762983d3d81cfc30acc4ed5cc1',1,'OwnedArray::OwnedArray(OwnedArray &amp;&amp;other) noexcept']]],
+  ['ownedarray',['OwnedArray',['../classOwnedArray.html',1,'OwnedArray&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;'],['../classOwnedArray.html#aaef9b9d43ed2ac8568ba73ef0c4805f9',1,'OwnedArray::OwnedArray() noexcept'],['../classOwnedArray.html#a1b96d5762983d3d81cfc30acc4ed5cc1',1,'OwnedArray::OwnedArray(OwnedArray &amp;&amp;other) noexcept'],['../classOwnedArray.html#a78d50a0becbc5804b8ef3359f852411c',1,'OwnedArray::OwnedArray(const std::initializer_list&lt; ObjectClass * &gt; &amp;items)']]],
   ['ownedarray_3c_20actionset_20_3e',['OwnedArray&lt; ActionSet &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20allocatedobject_20_3e',['OwnedArray&lt; AllocatedObject &gt;',['../classOwnedArray.html',1,'']]],
   ['ownedarray_3c_20analyticsdestination_20_3e',['OwnedArray&lt; AnalyticsDestination &gt;',['../classOwnedArray.html',1,'']]],

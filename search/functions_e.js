@@ -108,6 +108,6 @@ var searchData=
   ['overlapsrange',['overlapsRange',['../classSparseSet.html#a39a132c87707636a09bb73ba2a39ec38',1,'SparseSet']]],
   ['oversampling',['Oversampling',['../classdsp_1_1Oversampling.html#ae59914cbbefe675a46a9dcc84854c7cf',1,'dsp::Oversampling']]],
   ['overwritetargetfilewithtemporary',['overwriteTargetFileWithTemporary',['../classTemporaryFile.html#aaf1c2513c6bd7b1ba343fe53cddd0fd0',1,'TemporaryFile']]],
-  ['ownedarray',['OwnedArray',['../classOwnedArray.html#aaef9b9d43ed2ac8568ba73ef0c4805f9',1,'OwnedArray::OwnedArray() noexcept'],['../classOwnedArray.html#a1b96d5762983d3d81cfc30acc4ed5cc1',1,'OwnedArray::OwnedArray(OwnedArray &amp;&amp;other) noexcept']]],
+  ['ownedarray',['OwnedArray',['../classOwnedArray.html#aaef9b9d43ed2ac8568ba73ef0c4805f9',1,'OwnedArray::OwnedArray() noexcept'],['../classOwnedArray.html#a1b96d5762983d3d81cfc30acc4ed5cc1',1,'OwnedArray::OwnedArray(OwnedArray &amp;&amp;other) noexcept'],['../classOwnedArray.html#a78d50a0becbc5804b8ef3359f852411c',1,'OwnedArray::OwnedArray(const std::initializer_list&lt; ObjectClass * &gt; &amp;items)']]],
   ['ownerviewchanged',['ownerViewChanged',['../classTreeViewItem.html#a66947aeb8814bc9164422375231ae5d6',1,'TreeViewItem']]]
 ];
