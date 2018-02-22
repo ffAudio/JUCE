@@ -80,7 +80,7 @@ var searchData=
   ['notetimbrechanged',['noteTimbreChanged',['../classMPEInstrument_1_1Listener.html#a2479e31f024803b3a3379341c5a6fda1',1,'MPEInstrument::Listener::noteTimbreChanged()'],['../classMPESynthesiser.html#ae8a1c829e7c570e844d855ce8c1cbec0',1,'MPESynthesiser::noteTimbreChanged()'],['../classMPESynthesiserVoice.html#ad2f36b71807fd1ac15c52f480702112f',1,'MPESynthesiserVoice::noteTimbreChanged()']]],
   ['notevelocityoff',['noteVelocityOff',['../structVstMidiEvent.html#a398c5db7a5602ab677b10693bf436fb9',1,'VstMidiEvent']]],
   ['notextbox',['NoTextBox',['../classSlider.html#ab6d7dff67151c029b9cb53fc40b4412fad0badf0233a956017621f284e3e30fc2',1,'Slider']]],
-  ['notification',['Notification',['../structPushNotifications_1_1Notification.html#a2776f52f58a3ac33f05104c2db1f32f8',1,'PushNotifications::Notification']]],
+  ['notification',['Notification',['../structPushNotifications_1_1Notification.html#a2776f52f58a3ac33f05104c2db1f32f8',1,'PushNotifications::Notification::Notification()=default'],['../structPushNotifications_1_1Notification.html#a1662a95c751d37c9c57f4fec9f5337ab',1,'PushNotifications::Notification::Notification(const Notification &amp;other)']]],
   ['notification',['Notification',['../structPushNotifications_1_1Notification.html',1,'PushNotifications']]],
   ['notificationsettingsreceived',['notificationSettingsReceived',['../structPushNotifications_1_1Listener.html#a7d2d2b7d2f784e18030e9c16893d9c1c',1,'PushNotifications::Listener']]],
   ['notificationtype',['NotificationType',['../group__juce__events-messages.html#ga25a31a4bdc02a0d0adb743e26dd14ba9',1,'juce_NotificationType.h']]],

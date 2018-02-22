@@ -40,7 +40,7 @@ var searchData=
   ['notestarted',['noteStarted',['../classMPESynthesiserVoice.html#ae10c1cdfb37208b96b56863d47a3a193',1,'MPESynthesiserVoice']]],
   ['notestopped',['noteStopped',['../classMPESynthesiserVoice.html#a60d75565bb6ef14262aa3e5ab5c94328',1,'MPESynthesiserVoice']]],
   ['notetimbrechanged',['noteTimbreChanged',['../classMPEInstrument_1_1Listener.html#a2479e31f024803b3a3379341c5a6fda1',1,'MPEInstrument::Listener::noteTimbreChanged()'],['../classMPESynthesiser.html#ae8a1c829e7c570e844d855ce8c1cbec0',1,'MPESynthesiser::noteTimbreChanged()'],['../classMPESynthesiserVoice.html#ad2f36b71807fd1ac15c52f480702112f',1,'MPESynthesiserVoice::noteTimbreChanged()']]],
-  ['notification',['Notification',['../structPushNotifications_1_1Notification.html#a2776f52f58a3ac33f05104c2db1f32f8',1,'PushNotifications::Notification']]],
+  ['notification',['Notification',['../structPushNotifications_1_1Notification.html#a2776f52f58a3ac33f05104c2db1f32f8',1,'PushNotifications::Notification::Notification()=default'],['../structPushNotifications_1_1Notification.html#a1662a95c751d37c9c57f4fec9f5337ab',1,'PushNotifications::Notification::Notification(const Notification &amp;other)']]],
   ['notificationsettingsreceived',['notificationSettingsReceived',['../structPushNotifications_1_1Listener.html#a7d2d2b7d2f784e18030e9c16893d9c1c',1,'PushNotifications::Listener']]],
   ['notify',['notify',['../classThread.html#ae0e6408f187557bb06c8fff07c4100b7',1,'Thread']]],
   ['nsviewcomponent',['NSViewComponent',['../classNSViewComponent.html#a47f7a2b57ee9175115e1d8c5206e191f',1,'NSViewComponent']]],

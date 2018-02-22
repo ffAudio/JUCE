@@ -1,7 +1,9 @@
 <map id="DeletedAtShutdown" name="DeletedAtShutdown">
-<area shape="rect" id="node2" href="$classAnalytics.html" title="A singleton class to manage analytics data. " alt="" coords="5,80,80,107"/>
-<area shape="rect" id="node3" href="$classDesktop.html" title="Describes and controls aspects of the computer&#39;s desktop. " alt="" coords="105,80,175,107"/>
-<area shape="rect" id="node4" href="$classJUCESplashScreen.html" title="The standard JUCE splash screen component. " alt="" coords="200,80,339,107"/>
-<area shape="rect" id="node5" href="$classModalComponentManager.html" title="Manages the system&#39;s stack of modal components. " alt="" coords="363,80,537,107"/>
-<area shape="rect" id="node6" href="$classSplashScreen.html" title="A component for showing a splash screen while your app starts up. " alt="" coords="562,80,664,107"/>
+<area shape="rect" id="node2" href="$classAnalytics.html" title="A singleton class to manage analytics data. " alt="" coords="242,5,318,32"/>
+<area shape="rect" id="node3" href="$classDesktop.html" title="Describes and controls aspects of the computer&#39;s desktop. " alt="" coords="245,56,315,83"/>
+<area shape="rect" id="node4" href="$classInAppPurchases.html" title="Provides in&#45;app purchase functionality. " alt="" coords="221,107,339,133"/>
+<area shape="rect" id="node5" href="$classJUCESplashScreen.html" title="The standard JUCE splash screen component. " alt="" coords="211,157,349,184"/>
+<area shape="rect" id="node6" href="$classModalComponentManager.html" title="Manages the system&#39;s stack of modal components. " alt="" coords="193,208,367,235"/>
+<area shape="rect" id="node7" href="$classPushNotifications.html" title="Singleton class responsible for push notifications functionality. " alt="" coords="217,259,343,285"/>
+<area shape="rect" id="node8" href="$classSplashScreen.html" title="A component for showing a splash screen while your app starts up. " alt="" coords="229,309,331,336"/>
 </map>
