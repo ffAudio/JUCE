@@ -106,6 +106,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioDeviceManager_1_1AudioDeviceSetup.html">AudioDeviceSetup</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure holds a set of properties describing the current audio setup.  <a href="structAudioDeviceManager_1_1AudioDeviceSetup.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioDeviceManager_1_1LevelMeter.html">LevelMeter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple reference-counted struct that holds a level-meter value that can be read using <a class="el" href="structAudioDeviceManager_1_1LevelMeter.html#a3076c4d4abb8bff17b71747730db949c">getCurrentLevel()</a>.  <a href="structAudioDeviceManager_1_1LevelMeter.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -191,18 +194,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab32b74d9dda550d70d47c0cca76fdd25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#ab32b74d9dda550d70d47c0cca76fdd25">playTestSound</a> ()</td></tr>
 <tr class="memdesc:ab32b74d9dda550d70d47c0cca76fdd25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a beep through the current audio device.  <a href="#ab32b74d9dda550d70d47c0cca76fdd25">More...</a><br/></td></tr>
 <tr class="separator:ab32b74d9dda550d70d47c0cca76fdd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84226f822c6b65295beb16b973ec30ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#a84226f822c6b65295beb16b973ec30ac">enableInputLevelMeasurement</a> (bool enableMeasurement) noexcept</td></tr>
-<tr class="memdesc:a84226f822c6b65295beb16b973ec30ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns on level-measuring for input channels.  <a href="#a84226f822c6b65295beb16b973ec30ac">More...</a><br/></td></tr>
-<tr class="separator:a84226f822c6b65295beb16b973ec30ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51fe04c8fe00ef8fc40a326f2dba7ea6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#a51fe04c8fe00ef8fc40a326f2dba7ea6">enableOutputLevelMeasurement</a> (bool enableMeasurement) noexcept</td></tr>
-<tr class="memdesc:a51fe04c8fe00ef8fc40a326f2dba7ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns on level-measuring for output channels.  <a href="#a51fe04c8fe00ef8fc40a326f2dba7ea6">More...</a><br/></td></tr>
-<tr class="separator:a51fe04c8fe00ef8fc40a326f2dba7ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedbbb2987a9c420951c2a40246367e22"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#aedbbb2987a9c420951c2a40246367e22">getCurrentInputLevel</a> () const noexcept</td></tr>
-<tr class="memdesc:aedbbb2987a9c420951c2a40246367e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current input level.  <a href="#aedbbb2987a9c420951c2a40246367e22">More...</a><br/></td></tr>
-<tr class="separator:aedbbb2987a9c420951c2a40246367e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2127a0c198170f510a6bf54822da7096"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#a2127a0c198170f510a6bf54822da7096">getCurrentOutputLevel</a> () const noexcept</td></tr>
-<tr class="memdesc:a2127a0c198170f510a6bf54822da7096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current output level.  <a href="#a2127a0c198170f510a6bf54822da7096">More...</a><br/></td></tr>
-<tr class="separator:a2127a0c198170f510a6bf54822da7096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3655731cf4275be1b8909be161f2d1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAudioDeviceManager_1_1LevelMeter.html#ab8a5a1012f402770069d6bcef70f80de">LevelMeter::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#ac3655731cf4275be1b8909be161f2d1f">getInputLevelGetter</a> () noexcept</td></tr>
+<tr class="memdesc:ac3655731cf4275be1b8909be161f2d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference-counted object that can be used to get the current input level.  <a href="#ac3655731cf4275be1b8909be161f2d1f">More...</a><br/></td></tr>
+<tr class="separator:ac3655731cf4275be1b8909be161f2d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6becaa71cf916260faad6b772f00450"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAudioDeviceManager_1_1LevelMeter.html#ab8a5a1012f402770069d6bcef70f80de">LevelMeter::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#ae6becaa71cf916260faad6b772f00450">getOutputLevelGetter</a> () noexcept</td></tr>
+<tr class="memdesc:ae6becaa71cf916260faad6b772f00450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference-counted object that can be used to get the current input level.  <a href="#ae6becaa71cf916260faad6b772f00450">More...</a><br/></td></tr>
+<tr class="separator:ae6becaa71cf916260faad6b772f00450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e92ccc57a94f20639bcdfa68b628dc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCriticalSection.html">CriticalSection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#a1e92ccc57a94f20639bcdfa68b628dc5">getAudioCallbackLock</a> () noexcept</td></tr>
 <tr class="memdesc:a1e92ccc57a94f20639bcdfa68b628dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the a lock that can be used to synchronise access to the audio callback.  <a href="#a1e92ccc57a94f20639bcdfa68b628dc5">More...</a><br/></td></tr>
 <tr class="separator:a1e92ccc57a94f20639bcdfa68b628dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -915,7 +912,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a84226f822c6b65295beb16b973ec30ac"></a>
+<a class="anchor" id="ac3655731cf4275be1b8909be161f2d1f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -923,10 +920,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioDeviceManager::enableInputLevelMeasurement </td>
+          <td class="memname"><a class="el" href="structAudioDeviceManager_1_1LevelMeter.html#ab8a5a1012f402770069d6bcef70f80de">LevelMeter::Ptr</a> AudioDeviceManager::getInputLevelGetter </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>enableMeasurement</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -937,12 +933,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Turns on level-measuring for input channels. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioDeviceManager.html#aedbbb2987a9c420951c2a40246367e22" title="Returns the current input level. ">getCurrentInputLevel()</a> </dd></dl>
+<p>Returns a reference-counted object that can be used to get the current input level. </p>
+<p>You need to store this object locally to ensure that the reference count is incremented and decremented properly. The current input level value can be read using getCurrentLevel(). </p>
 
 </div>
 </div>
-<a class="anchor" id="a51fe04c8fe00ef8fc40a326f2dba7ea6"></a>
+<a class="anchor" id="ae6becaa71cf916260faad6b772f00450"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -950,10 +946,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioDeviceManager::enableOutputLevelMeasurement </td>
+          <td class="memname"><a class="el" href="structAudioDeviceManager_1_1LevelMeter.html#ab8a5a1012f402770069d6bcef70f80de">LevelMeter::Ptr</a> AudioDeviceManager::getOutputLevelGetter </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>enableMeasurement</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -964,62 +959,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Turns on level-measuring for output channels. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioDeviceManager.html#a2127a0c198170f510a6bf54822da7096" title="Returns the current output level. ">getCurrentOutputLevel()</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aedbbb2987a9c420951c2a40246367e22"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double AudioDeviceManager::getCurrentInputLevel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the current input level. </p>
-<p>To use this, you must first enable it by calling <a class="el" href="classAudioDeviceManager.html#a84226f822c6b65295beb16b973ec30ac" title="Turns on level-measuring for input channels. ">enableInputLevelMeasurement()</a>. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioDeviceManager.html#a84226f822c6b65295beb16b973ec30ac" title="Turns on level-measuring for input channels. ">enableInputLevelMeasurement()</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2127a0c198170f510a6bf54822da7096"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double AudioDeviceManager::getCurrentOutputLevel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the current output level. </p>
-<p>To use this, you must first enable it by calling <a class="el" href="classAudioDeviceManager.html#a51fe04c8fe00ef8fc40a326f2dba7ea6" title="Turns on level-measuring for output channels. ">enableOutputLevelMeasurement()</a>. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioDeviceManager.html#a51fe04c8fe00ef8fc40a326f2dba7ea6" title="Turns on level-measuring for output channels. ">enableOutputLevelMeasurement()</a> </dd></dl>
+<p>Returns a reference-counted object that can be used to get the current input level. </p>
+<p>You need to store this object locally to ensure that the reference count is incremented and decremented properly. The current input level value can be read using getCurrentLevel(). </p>
 
 </div>
 </div>
@@ -1107,7 +1048,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 22 2018 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 23 2018 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

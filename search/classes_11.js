@@ -25,6 +25,7 @@ var searchData=
   ['referencecountedobjectptr_3c_20blockingmessage_20_3e',['ReferenceCountedObjectPtr&lt; BlockingMessage &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20bookmark_20_3e',['ReferenceCountedObjectPtr&lt; Bookmark &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20imagepixeldata_20_3e',['ReferenceCountedObjectPtr&lt; ImagePixelData &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
+  ['referencecountedobjectptr_3c_20levelmeter_20_3e',['ReferenceCountedObjectPtr&lt; LevelMeter &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20popupmenu_3a_3acustomcallback_20_3e',['ReferenceCountedObjectPtr&lt; PopupMenu::CustomCallback &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20popupmenu_3a_3acustomcomponent_20_3e',['ReferenceCountedObjectPtr&lt; PopupMenu::CustomComponent &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20referencecountedobject_20_3e',['ReferenceCountedObjectPtr&lt; ReferenceCountedObject &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
