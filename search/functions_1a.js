@@ -331,6 +331,7 @@ var searchData=
   ['_7eoversampling',['~Oversampling',['../classdsp_1_1Oversampling.html#aa0fb3908b5d80d27f0ee33ab774bd8c6',1,'dsp::Oversampling']]],
   ['_7eownedarray',['~OwnedArray',['../classOwnedArray.html#aab8ed18b03ab56e465433b32f84c9e59',1,'OwnedArray']]],
   ['_7eparallelogram',['~Parallelogram',['../classParallelogram.html#aa32f9a3733e530d0b49a071feb393854',1,'Parallelogram']]],
+  ['_7eparameter',['~Parameter',['../structAudioPluginInstance_1_1Parameter.html#a3b9cbde6c4e4ddaa00afe22f5b4b087d',1,'AudioPluginInstance::Parameter']]],
   ['_7epath',['~Path',['../classPath.html#a141da9ff89c85e0ba410b5a73864c267',1,'Path']]],
   ['_7epathflatteningiterator',['~PathFlatteningIterator',['../classPathFlatteningIterator.html#a907158adef4ad38fd4899142b237106f',1,'PathFlatteningIterator']]],
   ['_7epathstroketype',['~PathStrokeType',['../classPathStrokeType.html#a54a82633fb4ad911609e40fcd555b5c9',1,'PathStrokeType']]],

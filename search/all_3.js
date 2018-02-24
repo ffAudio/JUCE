@@ -141,7 +141,7 @@ var searchData=
   ['devicedetector',['DeviceDetector',['../structPhysicalTopologySource_1_1DeviceDetector.html',1,'PhysicalTopologySource']]],
   ['devicedetector',['DeviceDetector',['../structPhysicalTopologySource_1_1DeviceDetector.html#aa4328367ecaefefd78cfe8ef38657725',1,'PhysicalTopologySource::DeviceDetector']]],
   ['deviceedge',['DeviceEdge',['../structBlock_1_1ConnectionPort.html#adb5cd70e80bd854e5a40436a99d003ea',1,'Block::ConnectionPort']]],
-  ['devicemanager',['deviceManager',['../classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017',1,'StandalonePluginHolder::deviceManager()'],['../classAudioAppComponent.html#a7c6fe5879b27390cefd4aacf1201c745',1,'AudioAppComponent::deviceManager()'],['../classAudioDeviceSelectorComponent.html#a1d55ccd0985a42f37b5683f609b65386',1,'AudioDeviceSelectorComponent::deviceManager()']]],
+  ['devicemanager',['deviceManager',['../classStandalonePluginHolder.html#a6fb1eb9dcabd5f5d6e2c52a44296e017',1,'StandalonePluginHolder::deviceManager()'],['../classAudioAppComponent.html#a546cdb47015129a529ff8f4849352930',1,'AudioAppComponent::deviceManager()'],['../classAudioDeviceSelectorComponent.html#a1d55ccd0985a42f37b5683f609b65386',1,'AudioDeviceSelectorComponent::deviceManager()']]],
   ['devicename',['DeviceName',['../structBlocksProtocol_1_1DeviceName.html',1,'BlocksProtocol']]],
   ['devicenamelist',['deviceNameList',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75ac65035415f08dbed22584f0c3c9fbb15',1,'BlocksProtocol']]],
   ['devicestatus',['DeviceStatus',['../structBlocksProtocol_1_1DeviceStatus.html',1,'BlocksProtocol']]],

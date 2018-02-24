@@ -1,7 +1,8 @@
 <map id="AudioProcessorParameter" name="AudioProcessorParameter">
-<area shape="rect" id="node2" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="229,80,443,107"/>
-<area shape="rect" id="node3" href="$classAudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. " alt="" coords="5,155,145,181"/>
-<area shape="rect" id="node4" href="$classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. " alt="" coords="171,155,327,181"/>
-<area shape="rect" id="node5" href="$classAudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto..." alt="" coords="352,155,496,181"/>
-<area shape="rect" id="node6" href="$classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range..." alt="" coords="520,155,649,181"/>
+<area shape="rect" id="node2" href="$structAudioPluginInstance_1_1Parameter.html" title="AudioPluginInstance\l::Parameter" alt="" coords="64,81,204,122"/>
+<area shape="rect" id="node3" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="230,88,444,115"/>
+<area shape="rect" id="node4" href="$classAudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. " alt="" coords="5,171,145,197"/>
+<area shape="rect" id="node5" href="$classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. " alt="" coords="171,171,327,197"/>
+<area shape="rect" id="node6" href="$classAudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto..." alt="" coords="352,171,496,197"/>
+<area shape="rect" id="node7" href="$classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range..." alt="" coords="520,171,649,197"/>
 </map>

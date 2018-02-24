@@ -2,6 +2,7 @@ var searchData=
 [
   ['offset',['offset',['../structDropShadow.html#af2c204224ab00ac6614f1b67701ca68a',1,'DropShadow']]],
   ['offsetsamples',['offsetSamples',['../structVstSysExEvent.html#ad43001265f82b57361b5fb09630e1fb7',1,'VstSysExEvent']]],
+  ['offstrings',['offStrings',['../structAudioPluginInstance_1_1Parameter.html#aa15644551082e07bdd156102b40fca93',1,'AudioPluginInstance::Parameter']]],
   ['oldlace',['oldlace',['../classColours.html#a8854bc208ff4c18d1359d48061801eed',1,'Colours']]],
   ['olive',['olive',['../classColours.html#afa863de7d2e3c645092e981ef4b47349',1,'Colours']]],
   ['olivedrab',['olivedrab',['../classColours.html#a470482f79ccbabc1cfe7c44e4123acfd',1,'Colours']]],
@@ -18,6 +19,7 @@ var searchData=
   ['onpanelshowhide',['onPanelShowHide',['../classSidePanel.html#ab614e90739bab93656cd648602d8bc38',1,'SidePanel']]],
   ['onreturnkey',['onReturnKey',['../classTextEditor.html#ac5ba45ff247b024411782937a8eab829',1,'TextEditor']]],
   ['onstatechange',['onStateChange',['../classButton.html#a286cdacca4d6232ba0597f1bd2d48b4f',1,'Button']]],
+  ['onstrings',['onStrings',['../structAudioPluginInstance_1_1Parameter.html#a9f9ff69400be85259a5c3cac40639de0',1,'AudioPluginInstance::Parameter']]],
   ['ontextchange',['onTextChange',['../classLabel.html#a5ba80ea5ea965a001e2eacf75fc0314b',1,'Label::onTextChange()'],['../classTextEditor.html#a26a5f4afddb5fee9801bf6951b7e7ae9',1,'TextEditor::onTextChange()']]],
   ['onvaluechange',['onValueChange',['../classSlider.html#a680d007f6a824a28a60aa05b4045e794',1,'Slider']]],
   ['op',['op',['../structVstEffectInterface.html#ae9e2049d1a535490eab468bf76f2fb6a',1,'VstEffectInterface::op()'],['../structlittlefoot_1_1Compiler_1_1FunctionCall_1_1BuiltInFunction.html#a5050bc138e342a11f083cf11d5d85778',1,'littlefoot::Compiler::FunctionCall::BuiltInFunction::op()']]],
