@@ -35,6 +35,7 @@ var searchData=
   ['referencecountedobjectptr_3c_20sharedpointer_20_3e',['ReferenceCountedObjectPtr&lt; SharedPointer &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20synthesisersound_20_3e',['ReferenceCountedObjectPtr&lt; SynthesiserSound &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20term_20_3e',['ReferenceCountedObjectPtr&lt; Term &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
+  ['referencecountedobjectptr_3c_20typeface_20_3e',['ReferenceCountedObjectPtr&lt; Typeface &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['referencecountedobjectptr_3c_20value_3a_3avaluesource_20_3e',['ReferenceCountedObjectPtr&lt; Value::ValueSource &gt;',['../classReferenceCountedObjectPtr.html',1,'']]],
   ['relativecoordinate',['RelativeCoordinate',['../classRelativeCoordinate.html',1,'']]],
   ['relativecoordinatepositionerbase',['RelativeCoordinatePositionerBase',['../classRelativeCoordinatePositionerBase.html',1,'']]],

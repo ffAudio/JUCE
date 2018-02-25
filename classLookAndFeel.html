@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c685400fda42257842ea75b0b675b83"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a4c685400fda42257842ea75b0b675b83">getTypefaceForFont</a> (const <a class="el" href="classFont.html">Font</a> &amp;)</td></tr>
 <tr class="memdesc:a4c685400fda42257842ea75b0b675b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the typeface that should be used for a given font.  <a href="#a4c685400fda42257842ea75b0b675b83">More...</a><br/></td></tr>
 <tr class="separator:a4c685400fda42257842ea75b0b675b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6764bcf3fbb1983287379f2ed034337"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#ad6764bcf3fbb1983287379f2ed034337">setDefaultSansSerifTypeface</a> (<a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a> newDefaultTypeface)</td></tr>
+<tr class="memdesc:ad6764bcf3fbb1983287379f2ed034337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows you to supply a default typeface that will be returned as the default sans-serif font.  <a href="#ad6764bcf3fbb1983287379f2ed034337">More...</a><br/></td></tr>
+<tr class="separator:ad6764bcf3fbb1983287379f2ed034337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15a3d2e1c913bc68859d29945f40a51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel.html#a15a3d2e1c913bc68859d29945f40a51a">setDefaultSansSerifTypefaceName</a> (const <a class="el" href="classString.html">String</a> &amp;newName)</td></tr>
 <tr class="memdesc:a15a3d2e1c913bc68859d29945f40a51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows you to change the default sans-serif font.  <a href="#a15a3d2e1c913bc68859d29945f40a51a">More...</a><br/></td></tr>
 <tr class="separator:a15a3d2e1c913bc68859d29945f40a51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -721,6 +724,26 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the typeface that should be used for a given font. </p>
 <p>The default implementation just does what you'd expect it to, but you can override this if you want to intercept fonts and use your own custom typeface object. </p>
+<dl class="section see"><dt>See Also</dt><dd>setDefaultTypeface </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad6764bcf3fbb1983287379f2ed034337"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LookAndFeel::setDefaultSansSerifTypeface </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTypeface.html#a13053be679c87b7a72963e9ce60e34c9">Typeface::Ptr</a>&#160;</td>
+          <td class="paramname"><em>newDefaultTypeface</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allows you to supply a default typeface that will be returned as the default sans-serif font. </p>
+<p>Instead of a typeface object, you can specify a typeface by name using the <a class="el" href="classLookAndFeel.html#a15a3d2e1c913bc68859d29945f40a51a" title="Allows you to change the default sans-serif font. ">setDefaultSansSerifTypefaceName()</a> method. You can perform more complex typeface substitutions by overloading <a class="el" href="classLookAndFeel.html#a4c685400fda42257842ea75b0b675b83" title="Returns the typeface that should be used for a given font. ">getTypefaceForFont()</a> but this lets you easily set a global typeface. </p>
 
 </div>
 </div>
@@ -739,7 +762,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Allows you to change the default sans-serif font. </p>
-<p>If you need to supply your own <a class="el" href="classTypeface.html" title="A typeface represents a size-independent font. ">Typeface</a> object for any of the default fonts, rather than just supplying the name (e.g. if you want to use an embedded font), then you should instead override <a class="el" href="classLookAndFeel.html#a4c685400fda42257842ea75b0b675b83" title="Returns the typeface that should be used for a given font. ">getTypefaceForFont()</a> to create and return the typeface. </p>
+<p>If you need to supply your own <a class="el" href="classTypeface.html" title="A typeface represents a size-independent font. ">Typeface</a> object for any of the default fonts, rather than just supplying the name (e.g. if you want to use an embedded font), then you can instead call <a class="el" href="classLookAndFeel.html#ad6764bcf3fbb1983287379f2ed034337" title="Allows you to supply a default typeface that will be returned as the default sans-serif font...">setDefaultSansSerifTypeface()</a> with an object to use. </p>
 
 </div>
 </div>
@@ -1018,7 +1041,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 24 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Feb 25 2018 01:00:37 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
