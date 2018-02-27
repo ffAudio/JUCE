@@ -99,6 +99,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18f73a2c8962e955c6b18d9f4e82edc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEChannelAssigner.html#a18f73a2c8962e955c6b18d9f4e82edc2">MPEChannelAssigner</a> (<a class="el" href="structMPEZoneLayout_1_1Zone.html">MPEZoneLayout::Zone</a> zoneToUse)</td></tr>
 <tr class="memdesc:a18f73a2c8962e955c6b18d9f4e82edc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a18f73a2c8962e955c6b18d9f4e82edc2">More...</a><br/></td></tr>
 <tr class="separator:a18f73a2c8962e955c6b18d9f4e82edc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f12990dc1524004d66875e9a6b8326"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEChannelAssigner.html#a12f12990dc1524004d66875e9a6b8326">MPEChannelAssigner</a> (<a class="el" href="classRange.html">Range</a>&lt; int &gt; channelRange=<a class="el" href="classRange.html">Range</a>&lt; int &gt;(1, 17))</td></tr>
+<tr class="memdesc:a12f12990dc1524004d66875e9a6b8326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Legacy mode constructor.  <a href="#a12f12990dc1524004d66875e9a6b8326">More...</a><br/></td></tr>
+<tr class="separator:a12f12990dc1524004d66875e9a6b8326"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac27c3b488becccb99f03a162741af9ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPEChannelAssigner.html#ac27c3b488becccb99f03a162741af9ff">findMidiChannelForNewNote</a> (int noteNumber) noexcept</td></tr>
 <tr class="memdesc:ac27c3b488becccb99f03a162741af9ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method will use a set of rules recommended in the MPE specification to determine which member channel the specified MIDI note should be assigned to and will return this channel number.  <a href="#ac27c3b488becccb99f03a162741af9ff">More...</a><br/></td></tr>
 <tr class="separator:ac27c3b488becccb99f03a162741af9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,6 +131,26 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
+<p>This will assign channels within the range of the specified MPE zone. </p>
+
+</div>
+</div>
+<a class="anchor" id="a12f12990dc1524004d66875e9a6b8326"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MPEChannelAssigner::MPEChannelAssigner </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRange.html">Range</a>&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>channelRange</em> = <code><a class="el" href="classRange.html">Range</a>&lt;&#160;int&#160;&gt;(1,&#160;17)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Legacy mode constructor. </p>
+<p>This will assign channels within the specified range. </p>
 
 </div>
 </div>
@@ -212,7 +235,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 25 2018 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 27 2018 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

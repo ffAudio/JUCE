@@ -75,6 +75,7 @@ var searchData=
   ['scopedpointer_3c_20mouseinputsource_3a_3asourcelist_20_3e',['ScopedPointer&lt; MouseInputSource::SourceList &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20mouselistener_20_3e',['ScopedPointer&lt; MouseListener &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20mpeinstrument_20_3e',['ScopedPointer&lt; MPEInstrument &gt;',['../classScopedPointer.html',1,'']]],
+  ['scopedpointer_3c_20mpezonelayout_3a_3azone_20_3e',['ScopedPointer&lt; MPEZoneLayout::Zone &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20multipleinstancehandler_20_3e',['ScopedPointer&lt; MultipleInstanceHandler &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20namedpipe_20_3e',['ScopedPointer&lt; NamedPipe &gt;',['../classScopedPointer.html',1,'']]],
   ['scopedpointer_3c_20oscbundle_20_3e',['ScopedPointer&lt; OSCBundle &gt;',['../classScopedPointer.html',1,'']]],

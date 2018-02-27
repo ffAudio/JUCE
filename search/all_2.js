@@ -549,7 +549,7 @@ var searchData=
   ['createscrollbarcomponent',['createScrollBarComponent',['../classViewport.html#a57af535a8090937506f0983ee4e7e012',1,'Viewport']]],
   ['createshortcut',['createShortcut',['../classFile.html#afa0b11b5ec08ab3842d7117975c295a0',1,'File']]],
   ['createsliderbutton',['createSliderButton',['../classLookAndFeel__V1.html#a8cdceb9e653caf7ef0ecfe106e8d47ec',1,'LookAndFeel_V1::createSliderButton()'],['../classLookAndFeel__V2.html#aa65e595f2058a2ac3d38394653efa137',1,'LookAndFeel_V2::createSliderButton()'],['../structSlider_1_1LookAndFeelMethods.html#a9b84363e304b319807991b7f59c6b06e',1,'Slider::LookAndFeelMethods::createSliderButton()']]],
-  ['createslidertextbox',['createSliderTextBox',['../classLookAndFeel__V2.html#ac70ab8e20f4b27f5c9c7ac3fec5c3ce9',1,'LookAndFeel_V2::createSliderTextBox()'],['../structSlider_1_1LookAndFeelMethods.html#a6d5aba1db39aa6669f090efc120dfc6c',1,'Slider::LookAndFeelMethods::createSliderTextBox()']]],
+  ['createslidertextbox',['createSliderTextBox',['../classLookAndFeel__V2.html#ac70ab8e20f4b27f5c9c7ac3fec5c3ce9',1,'LookAndFeel_V2::createSliderTextBox()'],['../classLookAndFeel__V4.html#ab08d5aa50750b1989c99a052073f96b1',1,'LookAndFeel_V4::createSliderTextBox()'],['../structSlider_1_1LookAndFeelMethods.html#a6d5aba1db39aa6669f090efc120dfc6c',1,'Slider::LookAndFeelMethods::createSliderTextBox()']]],
   ['createsnapshotofrows',['createSnapshotOfRows',['../classListBox.html#a637da264f6371f1883c308ea6708c176',1,'ListBox']]],
   ['createsolidareamask',['createSolidAreaMask',['../classImage.html#ab908ba678a35f9df7d6d6093346768b3',1,'Image']]],
   ['createstatexml',['createStateXml',['../classAudioDeviceManager.html#abb846b502125744f4ea04f06cde5d92c',1,'AudioDeviceManager']]],

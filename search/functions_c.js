@@ -156,7 +156,7 @@ var searchData=
   ['movetofrontofqueue',['moveToFrontOfQueue',['../classTimeSliceThread.html#a690e5733cc918dcad9d9e4d98f2326f5',1,'TimeSliceThread']]],
   ['movetotrash',['moveToTrash',['../classFile.html#ad5657b8a600ed241a204656811c9522f',1,'File']]],
   ['mp3audioformat',['MP3AudioFormat',['../classMP3AudioFormat.html#a886e1c528284a83a2a74974038617441',1,'MP3AudioFormat']]],
-  ['mpechannelassigner',['MPEChannelAssigner',['../classMPEChannelAssigner.html#a18f73a2c8962e955c6b18d9f4e82edc2',1,'MPEChannelAssigner']]],
+  ['mpechannelassigner',['MPEChannelAssigner',['../classMPEChannelAssigner.html#a18f73a2c8962e955c6b18d9f4e82edc2',1,'MPEChannelAssigner::MPEChannelAssigner(MPEZoneLayout::Zone zoneToUse)'],['../classMPEChannelAssigner.html#a12f12990dc1524004d66875e9a6b8326',1,'MPEChannelAssigner::MPEChannelAssigner(Range&lt; int &gt; channelRange=Range&lt; int &gt;(1, 17))']]],
   ['mpechannelremapper',['MPEChannelRemapper',['../classMPEChannelRemapper.html#a2d2521ba25d69b76dd9a725435ea3d27',1,'MPEChannelRemapper']]],
   ['mpeinstrument',['MPEInstrument',['../classMPEInstrument.html#aed3c547de933e6e5c2a254bf4dea79f7',1,'MPEInstrument']]],
   ['mpenote',['MPENote',['../structMPENote.html#af1c2cff864c387bedf8ec5c06e5a8660',1,'MPENote::MPENote(int midiChannel, int initialNote, MPEValue velocity, MPEValue pitchbend, MPEValue pressure, MPEValue timbre, KeyState keyState=MPENote::keyDown) noexcept'],['../structMPENote.html#ae7a1417b7ed74b278e1ba3787e24aa59',1,'MPENote::MPENote() noexcept']]],
