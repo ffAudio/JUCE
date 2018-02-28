@@ -1256,7 +1256,7 @@ var searchData=
   ['gettextboxheight',['getTextBoxHeight',['../classSlider.html#a8258ee0e1222f3e02a696243a3468578',1,'Slider']]],
   ['gettextboxposition',['getTextBoxPosition',['../classSlider.html#a6910e59cbc2aa25a8499a9c7e6593bb1',1,'Slider']]],
   ['gettextboxwidth',['getTextBoxWidth',['../classSlider.html#aaa9719f67d8c819957a5262f2430c4a5',1,'Slider']]],
-  ['gettextbuttonfont',['getTextButtonFont',['../structButton_1_1LookAndFeelMethods.html#a6733c9a1d59cea5a0fc45054beb44b1b',1,'Button::LookAndFeelMethods::getTextButtonFont()'],['../classLookAndFeel__V2.html#a256b261cab5ddb423432701fd65848db',1,'LookAndFeel_V2::getTextButtonFont()']]],
+  ['gettextbuttonfont',['getTextButtonFont',['../structButton_1_1LookAndFeelMethods.html#a6733c9a1d59cea5a0fc45054beb44b1b',1,'Button::LookAndFeelMethods::getTextButtonFont()'],['../classLookAndFeel__V2.html#a256b261cab5ddb423432701fd65848db',1,'LookAndFeel_V2::getTextButtonFont()'],['../classLookAndFeel__V4.html#a74afbc74da0036ed8eae41dfc6a2fd85',1,'LookAndFeel_V4::getTextButtonFont()']]],
   ['gettextbuttonwidthtofittext',['getTextButtonWidthToFitText',['../structButton_1_1LookAndFeelMethods.html#a80e1caa329bc236e08955069ba6164f4',1,'Button::LookAndFeelMethods::getTextButtonWidthToFitText()'],['../classLookAndFeel__V2.html#ac504ed7063a8213b539e973e456d06b3',1,'LookAndFeel_V2::getTextButtonWidthToFitText()']]],
   ['gettextcharacter',['getTextCharacter',['../classKeyPress.html#acc9672e1abfbb01f150b3282775c71fd',1,'KeyPress']]],
   ['gettextdescription',['getTextDescription',['../classKeyPress.html#a551a1ee0911f6d73d176848f8cbfd3a8',1,'KeyPress']]],

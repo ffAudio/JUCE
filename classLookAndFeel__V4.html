@@ -126,6 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af6109f315e0fdb0dee0b448ba60a765c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbf663aed00220d7b0ad7be834167cbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V4.html#afbf663aed00220d7b0ad7be834167cbc">drawDocumentWindowTitleBar</a> (<a class="el" href="classDocumentWindow.html">DocumentWindow</a> &amp;, <a class="el" href="classGraphics.html">Graphics</a> &amp;, int, int, int, int, const <a class="el" href="classImage.html">Image</a> *, bool) override</td></tr>
 <tr class="separator:afbf663aed00220d7b0ad7be834167cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74afbc74da0036ed8eae41dfc6a2fd85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V4.html#a74afbc74da0036ed8eae41dfc6a2fd85">getTextButtonFont</a> (<a class="el" href="classTextButton.html">TextButton</a> &amp;, int buttonHeight) override</td></tr>
+<tr class="separator:a74afbc74da0036ed8eae41dfc6a2fd85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad827d717c7b40977dfb744f567c73b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V4.html#ad827d717c7b40977dfb744f567c73b83">drawButtonBackground</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classButton.html">Button</a> &amp;, const <a class="el" href="classColour.html">Colour</a> &amp;backgroundColour, bool isMouseOverButton, bool isButtonDown) override</td></tr>
 <tr class="separator:ad827d717c7b40977dfb744f567c73b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a49c39a65ce4d2ce45800318fc3ae4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V4.html#a9a49c39a65ce4d2ce45800318fc3ae4c">drawToggleButton</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classToggleButton.html">ToggleButton</a> &amp;, bool isMouseOverButton, bool isButtonDown) override</td></tr>
@@ -259,8 +261,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a69781385359c670cb1be66681121ad08 inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1af641a8961544caac001032bd73f70 inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#af1af641a8961544caac001032bd73f70">~LookAndFeel_V2</a> ()</td></tr>
 <tr class="separator:af1af641a8961544caac001032bd73f70 inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a256b261cab5ddb423432701fd65848db inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#a256b261cab5ddb423432701fd65848db">getTextButtonFont</a> (<a class="el" href="classTextButton.html">TextButton</a> &amp;, int buttonHeight) override</td></tr>
-<tr class="separator:a256b261cab5ddb423432701fd65848db inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc80d6b673590a29f99aab46748a5f93 inherit pub_methods_classLookAndFeel__V2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLookAndFeel__V2.html#afc80d6b673590a29f99aab46748a5f93">drawButtonText</a> (<a class="el" href="classGraphics.html">Graphics</a> &amp;, <a class="el" href="classTextButton.html">TextButton</a> &amp;, bool isMouseOverButton, bool isButtonDown) override</td></tr>
 <tr class="memdesc:afc80d6b673590a29f99aab46748a5f93 inherit pub_methods_classLookAndFeel__V2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the text for a <a class="el" href="classTextButton.html" title="A button that uses the standard lozenge-shaped background with a line of text on it. ">TextButton</a>.  <a href="#afc80d6b673590a29f99aab46748a5f93">More...</a><br/></td></tr>
 <tr class="separator:afc80d6b673590a29f99aab46748a5f93 inherit pub_methods_classLookAndFeel__V2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -911,6 +911,42 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classLookAndFeel__V2.html#ad17321be41d9e309fb444cb9879c3ecb">LookAndFeel_V2</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74afbc74da0036ed8eae41dfc6a2fd85"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFont.html">Font</a> LookAndFeel_V4::getTextButtonFont </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classTextButton.html">TextButton</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>buttonHeight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classLookAndFeel__V2.html#a256b261cab5ddb423432701fd65848db">LookAndFeel_V2</a>.</p>
 
 </div>
 </div>
@@ -3166,7 +3202,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 27 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 28 2018 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
