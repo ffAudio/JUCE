@@ -79,6 +79,7 @@ var searchData=
   ['withpointheight',['withPointHeight',['../classFont.html#a88283e79e56f4ec57dfe66f174996f2f',1,'Font']]],
   ['withposition',['withPosition',['../classRectangle.html#a01440bb20c425e8be7b58bd60a0c164f',1,'Rectangle::withPosition(ValueType newX, ValueType newY) const noexcept'],['../classRectangle.html#a123c1f4aca75177262e896091933c4d0',1,'Rectangle::withPosition(Point&lt; ValueType &gt; newPos) const noexcept']]],
   ['withpostdata',['withPOSTData',['../classURL.html#a9fe9f66a50ff9f6d6d1bcb47ad3ead2a',1,'URL::withPOSTData(const String &amp;postData) const '],['../classURL.html#aa05c89a5f6e5b4b146d0fc17e3676caa',1,'URL::withPOSTData(const MemoryBlock &amp;postData) const ']]],
+  ['withpreferredpopupdirection',['withPreferredPopupDirection',['../classPopupMenu_1_1Options.html#a226bf5a9efa4461714f9b60752b7873c',1,'PopupMenu::Options']]],
   ['withrenamedsymbol',['withRenamedSymbol',['../classExpression.html#a598b92aa6528a3c3d25a54095b0b9595',1,'Expression']]],
   ['withright',['withRight',['../classRectangle.html#a65248df3d4e47bc1f76a3677b881da6b',1,'Rectangle']]],
   ['withrightx',['withRightX',['../classRectangle.html#a8a5e0f62c0550a19a406c0460f9e5c5b',1,'Rectangle']]],

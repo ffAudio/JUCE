@@ -222,6 +222,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a18ed7a67fa5a0641939c03a1186655d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25a885450775c67139b9305663969d14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrollBar.html#a25a885450775c67139b9305663969d14">parentHierarchyChanged</a> () override</td></tr>
 <tr class="separator:a25a885450775c67139b9305663969d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea44388211e76c21ee4a625ec217d41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScrollBar.html#a5ea44388211e76c21ee4a625ec217d41">setVisible</a> (bool) override</td></tr>
+<tr class="separator:a5ea44388211e76c21ee4a625ec217d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classComponent"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classComponent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classComponent.html">Component</a></td></tr>
 <tr class="memitem:a5ee1827aaa22388d22da5200b70eeeee inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a5ee1827aaa22388d22da5200b70eeeee">Component</a> () noexcept</td></tr>
 <tr class="memdesc:a5ee1827aaa22388d22da5200b70eeeee inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a component.  <a href="#a5ee1827aaa22388d22da5200b70eeeee">More...</a><br/></td></tr>
@@ -244,9 +246,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac41c215031a087064add6d3a180abd1d inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ac41c215031a087064add6d3a180abd1d">setComponentID</a> (const <a class="el" href="classString.html">String</a> &amp;newID)</td></tr>
 <tr class="memdesc:ac41c215031a087064add6d3a180abd1d inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the component's ID string.  <a href="#ac41c215031a087064add6d3a180abd1d">More...</a><br/></td></tr>
 <tr class="separator:ac41c215031a087064add6d3a180abd1d inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8483af6fe4dc3254e7176df0d8e9f7a inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#ac8483af6fe4dc3254e7176df0d8e9f7a">setVisible</a> (bool shouldBeVisible)</td></tr>
-<tr class="memdesc:ac8483af6fe4dc3254e7176df0d8e9f7a inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the component visible or invisible.  <a href="#ac8483af6fe4dc3254e7176df0d8e9f7a">More...</a><br/></td></tr>
-<tr class="separator:ac8483af6fe4dc3254e7176df0d8e9f7a inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ffb3de137ac4028e430a445c62a2d01 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7ffb3de137ac4028e430a445c62a2d01">isVisible</a> () const noexcept</td></tr>
 <tr class="memdesc:a7ffb3de137ac4028e430a445c62a2d01 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests whether the component is visible or not.  <a href="#a7ffb3de137ac4028e430a445c62a2d01">More...</a><br/></td></tr>
 <tr class="separator:a7ffb3de137ac4028e430a445c62a2d01 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1796,13 +1795,39 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5ea44388211e76c21ee4a625ec217d41"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ScrollBar::setVisible </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classComponent.html#ac8483af6fe4dc3254e7176df0d8e9f7a">Component</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__ScrollBar_8h.html">juce_ScrollBar.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 2 2018 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 3 2018 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

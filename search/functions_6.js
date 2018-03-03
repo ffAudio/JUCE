@@ -1029,6 +1029,7 @@ var searchData=
   ['getpostdata',['getPostData',['../classURL.html#a2c57f1efe99673bf051999f41bc4ef74',1,'URL']]],
   ['getpostdataasmemoryblock',['getPostDataAsMemoryBlock',['../classURL.html#a6df9b7070b2b92fe20371d649b87d6c7',1,'URL']]],
   ['getpreferredheight',['getPreferredHeight',['../classPropertyComponent.html#a733270fac94b39b4db089d79c71a66cf',1,'PropertyComponent']]],
+  ['getpreferredpopupdirection',['getPreferredPopupDirection',['../classPopupMenu_1_1Options.html#acd702402ea0ebd4c62bbf072709dbfe4',1,'PopupMenu::Options']]],
   ['getpreviewcomponent',['getPreviewComponent',['../classFileBrowserComponent.html#a163416d7506eee6741d86f08b9691e82',1,'FileBrowserComponent']]],
   ['getpreviouscomponent',['getPreviousComponent',['../classKeyboardFocusTraverser.html#ab452631402fb9031651434f2e94b252c',1,'KeyboardFocusTraverser']]],
   ['getprocessingprecision',['getProcessingPrecision',['../classAudioProcessor.html#a431488bcce04de3caf9f873fe0efbb92',1,'AudioProcessor']]],
