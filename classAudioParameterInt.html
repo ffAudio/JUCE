@@ -103,9 +103,9 @@ Inheritance diagram for AudioParameterInt:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaa34ef972ce508f86d8f637da0d221a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioParameterInt.html#aaa34ef972ce508f86d8f637da0d221a7">AudioParameterInt</a> (const <a class="el" href="classString.html">String</a> &amp;parameterID, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classAudioProcessorParameterWithID.html#a26e3f108f8a3fabf92bb942518f9fd39">name</a>, int minValue, int maxValue, int defaultValue, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classAudioProcessorParameterWithID.html#ac9e5aa7e602b64e78fda51972375579c">label</a>=<a class="el" href="classString.html">String</a>())</td></tr>
-<tr class="memdesc:aaa34ef972ce508f86d8f637da0d221a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range...">AudioParameterInt</a> with an ID, name, and range.  <a href="#aaa34ef972ce508f86d8f637da0d221a7">More...</a><br/></td></tr>
-<tr class="separator:aaa34ef972ce508f86d8f637da0d221a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d8f5e2391f321c5ec73336138a8b3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioParameterInt.html#ac5d8f5e2391f321c5ec73336138a8b3d">AudioParameterInt</a> (const <a class="el" href="classString.html">String</a> &amp;parameterID, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classAudioProcessorParameterWithID.html#a26e3f108f8a3fabf92bb942518f9fd39">name</a>, int minValue, int maxValue, int defaultValue, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classAudioProcessorParameterWithID.html#ac9e5aa7e602b64e78fda51972375579c">label</a>=<a class="el" href="classString.html">String</a>(), <a class="el" href="classstd_1_1function.html">std::function</a>&lt; <a class="el" href="classString.html">String</a>(int <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>, int maximumStringLength)&gt; stringFromInt=nullptr, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; int(const <a class="el" href="classString.html">String</a> &amp;text)&gt; intFromString=nullptr)</td></tr>
+<tr class="memdesc:ac5d8f5e2391f321c5ec73336138a8b3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range...">AudioParameterInt</a> with the specified parameters.  <a href="#ac5d8f5e2391f321c5ec73336138a8b3d">More...</a><br/></td></tr>
+<tr class="separator:ac5d8f5e2391f321c5ec73336138a8b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee8b27577a16bb86b82502a0f5b146c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioParameterInt.html#aee8b27577a16bb86b82502a0f5b146c1">~AudioParameterInt</a> ()</td></tr>
 <tr class="memdesc:aee8b27577a16bb86b82502a0f5b146c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aee8b27577a16bb86b82502a0f5b146c1">More...</a><br/></td></tr>
 <tr class="separator:aee8b27577a16bb86b82502a0f5b146c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,7 +218,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>Provides a class of <a class="el" href="classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor. ">AudioProcessorParameter</a> that can be used as an integer value with a given range. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto...">AudioParameterFloat</a>, <a class="el" href="classAudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. ">AudioParameterBool</a>, <a class="el" href="classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. ">AudioParameterChoice</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaa34ef972ce508f86d8f637da0d221a7"></a>
+<a class="anchor" id="ac5d8f5e2391f321c5ec73336138a8b3d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -256,7 +256,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>label</em> = <code><a class="el" href="classString.html">String</a>()</code>&#160;</td>
+          <td class="paramname"><em>label</em> = <code><a class="el" href="classString.html">String</a>()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; <a class="el" href="classString.html">String</a>(int <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>, int maximumStringLength)&gt;&#160;</td>
+          <td class="paramname"><em>stringFromInt</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; int(const <a class="el" href="classString.html">String</a> &amp;text)&gt;&#160;</td>
+          <td class="paramname"><em>intFromString</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -266,8 +278,20 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates an <a class="el" href="classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range...">AudioParameterInt</a> with an ID, name, and range. </p>
-<p>Note that the min and max range values are inclusive. On creation, its value is set to the default value. </p>
+<p>Creates a <a class="el" href="classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range...">AudioParameterInt</a> with the specified parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameterID</td><td>The parameter ID to use </td></tr>
+    <tr><td class="paramname">name</td><td>The parameter name to use </td></tr>
+    <tr><td class="paramname">minValue</td><td>The minimum parameter value </td></tr>
+    <tr><td class="paramname">maxValue</td><td>The maximum parameter value </td></tr>
+    <tr><td class="paramname">defaultValue</td><td>The default value </td></tr>
+    <tr><td class="paramname">label</td><td>An optional label for the parameter's value </td></tr>
+    <tr><td class="paramname">stringFromInt</td><td>An optional lambda function that converts a int value to a string with a maximum length. This may be used by hosts to display the parameter's value. </td></tr>
+    <tr><td class="paramname">intFromString</td><td>An optional lambda function that parses a string and converts it into an int. Some hosts use this to allow users to type in parameter values. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -417,7 +441,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 6 2018 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 7 2018 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

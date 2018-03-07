@@ -104,9 +104,9 @@ Inheritance diagram for AudioParameterChoice:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6f5b50a043daa33f66d6807147c7b73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioParameterChoice.html#ad6f5b50a043daa33f66d6807147c7b73">AudioParameterChoice</a> (const <a class="el" href="classString.html">String</a> &amp;parameterID, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classAudioProcessorParameterWithID.html#a26e3f108f8a3fabf92bb942518f9fd39">name</a>, const <a class="el" href="classStringArray.html">StringArray</a> &amp;<a class="el" href="classAudioParameterChoice.html#afbeec68d8f56cf4cde23c1b615699b9f">choices</a>, int defaultItemIndex, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classAudioProcessorParameterWithID.html#ac9e5aa7e602b64e78fda51972375579c">label</a>=<a class="el" href="classString.html">String</a>())</td></tr>
-<tr class="memdesc:ad6f5b50a043daa33f66d6807147c7b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. ">AudioParameterChoice</a> with an ID, name, and list of items.  <a href="#ad6f5b50a043daa33f66d6807147c7b73">More...</a><br/></td></tr>
-<tr class="separator:ad6f5b50a043daa33f66d6807147c7b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eca22ba073a2d4ab605e4b139455e6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioParameterChoice.html#a3eca22ba073a2d4ab605e4b139455e6d">AudioParameterChoice</a> (const <a class="el" href="classString.html">String</a> &amp;parameterID, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classAudioProcessorParameterWithID.html#a26e3f108f8a3fabf92bb942518f9fd39">name</a>, const <a class="el" href="classStringArray.html">StringArray</a> &amp;<a class="el" href="classAudioParameterChoice.html#afbeec68d8f56cf4cde23c1b615699b9f">choices</a>, int defaultItemIndex, const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="classAudioProcessorParameterWithID.html#ac9e5aa7e602b64e78fda51972375579c">label</a>=<a class="el" href="classString.html">String</a>(), <a class="el" href="classstd_1_1function.html">std::function</a>&lt; <a class="el" href="classString.html">String</a>(int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>, int maximumStringLength)&gt; stringFromIndex=nullptr, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; int(const <a class="el" href="classString.html">String</a> &amp;text)&gt; indexFromString=nullptr)</td></tr>
+<tr class="memdesc:a3eca22ba073a2d4ab605e4b139455e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. ">AudioParameterChoice</a> with the specified parameters.  <a href="#a3eca22ba073a2d4ab605e4b139455e6d">More...</a><br/></td></tr>
+<tr class="separator:a3eca22ba073a2d4ab605e4b139455e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaecb29355bc6e5db36e077ea4162b64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioParameterChoice.html#abaecb29355bc6e5db36e077ea4162b64">~AudioParameterChoice</a> ()</td></tr>
 <tr class="memdesc:abaecb29355bc6e5db36e077ea4162b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#abaecb29355bc6e5db36e077ea4162b64">More...</a><br/></td></tr>
 <tr class="separator:abaecb29355bc6e5db36e077ea4162b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,7 +225,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>Provides a class of <a class="el" href="classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor. ">AudioProcessorParameter</a> that can be used to select an indexed, named choice from a list. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto...">AudioParameterFloat</a>, <a class="el" href="classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range...">AudioParameterInt</a>, <a class="el" href="classAudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. ">AudioParameterBool</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ad6f5b50a043daa33f66d6807147c7b73"></a>
+<a class="anchor" id="a3eca22ba073a2d4ab605e4b139455e6d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -257,7 +257,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>label</em> = <code><a class="el" href="classString.html">String</a>()</code>&#160;</td>
+          <td class="paramname"><em>label</em> = <code><a class="el" href="classString.html">String</a>()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; <a class="el" href="classString.html">String</a>(int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>, int maximumStringLength)&gt;&#160;</td>
+          <td class="paramname"><em>stringFromIndex</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; int(const <a class="el" href="classString.html">String</a> &amp;text)&gt;&#160;</td>
+          <td class="paramname"><em>indexFromString</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -267,8 +279,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates a <a class="el" href="classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. ">AudioParameterChoice</a> with an ID, name, and list of items. </p>
-<p>On creation, its value is set to the default index. </p>
+<p>Creates a <a class="el" href="classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. ">AudioParameterChoice</a> with the specified parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameterID</td><td>The parameter ID to use </td></tr>
+    <tr><td class="paramname">name</td><td>The parameter name to use </td></tr>
+    <tr><td class="paramname">choices</td><td>The set of choices to use </td></tr>
+    <tr><td class="paramname">defaultItemIndex</td><td>The index of the default choice </td></tr>
+    <tr><td class="paramname">label</td><td>An optional label for the parameter's value </td></tr>
+    <tr><td class="paramname">stringFromIndex</td><td>An optional lambda function that converts a choice index to a string with a maximum length. This may be used by hosts to display the parameter's value. </td></tr>
+    <tr><td class="paramname">indexFromString</td><td>An optional lambda function that parses a string and converts it into a choice index. Some hosts use this to allow users to type in parameter values. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -457,7 +480,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 6 2018 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 7 2018 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
