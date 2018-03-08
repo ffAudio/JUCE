@@ -238,10 +238,10 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Special realtime audio thread priority. </p>
 <p>This priority will create a high-priority thread which is best suited for realtime audio processing.</p>
-<p>Currently, this priority is identical to priority 9, except when building for Android with OpenSL support.</p>
-<p>In this case, JUCE will ask OpenSL to construct a super high priority thread specifically for realtime audio processing.</p>
+<p>Currently, this priority is identical to priority 9, except when building for Android with OpenSL/Oboe support.</p>
+<p>In this case, JUCE will ask OpenSL/Oboe to construct a super high priority thread specifically for realtime audio processing.</p>
 <p>Note that this priority can only be set <b>before</b> the thread has started. Switching to this priority, or from this priority to a different priority, is not supported under Android and will assert.</p>
-<p>For best performance this thread should yield at regular intervals and not call any blocking APIS.</p>
+<p>For best performance this thread should yield at regular intervals and not call any blocking APIs.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classThread.html#a5502205d727c00752f95af27a063d983" title="Starts the thread running. ">startThread</a>, <a class="el" href="classThread.html#a0975d9ee9f403f5f82287fcce4a7168f" title="Changes the thread&#39;s priority. ">setPriority</a>, <a class="el" href="classThread.html#a4ee1ddee32aa82ac90bc567cb7427926">sleep</a>, <a class="el" href="classWaitableEvent.html" title="Allows threads to wait for events triggered by other threads. ">WaitableEvent</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a3081130a2808c6ced150ae9d6e61661ea0ee7fcab9f979f4e867c718460ce5503"></a>realtimeAudioPriority</em>&#160;</td><td class="fielddoc">
@@ -925,7 +925,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 7 2018 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Mar 8 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

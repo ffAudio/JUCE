@@ -332,6 +332,7 @@ var searchData=
   ['createaudioiodevicetype_5fdirectsound',['createAudioIODeviceType_DirectSound',['../classAudioIODeviceType.html#a1630530b154ab8eeb0458d156d9f07cc',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fiosaudio',['createAudioIODeviceType_iOSAudio',['../classAudioIODeviceType.html#ac58ef81494ae91347abce612447f93df',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fjack',['createAudioIODeviceType_JACK',['../classAudioIODeviceType.html#a2b3643c9616a0f6b1c216b43576966bc',1,'AudioIODeviceType']]],
+  ['createaudioiodevicetype_5foboe',['createAudioIODeviceType_Oboe',['../classAudioIODeviceType.html#a5a8d32f10d13bf505f39ba37f7d9b1b7',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fopensles',['createAudioIODeviceType_OpenSLES',['../classAudioIODeviceType.html#a9e2c88b78be45c3dd3cda93f6c2dd30a',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fwasapi',['createAudioIODeviceType_WASAPI',['../classAudioIODeviceType.html#a941ad4701a3c6650cdd4eca391c6f71d',1,'AudioIODeviceType']]],
   ['createbwavmetadata',['createBWAVMetadata',['../classWavAudioFormat.html#af39c0f3786cc1fea9b8c502a7e0a24f7',1,'WavAudioFormat']]],
