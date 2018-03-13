@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['littlefoot',['littlefoot',['../namespacelittlefoot.html',1,'']]]
+  ['standardapplicationcommandids',['StandardApplicationCommandIDs',['../namespaceStandardApplicationCommandIDs.html',1,'']]],
+  ['steinberg',['Steinberg',['../namespaceSteinberg.html',1,'']]]
 ];

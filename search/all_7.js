@@ -253,7 +253,6 @@ var searchData=
   ['heapblock_3c_20size_5ft_20_3e',['HeapBlock&lt; size_t &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20standalonepluginholder_3a_3aplugininouts_20_3e',['HeapBlock&lt; StandalonePluginHolder::PluginInOuts &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20statementptr_20_3e',['HeapBlock&lt; StatementPtr &gt;',['../classHeapBlock.html',1,'']]],
-  ['heapblock_3c_20steinberg_3a_3avst_3a_3aevent_20_3e',['HeapBlock&lt; Steinberg::Vst::Event &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20string_20_3e',['HeapBlock&lt; String &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20swatchcomponent_20_2a_20_3e',['HeapBlock&lt; SwatchComponent * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20synthesisersound_20_2a_20_3e',['HeapBlock&lt; SynthesiserSound * &gt;',['../classHeapBlock.html',1,'']]],

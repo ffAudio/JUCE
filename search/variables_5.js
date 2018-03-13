@@ -56,7 +56,6 @@ var searchData=
   ['float32',['float32',['../classOSCTypes.html#a7c16c05c48b9a0d60e615104c5f99c52',1,'OSCTypes']]],
   ['float_5fpi',['float_Pi',['../group__juce__core-maths.html#gad72991ce1d75b613ea66a31011f661bc',1,'juce_MathsFunctions.h']]],
   ['floatvalue',['floatValue',['../classOSCArgument.html#a06d50d41bc6431efb38f4221eccc5809',1,'OSCArgument']]],
-  ['floatversion',['floatVersion',['../structVST3FloatAndDoubleBusMapComposite.html#a9354fedd5a1aeb3869d72bc13aee3c0b',1,'VST3FloatAndDoubleBusMapComposite']]],
   ['floralwhite',['floralwhite',['../classColours.html#a7b14b831624be80b4520225559ba5253',1,'Colours']]],
   ['folder',['folder',['../structKnownPluginList_1_1PluginTree.html#ac9560e7c8295f7967b7a4f1b62a30d1b',1,'KnownPluginList::PluginTree']]],
   ['foldername',['folderName',['../structPropertiesFile_1_1Options.html#ad5db314e117ec06d23b08aca130500cd',1,'PropertiesFile::Options']]],

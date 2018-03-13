@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['internal',['internal',['../namespaceinternal.html',1,'']]]
+  ['juce',['juce',['../namespacejuce.html',1,'']]]
 ];

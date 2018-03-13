@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['standardapplicationcommandids',['StandardApplicationCommandIDs',['../namespaceStandardApplicationCommandIDs.html',1,'']]],
-  ['steinberg',['Steinberg',['../namespaceSteinberg.html',1,'']]]
+  ['typehelpers',['TypeHelpers',['../namespaceTypeHelpers.html',1,'']]]
 ];

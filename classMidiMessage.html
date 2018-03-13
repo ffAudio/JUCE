@@ -1241,8 +1241,6 @@ template&lt;typename... Data&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>a value 1 to 16 if the message has a channel, or 0 if it hasn't (e.g. if it's a sysex) </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#aaf63f62d38b5174c967164395bf05252" title="Returns true if the message applies to the given midi channel. ">isForChannel</a>, <a class="el" href="classMidiMessage.html#ac35c11dba441d652e70720525cb2dc7f" title="Changes the message&#39;s midi channel. ">setChannel</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aaf63f62d38b5174c967164395bf05252"></a>
@@ -1334,8 +1332,6 @@ template&lt;typename... Data&gt; </div>
 
 <p>Returns true if this is a system-exclusive message. </p>
 
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a473aec9f7d86b602e407e6d488122fd7"></a>
@@ -1363,8 +1359,6 @@ template&lt;typename... Data&gt; </div>
 <p>If this event isn't a sysex event, it'll return 0. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#afb6ff5014531a80589756228fe637aaa" title="Returns the size of the sysex data. ">getSysExDataSize</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="afb6ff5014531a80589756228fe637aaa"></a>
@@ -1391,8 +1385,6 @@ template&lt;typename... Data&gt; </div>
 <p>Returns the size of the sysex data. </p>
 <p>This value excludes the 0xf0 header byte and the 0xf7 at the end. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a473aec9f7d86b602e407e6d488122fd7" title="Returns a pointer to the sysex data inside the message. ">getSysExData</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
 
 </div>
 </div>
@@ -1426,8 +1418,6 @@ template&lt;typename... Data&gt; </div>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#af66814dee34738882ba39d8796b77be0" title="Returns true if this message is a &#39;key-up&#39; event. ">isNoteOff</a>, <a class="el" href="classMidiMessage.html#a6a5f965e98254fb026c5a20b64edcbc1" title="Returns the midi note number for note-on and note-off messages. ">getNoteNumber</a>, <a class="el" href="classMidiMessage.html#ad5483775a661b2176687303bc9c8aac6" title="Returns the velocity of a note-on or note-off message. ">getVelocity</a>, <a class="el" href="classMidiMessage.html#a24e09d2737c08842a6e4902554d2899c" title="Creates a key-down message (using a floating-point velocity). ">noteOn</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
 
 </div>
 </div>
@@ -1479,8 +1469,6 @@ template&lt;typename... Data&gt; </div>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a590da92c0536e23f9d3c90c99278d789" title="Returns true if this message is a &#39;key-down&#39; event. ">isNoteOn</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>, and <a class="el" href="classMidiEventList.html#af1d1f8795ab050fc213aa84f97130d23">MidiEventList::toMidiBuffer()</a>.</p>
 
 </div>
 </div>
@@ -1561,8 +1549,6 @@ template&lt;typename... Data&gt; </div>
 <p>If returnTrueForNoteOnVelocity0 is true, then his will also return true for a note-on event with a velocity of 0.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a590da92c0536e23f9d3c90c99278d789" title="Returns true if this message is a &#39;key-down&#39; event. ">isNoteOn</a>, <a class="el" href="classMidiMessage.html#a6a5f965e98254fb026c5a20b64edcbc1" title="Returns the midi note number for note-on and note-off messages. ">getNoteNumber</a>, <a class="el" href="classMidiMessage.html#ad5483775a661b2176687303bc9c8aac6" title="Returns the velocity of a note-on or note-off message. ">getVelocity</a>, <a class="el" href="classMidiMessage.html#a8f2c46b2cf557f4e4f55174a68915587" title="Creates a key-up message. ">noteOff</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a8f2c46b2cf557f4e4f55174a68915587"></a>
@@ -1613,8 +1599,6 @@ template&lt;typename... Data&gt; </div>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#af66814dee34738882ba39d8796b77be0" title="Returns true if this message is a &#39;key-up&#39; event. ">isNoteOff</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classMidiEventList.html#af1d1f8795ab050fc213aa84f97130d23">MidiEventList::toMidiBuffer()</a>.</p>
 
 </div>
 </div>
@@ -1764,8 +1748,6 @@ template&lt;typename... Data&gt; </div>
 <p>If the message isn't a note-on or off, the value returned is undefined. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#af66814dee34738882ba39d8796b77be0" title="Returns true if this message is a &#39;key-up&#39; event. ">isNoteOff</a>, <a class="el" href="classMidiMessage.html#aff9cacd221a092d203249a2c7435d9dc" title="Returns the name of a midi note number. ">getMidiNoteName</a>, <a class="el" href="classMidiMessage.html#adad1aabd89993498baf26fc17ef1ff72" title="Returns the frequency of a midi note number. ">getMidiNoteInHertz</a>, <a class="el" href="classMidiMessage.html#a47583c88bed0ca4b30b0f86bc2afb48c" title="Changes the midi note number of a note-on or note-off message. ">setNoteNumber</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a47583c88bed0ca4b30b0f86bc2afb48c"></a>
@@ -1819,8 +1801,6 @@ template&lt;typename... Data&gt; </div>
 <p>Returns the velocity of a note-on or note-off message. </p>
 <p>The value returned will be in the range 0 to 127. If the message isn't a note-on or off event, it will return 0.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a07210a8a79ef89e079be89ad6e1b98ae" title="Returns the velocity of a note-on or note-off message. ">getFloatVelocity</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
 
 </div>
 </div>
@@ -2288,8 +2268,6 @@ template&lt;typename... Data&gt; </div>
 <p>For aftertouch events, use the <a class="el" href="classMidiMessage.html#a6a5f965e98254fb026c5a20b64edcbc1" title="Returns the midi note number for note-on and note-off messages. ">getNoteNumber()</a> method to find out the key that it applies to, and getAftertouchValue() to find out the amount. Use <a class="el" href="classMidiMessage.html#a7d681b7417c52d29cb73c108ca2a83b7" title="Returns the midi channel associated with the message. ">getChannel()</a> to find out the channel.</p>
 <dl class="section see"><dt>See Also</dt><dd>getAftertouchValue, <a class="el" href="classMidiMessage.html#a6a5f965e98254fb026c5a20b64edcbc1" title="Returns the midi note number for note-on and note-off messages. ">getNoteNumber</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a623eb143fab4c07d18106c8e4e40316f"></a>
@@ -2316,8 +2294,6 @@ template&lt;typename... Data&gt; </div>
 <p>Returns the amount of aftertouch from an aftertouch messages. </p>
 <p>The value returned is in the range 0 to 127, and will be nonsense for messages other than aftertouch messages.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a08acde3017ba958b404f1b5e191c88e6" title="Returns true if the message is an aftertouch event. ">isAftertouch</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classMidiEventList.html#a9108b044536cf05b165390116718d398">MidiEventList::toEventList()</a>.</p>
 
 </div>
 </div>
@@ -2369,8 +2345,6 @@ template&lt;typename... Data&gt; </div>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiMessage.html#a08acde3017ba958b404f1b5e191c88e6" title="Returns true if the message is an aftertouch event. ">isAftertouch</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classMidiEventList.html#af1d1f8795ab050fc213aa84f97130d23">MidiEventList::toMidiBuffer()</a>.</p>
 
 </div>
 </div>
@@ -4326,8 +4300,6 @@ template&lt;typename... Data&gt; </div>
 <p>Creates a system-exclusive message. </p>
 <p>The data passed in is wrapped with header and tail bytes of 0xf0 and 0xf7. </p>
 
-<p>Referenced by <a class="el" href="classMidiEventList.html#af1d1f8795ab050fc213aa84f97130d23">MidiEventList::toMidiBuffer()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a7a9fc08ca4beba20e50afaf91c0c316b"></a>
@@ -4715,7 +4687,7 @@ template&lt;typename... Data&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 10 2018 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 13 2018 01:01:01 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
