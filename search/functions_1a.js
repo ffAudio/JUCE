@@ -474,6 +474,7 @@ var searchData=
   ['_7eunittest',['~UnitTest',['../classUnitTest.html#a5a57054084ce200e1e92ff3eecc8420a',1,'UnitTest']]],
   ['_7eunittestrunner',['~UnitTestRunner',['../classUnitTestRunner.html#a2db85705913aaee06dd1de0dc701bb48',1,'UnitTestRunner']]],
   ['_7eurl',['~URL',['../classURL.html#a127152050325ba77075f00ee2630c33c',1,'URL']]],
+  ['_7eurlinputsource',['~URLInputSource',['../classURLInputSource.html#a66591f6547adc1d9da4a7783cc415c05',1,'URLInputSource']]],
   ['_7euuid',['~Uuid',['../classUuid.html#a1309dbbf8098e9e2fe9a1019d5546d49',1,'Uuid']]],
   ['_7evalue',['~Value',['../classValue.html#a3a578f458da8a4ab67052dba0f7bffdd',1,'Value']]],
   ['_7evaluesource',['~ValueSource',['../classValue_1_1ValueSource.html#a4d52ea8cc66d29d25449726557c7c4a8',1,'Value::ValueSource']]],

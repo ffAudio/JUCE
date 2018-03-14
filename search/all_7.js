@@ -93,7 +93,7 @@ var searchData=
   ['hasfileextension',['hasFileExtension',['../classFile.html#ac6020c20cb04f00bd0b5aa00926ab1fb',1,'File']]],
   ['hash',['hash',['../classString.html#a317bebf3259d5fefa6a2558b65ae2f77',1,'String']]],
   ['hash_3c_20juce_3a_3astring_20_3e',['hash&lt; juce::String &gt;',['../structstd_1_1hash_3_01juce_1_1String_01_4.html',1,'std']]],
-  ['hashcode',['hashCode',['../classFile.html#a990e6e4a166c52186b69f572c4dfc328',1,'File::hashCode()'],['../classFileInputSource.html#ad502d2d89937525cce7179cee2104be8',1,'FileInputSource::hashCode()'],['../classInputSource.html#a1fe754d44724da8eaef055c496ca4140',1,'InputSource::hashCode()'],['../classString.html#ad8ca5cb11984df03ff9697442da5ae4b',1,'String::hashCode()']]],
+  ['hashcode',['hashCode',['../classFile.html#a990e6e4a166c52186b69f572c4dfc328',1,'File::hashCode()'],['../classFileInputSource.html#ad502d2d89937525cce7179cee2104be8',1,'FileInputSource::hashCode()'],['../classInputSource.html#a1fe754d44724da8eaef055c496ca4140',1,'InputSource::hashCode()'],['../classURLInputSource.html#a46f1f80f25a217ecdf36f9294d677649',1,'URLInputSource::hashCode()'],['../classString.html#ad8ca5cb11984df03ff9697442da5ae4b',1,'String::hashCode()']]],
   ['hashcode64',['hashCode64',['../classFile.html#a0584182ef19bf00394df96731bceaa8f',1,'File::hashCode64()'],['../classString.html#ad71be66a9c181abae185b84f7cec5f17',1,'String::hashCode64()']]],
   ['hashmap',['HashMap',['../classHashMap.html',1,'HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;'],['../classHashMap.html#a4d6d41cfc524ccc0a73f0251d7fc1fab',1,'HashMap::HashMap()']]],
   ['hasidenticalcontentto',['hasIdenticalContentTo',['../classFile.html#ae8dbcb9e8bbce004d015688840423fa8',1,'File']]],

@@ -509,6 +509,7 @@ var searchData=
   ['juce_5fundomanager_2eh',['juce_UndoManager.h',['../juce__UndoManager_8h.html',1,'']]],
   ['juce_5funittest_2eh',['juce_UnitTest.h',['../juce__UnitTest_8h.html',1,'']]],
   ['juce_5furl_2eh',['juce_URL.h',['../juce__URL_8h.html',1,'']]],
+  ['juce_5furlinputsource_2eh',['juce_URLInputSource.h',['../juce__URLInputSource_8h.html',1,'']]],
   ['juce_5fuuid_2eh',['juce_Uuid.h',['../juce__Uuid_8h.html',1,'']]],
   ['juce_5fvalue_2eh',['juce_Value.h',['../juce__Value_8h.html',1,'']]],
   ['juce_5fvaluetree_2eh',['juce_ValueTree.h',['../juce__ValueTree_8h.html',1,'']]],
