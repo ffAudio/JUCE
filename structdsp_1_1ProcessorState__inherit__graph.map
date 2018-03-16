@@ -1,6 +1,6 @@
 <map id="dsp::ProcessorState" name="dsp::ProcessorState">
 <area shape="rect" id="node3" href="$structdsp_1_1FIR_1_1Coefficients.html" title="A set of coefficients for use in an FIRFilter object. " alt="" coords="438,5,589,46"/>
 <area shape="rect" id="node4" href="$structdsp_1_1IIR_1_1Coefficients.html" title="A set of coefficients for use in an Filter object. " alt="" coords="440,70,587,111"/>
-<area shape="rect" id="node5" href="$structdsp_1_1StateVariableFilter_1_1Parameters.html" title="dsp::StateVariableFilter\l::Parameters\&lt; NumericType \&gt;" alt="" coords="414,135,613,177"/>
+<area shape="rect" id="node5" href="$structdsp_1_1StateVariableFilter_1_1Parameters.html" title="Structure used for the state variable filter parameters. " alt="" coords="414,135,613,177"/>
 <area shape="rect" id="node2" href="$classReferenceCountedObject.html" title="A base class which provides methods for reference&#45;counting. " alt="" coords="6,77,175,104"/>
 </map>

@@ -96,6 +96,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">dsp::StateVariableFilter::Filter&lt; SampleType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>An <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter that can perform low, band and high-pass filtering on an audio signal, with 12 dB of attenuation / octave, using a TPT structure, designed for fast modulation (see Vadim Zavalishin's documentation about TPT structures for more information).  
+ <a href="classdsp_1_1StateVariableFilter_1_1Filter.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -138,7 +141,15 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a126f873f372d6a07eac8b9e11e415218"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parameters of the state variable filter.  <a href="#a126f873f372d6a07eac8b9e11e415218">More...</a><br/></td></tr>
 <tr class="separator:a126f873f372d6a07eac8b9e11e415218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename SampleType&gt;<br/>
+class dsp::StateVariableFilter::Filter&lt; SampleType &gt;</h3>
+
+<p>An <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter that can perform low, band and high-pass filtering on an audio signal, with 12 dB of attenuation / octave, using a TPT structure, designed for fast modulation (see Vadim Zavalishin's documentation about TPT structures for more information). </p>
+<p>Its behaviour is based on the analog state variable filter circuit.</p>
+<p>Note : the bandpass here is not the one in the RBJ CookBook, its gain can be higher than 0 dB. For the classic 0 dB bandpass, we need to multiply the result with R2</p>
+<p>{DSP} </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aaeb54a3b0b57c6edd7ea6d7abe354b59"></a>
 <div class="memitem">
 <div class="memproto">
@@ -426,7 +437,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:20 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

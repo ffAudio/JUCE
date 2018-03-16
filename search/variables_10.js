@@ -13,7 +13,7 @@ var searchData=
   ['resizableborder',['resizableBorder',['../classResizableWindow.html#a4d0b53ec83fe41125b1223bb92171543',1,'ResizableWindow']]],
   ['resizablecorner',['resizableCorner',['../classAudioProcessorEditor.html#a4536ffdc9611050e4f31ce4751e80b3c',1,'AudioProcessorEditor::resizableCorner()'],['../classResizableWindow.html#a99d4f438dba8740a09fbeb832450013f',1,'ResizableWindow::resizableCorner()']]],
   ['returnkey',['returnKey',['../classKeyPress.html#a1cfe46412c3af08250ddc14bfaef1205',1,'KeyPress']]],
-  ['returntype',['returnType',['../structlittlefoot_1_1Compiler_1_1FunctionCall_1_1BuiltInFunction.html#a786dfce31bae401b793957daa7528dda',1,'littlefoot::Compiler::FunctionCall::BuiltInFunction::returnType()'],['../structlittlefoot_1_1NativeFunction.html#a6245162b5c6aa41dcd6c24c64374b644',1,'littlefoot::NativeFunction::returnType()']]],
+  ['returntype',['returnType',['../structlittlefoot_1_1NativeFunction.html#a6245162b5c6aa41dcd6c24c64374b644',1,'littlefoot::NativeFunction']]],
   ['rewindkey',['rewindKey',['../classKeyPress.html#a135d25e32e2493d0e58a61ae3e476121',1,'KeyPress']]],
   ['riffinfoarchivallocation',['riffInfoArchivalLocation',['../classWavAudioFormat.html#aef07aaf5687376d1474c14cec59d8000',1,'WavAudioFormat']]],
   ['riffinfoartist',['riffInfoArtist',['../classWavAudioFormat.html#add4f90364d7839ddcc7a0ce8cb511fc3',1,'WavAudioFormat']]],

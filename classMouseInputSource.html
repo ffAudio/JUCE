@@ -241,7 +241,8 @@ Static Public Attributes</h2></td></tr>
 <div class="textblock"><p>Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch environment. </p>
 <p>Each <a class="el" href="classMouseEvent.html" title="Contains position and status information about a mouse event. ">MouseEvent</a> object contains a reference to the <a class="el" href="classMouseInputSource.html" title="Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch ...">MouseInputSource</a> that generated it. In an environment with a single mouse for input, all events will come from the same source, but in a multi-touch system, there may be multiple <a class="el" href="classMouseInputSource.html" title="Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch ...">MouseInputSource</a> obects active, each representing a stream of events coming from a particular finger.</p>
 <p>Events coming from a single <a class="el" href="classMouseInputSource.html" title="Represents a linear source of mouse events from a mouse device or individual finger in a multi-touch ...">MouseInputSource</a> are always sent in a fixed and predictable order: a mouseMove will never be called without a mouseEnter having been sent beforehand, the only events that can happen between a mouseDown and its corresponding mouseUp are mouseDrags, etc. When there are multiple touches arriving from multiple MouseInputSources, their event streams may arrive in an interleaved order, so you should use the <a class="el" href="classMouseInputSource.html#a5df63eab78bd470bd22d39393b337330" title="Returns this source&#39;s index in the global list of possible sources. ">getIndex()</a> method to find out which finger each event came from.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMouseEvent.html" title="Contains position and status information about a mouse event. ">MouseEvent</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMouseEvent.html" title="Contains position and status information about a mouse event. ">MouseEvent</a></dd></dl>
+<p>{GUI} </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="abbe78de59be271b2b7a2b6d61e4d538b"></a>
 <div class="memitem">
@@ -610,8 +611,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the last-known screen position of this source. </p>
-
-<p>Referenced by <a class="el" href="classFakeMouseMoveGenerator.html#a9b66aec9e060556136c605f018f01786">FakeMouseMoveGenerator::timerCallback()</a>.</p>
 
 </div>
 </div>
@@ -1220,8 +1219,6 @@ Static Public Attributes</h2></td></tr>
 
 <p>A default value for pressure, which is used when a device doesn't support it, or for mouse-moves, mouse-ups, etc. </p>
 
-<p>Referenced by <a class="el" href="classFakeMouseMoveGenerator.html#a9b66aec9e060556136c605f018f01786">FakeMouseMoveGenerator::timerCallback()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="affd13d39e55e3a066a3b20dd477936f1"></a>
@@ -1243,8 +1240,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A default value for orientation, which is used when a device doesn't support it. </p>
-
-<p>Referenced by <a class="el" href="classFakeMouseMoveGenerator.html#a9b66aec9e060556136c605f018f01786">FakeMouseMoveGenerator::timerCallback()</a>.</p>
 
 </div>
 </div>
@@ -1318,7 +1313,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:15 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -240,7 +240,8 @@ class OwnedArray&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;</h3>
 <p>..and then add new objects, e.g. myOwnedArray.add (new MyObjectClass());</p>
 <p>After adding objects, they are 'owned' by the array and will be deleted when removed or replaced.</p>
 <p>To make all the array's methods thread-safe, pass in "CriticalSection" as the templated TypeOfCriticalSectionToUse parameter, instead of the default <a class="el" href="classDummyCriticalSection.html" title="A class that can be used in place of a real CriticalSection object, but which doesn&#39;t perform any loc...">DummyCriticalSection</a>.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject, or which implement basic reference-count...">ReferenceCountedArray</a>, <a class="el" href="classStringArray.html" title="A special array for holding a list of strings. ">StringArray</a>, <a class="el" href="classCriticalSection.html" title="A re-entrant mutex. ">CriticalSection</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject, or which implement basic reference-count...">ReferenceCountedArray</a>, <a class="el" href="classStringArray.html" title="A special array for holding a list of strings. ">StringArray</a>, <a class="el" href="classCriticalSection.html" title="A re-entrant mutex. ">CriticalSection</a></dd></dl>
+<p>{Core} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a3a6262c77a9ca75c746c3d98410ce356"></a>
 <div class="memitem">
@@ -1661,7 +1662,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:15 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

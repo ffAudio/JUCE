@@ -35,7 +35,6 @@ var searchData=
   ['blendpixel',['blendPixel',['../group__LittleFootFunctions.html#gaa188c9f2f741dabc67df9a1b12846f14',1,'juce_LittleFootFunctions.dox']]],
   ['blendrect',['blendRect',['../group__LittleFootFunctions.html#ga31ccd4d5e7a75f964f8b3a2d72ca2753',1,'juce_LittleFootFunctions.dox']]],
   ['block',['Block',['../classBlock.html#a596d7845cc8ff7d29fdc0300bac04203',1,'Block::Block(const juce::String &amp;serialNumberToUse)'],['../classBlock.html#aadfaaed6e3ee5fa3a23469b3d2810d6a',1,'Block::Block(const juce::String &amp;serial, const juce::String &amp;version, const juce::String &amp;name)']]],
-  ['blockdatasheet',['BlockDataSheet',['../structBlocksProtocol_1_1BlockDataSheet.html#a5a6f49e13b0df3c76b163aaac510b7aa',1,'BlocksProtocol::BlockDataSheet']]],
   ['blockreset',['blockReset',['../classBlock.html#abdb64678b86e39075ac3623983cc95bc',1,'Block']]],
   ['blowfish',['BlowFish',['../classBlowFish.html#a7a90652859afaf45194281939e881270',1,'BlowFish::BlowFish(const void *keyData, int keyBytes)'],['../classBlowFish.html#a33f39cf5622a285c351727a64ed1507a',1,'BlowFish::BlowFish(const BlowFish &amp;)']]],
   ['boldened',['boldened',['../classFont.html#a02ac6e93c1de92fdb7959d9367608ea2',1,'Font']]],

@@ -96,6 +96,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">dsp::StateVariableFilter::Parameters&lt; NumericType &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Structure used for the state variable filter parameters.  
+ <a href="structdsp_1_1StateVariableFilter_1_1Parameters.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for dsp::StateVariableFilter::Parameters&lt; NumericType &gt;:</div>
 <div class="dyncontent">
@@ -121,7 +124,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3dabc7ffb25d127e2d2610e41d795b8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#a3dabc7ffb25d127e2d2610e41d795b8b">setCutOffFrequency</a> (double sampleRate, NumericType frequency, NumericType resonance=static_cast&lt; NumericType &gt;(1.0/<a class="el" href="structMathConstants.html">MathConstants</a>&lt; double &gt;::sqrt2)) noexcept</td></tr>
-<tr class="memdesc:a3dabc7ffb25d127e2d2610e41d795b8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the cutoff frequency and resonance of the <a class="el" href="namespacedsp_1_1IIR.html">IIR</a> filter.  <a href="#a3dabc7ffb25d127e2d2610e41d795b8b">More...</a><br/></td></tr>
+<tr class="memdesc:a3dabc7ffb25d127e2d2610e41d795b8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the cutoff frequency and resonance of the <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter.  <a href="#a3dabc7ffb25d127e2d2610e41d795b8b">More...</a><br/></td></tr>
 <tr class="separator:a3dabc7ffb25d127e2d2610e41d795b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07a15039cfa1248081754bd68ebcd49f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#a07a15039cfa1248081754bd68ebcd49f">Parameters</a> ()=default</td></tr>
 <tr class="separator:a07a15039cfa1248081754bd68ebcd49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,7 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab7fc83b0e1d34874de1d376e66536652"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#a87d3f04b51a089f786e2fa24539f7b20">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#ab7fc83b0e1d34874de1d376e66536652">type</a> = <a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#a87d3f04b51a089f786e2fa24539f7b20a30b882e8d16c0cebb115332d4b7652ec">Type::lowPass</a></td></tr>
-<tr class="memdesc:ab7fc83b0e1d34874de1d376e66536652"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the <a class="el" href="namespacedsp_1_1IIR.html">IIR</a> filter.  <a href="#ab7fc83b0e1d34874de1d376e66536652">More...</a><br/></td></tr>
+<tr class="memdesc:ab7fc83b0e1d34874de1d376e66536652"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter.  <a href="#ab7fc83b0e1d34874de1d376e66536652">More...</a><br/></td></tr>
 <tr class="separator:ab7fc83b0e1d34874de1d376e66536652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d09923d67b8d744550343cd38d262c"><td class="memItemLeft" align="right" valign="top">NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#a93d09923d67b8d744550343cd38d262c">g</a> = static_cast&lt;NumericType&gt; (std::tan (<a class="el" href="structMathConstants.html">MathConstants</a>&lt;double&gt;::pi * 200.0 / 44100.0))</td></tr>
 <tr class="separator:a93d09923d67b8d744550343cd38d262c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +183,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a9bbeeab431755e2be8ff09dfe9ea4c4d inherit pro_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the reference count to zero without deleting the object.  <a href="#a9bbeeab431755e2be8ff09dfe9ea4c4d">More...</a><br/></td></tr>
 <tr class="separator:a9bbeeab431755e2be8ff09dfe9ea4c4d inherit pro_methods_classReferenceCountedObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename NumericType&gt;<br/>
+struct dsp::StateVariableFilter::Parameters&lt; NumericType &gt;</h3>
+
+<p>Structure used for the state variable filter parameters. </p>
+<p>{DSP} </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a883899547b9efac697941f90eeecc7da"></a>
 <div class="memitem">
 <div class="memproto">
@@ -313,7 +322,7 @@ template&lt;typename NumericType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the cutoff frequency and resonance of the <a class="el" href="namespacedsp_1_1IIR.html">IIR</a> filter. </p>
+<p>Sets the cutoff frequency and resonance of the <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter. </p>
 <p>Note : the bandwidth of the resonance increases with the value of the parameter. To have a standard 12 dB/octave filter, the value must be set at 1 / sqrt(2). </p>
 
 <p>References <a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#a93d09923d67b8d744550343cd38d262c">dsp::StateVariableFilter::Parameters&lt; NumericType &gt;::g</a>, <a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#a9dc1fa748dc91155adfdb031a00d4733">dsp::StateVariableFilter::Parameters&lt; NumericType &gt;::h</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, and <a class="el" href="structdsp_1_1StateVariableFilter_1_1Parameters.html#a57dd35d631ff6bbca4b35de08e9180bf">dsp::StateVariableFilter::Parameters&lt; NumericType &gt;::R2</a>.</p>
@@ -361,7 +370,7 @@ template&lt;typename NumericType&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The type of the <a class="el" href="namespacedsp_1_1IIR.html">IIR</a> filter. </p>
+<p>The type of the <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter. </p>
 
 </div>
 </div>
@@ -419,7 +428,7 @@ template&lt;typename NumericType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:20 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

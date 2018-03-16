@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for Timer:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTimer__inherit__graph.svg" width="326" height="1254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTimer__inherit__graph.svg" width="326" height="1203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -149,7 +149,8 @@ Protected Member Functions</h2></td></tr>
 <p>A <a class="el" href="classTimer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. ">Timer</a>'s <a class="el" href="classTimer.html#a8adc40ca0fb4170737ba12e30481b9d8" title="The user-defined callback routine that actually gets called periodically. ">timerCallback()</a> method will be repeatedly called at a given interval. When you create a <a class="el" href="classTimer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. ">Timer</a> object, it will do nothing until the <a class="el" href="classTimer.html#a3b1a51ac348c56a55fcef4570214f057" title="Starts the timer and sets the length of interval required. ">startTimer()</a> method is called, which will cause the message thread to start making callbacks at the specified interval, until <a class="el" href="classTimer.html#ab918b8c1f80bf1de92dd1a5878f498bd" title="Stops the timer. ">stopTimer()</a> is called or the object is deleted.</p>
 <p>The time interval isn't guaranteed to be precise to any more than maybe 10-20ms, and the intervals may end up being much longer than requested if the system is busy. Because the callbacks are made by the main message thread, anything that blocks the message queue for a period of time will also prevent any timers from running until it can carry on.</p>
 <p>If you need to have a single callback that is shared by multiple timers with different frequencies, then the <a class="el" href="classMultiTimer.html" title="A type of timer class that can run multiple timers with different frequencies, all of which share a s...">MultiTimer</a> class allows you to do that - its structure is very similar to the <a class="el" href="classTimer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. ">Timer</a> class, but contains multiple timers internally, each one identified by an ID number.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classHighResolutionTimer.html" title="A high-resolution periodic timer. ">HighResolutionTimer</a>, <a class="el" href="classMultiTimer.html" title="A type of timer class that can run multiple timers with different frequencies, all of which share a s...">MultiTimer</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classHighResolutionTimer.html" title="A high-resolution periodic timer. ">HighResolutionTimer</a>, <a class="el" href="classMultiTimer.html" title="A type of timer class that can run multiple timers with different frequencies, all of which share a s...">MultiTimer</a></dd></dl>
+<p>{Events} </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3d18ff196960cc65f19ff5452ece31db"></a>
 <div class="memitem">
@@ -254,7 +255,7 @@ Protected Member Functions</h2></td></tr>
 <p>The user-defined callback routine that actually gets called periodically. </p>
 <p>It's perfectly ok to call <a class="el" href="classTimer.html#a3b1a51ac348c56a55fcef4570214f057" title="Starts the timer and sets the length of interval required. ">startTimer()</a> or <a class="el" href="classTimer.html#ab918b8c1f80bf1de92dd1a5878f498bd" title="Stops the timer. ">stopTimer()</a> from within this callback to change the subsequent intervals. </p>
 
-<p>Implemented in <a class="el" href="classMidiKeyboardComponent.html#a287ff0306d5f83f88aab4a512698b20f">MidiKeyboardComponent</a>, <a class="el" href="classBubbleMessageComponent.html#a3c18ebec472bdae07e7544261e6dc372">BubbleMessageComponent</a>, <a class="el" href="classAudioDeviceSelectorComponent.html#a225ffb9aebc48af8e51d0891fe2ae719">AudioDeviceSelectorComponent</a>, <a class="el" href="classImagePreviewComponent.html#ad2a20bfff150cf417ded4f90eab0fe56">ImagePreviewComponent</a>, and <a class="el" href="classFakeMouseMoveGenerator.html#a9b66aec9e060556136c605f018f01786">FakeMouseMoveGenerator</a>.</p>
+<p>Implemented in <a class="el" href="classMidiKeyboardComponent.html#a287ff0306d5f83f88aab4a512698b20f">MidiKeyboardComponent</a>, <a class="el" href="classBubbleMessageComponent.html#a3c18ebec472bdae07e7544261e6dc372">BubbleMessageComponent</a>, <a class="el" href="classAudioDeviceSelectorComponent.html#a225ffb9aebc48af8e51d0891fe2ae719">AudioDeviceSelectorComponent</a>, and <a class="el" href="classImagePreviewComponent.html#ad2a20bfff150cf417ded4f90eab0fe56">ImagePreviewComponent</a>.</p>
 
 </div>
 </div>
@@ -289,7 +290,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Referenced by <a class="el" href="classFakeMouseMoveGenerator.html#a0abab3f56b571ae115caf33eb5c9c596">FakeMouseMoveGenerator::FakeMouseMoveGenerator()</a>, and <a class="el" href="classStandalonePluginHolder.html#a012f86edb9487366c49a4378716bf775">StandalonePluginHolder::init()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a012f86edb9487366c49a4378716bf775">StandalonePluginHolder::init()</a>.</p>
 
 </div>
 </div>
@@ -470,7 +471,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:01:01 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:18 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

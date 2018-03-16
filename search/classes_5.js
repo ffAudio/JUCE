@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['fakemousemovegenerator',['FakeMouseMoveGenerator',['../classFakeMouseMoveGenerator.html',1,'']]],
   ['fastmathapproximations',['FastMathApproximations',['../structdsp_1_1FastMathApproximations.html',1,'dsp']]],
   ['fft',['FFT',['../classdsp_1_1FFT.html',1,'dsp']]],
   ['file',['File',['../classFile.html',1,'']]],
@@ -42,7 +41,6 @@ var searchData=
   ['function_3c_20float_28float_2c_20float_2c_20float_29_3e',['function&lt; float(float, float, float)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20int_28const_20string_20_26_29_3e',['function&lt; int(const String &amp;)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20numerictype_28numerictype_29_3e',['function&lt; NumericType(NumericType)&gt;',['../classstd_1_1function.html',1,'std']]],
-  ['function_3c_20result_28arguments_2e_2e_2e_29_3e',['function&lt; Result(Arguments...)&gt;',['../classstd_1_1function_3_01Result_07Arguments_8_8_8_08_4.html',1,'std']]],
   ['function_3c_20string_28bool_2c_20int_29_3e',['function&lt; String(bool, int)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20string_28double_29_3e',['function&lt; String(double)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20string_28float_2c_20int_29_3e',['function&lt; String(float, int)&gt;',['../classstd_1_1function.html',1,'std']]],

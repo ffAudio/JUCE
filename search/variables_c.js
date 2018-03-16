@@ -7,7 +7,6 @@ var searchData=
   ['map',['map',['../classMemoryMappedAudioFormatReader.html#a6b88bdb8bd8d5b5acf75cda6fac75f31',1,'MemoryMappedAudioFormatReader']]],
   ['mappedsection',['mappedSection',['../classMemoryMappedAudioFormatReader.html#a33d4ab9328d5a4e588053c894b7a8c45',1,'MemoryMappedAudioFormatReader']]],
   ['margin',['margin',['../classFlexItem.html#a995f3c4d01fc78a564a2d4db0e909532',1,'FlexItem::margin()'],['../classGridItem.html#aab6d3baf29b7fdb0ecbdd519ae4eafb2',1,'GridItem::margin()']]],
-  ['marker',['marker',['../structlittlefoot_1_1Compiler_1_1CodeGenerator_1_1MarkerAndAddress.html#adde022b4b1c5832f1572e848c2b1c8b0',1,'littlefoot::Compiler::CodeGenerator::MarkerAndAddress']]],
   ['markertag',['markerTag',['../classMarkerList_1_1ValueTreeWrapper.html#a6ee3f514e213161c74b047b9bc6011d2',1,'MarkerList::ValueTreeWrapper']]],
   ['maroon',['maroon',['../classColours.html#a4790622961dd6a1eff7179d89cc78617',1,'Colours']]],
   ['masterpitchbendrange',['masterPitchbendRange',['../structMPEZoneLayout_1_1Zone.html#a90c96070a462a3d4439d375425717065',1,'MPEZoneLayout::Zone']]],

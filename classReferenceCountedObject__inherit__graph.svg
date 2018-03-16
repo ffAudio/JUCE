@@ -162,7 +162,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="structdsp_1_1StateVariableFilter_1_1Parameters.html" target="_top" xlink:title="dsp::StateVariableFilter\l::Parameters\&lt; NumericType \&gt;">
+<g id="a_node7"><a xlink:href="structdsp_1_1StateVariableFilter_1_1Parameters.html" target="_top" xlink:title="Structure used for the state variable filter parameters. ">
 <polygon fill="none" stroke="black" points="362.5,-191 362.5,-221 511.5,-221 511.5,-191 362.5,-191"/>
 <text text-anchor="start" x="370.5" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00">dsp::StateVariableFilter</text>
 <text text-anchor="middle" x="437" y="-198" font-family="Helvetica,sans-Serif" font-size="10.00">::Parameters&lt; NumericType &gt;</text>

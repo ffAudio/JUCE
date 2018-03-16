@@ -1,5 +1,5 @@
 <map id="ChangeBroadcaster" name="ChangeBroadcaster">
-<area shape="rect" id="node2" href="$classAudioCDBurner.html" title="AudioCDBurner" alt="" coords="231,5,345,32"/>
+<area shape="rect" id="node2" href="$classAudioCDBurner.html" title="{Audio} " alt="" coords="231,5,345,32"/>
 <area shape="rect" id="node3" href="$classAudioDeviceManager.html" title="Manages the state of some audio and midi i/o devices. " alt="" coords="215,56,361,83"/>
 <area shape="rect" id="node4" href="$classAudioProcessorGraph.html" title="A type of AudioProcessor which plays back a graph of other AudioProcessors. " alt="" coords="213,107,363,133"/>
 <area shape="rect" id="node5" href="$classAudioThumbnailBase.html" title="Provides a base for classes that can store and draw scaled views of an audio waveform. " alt="" coords="215,157,361,184"/>

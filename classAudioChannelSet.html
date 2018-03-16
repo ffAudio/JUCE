@@ -383,7 +383,8 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Represents a set of audio channel types. </p>
 <p>For example, you might have a set of left + right channels, which is a stereo channel set. It is a collection of values from the <a class="el" href="classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652e" title="Represents different audio channel types. ">AudioChannelSet::ChannelType</a> enum, where each type may only occur once within the set.</p>
 <p>The documentation below lists which <a class="el" href="classAudioChannelSet.html" title="Represents a set of audio channel types. ">AudioChannelSet</a> corresponds to which native layouts used by AAX, VST2/VST3 and CoreAudio/AU. The layout tags in CoreAudio are particularly confusing. For example, the layout which is labeled as "7.1 SDDS" in Logic Pro, corresponds to CoreAudio/AU's kAudioChannelLayoutTag_DTS_7_0 tag, whereas AAX's DTS 7.1 Layout corresponds to CoreAudio/AU's kAudioChannelLayoutTag_MPEG_7_1_A format, etc. Please do not use the CoreAudio tag as an indication to the actual layout of the speakers.</p>
-<dl class="section see"><dt>See Also</dt><dd>Bus </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd>Bus</dd></dl>
+<p>{Audio} </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="ab917e490df2e0edfb1087e4c4f8d652e"></a>
 <div class="memitem">
@@ -673,7 +674,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Creates a zero-channel set which can be used to indicate that a bus is disabled. </p>
 
-<p>Referenced by <a class="el" href="structSpeakerMappings.html#a9049a026ab41806fb5dc6aad8a426613">SpeakerMappings::channelSetToVstArrangementType()</a>, <a class="el" href="structAudioUnitHelpers.html#ad1e17712bdffc5d7a180c09d561329fa">AudioUnitHelpers::setBusesLayout()</a>, and <a class="el" href="structSpeakerMappings.html#a231aa444606ba6163fac1f8d5a00427c">SpeakerMappings::vstArrangementTypeToChannelSet()</a>.</p>
+<p>Referenced by <a class="el" href="structSpeakerMappings.html#a9049a026ab41806fb5dc6aad8a426613">SpeakerMappings::channelSetToVstArrangementType()</a>, and <a class="el" href="structSpeakerMappings.html#a231aa444606ba6163fac1f8d5a00427c">SpeakerMappings::vstArrangementTypeToChannelSet()</a>.</p>
 
 </div>
 </div>
@@ -1423,8 +1424,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return an array of channel sets which have a given number of channels. </p>
 
-<p>Referenced by <a class="el" href="structAudioUnitHelpers.html#a69296da23df2353c6d8964c4383a9c82">AudioUnitHelpers::isNumberOfChannelsSupported()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ad7777d56f1c9499c98a3e17d2dbe7353"></a>
@@ -1939,7 +1938,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:06 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

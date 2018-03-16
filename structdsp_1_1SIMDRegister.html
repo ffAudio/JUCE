@@ -133,7 +133,7 @@ SIMDInternal::PrimitiveType<br class="typebreak"/>
 <tr class="memitem:a78e2569aac84933cd2c507a89c84c081"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structdsp_1_1SIMDRegister.html#afe8c98281de156bf247aa2dea03f0353">vMaskType::vSIMDType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1SIMDRegister.html#a78e2569aac84933cd2c507a89c84c081">vMaskSIMDType</a></td></tr>
 <tr class="memdesc:a78e2569aac84933cd2c507a89c84c081"><td class="mdescLeft">&#160;</td><td class="mdescRight">The internal native type for the corresponding mask type (used internally).  <a href="#a78e2569aac84933cd2c507a89c84c081">More...</a><br/></td></tr>
 <tr class="separator:a78e2569aac84933cd2c507a89c84c081"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2168ff501e4195f61d19b4905e7987ea"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="structdsp_1_1CmplxSIMDOps.html">CmplxSIMDOps</a>&lt; <a class="el" href="structdsp_1_1SIMDRegister.html#a506133c4d9b3059008dac4f6b318c2c0">ElementType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1SIMDRegister.html#a2168ff501e4195f61d19b4905e7987ea">CmplxOps</a></td></tr>
+<tr class="memitem:a2168ff501e4195f61d19b4905e7987ea"><td class="memItemLeft" align="right" valign="top">typedef CmplxSIMDOps&lt; <a class="el" href="structdsp_1_1SIMDRegister.html#a506133c4d9b3059008dac4f6b318c2c0">ElementType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdsp_1_1SIMDRegister.html#a2168ff501e4195f61d19b4905e7987ea">CmplxOps</a></td></tr>
 <tr class="memdesc:a2168ff501e4195f61d19b4905e7987ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for operations which need to be handled differently for complex and scalar types (used internally).  <a href="#a2168ff501e4195f61d19b4905e7987ea">More...</a><br/></td></tr>
 <tr class="separator:a2168ff501e4195f61d19b4905e7987ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -336,7 +336,8 @@ struct dsp::SIMDRegister&lt; Type &gt;</h3>
 <p>This class is only availabe on SIMD machines. Use JUCE_USE_SIMD to query if SIMD is avaialble for your system.</p>
 <p>SIMDRegister&lt;Type&gt; is a templated class representing the native vectorized version of FloatingType. <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> supports all numerical primitive types and std:complex&lt;float&gt; and std::complex&lt;double&gt; supports and most operations of the corresponding primitive type. Additionally, <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> can be accessed like an array to extract the individual elements.</p>
 <p>If you are using <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> as a pointer, then you must ensure that the memory is suffeciently aligned for SIMD vector operations. Failing to do so will result in crashes or very slow code. Use <a class="el" href="structdsp_1_1SIMDRegister.html#a2615629aee806ef6b0990301544d2170" title="Checks if the given pointer is suffeciently aligned for using SIMD operations. ">SIMDRegister::isSIMDAligned</a> to query if a pointer is suffeciently aligned for SIMD vector operations.</p>
-<p>Note that using <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> without enabling optimizations will result in code with very poor performance. </p>
+<p>Note that using <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> without enabling optimizations will result in code with very poor performance.</p>
+<p>{DSP} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a506133c4d9b3059008dac4f6b318c2c0"></a>
 <div class="memitem">
@@ -473,7 +474,7 @@ template&lt;typename Type&gt; </div>
 template&lt;typename Type&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="structdsp_1_1CmplxSIMDOps.html">CmplxSIMDOps</a>&lt;<a class="el" href="structdsp_1_1SIMDRegister.html#a506133c4d9b3059008dac4f6b318c2c0">ElementType</a>&gt; <a class="el" href="structdsp_1_1SIMDRegister.html">dsp::SIMDRegister</a>&lt; Type &gt;::<a class="el" href="structdsp_1_1SIMDRegister.html#a2168ff501e4195f61d19b4905e7987ea">CmplxOps</a></td>
+          <td class="memname">typedef CmplxSIMDOps&lt;<a class="el" href="structdsp_1_1SIMDRegister.html#a506133c4d9b3059008dac4f6b318c2c0">ElementType</a>&gt; <a class="el" href="structdsp_1_1SIMDRegister.html">dsp::SIMDRegister</a>&lt; Type &gt;::<a class="el" href="structdsp_1_1SIMDRegister.html#a2168ff501e4195f61d19b4905e7987ea">CmplxOps</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -650,8 +651,6 @@ template&lt;typename Type&gt; </div>
 <p>Creates a new <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> from the corresponding scalar primitive. </p>
 <p>The scalar is extended to all elements of the vector. </p>
 
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>.</p>
-
 <p>Referenced by <a class="el" href="structdsp_1_1SIMDRegister.html#a7959abc98607f6f181dbc936d7f4513b">dsp::SIMDRegister&lt; Type &gt;::operator==()</a>.</p>
 
 </div>
@@ -710,7 +709,7 @@ template&lt;typename Type&gt; </div>
 
 <p>Creates a new <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> from the first SIMDNumElements of a scalar array. </p>
 
-<p>References <a class="el" href="structdsp_1_1SIMDRegister.html#a2615629aee806ef6b0990301544d2170">dsp::SIMDRegister&lt; Type &gt;::isSIMDAligned()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, and <a class="el" href="structdsp_1_1CmplxSIMDOps.html#a3d42454e96ba78b0eae4816a989f829c">dsp::CmplxSIMDOps&lt; Scalar &gt;::load()</a>.</p>
+<p>References <a class="el" href="structdsp_1_1SIMDRegister.html#a2615629aee806ef6b0990301544d2170">dsp::SIMDRegister&lt; Type &gt;::isSIMDAligned()</a>, and <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>
@@ -740,7 +739,7 @@ template&lt;typename Type&gt; </div>
 
 <p>Copies the elements of the <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> to a scalar array in memory. </p>
 
-<p>References <a class="el" href="structdsp_1_1SIMDRegister.html#a2615629aee806ef6b0990301544d2170">dsp::SIMDRegister&lt; Type &gt;::isSIMDAligned()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, and <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ae0e674b4e042a15ec7e8179a9dcde361">dsp::CmplxSIMDOps&lt; Scalar &gt;::store()</a>.</p>
+<p>References <a class="el" href="structdsp_1_1SIMDRegister.html#a2615629aee806ef6b0990301544d2170">dsp::SIMDRegister&lt; Type &gt;::isSIMDAligned()</a>, and <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>
@@ -888,8 +887,6 @@ template&lt;typename Type&gt; </div>
 
 <p>Multiplies another <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> to the receiver. </p>
 
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#abf84de263a37a8b889109072d21c6ba4">dsp::CmplxSIMDOps&lt; Scalar &gt;::mul()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aa06ce82c5ffa829af4a28901407a392d"></a>
@@ -917,8 +914,6 @@ template&lt;typename Type&gt; </div>
 </div><div class="memdoc">
 
 <p>Broadcasts the scalar to all elements of the receiver. </p>
-
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>.</p>
 
 </div>
 </div>
@@ -948,8 +943,6 @@ template&lt;typename Type&gt; </div>
 
 <p>Adds a scalar to the receiver. </p>
 
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a08200c9d1c8774ed6ab92234673c3b4d"></a>
@@ -978,8 +971,6 @@ template&lt;typename Type&gt; </div>
 
 <p>Subtracts a scalar to the receiver. </p>
 
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ad9ed7a058bab5cab7e8a85ac48fa067e"></a>
@@ -1007,8 +998,6 @@ template&lt;typename Type&gt; </div>
 </div><div class="memdoc">
 
 <p>Multiplies a scalar to the receiver. </p>
-
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>, and <a class="el" href="structdsp_1_1CmplxSIMDOps.html#abf84de263a37a8b889109072d21c6ba4">dsp::CmplxSIMDOps&lt; Scalar &gt;::mul()</a>.</p>
 
 </div>
 </div>
@@ -1262,8 +1251,6 @@ template&lt;typename Type&gt; </div>
 
 <p>Returns the product of the receiver and v. </p>
 
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#abf84de263a37a8b889109072d21c6ba4">dsp::CmplxSIMDOps&lt; Scalar &gt;::mul()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a33ced603d0a5d377d7e2a283b5c61814"></a>
@@ -1291,8 +1278,6 @@ template&lt;typename Type&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a vector where each element is the sum of the corresponding element in the receiver and the scalar s. </p>
-
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>.</p>
 
 </div>
 </div>
@@ -1322,8 +1307,6 @@ template&lt;typename Type&gt; </div>
 
 <p>Returns a vector where each element is the difference of the corresponding element in the receiver and the scalar s. </p>
 
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a324d13f0efe1666347e310a2461070a7"></a>
@@ -1351,8 +1334,6 @@ template&lt;typename Type&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a vector where each element is the product of the corresponding element in the receiver and the scalar s. </p>
-
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#ad805fafd17f0fbb9fb2ad0554f4d63f9">dsp::CmplxSIMDOps&lt; Scalar &gt;::expand()</a>, and <a class="el" href="structdsp_1_1CmplxSIMDOps.html#abf84de263a37a8b889109072d21c6ba4">dsp::CmplxSIMDOps&lt; Scalar &gt;::mul()</a>.</p>
 
 </div>
 </div>
@@ -2025,8 +2006,6 @@ template&lt;typename Type&gt; </div>
 
 <p>Multiplies b and c and adds the result to a. </p>
 
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#a04f916dcc1efe1d361ffd7636ec4768a">dsp::CmplxSIMDOps&lt; Scalar &gt;::muladd()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ab2940ee24c21d0130eb2903656f21996"></a>
@@ -2053,8 +2032,6 @@ template&lt;typename Type&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a scalar which is the sum of all elements of the receiver. </p>
-
-<p>References <a class="el" href="structdsp_1_1CmplxSIMDOps.html#abda1b0133cb6569f74da9bf77df937f4">dsp::CmplxSIMDOps&lt; Scalar &gt;::sum()</a>.</p>
 
 </div>
 </div>
@@ -2196,7 +2173,7 @@ template&lt;typename Type&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:20 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

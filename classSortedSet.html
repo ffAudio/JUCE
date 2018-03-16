@@ -214,7 +214,8 @@ class SortedSet&lt; ElementType, TypeOfCriticalSectionToUse &gt;</h3>
 <p>Internally, the list of items is kept sorted (which means that whatever kind of primitive type is used must support the ==, &lt;, &gt;, &lt;= and &gt;= operators to determine the order), and searching the set for known values is very fast because it uses a binary-chop method.</p>
 <p>Note that if you're using a class or struct as the element type, it must be capable of being copied or moved with a straightforward memcpy, rather than needing construction and destruction code.</p>
 <p>To make all the set's methods thread-safe, pass in "CriticalSection" as the templated TypeOfCriticalSectionToUse parameter, instead of the default <a class="el" href="classDummyCriticalSection.html" title="A class that can be used in place of a real CriticalSection object, but which doesn&#39;t perform any loc...">DummyCriticalSection</a>.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a>, <a class="el" href="classOwnedArray.html" title="An array designed for holding objects. ">OwnedArray</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject, or which implement basic reference-count...">ReferenceCountedArray</a>, <a class="el" href="classStringArray.html" title="A special array for holding a list of strings. ">StringArray</a>, <a class="el" href="classCriticalSection.html" title="A re-entrant mutex. ">CriticalSection</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a>, <a class="el" href="classOwnedArray.html" title="An array designed for holding objects. ">OwnedArray</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject, or which implement basic reference-count...">ReferenceCountedArray</a>, <a class="el" href="classStringArray.html" title="A special array for holding a list of strings. ">StringArray</a>, <a class="el" href="classCriticalSection.html" title="A re-entrant mutex. ">CriticalSection</a></dd></dl>
+<p>{Core} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="ae626f3b066a888141799190c37f35d61"></a>
 <div class="memitem">
@@ -915,7 +916,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 <dl class="section return"><dt>Returns</dt><dd>true if the value was added, or false if it already existed </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd>set, insert, addIfNotAlreadyThere, addSorted, <a class="el" href="classSortedSet.html#ad0879c462c30f89f5c09458f46b8d35f" title="Adds elements from another set to this one. ">addSet</a>, <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea" title="Adds elements from an array to this set. ">addArray</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">SortedSet&lt; ColourSetting &gt;::addArray()</a>, and <a class="el" href="structAudioUnitHelpers.html#a72c5a76c5a1721f88d9ee0a3e0656926">AudioUnitHelpers::getAUChannelInfo()</a>.</p>
+<p>Referenced by <a class="el" href="classSortedSet.html#a8b84c2248ee6e7bc18a3cb6bd235e4ea">SortedSet&lt; ColourSetting &gt;::addArray()</a>.</p>
 
 </div>
 </div>
@@ -1286,7 +1287,7 @@ template&lt;class ElementType, class TypeOfCriticalSectionToUse = DummyCriticalS
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:17 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

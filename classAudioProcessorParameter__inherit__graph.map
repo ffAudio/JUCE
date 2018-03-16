@@ -1,5 +1,5 @@
 <map id="AudioProcessorParameter" name="AudioProcessorParameter">
-<area shape="rect" id="node2" href="$structAudioPluginInstance_1_1Parameter.html" title="AudioPluginInstance\l::Parameter" alt="" coords="64,81,204,122"/>
+<area shape="rect" id="node2" href="$structAudioPluginInstance_1_1Parameter.html" title="Structure used to describe plugin parameters. " alt="" coords="64,81,204,122"/>
 <area shape="rect" id="node3" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="230,88,444,115"/>
 <area shape="rect" id="node4" href="$classAudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. " alt="" coords="5,171,145,197"/>
 <area shape="rect" id="node5" href="$classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. " alt="" coords="171,171,327,197"/>

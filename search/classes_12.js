@@ -162,7 +162,6 @@ var searchData=
   ['state',['State',['../structBlocksProtocol_1_1Packed7BitArrayBuilder_1_1State.html',1,'BlocksProtocol::Packed7BitArrayBuilder']]],
   ['statistics',['Statistics',['../structPerformanceCounter_1_1Statistics.html',1,'PerformanceCounter']]],
   ['statisticsaccumulator',['StatisticsAccumulator',['../classStatisticsAccumulator.html',1,'']]],
-  ['statusledinfo',['StatusLEDInfo',['../structBlocksProtocol_1_1BlockDataSheet_1_1StatusLEDInfo.html',1,'BlocksProtocol::BlockDataSheet']]],
   ['statuslight',['StatusLight',['../classStatusLight.html',1,'']]],
   ['streamingsocket',['StreamingSocket',['../classStreamingSocket.html',1,'']]],
   ['stretchablelayoutmanager',['StretchableLayoutManager',['../classStretchableLayoutManager.html',1,'']]],

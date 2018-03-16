@@ -87,8 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">juce_LittleFootCompiler.h File Reference</div>  </div>
 </div><!--header-->
@@ -99,164 +98,16 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlittlefoot_1_1Compiler.html">littlefoot::Compiler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class compiles littlefoot source code into a <a class="el" href="structlittlefoot_1_1Program.html" title="A reference to a block of memory which contains a complete program. ">littlefoot::Program</a> object which can be executed by a <a class="el" href="structlittlefoot_1_1Runner.html" title="Loads a program, and lets the user execute its functions. ">littlefoot::Runner</a>.  <a href="structlittlefoot_1_1Compiler.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlittlefoot_1_1Compiler_1_1CodeGenerator_1_1Marker.html">littlefoot::Compiler::CodeGenerator::Marker</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlittlefoot_1_1Compiler_1_1CodeGenerator_1_1MarkerAndAddress.html">littlefoot::Compiler::CodeGenerator::MarkerAndAddress</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlittlefoot_1_1Compiler_1_1Statement_1_1Visitor.html">littlefoot::Compiler::Statement::Visitor</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlittlefoot_1_1Compiler_1_1FunctionCall_1_1BuiltInFunction.html">littlefoot::Compiler::FunctionCall::BuiltInFunction</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacelittlefoot"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelittlefoot.html">littlefoot</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a890ca09ed2bdf3ba0ab2337a5585eea1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootCompiler_8h.html#a890ca09ed2bdf3ba0ab2337a5585eea1">LITTLEFOOT_KEYWORDS</a>(X)</td></tr>
-<tr class="separator:a890ca09ed2bdf3ba0ab2337a5585eea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af710dc9fe4fc9d3b753cc01fd3de61c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootCompiler_8h.html#af710dc9fe4fc9d3b753cc01fd3de61c2">LITTLEFOOT_OPERATORS</a>(X)</td></tr>
-<tr class="separator:af710dc9fe4fc9d3b753cc01fd3de61c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11581d3b51a682d72e9a53a3dd1b6490"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootCompiler_8h.html#a11581d3b51a682d72e9a53a3dd1b6490">DECLARE_LITTLEFOOT_TOKEN</a>(name, str)&#160;&#160;&#160;static constexpr const char* name = str;</td></tr>
-<tr class="separator:a11581d3b51a682d72e9a53a3dd1b6490"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a387568ac88a066b75b135c204eb46f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootCompiler_8h.html#a2a387568ac88a066b75b135c204eb46f">LITTLEFOOT_COMPARE_KEYWORD</a>(name, str)&#160;&#160;&#160;if (len == sizeof (str) - 1 &amp;&amp; matchToken (Token::name, len)) return Token::name;</td></tr>
-<tr class="separator:a2a387568ac88a066b75b135c204eb46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b7d52f0231724bdd45b49d61deac3d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="juce__LittleFootCompiler_8h.html#a8b7d52f0231724bdd45b49d61deac3d7">LITTLEFOOT_COMPARE_OPERATOR</a>(name, str)&#160;&#160;&#160;if (matchToken (Token::name, sizeof (str) - 1)) return Token::name;</td></tr>
-<tr class="separator:a8b7d52f0231724bdd45b49d61deac3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a890ca09ed2bdf3ba0ab2337a5585eea1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LITTLEFOOT_KEYWORDS</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">X</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">X(if_,      <span class="stringliteral">&quot;if&quot;</span>)       X(else_,   &quot;else&quot;)    X(do_,     &quot;do&quot;) \</div>
-<div class="line">        X(while_,   &quot;while&quot;)    X(for_,    &quot;for&quot;)     X(break_,  &quot;break&quot;)   X(continue_, &quot;continue&quot;) \</div>
-<div class="line">        X(void_,    &quot;<span class="keywordtype">void</span>&quot;)     X(int_,    &quot;<span class="keywordtype">int</span>&quot;)     X(float_,  &quot;<span class="keywordtype">float</span>&quot;)   X(bool_,     &quot;<span class="keywordtype">bool</span>&quot;) \</div>
-<div class="line">        X(return_,  &quot;return&quot;)   X(true_,   &quot;true&quot;)    X(false_,  &quot;false&quot;)   X(const_,    &quot;const&quot;)</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="af710dc9fe4fc9d3b753cc01fd3de61c2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LITTLEFOOT_OPERATORS</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">X</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">X(semicolon,     <span class="stringliteral">&quot;;&quot;</span>)        X(dot,          &quot;.&quot;)       X(comma,        &quot;,&quot;)    X(hash,       &quot;<span class="preprocessor">#&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(openParen,     &quot;(&quot;)        X(closeParen,   &quot;)&quot;)       X(openBrace,    &quot;{&quot;)    X(closeBrace, &quot;}&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(openBracket,   &quot;[&quot;)        X(closeBracket, &quot;]&quot;)       X(colon,        &quot;:&quot;)    X(question,   &quot;?&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(equals,        &quot;==&quot;)       X(assign,       &quot;=&quot;)       X(notEquals,    &quot;!=&quot;)   X(logicalNot, &quot;!&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(plusEquals,    &quot;+=&quot;)       X(plusplus,     &quot;++&quot;)      X(plus,         &quot;+&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(minusEquals,   &quot;-=&quot;)       X(minusminus,   &quot;--&quot;)      X(minus,        &quot;-&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(timesEquals,   &quot;*=&quot;)       X(times,        &quot;*&quot;)       X(divideEquals, &quot;/=&quot;)   X(divide,     &quot;/&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(moduloEquals,  &quot;%=&quot;)       X(modulo,       &quot;%&quot;)       X(xorEquals,    &quot;^=&quot;)   X(bitwiseXor, &quot;^&quot;)   X(bitwiseNot, &quot;~&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(andEquals,     &quot;&amp;=&quot;)       X(logicalAnd,   &quot;&amp;&amp;&quot;)      X(bitwiseAnd,   &quot;&amp;&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(orEquals,      &quot;|=&quot;)       X(logicalOr,    &quot;||&quot;)      X(bitwiseOr,    &quot;|&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(leftShiftEquals,    &quot;&lt;&lt;=&quot;) X(lessThanOrEqual,  &quot;&lt;=&quot;)  X(leftShift,    &quot;&lt;&lt;&quot;)   X(lessThan,   &quot;&lt;&quot;) \</span></div>
-<div class="line"><span class="preprocessor">        X(rightShiftUnsigned, &quot;&gt;&gt;&gt;&quot;) X(rightShiftEquals, &quot;&gt;&gt;=&quot;) X(rightShift,   &quot;&gt;&gt;&quot;)   X(greaterThanOrEqual, &quot;&gt;=&quot;)  X(greaterThan,  &quot;&gt;&quot;)</span></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="a11581d3b51a682d72e9a53a3dd1b6490"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DECLARE_LITTLEFOOT_TOKEN</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">str&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;static constexpr const char* name = str;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2a387568ac88a066b75b135c204eb46f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LITTLEFOOT_COMPARE_KEYWORD</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">str&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;if (len == sizeof (str) - 1 &amp;&amp; matchToken (Token::name, len)) return Token::name;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8b7d52f0231724bdd45b49d61deac3d7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LITTLEFOOT_COMPARE_OPERATOR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">str&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;if (matchToken (Token::name, sizeof (str) - 1)) return Token::name;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

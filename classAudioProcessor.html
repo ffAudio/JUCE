@@ -115,6 +115,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the bus layout state of a plug-in.  <a href="structAudioProcessor_1_1BusesLayout.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioProcessor_1_1BusesProperties.html">BusesProperties</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used for <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> Callbacks.  <a href="structAudioProcessor_1_1BusesProperties.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioProcessor_1_1BusProperties.html">BusProperties</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure used for <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> Callbacks.  <a href="structAudioProcessor_1_1BusProperties.html#details">More...</a><br/></td></tr>
@@ -509,7 +510,8 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Base class for audio processing classes or plugins. </p>
 <p>This is intended to act as a base class of audio processor that is general enough to be wrapped as a VST, AU, RTAS, etc, or used internally.</p>
 <p>It is also used by the plugin hosting code as the wrapper around an instance of a loaded plugin.</p>
-<p>You should derive your own class from this base class, and if you're building a plugin, you should implement a global function called createPluginFilter() which creates and returns a new instance of your subclass. </p>
+<p>You should derive your own class from this base class, and if you're building a plugin, you should implement a global function called createPluginFilter() which creates and returns a new instance of your subclass.</p>
+<p>{Audio} </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a212c3670b59976559237cbf629af275f"></a>
 <div class="memitem">
@@ -1017,8 +1019,6 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the number of buses on the input or output side. </p>
 
-<p>Referenced by <a class="el" href="structAudioUnitHelpers.html#a6ec130e790d87fca3c0a34f60eba216c">AudioUnitHelpers::getBusCount()</a>, <a class="el" href="structAudioUnitHelpers.html#a2e13cc1304fce78d837abe4a8cccef61">AudioUnitHelpers::getBusesLayout()</a>, and <a class="el" href="structAudioUnitHelpers.html#ad1e17712bdffc5d7a180c09d561329fa">AudioUnitHelpers::setBusesLayout()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="afae1f7a344431ff1095612ef51d03aa9"></a>
@@ -1056,7 +1056,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the audio bus with a given index and direction. </p>
 <p>If busIndex is invalid then this method will return a nullptr. </p>
 
-<p>Referenced by <a class="el" href="structAudioUnitHelpers.html#a72c5a76c5a1721f88d9ee0a3e0656926">AudioUnitHelpers::getAUChannelInfo()</a>, <a class="el" href="structAudioUnitHelpers.html#a890b0da6eb3ecad3ee73c47c63dc7d3c">AudioUnitHelpers::isLayoutSupported()</a>, and <a class="el" href="classStandalonePluginHolder.html#a5e24139925518f20b67a3d6f74bfb00c">StandalonePluginHolder::showAudioSettingsDialog()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a5e24139925518f20b67a3d6f74bfb00c">StandalonePluginHolder::showAudioSettingsDialog()</a>.</p>
 
 </div>
 </div>
@@ -1221,8 +1221,6 @@ Protected Attributes</h2></td></tr>
 <p>Set the channel layouts of this audio processor. </p>
 <p>If the layout is not supported by this audio processor then this method will return false. You can use the checkBusesLayoutSupported and getNextBestLayout methods to probe which layouts this audio processor supports. </p>
 
-<p>Referenced by <a class="el" href="structAudioUnitHelpers.html#ad1e17712bdffc5d7a180c09d561329fa">AudioUnitHelpers::setBusesLayout()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a5ac4a4f4640b3fb1be6b0235a3c48f9c"></a>
@@ -1258,8 +1256,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Provides the current channel layouts of this audio processor. </p>
-
-<p>Referenced by <a class="el" href="structAudioUnitHelpers.html#a72c5a76c5a1721f88d9ee0a3e0656926">AudioUnitHelpers::getAUChannelInfo()</a>, and <a class="el" href="structAudioUnitHelpers.html#a2e13cc1304fce78d837abe4a8cccef61">AudioUnitHelpers::getBusesLayout()</a>.</p>
 
 </div>
 </div>
@@ -1369,8 +1365,6 @@ Protected Attributes</h2></td></tr>
 
 <p>Provides the number of channels of the bus with a given index and direction. </p>
 <p>If the index, direction combination is invalid then this will return zero. </p>
-
-<p>Referenced by <a class="el" href="structAudioUnitHelpers.html#a72c5a76c5a1721f88d9ee0a3e0656926">AudioUnitHelpers::getAUChannelInfo()</a>.</p>
 
 </div>
 </div>
@@ -3975,7 +3969,7 @@ template&lt;int numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 16 2018 01:01:07 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

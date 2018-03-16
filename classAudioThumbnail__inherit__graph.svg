@@ -41,7 +41,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html" target="_top" xlink:title="AudioFormatWriter::\lThreadedWriter::IncomingData\lReceiver">
+<g id="a_node4"><a xlink:href="classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html" target="_top" xlink:title="Receiver for incoming data. ">
 <polygon fill="none" stroke="black" points="121,-112.5 121,-153.5 271,-153.5 271,-112.5 121,-112.5"/>
 <text text-anchor="start" x="129" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioFormatWriter::</text>
 <text text-anchor="start" x="129" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">ThreadedWriter::IncomingData</text>

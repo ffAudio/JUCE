@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="structDrumPadGridProgram.html" target="_top" xlink:title="DrumPadGridProgram">
+<g id="a_node3"><a xlink:href="structDrumPadGridProgram.html" target="_top" xlink:title="{Blocks} ">
 <polygon fill="none" stroke="black" points="122.5,-0.5 122.5,-19.5 235.5,-19.5 235.5,-0.5 122.5,-0.5"/>
 <text text-anchor="middle" x="179" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DrumPadGridProgram</text>
 </a>

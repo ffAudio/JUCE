@@ -9,7 +9,6 @@ var searchData=
   ['bitmapledprogram',['BitmapLEDProgram',['../structBitmapLEDProgram.html',1,'']]],
   ['block',['Block',['../classBlock.html',1,'']]],
   ['blockconfigmanager',['BlockConfigManager',['../structBlockConfigManager.html',1,'']]],
-  ['blockdatasheet',['BlockDataSheet',['../structBlocksProtocol_1_1BlockDataSheet.html',1,'BlocksProtocol']]],
   ['blockdeviceconnection',['BlockDeviceConnection',['../structBlockDeviceConnection.html',1,'']]],
   ['blockname',['BlockName',['../structBlocksProtocol_1_1BlockName.html',1,'BlocksProtocol']]],
   ['blockserialnumber',['BlockSerialNumber',['../structBlocksProtocol_1_1BlockSerialNumber.html',1,'BlocksProtocol']]],
@@ -26,7 +25,6 @@ var searchData=
   ['bufferingaudioreader',['BufferingAudioReader',['../classBufferingAudioReader.html',1,'']]],
   ['bufferingaudiosource',['BufferingAudioSource',['../classBufferingAudioSource.html',1,'']]],
   ['builder',['Builder',['../classZipFile_1_1Builder.html',1,'ZipFile']]],
-  ['builtinfunction',['BuiltInFunction',['../structlittlefoot_1_1Compiler_1_1FunctionCall_1_1BuiltInFunction.html',1,'littlefoot::Compiler::FunctionCall']]],
   ['burgermenucomponent',['BurgerMenuComponent',['../classBurgerMenuComponent.html',1,'']]],
   ['burnprogresslistener',['BurnProgressListener',['../classAudioCDBurner_1_1BurnProgressListener.html',1,'AudioCDBurner']]],
   ['bus',['Bus',['../classAudioProcessor_1_1Bus.html',1,'AudioProcessor']]],
@@ -35,7 +33,6 @@ var searchData=
   ['busproperties',['BusProperties',['../structAudioProcessor_1_1BusProperties.html',1,'AudioProcessor']]],
   ['button',['Button',['../classButton.html',1,'']]],
   ['buttonattachment',['ButtonAttachment',['../classAudioProcessorValueTreeState_1_1ButtonAttachment.html',1,'AudioProcessorValueTreeState']]],
-  ['buttoninfo',['ButtonInfo',['../structBlocksProtocol_1_1BlockDataSheet_1_1ButtonInfo.html',1,'BlocksProtocol::BlockDataSheet']]],
   ['buttonpropertycomponent',['ButtonPropertyComponent',['../classButtonPropertyComponent.html',1,'']]],
   ['buttontracker',['ButtonTracker',['../classButtonTracker.html',1,'']]],
   ['byteorder',['ByteOrder',['../classByteOrder.html',1,'']]]

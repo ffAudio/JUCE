@@ -185,7 +185,6 @@ var searchData=
   ['alertwindow',['AlertWindow',['../classAlertWindow.html#a881fc5e753335f28fad5144eca5c1a3b',1,'AlertWindow']]],
   ['allcontrollersoff',['allControllersOff',['../classMidiMessage.html#ac691395427e8cece84124508e8650387',1,'MidiMessage']]],
   ['allnotesoff',['allNotesOff',['../classMidiKeyboardState.html#a74515f3ac2b2f1bebd6fe5204e9eb203',1,'MidiKeyboardState::allNotesOff()'],['../classMidiMessage.html#a8e4c49679c88dc562ca523060fffc11e',1,'MidiMessage::allNotesOff()'],['../classMPEChannelAssigner.html#ac8ceeac62eaf5f9252d754e4b385293c',1,'MPEChannelAssigner::allNotesOff()'],['../classSynthesiser.html#ac39e7b038c545b92e9f69b47bce54934',1,'Synthesiser::allNotesOff()']]],
-  ['alloc',['alloc',['../classAudioUnitHelpers_1_1ChannelRemapper.html#aee51531605d0b0cc8f7f7e549aea3470',1,'AudioUnitHelpers::ChannelRemapper']]],
   ['allocate',['allocate',['../classHeapBlock.html#a270cb60aeab3ed372e901d64cdc9b9ab',1,'HeapBlock']]],
   ['allsoundoff',['allSoundOff',['../classMidiMessage.html#a3a56275d5dd5bebc9edba4e6ab8aa467',1,'MidiMessage']]],
   ['alphachanged',['alphaChanged',['../classComponent.html#af83c72f9c98476811522ba8cad855003',1,'Component::alphaChanged()'],['../classNSViewComponent.html#a6302dbcb95361a82312a1633f5762bbc',1,'NSViewComponent::alphaChanged()']]],

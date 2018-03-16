@@ -31,7 +31,6 @@ var searchData=
   ['buffersize',['bufferSize',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#a2b6b158660e8f9381be469ce87232b8e',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['burlywood',['burlywood',['../classColours.html#a44803d0e7de49815d43c88d9b6042718',1,'Colours']]],
   ['busname',['busName',['../structAudioProcessor_1_1BusProperties.html#a43722826739bc1bc65598fa0b7ce77a5',1,'AudioProcessor::BusProperties']]],
-  ['buttons',['buttons',['../structBlocksProtocol_1_1BlockDataSheet.html#a779aa281ce888472cf30ab9a13c1675a',1,'BlocksProtocol::BlockDataSheet']]],
   ['bwavcodinghistory',['bwavCodingHistory',['../classWavAudioFormat.html#a5e478da650f2e1fdb3f452e9e3c2e94f',1,'WavAudioFormat']]],
   ['bwavdescription',['bwavDescription',['../classWavAudioFormat.html#a1b75b002a3b479b8f4b992a5e21f7076',1,'WavAudioFormat']]],
   ['bwavoriginationdate',['bwavOriginationDate',['../classWavAudioFormat.html#a536849856a3e84afe84dded0feb921c8',1,'WavAudioFormat']]],

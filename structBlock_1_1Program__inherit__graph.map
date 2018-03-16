@@ -1,4 +1,4 @@
 <map id="Block::Program" name="Block::Program">
 <area shape="rect" id="node2" href="$structBitmapLEDProgram.html" title="A simple Program to set the colours of individual LEDs. " alt="" coords="5,80,144,107"/>
-<area shape="rect" id="node3" href="$structDrumPadGridProgram.html" title="DrumPadGridProgram" alt="" coords="169,80,319,107"/>
+<area shape="rect" id="node3" href="$structDrumPadGridProgram.html" title="{Blocks} " alt="" coords="169,80,319,107"/>
 </map>

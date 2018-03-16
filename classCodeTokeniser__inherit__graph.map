@@ -1,5 +1,5 @@
 <map id="CodeTokeniser" name="CodeTokeniser">
 <area shape="rect" id="node2" href="$classCPlusPlusCodeTokeniser.html" title="A simple lexical analyser for syntax colouring of C++ code. " alt="" coords="5,80,176,107"/>
-<area shape="rect" id="node3" href="$classLuaTokeniser.html" title="LuaTokeniser" alt="" coords="201,80,300,107"/>
-<area shape="rect" id="node4" href="$classXmlTokeniser.html" title="XmlTokeniser" alt="" coords="325,80,427,107"/>
+<area shape="rect" id="node3" href="$classLuaTokeniser.html" title="{GUI} " alt="" coords="201,80,300,107"/>
+<area shape="rect" id="node4" href="$classXmlTokeniser.html" title="{GUI} " alt="" coords="325,80,427,107"/>
 </map>
