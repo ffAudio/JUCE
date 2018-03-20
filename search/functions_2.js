@@ -317,6 +317,7 @@ var searchData=
   ['createaudioiodevicetype_5falsa',['createAudioIODeviceType_ALSA',['../classAudioIODeviceType.html#ab6f7e9cd0b51436fabf706e8ca8a602f',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fandroid',['createAudioIODeviceType_Android',['../classAudioIODeviceType.html#a6be31ae8ce32ecae93f6fce86477e859',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fasio',['createAudioIODeviceType_ASIO',['../classAudioIODeviceType.html#aee6faebf37f99124203b401c3bc6dfcc',1,'AudioIODeviceType']]],
+  ['createaudioiodevicetype_5fbela',['createAudioIODeviceType_Bela',['../classAudioIODeviceType.html#a56f58e817a0bccac7dc0ea5721ce6781',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fcoreaudio',['createAudioIODeviceType_CoreAudio',['../classAudioIODeviceType.html#a6ca7fa4634cf402d84eb747abe29c897',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fdirectsound',['createAudioIODeviceType_DirectSound',['../classAudioIODeviceType.html#a1630530b154ab8eeb0458d156d9f07cc',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fiosaudio',['createAudioIODeviceType_iOSAudio',['../classAudioIODeviceType.html#ac58ef81494ae91347abce612447f93df',1,'AudioIODeviceType']]],

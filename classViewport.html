@@ -161,6 +161,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4b846094f30a0a72bd707dee545ec20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#ab4b846094f30a0a72bd707dee545ec20">setScrollBarsShown</a> (bool showVerticalScrollbarIfNeeded, bool showHorizontalScrollbarIfNeeded, bool allowVerticalScrollingWithoutScrollbar=false, bool allowHorizontalScrollingWithoutScrollbar=false)</td></tr>
 <tr class="memdesc:ab4b846094f30a0a72bd707dee545ec20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns scrollbars on or off.  <a href="#ab4b846094f30a0a72bd707dee545ec20">More...</a><br/></td></tr>
 <tr class="separator:ab4b846094f30a0a72bd707dee545ec20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f8f8d346e514f36bc3462287e56062c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a9f8f8d346e514f36bc3462287e56062c">setScrollBarPosition</a> (bool verticalScrollbarOnRight, bool horizontalScrollbarAtBottom)</td></tr>
+<tr class="memdesc:a9f8f8d346e514f36bc3462287e56062c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes where the scroll bars are positioned.  <a href="#a9f8f8d346e514f36bc3462287e56062c">More...</a><br/></td></tr>
+<tr class="separator:a9f8f8d346e514f36bc3462287e56062c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a900d3f4d375a71d1be9732df459aa4ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a900d3f4d375a71d1be9732df459aa4ea">isVerticalScrollbarOnTheRight</a> () const noexcept</td></tr>
+<tr class="memdesc:a900d3f4d375a71d1be9732df459aa4ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the vertical scrollbar will appear on the right side of the content.  <a href="#a900d3f4d375a71d1be9732df459aa4ea">More...</a><br/></td></tr>
+<tr class="separator:a900d3f4d375a71d1be9732df459aa4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a114196a830496fd8b1a3a2f768b2c0d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a114196a830496fd8b1a3a2f768b2c0d4">isHorizontalScrollbarAtBottom</a> () const noexcept</td></tr>
+<tr class="memdesc:a114196a830496fd8b1a3a2f768b2c0d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the horizontal scrollbar will appear at the bottom of the content.  <a href="#a114196a830496fd8b1a3a2f768b2c0d4">More...</a><br/></td></tr>
+<tr class="separator:a114196a830496fd8b1a3a2f768b2c0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a395dad79d93fef08652fda138d70e345"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewport.html#a395dad79d93fef08652fda138d70e345">isVerticalScrollBarShown</a> () const noexcept</td></tr>
 <tr class="memdesc:a395dad79d93fef08652fda138d70e345"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the vertical scrollbar is enabled.  <a href="#a395dad79d93fef08652fda138d70e345">More...</a><br/></td></tr>
 <tr class="separator:a395dad79d93fef08652fda138d70e345"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -633,9 +642,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a90a5f41210643598f6fdd5013800e5d0 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a90a5f41210643598f6fdd5013800e5d0">mouseDoubleClick</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event) override</td></tr>
 <tr class="memdesc:a90a5f41210643598f6fdd5013800e5d0 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a mouse button has been double-clicked on a component.  <a href="#a90a5f41210643598f6fdd5013800e5d0">More...</a><br/></td></tr>
 <tr class="separator:a90a5f41210643598f6fdd5013800e5d0 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abde4246acd5f0289785daf92b8c87d81 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#abde4246acd5f0289785daf92b8c87d81">mouseMagnify</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event, float scaleFactor)</td></tr>
-<tr class="memdesc:abde4246acd5f0289785daf92b8c87d81 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a pinch-to-zoom mouse-gesture is used.  <a href="#abde4246acd5f0289785daf92b8c87d81">More...</a><br/></td></tr>
-<tr class="separator:abde4246acd5f0289785daf92b8c87d81 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee9b907ece698c709acd6aa79bb44f8 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a9ee9b907ece698c709acd6aa79bb44f8">mouseMagnify</a> (const <a class="el" href="classMouseEvent.html">MouseEvent</a> &amp;event, float scaleFactor) override</td></tr>
+<tr class="memdesc:a9ee9b907ece698c709acd6aa79bb44f8 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a pinch-to-zoom mouse-gesture is used.  <a href="#a9ee9b907ece698c709acd6aa79bb44f8">More...</a><br/></td></tr>
+<tr class="separator:a9ee9b907ece698c709acd6aa79bb44f8 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7845e402a21d2b86d8c4ec48bc7c93b1 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a7845e402a21d2b86d8c4ec48bc7c93b1">setRepaintsOnMouseActivity</a> (bool shouldRepaint) noexcept</td></tr>
 <tr class="memdesc:a7845e402a21d2b86d8c4ec48bc7c93b1 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Causes automatic repaints when the mouse enters or exits this component.  <a href="#a7845e402a21d2b86d8c4ec48bc7c93b1">More...</a><br/></td></tr>
 <tr class="separator:a7845e402a21d2b86d8c4ec48bc7c93b1 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1345,6 +1354,86 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9f8f8d346e514f36bc3462287e56062c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Viewport::setScrollBarPosition </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>verticalScrollbarOnRight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>horizontalScrollbarAtBottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes where the scroll bars are positioned. </p>
+<p>If verticalScrollbarOnRight is set to true, then the vertical scrollbar will appear on the right side of the view port's content (this is the default), otherwise it will be on the left side of the content.</p>
+<p>If horizontalScrollbarAtBottom is set to true, then the horizontal scrollbar will appear at the bottom of the view port's content (this is the default), otherwise it will be at the top. </p>
+
+</div>
+</div>
+<a class="anchor" id="a900d3f4d375a71d1be9732df459aa4ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Viewport::isVerticalScrollbarOnTheRight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the vertical scrollbar will appear on the right side of the content. </p>
+
+</div>
+</div>
+<a class="anchor" id="a114196a830496fd8b1a3a2f768b2c0d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Viewport::isHorizontalScrollbarAtBottom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the horizontal scrollbar will appear at the bottom of the content. </p>
+
+</div>
+</div>
 <a class="anchor" id="a395dad79d93fef08652fda138d70e345"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1924,7 +2013,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 17 2018 01:00:53 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 20 2018 01:01:12 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
