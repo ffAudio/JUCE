@@ -446,6 +446,7 @@ var searchData=
   ['istempometaevent',['isTempoMetaEvent',['../classMidiMessage.html#aa9654c52ea08da9d76a31c93006348f8',1,'MidiMessage']]],
   ['istextboxeditable',['isTextBoxEditable',['../classSlider.html#acd1590a901ef4a8240c8aae05c52e824',1,'Slider']]],
   ['istexteditable',['isTextEditable',['../classComboBox.html#a782bd99dc000c2ec442c3fb8ebd969e9',1,'ComboBox']]],
+  ['istexteditormultiline',['isTextEditorMultiLine',['../classTextPropertyComponent.html#aa7be439b362e1321f1c066fbe4d32839',1,'TextPropertyComponent']]],
   ['istextelement',['isTextElement',['../classXmlElement.html#a9fe9798ad1997c993ee35d7580a6189e',1,'XmlElement']]],
   ['istextinputactive',['isTextInputActive',['../classTextInputTarget.html#a8dbdf96f7d6980207dde86edbd24455f',1,'TextInputTarget::isTextInputActive()'],['../classTextEditor.html#a591af598b901d22a058b8043ced32a36',1,'TextEditor::isTextInputActive()'],['../classCodeEditorComponent.html#aaabca05f2c538254bec73900f2b4c30d',1,'CodeEditorComponent::isTextInputActive()']]],
   ['istextmetaevent',['isTextMetaEvent',['../classMidiMessage.html#afb44a1c54810b707eb0f6e108d3060f1',1,'MidiMessage']]],
