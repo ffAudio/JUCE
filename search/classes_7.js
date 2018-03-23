@@ -144,6 +144,7 @@ var searchData=
   ['heapblock_3c_20thumbnailcacheentry_20_2a_20_3e',['HeapBlock&lt; ThumbnailCacheEntry * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20timer_20_2a_20_3e',['HeapBlock&lt; Timer * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20timesliceclient_20_2a_20_3e',['HeapBlock&lt; TimeSliceClient * &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20togglebutton_20_2a_20_3e',['HeapBlock&lt; ToggleButton * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20toolbaritemcomponent_20_2a_20_3e',['HeapBlock&lt; ToolbarItemComponent * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20treeviewitem_20_2a_20_3e',['HeapBlock&lt; TreeViewItem * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20type_20_3e',['HeapBlock&lt; Type &gt;',['../classHeapBlock.html',1,'']]],

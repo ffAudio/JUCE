@@ -54,7 +54,6 @@ var searchData=
   ['flexshrink',['flexShrink',['../classFlexItem.html#a67fdfe4ec6cdd882057e8ed39994fb93',1,'FlexItem']]],
   ['flexwrap',['flexWrap',['../classFlexBox.html#a58870e7df132cee2eda6d7586d026303',1,'FlexBox']]],
   ['float32',['float32',['../classOSCTypes.html#a7c16c05c48b9a0d60e615104c5f99c52',1,'OSCTypes']]],
-  ['float_5fpi',['float_Pi',['../group__juce__core-maths.html#gad72991ce1d75b613ea66a31011f661bc',1,'juce_MathsFunctions.h']]],
   ['floatvalue',['floatValue',['../classOSCArgument.html#a06d50d41bc6431efb38f4221eccc5809',1,'OSCArgument']]],
   ['floralwhite',['floralwhite',['../classColours.html#a7b14b831624be80b4520225559ba5253',1,'Colours']]],
   ['folder',['folder',['../structKnownPluginList_1_1PluginTree.html#ac9560e7c8295f7967b7a4f1b62a30d1b',1,'KnownPluginList::PluginTree']]],

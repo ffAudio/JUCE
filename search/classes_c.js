@@ -65,6 +65,7 @@ var searchData=
   ['mpesynthesiservoice',['MPESynthesiserVoice',['../classMPESynthesiserVoice.html',1,'']]],
   ['mpevalue',['MPEValue',['../classMPEValue.html',1,'']]],
   ['mpezonelayout',['MPEZoneLayout',['../classMPEZoneLayout.html',1,'']]],
+  ['multichoicepropertycomponent',['MultiChoicePropertyComponent',['../classMultiChoicePropertyComponent.html',1,'']]],
   ['multidocumentpanel',['MultiDocumentPanel',['../classMultiDocumentPanel.html',1,'']]],
   ['multidocumentpanelwindow',['MultiDocumentPanelWindow',['../classMultiDocumentPanelWindow.html',1,'']]],
   ['multitimer',['MultiTimer',['../classMultiTimer.html',1,'']]]
