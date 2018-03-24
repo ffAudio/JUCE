@@ -84,6 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classValueWithDefault-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ValueWithDefault Class Reference<div class="ingroups"><a class="el" href="group__juce__data__structures-values.html">values</a></div></div>  </div>
@@ -143,6 +144,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac1604583e4bf37ab5d3d423bfec50283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIdentifier.html">Identifier</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueWithDefault.html#ac1604583e4bf37ab5d3d423bfec50283">getPropertyID</a> () noexcept</td></tr>
 <tr class="memdesc:ac1604583e4bf37ab5d3d423bfec50283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the property ID of the referenced property.  <a href="#ac1604583e4bf37ab5d3d423bfec50283">More...</a><br/></td></tr>
 <tr class="separator:ac1604583e4bf37ab5d3d423bfec50283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aea515db1ed07e85ae99876623a4eada9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classstd_1_1function.html">std::function</a>&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueWithDefault.html#aea515db1ed07e85ae99876623a4eada9">onDefaultChange</a></td></tr>
+<tr class="memdesc:aea515db1ed07e85ae99876623a4eada9"><td class="mdescLeft">&#160;</td><td class="mdescRight">You can assign a lambda to this callback object to have it called when the default value is changed.  <a href="#aea515db1ed07e85ae99876623a4eada9">More...</a><br/></td></tr>
+<tr class="separator:aea515db1ed07e85ae99876623a4eada9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class acts as a wrapper around a property inside a <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>. </p>
@@ -341,6 +348,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets the default value to a new var. </p>
+
+<p>References <a class="el" href="classValueWithDefault.html#aea515db1ed07e85ae99876623a4eada9">onDefaultChange</a>.</p>
 
 </div>
 </div>
@@ -570,13 +579,30 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aea515db1ed07e85ae99876623a4eada9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classstd_1_1function.html">std::function</a>&lt;void()&gt; ValueWithDefault::onDefaultChange</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>You can assign a lambda to this callback object to have it called when the default value is changed. </p>
+
+<p>Referenced by <a class="el" href="classValueWithDefault.html#ae8bd28a38bcb003fc5e353fd91cb180a">setDefault()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__ValueWithDefault_8h.html">juce_ValueWithDefault.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 23 2018 01:01:12 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 24 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

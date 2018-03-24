@@ -8,6 +8,7 @@ var searchData=
   ['olivedrab',['olivedrab',['../classColours.html#a470482f79ccbabc1cfe7c44e4123acfd',1,'Colours']]],
   ['onchange',['onChange',['../classComboBox.html#a9cf2e20990541b9fbb539cd4a8e0ac4e',1,'ComboBox']]],
   ['onclick',['onClick',['../classButton.html#a30b76ab312dc7f66e67596ae20540ec2',1,'Button']]],
+  ['ondefaultchange',['onDefaultChange',['../classValueWithDefault.html#aea515db1ed07e85ae99876623a4eada9',1,'ValueWithDefault']]],
   ['ondragend',['onDragEnd',['../classSlider.html#a9834a68453371d28a70cb9388529ab11',1,'Slider']]],
   ['ondragstart',['onDragStart',['../classSlider.html#ae455ecfcc65e0644d59ae405c9ca2562',1,'Slider']]],
   ['oneditorhide',['onEditorHide',['../classLabel.html#a91c371cd75550faa4fc2fd546b31a3fc',1,'Label']]],
