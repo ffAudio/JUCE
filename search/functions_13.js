@@ -58,7 +58,6 @@ var searchData=
   ['tobipolarfloat',['toBipolarFloat',['../structBlocksProtocol_1_1IntegerWithBitSize.html#a8dd839f6dca80e45e7e6c4bf06de3dd8',1,'BlocksProtocol::IntegerWithBitSize']]],
   ['tocfstring',['toCFString',['../classString.html#a3d3927f416d704b9d1878b379aafdc84',1,'String']]],
   ['toconfigmetadata',['toConfigMetaData',['../structBlockConfigManager_1_1ConfigDescription.html#af1395c279c717bbabe0881213ecfcbc8',1,'BlockConfigManager::ConfigDescription']]],
-  ['tocoreaudio',['toCoreAudio',['../structjuce_1_1CoreAudioLayouts.html#a27ac321f027bbfd99aaac18ff0ac96e9',1,'juce::CoreAudioLayouts']]],
   ['todashedstring',['toDashedString',['../classUuid.html#af9c3f68f05b23e0508723d523b0ce6c9',1,'Uuid']]],
   ['todisplaystring',['toDisplayString',['../classColour.html#af67d6e061dcf0429339fe6b8b999ece6',1,'Colour']]],
   ['todouble',['toDouble',['../classLine.html#adbfed230f1a83b399812a4889122ef68',1,'Line::toDouble()'],['../classPoint.html#a5586b3e375224befdcd4881679295cf3',1,'Point::toDouble()'],['../classRectangle.html#a92fbbb29fe83b6d2aa033d4507fb441d',1,'Rectangle::toDouble()']]],

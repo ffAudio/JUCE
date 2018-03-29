@@ -1,13 +1,13 @@
 var searchData=
 [
   ['sadie',['SADiE',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a3d56bff5bf00130c334d4c1f77432ed5',1,'PluginHostType']]],
-  ['samplesperframe',['samplesPerFrame',['../classAudioCDReader.html#af9abb10b984fcb3c790b02c5751c9ad3a1db74900d5d80b397c1bbf11691cee93',1,'AudioCDReader']]],
+  ['samplesperframe',['samplesPerFrame',['../classAudioCDReader.html#a22da3f942ca90769b63123bc05bad836a1db74900d5d80b397c1bbf11691cee93',1,'AudioCDReader']]],
   ['savedok',['savedOk',['../classFileBasedDocument.html#a89d417326aed46fb561c599265e426d2aa0f8eec65cc59595a5e7d665c2a2efeb',1,'FileBasedDocument']]],
   ['savemode',['saveMode',['../classFileBrowserComponent.html#a32888a950cc0e51c8e1350f53bea43d6aca3d0a66bd4fc606ab874b3da93a4d89',1,'FileBrowserComponent']]],
   ['saveprogramasdefault',['saveProgramAsDefault',['../namespaceBlocksProtocol.html#af20b1d99b2ab723c554407138edc9af1a8e6b0a93b206a3f2b56dd2314c1ea5e6',1,'BlocksProtocol']]],
   ['scale',['scale',['../classControlButton.html#a891776295057786f99f14631b1aa2794ac9b833f510533f89cc26705999ed2bca',1,'ControlButton::scale()'],['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79ac583fa14105845d9584fcbf1cef7b7a5',1,'BlocksProtocol::scale()']]],
   ['seaboardblock',['seaboardBlock',['../classBlock.html#a2c6b3c425b9b8cb708b23e553fa81324ad44a5d974e8503f978e605adc27ca156',1,'Block']]],
-  ['selectall',['selectAll',['../namespaceStandardApplicationCommandIDs.html#a7888896f76408059bfe6a8ac9db5c984a651985a70b21b1d0b7a89007fc8793df',1,'StandardApplicationCommandIDs']]],
+  ['selectall',['selectAll',['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0a651985a70b21b1d0b7a89007fc8793df',1,'StandardApplicationCommandIDs']]],
   ['selecteditembackgroundcolourid',['selectedItemBackgroundColourId',['../classTreeView.html#abeebe6dbdc6ae466495aabc64eb51d6aa70c4477c7945a15d0fc8e5c5f75cdb71',1,'TreeView']]],
   ['sendnotification',['sendNotification',['../group__juce__events-messages.html#gga25a31a4bdc02a0d0adb743e26dd14ba9ad9a3eff1d1ddebf33141da7cf581be4c',1,'juce_NotificationType.h']]],
   ['sendnotificationasync',['sendNotificationAsync',['../group__juce__events-messages.html#gga25a31a4bdc02a0d0adb743e26dd14ba9aa70e4499b93d1738b0ee53de03f7a9c4',1,'juce_NotificationType.h']]],

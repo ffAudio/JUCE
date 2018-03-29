@@ -1293,8 +1293,6 @@ Static Public Member Functions</h2></td></tr>
 <p>Creates a set for ACN, SN3D normalised ambisonic surround setups with a given order. </p>
 <p>Is equivalent to: kAmbiXXXOrderACN (VST), AAX_eStemFormat_Ambi_XXX_ACN (AAX), kAudioChannelLayoutTag_HOA_ACN_SN3D (CoreAudio) </p>
 
-<p>Referenced by <a class="el" href="structjuce_1_1CoreAudioLayouts.html#af47e0bd93725ae19d74f9c5635299455">juce::CoreAudioLayouts::getSpeakerLayoutForCoreAudioTag()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a1c77eedca94fdb0200946ea347ba39b7"></a>
@@ -1312,8 +1310,6 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the order of the ambisonic layout represented by this <a class="el" href="classAudioChannelSet.html" title="Represents a set of audio channel types. ">AudioChannelSet</a>. </p>
 <p>If the <a class="el" href="classAudioChannelSet.html" title="Represents a set of audio channel types. ">AudioChannelSet</a> is not an ambisonic layout, then this method will return -1. </p>
-
-<p>Referenced by <a class="el" href="structjuce_1_1CoreAudioLayouts.html#a27ac321f027bbfd99aaac18ff0ac96e9">juce::CoreAudioLayouts::toCoreAudio()</a>.</p>
 
 </div>
 </div>
@@ -1341,7 +1337,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Creates a set of untyped discrete channels. </p>
 
-<p>Referenced by <a class="el" href="structjuce_1_1CoreAudioLayouts.html#aa0be9fd166ec78c986641f3f4d7677ba">juce::CoreAudioLayouts::getCoreAudioLayoutChannels()</a>, and <a class="el" href="structSpeakerMappings.html#a231aa444606ba6163fac1f8d5a00427c">SpeakerMappings::vstArrangementTypeToChannelSet()</a>.</p>
+<p>Referenced by <a class="el" href="structSpeakerMappings.html#a231aa444606ba6163fac1f8d5a00427c">SpeakerMappings::vstArrangementTypeToChannelSet()</a>.</p>
 
 </div>
 </div>
@@ -1521,7 +1517,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Adds a channel to the set. </p>
 
-<p>Referenced by <a class="el" href="structjuce_1_1CoreAudioLayouts.html#a27ac321f027bbfd99aaac18ff0ac96e9">juce::CoreAudioLayouts::toCoreAudio()</a>, and <a class="el" href="structSpeakerMappings.html#a231aa444606ba6163fac1f8d5a00427c">SpeakerMappings::vstArrangementTypeToChannelSet()</a>.</p>
+<p>Referenced by <a class="el" href="structSpeakerMappings.html#a231aa444606ba6163fac1f8d5a00427c">SpeakerMappings::vstArrangementTypeToChannelSet()</a>.</p>
 
 </div>
 </div>
@@ -1566,7 +1562,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns the number of channels in the set. </p>
 
-<p>Referenced by <a class="el" href="structjuce_1_1CoreAudioLayouts.html#a27ac321f027bbfd99aaac18ff0ac96e9">juce::CoreAudioLayouts::toCoreAudio()</a>, and <a class="el" href="classSpeakerMappings_1_1VstSpeakerConfigurationHolder.html#acb8c4e917f6d2d0bb62c5a95dbba85d5">SpeakerMappings::VstSpeakerConfigurationHolder::VstSpeakerConfigurationHolder()</a>.</p>
+<p>Referenced by <a class="el" href="classSpeakerMappings_1_1VstSpeakerConfigurationHolder.html#acb8c4e917f6d2d0bb62c5a95dbba85d5">SpeakerMappings::VstSpeakerConfigurationHolder::VstSpeakerConfigurationHolder()</a>.</p>
 
 </div>
 </div>
@@ -1610,7 +1606,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Returns an array of all the types in this channel set. </p>
 
-<p>Referenced by <a class="el" href="structSpeakerMappings.html#a9049a026ab41806fb5dc6aad8a426613">SpeakerMappings::channelSetToVstArrangementType()</a>, <a class="el" href="structjuce_1_1CoreAudioLayouts.html#aa0be9fd166ec78c986641f3f4d7677ba">juce::CoreAudioLayouts::getCoreAudioLayoutChannels()</a>, and <a class="el" href="structjuce_1_1CoreAudioLayouts.html#af47e0bd93725ae19d74f9c5635299455">juce::CoreAudioLayouts::getSpeakerLayoutForCoreAudioTag()</a>.</p>
+<p>Referenced by <a class="el" href="structSpeakerMappings.html#a9049a026ab41806fb5dc6aad8a426613">SpeakerMappings::channelSetToVstArrangementType()</a>.</p>
 
 </div>
 </div>
@@ -1801,8 +1797,6 @@ Static Public Member Functions</h2></td></tr>
 <p>This function will assert if you supply a duplicate channel.</p>
 <p>Note that this method ignores the order in which the channels are given, i.e. two arrays with the same elements but in a different order will still result in the same channel set. </p>
 
-<p>Referenced by <a class="el" href="structjuce_1_1CoreAudioLayouts.html#a3d5ef7933a56c8e69f050609b8e84da1">juce::CoreAudioLayouts::fromCoreAudio()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="af97cdd3f0d62b669f3f0da1c32401d89"></a>
@@ -1828,8 +1822,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create an <a class="el" href="classAudioChannelSet.html" title="Represents a set of audio channel types. ">AudioChannelSet</a> from a WAVEFORMATEXTENSIBLE channelMask (typically used in .wav files). </p>
-
-<p>Referenced by <a class="el" href="structjuce_1_1CoreAudioLayouts.html#aa0be9fd166ec78c986641f3f4d7677ba">juce::CoreAudioLayouts::getCoreAudioLayoutChannels()</a>.</p>
 
 </div>
 </div>
@@ -1937,7 +1929,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 29 2018 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 30 2018 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

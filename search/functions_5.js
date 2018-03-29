@@ -140,7 +140,6 @@ var searchData=
   ['frombase64encoding',['fromBase64Encoding',['../classMemoryBlock.html#ae9b274b678bd4bdbfb64fec6c1c35e58',1,'MemoryBlock']]],
   ['frombipolarfloat',['fromBipolarFloat',['../structBlocksProtocol_1_1IntegerWithBitSize.html#a740fbbcd4ff999d5f04de55850efedac',1,'BlocksProtocol::IntegerWithBitSize']]],
   ['fromcfstring',['fromCFString',['../classString.html#a080d955ce1e06ea976077db710bb83a6',1,'String']]],
-  ['fromcoreaudio',['fromCoreAudio',['../structjuce_1_1CoreAudioLayouts.html#a3d5ef7933a56c8e69f050609b8e84da1',1,'juce::CoreAudioLayouts::fromCoreAudio(const AudioChannelLayout &amp;layout)'],['../structjuce_1_1CoreAudioLayouts.html#a09e9d079c77bb0054e349106218c4b36',1,'juce::CoreAudioLayouts::fromCoreAudio(AudioChannelLayoutTag layoutTag)']]],
   ['fromfirstoccurrenceof',['fromFirstOccurrenceOf',['../classString.html#a5d24cab2f6f567dd318457e846343b14',1,'String']]],
   ['fromfloatrgba',['fromFloatRGBA',['../classColour.html#a3992d5ea9bdaf0471bd6caa0595b0185',1,'Colour']]],
   ['fromfrustum',['fromFrustum',['../classMatrix3D.html#af40888ae716dfc6db996412e4322773c',1,'Matrix3D']]],

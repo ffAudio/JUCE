@@ -61,7 +61,6 @@ var searchData=
   ['converterinstance',['ConverterInstance',['../classAudioData_1_1ConverterInstance.html',1,'AudioData']]],
   ['convolution',['Convolution',['../classdsp_1_1Convolution.html',1,'dsp']]],
   ['coreaudioformat',['CoreAudioFormat',['../classCoreAudioFormat.html',1,'']]],
-  ['coreaudiolayouts',['CoreAudioLayouts',['../structjuce_1_1CoreAudioLayouts.html',1,'juce']]],
   ['cpluspluscodetokeniser',['CPlusPlusCodeTokeniser',['../classCPlusPlusCodeTokeniser.html',1,'']]],
   ['cpptokeniserfunctions',['CppTokeniserFunctions',['../structCppTokeniserFunctions.html',1,'']]],
   ['criticalsection',['CriticalSection',['../classCriticalSection.html',1,'']]],
