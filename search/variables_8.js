@@ -65,6 +65,7 @@ var searchData=
   ['issectionheader',['isSectionHeader',['../structPopupMenu_1_1Item.html#a0a362bd33e4eb4ec8946c654014149d2',1,'PopupMenu::Item']]],
   ['isseparator',['isSeparator',['../structPopupMenu_1_1Item.html#aaa1315800a3586af05b9213ef1ed182a',1,'PopupMenu::Item']]],
   ['issmooth',['isSmooth',['../structMouseWheelDetails.html#a01a4af26811a69fe0465d6797cc122d3',1,'MouseWheelDetails']]],
+  ['issymboliclink',['isSymbolicLink',['../structZipFile_1_1ZipEntry.html#ab0184455fc1f924e5e3128db395e47dd',1,'ZipFile::ZipEntry']]],
   ['isticked',['isTicked',['../structPopupMenu_1_1Item.html#a06e1905971ec79f5e810149655e59af6',1,'PopupMenu::Item']]],
   ['istouchend',['isTouchEnd',['../structTouchSurface_1_1Touch.html#aee5e426dccf104d28083af3b67f38151',1,'TouchSurface::Touch']]],
   ['istouchstart',['isTouchStart',['../structTouchSurface_1_1Touch.html#abbb23178c550bc0a0a7ddd40fb931002',1,'TouchSurface::Touch']]],

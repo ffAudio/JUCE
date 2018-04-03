@@ -236,6 +236,7 @@ var searchData=
   ['heapblock_3c_20pushnotifications_3a_3apushnotifications_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; PushNotifications::PushNotifications::Listener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20pushnotifications_3a_3asettings_3a_3acategory_20_3e',['HeapBlock&lt; PushNotifications::Settings::Category &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20range_3c_20int_20_3e_20_3e',['HeapBlock&lt; Range&lt; int &gt; &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20range_3c_20type_20_3e_20_3e',['HeapBlock&lt; Range&lt; Type &gt; &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20rectangle_20_3e',['HeapBlock&lt; Rectangle &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20relativepointpath_3a_3aelementbase_20_2a_20_3e',['HeapBlock&lt; RelativePointPath::ElementBase * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20row_20_3e',['HeapBlock&lt; Row &gt;',['../classHeapBlock.html',1,'']]],

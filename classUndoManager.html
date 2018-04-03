@@ -137,36 +137,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a001384b3068589de6564796f7e43864e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a001384b3068589de6564796f7e43864e">canUndo</a> () const noexcept</td></tr>
 <tr class="memdesc:a001384b3068589de6564796f7e43864e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there's at least one action in the list to undo.  <a href="#a001384b3068589de6564796f7e43864e">More...</a><br/></td></tr>
 <tr class="separator:a001384b3068589de6564796f7e43864e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1213b09873ad7b4a0ab9ecba45ed3fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#ae1213b09873ad7b4a0ab9ecba45ed3fd">getUndoDescription</a> () const </td></tr>
-<tr class="memdesc:ae1213b09873ad7b4a0ab9ecba45ed3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the transaction that will be rolled-back when <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> is called.  <a href="#ae1213b09873ad7b4a0ab9ecba45ed3fd">More...</a><br/></td></tr>
-<tr class="separator:ae1213b09873ad7b4a0ab9ecba45ed3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39f45c284e8d0df1a0d378e676246931"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931">undo</a> ()</td></tr>
 <tr class="memdesc:a39f45c284e8d0df1a0d378e676246931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to roll-back the last transaction.  <a href="#a39f45c284e8d0df1a0d378e676246931">More...</a><br/></td></tr>
 <tr class="separator:a39f45c284e8d0df1a0d378e676246931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad81c6649e3acc3ab36726c280058d6bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#ad81c6649e3acc3ab36726c280058d6bb">undoCurrentTransactionOnly</a> ()</td></tr>
 <tr class="memdesc:ad81c6649e3acc3ab36726c280058d6bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to roll-back any actions that were added to the current transaction.  <a href="#ad81c6649e3acc3ab36726c280058d6bb">More...</a><br/></td></tr>
 <tr class="separator:ad81c6649e3acc3ab36726c280058d6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1213b09873ad7b4a0ab9ecba45ed3fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#ae1213b09873ad7b4a0ab9ecba45ed3fd">getUndoDescription</a> () const </td></tr>
+<tr class="memdesc:ae1213b09873ad7b4a0ab9ecba45ed3fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the transaction that will be rolled-back when <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> is called.  <a href="#ae1213b09873ad7b4a0ab9ecba45ed3fd">More...</a><br/></td></tr>
+<tr class="separator:ae1213b09873ad7b4a0ab9ecba45ed3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad921e92142d2e54600e9824d593e2b9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#ad921e92142d2e54600e9824d593e2b9b">getUndoDescriptions</a> () const </td></tr>
+<tr class="memdesc:ad921e92142d2e54600e9824d593e2b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the names of the sequence of transactions that will be performed if <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> is repeatedly called.  <a href="#ad921e92142d2e54600e9824d593e2b9b">More...</a><br/></td></tr>
+<tr class="separator:ad921e92142d2e54600e9824d593e2b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d8af2dbea4bbc0078d3a48da88a22b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#ad9d8af2dbea4bbc0078d3a48da88a22b">getTimeOfUndoTransaction</a> () const </td></tr>
+<tr class="memdesc:ad9d8af2dbea4bbc0078d3a48da88a22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time to which the state would be restored if <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> was to be called.  <a href="#ad9d8af2dbea4bbc0078d3a48da88a22b">More...</a><br/></td></tr>
+<tr class="separator:ad9d8af2dbea4bbc0078d3a48da88a22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f174495e70457b64db51c810707a102"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a5f174495e70457b64db51c810707a102">getActionsInCurrentTransaction</a> (<a class="el" href="classArray.html">Array</a>&lt; const <a class="el" href="classUndoableAction.html">UndoableAction</a> * &gt; &amp;actionsFound) const </td></tr>
 <tr class="memdesc:a5f174495e70457b64db51c810707a102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of the <a class="el" href="classUndoableAction.html" title="Used by the UndoManager class to store an action which can be done and undone. ">UndoableAction</a> objects that have been performed during the transaction that is currently open.  <a href="#a5f174495e70457b64db51c810707a102">More...</a><br/></td></tr>
 <tr class="separator:a5f174495e70457b64db51c810707a102"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16c6f968d74ac4b629dea6ea77464d6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#aa16c6f968d74ac4b629dea6ea77464d6">getNumActionsInCurrentTransaction</a> () const </td></tr>
 <tr class="memdesc:aa16c6f968d74ac4b629dea6ea77464d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of <a class="el" href="classUndoableAction.html" title="Used by the UndoManager class to store an action which can be done and undone. ">UndoableAction</a> objects that have been performed during the transaction that is currently open.  <a href="#aa16c6f968d74ac4b629dea6ea77464d6">More...</a><br/></td></tr>
 <tr class="separator:aa16c6f968d74ac4b629dea6ea77464d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9d8af2dbea4bbc0078d3a48da88a22b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#ad9d8af2dbea4bbc0078d3a48da88a22b">getTimeOfUndoTransaction</a> () const </td></tr>
-<tr class="memdesc:ad9d8af2dbea4bbc0078d3a48da88a22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time to which the state would be restored if <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> was to be called.  <a href="#ad9d8af2dbea4bbc0078d3a48da88a22b">More...</a><br/></td></tr>
-<tr class="separator:ad9d8af2dbea4bbc0078d3a48da88a22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5097159db1bcb892c3f51030c081bf82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a5097159db1bcb892c3f51030c081bf82">getTimeOfRedoTransaction</a> () const </td></tr>
-<tr class="memdesc:a5097159db1bcb892c3f51030c081bf82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time to which the state would be restored if <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> was to be called.  <a href="#a5097159db1bcb892c3f51030c081bf82">More...</a><br/></td></tr>
-<tr class="separator:a5097159db1bcb892c3f51030c081bf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a5d1d64c3e774db76047c17b0408067"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a2a5d1d64c3e774db76047c17b0408067">canRedo</a> () const noexcept</td></tr>
 <tr class="memdesc:a2a5d1d64c3e774db76047c17b0408067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there's at least one action in the list to redo.  <a href="#a2a5d1d64c3e774db76047c17b0408067">More...</a><br/></td></tr>
 <tr class="separator:a2a5d1d64c3e774db76047c17b0408067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb54172747a5f4dc7a21bc6a3c1b5c62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#aeb54172747a5f4dc7a21bc6a3c1b5c62">getRedoDescription</a> () const </td></tr>
-<tr class="memdesc:aeb54172747a5f4dc7a21bc6a3c1b5c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the transaction that will be redone when <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> is called.  <a href="#aeb54172747a5f4dc7a21bc6a3c1b5c62">More...</a><br/></td></tr>
-<tr class="separator:aeb54172747a5f4dc7a21bc6a3c1b5c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaea507a3b9eaea3360c0e393edf69ccb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb">redo</a> ()</td></tr>
 <tr class="memdesc:aaea507a3b9eaea3360c0e393edf69ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to redo the last transaction that was undone.  <a href="#aaea507a3b9eaea3360c0e393edf69ccb">More...</a><br/></td></tr>
 <tr class="separator:aaea507a3b9eaea3360c0e393edf69ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb54172747a5f4dc7a21bc6a3c1b5c62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#aeb54172747a5f4dc7a21bc6a3c1b5c62">getRedoDescription</a> () const </td></tr>
+<tr class="memdesc:aeb54172747a5f4dc7a21bc6a3c1b5c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the transaction that will be redone when <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> is called.  <a href="#aeb54172747a5f4dc7a21bc6a3c1b5c62">More...</a><br/></td></tr>
+<tr class="separator:aeb54172747a5f4dc7a21bc6a3c1b5c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63fe036f3f77d443c5fe6f347895876e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a63fe036f3f77d443c5fe6f347895876e">getRedoDescriptions</a> () const </td></tr>
+<tr class="memdesc:a63fe036f3f77d443c5fe6f347895876e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the names of the sequence of transactions that will be performed if <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> is repeatedly called.  <a href="#a63fe036f3f77d443c5fe6f347895876e">More...</a><br/></td></tr>
+<tr class="separator:a63fe036f3f77d443c5fe6f347895876e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5097159db1bcb892c3f51030c081bf82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUndoManager.html#a5097159db1bcb892c3f51030c081bf82">getTimeOfRedoTransaction</a> () const </td></tr>
+<tr class="memdesc:a5097159db1bcb892c3f51030c081bf82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time to which the state would be restored if <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> was to be called.  <a href="#a5097159db1bcb892c3f51030c081bf82">More...</a><br/></td></tr>
+<tr class="separator:a5097159db1bcb892c3f51030c081bf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classChangeBroadcaster"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classChangeBroadcaster')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classChangeBroadcaster.html">ChangeBroadcaster</a></td></tr>
 <tr class="memitem:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeBroadcaster.html#a1c8ccfa186a47d58a05e7f1f1576c038">ChangeBroadcaster</a> () noexcept</td></tr>
 <tr class="memdesc:a1c8ccfa186a47d58a05e7f1f1576c038 inherit pub_methods_classChangeBroadcaster"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>.  <a href="#a1c8ccfa186a47d58a05e7f1f1576c038">More...</a><br/></td></tr>
@@ -527,24 +533,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae1213b09873ad7b4a0ab9ecba45ed3fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classString.html">String</a> UndoManager::getUndoDescription </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the name of the transaction that will be rolled-back when <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> is called. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo</a> </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a39f45c284e8d0df1a0d378e676246931"></a>
 <div class="memitem">
 <div class="memproto">
@@ -560,6 +548,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Tries to roll-back the last transaction. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if the transaction can be undone, and false if it fails, or if there aren't any transactions to undo </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#ad81c6649e3acc3ab36726c280058d6bb" title="Tries to roll-back any actions that were added to the current transaction. ">undoCurrentTransactionOnly</a> </dd></dl>
 
 </div>
 </div>
@@ -580,6 +569,61 @@ Public Member Functions</h2></td></tr>
 <p>This will perform an <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> only if there are some actions in the undo list that were added after the last call to <a class="el" href="classUndoManager.html#ae05cd5e09da8e1208bd82a4d2d433e74" title="Starts a new group of actions that together will be treated as a single transaction. ">beginNewTransaction()</a>.</p>
 <p>This is useful because it lets you call <a class="el" href="classUndoManager.html#ae05cd5e09da8e1208bd82a4d2d433e74" title="Starts a new group of actions that together will be treated as a single transaction. ">beginNewTransaction()</a>, then perform an operation which may or may not actually perform some actions, and then call this method to get rid of any actions that might have been done without it rolling back the previous transaction if nothing was actually done.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if any actions were undone. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae1213b09873ad7b4a0ab9ecba45ed3fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> UndoManager::getUndoDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the name of the transaction that will be rolled-back when <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> is called. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo</a>, <a class="el" href="classUndoManager.html#a001384b3068589de6564796f7e43864e" title="Returns true if there&#39;s at least one action in the list to undo. ">canUndo</a>, <a class="el" href="classUndoManager.html#ad921e92142d2e54600e9824d593e2b9b" title="Returns the names of the sequence of transactions that will be performed if undo() is repeatedly call...">getUndoDescriptions</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad921e92142d2e54600e9824d593e2b9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classStringArray.html">StringArray</a> UndoManager::getUndoDescriptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the names of the sequence of transactions that will be performed if <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> is repeatedly called. </p>
+<p>Note that for transactions where no name was provided, the corresponding string will be empty. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo</a>, <a class="el" href="classUndoManager.html#a001384b3068589de6564796f7e43864e" title="Returns true if there&#39;s at least one action in the list to undo. ">canUndo</a>, <a class="el" href="classUndoManager.html#ae1213b09873ad7b4a0ab9ecba45ed3fd" title="Returns the name of the transaction that will be rolled-back when undo() is called. ">getUndoDescription</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad9d8af2dbea4bbc0078d3a48da88a22b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTime.html">Time</a> UndoManager::getTimeOfUndoTransaction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the time to which the state would be restored if <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> was to be called. </p>
+<p>If an undo isn't currently possible, it'll return <a class="el" href="classTime.html" title="Holds an absolute date and time. ">Time()</a>. </p>
 
 </div>
 </div>
@@ -621,42 +665,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad9d8af2dbea4bbc0078d3a48da88a22b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classTime.html">Time</a> UndoManager::getTimeOfUndoTransaction </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the time to which the state would be restored if <a class="el" href="classUndoManager.html#a39f45c284e8d0df1a0d378e676246931" title="Tries to roll-back the last transaction. ">undo()</a> was to be called. </p>
-<p>If an undo isn't currently possible, it'll return <a class="el" href="classTime.html" title="Holds an absolute date and time. ">Time()</a>. </p>
-
-</div>
-</div>
-<a class="anchor" id="a5097159db1bcb892c3f51030c081bf82"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classTime.html">Time</a> UndoManager::getTimeOfRedoTransaction </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the time to which the state would be restored if <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> was to be called. </p>
-<p>If a redo isn't currently possible, it'll return <a class="el" href="classTime.html#abc76e37eb137734df20c107ae94bbfee" title="Returns a Time object that is set to the current system time. ">Time::getCurrentTime()</a>. </p>
-
-</div>
-</div>
 <a class="anchor" id="a2a5d1d64c3e774db76047c17b0408067"></a>
 <div class="memitem">
 <div class="memproto">
@@ -683,24 +691,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aeb54172747a5f4dc7a21bc6a3c1b5c62"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classString.html">String</a> UndoManager::getRedoDescription </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the name of the transaction that will be redone when <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> is called. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo</a> </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="aaea507a3b9eaea3360c0e393edf69ccb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -719,13 +709,69 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aeb54172747a5f4dc7a21bc6a3c1b5c62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> UndoManager::getRedoDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the name of the transaction that will be redone when <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> is called. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo</a>, <a class="el" href="classUndoManager.html#a2a5d1d64c3e774db76047c17b0408067" title="Returns true if there&#39;s at least one action in the list to redo. ">canRedo</a>, <a class="el" href="classUndoManager.html#a63fe036f3f77d443c5fe6f347895876e" title="Returns the names of the sequence of transactions that will be performed if redo() is repeatedly call...">getRedoDescriptions</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a63fe036f3f77d443c5fe6f347895876e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classStringArray.html">StringArray</a> UndoManager::getRedoDescriptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the names of the sequence of transactions that will be performed if <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> is repeatedly called. </p>
+<p>Note that for transactions where no name was provided, the corresponding string will be empty. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo</a>, <a class="el" href="classUndoManager.html#a2a5d1d64c3e774db76047c17b0408067" title="Returns true if there&#39;s at least one action in the list to redo. ">canRedo</a>, <a class="el" href="classUndoManager.html#aeb54172747a5f4dc7a21bc6a3c1b5c62" title="Returns the name of the transaction that will be redone when redo() is called. ">getRedoDescription</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5097159db1bcb892c3f51030c081bf82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTime.html">Time</a> UndoManager::getTimeOfRedoTransaction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the time to which the state would be restored if <a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo()</a> was to be called. </p>
+<p>If a redo isn't currently possible, it'll return <a class="el" href="classTime.html#abc76e37eb137734df20c107ae94bbfee" title="Returns a Time object that is set to the current system time. ">Time::getCurrentTime()</a>. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classUndoManager.html#aaea507a3b9eaea3360c0e393edf69ccb" title="Tries to redo the last transaction that was undone. ">redo</a>, <a class="el" href="classUndoManager.html#a2a5d1d64c3e774db76047c17b0408067" title="Returns true if there&#39;s at least one action in the list to redo. ">canRedo</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__UndoManager_8h.html">juce_UndoManager.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 30 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 4 2018 01:01:07 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

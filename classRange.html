@@ -467,7 +467,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the start of the range. </p>
 
-<p>Referenced by <a class="el" href="classSparseSet.html#af5c79666e9e795e602c5a50ba94a3286">SparseSet&lt; int &gt;::addRange()</a>, <a class="el" href="classAudioData_1_1Pointer.html#a373335e595058583a100bfa70a469518">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::findMinAndMax()</a>, and <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
+<p>Referenced by <a class="el" href="classSparseSet.html#af5c79666e9e795e602c5a50ba94a3286">SparseSet&lt; int &gt;::addRange()</a>, <a class="el" href="classAudioData_1_1Pointer.html#a373335e595058583a100bfa70a469518">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::findMinAndMax()</a>, <a class="el" href="classSparseSet.html#a7b4a819efde4c0d0106b13dd2a84c1bb">SparseSet&lt; int &gt;::getTotalRange()</a>, and <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
@@ -496,7 +496,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the length of the range. </p>
 
-<p>Referenced by <a class="el" href="classRange.html#a4303a16b170ae1626bdd693f7fa17872">Range&lt; int64 &gt;::constrainRange()</a>, and <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
+<p>Referenced by <a class="el" href="classRange.html#a4303a16b170ae1626bdd693f7fa17872">Range&lt; int64 &gt;::constrainRange()</a>.</p>
 
 </div>
 </div>
@@ -525,7 +525,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the end of the range. </p>
 
-<p>Referenced by <a class="el" href="classSparseSet.html#af5c79666e9e795e602c5a50ba94a3286">SparseSet&lt; int &gt;::addRange()</a>, <a class="el" href="classAudioData_1_1Pointer.html#a373335e595058583a100bfa70a469518">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::findMinAndMax()</a>, and <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
+<p>Referenced by <a class="el" href="classAudioData_1_1Pointer.html#a373335e595058583a100bfa70a469518">AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::findMinAndMax()</a>, <a class="el" href="classSparseSet.html#a7b4a819efde4c0d0106b13dd2a84c1bb">SparseSet&lt; int &gt;::getTotalRange()</a>, and <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
@@ -554,7 +554,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns true if the range has a length of zero. </p>
 
-<p>Referenced by <a class="el" href="classSparseSet.html#af5c79666e9e795e602c5a50ba94a3286">SparseSet&lt; int &gt;::addRange()</a>.</p>
+<p>Referenced by <a class="el" href="classSparseSet.html#af5c79666e9e795e602c5a50ba94a3286">SparseSet&lt; int &gt;::addRange()</a>, and <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
@@ -584,6 +584,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Changes the start position of the range, leaving the end position unchanged. </p>
 <p>If the new start position is higher than the current end of the range, the end point will be pushed along to equal it, leaving an empty range at the new position. </p>
+
+<p>Referenced by <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
@@ -699,6 +701,8 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns a range with the same start position as this one, but a different end. </p>
 <p>If the new end position is below the current start of the range, the start point will be pushed back to equal the new end point. </p>
+
+<p>Referenced by <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
@@ -1008,6 +1012,8 @@ template&lt;typename ValueType&gt; </div>
 <p>Returns true if the given position lies inside this range. </p>
 <p>When making this comparison, the start value is considered to be inclusive, and the end of the range exclusive. </p>
 
+<p>Referenced by <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a67ae86bf19391b172c5a942e17a8270b"></a>
@@ -1252,7 +1258,7 @@ template&lt;typename ValueType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 30 2018 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 4 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

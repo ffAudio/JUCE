@@ -123,9 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2cf54ba41e95ead13be4cdea090750fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseSet.html#a2cf54ba41e95ead13be4cdea090750fe">getNumRanges</a> () const noexcept</td></tr>
 <tr class="memdesc:a2cf54ba41e95ead13be4cdea090750fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of contiguous blocks of values.  <a href="#a2cf54ba41e95ead13be4cdea090750fe">More...</a><br/></td></tr>
 <tr class="separator:a2cf54ba41e95ead13be4cdea090750fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d29ca9f868425a66b615cade11e055e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRange.html">Range</a>&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseSet.html#a5d29ca9f868425a66b615cade11e055e">getRange</a> (int rangeIndex) const noexcept</td></tr>
-<tr class="memdesc:a5d29ca9f868425a66b615cade11e055e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the contiguous ranges of values stored.  <a href="#a5d29ca9f868425a66b615cade11e055e">More...</a><br/></td></tr>
-<tr class="separator:a5d29ca9f868425a66b615cade11e055e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b8d1fd8e8741b87bfa8ad234f792a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseSet.html#a63b8d1fd8e8741b87bfa8ad234f792a3">getRange</a> (int rangeIndex) const noexcept</td></tr>
+<tr class="memdesc:a63b8d1fd8e8741b87bfa8ad234f792a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns one of the contiguous ranges of values stored.  <a href="#a63b8d1fd8e8741b87bfa8ad234f792a3">More...</a><br/></td></tr>
+<tr class="separator:a63b8d1fd8e8741b87bfa8ad234f792a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b4a819efde4c0d0106b13dd2a84c1bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseSet.html#a7b4a819efde4c0d0106b13dd2a84c1bb">getTotalRange</a> () const noexcept</td></tr>
 <tr class="memdesc:a7b4a819efde4c0d0106b13dd2a84c1bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the range between the lowest and highest values in the set.  <a href="#a7b4a819efde4c0d0106b13dd2a84c1bb">More...</a><br/></td></tr>
 <tr class="separator:a7b4a819efde4c0d0106b13dd2a84c1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,6 +144,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab8100292d1f68164f67b9d7cf5a3a809"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseSet.html#ab8100292d1f68164f67b9d7cf5a3a809">containsRange</a> (<a class="el" href="classRange.html">Range</a>&lt; Type &gt; range) const noexcept</td></tr>
 <tr class="memdesc:ab8100292d1f68164f67b9d7cf5a3a809"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the whole of a given range is contained within this one.  <a href="#ab8100292d1f68164f67b9d7cf5a3a809">More...</a><br/></td></tr>
 <tr class="separator:ab8100292d1f68164f67b9d7cf5a3a809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f6095375eb0669e1b7cad667650de6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classRange.html">Range</a>&lt; Type &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseSet.html#a98f6095375eb0669e1b7cad667650de6">getRanges</a> () const noexcept</td></tr>
+<tr class="memdesc:a98f6095375eb0669e1b7cad667650de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set as a list of ranges, which you may want to iterate over.  <a href="#a98f6095375eb0669e1b7cad667650de6">More...</a><br/></td></tr>
+<tr class="separator:a98f6095375eb0669e1b7cad667650de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfd7397d6a00983da2d92217d9374b5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseSet.html#abfd7397d6a00983da2d92217d9374b5b">operator==</a> (const <a class="el" href="classSparseSet.html">SparseSet</a> &amp;other) const noexcept</td></tr>
 <tr class="separator:abfd7397d6a00983da2d92217d9374b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e1a3e0bf7e2f3d1eb8004b52a946618"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparseSet.html#a4e1a3e0bf7e2f3d1eb8004b52a946618">operator!=</a> (const <a class="el" href="classSparseSet.html">SparseSet</a> &amp;other) const noexcept</td></tr>
@@ -424,8 +427,6 @@ template&lt;class Type&gt; </div>
 
 <p>Checks whether a particular value is in the set. </p>
 
-<p>Referenced by <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a2cf54ba41e95ead13be4cdea090750fe"></a>
@@ -452,13 +453,11 @@ template&lt;class Type&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the number of contiguous blocks of values. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSparseSet.html#a5d29ca9f868425a66b615cade11e055e" title="Returns one of the contiguous ranges of values stored. ">getRange</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classSparseSet.html#ab8100292d1f68164f67b9d7cf5a3a809">SparseSet&lt; int &gt;::containsRange()</a>, <a class="el" href="classSparseSet.html#a5d29ca9f868425a66b615cade11e055e">SparseSet&lt; int &gt;::getRange()</a>, <a class="el" href="classSparseSet.html#abd66ea8085ca0bb2ab90fb16fbf8d51d">SparseSet&lt; int &gt;::invertRange()</a>, and <a class="el" href="classSparseSet.html#a39a132c87707636a09bb73ba2a39ec38">SparseSet&lt; int &gt;::overlapsRange()</a>.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSparseSet.html#a63b8d1fd8e8741b87bfa8ad234f792a3" title="Returns one of the contiguous ranges of values stored. ">getRange</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a5d29ca9f868425a66b615cade11e055e"></a>
+<a class="anchor" id="a63b8d1fd8e8741b87bfa8ad234f792a3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -468,7 +467,7 @@ template&lt;class Type&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRange.html">Range</a>&lt;Type&gt; <a class="el" href="classSparseSet.html">SparseSet</a>&lt; Type &gt;::getRange </td>
+          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt;Type&gt; <a class="el" href="classSparseSet.html">SparseSet</a>&lt; Type &gt;::getRange </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>rangeIndex</em></td><td>)</td>
@@ -490,8 +489,6 @@ template&lt;class Type&gt; </div>
   </dd>
 </dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSparseSet.html#a7b4a819efde4c0d0106b13dd2a84c1bb" title="Returns the range between the lowest and highest values in the set. ">getTotalRange</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classSparseSet.html#abd66ea8085ca0bb2ab90fb16fbf8d51d">SparseSet&lt; int &gt;::invertRange()</a>.</p>
 
 </div>
 </div>
@@ -519,7 +516,9 @@ template&lt;class Type&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the range between the lowest and highest values in the set. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSparseSet.html#a5d29ca9f868425a66b615cade11e055e" title="Returns one of the contiguous ranges of values stored. ">getRange</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classSparseSet.html#a63b8d1fd8e8741b87bfa8ad234f792a3" title="Returns one of the contiguous ranges of values stored. ">getRange</a> </dd></dl>
+
+<p>Referenced by <a class="el" href="classSparseSet.html#a5366cfbfe1cfbd7683a9ce331afd8e81">SparseSet&lt; int &gt;::removeRange()</a>.</p>
 
 </div>
 </div>
@@ -645,6 +644,33 @@ template&lt;class Type&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a98f6095375eb0669e1b7cad667650de6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classArray.html">Array</a>&lt;<a class="el" href="classRange.html">Range</a>&lt;Type&gt; &gt;&amp; <a class="el" href="classSparseSet.html">SparseSet</a>&lt; Type &gt;::getRanges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the set as a list of ranges, which you may want to iterate over. </p>
+
+</div>
+</div>
 <a class="anchor" id="abfd7397d6a00983da2d92217d9374b5b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -703,7 +729,7 @@ template&lt;class Type&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 30 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 4 2018 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

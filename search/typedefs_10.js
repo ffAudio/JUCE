@@ -6,5 +6,5 @@ var searchData=
   ['topologyindex',['TopologyIndex',['../namespaceBlocksProtocol.html#a1bf2d2c7537400206e98488ac4fa437e',1,'BlocksProtocol']]],
   ['touchindex',['TouchIndex',['../namespaceBlocksProtocol.html#aeec6985f2994cb5c42906336c94c885f',1,'BlocksProtocol']]],
   ['trackingmode',['TrackingMode',['../structMPESynthesiserBase.html#a6903ed04f13f9683e5587e3be5c9b5f7',1,'MPESynthesiserBase']]],
-  ['type',['Type',['../classHeapBlock.html#a5757b5bd325d4addb907186b08e6849e',1,'HeapBlock::Type()'],['../structTypeHelpers_1_1ParameterType.html#a90e2de8ebb3e15f18a94a73a08aaad46',1,'TypeHelpers::ParameterType::type()'],['../structTypeHelpers_1_1SmallestFloatType.html#a94569e66418d08b8c18c9815d30a265f',1,'TypeHelpers::SmallestFloatType::type()']]]
+  ['type',['type',['../structTypeHelpers_1_1ParameterType.html#a90e2de8ebb3e15f18a94a73a08aaad46',1,'TypeHelpers::ParameterType::type()'],['../structTypeHelpers_1_1SmallestFloatType.html#a94569e66418d08b8c18c9815d30a265f',1,'TypeHelpers::SmallestFloatType::type()'],['../classHeapBlock.html#a5757b5bd325d4addb907186b08e6849e',1,'HeapBlock::Type()']]]
 ];
