@@ -423,6 +423,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d5a1862f3ea78cf6eb0ec54b2747cf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a6d5a1862f3ea78cf6eb0ec54b2747cf0">toNearestInt</a> () const noexcept</td></tr>
 <tr class="memdesc:a6d5a1862f3ea78cf6eb0ec54b2747cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts this rectangle to a <a class="el" href="classRectangle.html">Rectangle&lt;int&gt;</a>.  <a href="#a6d5a1862f3ea78cf6eb0ec54b2747cf0">More...</a><br/></td></tr>
 <tr class="separator:a6d5a1862f3ea78cf6eb0ec54b2747cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f597d5fa024c85a2302a905204e32ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#a4f597d5fa024c85a2302a905204e32ce">toNearestIntEdges</a> () const noexcept</td></tr>
+<tr class="memdesc:a4f597d5fa024c85a2302a905204e32ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts this rectangle to a <a class="el" href="classRectangle.html">Rectangle&lt;int&gt;</a>.  <a href="#a4f597d5fa024c85a2302a905204e32ce">More...</a><br/></td></tr>
+<tr class="separator:a4f597d5fa024c85a2302a905204e32ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa39fc9127d088428ead1cb72a95d652a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRectangle.html#aa39fc9127d088428ead1cb72a95d652a">toFloat</a> () const noexcept</td></tr>
 <tr class="memdesc:aa39fc9127d088428ead1cb72a95d652a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts this rectangle to a <a class="el" href="classRectangle.html">Rectangle&lt;float&gt;</a>.  <a href="#aa39fc9127d088428ead1cb72a95d652a">More...</a><br/></td></tr>
 <tr class="separator:aa39fc9127d088428ead1cb72a95d652a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -719,7 +722,7 @@ template&lt;typename ValueType&gt; </div>
 <p>Creates a <a class="el" href="classRectangle.html" title="Manages a rectangle and allows geometric operations to be performed on it. ">Rectangle</a> from a set of left, right, top, bottom coordinates. </p>
 <p>The right and bottom values must be larger than the left and top ones, or the resulting rectangle will have a negative size. </p>
 
-<p>Referenced by <a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33">Rectangle&lt; int &gt;::getSmallestIntegerContainer()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33">Rectangle&lt; int &gt;::getSmallestIntegerContainer()</a>, and <a class="el" href="classRectangle.html#a4f597d5fa024c85a2302a905204e32ce">Rectangle&lt; int &gt;::toNearestIntEdges()</a>.</p>
 
 </div>
 </div>
@@ -949,7 +952,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the x coordinate of the rectangle's right-hand-side. </p>
 
-<p>Referenced by <a class="el" href="classRectangle.html#af3f86ce678a35c2947aac7278c239963">Rectangle&lt; int &gt;::enlargeIfAdjacent()</a>, and <a class="el" href="classColourGradient.html#a62381b6286d9175e4e8451e9b4e5c035">ColourGradient::horizontal()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangle.html#af3f86ce678a35c2947aac7278c239963">Rectangle&lt; int &gt;::enlargeIfAdjacent()</a>, <a class="el" href="classColourGradient.html#a62381b6286d9175e4e8451e9b4e5c035">ColourGradient::horizontal()</a>, and <a class="el" href="classRectangle.html#a4f597d5fa024c85a2302a905204e32ce">Rectangle&lt; int &gt;::toNearestIntEdges()</a>.</p>
 
 </div>
 </div>
@@ -978,7 +981,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the y coordinate of the rectangle's bottom edge. </p>
 
-<p>Referenced by <a class="el" href="classRectangle.html#af3f86ce678a35c2947aac7278c239963">Rectangle&lt; int &gt;::enlargeIfAdjacent()</a>, and <a class="el" href="classColourGradient.html#adc627505799a737aacd431466e34a153">ColourGradient::vertical()</a>.</p>
+<p>Referenced by <a class="el" href="classRectangle.html#af3f86ce678a35c2947aac7278c239963">Rectangle&lt; int &gt;::enlargeIfAdjacent()</a>, <a class="el" href="classRectangle.html#a4f597d5fa024c85a2302a905204e32ce">Rectangle&lt; int &gt;::toNearestIntEdges()</a>, and <a class="el" href="classColourGradient.html#adc627505799a737aacd431466e34a153">ColourGradient::vertical()</a>.</p>
 
 </div>
 </div>
@@ -3778,7 +3781,7 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Returns the smallest integer-aligned rectangle that completely contains this one. </p>
 <p>This is only relevant for floating-point rectangles, of course. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#aa39fc9127d088428ead1cb72a95d652a" title="Casts this rectangle to a Rectangle&lt;float&gt;. ">toFloat()</a>, <a class="el" href="classRectangle.html#a6d5a1862f3ea78cf6eb0ec54b2747cf0" title="Casts this rectangle to a Rectangle&lt;int&gt;. ">toNearestInt()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#aa39fc9127d088428ead1cb72a95d652a" title="Casts this rectangle to a Rectangle&lt;float&gt;. ">toFloat()</a>, <a class="el" href="classRectangle.html#a6d5a1862f3ea78cf6eb0ec54b2747cf0" title="Casts this rectangle to a Rectangle&lt;int&gt;. ">toNearestInt()</a>, <a class="el" href="classRectangle.html#a4f597d5fa024c85a2302a905204e32ce" title="Casts this rectangle to a Rectangle&lt;int&gt;. ">toNearestIntEdges()</a> </dd></dl>
 
 </div>
 </div>
@@ -3807,7 +3810,36 @@ template&lt;typename ValueType&gt; </div>
 
 <p>Casts this rectangle to a <a class="el" href="classRectangle.html">Rectangle&lt;int&gt;</a>. </p>
 <p>This uses roundToInt to snap x, y, width and height to the nearest integer (losing precision). If the rectangle already uses integers, this will simply return a copy. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one. ...">getSmallestIntegerContainer()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one. ...">getSmallestIntegerContainer()</a>, <a class="el" href="classRectangle.html#a4f597d5fa024c85a2302a905204e32ce" title="Casts this rectangle to a Rectangle&lt;int&gt;. ">toNearestIntEdges()</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4f597d5fa024c85a2302a905204e32ce"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt; <a class="el" href="classRectangle.html">Rectangle</a>&lt; ValueType &gt;::toNearestIntEdges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Casts this rectangle to a <a class="el" href="classRectangle.html">Rectangle&lt;int&gt;</a>. </p>
+<p>This uses roundToInt to snap top, left, right and bottom to the nearest integer (losing precision). If the rectangle already uses integers, this will simply return a copy. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classRectangle.html#acbf2014087b3c3772848e868f98aaf33" title="Returns the smallest integer-aligned rectangle that completely contains this one. ...">getSmallestIntegerContainer()</a>, <a class="el" href="classRectangle.html#a6d5a1862f3ea78cf6eb0ec54b2747cf0" title="Casts this rectangle to a Rectangle&lt;int&gt;. ">toNearestInt()</a> </dd></dl>
 
 </div>
 </div>
@@ -4072,7 +4104,7 @@ template&lt;typename ValueType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 4 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Apr 5 2018 01:01:01 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

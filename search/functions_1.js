@@ -10,7 +10,6 @@ var searchData=
   ['begindragautorepeat',['beginDragAutoRepeat',['../classComponent.html#a54a125231707956e740b295f2622787b',1,'Component::beginDragAutoRepeat()'],['../classDesktop.html#a484c8460c95255150aef4dbe1909ae9f',1,'Desktop::beginDragAutoRepeat()']]],
   ['beginlasso',['beginLasso',['../classLassoComponent.html#af9d043865ee8f7db2989e7200d13dfd2',1,'LassoComponent']]],
   ['beginnewtransaction',['beginNewTransaction',['../classUndoManager.html#ae05cd5e09da8e1208bd82a4d2d433e74',1,'UndoManager::beginNewTransaction() noexcept'],['../classUndoManager.html#ae0c60270c6e99ec4b2b77b91380dd963',1,'UndoManager::beginNewTransaction(const String &amp;actionName) noexcept']]],
-  ['beginparameterchangegesture',['beginParameterChangeGesture',['../classAudioProcessor.html#ad082383dc1b0e4f648bb4edaf61cf385',1,'AudioProcessor']]],
   ['begintest',['beginTest',['../classUnitTest.html#ae21d8c58358819742f379706b6b34753',1,'UnitTest']]],
   ['begintransparencylayer',['beginTransparencyLayer',['../classGraphics.html#ab8d8ee1c6bb810074eff904fd3c21fc4',1,'Graphics::beginTransparencyLayer()'],['../classLowLevelGraphicsContext.html#a7779642c9e50269e96906915f8dd833d',1,'LowLevelGraphicsContext::beginTransparencyLayer()'],['../classLowLevelGraphicsPostScriptRenderer.html#aade6567b6bbde44f598f0c216cca1821',1,'LowLevelGraphicsPostScriptRenderer::beginTransparencyLayer()']]],
   ['beginwaitingforsocket',['beginWaitingForSocket',['../classInterprocessConnectionServer.html#a2f4fb097909c5baeaf1646d88a54c695',1,'InterprocessConnectionServer']]],

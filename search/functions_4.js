@@ -26,7 +26,6 @@ var searchData=
   ['enddrag',['endDrag',['../classAnimatedPosition.html#a31520fda363c37afac010416dab7707f',1,'AnimatedPosition']]],
   ['endlasso',['endLasso',['../classLassoComponent.html#a77e7463330941cd3ef81fa41209387f0',1,'LassoComponent']]],
   ['endoftrack',['endOfTrack',['../classMidiMessage.html#ae6e0123d262c36aad45471dd85ed47d6',1,'MidiMessage']]],
-  ['endparameterchangegesture',['endParameterChangeGesture',['../classAudioProcessor.html#a4205962ffb34852cfc1ef1476050dd68',1,'AudioProcessor']]],
   ['endswith',['endsWith',['../classString.html#aaafe38711826e7b777994d2f0fadc21d',1,'String']]],
   ['endswithchar',['endsWithChar',['../classString.html#aa3a1b7342852de158b1229a3582f1b22',1,'String']]],
   ['endswithignorecase',['endsWithIgnoreCase',['../classString.html#a116b729ef558f57266978bc8542d51aa',1,'String']]],

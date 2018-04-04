@@ -53,7 +53,6 @@ var searchData=
   ['endofopcodes',['endOfOpcodes',['../namespacelittlefoot.html#a7007a5eb28fcc103aeeca3fe069893aaa99a126a28a372030399847823348fed8',1,'littlefoot']]],
   ['endofpacket',['endOfPacket',['../namespaceBlocksProtocol.html#a3ab101fceeb18db84767246616d6f770a3a748518a898bae90d95480762b1b691',1,'BlocksProtocol']]],
   ['endoftrack',['endOfTrack',['../classMidiMessage.html#ae6e0123d262c36aad45471dd85ed47d6',1,'MidiMessage']]],
-  ['endparameterchangegesture',['endParameterChangeGesture',['../classAudioProcessor.html#a4205962ffb34852cfc1ef1476050dd68',1,'AudioProcessor']]],
   ['endpoint',['endPoint',['../classRelativePointPath_1_1LineTo.html#a947b4b9d2bf6208e8955eca0e6c5c66c',1,'RelativePointPath::LineTo']]],
   ['endswith',['endsWith',['../classString.html#aaafe38711826e7b777994d2f0fadc21d',1,'String']]],
   ['endswithchar',['endsWithChar',['../classString.html#aa3a1b7342852de158b1229a3582f1b22',1,'String']]],

@@ -74,6 +74,7 @@ var searchData=
   ['tomemoryblock',['toMemoryBlock',['../classBigInteger.html#a94ee80a851a3ae80a2c755715ca4a519',1,'BigInteger']]],
   ['tomilliseconds',['toMilliseconds',['../classTime.html#ad1581903aeaa659db034c169c2df54c9',1,'Time']]],
   ['tonearestint',['toNearestInt',['../classRectangle.html#a6d5a1862f3ea78cf6eb0ec54b2747cf0',1,'Rectangle']]],
+  ['tonearestintedges',['toNearestIntEdges',['../classRectangle.html#a4f597d5fa024c85a2302a905204e32ce',1,'Rectangle']]],
   ['tonegeneratoraudiosource',['ToneGeneratorAudioSource',['../classToneGeneratorAudioSource.html#a474ce1bd0aef35005c8fcc7fb88ad27f',1,'ToneGeneratorAudioSource']]],
   ['toolbar',['Toolbar',['../classToolbar.html#a382a894e4b7f3f82dacfb1fcaedfe716',1,'Toolbar']]],
   ['toolbarbutton',['ToolbarButton',['../classToolbarButton.html#a65aeb251dea7845837d2c99ecd723904',1,'ToolbarButton']]],
