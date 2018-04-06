@@ -444,7 +444,7 @@ var searchData=
   ['create7point1point2',['create7point1point2',['../classAudioChannelSet.html#ac37d2d92a7dc1983d06c085109cee237',1,'AudioChannelSet']]],
   ['create7point1sdds',['create7point1SDDS',['../classAudioChannelSet.html#a1ba00eb4a12b3c0d1340eebcf5503b7c',1,'AudioChannelSet']]],
   ['createalertwindow',['createAlertWindow',['../classLookAndFeel__V2.html#aefb0c11d37ae40590330d24a58c9d50d',1,'LookAndFeel_V2::createAlertWindow()'],['../classLookAndFeel__V4.html#a68efd04b8507b8ee41bf71a6889baaca',1,'LookAndFeel_V4::createAlertWindow()'],['../structAlertWindow_1_1LookAndFeelMethods.html#a680352c5aa799f587fb5d48f7f2da691',1,'AlertWindow::LookAndFeelMethods::createAlertWindow()']]],
-  ['createandaddparameter',['createAndAddParameter',['../classAudioProcessorValueTreeState.html#ace4625c7e359dadd2dcc959e09518e9c',1,'AudioProcessorValueTreeState']]],
+  ['createandaddparameter',['createAndAddParameter',['../classAudioProcessorValueTreeState.html#aa88ef5c615b6150aadbbd0eb51c82812',1,'AudioProcessorValueTreeState']]],
   ['createaudiodevicetypes',['createAudioDeviceTypes',['../classAudioDeviceManager.html#ad7d7e0e64926665b12b62a53082caecc',1,'AudioDeviceManager']]],
   ['createaudioiodevicetype_5falsa',['createAudioIODeviceType_ALSA',['../classAudioIODeviceType.html#ab6f7e9cd0b51436fabf706e8ca8a602f',1,'AudioIODeviceType']]],
   ['createaudioiodevicetype_5fandroid',['createAudioIODeviceType_Android',['../classAudioIODeviceType.html#a6be31ae8ce32ecae93f6fce86477e859',1,'AudioIODeviceType']]],
