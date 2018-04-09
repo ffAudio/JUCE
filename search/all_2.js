@@ -541,7 +541,7 @@ var searchData=
   ['createstringfromdata',['createStringFromData',['../classString.html#ab04851d4bb0e7c36e20202541ab6fdf0',1,'String']]],
   ['createstrokedpath',['createStrokedPath',['../classPathStrokeType.html#aedc74f94b3607fe0a0ce24759704220f',1,'PathStrokeType']]],
   ['createstrokewitharrowheads',['createStrokeWithArrowheads',['../classPathStrokeType.html#ae16cf998314ba8480165a4beefc5010d',1,'PathStrokeType']]],
-  ['createsymboliclink',['createSymbolicLink',['../classFile.html#a9ddd05eb042be6391e2904f830834f80',1,'File']]],
+  ['createsymboliclink',['createSymbolicLink',['../classFile.html#a9ddd05eb042be6391e2904f830834f80',1,'File::createSymbolicLink(const File &amp;linkFileToCreate, bool overwriteExisting) const '],['../classFile.html#a4ee09c41c743ba36e39b6dfd380bebb4',1,'File::createSymbolicLink(const File &amp;linkFileToCreate, const String &amp;nativePathOfTarget, bool overwriteExisting)']]],
   ['createsysexmessage',['createSysExMessage',['../classMidiMessage.html#aa7707f05f77f642659dd87275072f666',1,'MidiMessage']]],
   ['createsystemtypefacefor',['createSystemTypefaceFor',['../classTypeface.html#a2ce51562cc51437352c4d47777185f35',1,'Typeface::createSystemTypefaceFor(const Font &amp;font)'],['../classTypeface.html#a67bf5a42f6227ba6f5c9af2a23b0bb48',1,'Typeface::createSystemTypefaceFor(const void *fontFileData, size_t fontFileDataSize)']]],
   ['createtabbarextrasbutton',['createTabBarExtrasButton',['../structTabbedButtonBar_1_1LookAndFeelMethods.html#aec238a27457f2777c729332bb08ca01f',1,'TabbedButtonBar::LookAndFeelMethods::createTabBarExtrasButton()'],['../classLookAndFeel__V2.html#a0f86e2114dbb5e782e819ad6b9739456',1,'LookAndFeel_V2::createTabBarExtrasButton()']]],

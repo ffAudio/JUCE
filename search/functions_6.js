@@ -803,6 +803,7 @@ var searchData=
   ['getnativeargb',['getNativeARGB',['../classPixelARGB.html#aeccc464b04bebbeb8fa721340433c035',1,'PixelARGB::getNativeARGB()'],['../classPixelRGB.html#ab3eeafaec26c98c11153c3469829067e',1,'PixelRGB::getNativeARGB()'],['../classPixelAlpha.html#ab4b3835ad83682dc953f5717a43e3804',1,'PixelAlpha::getNativeARGB()']]],
   ['getnativefunction',['getNativeFunction',['../structlittlefoot_1_1Runner.html#a829fff5d7ec6537e64290f5d6159b51a',1,'littlefoot::Runner::getNativeFunction()'],['../classvar.html#acc064f9f435c70b08395a39377fd7b51',1,'var::getNativeFunction()']]],
   ['getnativehandle',['getNativeHandle',['../classDynamicLibrary.html#acf0128264e0070e40f1be2eac26073e4',1,'DynamicLibrary::getNativeHandle()'],['../classComponentPeer.html#ab873eaa1294b49c6739a04e1edc5e85e',1,'ComponentPeer::getNativeHandle()'],['../classSystemTrayIconComponent.html#ad2621f9a947dce98aafd84cf9c7f0168',1,'SystemTrayIconComponent::getNativeHandle()']]],
+  ['getnativelinkedtarget',['getNativeLinkedTarget',['../classFile.html#aa9d43bfae634248b7171496eb5a9d303',1,'File']]],
   ['getnearestpoint',['getNearestPoint',['../classPath.html#a32fa1defcb4faf5e564c080e0d71a760',1,'Path']]],
   ['getnewlinecharacters',['getNewLineCharacters',['../classCodeDocument.html#a8f2c371735dd2630329f114d040634de',1,'CodeDocument']]],
   ['getnewlinestring',['getNewLineString',['../classOutputStream.html#a9ca663ec96b69491053385b6c26e6572',1,'OutputStream']]],

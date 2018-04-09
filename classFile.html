@@ -380,6 +380,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6bbe2fbfc5436894574380b185fc2f87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a6bbe2fbfc5436894574380b185fc2f87">getLinkedTarget</a> () const </td></tr>
 <tr class="memdesc:a6bbe2fbfc5436894574380b185fc2f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this file is a link or alias, this returns the file that it points to.  <a href="#a6bbe2fbfc5436894574380b185fc2f87">More...</a><br/></td></tr>
 <tr class="separator:a6bbe2fbfc5436894574380b185fc2f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9d43bfae634248b7171496eb5a9d303"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#aa9d43bfae634248b7171496eb5a9d303">getNativeLinkedTarget</a> () const </td></tr>
+<tr class="memdesc:aa9d43bfae634248b7171496eb5a9d303"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns the native path that the symbolic link points to.  <a href="#aa9d43bfae634248b7171496eb5a9d303">More...</a><br/></td></tr>
+<tr class="separator:aa9d43bfae634248b7171496eb5a9d303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa0b11b5ec08ab3842d7117975c295a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#afa0b11b5ec08ab3842d7117975c295a0">createShortcut</a> (const <a class="el" href="classString.html">String</a> &amp;description, const <a class="el" href="classFile.html">File</a> &amp;linkFileToCreate) const </td></tr>
 <tr class="memdesc:afa0b11b5ec08ab3842d7117975c295a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Windows ONLY - Creates a win32 .LNK shortcut file that links to this file.  <a href="#afa0b11b5ec08ab3842d7117975c295a0">More...</a><br/></td></tr>
 <tr class="separator:afa0b11b5ec08ab3842d7117975c295a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -437,6 +440,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7093f18070f9aec99e3bfd2857761514"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a7093f18070f9aec99e3bfd2857761514">addTrailingSeparator</a> (const <a class="el" href="classString.html">String</a> &amp;path)</td></tr>
 <tr class="memdesc:a7093f18070f9aec99e3bfd2857761514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a separator character to the end of a path if it doesn't already have one.  <a href="#a7093f18070f9aec99e3bfd2857761514">More...</a><br/></td></tr>
 <tr class="separator:a7093f18070f9aec99e3bfd2857761514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee09c41c743ba36e39b6dfd380bebb4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a4ee09c41c743ba36e39b6dfd380bebb4">createSymbolicLink</a> (const <a class="el" href="classFile.html">File</a> &amp;linkFileToCreate, const <a class="el" href="classString.html">String</a> &amp;nativePathOfTarget, bool overwriteExisting)</td></tr>
+<tr class="memdesc:a4ee09c41c743ba36e39b6dfd380bebb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a symbolic link to a native path and return a boolean to indicate success.  <a href="#a4ee09c41c743ba36e39b6dfd380bebb4">More...</a><br/></td></tr>
+<tr class="separator:a4ee09c41c743ba36e39b6dfd380bebb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a local file or directory. </p>
@@ -2728,6 +2734,67 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4ee09c41c743ba36e39b6dfd380bebb4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool File::createSymbolicLink </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classFile.html">File</a> &amp;&#160;</td>
+          <td class="paramname"><em>linkFileToCreate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>nativePathOfTarget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>overwriteExisting</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a symbolic link to a native path and return a boolean to indicate success. </p>
+<p>Use this method if you want to create a link to a relative path or a special native file path (such as a device file on Windows). </p>
+
+</div>
+</div>
+<a class="anchor" id="aa9d43bfae634248b7171496eb5a9d303"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> File::getNativeLinkedTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This returns the native path that the symbolic link points to. </p>
+<p>The returned path is a native path of the current OS and can be a relative, absolute or special path. </p>
+
+</div>
+</div>
 <a class="anchor" id="afa0b11b5ec08ab3842d7117975c295a0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2830,7 +2897,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 7 2018 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 10 2018 01:01:05 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

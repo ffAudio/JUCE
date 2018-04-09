@@ -19,7 +19,6 @@ var searchData=
   ['devicetopologyend',['deviceTopologyEnd',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75ab5ff02276a8f50fe2a1b66cc440e6594',1,'BlocksProtocol']]],
   ['devicetopologyextend',['deviceTopologyExtend',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75aee11eab8875c2da9c67a1dfca807e9ed',1,'BlocksProtocol']]],
   ['deviceversionlist',['deviceVersionList',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75ad3a17779e5818c4c5465ea5430958ffa',1,'BlocksProtocol']]],
-  ['digidesignprotools',['DigidesignProTools',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a98abcd7b565c269a115d7f419114bb9c',1,'PluginHostType']]],
   ['digitalperformer',['DigitalPerformer',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5fc16668f994993c5f9a7276cd840f4a',1,'PluginHostType']]],
   ['direct',['direct',['../structApplicationCommandTarget_1_1InvocationInfo.html#a87e99a7b4b51787a40700bce2a7acc22a5da64d78c06aae22ea9c1315e99f9557',1,'ApplicationCommandTarget::InvocationInfo']]],
   ['discretechannel0',['discreteChannel0',['../classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652ead39bcac579ad18bca050376e1696af4a',1,'AudioChannelSet']]],

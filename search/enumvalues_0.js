@@ -67,7 +67,9 @@ var searchData=
   ['analysismeter',['analysisMeter',['../classAudioProcessorParameter.html#aef73dff71cb1abfdadd5b6f3649d7db2a4ebe3982218c5ea7dcdcbcfbb70faa1d',1,'AudioProcessorParameter']]],
   ['android',['Android',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaaa0089aa962589d46e66ed22556284f5f',1,'SystemStats']]],
   ['appearsoncolumnmenu',['appearsOnColumnMenu',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831ac8737d3f19bf93c607240f6a3035aa4d',1,'TableHeaderComponent']]],
+  ['applegarageband',['AppleGarageBand',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a81853a94701bd29ba292dd61108a1e94',1,'PluginHostType']]],
   ['applelogic',['AppleLogic',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a1d085d65da9faf511f3f2ae6335812c8',1,'PluginHostType']]],
+  ['applemainstage',['AppleMainStage',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a881584202bf474887edc5fc5243d7327',1,'PluginHostType']]],
   ['ardour',['Ardour',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a7ae3835e601d60614473084f07aa447e',1,'PluginHostType']]],
   ['argb',['ARGB',['../classImage.html#ab47b5746d2df286ae6f8da6af5463c01a9adefc17fe4663de8e3fc9621c891b8b',1,'Image']]],
   ['arp',['arp',['../classControlButton.html#a891776295057786f99f14631b1aa2794adab22b88ae7ce5fe608b846917051771',1,'ControlButton']]],
@@ -76,5 +78,6 @@ var searchData=
   ['audioinputnode',['audioInputNode',['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761aa002564f5df42036b1b8a791d8c3a760d',1,'AudioProcessorGraph::AudioGraphIOProcessor']]],
   ['audiooutputnode',['audioOutputNode',['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761aac004122d6a09fdb5bce7fdb2221340f4',1,'AudioProcessorGraph::AudioGraphIOProcessor']]],
   ['autoalign',['autoAlign',['../classFlexItem.html#a8bba729fda8779a2d3dfc576b2fc77faae8ecba5781c140da302cca2e4996b4fd',1,'FlexItem']]],
-  ['autovalue',['autoValue',['../classGridItem.html#a642bb074bd7fbbf3448a50067e082f29aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()'],['../classGridItem.html#acdffd5a5ee38b411ae6766f7daf733c6aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()'],['../classGridItem.html#a329b27636a1396f65ea1cf4118fc7002aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()']]]
+  ['autovalue',['autoValue',['../classGridItem.html#a642bb074bd7fbbf3448a50067e082f29aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()'],['../classGridItem.html#acdffd5a5ee38b411ae6766f7daf733c6aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()'],['../classGridItem.html#a329b27636a1396f65ea1cf4118fc7002aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()']]],
+  ['avidprotools',['AvidProTools',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a574e3f1905780f354a70fe2c1ca1900d',1,'PluginHostType']]]
 ];
