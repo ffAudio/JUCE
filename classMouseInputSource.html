@@ -188,9 +188,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a800fb252a9589738a7fe264fc9161759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a800fb252a9589738a7fe264fc9161759">getLastMouseDownPosition</a> () const noexcept</td></tr>
 <tr class="memdesc:a800fb252a9589738a7fe264fc9161759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the screen position at which the last mouse-down occurred.  <a href="#a800fb252a9589738a7fe264fc9161759">More...</a><br/></td></tr>
 <tr class="separator:a800fb252a9589738a7fe264fc9161759"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a351f9a0c4b526c0d2702417e54fc726a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a351f9a0c4b526c0d2702417e54fc726a">hasMouseMovedSignificantlySincePressed</a> () const noexcept</td></tr>
-<tr class="memdesc:a351f9a0c4b526c0d2702417e54fc726a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this mouse is currently down, and if it has been dragged more than a couple of pixels from the place it was pressed.  <a href="#a351f9a0c4b526c0d2702417e54fc726a">More...</a><br/></td></tr>
-<tr class="separator:a351f9a0c4b526c0d2702417e54fc726a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9b4add548d33320de48086c55e1973"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a6b9b4add548d33320de48086c55e1973">isLongPressOrDrag</a> () const noexcept</td></tr>
+<tr class="memdesc:a6b9b4add548d33320de48086c55e1973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this input source represents a long-press or drag interaction i.e.  <a href="#a6b9b4add548d33320de48086c55e1973">More...</a><br/></td></tr>
+<tr class="separator:a6b9b4add548d33320de48086c55e1973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d0b35cef0fc91851c18e0c242f6adc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#a50d0b35cef0fc91851c18e0c242f6adc">hasMovedSignificantlySincePressed</a> () const noexcept</td></tr>
+<tr class="memdesc:a50d0b35cef0fc91851c18e0c242f6adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this input source has been dragged more than a couple of pixels from the place it was pressed.  <a href="#a50d0b35cef0fc91851c18e0c242f6adc">More...</a><br/></td></tr>
+<tr class="separator:a50d0b35cef0fc91851c18e0c242f6adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2b2d3176e07d9672e949dc88135f532"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseInputSource.html#ad2b2d3176e07d9672e949dc88135f532">hasMouseCursor</a> () const noexcept</td></tr>
 <tr class="memdesc:ad2b2d3176e07d9672e949dc88135f532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this input source uses a visible mouse cursor.  <a href="#ad2b2d3176e07d9672e949dc88135f532">More...</a><br/></td></tr>
 <tr class="separator:ad2b2d3176e07d9672e949dc88135f532"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -980,7 +983,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a351f9a0c4b526c0d2702417e54fc726a"></a>
+<a class="anchor" id="a6b9b4add548d33320de48086c55e1973"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -988,7 +991,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MouseInputSource::hasMouseMovedSignificantlySincePressed </td>
+          <td class="memname">bool MouseInputSource::isLongPressOrDrag </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1001,7 +1004,33 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if this mouse is currently down, and if it has been dragged more than a couple of pixels from the place it was pressed. </p>
+<p>Returns true if this input source represents a long-press or drag interaction i.e. </p>
+<p>it has been held down for a significant amount of time or it has been dragged more than a couple of pixels from the place it was pressed. </p>
+
+</div>
+</div>
+<a class="anchor" id="a50d0b35cef0fc91851c18e0c242f6adc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MouseInputSource::hasMovedSignificantlySincePressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this input source has been dragged more than a couple of pixels from the place it was pressed. </p>
 
 </div>
 </div>
@@ -1312,7 +1341,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 10 2018 01:01:09 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 11 2018 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
