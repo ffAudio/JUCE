@@ -332,12 +332,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac1828d341ded515c7606984aabd4614f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ac1828d341ded515c7606984aabd4614f">replaceWithData</a> (const void *dataToWrite, size_t numberOfBytes) const </td></tr>
 <tr class="memdesc:ac1828d341ded515c7606984aabd4614f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces this file's contents with a given block of data.  <a href="#ac1828d341ded515c7606984aabd4614f">More...</a><br/></td></tr>
 <tr class="separator:ac1828d341ded515c7606984aabd4614f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7908b0272d7564eb1f5a7505a5bc7351"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351">appendText</a> (const <a class="el" href="classString.html">String</a> &amp;textToAppend, bool asUnicode=false, bool writeUnicodeHeaderBytes=false) const </td></tr>
-<tr class="memdesc:a7908b0272d7564eb1f5a7505a5bc7351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of the file.  <a href="#a7908b0272d7564eb1f5a7505a5bc7351">More...</a><br/></td></tr>
-<tr class="separator:a7908b0272d7564eb1f5a7505a5bc7351"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3476536a97b787f00b5988cdb326816"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ab3476536a97b787f00b5988cdb326816">replaceWithText</a> (const <a class="el" href="classString.html">String</a> &amp;textToWrite, bool asUnicode=false, bool writeUnicodeHeaderBytes=false) const </td></tr>
-<tr class="memdesc:ab3476536a97b787f00b5988cdb326816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces this file's contents with a given text string.  <a href="#ab3476536a97b787f00b5988cdb326816">More...</a><br/></td></tr>
-<tr class="separator:ab3476536a97b787f00b5988cdb326816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdede6b98bcc53f0405d9a818d9c609"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#aafdede6b98bcc53f0405d9a818d9c609">appendText</a> (const <a class="el" href="classString.html">String</a> &amp;textToAppend, bool asUnicode=false, bool writeUnicodeHeaderBytes=false, const char *lineEndings=&quot;\r\n&quot;) const </td></tr>
+<tr class="memdesc:aafdede6b98bcc53f0405d9a818d9c609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the end of the file.  <a href="#aafdede6b98bcc53f0405d9a818d9c609">More...</a><br/></td></tr>
+<tr class="separator:aafdede6b98bcc53f0405d9a818d9c609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6df5fe3646967dc978454f6ff793ade"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ab6df5fe3646967dc978454f6ff793ade">replaceWithText</a> (const <a class="el" href="classString.html">String</a> &amp;textToWrite, bool asUnicode=false, bool writeUnicodeHeaderBytes=false, const char *lineEndings=&quot;\r\n&quot;) const </td></tr>
+<tr class="memdesc:ab6df5fe3646967dc978454f6ff793ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces this file's contents with a given text string.  <a href="#ab6df5fe3646967dc978454f6ff793ade">More...</a><br/></td></tr>
+<tr class="separator:ab6df5fe3646967dc978454f6ff793ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8dbcb9e8bbce004d015688840423fa8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ae8dbcb9e8bbce004d015688840423fa8">hasIdenticalContentTo</a> (const <a class="el" href="classFile.html">File</a> &amp;other) const </td></tr>
 <tr class="memdesc:ae8dbcb9e8bbce004d015688840423fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to scan the contents of this file and compare it to another file, returning true if this is possible and they match byte-for-byte.  <a href="#ae8dbcb9e8bbce004d015688840423fa8">More...</a><br/></td></tr>
 <tr class="separator:ae8dbcb9e8bbce004d015688840423fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1932,7 +1932,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Creates a stream to write to this file. </p>
 <p>If the file exists, the stream that is returned will be positioned ready for writing at the end of the file, so you might want to use <a class="el" href="classFile.html#acca30337faecf8c3d97a1e70c725db23" title="Deletes a file. ">deleteFile()</a> first to write to an empty file.</p>
 <dl class="section return"><dt>Returns</dt><dd>a stream that will write to this file (initially positioned at the end of the file), or nullptr if the file can't be opened for some reason </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#aebd0de51f5df7da86749c90b68e5bc53" title="Creates a stream to read from this file. ">createInputStream</a>, <a class="el" href="classFile.html#a1f2ea9b52874cb710b3d3f27e7722cc6" title="Appends a block of binary data to the end of the file. ">appendData</a>, <a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351" title="Appends a string to the end of the file. ">appendText</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#aebd0de51f5df7da86749c90b68e5bc53" title="Creates a stream to read from this file. ">createInputStream</a>, <a class="el" href="classFile.html#a1f2ea9b52874cb710b3d3f27e7722cc6" title="Appends a block of binary data to the end of the file. ">appendData</a>, <a class="el" href="classFile.html#aafdede6b98bcc53f0405d9a818d9c609" title="Appends a string to the end of the file. ">appendText</a> </dd></dl>
 
 </div>
 </div>
@@ -2059,13 +2059,13 @@ Static Public Member Functions</h2></td></tr>
 <p>This will delete the file and replace it with the given data.</p>
 <p>A nice feature of this method is that it's safe - instead of deleting the file first and then re-writing it, it creates a new temporary file, writes the data to that, and then moves the new file to replace the existing file. This means that if the power gets pulled out or something crashes, you're a lot less likely to end up with a corrupted or unfinished file..</p>
 <p>Returns true if the operation succeeds, or false if it fails.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351" title="Appends a string to the end of the file. ">appendText</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#aafdede6b98bcc53f0405d9a818d9c609" title="Appends a string to the end of the file. ">appendText</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">StandalonePluginHolder::askUserToSaveState()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7908b0272d7564eb1f5a7505a5bc7351"></a>
+<a class="anchor" id="aafdede6b98bcc53f0405d9a818d9c609"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2085,7 +2085,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>writeUnicodeHeaderBytes</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>writeUnicodeHeaderBytes</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>lineEndings</em> = <code>&quot;\r\n&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2098,12 +2104,12 @@ Static Public Member Functions</h2></td></tr>
 <p>Appends a string to the end of the file. </p>
 <p>This will try to append a text string to the file, as either 16-bit unicode or 8-bit characters in the default system encoding.</p>
 <p>It can also write the 'ff fe' unicode header bytes before the text to indicate the endianness of the file.</p>
-<p>Any single \n characters in the string are replaced with \r\n before it is written.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#ab3476536a97b787f00b5988cdb326816" title="Replaces this file&#39;s contents with a given text string. ">replaceWithText</a> </dd></dl>
+<p>If lineEndings is nullptr, then line endings in the text won't be modified. If you pass "\\n" or "\\r\\n" then this function will replace any existing line feeds.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#ab6df5fe3646967dc978454f6ff793ade" title="Replaces this file&#39;s contents with a given text string. ">replaceWithText</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ab3476536a97b787f00b5988cdb326816"></a>
+<a class="anchor" id="ab6df5fe3646967dc978454f6ff793ade"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2123,7 +2129,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>writeUnicodeHeaderBytes</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>writeUnicodeHeaderBytes</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>lineEndings</em> = <code>&quot;\r\n&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2136,9 +2148,9 @@ Static Public Member Functions</h2></td></tr>
 <p>Replaces this file's contents with a given text string. </p>
 <p>This will delete the file and replace it with the given text.</p>
 <p>A nice feature of this method is that it's safe - instead of deleting the file first and then re-writing it, it creates a new temporary file, writes the text to that, and then moves the new file to replace the existing file. This means that if the power gets pulled out or something crashes, you're a lot less likely to end up with an empty file..</p>
-<p>For an explanation of the parameters here, see the <a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351" title="Appends a string to the end of the file. ">appendText()</a> method.</p>
+<p>For an explanation of the parameters here, see the <a class="el" href="classFile.html#aafdede6b98bcc53f0405d9a818d9c609" title="Appends a string to the end of the file. ">appendText()</a> method.</p>
 <p>Returns true if the operation succeeds, or false if it fails.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351" title="Appends a string to the end of the file. ">appendText</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#aafdede6b98bcc53f0405d9a818d9c609" title="Appends a string to the end of the file. ">appendText</a> </dd></dl>
 
 </div>
 </div>
@@ -2897,7 +2909,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 14 2018 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 17 2018 01:01:05 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

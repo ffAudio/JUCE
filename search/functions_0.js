@@ -202,7 +202,7 @@ var searchData=
   ['appenddata',['appendData',['../classFile.html#a1f2ea9b52874cb710b3d3f27e7722cc6',1,'File']]],
   ['appender',['Appender',['../classLinkedListPointer_1_1Appender.html#a752b6c9da32ac7a17eb2a50c62cf9233',1,'LinkedListPointer::Appender']]],
   ['appendnumberstoduplicates',['appendNumbersToDuplicates',['../classStringArray.html#a9a2b916e858c3f5d941c751220216387',1,'StringArray']]],
-  ['appendtext',['appendText',['../classFile.html#a7908b0272d7564eb1f5a7505a5bc7351',1,'File']]],
+  ['appendtext',['appendText',['../classFile.html#aafdede6b98bcc53f0405d9a818d9c609',1,'File']]],
   ['appendutf8char',['appendUTF8Char',['../classMemoryOutputStream.html#adada24cf19575f5f170e294ddc8be7d6',1,'MemoryOutputStream']]],
   ['appleremotedevice',['AppleRemoteDevice',['../classAppleRemoteDevice.html#ac44938079806a0136950f95850e587f0',1,'AppleRemoteDevice']]],
   ['applicationcommandinfo',['ApplicationCommandInfo',['../structApplicationCommandInfo.html#a79d1e190c9157fa3bb96f8981858ca8c',1,'ApplicationCommandInfo']]],

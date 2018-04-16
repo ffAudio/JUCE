@@ -308,7 +308,7 @@ var searchData=
   ['appender',['Appender',['../classLinkedListPointer_1_1Appender.html#a752b6c9da32ac7a17eb2a50c62cf9233',1,'LinkedListPointer::Appender']]],
   ['appender',['Appender',['../classLinkedListPointer_1_1Appender.html',1,'LinkedListPointer']]],
   ['appendnumberstoduplicates',['appendNumbersToDuplicates',['../classStringArray.html#a9a2b916e858c3f5d941c751220216387',1,'StringArray']]],
-  ['appendtext',['appendText',['../classFile.html#a7908b0272d7564eb1f5a7505a5bc7351',1,'File']]],
+  ['appendtext',['appendText',['../classFile.html#aafdede6b98bcc53f0405d9a818d9c609',1,'File']]],
   ['appendutf8char',['appendUTF8Char',['../classMemoryOutputStream.html#adada24cf19575f5f170e294ddc8be7d6',1,'MemoryOutputStream']]],
   ['applebeats',['appleBeats',['../classAiffAudioFormat.html#a6bb37fe682296874d508bead17cca803',1,'AiffAudioFormat']]],
   ['appledenominator',['appleDenominator',['../classAiffAudioFormat.html#afd67205870de9ed8615b6dbaf688ab7a',1,'AiffAudioFormat']]],

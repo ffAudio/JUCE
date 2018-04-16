@@ -279,7 +279,7 @@ var searchData=
   ['replacewithabsolutevalueof',['replaceWithAbsoluteValueOf',['../classdsp_1_1AudioBlock.html#a1fef116489ab8aea058115360d81fcec',1,'dsp::AudioBlock']]],
   ['replacewithdata',['replaceWithData',['../classFile.html#ac1828d341ded515c7606984aabd4614f',1,'File']]],
   ['replacewithnegativeof',['replaceWithNegativeOf',['../classdsp_1_1AudioBlock.html#a08d7ab55058c19b5c2ff04ee277a9c05',1,'dsp::AudioBlock']]],
-  ['replacewithtext',['replaceWithText',['../classFile.html#ab3476536a97b787f00b5988cdb326816',1,'File']]],
+  ['replacewithtext',['replaceWithText',['../classFile.html#ab6df5fe3646967dc978454f6ff793ade',1,'File']]],
   ['repostcurrentnsevent',['repostCurrentNSEvent',['../group__juce__audio__plugin__client-utility.html#ga55636bdf65aaf595977bce02bb397078',1,'juce_IncludeModuleHeaders.h']]],
   ['request',['request',['../classRuntimePermissions.html#a9b45f4bb7ea1cc3bf5693fa2ec33b7c3',1,'RuntimePermissions']]],
   ['requestblockconfig',['requestBlockConfig',['../structBlockConfigManager.html#a492b4a5f810e0918445fbe65855f0f83',1,'BlockConfigManager']]],

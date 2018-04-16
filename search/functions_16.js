@@ -146,7 +146,7 @@ var searchData=
   ['writeshort',['writeShort',['../classOutputStream.html#aa0c31878ffe72db678ad2df92f977b79',1,'OutputStream']]],
   ['writeshortbigendian',['writeShortBigEndian',['../classOutputStream.html#a2f5dec34d9771edea9c0535eb5b58860',1,'OutputStream']]],
   ['writestring',['writeString',['../classOutputStream.html#a63a79aac70bc3ad976cd3fb3a6d57ffd',1,'OutputStream']]],
-  ['writetext',['writeText',['../classOutputStream.html#a94dd75c2e93c3ae9239e2d9479586876',1,'OutputStream']]],
+  ['writetext',['writeText',['../classOutputStream.html#a2212ca3e2951b8c81faf8857398be90d',1,'OutputStream']]],
   ['writeto',['writeTo',['../classMidiFile.html#a2673604f2af21a69361fa6b4c8c35949',1,'MidiFile']]],
   ['writetofile',['writeToFile',['../classXmlElement.html#a27446ca8db9cfcb4aab87e385ef0fa94',1,'XmlElement']]],
   ['writetolog',['writeToLog',['../classLogger.html#a037cd16034c0663805f301b0e95c0be6',1,'Logger']]],

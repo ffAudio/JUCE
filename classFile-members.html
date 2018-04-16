@@ -92,7 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classFile.html#aa8128493715ac5a6fb5255cb626e6472">addToDock</a>() const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classFile.html#a7093f18070f9aec99e3bfd2857761514">addTrailingSeparator</a>(const String &amp;path)</td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFile.html#a1f2ea9b52874cb710b3d3f27e7722cc6">appendData</a>(const void *dataToAppend, size_t numberOfBytes) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classFile.html#a7908b0272d7564eb1f5a7505a5bc7351">appendText</a>(const String &amp;textToAppend, bool asUnicode=false, bool writeUnicodeHeaderBytes=false) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classFile.html#aafdede6b98bcc53f0405d9a818d9c609">appendText</a>(const String &amp;textToAppend, bool asUnicode=false, bool writeUnicodeHeaderBytes=false, const char *lineEndings=&quot;\r\n&quot;) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFile.html#a35111cb43b1e49c523b67c65a337764c">areFileNamesCaseSensitive</a>()</td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313da18566f0ca926c8f6db1e178ba5f403c0">commonApplicationDataDirectory</a> enum value</td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFile.html#a3e19cafabb03c5838160263a6e76313dada45b7958b5fc77f30e313f8dab12b23">commonDocumentsDirectory</a> enum value</td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
@@ -190,7 +190,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classFile.html#a155785c6bd5e36a11be9c2451f8bb8f2">readLines</a>(StringArray &amp;destLines) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classFile.html#a67ddffd6b845882e490a4fc63fdb2b60">replaceFileIn</a>(const File &amp;targetLocation) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFile.html#ac1828d341ded515c7606984aabd4614f">replaceWithData</a>(const void *dataToWrite, size_t numberOfBytes) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classFile.html#ab3476536a97b787f00b5988cdb326816">replaceWithText</a>(const String &amp;textToWrite, bool asUnicode=false, bool writeUnicodeHeaderBytes=false) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classFile.html#ab6df5fe3646967dc978454f6ff793ade">replaceWithText</a>(const String &amp;textToWrite, bool asUnicode=false, bool writeUnicodeHeaderBytes=false, const char *lineEndings=&quot;\r\n&quot;) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFile.html#a1e5beaaa04e6944be45c90fe331e0531">revealToUser</a>() const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classFile.html#a65e0278d019871c800bc334d5dd7c7eb">setAsCurrentWorkingDirectory</a>() const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classFile.html#ab21ad7981f0afab524171e10d8122657">setCreationTime</a>(Time newTime) const </td><td class="entry"><a class="el" href="classFile.html">File</a></td><td class="entry"></td></tr>
@@ -215,7 +215,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 14 2018 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 17 2018 01:01:05 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

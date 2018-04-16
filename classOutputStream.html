@@ -162,9 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a63a79aac70bc3ad976cd3fb3a6d57ffd"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOutputStream.html#a63a79aac70bc3ad976cd3fb3a6d57ffd">writeString</a> (const <a class="el" href="classString.html">String</a> &amp;text)</td></tr>
 <tr class="memdesc:a63a79aac70bc3ad976cd3fb3a6d57ffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores a string in the stream in a binary format.  <a href="#a63a79aac70bc3ad976cd3fb3a6d57ffd">More...</a><br/></td></tr>
 <tr class="separator:a63a79aac70bc3ad976cd3fb3a6d57ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94dd75c2e93c3ae9239e2d9479586876"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOutputStream.html#a94dd75c2e93c3ae9239e2d9479586876">writeText</a> (const <a class="el" href="classString.html">String</a> &amp;text, bool asUTF16, bool writeUTF16ByteOrderMark)</td></tr>
-<tr class="memdesc:a94dd75c2e93c3ae9239e2d9479586876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a string of text to the stream.  <a href="#a94dd75c2e93c3ae9239e2d9479586876">More...</a><br/></td></tr>
-<tr class="separator:a94dd75c2e93c3ae9239e2d9479586876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2212ca3e2951b8c81faf8857398be90d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOutputStream.html#a2212ca3e2951b8c81faf8857398be90d">writeText</a> (const <a class="el" href="classString.html">String</a> &amp;text, bool asUTF16, bool writeUTF16ByteOrderMark, const char *lineEndings)</td></tr>
+<tr class="memdesc:a2212ca3e2951b8c81faf8857398be90d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a string of text to the stream.  <a href="#a2212ca3e2951b8c81faf8857398be90d">More...</a><br/></td></tr>
+<tr class="separator:a2212ca3e2951b8c81faf8857398be90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f80423e8a780f4124d9b7910d712cb1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOutputStream.html#a9f80423e8a780f4124d9b7910d712cb1">writeFromInputStream</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;source, <a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> maxNumBytesToWrite)</td></tr>
 <tr class="memdesc:a9f80423e8a780f4124d9b7910d712cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads data from an input stream and writes it to this stream.  <a href="#a9f80423e8a780f4124d9b7910d712cb1">More...</a><br/></td></tr>
 <tr class="separator:a9f80423e8a780f4124d9b7910d712cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -807,11 +807,11 @@ Protected Member Functions</h2></td></tr>
 <p>It writes the string to the stream as UTF8, including the null termination character.</p>
 <p>For appending text to a file, instead use writeText, or operator&lt;&lt;</p>
 <dl class="section return"><dt>Returns</dt><dd>false if the write operation fails for some reason </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classInputStream.html#abff18ad6e416d45f19d347abd3433665" title="Reads a zero-terminated UTF-8 string from the stream. ">InputStream::readString</a>, <a class="el" href="classOutputStream.html#a94dd75c2e93c3ae9239e2d9479586876" title="Writes a string of text to the stream. ">writeText</a>, operator&lt;&lt; </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classInputStream.html#abff18ad6e416d45f19d347abd3433665" title="Reads a zero-terminated UTF-8 string from the stream. ">InputStream::readString</a>, <a class="el" href="classOutputStream.html#a2212ca3e2951b8c81faf8857398be90d" title="Writes a string of text to the stream. ">writeText</a>, operator&lt;&lt; </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a94dd75c2e93c3ae9239e2d9479586876"></a>
+<a class="anchor" id="a2212ca3e2951b8c81faf8857398be90d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -834,7 +834,13 @@ Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>writeUTF16ByteOrderMark</em>&#160;</td>
+          <td class="paramname"><em>writeUTF16ByteOrderMark</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>lineEndings</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -851,7 +857,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Writes a string of text to the stream. </p>
 <p>It can either write the text as UTF-8 or UTF-16, and can also add the UTF-16 byte-order-mark bytes (0xff, 0xfe) to indicate the endianness (these should only be used at the start of a file).</p>
-<p>The method also replaces '\n' characters in the text with '\r\n'. </p>
+<p>If lineEndings is nullptr, then line endings in the text won't be modified. If you pass "\\n" or "\\r\\n" then this function will replace any existing line feeds.</p>
 <dl class="section return"><dt>Returns</dt><dd>false if the write operation fails for some reason </dd></dl>
 
 </div>
@@ -952,7 +958,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 14 2018 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 17 2018 01:01:09 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
