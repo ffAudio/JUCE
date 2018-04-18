@@ -358,7 +358,7 @@ var searchData=
   ['_7erectangle',['~Rectangle',['../classRectangle.html#ae4f36d6e7f37a57ec4a557a67679f114',1,'Rectangle']]],
   ['_7ereferencecountedarray',['~ReferenceCountedArray',['../classReferenceCountedArray.html#a22c778cc2086117da5ac870485cb34e0',1,'ReferenceCountedArray']]],
   ['_7ereferencecountedobject',['~ReferenceCountedObject',['../classReferenceCountedObject.html#a7ed87d7f91e5ae51c620947c61291375',1,'ReferenceCountedObject']]],
-  ['_7ereferencecountedobjectptr',['~ReferenceCountedObjectPtr',['../classReferenceCountedObjectPtr.html#a90c9a9a2cf6e4767e2008b81ef9c8bca',1,'ReferenceCountedObjectPtr']]],
+  ['_7ereferencecountedobjectptr',['~ReferenceCountedObjectPtr',['../classReferenceCountedObjectPtr.html#a823e9994b773c7e0e111e4bb045c8d35',1,'ReferenceCountedObjectPtr']]],
   ['_7erelativecoordinate',['~RelativeCoordinate',['../classRelativeCoordinate.html#a81ee941aef4ec69d77624df7cd5e5655',1,'RelativeCoordinate']]],
   ['_7erelativecoordinatepositionerbase',['~RelativeCoordinatePositionerBase',['../classRelativeCoordinatePositionerBase.html#a5989a641850bc2c29ef82dd6d84cb30e',1,'RelativeCoordinatePositionerBase']]],
   ['_7erelativeparallelogram',['~RelativeParallelogram',['../classRelativeParallelogram.html#a1d1b03b4f0694477b14af81d10af604e',1,'RelativeParallelogram']]],
