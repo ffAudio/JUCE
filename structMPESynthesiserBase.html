@@ -112,7 +112,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a74424e05c011bc07e8c626e6911b5fd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPESynthesiserBase.html#a74424e05c011bc07e8c626e6911b5fd6">MPESynthesiserBase</a> ()</td></tr>
 <tr class="memdesc:a74424e05c011bc07e8c626e6911b5fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a74424e05c011bc07e8c626e6911b5fd6">More...</a><br/></td></tr>
 <tr class="separator:a74424e05c011bc07e8c626e6911b5fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15daf0b062b97aed7d4b1eb9fa0112ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPESynthesiserBase.html#a15daf0b062b97aed7d4b1eb9fa0112ce">MPESynthesiserBase</a> (<a class="el" href="classMPEInstrument.html">MPEInstrument</a> *<a class="el" href="structMPESynthesiserBase.html#a714dfff07d6efda0363f4f0e62839482">instrument</a>)</td></tr>
+<tr class="memitem:a15daf0b062b97aed7d4b1eb9fa0112ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPESynthesiserBase.html#a15daf0b062b97aed7d4b1eb9fa0112ce">MPESynthesiserBase</a> (<a class="el" href="classMPEInstrument.html">MPEInstrument</a> *<a class="el" href="structMPESynthesiserBase.html#abef53209d5522c0af50547301e6b52b5">instrument</a>)</td></tr>
 <tr class="memdesc:a15daf0b062b97aed7d4b1eb9fa0112ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a15daf0b062b97aed7d4b1eb9fa0112ce">More...</a><br/></td></tr>
 <tr class="separator:a15daf0b062b97aed7d4b1eb9fa0112ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae3ea68ecf5083e8b12a89f59935c61e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMPEZoneLayout.html">MPEZoneLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPESynthesiserBase.html#aae3ea68ecf5083e8b12a89f59935c61e">getZoneLayout</a> () const noexcept</td></tr>
@@ -198,8 +198,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a714dfff07d6efda0363f4f0e62839482"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; <a class="el" href="classMPEInstrument.html">MPEInstrument</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPESynthesiserBase.html#a714dfff07d6efda0363f4f0e62839482">instrument</a></td></tr>
-<tr class="separator:a714dfff07d6efda0363f4f0e62839482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef53209d5522c0af50547301e6b52b5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMPEInstrument.html">MPEInstrument</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPESynthesiserBase.html#abef53209d5522c0af50547301e6b52b5">instrument</a></td></tr>
+<tr class="separator:abef53209d5522c0af50547301e6b52b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Derive from this class to create a basic audio generator capable of MPE. </p>
@@ -763,7 +763,7 @@ template&lt;typename floatType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a714dfff07d6efda0363f4f0e62839482"></a>
+<a class="anchor" id="abef53209d5522c0af50547301e6b52b5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -771,7 +771,7 @@ template&lt;typename floatType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt;<a class="el" href="classMPEInstrument.html">MPEInstrument</a>&gt; MPESynthesiserBase::instrument</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classMPEInstrument.html">MPEInstrument</a>&gt; MPESynthesiserBase::instrument</td>
         </tr>
       </table>
   </td>
@@ -789,7 +789,7 @@ template&lt;typename floatType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 19 2018 01:00:52 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 20 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

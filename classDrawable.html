@@ -131,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a201ad5150a8a37b26a6587c6e51c75c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDrawableComposite.html">DrawableComposite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawable.html#a201ad5150a8a37b26a6587c6e51c75c6">getParent</a> () const </td></tr>
 <tr class="memdesc:a201ad5150a8a37b26a6587c6e51c75c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classDrawableComposite.html" title="A drawable object which acts as a container for a set of other Drawables. ">DrawableComposite</a> that contains this object, if there is one.  <a href="#a201ad5150a8a37b26a6587c6e51c75c6">More...</a><br/></td></tr>
 <tr class="separator:a201ad5150a8a37b26a6587c6e51c75c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ad8b6fdc4046cb169bcae67daffa62f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawable.html#a4ad8b6fdc4046cb169bcae67daffa62f">setClipPath</a> (<a class="el" href="classDrawable.html">Drawable</a> *<a class="el" href="classDrawable.html#a929bf0524fb8ddf11b7661ccda98076c">drawableClipPath</a>)</td></tr>
+<tr class="memitem:a4ad8b6fdc4046cb169bcae67daffa62f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawable.html#a4ad8b6fdc4046cb169bcae67daffa62f">setClipPath</a> (<a class="el" href="classDrawable.html">Drawable</a> *<a class="el" href="classDrawable.html#a075bd445aa34244d2239f21a54faf487">drawableClipPath</a>)</td></tr>
 <tr class="memdesc:a4ad8b6fdc4046cb169bcae67daffa62f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a the clipping region of this drawable using another drawable.  <a href="#a4ad8b6fdc4046cb169bcae67daffa62f">More...</a><br/></td></tr>
 <tr class="separator:a4ad8b6fdc4046cb169bcae67daffa62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96e6f740a809b93b9ecf5f6e0dd3e421"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawable.html#a96e6f740a809b93b9ecf5f6e0dd3e421">getDrawableBounds</a> () const =0</td></tr>
@@ -772,8 +772,8 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a6f6686d94ab6c007bc89e97667fb1ef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawable.html#a6f6686d94ab6c007bc89e97667fb1ef4">originRelativeToComponent</a></td></tr>
 <tr class="separator:a6f6686d94ab6c007bc89e97667fb1ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a929bf0524fb8ddf11b7661ccda98076c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; <a class="el" href="classDrawable.html">Drawable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawable.html#a929bf0524fb8ddf11b7661ccda98076c">drawableClipPath</a></td></tr>
-<tr class="separator:a929bf0524fb8ddf11b7661ccda98076c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075bd445aa34244d2239f21a54faf487"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classDrawable.html">Drawable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDrawable.html#a075bd445aa34244d2239f21a54faf487">drawableClipPath</a></td></tr>
+<tr class="separator:a075bd445aa34244d2239f21a54faf487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1559,7 +1559,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a929bf0524fb8ddf11b7661ccda98076c"></a>
+<a class="anchor" id="a075bd445aa34244d2239f21a54faf487"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1567,7 +1567,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt;<a class="el" href="classDrawable.html">Drawable</a>&gt; Drawable::drawableClipPath</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classDrawable.html">Drawable</a>&gt; Drawable::drawableClipPath</td>
         </tr>
       </table>
   </td>
@@ -1585,7 +1585,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 19 2018 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 20 2018 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

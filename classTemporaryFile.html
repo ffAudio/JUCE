@@ -140,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <div class="line">    <a class="code" href="classTemporaryFile.html">TemporaryFile</a> temp (myTargetFile);</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// create a stream to the temporary file, and write some data to it...</span></div>
-<div class="line">    <a class="code" href="classScopedPointer.html">ScopedPointer&lt;FileOutputStream&gt;</a> out (temp.getFile().createOutputStream());</div>
+<div class="line">    std::unique_ptr&lt;FileOutputStream&gt; out (temp.getFile().createOutputStream());</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordflow">if</span> (out != <span class="keyword">nullptr</span>)</div>
 <div class="line">    {</div>
@@ -407,7 +407,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 19 2018 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 20 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

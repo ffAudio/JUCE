@@ -798,7 +798,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destructor. </p>
-<p>Note that when a component is deleted, any child components it contains are NOT automatically deleted. It's your responsibilty to manage their lifespan - you may want to use helper methods like <a class="el" href="classComponent.html#abc8f8338a400c20d5e941ea3a1f67f7b" title="Removes and deletes all of this component&#39;s children. ">deleteAllChildren()</a>, or less haphazard approaches like using ScopedPointers or normal object aggregation to manage them.</p>
+<p>Note that when a component is deleted, any child components it contains are NOT automatically deleted. It's your responsibilty to manage their lifespan - you may want to use helper methods like <a class="el" href="classComponent.html#abc8f8338a400c20d5e941ea3a1f67f7b" title="Removes and deletes all of this component&#39;s children. ">deleteAllChildren()</a>, or less haphazard approaches like using std::unique_ptrs or normal object aggregation to manage them.</p>
 <p>If the component being deleted is currently the child of another one, then during deletion, it will be removed from its parent, and the parent will receive a <a class="el" href="classComponent.html#a2bbc6da3479a1c3f6e711f4caf9edafb" title="Subclasses can use this callback to be told when children are added or removed, or when their z-order...">childrenChanged()</a> callback. Any <a class="el" href="classComponentListener.html" title="Gets informed about changes to a component&#39;s hierarchy or position. ">ComponentListener</a> objects that have registered with it will also have their <a class="el" href="classComponentListener.html#a948f7c07d7dabde3b6cc7a7ceac29cec" title="Called when the component is in the process of being deleted. ">ComponentListener::componentBeingDeleted()</a> methods called. </p>
 
 </div>
@@ -2834,7 +2834,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Removes and deletes all of this component's children. </p>
-<p>My advice is to avoid this method! It's an old function that is only kept here for backwards-compatibility with legacy code, and should be viewed with extreme suspicion by anyone attempting to write modern C++. In almost all cases, it's much smarter to manage the lifetimes of your child components via modern RAII techniques such as simply making them member variables, or using <a class="el" href="classScopedPointer.html" title="This class holds a pointer which is automatically deleted when this object goes out of scope...">ScopedPointer</a>, <a class="el" href="classOwnedArray.html" title="An array designed for holding objects. ">OwnedArray</a>, etc to manage their lifetimes appropriately. </p>
+<p>My advice is to avoid this method! It's an old function that is only kept here for backwards-compatibility with legacy code, and should be viewed with extreme suspicion by anyone attempting to write modern C++. In almost all cases, it's much smarter to manage the lifetimes of your child components via modern RAII techniques such as simply making them member variables, or using std::unique_ptr, <a class="el" href="classOwnedArray.html" title="An array designed for holding objects. ">OwnedArray</a>, etc to manage their lifetimes appropriately. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classComponent.html#a72ee4d44ce3b3954e8a00e5225201b6d" title="Removes all this component&#39;s children. ">removeAllChildren</a> </dd></dl>
 
 </div>
@@ -6062,7 +6062,7 @@ template&lt;class TargetClass &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 19 2018 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 20 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

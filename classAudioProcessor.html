@@ -1061,8 +1061,6 @@ Protected Attributes</h2></td></tr>
 <p>Returns the audio bus with a given index and direction. </p>
 <p>If busIndex is invalid then this method will return a nullptr. </p>
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a5e24139925518f20b67a3d6f74bfb00c">StandalonePluginHolder::showAudioSettingsDialog()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a9bd13b39bf751c6bfe5213be5bbd440e"></a>
@@ -1404,8 +1402,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Disables all non-main buses (aux and sidechains). </p>
-
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#acb689ebcf4c02da40c76b0cd1b3e556f">StandalonePluginHolder::createPlugin()</a>.</p>
 
 </div>
 </div>
@@ -1768,8 +1764,6 @@ template&lt;typename FloatType &gt; </div>
 
 <p>Returns the number of input channels on the main bus. </p>
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#acb689ebcf4c02da40c76b0cd1b3e556f">StandalonePluginHolder::createPlugin()</a>, <a class="el" href="classStandalonePluginHolder.html#a0e01aecaf781b507c74ed9d1c341b2d9">StandalonePluginHolder::reloadAudioDeviceState()</a>, and <a class="el" href="classStandalonePluginHolder.html#aa31b5a490ea06c2b0b7fe4e1e7fd5e43">StandalonePluginHolder::StandalonePluginHolder()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a89e5d408f21d930bd56c21dd2aa8f69b"></a>
@@ -1794,8 +1788,6 @@ template&lt;typename FloatType &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the number of output channels on the main bus. </p>
-
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#acb689ebcf4c02da40c76b0cd1b3e556f">StandalonePluginHolder::createPlugin()</a>, and <a class="el" href="classStandalonePluginHolder.html#a0e01aecaf781b507c74ed9d1c341b2d9">StandalonePluginHolder::reloadAudioDeviceState()</a>.</p>
 
 </div>
 </div>
@@ -3112,8 +3104,6 @@ template&lt;int numLayouts&gt; </div>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#ae6957b5e54ca59a628aef5ec564f63d6">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a7a725b764dda6f324acf2ae2141fc12b">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ac28981bbac45dbae6c1fdf617a824c17">StandalonePluginHolder::askUserToSaveState()</a>, and <a class="el" href="classStandalonePluginHolder.html#a9319c6c7e9368f0d2fb1d31b0f2b2816">StandalonePluginHolder::savePluginState()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="aa8f9774ef205e4b19174f2de7664928f"></a>
@@ -3183,8 +3173,6 @@ template&lt;int numLayouts&gt; </div>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#ade2c2df3606218b0f9fa1a3a376440a5" title="The host will call this method if it wants to restore the state of just the processor&#39;s current progr...">setCurrentProgramStateInformation</a> </dd></dl>
 
 <p>Implemented in <a class="el" href="classAudioProcessorGraph.html#a84e6d9e7d6ae555020cd21f887cca889">AudioProcessorGraph</a>, and <a class="el" href="classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a0a3367144ac4af6e34923d2bdd53a5ab">AudioProcessorGraph::AudioGraphIOProcessor</a>.</p>
-
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#ab55d4cd652306a2a344be38464a48358">StandalonePluginHolder::askUserToLoadState()</a>, and <a class="el" href="classStandalonePluginHolder.html#adfdf093b9b5ab101d2f76d5fa957c6eb">StandalonePluginHolder::reloadPluginState()</a>.</p>
 
 </div>
 </div>
@@ -3378,8 +3366,6 @@ template&lt;int numLayouts&gt; </div>
 <p>Tells the processor to use this playhead object. </p>
 <p>The processor will not take ownership of the object, so the caller must delete it when it is no longer being used. </p>
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#abe71702a98a39970d3e56a06a9dfc62a">StandalonePluginHolder::startPlaying()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a6364f81b66aaa3d772889c78cdf60b46"></a>
@@ -3458,8 +3444,6 @@ template&lt;int numLayouts&gt; </div>
 <p>This is called by the processor to specify its details before being played. </p>
 <p>You should call this function after having informed the processor about the channel and bus layouts via setBusesLayout.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioProcessor.html#acd92c2d343de66816b290015cd15517f" title="Set the channel layouts of this audio processor. ">setBusesLayout</a> </dd></dl>
-
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#acb689ebcf4c02da40c76b0cd1b3e556f">StandalonePluginHolder::createPlugin()</a>.</p>
 
 </div>
 </div>
@@ -3844,7 +3828,7 @@ template&lt;int numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 19 2018 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 20 2018 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -4,7 +4,7 @@ var searchData=
   ['magic1',['magic1',['../structvst2FxBank.html#a1507ff6147264a164ebadff48f014e4a',1,'vst2FxBank']]],
   ['magic2',['magic2',['../structvst2FxBank.html#ae65b5edd336d0d90813716dc5ab0ac80',1,'vst2FxBank']]],
   ['manufacturername',['manufacturerName',['../classPluginDescription.html#aa8c02c784dc999a1043877b29795fff0',1,'PluginDescription']]],
-  ['map',['map',['../classMemoryMappedAudioFormatReader.html#a6b88bdb8bd8d5b5acf75cda6fac75f31',1,'MemoryMappedAudioFormatReader']]],
+  ['map',['map',['../classMemoryMappedAudioFormatReader.html#abac7449f98c330b9a633210af2145c0f',1,'MemoryMappedAudioFormatReader']]],
   ['mappedsection',['mappedSection',['../classMemoryMappedAudioFormatReader.html#a33d4ab9328d5a4e588053c894b7a8c45',1,'MemoryMappedAudioFormatReader']]],
   ['margin',['margin',['../classFlexItem.html#a995f3c4d01fc78a564a2d4db0e909532',1,'FlexItem::margin()'],['../classGridItem.html#aab6d3baf29b7fdb0ecbdd519ae4eafb2',1,'GridItem::margin()']]],
   ['markertag',['markerTag',['../classMarkerList_1_1ValueTreeWrapper.html#a6ee3f514e213161c74b047b9bc6011d2',1,'MarkerList::ValueTreeWrapper']]],

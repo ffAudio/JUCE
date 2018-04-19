@@ -23,7 +23,7 @@ var searchData=
   ['datachunkstart',['dataChunkStart',['../classMemoryMappedAudioFormatReader.html#a50ccc5aaa756180f865ad1b6ff43bf0d',1,'MemoryMappedAudioFormatReader']]],
   ['datainputportlisteners',['dataInputPortListeners',['../classBlock.html#a86de54de4f53ae04cc3fdd5ce9b841bf',1,'Block']]],
   ['datalength',['dataLength',['../classMemoryMappedAudioFormatReader.html#ac19c1cd6d4aff52e7820ec40e1e4d271',1,'MemoryMappedAudioFormatReader']]],
-  ['datareleaser',['dataReleaser',['../classImage_1_1BitmapData.html#af6357aea98c90de8dcbbaadbd4969d2a',1,'Image::BitmapData']]],
+  ['datareleaser',['dataReleaser',['../classImage_1_1BitmapData.html#a486bc70dddebcb42d5e5dbabfda371e4',1,'Image::BitmapData']]],
   ['deeppink',['deeppink',['../classColours.html#a28f6cc1ccf53cef009f33f982100453f',1,'Colours']]],
   ['deepskyblue',['deepskyblue',['../classColours.html#ae7932af011b21184ce06f33c30396d69',1,'Colours']]],
   ['defaultcharacter',['defaultCharacter',['../classCustomTypeface.html#a253a2ab299747b043f623ddbdd354e15',1,'CustomTypeface']]],
@@ -59,6 +59,6 @@ var searchData=
   ['downloaded',['downloaded',['../classURL_1_1DownloadTask.html#a4754c8c08c94390dac2ffdcf76badd86',1,'URL::DownloadTask']]],
   ['downloads',['downloads',['../structInAppPurchases_1_1Listener_1_1PurchaseInfo.html#a5e1dbeb294d1117710aa1a2182e15dda',1,'InAppPurchases::Listener::PurchaseInfo']]],
   ['dpi',['dpi',['../structDesktop_1_1Displays_1_1Display.html#acfea525d7724fa5b442648346bff2af0',1,'Desktop::Displays::Display']]],
-  ['drawableclippath',['drawableClipPath',['../classDrawable.html#a929bf0524fb8ddf11b7661ccda98076c',1,'Drawable']]],
+  ['drawableclippath',['drawableClipPath',['../classDrawable.html#a075bd445aa34244d2239f21a54faf487',1,'Drawable']]],
   ['drylevel',['dryLevel',['../structReverb_1_1Parameters.html#add75191e7a163d95cd807cbc72fa192c',1,'Reverb::Parameters']]]
 ];

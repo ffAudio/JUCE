@@ -118,12 +118,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac2f737fa43d4a2c2e1115af850ea3d01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPopupMenu_1_1Item.html#ac2f737fa43d4a2c2e1115af850ea3d01">itemID</a> = 0</td></tr>
 <tr class="memdesc:ac2f737fa43d4a2c2e1115af850ea3d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">The menu item's ID.  <a href="#ac2f737fa43d4a2c2e1115af850ea3d01">More...</a><br/></td></tr>
 <tr class="separator:ac2f737fa43d4a2c2e1115af850ea3d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab21802b5d5b4b31f9f491ea85f9f1623"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; <a class="el" href="classPopupMenu.html">PopupMenu</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPopupMenu_1_1Item.html#ab21802b5d5b4b31f9f491ea85f9f1623">subMenu</a></td></tr>
-<tr class="memdesc:ab21802b5d5b4b31f9f491ea85f9f1623"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sub-menu, or nullptr if there isn't one.  <a href="#ab21802b5d5b4b31f9f491ea85f9f1623">More...</a><br/></td></tr>
-<tr class="separator:ab21802b5d5b4b31f9f491ea85f9f1623"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2533be9faa4eac392ae5d21d4eb10768"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt; <a class="el" href="classDrawable.html">Drawable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPopupMenu_1_1Item.html#a2533be9faa4eac392ae5d21d4eb10768">image</a></td></tr>
-<tr class="memdesc:a2533be9faa4eac392ae5d21d4eb10768"><td class="mdescLeft">&#160;</td><td class="mdescRight">A drawable to use as an icon, or nullptr if there isn't one.  <a href="#a2533be9faa4eac392ae5d21d4eb10768">More...</a><br/></td></tr>
-<tr class="separator:a2533be9faa4eac392ae5d21d4eb10768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3da3a6179a8ddb32c3f8de05a4f91e1"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classPopupMenu.html">PopupMenu</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPopupMenu_1_1Item.html#ac3da3a6179a8ddb32c3f8de05a4f91e1">subMenu</a></td></tr>
+<tr class="memdesc:ac3da3a6179a8ddb32c3f8de05a4f91e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sub-menu, or nullptr if there isn't one.  <a href="#ac3da3a6179a8ddb32c3f8de05a4f91e1">More...</a><br/></td></tr>
+<tr class="separator:ac3da3a6179a8ddb32c3f8de05a4f91e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001dd54d5203c13104089220674d2513"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classDrawable.html">Drawable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPopupMenu_1_1Item.html#a001dd54d5203c13104089220674d2513">image</a></td></tr>
+<tr class="memdesc:a001dd54d5203c13104089220674d2513"><td class="mdescLeft">&#160;</td><td class="mdescRight">A drawable to use as an icon, or nullptr if there isn't one.  <a href="#a001dd54d5203c13104089220674d2513">More...</a><br/></td></tr>
+<tr class="separator:a001dd54d5203c13104089220674d2513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e8c61225a127bf37c46144c03689f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a><br class="typebreak"/>
 &lt; <a class="el" href="classPopupMenu_1_1CustomComponent.html">CustomComponent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPopupMenu_1_1Item.html#a60e8c61225a127bf37c46144c03689f6">customComponent</a></td></tr>
 <tr class="memdesc:a60e8c61225a127bf37c46144c03689f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A custom component for the item to display, or nullptr if there isn't one.  <a href="#a60e8c61225a127bf37c46144c03689f6">More...</a><br/></td></tr>
@@ -250,12 +250,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab21802b5d5b4b31f9f491ea85f9f1623"></a>
+<a class="anchor" id="ac3da3a6179a8ddb32c3f8de05a4f91e1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt;<a class="el" href="classPopupMenu.html">PopupMenu</a>&gt; PopupMenu::Item::subMenu</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classPopupMenu.html">PopupMenu</a>&gt; PopupMenu::Item::subMenu</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -264,12 +264,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2533be9faa4eac392ae5d21d4eb10768"></a>
+<a class="anchor" id="a001dd54d5203c13104089220674d2513"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classScopedPointer.html">ScopedPointer</a>&lt;<a class="el" href="classDrawable.html">Drawable</a>&gt; PopupMenu::Item::image</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classDrawable.html">Drawable</a>&gt; PopupMenu::Item::image</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -412,7 +412,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 19 2018 01:00:53 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 20 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

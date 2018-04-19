@@ -2,7 +2,7 @@ var searchData=
 [
   ['t',['t',['../structCppTokeniserFunctions_1_1StringIterator.html#a720692c1a876c915654d05df723fe77e',1,'CppTokeniserFunctions::StringIterator']]],
   ['tabkey',['tabKey',['../classKeyPress.html#a2a3d96e0f2602106a3855a34a2e1dbb8',1,'KeyPress']]],
-  ['tabs',['tabs',['../classTabbedComponent.html#a7bc26c338bf06c47c28165f5b891c87d',1,'TabbedComponent']]],
+  ['tabs',['tabs',['../classTabbedComponent.html#a287d30ce93b315756f290e8b0511f87a',1,'TabbedComponent']]],
   ['tan',['tan',['../classColours.html#ae8816a5fc45532eff9ba5884de8902f6',1,'Colours']]],
   ['teal',['teal',['../classColours.html#a8b36ca8736b9a5f54d04687b702d2407',1,'Colours']]],
   ['templateareas',['templateAreas',['../classGrid.html#affed342fd2f518aa033c2c6478b6fab4',1,'Grid']]],

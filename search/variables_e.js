@@ -28,7 +28,7 @@ var searchData=
   ['openglcontext',['openGLContext',['../classOpenGLAppComponent.html#a1237b3326c1c7c571107548d4fc20cf8',1,'OpenGLAppComponent']]],
   ['opt',['opt',['../structVstEffectInterface.html#a36e28751deaa1754063cc51e631e2ceb',1,'VstEffectInterface']]],
   ['optionnames',['optionNames',['../structBlock_1_1ConfigMetaData.html#a817279cab678fd75cc69ff7dfd1dfcee',1,'Block::ConfigMetaData::optionNames()'],['../structBlockConfigManager_1_1ConfigDescription.html#a85c7efdd2b251618a1a482662a4454f2',1,'BlockConfigManager::ConfigDescription::optionNames()']]],
-  ['options',['options',['../classStandalonePluginHolder.html#af80746a4aaf71ff43e09e50a9b3fbc6c',1,'StandalonePluginHolder']]],
+  ['options',['options',['../classStandalonePluginHolder.html#adbe5c58af4d4d9b47d32b5bdc6009bb1',1,'StandalonePluginHolder']]],
   ['orange',['orange',['../classColours.html#a8c31c34f70dbdc0cad0f7cddf6cdb59a',1,'Colours']]],
   ['orangered',['orangered',['../classColours.html#a9a18c3a1066dd40816a1847450b7df1d',1,'Colours']]],
   ['orchid',['orchid',['../classColours.html#a713c49555dcbf132b3f147f4a66e2cb4',1,'Colours']]],

@@ -188,7 +188,7 @@ Protected Member Functions</h2></td></tr>
 <div class="line"></div>
 <div class="line">    <span class="keywordtype">void</span> <a class="code" href="classJUCEApplicationBase.html#ad584bed05116674a1e68f60a1ac546f5">initialise</a> (<span class="keyword">const</span> <a class="code" href="classString.html">String</a>&amp; commandLine)<span class="keyword"> override</span></div>
 <div class="line"><span class="keyword">    </span>{</div>
-<div class="line">        myMainWindow = <span class="keyword">new</span> MyApplicationWindow();</div>
+<div class="line">        myMainWindow.reset (<span class="keyword">new</span> MyApplicationWindow());</div>
 <div class="line">        myMainWindow-&gt;setBounds (100, 100, 400, 500);</div>
 <div class="line">        myMainWindow-&gt;setVisible (<span class="keyword">true</span>);</div>
 <div class="line">    }</div>
@@ -209,7 +209,7 @@ Protected Member Functions</h2></td></tr>
 <div class="line">    }</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">private</span>:</div>
-<div class="line">    <a class="code" href="classScopedPointer.html">ScopedPointer&lt;MyApplicationWindow&gt;</a> myMainWindow;</div>
+<div class="line">    std::unique_ptr&lt;MyApplicationWindow&gt; myMainWindow;</div>
 <div class="line">};</div>
 <div class="line"></div>
 <div class="line"><span class="comment">// this generates boilerplate code to launch our app class:</span></div>
@@ -838,7 +838,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 19 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 20 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
