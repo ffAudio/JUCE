@@ -97,6 +97,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2f08ebccc2b993da57a1f5e819814d4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVSTCallbackHandler.html#ab2f08ebccc2b993da57a1f5e819814d4">~VSTCallbackHandler</a> ()</td></tr>
 <tr class="separator:ab2f08ebccc2b993da57a1f5e819814d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa522585537ebd9295473526d4e086b1f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVSTCallbackHandler.html#aa522585537ebd9295473526d4e086b1f">handleVstPluginCanDo</a> (<a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a> <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>, <a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a> <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>, void *<a class="el" href="group__juce__audio__processors-format__types.html#ga1cc4293f7e53d33b1259f7e4ae690ad2">ptr</a>, float <a class="el" href="group__juce__audio__processors-format__types.html#ga86c8ab0c81c155375327ea3cce72a7c5">opt</a>)</td></tr>
+<tr class="memdesc:aa522585537ebd9295473526d4e086b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called by the VST plug-in wrapper when it receives unhandled plug-in "can do" calls from the host.  <a href="#aa522585537ebd9295473526d4e086b1f">More...</a><br/></td></tr>
+<tr class="separator:aa522585537ebd9295473526d4e086b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7158d63b0c27896792191d1598a740d5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVSTCallbackHandler.html#a7158d63b0c27896792191d1598a740d5">handleVstManufacturerSpecific</a> (<a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a> <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>, <a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a> <a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>, void *<a class="el" href="group__juce__audio__processors-format__types.html#ga1cc4293f7e53d33b1259f7e4ae690ad2">ptr</a>, float <a class="el" href="group__juce__audio__processors-format__types.html#ga86c8ab0c81c155375327ea3cce72a7c5">opt</a>)=0</td></tr>
 <tr class="memdesc:a7158d63b0c27896792191d1598a740d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called by the VST plug-in wrapper when it receives unhandled vendor specific calls from the host.  <a href="#a7158d63b0c27896792191d1598a740d5">More...</a><br/></td></tr>
 <tr class="separator:a7158d63b0c27896792191d1598a740d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,6 +132,56 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa522585537ebd9295473526d4e086b1f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a> VSTCallbackHandler::handleVstPluginCanDo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>opt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is called by the VST plug-in wrapper when it receives unhandled plug-in "can do" calls from the host. </p>
+
+<p>References <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a7158d63b0c27896792191d1598a740d5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -183,7 +236,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 21 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 24 2018 01:01:21 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

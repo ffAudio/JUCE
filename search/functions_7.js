@@ -72,6 +72,7 @@ var searchData=
   ['handleuserclosingwindow',['handleUserClosingWindow',['../classComponentPeer.html#a13b9987266c93f3e73148c7c3e83da64',1,'ComponentPeer']]],
   ['handleversion',['handleVersion',['../structBlocksProtocol_1_1HostPacketDecoder.html#a8183df35e338b9adfd1c82e6bd9c9c0f',1,'BlocksProtocol::HostPacketDecoder']]],
   ['handlevstmanufacturerspecific',['handleVstManufacturerSpecific',['../structVSTCallbackHandler.html#a7158d63b0c27896792191d1598a740d5',1,'VSTCallbackHandler']]],
+  ['handlevstplugincando',['handleVstPluginCanDo',['../structVSTCallbackHandler.html#aa522585537ebd9295473526d4e086b1f',1,'VSTCallbackHandler']]],
   ['hankel',['hankel',['../classdsp_1_1Matrix.html#aebd286b87365abfd3ccee493fb0532d1',1,'dsp::Matrix']]],
   ['has3dnow',['has3DNow',['../classSystemStats.html#a1879ae7e393b289d3f5a62f673bfc031',1,'SystemStats']]],
   ['hasalphachannel',['hasAlphaChannel',['../classImage.html#abb862a4402074ef0dc0382e2c6267a32',1,'Image']]],
