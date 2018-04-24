@@ -116,6 +116,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab68d8e76eb0cd41ed222aa187189a563"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDefaultHashFunctions.html#ab68d8e76eb0cd41ed222aa187189a563">generateHash</a> (const void *key, int upperLimit) noexcept</td></tr>
 <tr class="memdesc:ab68d8e76eb0cd41ed222aa187189a563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a simple hash from a void ptr.  <a href="#ab68d8e76eb0cd41ed222aa187189a563">More...</a><br/></td></tr>
 <tr class="separator:ab68d8e76eb0cd41ed222aa187189a563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a18c27d7c1065ede5b05d7eec3febd0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDefaultHashFunctions.html#a6a18c27d7c1065ede5b05d7eec3febd0">generateHash</a> (const <a class="el" href="classUuid.html">Uuid</a> &amp;key, int upperLimit) noexcept</td></tr>
+<tr class="memdesc:a6a18c27d7c1065ede5b05d7eec3febd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a simple hash from a UUID.  <a href="#a6a18c27d7c1065ede5b05d7eec3febd0">More...</a><br/></td></tr>
+<tr class="separator:a6a18c27d7c1065ede5b05d7eec3febd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A simple class to generate hash functions for some primitive types, intended for use with the <a class="el" href="classHashMap.html" title="Holds a set of mappings between some key/value pairs. ">HashMap</a> class. </p>
@@ -394,13 +397,53 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6a18c27d7c1065ede5b05d7eec3febd0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int DefaultHashFunctions::generateHash </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classUuid.html">Uuid</a> &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>upperLimit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generates a simple hash from a UUID. </p>
+
+<p>References <a class="el" href="structDefaultHashFunctions.html#a6a18c27d7c1065ede5b05d7eec3febd0">generateHash()</a>.</p>
+
+<p>Referenced by <a class="el" href="structDefaultHashFunctions.html#a6a18c27d7c1065ede5b05d7eec3febd0">generateHash()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="juce__HashMap_8h.html">juce_HashMap.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 24 2018 01:01:08 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 25 2018 01:00:53 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
