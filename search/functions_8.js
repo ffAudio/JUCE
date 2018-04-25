@@ -17,7 +17,6 @@ var searchData=
   ['imagepixeldata',['ImagePixelData',['../classImagePixelData.html#a2146dc3531e1beea8138e36b883edb0d',1,'ImagePixelData']]],
   ['imagepreviewcomponent',['ImagePreviewComponent',['../classImagePreviewComponent.html#aea25f0e8e764235c53ef1842294ba66e',1,'ImagePreviewComponent']]],
   ['imageprovider',['ImageProvider',['../classComponentBuilder_1_1ImageProvider.html#acdb88d7ecc51ec8e9dc1a57e0268a115',1,'ComponentBuilder::ImageProvider']]],
-  ['imagereceived',['imageReceived',['../classCameraDevice_1_1Listener.html#aae8ddc9fa3fea24ae48826a5c4232aeb',1,'CameraDevice::Listener']]],
   ['imagetype',['ImageType',['../classImageType.html#acd073c0347c16656a21210f29563f3c8',1,'ImageType']]],
   ['incomingdatareceiver',['IncomingDataReceiver',['../classAudioFormatWriter_1_1ThreadedWriter_1_1IncomingDataReceiver.html#a27d5ea6fc6910944fc7351e058af4450',1,'AudioFormatWriter::ThreadedWriter::IncomingDataReceiver']]],
   ['increferencecount',['incReferenceCount',['../classReferenceCountedObject.html#a878ca594f89f757d29af5a42ee51161f',1,'ReferenceCountedObject::incReferenceCount()'],['../classSingleThreadedReferenceCountedObject.html#ab372c9117f9352a7da5a3c9a7583091d',1,'SingleThreadedReferenceCountedObject::incReferenceCount()']]],

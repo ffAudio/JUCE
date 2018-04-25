@@ -10,6 +10,7 @@ var searchData=
   ['tablelistbox',['TableListBox',['../classTableListBox.html#a25911eaf3b9f05b1419e61deb9e89c2a',1,'TableListBox']]],
   ['tablelistboxmodel',['TableListBoxModel',['../classTableListBoxModel.html#ab5794e70e60fd8a20e9a7727b58a55d3',1,'TableListBoxModel']]],
   ['tablesortorderchanged',['tableSortOrderChanged',['../classTableHeaderComponent_1_1Listener.html#a6d48b82741757d13ad2d75257292d615',1,'TableHeaderComponent::Listener::tableSortOrderChanged()'],['../classTableListBox.html#a4952a969e373f3238e80b256d1461e62',1,'TableListBox::tableSortOrderChanged()']]],
+  ['takestillpicture',['takeStillPicture',['../classCameraDevice.html#aa12a75105d66ff71131cb926c934b1ee',1,'CameraDevice']]],
   ['tan',['tan',['../structdsp_1_1FastMathApproximations.html#a13d47e6ac392cd5725727e3676fc8efe',1,'dsp::FastMathApproximations::tan(FloatType x) noexcept'],['../structdsp_1_1FastMathApproximations.html#a0da4caff5d9548889d6fe03d188f082a',1,'dsp::FastMathApproximations::tan(FloatType *values, size_t numValues) noexcept']]],
   ['tanh',['tanh',['../structdsp_1_1FastMathApproximations.html#a7fc0bb973c2753fcc3c968aee083f269',1,'dsp::FastMathApproximations::tanh(FloatType x) noexcept'],['../structdsp_1_1FastMathApproximations.html#af8a3c3ccaeee5083cf6e1cf39eb11ae5',1,'dsp::FastMathApproximations::tanh(FloatType *values, size_t numValues) noexcept']]],
   ['tempometaevent',['tempoMetaEvent',['../classMidiMessage.html#af9166392943b1905b39dc816aca1aa99',1,'MidiMessage']]],
