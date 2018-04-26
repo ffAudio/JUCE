@@ -436,6 +436,7 @@ var searchData=
   ['juce_5fsharedresourcepointer_2eh',['juce_SharedResourcePointer.h',['../juce__SharedResourcePointer_8h.html',1,'']]],
   ['juce_5fsidepanel_2eh',['juce_SidePanel.h',['../juce__SidePanel_8h.html',1,'']]],
   ['juce_5fsimdregister_2eh',['juce_SIMDRegister.h',['../juce__SIMDRegister_8h.html',1,'']]],
+  ['juce_5fsimdregister_5fimpl_2eh',['juce_SIMDRegister_Impl.h',['../juce__SIMDRegister__Impl_8h.html',1,'']]],
   ['juce_5fsingleton_2eh',['juce_Singleton.h',['../juce__Singleton_8h.html',1,'']]],
   ['juce_5fslider_2eh',['juce_Slider.h',['../juce__Slider_8h.html',1,'']]],
   ['juce_5fsliderpropertycomponent_2eh',['juce_SliderPropertyComponent.h',['../juce__SliderPropertyComponent_8h.html',1,'']]],
