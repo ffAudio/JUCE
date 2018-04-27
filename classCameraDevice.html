@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -97,6 +98,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Controls any video capture devices that might be available.  
  <a href="classCameraDevice.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice_1_1Listener.html">Listener</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives callbacks with individual frames from a <a class="el" href="classCameraDevice.html" title="Controls any video capture devices that might be available. ">CameraDevice</a>.  <a href="classCameraDevice_1_1Listener.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a973cdaa31c2fb61bbbd0a29ed9fcbf44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice.html#a973cdaa31c2fb61bbbd0a29ed9fcbf44">OpenCameraResultCallback</a> = <a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(<a class="el" href="classCameraDevice.html">CameraDevice</a> *, const <a class="el" href="classString.html">String</a> &amp;)&gt;</td></tr>
@@ -125,6 +132,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a55af5a493ae628304fa11aec1ad70a92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice.html#a55af5a493ae628304fa11aec1ad70a92">getTimeOfFirstRecordedFrame</a> () const </td></tr>
 <tr class="memdesc:a55af5a493ae628304fa11aec1ad70a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">After calling <a class="el" href="classCameraDevice.html#a8f4e51fb9d4a77a5bb479749e65e8d8e" title="Stops recording, after a call to startRecordingToFile(). ">stopRecording()</a>, this method can be called to return the timestamp of the first frame that was written to the file.  <a href="#a55af5a493ae628304fa11aec1ad70a92">More...</a><br/></td></tr>
 <tr class="separator:a55af5a493ae628304fa11aec1ad70a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d6fce26ed8f3814eb90c6acefb2244"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice.html#a37d6fce26ed8f3814eb90c6acefb2244">addListener</a> (<a class="el" href="classCameraDevice_1_1Listener.html">Listener</a> *listenerToAdd)</td></tr>
+<tr class="memdesc:a37d6fce26ed8f3814eb90c6acefb2244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener to receive images from the camera.  <a href="#a37d6fce26ed8f3814eb90c6acefb2244">More...</a><br/></td></tr>
+<tr class="separator:a37d6fce26ed8f3814eb90c6acefb2244"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91e1f572ebcee77ffeccd17017c43dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraDevice.html#ab91e1f572ebcee77ffeccd17017c43dd">removeListener</a> (<a class="el" href="classCameraDevice_1_1Listener.html">Listener</a> *listenerToRemove)</td></tr>
+<tr class="memdesc:ab91e1f572ebcee77ffeccd17017c43dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a listener that was previously added with <a class="el" href="classCameraDevice.html#a37d6fce26ed8f3814eb90c6acefb2244" title="Adds a listener to receive images from the camera. ">addListener()</a>.  <a href="#ab91e1f572ebcee77ffeccd17017c43dd">More...</a><br/></td></tr>
+<tr class="separator:ab91e1f572ebcee77ffeccd17017c43dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -546,6 +559,43 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>After calling <a class="el" href="classCameraDevice.html#a8f4e51fb9d4a77a5bb479749e65e8d8e" title="Stops recording, after a call to startRecordingToFile(). ">stopRecording()</a>, this method can be called to return the timestamp of the first frame that was written to the file. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37d6fce26ed8f3814eb90c6acefb2244"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraDevice::addListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCameraDevice_1_1Listener.html">Listener</a> *&#160;</td>
+          <td class="paramname"><em>listenerToAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a listener to receive images from the camera. </p>
+<p>Be very careful not to delete the listener without first removing it by calling <a class="el" href="classCameraDevice.html#ab91e1f572ebcee77ffeccd17017c43dd" title="Removes a listener that was previously added with addListener(). ">removeListener()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab91e1f572ebcee77ffeccd17017c43dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraDevice::removeListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCameraDevice_1_1Listener.html">Listener</a> *&#160;</td>
+          <td class="paramname"><em>listenerToRemove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a listener that was previously added with <a class="el" href="classCameraDevice.html#a37d6fce26ed8f3814eb90c6acefb2244" title="Adds a listener to receive images from the camera. ">addListener()</a>. </p>
 
 </div>
 </div>
@@ -1204,7 +1254,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 27 2018 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 28 2018 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
