@@ -163,6 +163,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fa0b8cb8085a138632db5c8424dd8cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a4fa0b8cb8085a138632db5c8424dd8cc">copy</a> (<a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a> src) noexcept</td></tr>
 <tr class="memdesc:a4fa0b8cb8085a138632db5c8424dd8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the values in src to the receiver.  <a href="#a4fa0b8cb8085a138632db5c8424dd8cc">More...</a><br/></td></tr>
 <tr class="separator:a4fa0b8cb8085a138632db5c8424dd8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc1f88ff269dcdd2de5ebbd6d522b0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a9fc1f88ff269dcdd2de5ebbd6d522b0d">copyFrom</a> (const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; <a class="el" href="classdsp_1_1AudioBlock.html#a685ac5e06593b78db6db78edd76ccce5">NumericType</a> &gt; &amp;src, size_t srcPos=0, size_t dstPos=0, size_t numElements=std::numeric_limits&lt; size_t &gt;::<a class="el" href="classdsp_1_1AudioBlock.html#ab3a12697983def0ac266b30ca89508d2">max</a>())</td></tr>
+<tr class="memdesc:a9fc1f88ff269dcdd2de5ebbd6d522b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the values from a JUCE's <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> to the receiver.  <a href="#a9fc1f88ff269dcdd2de5ebbd6d522b0d">More...</a><br/></td></tr>
+<tr class="separator:a9fc1f88ff269dcdd2de5ebbd6d522b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a235fd3dff6ea6c1266cd29d3447dabd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> const <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a235fd3dff6ea6c1266cd29d3447dabd0">copyTo</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; <a class="el" href="classdsp_1_1AudioBlock.html#a685ac5e06593b78db6db78edd76ccce5">NumericType</a> &gt; &amp;dst, size_t srcPos=0, size_t dstPos=0, size_t numElements=std::numeric_limits&lt; size_t &gt;::<a class="el" href="classdsp_1_1AudioBlock.html#ab3a12697983def0ac266b30ca89508d2">max</a>()) const </td></tr>
+<tr class="memdesc:a235fd3dff6ea6c1266cd29d3447dabd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the values from the receiver to a JUCE's <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>.  <a href="#a235fd3dff6ea6c1266cd29d3447dabd0">More...</a><br/></td></tr>
+<tr class="separator:a235fd3dff6ea6c1266cd29d3447dabd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d117a38054cbf377255b665168998e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a4d117a38054cbf377255b665168998e8">move</a> (size_t srcPos, size_t dstPos, size_t numElements=std::numeric_limits&lt; size_t &gt;::<a class="el" href="classdsp_1_1AudioBlock.html#ab3a12697983def0ac266b30ca89508d2">max</a>()) noexcept</td></tr>
 <tr class="memdesc:a4d117a38054cbf377255b665168998e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move memory within the receiver from the position srcPos to the position dstPos.  <a href="#a4d117a38054cbf377255b665168998e8">More...</a><br/></td></tr>
 <tr class="separator:a4d117a38054cbf377255b665168998e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -986,6 +992,92 @@ template&lt;typename SampleType&gt; </div>
 <p>Copy the values in src to the receiver. </p>
 
 <p>Referenced by <a class="el" href="classdsp_1_1AudioBlock.html#a305fe146fb00eaf144ec0531562222e9">dsp::AudioBlock&lt; float &gt;::multiply()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9fc1f88ff269dcdd2de5ebbd6d522b0d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a>&amp; <a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt;::copyFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; <a class="el" href="classdsp_1_1AudioBlock.html#a685ac5e06593b78db6db78edd76ccce5">NumericType</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>srcPos</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dstPos</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>numElements</em> = <code>std::numeric_limits&lt;size_t&gt;::<a class="el" href="classdsp_1_1AudioBlock.html#ab3a12697983def0ac266b30ca89508d2">max</a>()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy the values from a JUCE's <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> to the receiver. </p>
+<p>All indices and sizes are in the receiver's units, i.e. if SampleType is a <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> then incrementing srcPos by one will increase the sample position in the <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>'s units by a factor of <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a>::&lt;SampleType&gt;::SIMDNumElements. </p>
+
+</div>
+</div>
+<a class="anchor" id="a235fd3dff6ea6c1266cd29d3447dabd0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> const <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a>&amp; <a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt;::copyTo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; <a class="el" href="classdsp_1_1AudioBlock.html#a685ac5e06593b78db6db78edd76ccce5">NumericType</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>srcPos</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dstPos</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>numElements</em> = <code>std::numeric_limits&lt;size_t&gt;::<a class="el" href="classdsp_1_1AudioBlock.html#ab3a12697983def0ac266b30ca89508d2">max</a>()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy the values from the receiver to a JUCE's <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>. </p>
+<p>All indices and sizes are in the receiver's units, i.e. if SampleType is a <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a> then incrementing dstPos by one will increase the sample position in the <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>'s units by a factor of <a class="el" href="structdsp_1_1SIMDRegister.html" title="A wrapper around the platform&#39;s native SIMD register type. ">SIMDRegister</a>::&lt;SampleType&gt;::SIMDNumElements. </p>
 
 </div>
 </div>
@@ -2084,7 +2176,7 @@ template&lt;typename FunctionType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 28 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 1 2018 01:01:11 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
