@@ -113,9 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af1e8a49c016a60b10e733aff662c3fa3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#af1e8a49c016a60b10e733aff662c3fa3">getRawSocketHandle</a> () const noexcept</td></tr>
 <tr class="memdesc:af1e8a49c016a60b10e733aff662c3fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the OS's socket handle that's currently open.  <a href="#af1e8a49c016a60b10e733aff662c3fa3">More...</a><br/></td></tr>
 <tr class="separator:af1e8a49c016a60b10e733aff662c3fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a773fbe9241d1c57e4ced45317f876b58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#a773fbe9241d1c57e4ced45317f876b58">waitUntilReady</a> (bool readyForReading, int timeoutMsecs) const </td></tr>
-<tr class="memdesc:a773fbe9241d1c57e4ced45317f876b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits until the socket is ready for reading or writing.  <a href="#a773fbe9241d1c57e4ced45317f876b58">More...</a><br/></td></tr>
-<tr class="separator:a773fbe9241d1c57e4ced45317f876b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae77519329f01be11296e649fb31bc2d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#ae77519329f01be11296e649fb31bc2d1">waitUntilReady</a> (bool readyForReading, int timeoutMsecs)</td></tr>
+<tr class="memdesc:ae77519329f01be11296e649fb31bc2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits until the socket is ready for reading or writing.  <a href="#ae77519329f01be11296e649fb31bc2d1">More...</a><br/></td></tr>
+<tr class="separator:ae77519329f01be11296e649fb31bc2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6d0fb81186112263c99e88b498f58ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatagramSocket.html#aa6d0fb81186112263c99e88b498f58ed">read</a> (void *destBuffer, int maxBytesToRead, bool blockUntilSpecifiedAmountHasArrived)</td></tr>
 <tr class="memdesc:aa6d0fb81186112263c99e88b498f58ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads bytes from the socket.  <a href="#aa6d0fb81186112263c99e88b498f58ed">More...</a><br/></td></tr>
 <tr class="separator:aa6d0fb81186112263c99e88b498f58ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,7 +288,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a773fbe9241d1c57e4ced45317f876b58"></a>
+<a class="anchor" id="ae77519329f01be11296e649fb31bc2d1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -307,7 +307,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -352,7 +352,7 @@ Public Member Functions</h2></td></tr>
 <p>Reads bytes from the socket. </p>
 <p>If blockUntilSpecifiedAmountHasArrived is true, the method will block until maxBytesToRead bytes have been read, (or until an error occurs). If this flag is false, the method will return as much data as is currently available without blocking.</p>
 <dl class="section return"><dt>Returns</dt><dd>the number of bytes read, or -1 if there was an error. </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDatagramSocket.html#a773fbe9241d1c57e4ced45317f876b58" title="Waits until the socket is ready for reading or writing. ">waitUntilReady</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDatagramSocket.html#ae77519329f01be11296e649fb31bc2d1" title="Waits until the socket is ready for reading or writing. ">waitUntilReady</a> </dd></dl>
 
 </div>
 </div>
@@ -401,7 +401,7 @@ Public Member Functions</h2></td></tr>
 <p>Reads bytes from the socket and return the IP address of the sender. </p>
 <p>If blockUntilSpecifiedAmountHasArrived is true, the method will block until maxBytesToRead bytes have been read, (or until an error occurs). If this flag is false, the method will return as much data as is currently available without blocking.</p>
 <dl class="section return"><dt>Returns</dt><dd>the number of bytes read, or -1 if there was an error. On a successful result, the senderIPAddress value will be set to the IP of the sender. </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDatagramSocket.html#a773fbe9241d1c57e4ced45317f876b58" title="Waits until the socket is ready for reading or writing. ">waitUntilReady</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classDatagramSocket.html#ae77519329f01be11296e649fb31bc2d1" title="Waits until the socket is ready for reading or writing. ">waitUntilReady</a> </dd></dl>
 
 </div>
 </div>
@@ -442,7 +442,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Writes bytes to the socket from a buffer. </p>
-<p>Note that this method will block unless you have checked the socket is ready for writing before calling it (see the <a class="el" href="classDatagramSocket.html#a773fbe9241d1c57e4ced45317f876b58" title="Waits until the socket is ready for reading or writing. ">waitUntilReady()</a> method).</p>
+<p>Note that this method will block unless you have checked the socket is ready for writing before calling it (see the <a class="el" href="classDatagramSocket.html#ae77519329f01be11296e649fb31bc2d1" title="Waits until the socket is ready for reading or writing. ">waitUntilReady()</a> method).</p>
 <dl class="section return"><dt>Returns</dt><dd>the number of bytes written, or -1 if there was an error. </dd></dl>
 
 </div>
@@ -548,7 +548,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 1 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 2 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
