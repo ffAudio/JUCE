@@ -102,10 +102,8 @@ Inheritance diagram for DynamicObject:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a794f16134686a9283cd0a8c6a07d963f"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
-<a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a><br class="typebreak"/>
-&lt; <a class="el" href="classDynamicObject.html">DynamicObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a794f16134686a9283cd0a8c6a07d963f">Ptr</a></td></tr>
-<tr class="separator:a794f16134686a9283cd0a8c6a07d963f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28de52ff40eb735233e69ca064c7af8b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a28de52ff40eb735233e69ca064c7af8b">Ptr</a> = <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; <a class="el" href="classDynamicObject.html">DynamicObject</a> &gt;</td></tr>
+<tr class="separator:a28de52ff40eb735233e69ca064c7af8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -145,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a98df6114a279bb62c7720fa4eb0f3566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#a98df6114a279bb62c7720fa4eb0f3566">cloneAllProperties</a> ()</td></tr>
 <tr class="memdesc:a98df6114a279bb62c7720fa4eb0f3566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <a class="el" href="classvar.html#a416b317dc68ad725b3892a79e4173f86" title="Returns a deep copy of this object. ">var::clone()</a> on all the properties that this object contains.  <a href="#a98df6114a279bb62c7720fa4eb0f3566">More...</a><br/></td></tr>
 <tr class="separator:a98df6114a279bb62c7720fa4eb0f3566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab149c5346a8edbc969f1d7a4dd161817"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classDynamicObject.html#a794f16134686a9283cd0a8c6a07d963f">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#ab149c5346a8edbc969f1d7a4dd161817">clone</a> ()</td></tr>
+<tr class="memitem:ab149c5346a8edbc969f1d7a4dd161817"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classDynamicObject.html#a28de52ff40eb735233e69ca064c7af8b">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#ab149c5346a8edbc969f1d7a4dd161817">clone</a> ()</td></tr>
 <tr class="memdesc:ab149c5346a8edbc969f1d7a4dd161817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a clone of this object.  <a href="#ab149c5346a8edbc969f1d7a4dd161817">More...</a><br/></td></tr>
 <tr class="separator:ab149c5346a8edbc969f1d7a4dd161817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab093de608cfb587df450d4ba67e9082a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDynamicObject.html#ab093de608cfb587df450d4ba67e9082a">writeAsJSON</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;, int indentLevel, bool allOnOneLine, int maximumDecimalPlaces)</td></tr>
@@ -196,12 +194,12 @@ Additional Inherited Members</h2></td></tr>
 <p>An instance of a <a class="el" href="classDynamicObject.html" title="Represents a dynamically implemented object. ">DynamicObject</a> can be used to store named properties, and by subclassing <a class="el" href="classDynamicObject.html#a59cee4cadee9ea933a33629237aba3b7" title="Checks whether this object has the specified method. ">hasMethod()</a> and <a class="el" href="classDynamicObject.html#a8fe197fff56356d10158744ee33d2e22" title="Invokes a named method on this object. ">invokeMethod()</a>, you can give your object methods.</p>
 <p>{Core} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a794f16134686a9283cd0a8c6a07d963f"></a>
+<a class="anchor" id="a28de52ff40eb735233e69ca064c7af8b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt;<a class="el" href="classDynamicObject.html">DynamicObject</a>&gt; <a class="el" href="classDynamicObject.html#a794f16134686a9283cd0a8c6a07d963f">DynamicObject::Ptr</a></td>
+          <td class="memname">using <a class="el" href="classDynamicObject.html#a28de52ff40eb735233e69ca064c7af8b">DynamicObject::Ptr</a> =  <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt;<a class="el" href="classDynamicObject.html">DynamicObject</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -533,7 +531,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classDynamicObject.html#a794f16134686a9283cd0a8c6a07d963f">Ptr</a> DynamicObject::clone </td>
+          <td class="memname">virtual <a class="el" href="classDynamicObject.html#a28de52ff40eb735233e69ca064c7af8b">Ptr</a> DynamicObject::clone </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -606,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:06 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:00:53 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

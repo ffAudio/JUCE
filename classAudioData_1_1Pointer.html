@@ -119,10 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8fde1bbe33eee07dc6bb973e765ed9f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a8fde1bbe33eee07dc6bb973e765ed9f5">setAsFloat</a> (float newValue) noexcept</td></tr>
 <tr class="memdesc:a8fde1bbe33eee07dc6bb973e765ed9f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of the first sample as a floating point value.  <a href="#a8fde1bbe33eee07dc6bb973e765ed9f5">More...</a><br/></td></tr>
 <tr class="separator:a8fde1bbe33eee07dc6bb973e765ed9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9719e315da69912c0ab7c38d64cb2ca6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a9719e315da69912c0ab7c38d64cb2ca6">getAsInt32</a> () const noexcept</td></tr>
+<tr class="memitem:a9719e315da69912c0ab7c38d64cb2ca6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a9719e315da69912c0ab7c38d64cb2ca6">getAsInt32</a> () const noexcept</td></tr>
 <tr class="memdesc:a9719e315da69912c0ab7c38d64cb2ca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the first sample as a 32-bit integer.  <a href="#a9719e315da69912c0ab7c38d64cb2ca6">More...</a><br/></td></tr>
 <tr class="separator:a9719e315da69912c0ab7c38d64cb2ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd19b96f9d16adf4ff8ab6c9dc9b4b04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#acd19b96f9d16adf4ff8ab6c9dc9b4b04">setAsInt32</a> (<a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a> newValue) noexcept</td></tr>
+<tr class="memitem:acd19b96f9d16adf4ff8ab6c9dc9b4b04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#acd19b96f9d16adf4ff8ab6c9dc9b4b04">setAsInt32</a> (<a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a> newValue) noexcept</td></tr>
 <tr class="memdesc:acd19b96f9d16adf4ff8ab6c9dc9b4b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of the first sample as a 32-bit integer.  <a href="#acd19b96f9d16adf4ff8ab6c9dc9b4b04">More...</a><br/></td></tr>
 <tr class="separator:acd19b96f9d16adf4ff8ab6c9dc9b4b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07bab94a896e94408e09309b6032f416"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioData_1_1Pointer.html">Pointer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioData_1_1Pointer.html#a07bab94a896e94408e09309b6032f416">operator++</a> () noexcept</td></tr>
@@ -190,7 +190,7 @@ class AudioData::Pointer&lt; SampleFormat, Endianness, InterleavingType, Constne
 <div class="line"></div>
 <div class="line"><span class="comment">// These methods read the sample that is being pointed to</span></div>
 <div class="line"><span class="keywordtype">float</span> firstSampleAsFloat = pointer.getAsFloat();</div>
-<div class="line"><a class="code" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a> firstSampleAsInt = pointer.getAsInt32();</div>
+<div class="line"><a class="code" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a> firstSampleAsInt = pointer.getAsInt32();</div>
 <div class="line">++pointer; <span class="comment">// moves the pointer to the next sample.</span></div>
 <div class="line">pointer += 3; <span class="comment">// skips the next 3 samples.</span></div>
 </div><!-- fragment --><p>The <a class="el" href="classAudioData_1_1Pointer.html#aed75d8a75052aec8fb0ca7c9cb19dfd2" title="Writes a stream of samples into this pointer from another pointer. ">convertSamples()</a> method lets you copy a range of samples from one format to another, automatically converting its format.</p>
@@ -386,7 +386,7 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a> <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::getAsInt32 </td>
+          <td class="memname"><a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a> <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::getAsInt32 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -416,7 +416,7 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
         <tr>
           <td class="memname">void <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt; SampleFormat, Endianness, InterleavingType, Constness &gt;::setAsInt32 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>&#160;</td>
           <td class="paramname"><em>newValue</em></td><td>)</td>
           <td></td>
         </tr>
@@ -899,7 +899,7 @@ template&lt;typename SampleFormat , typename Endianness , typename InterleavingT
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['objectclassptr',['ObjectClassPtr',['../classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64',1,'ReferenceCountedArray']]],
+  ['objectclassptr',['ObjectClassPtr',['../classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819',1,'ReferenceCountedArray']]],
   ['op',['op',['../group__juce__audio__processors-format__types.html#ga6b997c48cf4a35136cd340327269804c',1,'juce_VSTInterface.h']]],
   ['opencameraresultcallback',['OpenCameraResultCallback',['../classCameraDevice.html#a973cdaa31c2fb61bbbd0a29ed9fcbf44',1,'CameraDevice']]],
   ['openstreamprogresscallback',['OpenStreamProgressCallback',['../classURL.html#a24e0205b0375cff235d64cc33d8c8550',1,'URL']]],

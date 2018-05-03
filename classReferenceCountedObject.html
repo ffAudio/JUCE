@@ -149,7 +149,7 @@ Protected Member Functions</h2></td></tr>
 <div class="line"></div>
 <div class="line">    <span class="comment">// This is a neat way of declaring a typedef for a pointer class,</span></div>
 <div class="line">    <span class="comment">// rather than typing out the full templated name each time..</span></div>
-<div class="line">    <span class="keyword">typedef</span> <a class="code" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr&lt;MyClass&gt;</a> Ptr;</div>
+<div class="line">    <span class="keyword">using</span> Ptr = <a class="code" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr&lt;MyClass&gt;</a>;</div>
 <div class="line">};</div>
 <div class="line"></div>
 <div class="line">MyClass::Ptr p = <span class="keyword">new</span> MyClass();</div>
@@ -457,7 +457,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:13 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

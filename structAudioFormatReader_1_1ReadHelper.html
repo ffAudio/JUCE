@@ -100,18 +100,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0084d44db12183607466fe09e4829f67"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a><br class="typebreak"/>
-&lt; DestSampleType, <br class="typebreak"/>
-AudioData::NativeEndian, <br class="typebreak"/>
-AudioData::NonInterleaved, <br class="typebreak"/>
-AudioData::NonConst &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a0084d44db12183607466fe09e4829f67">DestType</a></td></tr>
-<tr class="separator:a0084d44db12183607466fe09e4829f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a24767200ed43a8317fb20d84c2ad17"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a><br class="typebreak"/>
-&lt; SourceSampleType, <br class="typebreak"/>
-SourceEndianness, <br class="typebreak"/>
-AudioData::Interleaved, <br class="typebreak"/>
-AudioData::Const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a8a24767200ed43a8317fb20d84c2ad17">SourceType</a></td></tr>
-<tr class="separator:a8a24767200ed43a8317fb20d84c2ad17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87185020f44e9ba00edac2f9856b54df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a87185020f44e9ba00edac2f9856b54df">DestType</a> = <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt; DestSampleType, AudioData::NativeEndian, AudioData::NonInterleaved, AudioData::NonConst &gt;</td></tr>
+<tr class="separator:a87185020f44e9ba00edac2f9856b54df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a429dcba75a225c35bff295a0a5b7e6c4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a429dcba75a225c35bff295a0a5b7e6c4">SourceType</a> = <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt; SourceSampleType, SourceEndianness, AudioData::Interleaved, AudioData::Const &gt;</td></tr>
+<tr class="separator:a429dcba75a225c35bff295a0a5b7e6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -125,28 +117,28 @@ struct AudioFormatReader::ReadHelper&lt; DestSampleType, SourceSampleType, Sourc
 
 <p>Used by <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream. ">AudioFormatReader</a> subclasses to copy data to different formats. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a0084d44db12183607466fe09e4829f67"></a>
+<a class="anchor" id="a87185020f44e9ba00edac2f9856b54df"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class DestSampleType , class SourceSampleType , class SourceEndianness &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt;DestSampleType, AudioData::NativeEndian, AudioData::NonInterleaved, AudioData::NonConst&gt; <a class="el" href="structAudioFormatReader_1_1ReadHelper.html">AudioFormatReader::ReadHelper</a>&lt; DestSampleType, SourceSampleType, SourceEndianness &gt;::<a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a0084d44db12183607466fe09e4829f67">DestType</a></td>
+          <td class="memname">using <a class="el" href="structAudioFormatReader_1_1ReadHelper.html">AudioFormatReader::ReadHelper</a>&lt; DestSampleType, SourceSampleType, SourceEndianness &gt;::<a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a87185020f44e9ba00edac2f9856b54df">DestType</a> =  <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt;DestSampleType, AudioData::NativeEndian, AudioData::NonInterleaved, AudioData::NonConst&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a8a24767200ed43a8317fb20d84c2ad17"></a>
+<a class="anchor" id="a429dcba75a225c35bff295a0a5b7e6c4"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class DestSampleType , class SourceSampleType , class SourceEndianness &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt;SourceSampleType, SourceEndianness, AudioData::Interleaved, AudioData::Const&gt; <a class="el" href="structAudioFormatReader_1_1ReadHelper.html">AudioFormatReader::ReadHelper</a>&lt; DestSampleType, SourceSampleType, SourceEndianness &gt;::<a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a8a24767200ed43a8317fb20d84c2ad17">SourceType</a></td>
+          <td class="memname">using <a class="el" href="structAudioFormatReader_1_1ReadHelper.html">AudioFormatReader::ReadHelper</a>&lt; DestSampleType, SourceSampleType, SourceEndianness &gt;::<a class="el" href="structAudioFormatReader_1_1ReadHelper.html#a429dcba75a225c35bff295a0a5b7e6c4">SourceType</a> =  <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt;SourceSampleType, SourceEndianness, AudioData::Interleaved, AudioData::Const&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -224,7 +216,7 @@ template&lt;typename TargetType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

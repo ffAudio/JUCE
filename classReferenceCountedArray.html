@@ -96,14 +96,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5aeb8e0e9bc7f0cb0f19237edf286f64"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
-<a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a><br class="typebreak"/>
-&lt; ObjectClass &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a></td></tr>
-<tr class="separator:a5aeb8e0e9bc7f0cb0f19237edf286f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7298683e2cae9520f1b34a4d6679053d"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
-TypeOfCriticalSectionToUse::ScopedLockType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a7298683e2cae9520f1b34a4d6679053d">ScopedLockType</a></td></tr>
-<tr class="memdesc:a7298683e2cae9520f1b34a4d6679053d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of scoped lock to use for locking this array.  <a href="#a7298683e2cae9520f1b34a4d6679053d">More...</a><br/></td></tr>
-<tr class="separator:a7298683e2cae9520f1b34a4d6679053d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea3a2f6208f8bb4f57e27ed53db0819"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a> = <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; ObjectClass &gt;</td></tr>
+<tr class="separator:afea3a2f6208f8bb4f57e27ed53db0819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84aa956d32f60046055dc9acb5b9d211"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a84aa956d32f60046055dc9acb5b9d211">ScopedLockType</a> = typename TypeOfCriticalSectionToUse::ScopedLockType</td></tr>
+<tr class="memdesc:a84aa956d32f60046055dc9acb5b9d211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of scoped lock to use for locking this array.  <a href="#a84aa956d32f60046055dc9acb5b9d211">More...</a><br/></td></tr>
+<tr class="separator:a84aa956d32f60046055dc9acb5b9d211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -145,10 +142,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1807aa4c5b58b6d02b6bb991ebd8715"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#ab1807aa4c5b58b6d02b6bb991ebd8715">isEmpty</a> () const noexcept</td></tr>
 <tr class="memdesc:ab1807aa4c5b58b6d02b6bb991ebd8715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the array is empty, false otherwise.  <a href="#ab1807aa4c5b58b6d02b6bb991ebd8715">More...</a><br/></td></tr>
 <tr class="separator:ab1807aa4c5b58b6d02b6bb991ebd8715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c0ba7c8adac16b2123b35dee27c5129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a4c0ba7c8adac16b2123b35dee27c5129">operator[]</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
+<tr class="memitem:a4c0ba7c8adac16b2123b35dee27c5129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a4c0ba7c8adac16b2123b35dee27c5129">operator[]</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
 <tr class="memdesc:a4c0ba7c8adac16b2123b35dee27c5129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the object at this index in the array.  <a href="#a4c0ba7c8adac16b2123b35dee27c5129">More...</a><br/></td></tr>
 <tr class="separator:a4c0ba7c8adac16b2123b35dee27c5129"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d46537444a37fec94bdc623b2ab3211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a3d46537444a37fec94bdc623b2ab3211">getUnchecked</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
+<tr class="memitem:a3d46537444a37fec94bdc623b2ab3211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a3d46537444a37fec94bdc623b2ab3211">getUnchecked</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
 <tr class="memdesc:a3d46537444a37fec94bdc623b2ab3211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the object at this index in the array, without checking whether the index is in-range.  <a href="#a3d46537444a37fec94bdc623b2ab3211">More...</a><br/></td></tr>
 <tr class="separator:a3d46537444a37fec94bdc623b2ab3211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add898e6089551e12f1577ae22528735a"><td class="memItemLeft" align="right" valign="top">ObjectClass *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#add898e6089551e12f1577ae22528735a">getObjectPointer</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
@@ -157,10 +154,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8da693cf7dedfda5bb8a8e7331c4bf1f"><td class="memItemLeft" align="right" valign="top">ObjectClass *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a8da693cf7dedfda5bb8a8e7331c4bf1f">getObjectPointerUnchecked</a> (const int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const noexcept</td></tr>
 <tr class="memdesc:a8da693cf7dedfda5bb8a8e7331c4bf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a raw pointer to the object at this index in the array, without checking whether the index is in-range.  <a href="#a8da693cf7dedfda5bb8a8e7331c4bf1f">More...</a><br/></td></tr>
 <tr class="separator:a8da693cf7dedfda5bb8a8e7331c4bf1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab352b571e4ee02eedad655bba6434725"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#ab352b571e4ee02eedad655bba6434725">getFirst</a> () const noexcept</td></tr>
+<tr class="memitem:ab352b571e4ee02eedad655bba6434725"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#ab352b571e4ee02eedad655bba6434725">getFirst</a> () const noexcept</td></tr>
 <tr class="memdesc:ab352b571e4ee02eedad655bba6434725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first object in the array.  <a href="#ab352b571e4ee02eedad655bba6434725">More...</a><br/></td></tr>
 <tr class="separator:ab352b571e4ee02eedad655bba6434725"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a906fbb190a57a893faa951949b93418b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a906fbb190a57a893faa951949b93418b">getLast</a> () const noexcept</td></tr>
+<tr class="memitem:a906fbb190a57a893faa951949b93418b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a906fbb190a57a893faa951949b93418b">getLast</a> () const noexcept</td></tr>
 <tr class="memdesc:a906fbb190a57a893faa951949b93418b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the last object in the array.  <a href="#a906fbb190a57a893faa951949b93418b">More...</a><br/></td></tr>
 <tr class="separator:a906fbb190a57a893faa951949b93418b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abad2570544706d399a2b0b65d1ea2f6f"><td class="memItemLeft" align="right" valign="top">ObjectClass **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#abad2570544706d399a2b0b65d1ea2f6f">getRawDataPointer</a> () const noexcept</td></tr>
@@ -208,7 +205,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c6d7d370b8acf56c1462db579f95803"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#a5c6d7d370b8acf56c1462db579f95803">remove</a> (int indexToRemove)</td></tr>
 <tr class="memdesc:a5c6d7d370b8acf56c1462db579f95803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an object from the array.  <a href="#a5c6d7d370b8acf56c1462db579f95803">More...</a><br/></td></tr>
 <tr class="separator:a5c6d7d370b8acf56c1462db579f95803"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9a388888e3c833af3e47b903edd0dfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#aa9a388888e3c833af3e47b903edd0dfc">removeAndReturn</a> (int indexToRemove)</td></tr>
+<tr class="memitem:aa9a388888e3c833af3e47b903edd0dfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#aa9a388888e3c833af3e47b903edd0dfc">removeAndReturn</a> (int indexToRemove)</td></tr>
 <tr class="memdesc:aa9a388888e3c833af3e47b903edd0dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and returns an object from the array.  <a href="#aa9a388888e3c833af3e47b903edd0dfc">More...</a><br/></td></tr>
 <tr class="separator:aa9a388888e3c833af3e47b903edd0dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af33ab045a6a1c975bf010dfdbd18965e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedArray.html#af33ab045a6a1c975bf010dfdbd18965e">removeObject</a> (ObjectClass *objectToRemove)</td></tr>
@@ -261,28 +258,28 @@ class ReferenceCountedArray&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;</h3
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classArray.html" title="Holds a resizable array of primitive or copy-by-value objects. ">Array</a>, <a class="el" href="classOwnedArray.html" title="An array designed for holding objects. ">OwnedArray</a>, <a class="el" href="classStringArray.html" title="A special array for holding a list of strings. ">StringArray</a></dd></dl>
 <p>{Core} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a5aeb8e0e9bc7f0cb0f19237edf286f64"></a>
+<a class="anchor" id="afea3a2f6208f8bb4f57e27ed53db0819"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt;ObjectClass&gt; <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::<a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a></td>
+          <td class="memname">using <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::<a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a> =  <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt;ObjectClass&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a7298683e2cae9520f1b34a4d6679053d"></a>
+<a class="anchor" id="a84aa956d32f60046055dc9acb5b9d211"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef TypeOfCriticalSectionToUse::ScopedLockType <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::<a class="el" href="classReferenceCountedArray.html#a7298683e2cae9520f1b34a4d6679053d">ScopedLockType</a></td>
+          <td class="memname">using <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::<a class="el" href="classReferenceCountedArray.html#a84aa956d32f60046055dc9acb5b9d211">ScopedLockType</a> =  typename TypeOfCriticalSectionToUse::ScopedLockType</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -622,7 +619,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -652,7 +649,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::getUnchecked </td>
+          <td class="memname"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::getUnchecked </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -745,7 +742,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::getFirst </td>
+          <td class="memname"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::getFirst </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -774,7 +771,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::getLast </td>
+          <td class="memname"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::getLast </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1348,7 +1345,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classReferenceCountedArray.html#a5aeb8e0e9bc7f0cb0f19237edf286f64">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::removeAndReturn </td>
+          <td class="memname"><a class="el" href="classReferenceCountedArray.html#afea3a2f6208f8bb4f57e27ed53db0819">ObjectClassPtr</a> <a class="el" href="classReferenceCountedArray.html">ReferenceCountedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::removeAndReturn </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>indexToRemove</em></td><td>)</td>
@@ -1789,7 +1786,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:13 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -7,7 +7,7 @@ var searchData=
   ['quarterframe',['quarterFrame',['../classMidiMessage.html#ab21def5ca28557f4d7df31c8425c3386',1,'MidiMessage']]],
   ['quaternion',['Quaternion',['../classQuaternion.html',1,'Quaternion&lt; Type &gt;'],['../classQuaternion.html#ab6cfa17954ad0cf303877c8b7d578cc2',1,'Quaternion::Quaternion() noexcept'],['../classQuaternion.html#a55df57ee8430a9b1b1581ace70e105e3',1,'Quaternion::Quaternion(const Quaternion &amp;other) noexcept'],['../classQuaternion.html#a80054cbe7779c1237c1d08f53077bd43',1,'Quaternion::Quaternion(Vector3D&lt; Type &gt; vectorPart, Type scalarPart) noexcept'],['../classQuaternion.html#a1b5dab7556226d76040277dc8ee3f0a4',1,'Quaternion::Quaternion(Type x, Type y, Type z, Type w) noexcept']]],
   ['quaternion_3c_20float_20_3e',['Quaternion&lt; float &gt;',['../classQuaternion.html',1,'']]],
-  ['quaterniontype',['QuaternionType',['../classDraggable3DOrientation.html#a078d6c17248de2acffed6c3f60da419f',1,'Draggable3DOrientation']]],
+  ['quaterniontype',['QuaternionType',['../classDraggable3DOrientation.html#aac3238fcd660a2c81628e0ae2e4ba717',1,'Draggable3DOrientation']]],
   ['queryinterface',['queryInterface',['../classActiveXControlComponent.html#aec74d476e939d707b578c32cdd5cebd3',1,'ActiveXControlComponent']]],
   ['questionicon',['QuestionIcon',['../classAlertWindow.html#a2582d1f79937cb47a6a3764c7d9bdba3a63d1a179c412afc32f7f3c8061b238be',1,'AlertWindow']]],
   ['quit',['quit',['../classJUCEApplicationBase.html#a542e212605f0aa693f687d8798998615',1,'JUCEApplicationBase::quit()'],['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0a0e06bba45d6039ddc74f0b437d982fba',1,'StandardApplicationCommandIDs::quit()']]],

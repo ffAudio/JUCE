@@ -106,11 +106,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3b96ee4d2b3e77dfddce53f2451c4556"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classListenerList.html">ListenerList</a><br class="typebreak"/>
-&lt; ListenerClass, ArrayType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListenerList.html#a3b96ee4d2b3e77dfddce53f2451c4556">ThisType</a></td></tr>
-<tr class="separator:a3b96ee4d2b3e77dfddce53f2451c4556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa03db5b04e4fe0dda6e95bd9055c9705"><td class="memItemLeft" align="right" valign="top">typedef ListenerClass&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListenerList.html#aa03db5b04e4fe0dda6e95bd9055c9705">ListenerType</a></td></tr>
-<tr class="separator:aa03db5b04e4fe0dda6e95bd9055c9705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e76375b113e87de9fba8de44133d29"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListenerList.html#a38e76375b113e87de9fba8de44133d29">ThisType</a> = <a class="el" href="classListenerList.html">ListenerList</a>&lt; ListenerClass, ArrayType &gt;</td></tr>
+<tr class="separator:a38e76375b113e87de9fba8de44133d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f6e5bae60479edf86ce6eff0419b82"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classListenerList.html#ae3f6e5bae60479edf86ce6eff0419b82">ListenerType</a> = ListenerClass</td></tr>
+<tr class="separator:ae3f6e5bae60479edf86ce6eff0419b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -181,28 +180,28 @@ class ListenerList&lt; ListenerClass, ArrayType &gt;</h3>
 <p>Sometimes, there's a chance that invoking one of the callbacks might result in the list itself being deleted while it's still iterating - to survive this situation, you can use <a class="el" href="classListenerList.html#ac89398e526d746817d7f2f488461bead" title="Calls a member function on each listener in the list, with 1 parameter and a bail-out-checker. ">callChecked()</a> instead of <a class="el" href="classListenerList.html#adea25521b1707f2f5ae242b3353f5751" title="Calls a member function on each listener in the list, with multiple parameters. ">call()</a>, passing it a local object to act as a "BailOutChecker". The BailOutChecker must implement a method of the form "bool shouldBailOut()", and the list will check this after each callback to determine whether it should abort the operation. For an example of a bail-out checker, see the <a class="el" href="classComponent_1_1BailOutChecker.html" title="A class to keep an eye on a component and check for it being deleted. ">Component::BailOutChecker</a> class, which can be used to check when a <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a> has been deleted. See also <a class="el" href="structListenerList_1_1DummyBailOutChecker.html" title="A dummy bail-out checker that always returns false. ">ListenerList::DummyBailOutChecker</a>, which is a dummy checker that always returns false.</p>
 <p>{Core} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a3b96ee4d2b3e77dfddce53f2451c4556"></a>
+<a class="anchor" id="a38e76375b113e87de9fba8de44133d29"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ListenerClass, class ArrayType = Array&lt;ListenerClass*&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classListenerList.html">ListenerList</a>&lt;ListenerClass, ArrayType&gt; <a class="el" href="classListenerList.html">ListenerList</a>&lt; ListenerClass, ArrayType &gt;::<a class="el" href="classListenerList.html#a3b96ee4d2b3e77dfddce53f2451c4556">ThisType</a></td>
+          <td class="memname">using <a class="el" href="classListenerList.html">ListenerList</a>&lt; ListenerClass, ArrayType &gt;::<a class="el" href="classListenerList.html#a38e76375b113e87de9fba8de44133d29">ThisType</a> =  <a class="el" href="classListenerList.html">ListenerList</a>&lt;ListenerClass, ArrayType&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="aa03db5b04e4fe0dda6e95bd9055c9705"></a>
+<a class="anchor" id="ae3f6e5bae60479edf86ce6eff0419b82"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class ListenerClass, class ArrayType = Array&lt;ListenerClass*&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef ListenerClass <a class="el" href="classListenerList.html">ListenerList</a>&lt; ListenerClass, ArrayType &gt;::<a class="el" href="classListenerList.html#aa03db5b04e4fe0dda6e95bd9055c9705">ListenerType</a></td>
+          <td class="memname">using <a class="el" href="classListenerList.html">ListenerList</a>&lt; ListenerClass, ArrayType &gt;::<a class="el" href="classListenerList.html#ae3f6e5bae60479edf86ce6eff0419b82">ListenerType</a> =  ListenerClass</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -553,7 +552,7 @@ template&lt;typename Callback , typename BailOutCheckerType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:10 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

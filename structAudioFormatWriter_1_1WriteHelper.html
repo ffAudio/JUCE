@@ -100,18 +100,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5b7c59617fd96d69dee0062368e7f3e0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a><br class="typebreak"/>
-&lt; DestSampleType, <br class="typebreak"/>
-DestEndianness, <br class="typebreak"/>
-AudioData::Interleaved, <br class="typebreak"/>
-AudioData::NonConst &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#a5b7c59617fd96d69dee0062368e7f3e0">DestType</a></td></tr>
-<tr class="separator:a5b7c59617fd96d69dee0062368e7f3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a783e948eebc1915c108e97bef8a2698b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a><br class="typebreak"/>
-&lt; SourceSampleType, <br class="typebreak"/>
-AudioData::NativeEndian, <br class="typebreak"/>
-AudioData::NonInterleaved, <br class="typebreak"/>
-AudioData::Const &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#a783e948eebc1915c108e97bef8a2698b">SourceType</a></td></tr>
-<tr class="separator:a783e948eebc1915c108e97bef8a2698b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3694d93872ca743f4133498fd329fa9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#ad3694d93872ca743f4133498fd329fa9">DestType</a> = <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt; DestSampleType, DestEndianness, AudioData::Interleaved, AudioData::NonConst &gt;</td></tr>
+<tr class="separator:ad3694d93872ca743f4133498fd329fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1e5d97a29bfd168f57402651c344a44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#aa1e5d97a29bfd168f57402651c344a44">SourceType</a> = <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt; SourceSampleType, AudioData::NativeEndian, AudioData::NonInterleaved, AudioData::Const &gt;</td></tr>
+<tr class="separator:aa1e5d97a29bfd168f57402651c344a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -124,28 +116,28 @@ struct AudioFormatWriter::WriteHelper&lt; DestSampleType, SourceSampleType, Dest
 
 <p>Used by <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream. ">AudioFormatWriter</a> subclasses to copy data to different formats. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a5b7c59617fd96d69dee0062368e7f3e0"></a>
+<a class="anchor" id="ad3694d93872ca743f4133498fd329fa9"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class DestSampleType , class SourceSampleType , class DestEndianness &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt;DestSampleType, DestEndianness, AudioData::Interleaved, AudioData::NonConst&gt; <a class="el" href="structAudioFormatWriter_1_1WriteHelper.html">AudioFormatWriter::WriteHelper</a>&lt; DestSampleType, SourceSampleType, DestEndianness &gt;::<a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#a5b7c59617fd96d69dee0062368e7f3e0">DestType</a></td>
+          <td class="memname">using <a class="el" href="structAudioFormatWriter_1_1WriteHelper.html">AudioFormatWriter::WriteHelper</a>&lt; DestSampleType, SourceSampleType, DestEndianness &gt;::<a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#ad3694d93872ca743f4133498fd329fa9">DestType</a> =  <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a> &lt;DestSampleType, DestEndianness, AudioData::Interleaved, AudioData::NonConst&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a783e948eebc1915c108e97bef8a2698b"></a>
+<a class="anchor" id="aa1e5d97a29bfd168f57402651c344a44"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class DestSampleType , class SourceSampleType , class DestEndianness &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a>&lt;SourceSampleType, AudioData::NativeEndian, AudioData::NonInterleaved, AudioData::Const&gt; <a class="el" href="structAudioFormatWriter_1_1WriteHelper.html">AudioFormatWriter::WriteHelper</a>&lt; DestSampleType, SourceSampleType, DestEndianness &gt;::<a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#a783e948eebc1915c108e97bef8a2698b">SourceType</a></td>
+          <td class="memname">using <a class="el" href="structAudioFormatWriter_1_1WriteHelper.html">AudioFormatWriter::WriteHelper</a>&lt; DestSampleType, SourceSampleType, DestEndianness &gt;::<a class="el" href="structAudioFormatWriter_1_1WriteHelper.html#aa1e5d97a29bfd168f57402651c344a44">SourceType</a> =  <a class="el" href="classAudioData_1_1Pointer.html">AudioData::Pointer</a> &lt;SourceSampleType, AudioData::NativeEndian, AudioData::NonInterleaved, AudioData::Const&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -215,7 +207,7 @@ template&lt;class DestSampleType , class SourceSampleType , class DestEndianness
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

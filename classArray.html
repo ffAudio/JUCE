@@ -96,10 +96,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a191f66a972ab264e2f8361727fb59ae7"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
-TypeOfCriticalSectionToUse::ScopedLockType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a191f66a972ab264e2f8361727fb59ae7">ScopedLockType</a></td></tr>
-<tr class="memdesc:a191f66a972ab264e2f8361727fb59ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of scoped lock to use for locking this array.  <a href="#a191f66a972ab264e2f8361727fb59ae7">More...</a><br/></td></tr>
-<tr class="separator:a191f66a972ab264e2f8361727fb59ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8578fcd9dcc67356c54d237b6555f6b0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArray.html#a8578fcd9dcc67356c54d237b6555f6b0">ScopedLockType</a> = typename TypeOfCriticalSectionToUse::ScopedLockType</td></tr>
+<tr class="memdesc:a8578fcd9dcc67356c54d237b6555f6b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of scoped lock to use for locking this array.  <a href="#a8578fcd9dcc67356c54d237b6555f6b0">More...</a><br/></td></tr>
+<tr class="separator:a8578fcd9dcc67356c54d237b6555f6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -335,14 +334,14 @@ class Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &g
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOwnedArray.html" title="An array designed for holding objects. ">OwnedArray</a>, <a class="el" href="classReferenceCountedArray.html" title="Holds a list of objects derived from ReferenceCountedObject, or which implement basic reference-count...">ReferenceCountedArray</a>, <a class="el" href="classStringArray.html" title="A special array for holding a list of strings. ">StringArray</a>, <a class="el" href="classCriticalSection.html" title="A re-entrant mutex. ">CriticalSection</a></dd></dl>
 <p>{Core} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a191f66a972ab264e2f8361727fb59ae7"></a>
+<a class="anchor" id="a8578fcd9dcc67356c54d237b6555f6b0"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCriticalSection, int minimumAllocatedSize = 0&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef TypeOfCriticalSectionToUse::ScopedLockType <a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html#a191f66a972ab264e2f8361727fb59ae7">ScopedLockType</a></td>
+          <td class="memname">using <a class="el" href="classArray.html">Array</a>&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;::<a class="el" href="classArray.html#a8578fcd9dcc67356c54d237b6555f6b0">ScopedLockType</a> =  typename TypeOfCriticalSectionToUse::ScopedLockType</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2398,7 +2397,7 @@ template&lt;typename ElementType, typename TypeOfCriticalSectionToUse = DummyCri
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

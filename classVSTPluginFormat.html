@@ -182,8 +182,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afe200e4968fed595f981a77d20a4ab24"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#afe200e4968fed595f981a77d20a4ab24">setExtraFunctions</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, <a class="el" href="classVSTPluginFormat_1_1ExtraFunctions.html">ExtraFunctions</a> *functions)</td></tr>
 <tr class="memdesc:afe200e4968fed595f981a77d20a4ab24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides an <a class="el" href="classVSTPluginFormat_1_1ExtraFunctions.html" title="Base class for some extra functions that can be attached to a VST plugin instance. ">ExtraFunctions</a> callback object for a plugin to use.  <a href="#afe200e4968fed595f981a77d20a4ab24">More...</a><br/></td></tr>
 <tr class="separator:afe200e4968fed595f981a77d20a4ab24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09eda3d23e195c8a8c57c9597877e841"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a> <br class="typebreak"/>
-<a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a09eda3d23e195c8a8c57c9597877e841">dispatcher</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, <a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a>, <a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a>, <a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a>, void *, float)</td></tr>
+<tr class="memitem:a09eda3d23e195c8a8c57c9597877e841"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__core-maths.html#ga004ecd75303f3a1653f937d35a67e41d">pointer_sized_int</a> <br class="typebreak"/>
+<a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a09eda3d23e195c8a8c57c9597877e841">dispatcher</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, <a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>, <a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>, <a class="el" href="group__juce__core-maths.html#ga004ecd75303f3a1653f937d35a67e41d">pointer_sized_int</a>, void *, float)</td></tr>
 <tr class="memdesc:a09eda3d23e195c8a8c57c9597877e841"><td class="mdescLeft">&#160;</td><td class="mdescRight">This simply calls directly to the VST's AEffect::dispatcher() function.  <a href="#a09eda3d23e195c8a8c57c9597877e841">More...</a><br/></td></tr>
 <tr class="separator:a09eda3d23e195c8a8c57c9597877e841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a089017dc83a3b622e7443411463f808b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a089017dc83a3b622e7443411463f808b">getPluginInstanceFromVstEffectInterface</a> (void *aEffect)</td></tr>
@@ -519,7 +519,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a> <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> VSTPluginFormat::dispatcher </td>
+          <td class="memname">static <a class="el" href="group__juce__core-maths.html#ga004ecd75303f3a1653f937d35a67e41d">pointer_sized_int</a> <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> VSTPluginFormat::dispatcher </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td>
           <td class="paramname">, </td>
@@ -527,19 +527,19 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga43d43196463bde49cb067f5c20ab8481">int32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga8d188377fe1977ca9d1a9b738019dd78">pointer_sized_int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#ga004ecd75303f3a1653f937d35a67e41d">pointer_sized_int</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -920,7 +920,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:17 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:01:05 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

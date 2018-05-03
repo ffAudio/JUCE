@@ -121,7 +121,7 @@ var searchData=
   ['destination',['destination',['../structAudioProcessorGraph_1_1Connection.html#a056525d39e5c9aa8b07ddd64183de544',1,'AudioProcessorGraph::Connection']]],
   ['destroy',['destroy',['../structContainerDeletePolicy.html#adff767e9533d0e7bdd8bc914d21eb01a',1,'ContainerDeletePolicy']]],
   ['destructive',['destructive',['../structPushNotifications_1_1Notification_1_1Action.html#ab56bfdc62b16ba7c7cb1775af96eaefa',1,'PushNotifications::Notification::Action']]],
-  ['desttype',['DestType',['../structAudioFormatReader_1_1ReadHelper.html#a0084d44db12183607466fe09e4829f67',1,'AudioFormatReader::ReadHelper::DestType()'],['../structAudioFormatWriter_1_1WriteHelper.html#a5b7c59617fd96d69dee0062368e7f3e0',1,'AudioFormatWriter::WriteHelper::DestType()']]],
+  ['desttype',['DestType',['../structAudioFormatReader_1_1ReadHelper.html#a87185020f44e9ba00edac2f9856b54df',1,'AudioFormatReader::ReadHelper::DestType()'],['../structAudioFormatWriter_1_1WriteHelper.html#ad3694d93872ca743f4133498fd329fa9',1,'AudioFormatWriter::WriteHelper::DestType()']]],
   ['detach',['detach',['../classOpenGLContext.html#a7504aa8928c854732090ee9583e9f37d',1,'OpenGLContext']]],
   ['developercontrolblock',['developerControlBlock',['../classBlock.html#a2c6b3c425b9b8cb708b23e553fa81324a98ca592426170135a53fdd46bc6d2a53',1,'Block']]],
   ['development',['DEVELOPMENT',['../group__juce__audio__processors-format__types.html#ga70bcb76882aaa86901adf5030a8a8d44',1,'juce_VST3Headers.h']]],

@@ -113,13 +113,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c10b38a794d96b2d26acbbc15946319"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a1c10b38a794d96b2d26acbbc15946319">setSource</a> (<a class="el" href="classInputSource.html">InputSource</a> *newSource) override</td></tr>
 <tr class="memdesc:a1c10b38a794d96b2d26acbbc15946319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies the file or stream that contains the audio file.  <a href="#a1c10b38a794d96b2d26acbbc15946319">More...</a><br/></td></tr>
 <tr class="separator:a1c10b38a794d96b2d26acbbc15946319"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67fb7eb4571c0442789b34139dfb47f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a67fb7eb4571c0442789b34139dfb47f9">setReader</a> (<a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> *newReader, <a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> hashCode) override</td></tr>
+<tr class="memitem:a67fb7eb4571c0442789b34139dfb47f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a67fb7eb4571c0442789b34139dfb47f9">setReader</a> (<a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> *newReader, <a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a> hashCode) override</td></tr>
 <tr class="memdesc:a67fb7eb4571c0442789b34139dfb47f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives the thumbnail an <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream. ">AudioFormatReader</a> to use directly.  <a href="#a67fb7eb4571c0442789b34139dfb47f9">More...</a><br/></td></tr>
 <tr class="separator:a67fb7eb4571c0442789b34139dfb47f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a99b62ab38df9acf50ce84e9488bf6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a9a99b62ab38df9acf50ce84e9488bf6e">reset</a> (int numChannels, double sampleRate, <a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> totalSamplesInSource=0) override</td></tr>
+<tr class="memitem:a9a99b62ab38df9acf50ce84e9488bf6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a9a99b62ab38df9acf50ce84e9488bf6e">reset</a> (int numChannels, double sampleRate, <a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a> totalSamplesInSource=0) override</td></tr>
 <tr class="memdesc:a9a99b62ab38df9acf50ce84e9488bf6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the thumbnail, ready for adding data with the specified format.  <a href="#a9a99b62ab38df9acf50ce84e9488bf6e">More...</a><br/></td></tr>
 <tr class="separator:a9a99b62ab38df9acf50ce84e9488bf6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96ef7c9a8d654f1659e5151ae8584417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a96ef7c9a8d654f1659e5151ae8584417">addBlock</a> (<a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> sampleNumberInSource, const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;newData, int startOffsetInBuffer, int numSamples) override</td></tr>
+<tr class="memitem:a96ef7c9a8d654f1659e5151ae8584417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a96ef7c9a8d654f1659e5151ae8584417">addBlock</a> (<a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a> sampleNumberInSource, const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;newData, int startOffsetInBuffer, int numSamples) override</td></tr>
 <tr class="memdesc:a96ef7c9a8d654f1659e5151ae8584417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a block of level data to the thumbnail.  <a href="#a96ef7c9a8d654f1659e5151ae8584417">More...</a><br/></td></tr>
 <tr class="separator:a96ef7c9a8d654f1659e5151ae8584417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0f585f827cda690c98264045be8d1b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#aa0f585f827cda690c98264045be8d1b7">loadFrom</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input) override</td></tr>
@@ -146,7 +146,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a054d995aa7d9765b695a642bb250ff12"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a054d995aa7d9765b695a642bb250ff12">getProportionComplete</a> () const noexcept</td></tr>
 <tr class="memdesc:a054d995aa7d9765b695a642bb250ff12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a value between 0 and 1 to indicate the progress towards loading the entire file.  <a href="#a054d995aa7d9765b695a642bb250ff12">More...</a><br/></td></tr>
 <tr class="separator:a054d995aa7d9765b695a642bb250ff12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59366f1bc8660eff93993ab51648c7c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a59366f1bc8660eff93993ab51648c7c9">getNumSamplesFinished</a> () const noexceptoverride</td></tr>
+<tr class="memitem:a59366f1bc8660eff93993ab51648c7c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a59366f1bc8660eff93993ab51648c7c9">getNumSamplesFinished</a> () const noexceptoverride</td></tr>
 <tr class="memdesc:a59366f1bc8660eff93993ab51648c7c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of samples that have been set in the thumbnail.  <a href="#a59366f1bc8660eff93993ab51648c7c9">More...</a><br/></td></tr>
 <tr class="separator:a59366f1bc8660eff93993ab51648c7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53a867a5d46790deb5135a24cfcf85c6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a53a867a5d46790deb5135a24cfcf85c6">getApproximatePeak</a> () const override</td></tr>
@@ -155,7 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3d04cc2aafce7b11b5b9913ddf9e55c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#aa3d04cc2aafce7b11b5b9913ddf9e55c">getApproximateMinMax</a> (double startTime, double endTime, int channelIndex, float &amp;minValue, float &amp;maxValue) const noexceptoverride</td></tr>
 <tr class="memdesc:aa3d04cc2aafce7b11b5b9913ddf9e55c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the approximate min and max levels from a section of the thumbnail.  <a href="#aa3d04cc2aafce7b11b5b9913ddf9e55c">More...</a><br/></td></tr>
 <tr class="separator:aa3d04cc2aafce7b11b5b9913ddf9e55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a943ab9611f881a53106c002effe280a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a943ab9611f881a53106c002effe280a4">getHashCode</a> () const override</td></tr>
+<tr class="memitem:a943ab9611f881a53106c002effe280a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioThumbnail.html#a943ab9611f881a53106c002effe280a4">getHashCode</a> () const override</td></tr>
 <tr class="memdesc:a943ab9611f881a53106c002effe280a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the hash code that was set by <a class="el" href="classAudioThumbnail.html#a1c10b38a794d96b2d26acbbc15946319" title="Specifies the file or stream that contains the audio file. ">setSource()</a> or <a class="el" href="classAudioThumbnail.html#a67fb7eb4571c0442789b34139dfb47f9" title="Gives the thumbnail an AudioFormatReader to use directly. ">setReader()</a>.  <a href="#a943ab9611f881a53106c002effe280a4">More...</a><br/></td></tr>
 <tr class="separator:a943ab9611f881a53106c002effe280a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classAudioThumbnailBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAudioThumbnailBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classAudioThumbnailBase.html">AudioThumbnailBase</a></td></tr>
@@ -337,7 +337,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a>&#160;</td>
           <td class="paramname"><em>hashCode</em>&#160;</td>
         </tr>
         <tr>
@@ -382,7 +382,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a>&#160;</td>
           <td class="paramname"><em>totalSamplesInSource</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
@@ -415,7 +415,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void AudioThumbnail::addBlock </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a>&#160;</td>
           <td class="paramname"><em>sampleNumberInSource</em>, </td>
         </tr>
         <tr>
@@ -752,7 +752,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> AudioThumbnail::getNumSamplesFinished </td>
+          <td class="memname"><a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a> AudioThumbnail::getNumSamplesFinished </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -864,7 +864,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__core-maths.html#gaecfc3c54bd29ad5964e1c1c3ccbf89df">int64</a> AudioThumbnail::getHashCode </td>
+          <td class="memname"><a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a> AudioThumbnail::getHashCode </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -889,7 +889,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 3 2018 01:01:01 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 4 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

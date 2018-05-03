@@ -653,7 +653,7 @@ var searchData=
   ['juce_5fwaitableevent_2eh',['juce_WaitableEvent.h',['../juce__WaitableEvent_8h.html',1,'']]],
   ['juce_5fwavaudioformat_2eh',['juce_WavAudioFormat.h',['../juce__WavAudioFormat_8h.html',1,'']]],
   ['juce_5fwaveshaper_2eh',['juce_WaveShaper.h',['../juce__WaveShaper_8h.html',1,'']]],
-  ['juce_5fwchar',['juce_wchar',['../group__juce__core-text.html#ga7d83261f3888884bbf04a58edc2672da',1,'juce_CharacterFunctions.h']]],
+  ['juce_5fwchar',['juce_wchar',['../group__juce__core-text.html#ga2a608c21a2526b019789478433c3742e',1,'juce_CharacterFunctions.h']]],
   ['juce_5fweakreference_2eh',['juce_WeakReference.h',['../juce__WeakReference_8h.html',1,'']]],
   ['juce_5fwebbrowsercomponent_2eh',['juce_WebBrowserComponent.h',['../juce__WebBrowserComponent_8h.html',1,'']]],
   ['juce_5fwebinputstream_2eh',['juce_WebInputStream.h',['../juce__WebInputStream_8h.html',1,'']]],
