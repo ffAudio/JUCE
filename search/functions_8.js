@@ -307,7 +307,7 @@ var searchData=
   ['isminimised',['isMinimised',['../classComponentPeer.html#a89063a1ab796e670d56ff660c3de60ed',1,'ComponentPeer::isMinimised()'],['../classResizableWindow.html#add27363b06fa6704db1bcfb99313bf0c',1,'ResizableWindow::isMinimised()']]],
   ['ismodal',['isModal',['../classModalComponentManager.html#ab714c0f5f7eb6a3ae02c086c3b96a634',1,'ModalComponentManager']]],
   ['ismouse',['isMouse',['../classMouseInputSource.html#a15eba960dd5bb4c991a79bfab615744d',1,'MouseInputSource']]],
-  ['ismousebuttondown',['isMouseButtonDown',['../classComponent.html#a0944e1751f32260afd5bd2a9fcd1a5b7',1,'Component']]],
+  ['ismousebuttondown',['isMouseButtonDown',['../classComponent.html#a0a4d5994e1470bdfe96e20e9c08bdd49',1,'Component']]],
   ['ismousebuttondownanywhere',['isMouseButtonDownAnywhere',['../classComponent.html#ac3184a52027ad9106185d594c522d9d0',1,'Component']]],
   ['ismouseover',['isMouseOver',['../classComponent.html#a23db151357ed4a783c224f210d036e63',1,'Component']]],
   ['ismouseoverordragging',['isMouseOverOrDragging',['../classComponent.html#a39e6cb0b07bf16648daa51b2c75be983',1,'Component']]],

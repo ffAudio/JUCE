@@ -21,6 +21,7 @@ var searchData=
   ['onpanelmove',['onPanelMove',['../classSidePanel.html#a88090dbefe3358009a2d70482946ab04',1,'SidePanel']]],
   ['onpanelshowhide',['onPanelShowHide',['../classSidePanel.html#ab614e90739bab93656cd648602d8bc38',1,'SidePanel']]],
   ['onreturnkey',['onReturnKey',['../classTextEditor.html#ac5ba45ff247b024411782937a8eab829',1,'TextEditor']]],
+  ['onshaderactivated',['onShaderActivated',['../structOpenGLGraphicsContextCustomShader.html#aa03496d6238f9ad8aeeb771988da531e',1,'OpenGLGraphicsContextCustomShader']]],
   ['onstatechange',['onStateChange',['../classButton.html#a286cdacca4d6232ba0597f1bd2d48b4f',1,'Button']]],
   ['onstrings',['onStrings',['../structAudioPluginInstance_1_1Parameter.html#a9f9ff69400be85259a5c3cac40639de0',1,'AudioPluginInstance::Parameter']]],
   ['ontextchange',['onTextChange',['../classLabel.html#a5ba80ea5ea965a001e2eacf75fc0314b',1,'Label::onTextChange()'],['../classTextEditor.html#a26a5f4afddb5fee9801bf6951b7e7ae9',1,'TextEditor::onTextChange()']]],

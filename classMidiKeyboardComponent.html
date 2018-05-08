@@ -162,6 +162,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a805bf0fa23c79b5f5b98eef0fe1333c6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardComponent.html#a805bf0fa23c79b5f5b98eef0fe1333c6">getKeyWidth</a> () const noexcept</td></tr>
 <tr class="memdesc:a805bf0fa23c79b5f5b98eef0fe1333c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the width that was set by <a class="el" href="classMidiKeyboardComponent.html#a177b5c93b812c35498e6eeeefcb1de16" title="Changes the width used to draw the white keys. ">setKeyWidth()</a>.  <a href="#a805bf0fa23c79b5f5b98eef0fe1333c6">More...</a><br/></td></tr>
 <tr class="separator:a805bf0fa23c79b5f5b98eef0fe1333c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dd590703910e6462930b05bbfe0c79f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardComponent.html#a3dd590703910e6462930b05bbfe0c79f">setScrollButtonWidth</a> (int widthInPixels)</td></tr>
+<tr class="memdesc:a3dd590703910e6462930b05bbfe0c79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the width used to draw the buttons that scroll the keyboard up/down in octaves.  <a href="#a3dd590703910e6462930b05bbfe0c79f">More...</a><br/></td></tr>
+<tr class="separator:a3dd590703910e6462930b05bbfe0c79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a241980aa3cebbce061903a65a6cfd61d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardComponent.html#a241980aa3cebbce061903a65a6cfd61d">getScrollButtonWidth</a> () const noexcept</td></tr>
+<tr class="memdesc:a241980aa3cebbce061903a65a6cfd61d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the width that was set by <a class="el" href="classMidiKeyboardComponent.html#a3dd590703910e6462930b05bbfe0c79f" title="Changes the width used to draw the buttons that scroll the keyboard up/down in octaves. ">setScrollButtonWidth()</a>.  <a href="#a241980aa3cebbce061903a65a6cfd61d">More...</a><br/></td></tr>
+<tr class="separator:a241980aa3cebbce061903a65a6cfd61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d57fd0840c352b1db80c258b5d54fdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardComponent.html#a9d57fd0840c352b1db80c258b5d54fdf">setOrientation</a> (<a class="el" href="classMidiKeyboardComponent.html#a6f6844672df93f8f631fa7e22cf0cdaf">Orientation</a> newOrientation)</td></tr>
 <tr class="memdesc:a9d57fd0840c352b1db80c258b5d54fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the keyboard's current direction.  <a href="#a9d57fd0840c352b1db80c258b5d54fdf">More...</a><br/></td></tr>
 <tr class="separator:a9d57fd0840c352b1db80c258b5d54fdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -694,9 +700,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a23db151357ed4a783c224f210d036e63 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a23db151357ed4a783c224f210d036e63">isMouseOver</a> (bool includeChildren=false) const </td></tr>
 <tr class="memdesc:a23db151357ed4a783c224f210d036e63 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the mouse is currently over this component.  <a href="#a23db151357ed4a783c224f210d036e63">More...</a><br/></td></tr>
 <tr class="separator:a23db151357ed4a783c224f210d036e63 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0944e1751f32260afd5bd2a9fcd1a5b7 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a0944e1751f32260afd5bd2a9fcd1a5b7">isMouseButtonDown</a> () const </td></tr>
-<tr class="memdesc:a0944e1751f32260afd5bd2a9fcd1a5b7 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the mouse button is currently held down in this component.  <a href="#a0944e1751f32260afd5bd2a9fcd1a5b7">More...</a><br/></td></tr>
-<tr class="separator:a0944e1751f32260afd5bd2a9fcd1a5b7 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4d5994e1470bdfe96e20e9c08bdd49 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a0a4d5994e1470bdfe96e20e9c08bdd49">isMouseButtonDown</a> (bool includeChildren=false) const </td></tr>
+<tr class="memdesc:a0a4d5994e1470bdfe96e20e9c08bdd49 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the mouse button is currently held down in this component.  <a href="#a0a4d5994e1470bdfe96e20e9c08bdd49">More...</a><br/></td></tr>
+<tr class="separator:a0a4d5994e1470bdfe96e20e9c08bdd49 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39e6cb0b07bf16648daa51b2c75be983 inherit pub_methods_classComponent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponent.html#a39e6cb0b07bf16648daa51b2c75be983">isMouseOverOrDragging</a> (bool includeChildren=false) const </td></tr>
 <tr class="memdesc:a39e6cb0b07bf16648daa51b2c75be983 inherit pub_methods_classComponent"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the mouse is over this component, or if it's being dragged in this component.  <a href="#a39e6cb0b07bf16648daa51b2c75be983">More...</a><br/></td></tr>
 <tr class="separator:a39e6cb0b07bf16648daa51b2c75be983 inherit pub_methods_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1165,6 +1171,49 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the width that was set by <a class="el" href="classMidiKeyboardComponent.html#a177b5c93b812c35498e6eeeefcb1de16" title="Changes the width used to draw the white keys. ">setKeyWidth()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3dd590703910e6462930b05bbfe0c79f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MidiKeyboardComponent::setScrollButtonWidth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>widthInPixels</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes the width used to draw the buttons that scroll the keyboard up/down in octaves. </p>
+
+</div>
+</div>
+<a class="anchor" id="a241980aa3cebbce061903a65a6cfd61d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MidiKeyboardComponent::getScrollButtonWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the width that was set by <a class="el" href="classMidiKeyboardComponent.html#a3dd590703910e6462930b05bbfe0c79f" title="Changes the width used to draw the buttons that scroll the keyboard up/down in octaves. ">setScrollButtonWidth()</a>. </p>
 
 </div>
 </div>
@@ -2586,7 +2635,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 5 2018 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 9 2018 01:01:17 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
