@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classComponentPeer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ComponentPeer Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__juce__gui__basics-windows.html">windows</a></div></div>  </div>
@@ -323,6 +324,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae8e06f4b14b73e562da0b47783a7210e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#ae8e06f4b14b73e562da0b47783a7210e">isValidPeer</a> (const <a class="el" href="classComponentPeer.html">ComponentPeer</a> *peer) noexcept</td></tr>
 <tr class="memdesc:ae8e06f4b14b73e562da0b47783a7210e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if this peer object is valid.  <a href="#ae8e06f4b14b73e562da0b47783a7210e">More...</a><br/></td></tr>
 <tr class="separator:ae8e06f4b14b73e562da0b47783a7210e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d4b6ef99cc1a1009275b27efa4349f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classModifierKeys.html">ModifierKeys</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a47d4b6ef99cc1a1009275b27efa4349f">getCurrentModifiersRealtime</a> () noexcept</td></tr>
+<tr class="memdesc:a47d4b6ef99cc1a1009275b27efa4349f"><td class="mdescLeft">&#160;</td><td class="mdescRight">On desktop platforms this method will check all the mouse and key states and return a <a class="el" href="classModifierKeys.html" title="Represents the state of the mouse buttons and modifier keys. ">ModifierKeys</a> object representing them.  <a href="#a47d4b6ef99cc1a1009275b27efa4349f">More...</a><br/></td></tr>
+<tr class="separator:a47d4b6ef99cc1a1009275b27efa4349f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -334,6 +338,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2aee1a16331876b88555838cd75caeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75216f7f562c5bbf8b7758a1198d2744"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponentBoundsConstrainer.html">ComponentBoundsConstrainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a75216f7f562c5bbf8b7758a1198d2744">constrainer</a> = nullptr</td></tr>
 <tr class="separator:a75216f7f562c5bbf8b7758a1198d2744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a5656606f4716f0dda718d854c6a996f1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classstd_1_1function.html">std::function</a><br class="typebreak"/>
+&lt; <a class="el" href="classModifierKeys.html">ModifierKeys</a>()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classComponentPeer.html#a5656606f4716f0dda718d854c6a996f1">getNativeRealtimeModifiers</a></td></tr>
+<tr class="separator:a5656606f4716f0dda718d854c6a996f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a> class uses a <a class="el" href="classComponentPeer.html" title="The Component class uses a ComponentPeer internally to create and manage a real operating-system wind...">ComponentPeer</a> internally to create and manage a real operating-system window. </p>
@@ -2115,6 +2125,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a47d4b6ef99cc1a1009275b27efa4349f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classModifierKeys.html">ModifierKeys</a> ComponentPeer::getCurrentModifiersRealtime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>On desktop platforms this method will check all the mouse and key states and return a <a class="el" href="classModifierKeys.html" title="Represents the state of the mouse buttons and modifier keys. ">ModifierKeys</a> object representing them. </p>
+<p>This isn't recommended and is only needed in special circumstances for up-to-date modifier information at times when the app's event loop isn't running normally.</p>
+<p>Another reason to avoid this method is that it's not stateless and calling it may update the <a class="el" href="classModifierKeys.html#ae15cb452a97164e1b857086a1405942f" title="This object represents the last-known state of the keyboard and mouse buttons. ">ModifierKeys::currentModifiers</a> object, which could cause subtle changes in the behaviour of some components. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a597272f3a78e8f1d02471692c2e2932a"></a>
 <div class="memitem">
@@ -2196,13 +2233,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5656606f4716f0dda718d854c6a996f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classstd_1_1function.html">std::function</a>&lt;<a class="el" href="classModifierKeys.html">ModifierKeys</a>()&gt; ComponentPeer::getNativeRealtimeModifiers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="juce__ComponentPeer_8h.html">juce_ComponentPeer.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 9 2018 01:01:12 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 10 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

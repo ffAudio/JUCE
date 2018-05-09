@@ -145,6 +145,10 @@ Macros</h2></td></tr>
 <tr class="separator:gaf25d2cb3e6d1124146f7f1fcd8648016"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae6b75a90b7c83090e15a53b54555a078"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#gae6b75a90b7c83090e15a53b54555a078">JUCE_DEPRECATED_WITH_BODY</a>(functionDef, body)</td></tr>
 <tr class="separator:gae6b75a90b7c83090e15a53b54555a078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85cf949ce0439306e4606bb784def674"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#ga85cf949ce0439306e4606bb784def674">JUCE_DEPRECATED_STATIC</a>(valueDef)</td></tr>
+<tr class="separator:ga85cf949ce0439306e4606bb784def674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e02dca31ce66d49f9856d79e97094d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#ga2e02dca31ce66d49f9856d79e97094d5">JUCE_DECLARE_DEPRECATED_STATIC</a>(valueDef)</td></tr>
+<tr class="separator:ga2e02dca31ce66d49f9856d79e97094d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga909bde880b0a0a8cde591314de213c0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#ga909bde880b0a0a8cde591314de213c0a">JUCE_NO_ASSOCIATIVE_MATH_OPTIMISATIONS</a>&#160;&#160;&#160;__attribute__((__optimize__(&quot;no-associative-math&quot;)))</td></tr>
 <tr class="memdesc:ga909bde880b0a0a8cde591314de213c0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be appended to a function declaration to tell gcc to disable associative math optimisations which break some floating point algorithms.  <a href="#ga909bde880b0a0a8cde591314de213c0a">More...</a><br/></td></tr>
 <tr class="separator:ga909bde880b0a0a8cde591314de213c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,7 +157,7 @@ Macros</h2></td></tr>
 <tr class="separator:gad39afa9c8302295c83a3c431c553bc8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2a583ff83063cc1e7f9abeb35a21dff1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#ga2a583ff83063cc1e7f9abeb35a21dff1">JUCE_MINOR_VERSION</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:ga2a583ff83063cc1e7f9abeb35a21dff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9ac1dc104cd00f4cc2ff6dece8711f32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#ga9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memitem:ga9ac1dc104cd00f4cc2ff6dece8711f32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#ga9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:ga9ac1dc104cd00f4cc2ff6dece8711f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8e9e97736d05e318de09b9bedab1aaa0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__juce__core-system.html#ga8e9e97736d05e318de09b9bedab1aaa0">JUCE_VERSION</a>&#160;&#160;&#160;((<a class="el" href="group__juce__core-system.html#gad39afa9c8302295c83a3c431c553bc8b">JUCE_MAJOR_VERSION</a> &lt;&lt; 16) + (<a class="el" href="group__juce__core-system.html#ga2a583ff83063cc1e7f9abeb35a21dff1">JUCE_MINOR_VERSION</a> &lt;&lt; 8) + <a class="el" href="group__juce__core-system.html#ga9ac1dc104cd00f4cc2ff6dece8711f32">JUCE_BUILDNUMBER</a>)</td></tr>
 <tr class="memdesc:ga8e9e97736d05e318de09b9bedab1aaa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current JUCE version number.  <a href="#ga8e9e97736d05e318de09b9bedab1aaa0">More...</a><br/></td></tr>
@@ -566,6 +570,38 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga85cf949ce0439306e4606bb784def674"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JUCE_DEPRECATED_STATIC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">valueDef</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ga2e02dca31ce66d49f9856d79e97094d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JUCE_DECLARE_DEPRECATED_STATIC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">valueDef</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ga909bde880b0a0a8cde591314de213c0a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -612,7 +648,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define JUCE_BUILDNUMBER&#160;&#160;&#160;1</td>
+          <td class="memname">#define JUCE_BUILDNUMBER&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -766,7 +802,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 9 2018 01:01:06 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 10 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

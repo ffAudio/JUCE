@@ -291,7 +291,7 @@ var searchData=
   ['getcurrentmappings',['getCurrentMappings',['../classLocalisedStrings.html#a0131361dde468bffc6c76a6f97b768eb',1,'LocalisedStrings']]],
   ['getcurrentmessagethread',['getCurrentMessageThread',['../classMessageManager.html#aa64162d4d9711b2c299e66775b57f414',1,'MessageManager']]],
   ['getcurrentmodifiers',['getCurrentModifiers',['../classModifierKeys.html#a69b1631db7f2ec0367bfe39d2eb57398',1,'ModifierKeys::getCurrentModifiers()'],['../classMouseInputSource.html#a69fd0c708be6a6602ee44f3b1228f94e',1,'MouseInputSource::getCurrentModifiers()']]],
-  ['getcurrentmodifiersrealtime',['getCurrentModifiersRealtime',['../classModifierKeys.html#ad174aefc02f39bf4892ef79aeb23fec4',1,'ModifierKeys']]],
+  ['getcurrentmodifiersrealtime',['getCurrentModifiersRealtime',['../classModifierKeys.html#ad174aefc02f39bf4892ef79aeb23fec4',1,'ModifierKeys::getCurrentModifiersRealtime()'],['../classComponentPeer.html#a47d4b6ef99cc1a1009275b27efa4349f',1,'ComponentPeer::getCurrentModifiersRealtime()']]],
   ['getcurrentmoduleinstancehandle',['getCurrentModuleInstanceHandle',['../classProcess.html#a89a3cbef850679516bccdab10e9a5305',1,'Process']]],
   ['getcurrentorientation',['getCurrentOrientation',['../classDesktop.html#a14dd6704af2eb6b6e374509e4ba5a33e',1,'Desktop::getCurrentOrientation()'],['../classMouseInputSource.html#a5e680f0907c5d257f76bf1a1fad779e0',1,'MouseInputSource::getCurrentOrientation()']]],
   ['getcurrentpopupdisplay',['getCurrentPopupDisplay',['../classSlider.html#a1b264e454184d57c69e1ab986eb15d7e',1,'Slider']]],

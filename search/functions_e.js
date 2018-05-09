@@ -100,7 +100,7 @@ var searchData=
   ['oscinternalerror',['OSCInternalError',['../structOSCInternalError.html#ab61d68be60573c87ecaec312f2b0ddff',1,'OSCInternalError']]],
   ['oscmessage',['OSCMessage',['../classOSCMessage.html#aa0cfb61e14cb788995bc7f520f08a206',1,'OSCMessage::OSCMessage(const OSCAddressPattern &amp;ap) noexcept'],['../group__juce__osc-osc.html#gaf6c3599f02b75ef3ef4a86090fa1d7a4',1,'OSCMessage::OSCMessage(const OSCAddressPattern &amp;ap, Arg1 &amp;&amp;arg1, Args &amp;&amp;...args)']]],
   ['oscmessagereceived',['oscMessageReceived',['../classOSCReceiver_1_1Listener.html#aa0902c927fabc6e2fedb4cb7a66e793a',1,'OSCReceiver::Listener::oscMessageReceived()'],['../classOSCReceiver_1_1ListenerWithOSCAddress.html#aedfd17a06e68530c449d9ef85ca76740',1,'OSCReceiver::ListenerWithOSCAddress::oscMessageReceived()']]],
-  ['oscreceiver',['OSCReceiver',['../classOSCReceiver.html#aa5c074f5f924dce01894224c00387507',1,'OSCReceiver']]],
+  ['oscreceiver',['OSCReceiver',['../classOSCReceiver.html#aa5c074f5f924dce01894224c00387507',1,'OSCReceiver::OSCReceiver()'],['../classOSCReceiver.html#a0c3272192ddf871305e19befd813eefc',1,'OSCReceiver::OSCReceiver(const String &amp;threadName)']]],
   ['oscsender',['OSCSender',['../classOSCSender.html#a026bca8d086dc1ef9d226bcc2855e0db',1,'OSCSender']]],
   ['osctimetag',['OSCTimeTag',['../classOSCTimeTag.html#aebad6cb86fc729e065dcee9703dad724',1,'OSCTimeTag::OSCTimeTag() noexcept'],['../classOSCTimeTag.html#a4c76b42ba03bf4c0789f325b8fbe0e92',1,'OSCTimeTag::OSCTimeTag(uint64 rawTimeTag) noexcept'],['../classOSCTimeTag.html#abbc1ed60a931dff6b394a6cc343126e2',1,'OSCTimeTag::OSCTimeTag(Time time) noexcept']]],
   ['outputdebugstring',['outputDebugString',['../classLogger.html#a54273b4faf398b4da464d21bb6abac59',1,'Logger']]],

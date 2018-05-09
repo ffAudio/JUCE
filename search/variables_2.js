@@ -49,6 +49,7 @@ var searchData=
   ['current',['current',['../structvst2FxBank.html#ab4a4484a95743653f5dc25ca0709dfef',1,'vst2FxBank::current()'],['../structPushNotifications_1_1Notification_1_1Progress.html#a7a31c24734466a55144ac3b7de28d3a8',1,'PushNotifications::Notification::Progress::current()']]],
   ['currentbounds',['currentBounds',['../classFlexItem.html#aa8c1424c9e12c6b08a29c4767ec06704',1,'FlexItem::currentBounds()'],['../classGridItem.html#a15b642921685a0f3b6aeb0097d5d4a3c',1,'GridItem::currentBounds()']]],
   ['currentlyplayingnote',['currentlyPlayingNote',['../classMPESynthesiserVoice.html#aea34fcbdb3fa0961f73d5f9a1f34e255',1,'MPESynthesiserVoice']]],
+  ['currentmodifiers',['currentModifiers',['../classModifierKeys.html#ae15cb452a97164e1b857086a1405942f',1,'ModifierKeys']]],
   ['currentsamplerate',['currentSampleRate',['../classMPESynthesiserVoice.html#a9310a73a44408ab65dfb9b875917c354',1,'MPESynthesiserVoice']]],
   ['customcallback',['customCallback',['../structPopupMenu_1_1Item.html#aa38826c9b08d9c8c4e8ad2f8da46fec8',1,'PopupMenu::Item']]],
   ['customcomponent',['customComponent',['../structPopupMenu_1_1Item.html#a60e8c61225a127bf37c46144c03689f6',1,'PopupMenu::Item']]],

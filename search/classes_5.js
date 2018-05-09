@@ -40,6 +40,7 @@ var searchData=
   ['function_3c_20float_28const_20string_20_26_29_3e',['function&lt; float(const String &amp;)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20float_28float_2c_20float_2c_20float_29_3e',['function&lt; float(float, float, float)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20int_28const_20string_20_26_29_3e',['function&lt; int(const String &amp;)&gt;',['../classstd_1_1function.html',1,'std']]],
+  ['function_3c_20modifierkeys_28_29_3e',['function&lt; ModifierKeys()&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20numerictype_28numerictype_29_3e',['function&lt; NumericType(NumericType)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20string_28bool_2c_20int_29_3e',['function&lt; String(bool, int)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20string_28double_29_3e',['function&lt; String(double)&gt;',['../classstd_1_1function.html',1,'std']]],

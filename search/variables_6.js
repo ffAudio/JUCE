@@ -2,6 +2,7 @@ var searchData=
 [
   ['g',['g',['../structdsp_1_1StateVariableFilter_1_1Parameters.html#a93d09923d67b8d744550343cd38d262c',1,'dsp::StateVariableFilter::Parameters']]],
   ['gainsboro',['gainsboro',['../classColours.html#aafd6fddf3e1dc29dadc28574d814b341',1,'Colours']]],
+  ['getnativerealtimemodifiers',['getNativeRealtimeModifiers',['../classComponentPeer.html#a5656606f4716f0dda718d854c6a996f1',1,'ComponentPeer']]],
   ['ghostwhite',['ghostwhite',['../classColours.html#a183c768912d35b3f159aab47ae3e2252',1,'Colours']]],
   ['glyphcode',['glyphCode',['../classTextLayout_1_1Glyph.html#abb803cc04147b2094e02b773f6aaeb92',1,'TextLayout::Glyph']]],
   ['glyphs',['glyphs',['../classTextLayout_1_1Run.html#ade86d06f39c2bec790e049a053b8de2b',1,'TextLayout::Run']]],
