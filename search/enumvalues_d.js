@@ -21,6 +21,7 @@ var searchData=
   ['nowrap',['noWrap',['../classFlexBox.html#a252f351ef4317467a58ad25922f64e63a7c6a2ecda2b948866fc1326a2ae5aad7',1,'FlexBox']]],
   ['nullelement',['nullElement',['../classRelativePointPath.html#a741fbc9bca4a156a84514f20987483e9ae971a25058687b29600ebb7c9a038437',1,'RelativePointPath']]],
   ['numcolours',['numColours',['../classLookAndFeel__V4_1_1ColourScheme.html#a3a0b01b5a192545b3692ed288597b2f4a6c765ee004cf9073d5414a7b7244cdcb',1,'LookAndFeel_V4::ColourScheme']]],
+  ['numeric',['numeric',['../group__juce__audio__plugin__client-Unity.html#gga485dc2a0e5ed7da3d9f826367b36ee55a1b5484703e716389553255e6f11f12ec',1,'juce_UnityPluginInterface.h']]],
   ['numerickeyboard',['numericKeyboard',['../classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7ad6a4c6dad692fe4625b23d7ff5a7a5af',1,'TextInputTarget']]],
   ['numfiltertypes',['numFilterTypes',['../classdsp_1_1Oversampling.html#ac3d048707b7807badec0df770c9778f8a7bdfabf1e6a6cc497ba2352c930b1776',1,'dsp::Oversampling']]],
   ['numstandardcursortypes',['NumStandardCursorTypes',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a48398e8dcad5bee53f6319d3f9b7f012',1,'MouseCursor']]],

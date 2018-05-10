@@ -33,7 +33,7 @@ var searchData=
   ['instrument',['instrument',['../structMPESynthesiserBase.html#abef53209d5522c0af50547301e6b52b5',1,'MPESynthesiserBase']]],
   ['int32',['int32',['../classOSCTypes.html#a385cc294c1427151d8bf7a260f0719e6',1,'OSCTypes']]],
   ['interfaceidentifier',['interfaceIdentifier',['../structVstEffectInterface.html#ae351b8d58b4b16522c439ce3ebab8416',1,'VstEffectInterface']]],
-  ['internal',['internal',['../classPixelARGB.html#a3ce76ba57b4db34944b329753a2314ff',1,'PixelARGB']]],
+  ['internal',['internal',['../structUnityAudioEffectState.html#a46b031454978af6d7bc8c5758d910efa',1,'UnityAudioEffectState::internal()'],['../classPixelARGB.html#a3ce76ba57b4db34944b329753a2314ff',1,'PixelARGB::internal()']]],
   ['interval',['interval',['../classNormalisableRange.html#a7717c3a5ebfe5ac44ab7d55ad63e5354',1,'NormalisableRange']]],
   ['intvalue',['intValue',['../classOSCArgument.html#a81c635349763982a84322406534f1375',1,'OSCArgument']]],
   ['invalidorientation',['invalidOrientation',['../classMouseInputSource.html#affd13d39e55e3a066a3b20dd477936f1',1,'MouseInputSource']]],

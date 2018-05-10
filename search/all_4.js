@@ -12,6 +12,7 @@ var searchData=
   ['editorigintime',['editOriginTime',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a5a8c7375646228f378c4eb673f49a9e0',1,'AudioPlayHead::CurrentPositionInfo']]],
   ['editorshown',['editorShown',['../classLabel_1_1Listener.html#a566bd2443fcd14c798760eb78812fc80',1,'Label::Listener::editorShown()'],['../classLabel.html#a5260dfecf51d5f4822ea7072cb2d4cb6',1,'Label::editorShown()']]],
   ['editorviewportpositionchanged',['editorViewportPositionChanged',['../classCodeEditorComponent.html#a979f3f00f16b6e3eed9bd15b674daa2d',1,'CodeEditorComponent']]],
+  ['effectdata',['effectData',['../structUnityAudioEffectState.html#ad70e13a4f80dc9e67f285e187a9cece4',1,'UnityAudioEffectState']]],
   ['effectpointer',['effectPointer',['../structVstEffectInterface.html#a67d40a1722792659726c7741a3b6107f',1,'VstEffectInterface']]],
   ['ejectdisk',['ejectDisk',['../classAudioCDReader.html#a41f27ce866212984e7a657f316e63e24',1,'AudioCDReader']]],
   ['element',['Element',['../classOSCBundle_1_1Element.html',1,'OSCBundle']]],

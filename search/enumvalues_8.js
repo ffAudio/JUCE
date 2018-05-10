@@ -34,7 +34,10 @@ var searchData=
   ['internalconfig',['internalConfig',['../group__LittleFootFunctions.html#gga8005f1f182fd0248a710ca64f72508d4a02daacd6d9b1590513de098311dc70af',1,'juce_LittleFootFunctions.dox']]],
   ['invokedexecutablefile',['invokedExecutableFile',['../classFile.html#a3e19cafabb03c5838160263a6e76313dafdae061dc559a8e9ac3a9623d2cd8081',1,'File']]],
   ['ios',['iOS',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaac9450b81876366666cc4ef6dbaa7496e',1,'SystemStats']]],
+  ['isambisonicdecoder',['isAmbisonicDecoder',['../group__juce__audio__plugin__client-Unity.html#gga1b76adc9f97bca1e51f0e428a5fa6882ab1cf6398d761718c20b7af90b62c7a3c',1,'juce_UnityPluginInterface.h']]],
   ['isdisabled',['isDisabled',['../structApplicationCommandInfo.html#ab9633f0a25ad57236fde726c98b29d72a202cb5c15583e30f2f59b48e6c18c90b',1,'ApplicationCommandInfo']]],
+  ['issidechaintarget',['isSideChainTarget',['../group__juce__audio__plugin__client-Unity.html#gga1b76adc9f97bca1e51f0e428a5fa6882a66e4332ebb2f14db5cbd8c7a65e97254',1,'juce_UnityPluginInterface.h']]],
+  ['isspatializer',['isSpatializer',['../group__juce__audio__plugin__client-Unity.html#gga1b76adc9f97bca1e51f0e428a5fa6882abcd3f051024befb72be3a71b21aaa8cc',1,'juce_UnityPluginInterface.h']]],
   ['isticked',['isTicked',['../structApplicationCommandInfo.html#ab9633f0a25ad57236fde726c98b29d72af0c8f1c0103edb7a8e9ea852d3d3dee2',1,'ApplicationCommandInfo']]],
   ['italic',['italic',['../classFont.html#a52a35b5dc1e6f782e25283c9283bae4fa1d2b466ff0cbcf7e762558b847b99a01',1,'Font']]]
 ];

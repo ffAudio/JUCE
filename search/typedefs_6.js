@@ -2,7 +2,8 @@ var searchData=
 [
   ['iircoefficients',['IIRCoefficients',['../structdsp_1_1FilterDesign.html#a1e6317dd8dcbdd31cb15d1b0a1e08cbf',1,'dsp::FilterDesign']]],
   ['implementationfunction',['ImplementationFunction',['../structlittlefoot_1_1NativeFunction.html#aa82b9d379e798cb8387f376455ff17db',1,'littlefoot::NativeFunction']]],
-  ['index',['index',['../group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792',1,'juce_VSTInterface.h']]],
+  ['inbuffer',['inBuffer',['../group__juce__audio__plugin__client-Unity.html#ga60484d104932589f2dfdc30fb7167497',1,'juce_UnityPluginInterface.h']]],
+  ['index',['index',['../group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35',1,'index():&#160;juce_UnityPluginInterface.h'],['../group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792',1,'index():&#160;juce_VSTInterface.h']]],
   ['int16',['int16',['../namespacelittlefoot.html#ada240f433c50e81ac698bbf32d6a2c10',1,'littlefoot::int16()'],['../group__juce__core-maths.html#ga1ac1aa7e8a32750928cf4962e61e80ce',1,'int16():&#160;juce_MathsFunctions.h']]],
   ['int32',['int32',['../namespacelittlefoot.html#afc5264c0714df002ef584815c72b219e',1,'littlefoot::int32()'],['../group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426',1,'int32():&#160;juce_MathsFunctions.h']]],
   ['int64',['int64',['../group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44',1,'juce_MathsFunctions.h']]],

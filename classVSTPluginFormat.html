@@ -116,7 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9680cc54347b995fc441c719ed728c9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a9680cc54347b995fc441c719ed728c9f">getName</a> () const override</td></tr>
 <tr class="memdesc:a9680cc54347b995fc441c719ed728c9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the format name.  <a href="#a9680cc54347b995fc441c719ed728c9f">More...</a><br/></td></tr>
 <tr class="separator:a9680cc54347b995fc441c719ed728c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6c88835c362d055ec0f0694ebb2a955"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#af6c88835c362d055ec0f0694ebb2a955">findAllTypesForFile</a> (<a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;, const <a class="el" href="classString.html">String</a> &amp;fileOrIdentifier) override</td></tr>
+<tr class="memitem:af6c88835c362d055ec0f0694ebb2a955"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#af6c88835c362d055ec0f0694ebb2a955">findAllTypesForFile</a> (<a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;, const <a class="el" href="classString.html">String</a> &amp;fileOrIdentifier) override</td></tr>
 <tr class="memdesc:af6c88835c362d055ec0f0694ebb2a955"><td class="mdescLeft">&#160;</td><td class="mdescRight">This tries to create descriptions for all the plugin types available in a binary module file.  <a href="#af6c88835c362d055ec0f0694ebb2a955">More...</a><br/></td></tr>
 <tr class="separator:af6c88835c362d055ec0f0694ebb2a955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5df306afb3240d91d2bb625c1417a2b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a5df306afb3240d91d2bb625c1417a2b1">fileMightContainThisPluginType</a> (const <a class="el" href="classString.html">String</a> &amp;fileOrIdentifier) override</td></tr>
@@ -140,23 +140,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a342f0d02f21458198ef3e60f8f7356a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a342f0d02f21458198ef3e60f8f7356a1">canScanForPlugins</a> () const override</td></tr>
 <tr class="memdesc:a342f0d02f21458198ef3e60f8f7356a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this format needs to run a scan to find its list of plugins.  <a href="#a342f0d02f21458198ef3e60f8f7356a1">More...</a><br/></td></tr>
 <tr class="separator:a342f0d02f21458198ef3e60f8f7356a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6277efa1639b851939014d07ffcc84d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a6277efa1639b851939014d07ffcc84d4">aboutToScanVSTShellPlugin</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;)</td></tr>
+<tr class="memitem:a6277efa1639b851939014d07ffcc84d4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a6277efa1639b851939014d07ffcc84d4">aboutToScanVSTShellPlugin</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;)</td></tr>
 <tr class="memdesc:a6277efa1639b851939014d07ffcc84d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be overridden to receive a callback when each member of a shell plugin is about to be tested during a call to <a class="el" href="classVSTPluginFormat.html#af6c88835c362d055ec0f0694ebb2a955" title="This tries to create descriptions for all the plugin types available in a binary module file...">findAllTypesForFile()</a>.  <a href="#a6277efa1639b851939014d07ffcc84d4">More...</a><br/></td></tr>
 <tr class="separator:a6277efa1639b851939014d07ffcc84d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classAudioPluginFormat"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classAudioPluginFormat')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classAudioPluginFormat.html">AudioPluginFormat</a></td></tr>
 <tr class="memitem:a13029b260e822e954d6b33229db75d50 inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#a13029b260e822e954d6b33229db75d50">~AudioPluginFormat</a> ()</td></tr>
 <tr class="memdesc:a13029b260e822e954d6b33229db75d50 inherit pub_methods_classAudioPluginFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a13029b260e822e954d6b33229db75d50">More...</a><br/></td></tr>
 <tr class="separator:a13029b260e822e954d6b33229db75d50 inherit pub_methods_classAudioPluginFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a078fc44fc2966158d661c56e11e7ca38 inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#a078fc44fc2966158d661c56e11e7ca38">createInstanceFromDescription</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;, double initialSampleRate, int initialBufferSize)</td></tr>
+<tr class="memitem:a078fc44fc2966158d661c56e11e7ca38 inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#a078fc44fc2966158d661c56e11e7ca38">createInstanceFromDescription</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;, double initialSampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> initialBufferSize)</td></tr>
 <tr class="memdesc:a078fc44fc2966158d661c56e11e7ca38 inherit pub_methods_classAudioPluginFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to recreate a type from a previously generated <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plug-in. ">PluginDescription</a>.  <a href="#a078fc44fc2966158d661c56e11e7ca38">More...</a><br/></td></tr>
 <tr class="separator:a078fc44fc2966158d661c56e11e7ca38 inherit pub_methods_classAudioPluginFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66a7f6a84ae7c5f270a0a12917d687eb inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#a66a7f6a84ae7c5f270a0a12917d687eb">createInstanceFromDescription</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;, double initialSampleRate, int initialBufferSize, <a class="el" href="classString.html">String</a> &amp;errorMessage)</td></tr>
+<tr class="memitem:a66a7f6a84ae7c5f270a0a12917d687eb inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#a66a7f6a84ae7c5f270a0a12917d687eb">createInstanceFromDescription</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;, double initialSampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> initialBufferSize, <a class="el" href="classString.html">String</a> &amp;errorMessage)</td></tr>
 <tr class="memdesc:a66a7f6a84ae7c5f270a0a12917d687eb inherit pub_methods_classAudioPluginFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as above but with the possibility of returning an error message.  <a href="#a66a7f6a84ae7c5f270a0a12917d687eb">More...</a><br/></td></tr>
 <tr class="separator:a66a7f6a84ae7c5f270a0a12917d687eb inherit pub_methods_classAudioPluginFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac03372359b6033b378bc036ffb19c78e inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#ac03372359b6033b378bc036ffb19c78e">createPluginInstanceAsync</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description, double initialSampleRate, int initialBufferSize, <a class="el" href="structAudioPluginFormat_1_1InstantiationCompletionCallback.html">InstantiationCompletionCallback</a> *completionCallback)</td></tr>
+<tr class="memitem:ac03372359b6033b378bc036ffb19c78e inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#ac03372359b6033b378bc036ffb19c78e">createPluginInstanceAsync</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description, double initialSampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> initialBufferSize, <a class="el" href="structAudioPluginFormat_1_1InstantiationCompletionCallback.html">InstantiationCompletionCallback</a> *completionCallback)</td></tr>
 <tr class="memdesc:ac03372359b6033b378bc036ffb19c78e inherit pub_methods_classAudioPluginFormat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to recreate a type from a previously generated <a class="el" href="classPluginDescription.html" title="A small class to represent some facts about a particular type of plug-in. ">PluginDescription</a>.  <a href="#ac03372359b6033b378bc036ffb19c78e">More...</a><br/></td></tr>
 <tr class="separator:ac03372359b6033b378bc036ffb19c78e inherit pub_methods_classAudioPluginFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7c1dd944b69054af6b8633bb43fcb5e inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#ac7c1dd944b69054af6b8633bb43fcb5e">createPluginInstanceAsync</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description, double initialSampleRate, int initialBufferSize, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, const <a class="el" href="classString.html">String</a> &amp;)&gt; completionCallback)</td></tr>
+<tr class="memitem:ac7c1dd944b69054af6b8633bb43fcb5e inherit pub_methods_classAudioPluginFormat"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#ac7c1dd944b69054af6b8633bb43fcb5e">createPluginInstanceAsync</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;description, double initialSampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> initialBufferSize, <a class="el" href="classstd_1_1function.html">std::function</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>(<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, const <a class="el" href="classString.html">String</a> &amp;)&gt; completionCallback)</td></tr>
 <tr class="separator:ac7c1dd944b69054af6b8633bb43fcb5e inherit pub_methods_classAudioPluginFormat"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -164,7 +164,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a51c4b1390459ef66a84a00f285ef867c"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a51c4b1390459ef66a84a00f285ef867c">getVSTXML</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin)</td></tr>
 <tr class="memdesc:a51c4b1390459ef66a84a00f285ef867c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to retrieve the VSTXML data from a plugin.  <a href="#a51c4b1390459ef66a84a00f285ef867c">More...</a><br/></td></tr>
 <tr class="separator:a51c4b1390459ef66a84a00f285ef867c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cda6559c2fa9cba7e0ada4ab00d5d53"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a2cda6559c2fa9cba7e0ada4ab00d5d53">loadFromFXBFile</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, const void *data, size_t dataSize)</td></tr>
+<tr class="memitem:a2cda6559c2fa9cba7e0ada4ab00d5d53"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a2cda6559c2fa9cba7e0ada4ab00d5d53">loadFromFXBFile</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *data, size_t dataSize)</td></tr>
 <tr class="memdesc:a2cda6559c2fa9cba7e0ada4ab00d5d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to reload a VST plugin's state from some FXB or FXP data.  <a href="#a2cda6559c2fa9cba7e0ada4ab00d5d53">More...</a><br/></td></tr>
 <tr class="separator:a2cda6559c2fa9cba7e0ada4ab00d5d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a603b66723d863b2dc90aecaafedb67ec"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a603b66723d863b2dc90aecaafedb67ec">saveToFXBFile</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, <a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;result, bool asFXB)</td></tr>
@@ -173,20 +173,20 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a666e9aa327d8daaafa05b6b899166ff9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a666e9aa327d8daaafa05b6b899166ff9">getChunkData</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, <a class="el" href="classMemoryBlock.html">MemoryBlock</a> &amp;result, bool isPreset)</td></tr>
 <tr class="memdesc:a666e9aa327d8daaafa05b6b899166ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to get a VST's state as a chunk of memory.  <a href="#a666e9aa327d8daaafa05b6b899166ff9">More...</a><br/></td></tr>
 <tr class="separator:a666e9aa327d8daaafa05b6b899166ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b5889d7ff7035d196d28c694d8ea92e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a8b5889d7ff7035d196d28c694d8ea92e">setChunkData</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, const void *data, int size, bool isPreset)</td></tr>
+<tr class="memitem:a8b5889d7ff7035d196d28c694d8ea92e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a8b5889d7ff7035d196d28c694d8ea92e">setChunkData</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *data, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> size, bool isPreset)</td></tr>
 <tr class="memdesc:a8b5889d7ff7035d196d28c694d8ea92e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to set a VST's state from a chunk of memory.  <a href="#a8b5889d7ff7035d196d28c694d8ea92e">More...</a><br/></td></tr>
 <tr class="separator:a8b5889d7ff7035d196d28c694d8ea92e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98069989fff10540f851c0d3ea954712"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a98069989fff10540f851c0d3ea954712">createCustomVSTFromMainCall</a> (void *entryPointFunction, double initialSampleRate, int initialBufferSize)</td></tr>
+<tr class="memitem:a98069989fff10540f851c0d3ea954712"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a98069989fff10540f851c0d3ea954712">createCustomVSTFromMainCall</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *entryPointFunction, double initialSampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> initialBufferSize)</td></tr>
 <tr class="memdesc:a98069989fff10540f851c0d3ea954712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a suitable function pointer to a VSTPluginMain function, this will attempt to instantiate and return a plugin for it.  <a href="#a98069989fff10540f851c0d3ea954712">More...</a><br/></td></tr>
 <tr class="separator:a98069989fff10540f851c0d3ea954712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe200e4968fed595f981a77d20a4ab24"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#afe200e4968fed595f981a77d20a4ab24">setExtraFunctions</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, <a class="el" href="classVSTPluginFormat_1_1ExtraFunctions.html">ExtraFunctions</a> *functions)</td></tr>
+<tr class="memitem:afe200e4968fed595f981a77d20a4ab24"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#afe200e4968fed595f981a77d20a4ab24">setExtraFunctions</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *plugin, <a class="el" href="classVSTPluginFormat_1_1ExtraFunctions.html">ExtraFunctions</a> *functions)</td></tr>
 <tr class="memdesc:afe200e4968fed595f981a77d20a4ab24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides an <a class="el" href="classVSTPluginFormat_1_1ExtraFunctions.html" title="Base class for some extra functions that can be attached to a VST plugin instance. ">ExtraFunctions</a> callback object for a plugin to use.  <a href="#afe200e4968fed595f981a77d20a4ab24">More...</a><br/></td></tr>
 <tr class="separator:afe200e4968fed595f981a77d20a4ab24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09eda3d23e195c8a8c57c9597877e841"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__core-maths.html#ga004ecd75303f3a1653f937d35a67e41d">pointer_sized_int</a> <br class="typebreak"/>
-<a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a09eda3d23e195c8a8c57c9597877e841">dispatcher</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, <a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>, <a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>, <a class="el" href="group__juce__core-maths.html#ga004ecd75303f3a1653f937d35a67e41d">pointer_sized_int</a>, void *, float)</td></tr>
+<a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a09eda3d23e195c8a8c57c9597877e841">dispatcher</a> (<a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, <a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>, <a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>, <a class="el" href="group__juce__core-maths.html#ga004ecd75303f3a1653f937d35a67e41d">pointer_sized_int</a>, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *, float)</td></tr>
 <tr class="memdesc:a09eda3d23e195c8a8c57c9597877e841"><td class="mdescLeft">&#160;</td><td class="mdescRight">This simply calls directly to the VST's AEffect::dispatcher() function.  <a href="#a09eda3d23e195c8a8c57c9597877e841">More...</a><br/></td></tr>
 <tr class="separator:a09eda3d23e195c8a8c57c9597877e841"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a089017dc83a3b622e7443411463f808b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a089017dc83a3b622e7443411463f808b">getPluginInstanceFromVstEffectInterface</a> (void *aEffect)</td></tr>
+<tr class="memitem:a089017dc83a3b622e7443411463f808b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVSTPluginFormat.html#a089017dc83a3b622e7443411463f808b">getPluginInstanceFromVstEffectInterface</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *aEffect)</td></tr>
 <tr class="memdesc:a089017dc83a3b622e7443411463f808b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a VstEffectInterface* (aka vst::AEffect*), this will return the juce <a class="el" href="classAudioPluginInstance.html" title="Base class for an active instance of a plugin. ">AudioPluginInstance</a> that is being used to wrap it.  <a href="#a089017dc83a3b622e7443411463f808b">More...</a><br/></td></tr>
 <tr class="separator:a089017dc83a3b622e7443411463f808b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -274,7 +274,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
@@ -400,13 +400,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
@@ -442,7 +442,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a>* VSTPluginFormat::createCustomVSTFromMainCall </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname"><em>entryPointFunction</em>, </td>
         </tr>
         <tr>
@@ -454,7 +454,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>initialBufferSize</em>&#160;</td>
         </tr>
         <tr>
@@ -482,7 +482,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void VSTPluginFormat::setExtraFunctions </td>
+          <td class="memname">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> VSTPluginFormat::setExtraFunctions </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *&#160;</td>
           <td class="paramname"><em>plugin</em>, </td>
@@ -545,7 +545,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -581,7 +581,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a>* VSTPluginFormat::getPluginInstanceFromVstEffectInterface </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname"><em>aEffect</em></td><td>)</td>
           <td></td>
         </tr>
@@ -633,7 +633,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void VSTPluginFormat::findAllTypesForFile </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> VSTPluginFormat::findAllTypesForFile </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classPluginDescription.html">PluginDescription</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>results</em>, </td>
@@ -895,7 +895,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void VSTPluginFormat::aboutToScanVSTShellPlugin </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> VSTPluginFormat::aboutToScanVSTShellPlugin </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -920,7 +920,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:13 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:09 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

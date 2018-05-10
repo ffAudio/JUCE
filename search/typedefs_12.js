@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['value',['value',['../group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389',1,'juce_VSTInterface.h']]],
+  ['value',['value',['../group__juce__audio__plugin__client-Unity.html#ga7d209388070aba8c66e5b8bc12ff1725',1,'value():&#160;juce_UnityPluginInterface.h'],['../group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389',1,'value():&#160;juce_VSTInterface.h']]],
   ['value_5ftype',['value_type',['../structValueTree_1_1Iterator.html#ac54f6a5cdd9dcc2345eee2f8f9be086c',1,'ValueTree::Iterator::value_type()'],['../structdsp_1_1SIMDRegister.html#ac38979ca94af0b812cdf1f9206a8b19c',1,'dsp::SIMDRegister::value_type()']]],
+  ['valuestr',['valuestr',['../group__juce__audio__plugin__client-Unity.html#ga39b187949529e2a44358c41308978552',1,'juce_UnityPluginInterface.h']]],
   ['vectortype',['VectorType',['../classDraggable3DOrientation.html#aa93e8f8ea935cf7d06c99c27e745c5e3',1,'Draggable3DOrientation']]],
   ['vmasksimdtype',['vMaskSIMDType',['../structdsp_1_1SIMDRegister.html#a5caf8a1bffd0c9462d1fcc3ccb5ffe45',1,'dsp::SIMDRegister']]],
   ['vmasktype',['vMaskType',['../structdsp_1_1SIMDRegister.html#a35604c900344b10ae5fe5b1a2424a7e7',1,'dsp::SIMDRegister']]],

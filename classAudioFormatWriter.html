@@ -113,7 +113,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aea144b105a5d45fb91acfb484b0ff303"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#aea144b105a5d45fb91acfb484b0ff303">getFormatName</a> () const noexcept</td></tr>
 <tr class="memdesc:aea144b105a5d45fb91acfb484b0ff303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a description of what type of format this is.  <a href="#aea144b105a5d45fb91acfb484b0ff303">More...</a><br/></td></tr>
 <tr class="separator:aea144b105a5d45fb91acfb484b0ff303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60dc79a5cd9ed0307ea04637ed25ea8b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a60dc79a5cd9ed0307ea04637ed25ea8b">write</a> (const int **samplesToWrite, int numSamples)=0</td></tr>
+<tr class="memitem:a60dc79a5cd9ed0307ea04637ed25ea8b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a60dc79a5cd9ed0307ea04637ed25ea8b">write</a> (const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> **samplesToWrite, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples)=0</td></tr>
 <tr class="memdesc:a60dc79a5cd9ed0307ea04637ed25ea8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a set of samples to the audio stream.  <a href="#a60dc79a5cd9ed0307ea04637ed25ea8b">More...</a><br/></td></tr>
 <tr class="separator:a60dc79a5cd9ed0307ea04637ed25ea8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac83a728db8d8abf6cf39a3bd34390a6a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ac83a728db8d8abf6cf39a3bd34390a6a">flush</a> ()</td></tr>
@@ -122,22 +122,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3a691c94e9609383c915af71cbf760db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a3a691c94e9609383c915af71cbf760db">writeFromAudioReader</a> (<a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> &amp;reader, <a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a> startSample, <a class="el" href="group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44">int64</a> numSamplesToRead)</td></tr>
 <tr class="memdesc:a3a691c94e9609383c915af71cbf760db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a section of samples from an <a class="el" href="classAudioFormatReader.html" title="Reads samples from an audio file stream. ">AudioFormatReader</a>, and writes these to the output.  <a href="#a3a691c94e9609383c915af71cbf760db">More...</a><br/></td></tr>
 <tr class="separator:a3a691c94e9609383c915af71cbf760db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d09d96836ebe2779d2e82a090d0b29f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a4d09d96836ebe2779d2e82a090d0b29f">writeFromAudioSource</a> (<a class="el" href="classAudioSource.html">AudioSource</a> &amp;source, int numSamplesToRead, int samplesPerBlock=2048)</td></tr>
+<tr class="memitem:a4d09d96836ebe2779d2e82a090d0b29f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a4d09d96836ebe2779d2e82a090d0b29f">writeFromAudioSource</a> (<a class="el" href="classAudioSource.html">AudioSource</a> &amp;source, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamplesToRead, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> samplesPerBlock=2048)</td></tr>
 <tr class="memdesc:a4d09d96836ebe2779d2e82a090d0b29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads some samples from an <a class="el" href="classAudioSource.html" title="Base class for objects that can produce a continuous stream of audio. ">AudioSource</a>, and writes these to the output.  <a href="#a4d09d96836ebe2779d2e82a090d0b29f">More...</a><br/></td></tr>
 <tr class="separator:a4d09d96836ebe2779d2e82a090d0b29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a172a2a4e347ba187655eabb5ebf304b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a172a2a4e347ba187655eabb5ebf304b3">writeFromAudioSampleBuffer</a> (const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;source, int startSample, int numSamples)</td></tr>
+<tr class="memitem:a172a2a4e347ba187655eabb5ebf304b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a172a2a4e347ba187655eabb5ebf304b3">writeFromAudioSampleBuffer</a> (const <a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;source, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> startSample, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples)</td></tr>
 <tr class="memdesc:a172a2a4e347ba187655eabb5ebf304b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some samples from an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a>.  <a href="#a172a2a4e347ba187655eabb5ebf304b3">More...</a><br/></td></tr>
 <tr class="separator:a172a2a4e347ba187655eabb5ebf304b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ceaa6f20c49a692f92b2e1603786be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ad3ceaa6f20c49a692f92b2e1603786be">writeFromFloatArrays</a> (const float *const *channels, int <a class="el" href="classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c">numChannels</a>, int numSamples)</td></tr>
+<tr class="memitem:ad3ceaa6f20c49a692f92b2e1603786be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ad3ceaa6f20c49a692f92b2e1603786be">writeFromFloatArrays</a> (const float *const *channels, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c">numChannels</a>, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples)</td></tr>
 <tr class="memdesc:ad3ceaa6f20c49a692f92b2e1603786be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes some samples from a set of float data channels.  <a href="#ad3ceaa6f20c49a692f92b2e1603786be">More...</a><br/></td></tr>
 <tr class="separator:ad3ceaa6f20c49a692f92b2e1603786be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae31a1427413b3ac45c7f02d7384e156e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ae31a1427413b3ac45c7f02d7384e156e">getSampleRate</a> () const noexcept</td></tr>
 <tr class="memdesc:ae31a1427413b3ac45c7f02d7384e156e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sample rate being used.  <a href="#ae31a1427413b3ac45c7f02d7384e156e">More...</a><br/></td></tr>
 <tr class="separator:ae31a1427413b3ac45c7f02d7384e156e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a436de23247a535b447ed8ddf6100c496"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a436de23247a535b447ed8ddf6100c496">getNumChannels</a> () const noexcept</td></tr>
+<tr class="memitem:a436de23247a535b447ed8ddf6100c496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a436de23247a535b447ed8ddf6100c496">getNumChannels</a> () const noexcept</td></tr>
 <tr class="memdesc:a436de23247a535b447ed8ddf6100c496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of channels being written.  <a href="#a436de23247a535b447ed8ddf6100c496">More...</a><br/></td></tr>
 <tr class="separator:a436de23247a535b447ed8ddf6100c496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a893f8254a9d1978511806ee414cce929"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a893f8254a9d1978511806ee414cce929">getBitsPerSample</a> () const noexcept</td></tr>
+<tr class="memitem:a893f8254a9d1978511806ee414cce929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a893f8254a9d1978511806ee414cce929">getBitsPerSample</a> () const noexcept</td></tr>
 <tr class="memdesc:a893f8254a9d1978511806ee414cce929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bit-depth of the data being written.  <a href="#a893f8254a9d1978511806ee414cce929">More...</a><br/></td></tr>
 <tr class="separator:a893f8254a9d1978511806ee414cce929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac51a620bf86a2e501eaae93e2e2c331c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ac51a620bf86a2e501eaae93e2e2c331c">isFloatingPoint</a> () const noexcept</td></tr>
@@ -146,10 +146,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ad13516434d025d9427fab9ac9b208a77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ad13516434d025d9427fab9ac9b208a77">AudioFormatWriter</a> (<a class="el" href="classOutputStream.html">OutputStream</a> *destStream, const <a class="el" href="classString.html">String</a> &amp;formatName, double <a class="el" href="classAudioFormatWriter.html#aafefbda90e2a58cb057e89e995decfd2">sampleRate</a>, unsigned int numberOfChannels, unsigned int <a class="el" href="classAudioFormatWriter.html#aa1c1c0accbc262067e2f9ad75d70d155">bitsPerSample</a>)</td></tr>
+<tr class="memitem:ad13516434d025d9427fab9ac9b208a77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ad13516434d025d9427fab9ac9b208a77">AudioFormatWriter</a> (<a class="el" href="classOutputStream.html">OutputStream</a> *destStream, const <a class="el" href="classString.html">String</a> &amp;formatName, double <a class="el" href="classAudioFormatWriter.html#aafefbda90e2a58cb057e89e995decfd2">sampleRate</a>, unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numberOfChannels, unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="classAudioFormatWriter.html#aa1c1c0accbc262067e2f9ad75d70d155">bitsPerSample</a>)</td></tr>
 <tr class="memdesc:ad13516434d025d9427fab9ac9b208a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream. ">AudioFormatWriter</a> object.  <a href="#ad13516434d025d9427fab9ac9b208a77">More...</a><br/></td></tr>
 <tr class="separator:ad13516434d025d9427fab9ac9b208a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae80fc17df0e5d0d893abb11e0ce53c21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ae80fc17df0e5d0d893abb11e0ce53c21">AudioFormatWriter</a> (<a class="el" href="classOutputStream.html">OutputStream</a> *destStream, const <a class="el" href="classString.html">String</a> &amp;formatName, double <a class="el" href="classAudioFormatWriter.html#aafefbda90e2a58cb057e89e995decfd2">sampleRate</a>, const <a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;audioChannelLayout, unsigned int <a class="el" href="classAudioFormatWriter.html#aa1c1c0accbc262067e2f9ad75d70d155">bitsPerSample</a>)</td></tr>
+<tr class="memitem:ae80fc17df0e5d0d893abb11e0ce53c21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#ae80fc17df0e5d0d893abb11e0ce53c21">AudioFormatWriter</a> (<a class="el" href="classOutputStream.html">OutputStream</a> *destStream, const <a class="el" href="classString.html">String</a> &amp;formatName, double <a class="el" href="classAudioFormatWriter.html#aafefbda90e2a58cb057e89e995decfd2">sampleRate</a>, const <a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;audioChannelLayout, unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="classAudioFormatWriter.html#aa1c1c0accbc262067e2f9ad75d70d155">bitsPerSample</a>)</td></tr>
 <tr class="memdesc:ae80fc17df0e5d0d893abb11e0ce53c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classAudioFormatWriter.html" title="Writes samples to an audio file stream. ">AudioFormatWriter</a> object.  <a href="#ae80fc17df0e5d0d893abb11e0ce53c21">More...</a><br/></td></tr>
 <tr class="separator:ae80fc17df0e5d0d893abb11e0ce53c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -158,10 +158,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aafefbda90e2a58cb057e89e995decfd2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#aafefbda90e2a58cb057e89e995decfd2">sampleRate</a></td></tr>
 <tr class="memdesc:aafefbda90e2a58cb057e89e995decfd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sample rate of the stream.  <a href="#aafefbda90e2a58cb057e89e995decfd2">More...</a><br/></td></tr>
 <tr class="separator:aafefbda90e2a58cb057e89e995decfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af33e6836e6dbbcd774ac166453c5446c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c">numChannels</a></td></tr>
+<tr class="memitem:af33e6836e6dbbcd774ac166453c5446c"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#af33e6836e6dbbcd774ac166453c5446c">numChannels</a></td></tr>
 <tr class="memdesc:af33e6836e6dbbcd774ac166453c5446c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of channels being written to the stream.  <a href="#af33e6836e6dbbcd774ac166453c5446c">More...</a><br/></td></tr>
 <tr class="separator:af33e6836e6dbbcd774ac166453c5446c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1c1c0accbc262067e2f9ad75d70d155"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#aa1c1c0accbc262067e2f9ad75d70d155">bitsPerSample</a></td></tr>
+<tr class="memitem:aa1c1c0accbc262067e2f9ad75d70d155"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#aa1c1c0accbc262067e2f9ad75d70d155">bitsPerSample</a></td></tr>
 <tr class="memdesc:aa1c1c0accbc262067e2f9ad75d70d155"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bit depth of the file.  <a href="#aa1c1c0accbc262067e2f9ad75d70d155">More...</a><br/></td></tr>
 <tr class="separator:aa1c1c0accbc262067e2f9ad75d70d155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a876800b982bbe25e583633d3876a9a02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioFormatWriter.html#a876800b982bbe25e583633d3876a9a02">usesFloatingPointData</a></td></tr>
@@ -209,13 +209,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramtype">unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numberOfChannels</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramtype">unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>bitsPerSample</em>&#160;</td>
         </tr>
         <tr>
@@ -279,7 +279,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramtype">unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>bitsPerSample</em>&#160;</td>
         </tr>
         <tr>
@@ -371,13 +371,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual bool AudioFormatWriter::write </td>
           <td>(</td>
-          <td class="paramtype">const int **&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> **&#160;</td>
           <td class="paramname"><em>samplesToWrite</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numSamples</em>&#160;</td>
         </tr>
         <tr>
@@ -481,13 +481,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numSamplesToRead</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>samplesPerBlock</em> = <code>2048</code>&#160;</td>
         </tr>
         <tr>
@@ -525,13 +525,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>startSample</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numSamples</em>&#160;</td>
         </tr>
         <tr>
@@ -559,13 +559,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numChannels</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numSamples</em>&#160;</td>
         </tr>
         <tr>
@@ -613,7 +613,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioFormatWriter::getNumChannels </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioFormatWriter::getNumChannels </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -638,7 +638,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioFormatWriter::getBitsPerSample </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioFormatWriter::getBitsPerSample </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -711,7 +711,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int AudioFormatWriter::numChannels</td>
+          <td class="memname">unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioFormatWriter::numChannels</td>
         </tr>
       </table>
   </td>
@@ -733,7 +733,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int AudioFormatWriter::bitsPerSample</td>
+          <td class="memname">unsigned <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioFormatWriter::bitsPerSample</td>
         </tr>
       </table>
   </td>
@@ -819,7 +819,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

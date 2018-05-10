@@ -48,6 +48,7 @@ var searchData=
   ['wrappertype_5frtas',['wrapperType_RTAS',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa0d1334a563a3764a0a026703fec73ff6',1,'AudioProcessor']]],
   ['wrappertype_5fstandalone',['wrapperType_Standalone',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaad6832e63028f039a818f3eed72cf06f',1,'AudioProcessor']]],
   ['wrappertype_5fundefined',['wrapperType_Undefined',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaeb155b5982c79f733c4bee215678fc97',1,'AudioProcessor']]],
+  ['wrappertype_5funity',['wrapperType_Unity',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfabaa03b05ba421764cf03d458e0e8eadc',1,'AudioProcessor']]],
   ['wrappertype_5fvst',['wrapperType_VST',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa5313891416ab9b1b2ae5db6b673e4061',1,'AudioProcessor']]],
   ['wrappertype_5fvst3',['wrapperType_VST3',['../classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfac12c7f266e9f234367307597b332fa10',1,'AudioProcessor']]],
   ['wrapreverse',['wrapReverse',['../classFlexBox.html#a252f351ef4317467a58ad25922f64e63ab12e4e95d6f64f54dc5bb5de8dbe2d49',1,'FlexBox']]],

@@ -116,13 +116,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a898ca7521354c74d24ace4689b983f98"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSAKey.html#a898ca7521354c74d24ace4689b983f98">isValid</a> () const noexcept</td></tr>
 <tr class="memdesc:a898ca7521354c74d24ace4689b983f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the object is a valid key, or false if it was created by the default constructor.  <a href="#a898ca7521354c74d24ace4689b983f98">More...</a><br/></td></tr>
 <tr class="separator:a898ca7521354c74d24ace4689b983f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66512b0a53fad1f68481b4aca050f93c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSAKey.html#a66512b0a53fad1f68481b4aca050f93c">applyToValue</a> (<a class="el" href="classBigInteger.html">BigInteger</a> &amp;<a class="el" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>) const </td></tr>
+<tr class="memitem:a66512b0a53fad1f68481b4aca050f93c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSAKey.html#a66512b0a53fad1f68481b4aca050f93c">applyToValue</a> (<a class="el" href="classBigInteger.html">BigInteger</a> &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga7d209388070aba8c66e5b8bc12ff1725">value</a>) const </td></tr>
 <tr class="memdesc:a66512b0a53fad1f68481b4aca050f93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes or decodes a value.  <a href="#a66512b0a53fad1f68481b4aca050f93c">More...</a><br/></td></tr>
 <tr class="separator:a66512b0a53fad1f68481b4aca050f93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8d69fca3bd9748a5c455f92f6da0dc6a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSAKey.html#a8d69fca3bd9748a5c455f92f6da0dc6a">createKeyPair</a> (<a class="el" href="classRSAKey.html">RSAKey</a> &amp;publicKey, <a class="el" href="classRSAKey.html">RSAKey</a> &amp;privateKey, int numBits, const int *randomSeeds=nullptr, int numRandomSeeds=0)</td></tr>
+<tr class="memitem:a8d69fca3bd9748a5c455f92f6da0dc6a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRSAKey.html#a8d69fca3bd9748a5c455f92f6da0dc6a">createKeyPair</a> (<a class="el" href="classRSAKey.html">RSAKey</a> &amp;publicKey, <a class="el" href="classRSAKey.html">RSAKey</a> &amp;privateKey, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numBits, const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> *randomSeeds=nullptr, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numRandomSeeds=0)</td></tr>
 <tr class="memdesc:a8d69fca3bd9748a5c455f92f6da0dc6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a public/private key-pair.  <a href="#a8d69fca3bd9748a5c455f92f6da0dc6a">More...</a><br/></td></tr>
 <tr class="separator:a8d69fca3bd9748a5c455f92f6da0dc6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -159,7 +159,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- fragment --><p>..or in Java with something like this:</p>
 <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classRSAKey.html">RSAKey</a></div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">static</span> <a class="code" href="classBigInteger.html">BigInteger</a> <a class="code" href="classRSAKey.html#a66512b0a53fad1f68481b4aca050f93c">applyToValue</a> (<a class="code" href="classBigInteger.html">BigInteger</a> <a class="code" href="group__juce__audio__processors-format__types.html#gabfa595d43bf960020c2afada3d371389">value</a>, <a class="code" href="classString.html">String</a> key_part1, <a class="code" href="classString.html">String</a> key_part2)</div>
+<div class="line">    <span class="keyword">static</span> <a class="code" href="classBigInteger.html">BigInteger</a> <a class="code" href="classRSAKey.html#a66512b0a53fad1f68481b4aca050f93c">applyToValue</a> (<a class="code" href="classBigInteger.html">BigInteger</a> <a class="code" href="group__juce__audio__plugin__client-Unity.html#ga7d209388070aba8c66e5b8bc12ff1725">value</a>, <a class="code" href="classString.html">String</a> key_part1, <a class="code" href="classString.html">String</a> key_part2)</div>
 <div class="line">    {</div>
 <div class="line">        <a class="code" href="classBigInteger.html">BigInteger</a> result = <a class="code" href="classBigInteger.html">BigInteger</a>.ZERO;</div>
 <div class="line">        <a class="code" href="classBigInteger.html">BigInteger</a> <a class="code" href="classRSAKey.html#af9992df31573da04eff2f95b6c215be1">part1</a> = <span class="keyword">new</span> <a class="code" href="classBigInteger.html">BigInteger</a> (key_part1, 16);</div>
@@ -366,7 +366,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void RSAKey::createKeyPair </td>
+          <td class="memname">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> RSAKey::createKeyPair </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classRSAKey.html">RSAKey</a> &amp;&#160;</td>
           <td class="paramname"><em>publicKey</em>, </td>
@@ -380,19 +380,19 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numBits</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> *&#160;</td>
           <td class="paramname"><em>randomSeeds</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numRandomSeeds</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
@@ -462,7 +462,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:10 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:06 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

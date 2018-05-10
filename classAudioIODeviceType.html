@@ -107,16 +107,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3c52a84433f7b0aa2958ad8939fe64c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classString.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#aa3c52a84433f7b0aa2958ad8939fe64c">getTypeName</a> () const noexcept</td></tr>
 <tr class="memdesc:aa3c52a84433f7b0aa2958ad8939fe64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of this type of driver that this object manages.  <a href="#aa3c52a84433f7b0aa2958ad8939fe64c">More...</a><br/></td></tr>
 <tr class="separator:aa3c52a84433f7b0aa2958ad8939fe64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9215b39e523934ac648d4f85f1e1bdf5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a9215b39e523934ac648d4f85f1e1bdf5">scanForDevices</a> ()=0</td></tr>
+<tr class="memitem:a9215b39e523934ac648d4f85f1e1bdf5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a9215b39e523934ac648d4f85f1e1bdf5">scanForDevices</a> ()=0</td></tr>
 <tr class="memdesc:a9215b39e523934ac648d4f85f1e1bdf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the object's cached list of known devices.  <a href="#a9215b39e523934ac648d4f85f1e1bdf5">More...</a><br/></td></tr>
 <tr class="separator:a9215b39e523934ac648d4f85f1e1bdf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade867e4e10fb4ba6c91bc1bcba8573cb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#ade867e4e10fb4ba6c91bc1bcba8573cb">getDeviceNames</a> (bool wantInputNames=false) const =0</td></tr>
 <tr class="memdesc:ade867e4e10fb4ba6c91bc1bcba8573cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of available devices of this type.  <a href="#ade867e4e10fb4ba6c91bc1bcba8573cb">More...</a><br/></td></tr>
 <tr class="separator:ade867e4e10fb4ba6c91bc1bcba8573cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af12cc963a4d445c2665452c3173bac67"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#af12cc963a4d445c2665452c3173bac67">getDefaultDeviceIndex</a> (bool forInput) const =0</td></tr>
+<tr class="memitem:af12cc963a4d445c2665452c3173bac67"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#af12cc963a4d445c2665452c3173bac67">getDefaultDeviceIndex</a> (bool forInput) const =0</td></tr>
 <tr class="memdesc:af12cc963a4d445c2665452c3173bac67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the default device.  <a href="#af12cc963a4d445c2665452c3173bac67">More...</a><br/></td></tr>
 <tr class="separator:af12cc963a4d445c2665452c3173bac67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76d7d6b6c3f600dce0594be7bab24bc8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a76d7d6b6c3f600dce0594be7bab24bc8">getIndexOfDevice</a> (<a class="el" href="classAudioIODevice.html">AudioIODevice</a> *device, bool asInput) const =0</td></tr>
+<tr class="memitem:a76d7d6b6c3f600dce0594be7bab24bc8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a76d7d6b6c3f600dce0594be7bab24bc8">getIndexOfDevice</a> (<a class="el" href="classAudioIODevice.html">AudioIODevice</a> *device, bool asInput) const =0</td></tr>
 <tr class="memdesc:a76d7d6b6c3f600dce0594be7bab24bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of a given device in the list of device names.  <a href="#a76d7d6b6c3f600dce0594be7bab24bc8">More...</a><br/></td></tr>
 <tr class="separator:a76d7d6b6c3f600dce0594be7bab24bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac87c3129c8e55018e968225b4a47dc74"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#ac87c3129c8e55018e968225b4a47dc74">hasSeparateInputsAndOutputs</a> () const =0</td></tr>
@@ -125,10 +125,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a71099710a2d23a76ccba190882635f76"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classAudioIODevice.html">AudioIODevice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a71099710a2d23a76ccba190882635f76">createDevice</a> (const <a class="el" href="classString.html">String</a> &amp;outputDeviceName, const <a class="el" href="classString.html">String</a> &amp;inputDeviceName)=0</td></tr>
 <tr class="memdesc:a71099710a2d23a76ccba190882635f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates one of the devices of this type.  <a href="#a71099710a2d23a76ccba190882635f76">More...</a><br/></td></tr>
 <tr class="separator:a71099710a2d23a76ccba190882635f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba66d5fc04bb8162ad082bbc5a46df37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#aba66d5fc04bb8162ad082bbc5a46df37">addListener</a> (<a class="el" href="classAudioIODeviceType_1_1Listener.html">Listener</a> *listener)</td></tr>
+<tr class="memitem:aba66d5fc04bb8162ad082bbc5a46df37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#aba66d5fc04bb8162ad082bbc5a46df37">addListener</a> (<a class="el" href="classAudioIODeviceType_1_1Listener.html">Listener</a> *listener)</td></tr>
 <tr class="memdesc:aba66d5fc04bb8162ad082bbc5a46df37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener that will be called when this type of device is added or removed from the system.  <a href="#aba66d5fc04bb8162ad082bbc5a46df37">More...</a><br/></td></tr>
 <tr class="separator:aba66d5fc04bb8162ad082bbc5a46df37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f900be754924e8a269064c37671e92c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a9f900be754924e8a269064c37671e92c">removeListener</a> (<a class="el" href="classAudioIODeviceType_1_1Listener.html">Listener</a> *listener)</td></tr>
+<tr class="memitem:a9f900be754924e8a269064c37671e92c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a9f900be754924e8a269064c37671e92c">removeListener</a> (<a class="el" href="classAudioIODeviceType_1_1Listener.html">Listener</a> *listener)</td></tr>
 <tr class="memdesc:a9f900be754924e8a269064c37671e92c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a listener that was previously added with <a class="el" href="classAudioIODeviceType.html#aba66d5fc04bb8162ad082bbc5a46df37" title="Adds a listener that will be called when this type of device is added or removed from the system...">addListener()</a>.  <a href="#a9f900be754924e8a269064c37671e92c">More...</a><br/></td></tr>
 <tr class="separator:a9f900be754924e8a269064c37671e92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc7de51c8ca7633ace84e982b13272d8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#adc7de51c8ca7633ace84e982b13272d8">~AudioIODeviceType</a> ()</td></tr>
@@ -175,7 +175,7 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4750d3af810f03d74d9a73584f2bf1d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a4750d3af810f03d74d9a73584f2bf1d0">AudioIODeviceType</a> (const <a class="el" href="classString.html">String</a> &amp;typeName)</td></tr>
 <tr class="separator:a4750d3af810f03d74d9a73584f2bf1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a256b0adb6c00e875e9d52e2c79ecdb85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a256b0adb6c00e875e9d52e2c79ecdb85">callDeviceChangeListeners</a> ()</td></tr>
+<tr class="memitem:a256b0adb6c00e875e9d52e2c79ecdb85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioIODeviceType.html#a256b0adb6c00e875e9d52e2c79ecdb85">callDeviceChangeListeners</a> ()</td></tr>
 <tr class="memdesc:a256b0adb6c00e875e9d52e2c79ecdb85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronously calls all the registered device list change listeners.  <a href="#a256b0adb6c00e875e9d52e2c79ecdb85">More...</a><br/></td></tr>
 <tr class="separator:a256b0adb6c00e875e9d52e2c79ecdb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -288,7 +288,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioIODeviceType::scanForDevices </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioIODeviceType::scanForDevices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -347,7 +347,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int AudioIODeviceType::getDefaultDeviceIndex </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioIODeviceType::getDefaultDeviceIndex </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>forInput</em></td><td>)</td>
@@ -380,7 +380,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int AudioIODeviceType::getIndexOfDevice </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioIODeviceType::getIndexOfDevice </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioIODevice.html">AudioIODevice</a> *&#160;</td>
           <td class="paramname"><em>device</em>, </td>
@@ -476,7 +476,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioIODeviceType::addListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioIODeviceType::addListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioIODeviceType_1_1Listener.html">Listener</a> *&#160;</td>
           <td class="paramname"><em>listener</em></td><td>)</td>
@@ -494,7 +494,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioIODeviceType::removeListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioIODeviceType::removeListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioIODeviceType_1_1Listener.html">Listener</a> *&#160;</td>
           <td class="paramname"><em>listener</em></td><td>)</td>
@@ -791,7 +791,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioIODeviceType::callDeviceChangeListeners </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioIODeviceType::callDeviceChangeListeners </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -814,7 +814,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

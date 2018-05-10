@@ -125,22 +125,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8dbdf96f7d6980207dde86edbd24455f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a8dbdf96f7d6980207dde86edbd24455f">isTextInputActive</a> () const =0</td></tr>
 <tr class="memdesc:a8dbdf96f7d6980207dde86edbd24455f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this input target is currently accepting input.  <a href="#a8dbdf96f7d6980207dde86edbd24455f">More...</a><br/></td></tr>
 <tr class="separator:a8dbdf96f7d6980207dde86edbd24455f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1cab69d8e1a8ac375a73d1229cd64ba"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRange.html">Range</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#ae1cab69d8e1a8ac375a73d1229cd64ba">getHighlightedRegion</a> () const =0</td></tr>
+<tr class="memitem:ae1cab69d8e1a8ac375a73d1229cd64ba"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRange.html">Range</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#ae1cab69d8e1a8ac375a73d1229cd64ba">getHighlightedRegion</a> () const =0</td></tr>
 <tr class="memdesc:ae1cab69d8e1a8ac375a73d1229cd64ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extents of the selected text region, or an empty range if nothing is selected,.  <a href="#ae1cab69d8e1a8ac375a73d1229cd64ba">More...</a><br/></td></tr>
 <tr class="separator:ae1cab69d8e1a8ac375a73d1229cd64ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f28305922bb146295ed2decb63abf1b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a4f28305922bb146295ed2decb63abf1b">setHighlightedRegion</a> (const <a class="el" href="classRange.html">Range</a>&lt; int &gt; &amp;newRange)=0</td></tr>
+<tr class="memitem:a4f28305922bb146295ed2decb63abf1b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a4f28305922bb146295ed2decb63abf1b">setHighlightedRegion</a> (const <a class="el" href="classRange.html">Range</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt; &amp;newRange)=0</td></tr>
 <tr class="memdesc:a4f28305922bb146295ed2decb63abf1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the currently-selected text region.  <a href="#a4f28305922bb146295ed2decb63abf1b">More...</a><br/></td></tr>
 <tr class="separator:a4f28305922bb146295ed2decb63abf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c4ebbf62451fe99cc2db0ccd2c189f9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a8c4ebbf62451fe99cc2db0ccd2c189f9">setTemporaryUnderlining</a> (const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classRange.html">Range</a>&lt; int &gt;&gt; &amp;underlinedRegions)=0</td></tr>
+<tr class="memitem:a8c4ebbf62451fe99cc2db0ccd2c189f9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a8c4ebbf62451fe99cc2db0ccd2c189f9">setTemporaryUnderlining</a> (const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classRange.html">Range</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt;&gt; &amp;underlinedRegions)=0</td></tr>
 <tr class="memdesc:a8c4ebbf62451fe99cc2db0ccd2c189f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a number of temporarily underlined sections.  <a href="#a8c4ebbf62451fe99cc2db0ccd2c189f9">More...</a><br/></td></tr>
 <tr class="separator:a8c4ebbf62451fe99cc2db0ccd2c189f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e420204e80413ae54bfb387f9c7f152"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a6e420204e80413ae54bfb387f9c7f152">getTextInRange</a> (const <a class="el" href="classRange.html">Range</a>&lt; int &gt; &amp;range) const =0</td></tr>
+<tr class="memitem:a6e420204e80413ae54bfb387f9c7f152"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a6e420204e80413ae54bfb387f9c7f152">getTextInRange</a> (const <a class="el" href="classRange.html">Range</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt; &amp;range) const =0</td></tr>
 <tr class="memdesc:a6e420204e80413ae54bfb387f9c7f152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a specified sub-section of the text.  <a href="#a6e420204e80413ae54bfb387f9c7f152">More...</a><br/></td></tr>
 <tr class="separator:a6e420204e80413ae54bfb387f9c7f152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a009241c97fa452d53671a00a6a5caea7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a009241c97fa452d53671a00a6a5caea7">insertTextAtCaret</a> (const <a class="el" href="classString.html">String</a> &amp;textToInsert)=0</td></tr>
+<tr class="memitem:a009241c97fa452d53671a00a6a5caea7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a009241c97fa452d53671a00a6a5caea7">insertTextAtCaret</a> (const <a class="el" href="classString.html">String</a> &amp;textToInsert)=0</td></tr>
 <tr class="memdesc:a009241c97fa452d53671a00a6a5caea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts some text, overwriting the selected text region, if there is one.  <a href="#a009241c97fa452d53671a00a6a5caea7">More...</a><br/></td></tr>
 <tr class="separator:a009241c97fa452d53671a00a6a5caea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb7bb2e326dbefacc31d181004a6c9e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#afeb7bb2e326dbefacc31d181004a6c9e">getCaretRectangle</a> ()=0</td></tr>
+<tr class="memitem:afeb7bb2e326dbefacc31d181004a6c9e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#afeb7bb2e326dbefacc31d181004a6c9e">getCaretRectangle</a> ()=0</td></tr>
 <tr class="memdesc:afeb7bb2e326dbefacc31d181004a6c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the caret, relative to the component's origin.  <a href="#afeb7bb2e326dbefacc31d181004a6c9e">More...</a><br/></td></tr>
 <tr class="separator:afeb7bb2e326dbefacc31d181004a6c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71072392a8f3455c0da8b43f8c249f43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7">VirtualKeyboardType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTextInputTarget.html#a71072392a8f3455c0da8b43f8c249f43">getKeyboardType</a> ()</td></tr>
@@ -258,7 +258,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classRange.html">Range</a>&lt;int&gt; TextInputTarget::getHighlightedRegion </td>
+          <td class="memname">virtual <a class="el" href="classRange.html">Range</a>&lt;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&gt; TextInputTarget::getHighlightedRegion </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -285,9 +285,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void TextInputTarget::setHighlightedRegion </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> TextInputTarget::setHighlightedRegion </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRange.html">Range</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRange.html">Range</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>newRange</em></td><td>)</td>
           <td></td>
         </tr>
@@ -313,9 +313,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void TextInputTarget::setTemporaryUnderlining </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> TextInputTarget::setTemporaryUnderlining </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classRange.html">Range</a>&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classRange.html">Range</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>underlinedRegions</em></td><td>)</td>
           <td></td>
         </tr>
@@ -344,7 +344,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual <a class="el" href="classString.html">String</a> TextInputTarget::getTextInRange </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRange.html">Range</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classRange.html">Range</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>range</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -370,7 +370,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void TextInputTarget::insertTextAtCaret </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> TextInputTarget::insertTextAtCaret </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>textToInsert</em></td><td>)</td>
@@ -398,7 +398,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt;int&gt; TextInputTarget::getCaretRectangle </td>
+          <td class="memname">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&gt; TextInputTarget::getCaretRectangle </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -451,7 +451,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:11 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:08 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

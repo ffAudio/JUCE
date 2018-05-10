@@ -105,7 +105,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a24e0205b0375cff235d64cc33d8c8550"><td class="memItemLeft" align="right" valign="top">typedef bool(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> )(void *context, int bytesSent, int totalBytes)</td></tr>
+<tr class="memitem:a24e0205b0375cff235d64cc33d8c8550"><td class="memItemLeft" align="right" valign="top">typedef bool(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> )(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *context, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> bytesSent, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> totalBytes)</td></tr>
 <tr class="memdesc:a24e0205b0375cff235d64cc33d8c8550"><td class="mdescLeft">&#160;</td><td class="mdescRight">This callback function can be used by the <a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105" title="Attempts to open a stream that can read from this URL. ">createInputStream()</a> method.  <a href="#a24e0205b0375cff235d64cc33d8c8550">More...</a><br/></td></tr>
 <tr class="separator:a24e0205b0375cff235d64cc33d8c8550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -163,7 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afe211a71a1cabfb120263d246469000a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#afe211a71a1cabfb120263d246469000a">getFileName</a> () const </td></tr>
 <tr class="memdesc:afe211a71a1cabfb120263d246469000a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file name.  <a href="#afe211a71a1cabfb120263d246469000a">More...</a><br/></td></tr>
 <tr class="separator:afe211a71a1cabfb120263d246469000a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a956752231288358290d781e5f27eb150"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a956752231288358290d781e5f27eb150">getPort</a> () const </td></tr>
+<tr class="memitem:a956752231288358290d781e5f27eb150"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a956752231288358290d781e5f27eb150">getPort</a> () const </td></tr>
 <tr class="memdesc:a956752231288358290d781e5f27eb150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to read a port number from the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#a956752231288358290d781e5f27eb150">More...</a><br/></td></tr>
 <tr class="separator:a956752231288358290d781e5f27eb150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cd4be815914d6a3a2baa3930731c34b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classURL.html">URL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a3cd4be815914d6a3a2baa3930731c34b">withNewDomainAndPath</a> (const <a class="el" href="classString.html">String</a> &amp;newFullPath) const </td></tr>
@@ -208,7 +208,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab56bf9814dfe828db465582b3af50c69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ab56bf9814dfe828db465582b3af50c69">launchInDefaultBrowser</a> () const </td></tr>
 <tr class="memdesc:ab56bf9814dfe828db465582b3af50c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to launch the system's default browser to open the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#ab56bf9814dfe828db465582b3af50c69">More...</a><br/></td></tr>
 <tr class="separator:ab56bf9814dfe828db465582b3af50c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab487b0c5d684af5f3b0a678479696105"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105">createInputStream</a> (bool doPostLikeRequest, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, void *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), int connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, int *statusCode=nullptr, int numRedirectsToFollow=5, <a class="el" href="classString.html">String</a> httpRequestCmd=<a class="el" href="classString.html">String</a>()) const </td></tr>
+<tr class="memitem:ab487b0c5d684af5f3b0a678479696105"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputStream.html">InputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ab487b0c5d684af5f3b0a678479696105">createInputStream</a> (bool doPostLikeRequest, <a class="el" href="classURL.html#a24e0205b0375cff235d64cc33d8c8550">OpenStreamProgressCallback</a> *progressCallback=nullptr, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *progressCallbackContext=nullptr, <a class="el" href="classString.html">String</a> extraHeaders=<a class="el" href="classString.html">String</a>(), <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> connectionTimeOutMs=0, <a class="el" href="classStringPairArray.html">StringPairArray</a> *responseHeaders=nullptr, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> *statusCode=nullptr, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numRedirectsToFollow=5, <a class="el" href="classString.html">String</a> httpRequestCmd=<a class="el" href="classString.html">String</a>()) const </td></tr>
 <tr class="memdesc:ab487b0c5d684af5f3b0a678479696105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to open a stream that can read from this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#ab487b0c5d684af5f3b0a678479696105">More...</a><br/></td></tr>
 <tr class="separator:ab487b0c5d684af5f3b0a678479696105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78e19b5a3622ca88f9202cb8ec42f8b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputStream.html">OutputStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a78e19b5a3622ca88f9202cb8ec42f8b8">createOutputStream</a> () const </td></tr>
@@ -247,9 +247,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:aa52855861e522d77a650d6dec7cbc980"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#aa52855861e522d77a650d6dec7cbc980">setURLBookmark</a> (<a class="el" href="classURL.html">URL</a> &amp;, void *)</td></tr>
+<tr class="memitem:aa52855861e522d77a650d6dec7cbc980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#aa52855861e522d77a650d6dec7cbc980">setURLBookmark</a> (<a class="el" href="classURL.html">URL</a> &amp;, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *)</td></tr>
 <tr class="separator:aa52855861e522d77a650d6dec7cbc980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58b1e9ce6ef335a59328eb23f73b4b8c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a58b1e9ce6ef335a59328eb23f73b4b8c">getURLBookmark</a> (<a class="el" href="classURL.html">URL</a> &amp;)</td></tr>
+<tr class="memitem:a58b1e9ce6ef335a59328eb23f73b4b8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a58b1e9ce6ef335a59328eb23f73b4b8c">getURLBookmark</a> (<a class="el" href="classURL.html">URL</a> &amp;)</td></tr>
 <tr class="separator:a58b1e9ce6ef335a59328eb23f73b4b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -262,7 +262,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef bool( URL::OpenStreamProgressCallback)(void *context, int bytesSent, int totalBytes)</td>
+          <td class="memname">typedef bool( URL::OpenStreamProgressCallback)(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *context, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> bytesSent, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> totalBytes)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -652,7 +652,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int URL::getPort </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> URL::getPort </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1094,7 +1094,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname"><em>progressCallbackContext</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
@@ -1106,7 +1106,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>connectionTimeOutMs</em> = <code>0</code>, </td>
         </tr>
         <tr>
@@ -1118,13 +1118,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> *&#160;</td>
           <td class="paramname"><em>statusCode</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numRedirectsToFollow</em> = <code>5</code>, </td>
         </tr>
         <tr>
@@ -1435,7 +1435,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void setURLBookmark </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> setURLBookmark </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classURL.html">URL</a> &amp;&#160;</td>
           <td class="paramname">, </td>
@@ -1443,7 +1443,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1469,7 +1469,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void* getURLBookmark </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>* getURLBookmark </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classURL.html">URL</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1491,7 +1491,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:12 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:08 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

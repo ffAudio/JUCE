@@ -107,13 +107,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac4c2776e3251bccd24e2ead35235777b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvar.html">var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#ac4c2776e3251bccd24e2ead35235777b">parse</a> (<a class="el" href="classInputStream.html">InputStream</a> &amp;input)</td></tr>
 <tr class="memdesc:ac4c2776e3251bccd24e2ead35235777b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to parse some JSON-formatted text from a stream, and returns the result as a var object.  <a href="#ac4c2776e3251bccd24e2ead35235777b">More...</a><br/></td></tr>
 <tr class="separator:ac4c2776e3251bccd24e2ead35235777b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0addba45fccb21d60cf6f6547b75c3d6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#a0addba45fccb21d60cf6f6547b75c3d6">toString</a> (const <a class="el" href="classvar.html">var</a> &amp;objectToFormat, bool allOnOneLine=false, int maximumDecimalPlaces=20)</td></tr>
+<tr class="memitem:a0addba45fccb21d60cf6f6547b75c3d6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#a0addba45fccb21d60cf6f6547b75c3d6">toString</a> (const <a class="el" href="classvar.html">var</a> &amp;objectToFormat, bool allOnOneLine=false, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> maximumDecimalPlaces=20)</td></tr>
 <tr class="memdesc:a0addba45fccb21d60cf6f6547b75c3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string which contains a JSON-formatted representation of the var object.  <a href="#a0addba45fccb21d60cf6f6547b75c3d6">More...</a><br/></td></tr>
 <tr class="separator:a0addba45fccb21d60cf6f6547b75c3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae810f0f1951773a387acfc63c8f04a39"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classvar.html">var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#ae810f0f1951773a387acfc63c8f04a39">fromString</a> (<a class="el" href="classStringRef.html">StringRef</a>)</td></tr>
 <tr class="memdesc:ae810f0f1951773a387acfc63c8f04a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a string that was created with the <a class="el" href="classJSON.html#a0addba45fccb21d60cf6f6547b75c3d6" title="Returns a string which contains a JSON-formatted representation of the var object. ">toString()</a> method.  <a href="#ae810f0f1951773a387acfc63c8f04a39">More...</a><br/></td></tr>
 <tr class="separator:ae810f0f1951773a387acfc63c8f04a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcdcb92e48a70fc056a3823a2104f7a0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#afcdcb92e48a70fc056a3823a2104f7a0">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;output, const <a class="el" href="classvar.html">var</a> &amp;objectToFormat, bool allOnOneLine=false, int maximumDecimalPlaces=20)</td></tr>
+<tr class="memitem:afcdcb92e48a70fc056a3823a2104f7a0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#afcdcb92e48a70fc056a3823a2104f7a0">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;output, const <a class="el" href="classvar.html">var</a> &amp;objectToFormat, bool allOnOneLine=false, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> maximumDecimalPlaces=20)</td></tr>
 <tr class="memdesc:afcdcb92e48a70fc056a3823a2104f7a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a JSON-formatted representation of the var object to the given stream.  <a href="#afcdcb92e48a70fc056a3823a2104f7a0">More...</a><br/></td></tr>
 <tr class="separator:afcdcb92e48a70fc056a3823a2104f7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2bcb2faacb867a91a841a6d8f137f2a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJSON.html#ab2bcb2faacb867a91a841a6d8f137f2a">escapeString</a> (<a class="el" href="classStringRef.html">StringRef</a>)</td></tr>
@@ -274,7 +274,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>maximumDecimalPlaces</em> = <code>20</code>&#160;</td>
         </tr>
         <tr>
@@ -331,7 +331,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void JSON::writeToStream </td>
+          <td class="memname">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> JSON::writeToStream </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOutputStream.html">OutputStream</a> &amp;&#160;</td>
           <td class="paramname"><em>output</em>, </td>
@@ -351,7 +351,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>maximumDecimalPlaces</em> = <code>20</code>&#160;</td>
         </tr>
         <tr>
@@ -442,7 +442,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:06 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -319,6 +319,7 @@ var searchData=
   ['horizontalkeyboard',['horizontalKeyboard',['../classMidiKeyboardComponent.html#a6f6844672df93f8f631fa7e22cf0cdafa0b62143bbab080673411400a14d6abd0',1,'MidiKeyboardComponent']]],
   ['horizontallycentred',['horizontallyCentred',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbcac9fd148cf8547fab0e3aeee306223ab2',1,'Justification']]],
   ['horizontallyjustified',['horizontallyJustified',['../classJustification.html#a1f8c07756c56fe8f31ed44964e51bfbca0881c08fa2d58e9d6f36ab8bbea4b800',1,'Justification']]],
+  ['hostapiversion',['hostAPIVersion',['../structUnityAudioEffectState.html#aa251a874c3e4e018af1aaa169bff172a',1,'UnityAudioEffectState']]],
   ['hostapplicationpath',['hostApplicationPath',['../classFile.html#a3e19cafabb03c5838160263a6e76313dafab1d75c642d3f8eb23564f1cfb408a3',1,'File']]],
   ['hostmidicontrollerisavailable',['hostMIDIControllerIsAvailable',['../classAudioProcessorEditor.html#a0e943df67341fbed55d08b93f6773170',1,'AudioProcessorEditor']]],
   ['hostopcodecanhostdo',['hostOpcodeCanHostDo',['../group__juce__audio__processors-format__types.html#gga13942f5626bb2fcba846e559fbc42385a5dd62722eaa6260adff3336036cf72d7',1,'juce_VSTInterface.h']]],

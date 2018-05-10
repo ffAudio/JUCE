@@ -117,10 +117,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a540016056ca6fc19818e951359c710da"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classApplicationCommandTarget.html">ApplicationCommandTarget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandTarget.html#a540016056ca6fc19818e951359c710da">getNextCommandTarget</a> ()=0</td></tr>
 <tr class="memdesc:a540016056ca6fc19818e951359c710da"><td class="mdescLeft">&#160;</td><td class="mdescRight">This must return the next target to try after this one.  <a href="#a540016056ca6fc19818e951359c710da">More...</a><br/></td></tr>
 <tr class="separator:a540016056ca6fc19818e951359c710da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12b1c7a6abe2e5a5f27fda4a292fe33d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandTarget.html#a12b1c7a6abe2e5a5f27fda4a292fe33d">getAllCommands</a> (<a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="group__juce__gui__basics-commands.html#gafd69b5d28aad07b587b693925e09308b">CommandID</a> &gt; &amp;commands)=0</td></tr>
+<tr class="memitem:a12b1c7a6abe2e5a5f27fda4a292fe33d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandTarget.html#a12b1c7a6abe2e5a5f27fda4a292fe33d">getAllCommands</a> (<a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="group__juce__gui__basics-commands.html#gafd69b5d28aad07b587b693925e09308b">CommandID</a> &gt; &amp;commands)=0</td></tr>
 <tr class="memdesc:a12b1c7a6abe2e5a5f27fda4a292fe33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This must return a complete list of commands that this target can handle.  <a href="#a12b1c7a6abe2e5a5f27fda4a292fe33d">More...</a><br/></td></tr>
 <tr class="separator:a12b1c7a6abe2e5a5f27fda4a292fe33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54171f3ee599f0b508fed08e647edf89"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandTarget.html#a54171f3ee599f0b508fed08e647edf89">getCommandInfo</a> (<a class="el" href="group__juce__gui__basics-commands.html#gafd69b5d28aad07b587b693925e09308b">CommandID</a> commandID, <a class="el" href="structApplicationCommandInfo.html">ApplicationCommandInfo</a> &amp;result)=0</td></tr>
+<tr class="memitem:a54171f3ee599f0b508fed08e647edf89"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandTarget.html#a54171f3ee599f0b508fed08e647edf89">getCommandInfo</a> (<a class="el" href="group__juce__gui__basics-commands.html#gafd69b5d28aad07b587b693925e09308b">CommandID</a> commandID, <a class="el" href="structApplicationCommandInfo.html">ApplicationCommandInfo</a> &amp;result)=0</td></tr>
 <tr class="memdesc:a54171f3ee599f0b508fed08e647edf89"><td class="mdescLeft">&#160;</td><td class="mdescRight">This must provide details about one of the commands that this target can perform.  <a href="#a54171f3ee599f0b508fed08e647edf89">More...</a><br/></td></tr>
 <tr class="separator:a54171f3ee599f0b508fed08e647edf89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e8f962cda82e8aa1207d38361ff96f9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApplicationCommandTarget.html#a0e8f962cda82e8aa1207d38361ff96f9">perform</a> (const <a class="el" href="structApplicationCommandTarget_1_1InvocationInfo.html">InvocationInfo</a> &amp;info)=0</td></tr>
@@ -232,7 +232,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void ApplicationCommandTarget::getAllCommands </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> ApplicationCommandTarget::getAllCommands </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="group__juce__gui__basics-commands.html#gafd69b5d28aad07b587b693925e09308b">CommandID</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>commands</em></td><td>)</td>
@@ -261,7 +261,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void ApplicationCommandTarget::getCommandInfo </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> ApplicationCommandTarget::getCommandInfo </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__juce__gui__basics-commands.html#gafd69b5d28aad07b587b693925e09308b">CommandID</a>&#160;</td>
           <td class="paramname"><em>commandID</em>, </td>
@@ -457,7 +457,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

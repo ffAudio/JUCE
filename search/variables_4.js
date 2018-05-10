@@ -2,6 +2,7 @@ var searchData=
 [
   ['edge',['edge',['../structBlock_1_1ConnectionPort.html#ad08422824b0ed2cedd4bc12a75dc6f79',1,'Block::ConnectionPort']]],
   ['editorigintime',['editOriginTime',['../structAudioPlayHead_1_1CurrentPositionInfo.html#a5a8c7375646228f378c4eb673f49a9e0',1,'AudioPlayHead::CurrentPositionInfo']]],
+  ['effectdata',['effectData',['../structUnityAudioEffectState.html#ad70e13a4f80dc9e67f285e187a9cece4',1,'UnityAudioEffectState']]],
   ['effectpointer',['effectPointer',['../structVstEffectInterface.html#a67d40a1722792659726c7741a3b6107f',1,'VstEffectInterface']]],
   ['elements',['elements',['../structvst2FxBank.html#aea08b3c37b4611344847e59a1d0043f3',1,'vst2FxBank::elements()'],['../classArrayAllocationBase.html#a68e9e3954a47f3a9b0721c979d4d9fe7',1,'ArrayAllocationBase::elements()'],['../classRelativePointPath.html#a975cc963b8500afa8d33dac6d7c7ac50',1,'RelativePointPath::elements()']]],
   ['elementtype',['elementType',['../classPath_1_1Iterator.html#a3b33636d181ff130a4c0e475da2824db',1,'Path::Iterator']]],

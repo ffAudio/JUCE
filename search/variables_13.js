@@ -4,6 +4,7 @@ var searchData=
   ['uncompressedsize',['uncompressedSize',['../structZipFile_1_1ZipEntry.html#aaf153ce5a5d4918a7dabfba87afdff03',1,'ZipFile::ZipEntry']]],
   ['undomanager',['undoManager',['../classAudioProcessorValueTreeState.html#a1dbe64c2074c51b19f54d55dc4292e07',1,'AudioProcessorValueTreeState']]],
   ['uniformid',['uniformID',['../structOpenGLShaderProgram_1_1Uniform.html#ab2cb023f92dbba1890dea2f659a1a2be',1,'OpenGLShaderProgram::Uniform']]],
+  ['unit',['unit',['../structUnityAudioParameterDefinition.html#a86df51f1c0f515784998a8b0cd3b3a1a',1,'UnityAudioParameterDefinition']]],
   ['unittestname',['unitTestName',['../structUnitTestRunner_1_1TestResult.html#a5bbfc3f70ca29c0b836dfc9325a328df',1,'UnitTestRunner::TestResult']]],
   ['unknownbyte',['unknownByte',['../structlittlefoot_1_1LittleFootRemoteHeap.html#a3c7a038f4e3d7f213421041602941efb',1,'littlefoot::LittleFootRemoteHeap']]],
   ['unused',['unused',['../structVstPinInfo.html#adaddbb5da52dd0e4bb8618c1621a5618',1,'VstPinInfo::unused()'],['../structVstIndividualSpeakerInfo.html#a54c14102662e7043a03cebdde5ff6e07',1,'VstIndividualSpeakerInfo::unused()']]],

@@ -112,7 +112,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7a3e4ed2e9aea01a1521e2b0aa9ceed2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a7a3e4ed2e9aea01a1521e2b0aa9ceed2">FormatErrorHandler</a> = <a class="el" href="classstd_1_1function.html">std::function</a>&lt; void(const char *data, int dataSize)&gt;</td></tr>
+<tr class="memitem:a7a3e4ed2e9aea01a1521e2b0aa9ceed2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a7a3e4ed2e9aea01a1521e2b0aa9ceed2">FormatErrorHandler</a> = <a class="el" href="classstd_1_1function.html">std::function</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>(const char *data, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> dataSize)&gt;</td></tr>
 <tr class="memdesc:a7a3e4ed2e9aea01a1521e2b0aa9ceed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">An error handler function for OSC format errors that can be called by the <a class="el" href="classOSCReceiver.html" title="A class for receiving OSC data. ">OSCReceiver</a>.  <a href="#a7a3e4ed2e9aea01a1521e2b0aa9ceed2">More...</a><br/></td></tr>
 <tr class="separator:a7a3e4ed2e9aea01a1521e2b0aa9ceed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -127,7 +127,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a55b8f099e686711f5aae6e7b616daa1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a55b8f099e686711f5aae6e7b616daa1c">~OSCReceiver</a> ()</td></tr>
 <tr class="memdesc:a55b8f099e686711f5aae6e7b616daa1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a55b8f099e686711f5aae6e7b616daa1c">More...</a><br/></td></tr>
 <tr class="separator:a55b8f099e686711f5aae6e7b616daa1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac257f28515be7a4520e0811b3449239b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#ac257f28515be7a4520e0811b3449239b">connect</a> (int portNumber)</td></tr>
+<tr class="memitem:ac257f28515be7a4520e0811b3449239b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#ac257f28515be7a4520e0811b3449239b">connect</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> portNumber)</td></tr>
 <tr class="memdesc:ac257f28515be7a4520e0811b3449239b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to the specified UDP port using a datagram socket, and starts listening to OSC packets arriving on this port.  <a href="#ac257f28515be7a4520e0811b3449239b">More...</a><br/></td></tr>
 <tr class="separator:ac257f28515be7a4520e0811b3449239b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adddfe03be7df7480d842b50cc78a2221"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#adddfe03be7df7480d842b50cc78a2221">connectToSocket</a> (<a class="el" href="classDatagramSocket.html">DatagramSocket</a> &amp;socketToUse)</td></tr>
@@ -136,31 +136,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb7179630d20e6ddbf48e6ef380c3c67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#adb7179630d20e6ddbf48e6ef380c3c67">disconnect</a> ()</td></tr>
 <tr class="memdesc:adb7179630d20e6ddbf48e6ef380c3c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnects from the currently used UDP port.  <a href="#adb7179630d20e6ddbf48e6ef380c3c67">More...</a><br/></td></tr>
 <tr class="separator:adb7179630d20e6ddbf48e6ef380c3c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcaed63b17d8749c937363d7e3732a4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#adcaed63b17d8749c937363d7e3732a4f">addListener</a> (<a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *listenerToAdd)</td></tr>
+<tr class="memitem:adcaed63b17d8749c937363d7e3732a4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#adcaed63b17d8749c937363d7e3732a4f">addListener</a> (<a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *listenerToAdd)</td></tr>
 <tr class="memdesc:adcaed63b17d8749c937363d7e3732a4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener that listens to OSC messages and bundles.  <a href="#adcaed63b17d8749c937363d7e3732a4f">More...</a><br/></td></tr>
 <tr class="separator:adcaed63b17d8749c937363d7e3732a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdd90b61b2a11195dbb96f88099597b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#abdd90b61b2a11195dbb96f88099597b0">addListener</a> (<a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *listenerToAdd)</td></tr>
+<tr class="memitem:abdd90b61b2a11195dbb96f88099597b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#abdd90b61b2a11195dbb96f88099597b0">addListener</a> (<a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *listenerToAdd)</td></tr>
 <tr class="memdesc:abdd90b61b2a11195dbb96f88099597b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener that listens to OSC messages and bundles.  <a href="#abdd90b61b2a11195dbb96f88099597b0">More...</a><br/></td></tr>
 <tr class="separator:abdd90b61b2a11195dbb96f88099597b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a291fa22f25c98248f9aa55768de5e3be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a291fa22f25c98248f9aa55768de5e3be">addListener</a> (<a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *listenerToAdd, <a class="el" href="classOSCAddress.html">OSCAddress</a> addressToMatch)</td></tr>
+<tr class="memitem:a291fa22f25c98248f9aa55768de5e3be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a291fa22f25c98248f9aa55768de5e3be">addListener</a> (<a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *listenerToAdd, <a class="el" href="classOSCAddress.html">OSCAddress</a> addressToMatch)</td></tr>
 <tr class="memdesc:a291fa22f25c98248f9aa55768de5e3be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a filtered listener that listens to OSC messages matching the address used to register the listener here.  <a href="#a291fa22f25c98248f9aa55768de5e3be">More...</a><br/></td></tr>
 <tr class="separator:a291fa22f25c98248f9aa55768de5e3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8da81c3ff7833d82a93ab37fcac29dc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a8da81c3ff7833d82a93ab37fcac29dc8">addListener</a> (<a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *listenerToAdd, <a class="el" href="classOSCAddress.html">OSCAddress</a> addressToMatch)</td></tr>
+<tr class="memitem:a8da81c3ff7833d82a93ab37fcac29dc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a8da81c3ff7833d82a93ab37fcac29dc8">addListener</a> (<a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *listenerToAdd, <a class="el" href="classOSCAddress.html">OSCAddress</a> addressToMatch)</td></tr>
 <tr class="memdesc:a8da81c3ff7833d82a93ab37fcac29dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a filtered listener that listens to OSC messages matching the address used to register the listener here.  <a href="#a8da81c3ff7833d82a93ab37fcac29dc8">More...</a><br/></td></tr>
 <tr class="separator:a8da81c3ff7833d82a93ab37fcac29dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5f88bdb7cf43ad5c285acade967ab7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#aa5f88bdb7cf43ad5c285acade967ab7a">removeListener</a> (<a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *listenerToRemove)</td></tr>
+<tr class="memitem:aa5f88bdb7cf43ad5c285acade967ab7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#aa5f88bdb7cf43ad5c285acade967ab7a">removeListener</a> (<a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *listenerToRemove)</td></tr>
 <tr class="memdesc:aa5f88bdb7cf43ad5c285acade967ab7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously-registered listener.  <a href="#aa5f88bdb7cf43ad5c285acade967ab7a">More...</a><br/></td></tr>
 <tr class="separator:aa5f88bdb7cf43ad5c285acade967ab7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bdd4a838cabd95d3b6c2e7d5e20a9c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a9bdd4a838cabd95d3b6c2e7d5e20a9c7">removeListener</a> (<a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *listenerToRemove)</td></tr>
+<tr class="memitem:a9bdd4a838cabd95d3b6c2e7d5e20a9c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a9bdd4a838cabd95d3b6c2e7d5e20a9c7">removeListener</a> (<a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *listenerToRemove)</td></tr>
 <tr class="memdesc:a9bdd4a838cabd95d3b6c2e7d5e20a9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously-registered listener.  <a href="#a9bdd4a838cabd95d3b6c2e7d5e20a9c7">More...</a><br/></td></tr>
 <tr class="separator:a9bdd4a838cabd95d3b6c2e7d5e20a9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a576f2d58c162127d12c996906bd021d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a576f2d58c162127d12c996906bd021d4">removeListener</a> (<a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *listenerToRemove)</td></tr>
+<tr class="memitem:a576f2d58c162127d12c996906bd021d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a576f2d58c162127d12c996906bd021d4">removeListener</a> (<a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *listenerToRemove)</td></tr>
 <tr class="memdesc:a576f2d58c162127d12c996906bd021d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously-registered listener.  <a href="#a576f2d58c162127d12c996906bd021d4">More...</a><br/></td></tr>
 <tr class="separator:a576f2d58c162127d12c996906bd021d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cf4ff609310fd56a8060aed84dd40b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a1cf4ff609310fd56a8060aed84dd40b5">removeListener</a> (<a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *listenerToRemove)</td></tr>
+<tr class="memitem:a1cf4ff609310fd56a8060aed84dd40b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a1cf4ff609310fd56a8060aed84dd40b5">removeListener</a> (<a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *listenerToRemove)</td></tr>
 <tr class="memdesc:a1cf4ff609310fd56a8060aed84dd40b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously-registered listener.  <a href="#a1cf4ff609310fd56a8060aed84dd40b5">More...</a><br/></td></tr>
 <tr class="separator:a1cf4ff609310fd56a8060aed84dd40b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359a06dccc72bbc7fb4cba8d23d7f04c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a359a06dccc72bbc7fb4cba8d23d7f04c">registerFormatErrorHandler</a> (<a class="el" href="classOSCReceiver.html#a7a3e4ed2e9aea01a1521e2b0aa9ceed2">FormatErrorHandler</a> handler)</td></tr>
+<tr class="memitem:a359a06dccc72bbc7fb4cba8d23d7f04c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSCReceiver.html#a359a06dccc72bbc7fb4cba8d23d7f04c">registerFormatErrorHandler</a> (<a class="el" href="classOSCReceiver.html#a7a3e4ed2e9aea01a1521e2b0aa9ceed2">FormatErrorHandler</a> handler)</td></tr>
 <tr class="memdesc:a359a06dccc72bbc7fb4cba8d23d7f04c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Installs a custom error handler which is called in case the receiver encounters a stream it cannot parse as an OSC bundle or OSC message.  <a href="#a359a06dccc72bbc7fb4cba8d23d7f04c">More...</a><br/></td></tr>
 <tr class="separator:a359a06dccc72bbc7fb4cba8d23d7f04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -174,7 +174,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classOSCReceiver.html#a7a3e4ed2e9aea01a1521e2b0aa9ceed2">OSCReceiver::FormatErrorHandler</a> =  <a class="el" href="classstd_1_1function.html">std::function</a>&lt;void (const char* data, int dataSize)&gt;</td>
+          <td class="memname">using <a class="el" href="classOSCReceiver.html#a7a3e4ed2e9aea01a1521e2b0aa9ceed2">OSCReceiver::FormatErrorHandler</a> =  <a class="el" href="classstd_1_1function.html">std::function</a>&lt;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> (const char* data, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> dataSize)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -245,7 +245,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">bool OSCReceiver::connect </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>portNumber</em></td><td>)</td>
           <td></td>
         </tr>
@@ -300,7 +300,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::addListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::addListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *&#160;</td>
           <td class="paramname"><em>listenerToAdd</em></td><td>)</td>
@@ -319,7 +319,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::addListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::addListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *&#160;</td>
           <td class="paramname"><em>listenerToAdd</em></td><td>)</td>
@@ -338,7 +338,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::addListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::addListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *&#160;</td>
           <td class="paramname"><em>listenerToAdd</em>, </td>
@@ -367,7 +367,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::addListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::addListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *&#160;</td>
           <td class="paramname"><em>listenerToAdd</em>, </td>
@@ -396,7 +396,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::removeListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::removeListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *&#160;</td>
           <td class="paramname"><em>listenerToRemove</em></td><td>)</td>
@@ -414,7 +414,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::removeListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::removeListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver_1_1Listener.html">Listener</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *&#160;</td>
           <td class="paramname"><em>listenerToRemove</em></td><td>)</td>
@@ -432,7 +432,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::removeListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::removeListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1MessageLoopCallback.html">MessageLoopCallback</a> &gt; *&#160;</td>
           <td class="paramname"><em>listenerToRemove</em></td><td>)</td>
@@ -450,7 +450,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::removeListener </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::removeListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver_1_1ListenerWithOSCAddress.html">ListenerWithOSCAddress</a>&lt; <a class="el" href="structOSCReceiver_1_1RealtimeCallback.html">RealtimeCallback</a> &gt; *&#160;</td>
           <td class="paramname"><em>listenerToRemove</em></td><td>)</td>
@@ -468,7 +468,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSCReceiver::registerFormatErrorHandler </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> OSCReceiver::registerFormatErrorHandler </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classOSCReceiver.html#a7a3e4ed2e9aea01a1521e2b0aa9ceed2">FormatErrorHandler</a>&#160;</td>
           <td class="paramname"><em>handler</em></td><td>)</td>
@@ -488,7 +488,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:09 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -31,6 +31,7 @@ var searchData=
   ['defaultlayout',['defaultLayout',['../structAudioProcessor_1_1BusProperties.html#a72866039f0acaecb38d84a43f74fe95d',1,'AudioProcessor::BusProperties']]],
   ['defaulttoleranceformeasurement',['defaultToleranceForMeasurement',['../classPath.html#a8e27579a740ab71d223ea7398a995fbb',1,'Path']]],
   ['defaulttolerancefortesting',['defaultToleranceForTesting',['../classPath.html#aa23f987b8292143c3c9a6d9b0a131c3b',1,'Path']]],
+  ['defaultval',['defaultVal',['../structUnityAudioParameterDefinition.html#a7a8ce397776222dce0753fc33cf9faad',1,'UnityAudioParameterDefinition']]],
   ['delayedpath',['delayedPath',['../structdsp_1_1FilterDesign_1_1IIRPolyphaseAllpassStructure.html#a1e1ca2521a7d113fd53bc049ce955c76',1,'dsp::FilterDesign::IIRPolyphaseAllpassStructure']]],
   ['deletekey',['deleteKey',['../classKeyPress.html#ae568c9aba033acf0c24390f24304b9e5',1,'KeyPress']]],
   ['deltax',['deltaX',['../structMouseWheelDetails.html#a09f65902f9a85a4c035cfdd350195666',1,'MouseWheelDetails']]],
@@ -40,7 +41,7 @@ var searchData=
   ['deprecated3',['deprecated3',['../structVstEffectInterface.html#a2e9c653175ec7f7c95de88c04b00482c',1,'VstEffectInterface']]],
   ['depthbufferbits',['depthBufferBits',['../classOpenGLPixelFormat.html#a9783fd7c1c9d5ade28eac2eb7c710be4',1,'OpenGLPixelFormat']]],
   ['descent',['descent',['../classTextLayout_1_1Line.html#af361532452a96a85ccd9098e5269fbcd',1,'TextLayout::Line']]],
-  ['description',['description',['../classFileFilter.html#a405f80abc17801d969bbaab30b4cec10',1,'FileFilter::description()'],['../structApplicationCommandInfo.html#a9d36981d292001925176c0be0d2e6b3a',1,'ApplicationCommandInfo::description()'],['../classDragAndDropTarget_1_1SourceDetails.html#a48087c787b2d1f08f84ba7bd6c5c6eec',1,'DragAndDropTarget::SourceDetails::description()'],['../structPushNotifications_1_1Channel.html#ae0400a494850c777027af736449c4cbf',1,'PushNotifications::Channel::description()'],['../structOSCException.html#a1c71f609494bb48bb2c769ab25947205',1,'OSCException::description()'],['../structInAppPurchases_1_1Product.html#a985ca2010425d5805da7c761e3a4fc2a',1,'InAppPurchases::Product::description()']]],
+  ['description',['description',['../structUnityAudioParameterDefinition.html#a562b605ea7278f6add49eb891442a410',1,'UnityAudioParameterDefinition::description()'],['../classFileFilter.html#a405f80abc17801d969bbaab30b4cec10',1,'FileFilter::description()'],['../structApplicationCommandInfo.html#a9d36981d292001925176c0be0d2e6b3a',1,'ApplicationCommandInfo::description()'],['../classDragAndDropTarget_1_1SourceDetails.html#a48087c787b2d1f08f84ba7bd6c5c6eec',1,'DragAndDropTarget::SourceDetails::description()'],['../structPushNotifications_1_1Channel.html#ae0400a494850c777027af736449c4cbf',1,'PushNotifications::Channel::description()'],['../structOSCException.html#a1c71f609494bb48bb2c769ab25947205',1,'OSCException::description()'],['../structInAppPurchases_1_1Product.html#a985ca2010425d5805da7c761e3a4fc2a',1,'InAppPurchases::Product::description()']]],
   ['descriptivename',['descriptiveName',['../classPluginDescription.html#a93ddf8b86e68316fc4746eb89c00b52c',1,'PluginDescription']]],
   ['destination',['destination',['../structAudioProcessorGraph_1_1Connection.html#a056525d39e5c9aa8b07ddd64183de544',1,'AudioProcessorGraph::Connection']]],
   ['destructive',['destructive',['../structPushNotifications_1_1Notification_1_1Action.html#ab56bfdc62b16ba7c7cb1775af96eaefa',1,'PushNotifications::Notification::Action']]],
@@ -52,7 +53,10 @@ var searchData=
   ['dimgrey',['dimgrey',['../classColours.html#a737012c7670ba25ccc7bee5ba96c3d2b',1,'Colours']]],
   ['directorycontentslist',['directoryContentsList',['../classDirectoryContentsDisplayComponent.html#ac1eef63c05c6a3dc42de447ace64a3dd',1,'DirectoryContentsDisplayComponent']]],
   ['directpath',['directPath',['../structdsp_1_1FilterDesign_1_1IIRPolyphaseAllpassStructure.html#a1df5792b1b409c91d3ea7fee05439fd2',1,'dsp::FilterDesign::IIRPolyphaseAllpassStructure']]],
+  ['displayexponent',['displayExponent',['../structUnityAudioParameterDefinition.html#aba85a4154bec797e0e15a5374d746a23',1,'UnityAudioParameterDefinition']]],
   ['displays',['displays',['../classDesktop_1_1Displays.html#af3bca6783a93f00366a068ea04c661b4',1,'Desktop::Displays']]],
+  ['displayscale',['displayScale',['../structUnityAudioParameterDefinition.html#a5290d9289b912294a70308781a7bad4f',1,'UnityAudioParameterDefinition']]],
+  ['distanceattenuationcallback',['distanceAttenuationCallback',['../structUnityAudioSpatializerData.html#af14e575cb29165181325c02b8a184501',1,'UnityAudioSpatializerData::distanceAttenuationCallback()'],['../structUnityAudioAmbisonicData.html#a72ff79a11971297eba70e20084c37e36',1,'UnityAudioAmbisonicData::distanceAttenuationCallback()']]],
   ['dodgerblue',['dodgerblue',['../classColours.html#a1a07cae34389d93d4b3817a14ef6efda',1,'Colours']]],
   ['donotsave',['doNotSave',['../structPropertiesFile_1_1Options.html#a28680056e89b7947afe4de44c4ac26c9',1,'PropertiesFile::Options']]],
   ['downkey',['downKey',['../classKeyPress.html#aeb9a20dd50b39f66d7d778d31b6b5f88',1,'KeyPress']]],
@@ -60,5 +64,8 @@ var searchData=
   ['downloads',['downloads',['../structInAppPurchases_1_1Listener_1_1PurchaseInfo.html#a5e1dbeb294d1117710aa1a2182e15dda',1,'InAppPurchases::Listener::PurchaseInfo']]],
   ['dpi',['dpi',['../structDesktop_1_1Displays_1_1Display.html#acfea525d7724fa5b442648346bff2af0',1,'Desktop::Displays::Display']]],
   ['drawableclippath',['drawableClipPath',['../classDrawable.html#a075bd445aa34244d2239f21a54faf487',1,'Drawable']]],
-  ['drylevel',['dryLevel',['../structReverb_1_1Parameters.html#add75191e7a163d95cd807cbc72fa192c',1,'Reverb::Parameters']]]
+  ['drylevel',['dryLevel',['../structReverb_1_1Parameters.html#add75191e7a163d95cd807cbc72fa192c',1,'Reverb::Parameters']]],
+  ['dspbuffersize',['dspBufferSize',['../structUnityAudioEffectState.html#ade367d1c047eaf30467d193f73a22cdd',1,'UnityAudioEffectState']]],
+  ['dspcurrenttick',['dspCurrentTick',['../structUnityAudioEffectState.html#a1d65fc7dc09714679a1922f11edec425',1,'UnityAudioEffectState']]],
+  ['dspprevioustick',['dspPreviousTick',['../structUnityAudioEffectState.html#ab3c2dd7bf7dc9f68dee523cd054b6e2c',1,'UnityAudioEffectState']]]
 ];

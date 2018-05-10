@@ -121,16 +121,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a47e6673a38c3aa9111c9d4813e6d3669"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oversampling.html#a47e6673a38c3aa9111c9d4813e6d3669">getOversamplingFactor</a> () noexcept</td></tr>
 <tr class="memdesc:a47e6673a38c3aa9111c9d4813e6d3669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current oversampling factor.  <a href="#a47e6673a38c3aa9111c9d4813e6d3669">More...</a><br/></td></tr>
 <tr class="separator:a47e6673a38c3aa9111c9d4813e6d3669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3829111fb892241c02b0234e81fb445e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oversampling.html#a3829111fb892241c02b0234e81fb445e">initProcessing</a> (size_t maximumNumberOfSamplesBeforeOversampling)</td></tr>
+<tr class="memitem:a3829111fb892241c02b0234e81fb445e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oversampling.html#a3829111fb892241c02b0234e81fb445e">initProcessing</a> (size_t maximumNumberOfSamplesBeforeOversampling)</td></tr>
 <tr class="memdesc:a3829111fb892241c02b0234e81fb445e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called before any processing, to set the buffer sizes of the internal buffers of the oversampling processing.  <a href="#a3829111fb892241c02b0234e81fb445e">More...</a><br/></td></tr>
 <tr class="separator:a3829111fb892241c02b0234e81fb445e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a9cedc303110b61c32f929018f7c8fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oversampling.html#a2a9cedc303110b61c32f929018f7c8fd">reset</a> () noexcept</td></tr>
+<tr class="memitem:a2a9cedc303110b61c32f929018f7c8fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oversampling.html#a2a9cedc303110b61c32f929018f7c8fd">reset</a> () noexcept</td></tr>
 <tr class="memdesc:a2a9cedc303110b61c32f929018f7c8fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the processing pipeline, ready to oversample a new stream of data.  <a href="#a2a9cedc303110b61c32f929018f7c8fd">More...</a><br/></td></tr>
 <tr class="separator:a2a9cedc303110b61c32f929018f7c8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85c3df14659f08519ed7603a6b9991ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oversampling.html#a85c3df14659f08519ed7603a6b9991ff">processSamplesUp</a> (const <a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt; &amp;inputBlock) noexcept</td></tr>
 <tr class="memdesc:a85c3df14659f08519ed7603a6b9991ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called to perform the upsampling, prior to any oversampled processing.  <a href="#a85c3df14659f08519ed7603a6b9991ff">More...</a><br/></td></tr>
 <tr class="separator:a85c3df14659f08519ed7603a6b9991ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0505d62bb580226ad0512aa6118b7d54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oversampling.html#a0505d62bb580226ad0512aa6118b7d54">processSamplesDown</a> (<a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt; &amp;outputBlock) noexcept</td></tr>
+<tr class="memitem:a0505d62bb580226ad0512aa6118b7d54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1Oversampling.html#a0505d62bb580226ad0512aa6118b7d54">processSamplesDown</a> (<a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt; &amp;outputBlock) noexcept</td></tr>
 <tr class="memdesc:a0505d62bb580226ad0512aa6118b7d54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called to perform the downsampling, after the upsampling and the non-linear processing.  <a href="#a0505d62bb580226ad0512aa6118b7d54">More...</a><br/></td></tr>
 <tr class="separator:a0505d62bb580226ad0512aa6118b7d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -306,7 +306,7 @@ template&lt;typename SampleType &gt; </div>
 template&lt;typename SampleType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classdsp_1_1Oversampling.html">dsp::Oversampling</a>&lt; SampleType &gt;::initProcessing </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classdsp_1_1Oversampling.html">dsp::Oversampling</a>&lt; SampleType &gt;::initProcessing </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>maximumNumberOfSamplesBeforeOversampling</em></td><td>)</td>
@@ -329,7 +329,7 @@ template&lt;typename SampleType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classdsp_1_1Oversampling.html">dsp::Oversampling</a>&lt; SampleType &gt;::reset </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classdsp_1_1Oversampling.html">dsp::Oversampling</a>&lt; SampleType &gt;::reset </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -385,7 +385,7 @@ template&lt;typename SampleType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classdsp_1_1Oversampling.html">dsp::Oversampling</a>&lt; SampleType &gt;::processSamplesDown </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classdsp_1_1Oversampling.html">dsp::Oversampling</a>&lt; SampleType &gt;::processSamplesDown </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classdsp_1_1AudioBlock.html">dsp::AudioBlock</a>&lt; SampleType &gt; &amp;&#160;</td>
           <td class="paramname"><em>outputBlock</em></td><td>)</td>
@@ -410,7 +410,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:13 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:09 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

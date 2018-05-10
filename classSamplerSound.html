@@ -101,7 +101,7 @@ Inheritance diagram for SamplerSound:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad26e044243f4802000b8dcbb6dd15cee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#ad26e044243f4802000b8dcbb6dd15cee">SamplerSound</a> (const <a class="el" href="classString.html">String</a> &amp;name, <a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> &amp;source, const <a class="el" href="classBigInteger.html">BigInteger</a> &amp;midiNotes, int midiNoteForNormalPitch, double attackTimeSecs, double releaseTimeSecs, double maxSampleLengthSeconds)</td></tr>
+<tr class="memitem:ad26e044243f4802000b8dcbb6dd15cee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#ad26e044243f4802000b8dcbb6dd15cee">SamplerSound</a> (const <a class="el" href="classString.html">String</a> &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#gaf35794c5a3717fe860d6a053f96e29f9">name</a>, <a class="el" href="classAudioFormatReader.html">AudioFormatReader</a> &amp;source, const <a class="el" href="classBigInteger.html">BigInteger</a> &amp;midiNotes, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiNoteForNormalPitch, double attackTimeSecs, double releaseTimeSecs, double maxSampleLengthSeconds)</td></tr>
 <tr class="memdesc:ad26e044243f4802000b8dcbb6dd15cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a sampled sound from an audio reader.  <a href="#ad26e044243f4802000b8dcbb6dd15cee">More...</a><br/></td></tr>
 <tr class="separator:ad26e044243f4802000b8dcbb6dd15cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e5d644cede3dd9c821e40098da01945"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#a4e5d644cede3dd9c821e40098da01945">~SamplerSound</a> ()</td></tr>
@@ -113,10 +113,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ed59eca044e006221cf631d7452f0b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#a3ed59eca044e006221cf631d7452f0b6">getAudioData</a> () const noexcept</td></tr>
 <tr class="memdesc:a3ed59eca044e006221cf631d7452f0b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the audio sample data.  <a href="#a3ed59eca044e006221cf631d7452f0b6">More...</a><br/></td></tr>
 <tr class="separator:a3ed59eca044e006221cf631d7452f0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac579ceea6ee78e6dae8026b4b9b33038"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#ac579ceea6ee78e6dae8026b4b9b33038">appliesToNote</a> (int midiNoteNumber) override</td></tr>
+<tr class="memitem:ac579ceea6ee78e6dae8026b4b9b33038"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#ac579ceea6ee78e6dae8026b4b9b33038">appliesToNote</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiNoteNumber) override</td></tr>
 <tr class="memdesc:ac579ceea6ee78e6dae8026b4b9b33038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this sound should be played when a given midi note is pressed.  <a href="#ac579ceea6ee78e6dae8026b4b9b33038">More...</a><br/></td></tr>
 <tr class="separator:ac579ceea6ee78e6dae8026b4b9b33038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f69ffcba849228995ab63d93439a339"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#a6f69ffcba849228995ab63d93439a339">appliesToChannel</a> (int midiChannel) override</td></tr>
+<tr class="memitem:a6f69ffcba849228995ab63d93439a339"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSamplerSound.html#a6f69ffcba849228995ab63d93439a339">appliesToChannel</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiChannel) override</td></tr>
 <tr class="memdesc:a6f69ffcba849228995ab63d93439a339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sound should be triggered by midi events on a given channel.  <a href="#a6f69ffcba849228995ab63d93439a339">More...</a><br/></td></tr>
 <tr class="separator:a6f69ffcba849228995ab63d93439a339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classSynthesiserSound"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classSynthesiserSound')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classSynthesiserSound.html">SynthesiserSound</a></td></tr>
@@ -124,16 +124,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1565fcdfa4362d7b25c29178b4d39b76 inherit pub_methods_classSynthesiserSound"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1565fcdfa4362d7b25c29178b4d39b76">More...</a><br/></td></tr>
 <tr class="separator:a1565fcdfa4362d7b25c29178b4d39b76 inherit pub_methods_classSynthesiserSound"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classReferenceCountedObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classReferenceCountedObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classReferenceCountedObject.html">ReferenceCountedObject</a></td></tr>
-<tr class="memitem:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a878ca594f89f757d29af5a42ee51161f">incReferenceCount</a> () noexcept</td></tr>
+<tr class="memitem:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a878ca594f89f757d29af5a42ee51161f">incReferenceCount</a> () noexcept</td></tr>
 <tr class="memdesc:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the object's reference count.  <a href="#a878ca594f89f757d29af5a42ee51161f">More...</a><br/></td></tr>
 <tr class="separator:a878ca594f89f757d29af5a42ee51161f inherit pub_methods_classReferenceCountedObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a523f06d996130f24b36996b28b83d802 inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a523f06d996130f24b36996b28b83d802">decReferenceCount</a> () noexcept</td></tr>
+<tr class="memitem:a523f06d996130f24b36996b28b83d802 inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a523f06d996130f24b36996b28b83d802">decReferenceCount</a> () noexcept</td></tr>
 <tr class="memdesc:a523f06d996130f24b36996b28b83d802 inherit pub_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases the object's reference count.  <a href="#a523f06d996130f24b36996b28b83d802">More...</a><br/></td></tr>
 <tr class="separator:a523f06d996130f24b36996b28b83d802 inherit pub_methods_classReferenceCountedObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2355316960a6bf2e9691fded43249254 inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a2355316960a6bf2e9691fded43249254">decReferenceCountWithoutDeleting</a> () noexcept</td></tr>
 <tr class="memdesc:a2355316960a6bf2e9691fded43249254 inherit pub_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases the object's reference count.  <a href="#a2355316960a6bf2e9691fded43249254">More...</a><br/></td></tr>
 <tr class="separator:a2355316960a6bf2e9691fded43249254 inherit pub_methods_classReferenceCountedObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0111caf12d101fc74abd832d44fbfa4f inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a0111caf12d101fc74abd832d44fbfa4f">getReferenceCount</a> () const noexcept</td></tr>
+<tr class="memitem:a0111caf12d101fc74abd832d44fbfa4f inherit pub_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a0111caf12d101fc74abd832d44fbfa4f">getReferenceCount</a> () const noexcept</td></tr>
 <tr class="memdesc:a0111caf12d101fc74abd832d44fbfa4f inherit pub_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object's current reference count.  <a href="#a0111caf12d101fc74abd832d44fbfa4f">More...</a><br/></td></tr>
 <tr class="separator:a0111caf12d101fc74abd832d44fbfa4f inherit pub_methods_classReferenceCountedObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -165,7 +165,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a7ed87d7f91e5ae51c620947c61291375 inherit pro_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a7ed87d7f91e5ae51c620947c61291375">~ReferenceCountedObject</a> ()</td></tr>
 <tr class="memdesc:a7ed87d7f91e5ae51c620947c61291375 inherit pro_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a7ed87d7f91e5ae51c620947c61291375">More...</a><br/></td></tr>
 <tr class="separator:a7ed87d7f91e5ae51c620947c61291375 inherit pro_methods_classReferenceCountedObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bbeeab431755e2be8ff09dfe9ea4c4d inherit pro_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a9bbeeab431755e2be8ff09dfe9ea4c4d">resetReferenceCount</a> () noexcept</td></tr>
+<tr class="memitem:a9bbeeab431755e2be8ff09dfe9ea4c4d inherit pro_methods_classReferenceCountedObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObject.html#a9bbeeab431755e2be8ff09dfe9ea4c4d">resetReferenceCount</a> () noexcept</td></tr>
 <tr class="memdesc:a9bbeeab431755e2be8ff09dfe9ea4c4d inherit pro_methods_classReferenceCountedObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the reference count to zero without deleting the object.  <a href="#a9bbeeab431755e2be8ff09dfe9ea4c4d">More...</a><br/></td></tr>
 <tr class="separator:a9bbeeab431755e2be8ff09dfe9ea4c4d inherit pro_methods_classReferenceCountedObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -201,7 +201,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>midiNoteForNormalPitch</em>, </td>
         </tr>
         <tr>
@@ -326,7 +326,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool SamplerSound::appliesToNote </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>midiNoteNumber</em></td><td>)</td>
           <td></td>
         </tr>
@@ -355,7 +355,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool SamplerSound::appliesToChannel </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>midiChannel</em></td><td>)</td>
           <td></td>
         </tr>
@@ -380,7 +380,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:10 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:06 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

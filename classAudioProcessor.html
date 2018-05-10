@@ -138,7 +138,9 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa24c1746c07b93d66ef9a906285c3d782">wrapperType_AudioUnitv3</a>, 
 <a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa0d1334a563a3764a0a026703fec73ff6">wrapperType_RTAS</a>, 
 <a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfa9a43d586134e1bf0ceacdd2de2defbb3">wrapperType_AAX</a>, 
-<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaad6832e63028f039a818f3eed72cf06f">wrapperType_Standalone</a>
+<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfaad6832e63028f039a818f3eed72cf06f">wrapperType_Standalone</a>, 
+<br/>
+&#160;&#160;<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcfabaa03b05ba421764cf03d458e0e8eadc">wrapperType_Unity</a>
 <br/>
  }</td></tr>
 <tr class="memdesc:a2e1b21b8831ac529965abffc96223dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags to indicate the type of plugin context in which a processor is being used.  <a href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">More...</a><br/></td></tr>
@@ -155,34 +157,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c5110061b44b0121036c7ac91aa176c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3c5110061b44b0121036c7ac91aa176c">getAlternateDisplayNames</a> () const </td></tr>
 <tr class="memdesc:a3c5110061b44b0121036c7ac91aa176c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of alternative names to use for this processor.  <a href="#a3c5110061b44b0121036c7ac91aa176c">More...</a><br/></td></tr>
 <tr class="separator:a3c5110061b44b0121036c7ac91aa176c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44b74778247a35a669a3a994d814389e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a44b74778247a35a669a3a994d814389e">prepareToPlay</a> (double sampleRate, int maximumExpectedSamplesPerBlock)=0</td></tr>
+<tr class="memitem:a44b74778247a35a669a3a994d814389e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a44b74778247a35a669a3a994d814389e">prepareToPlay</a> (double sampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> maximumExpectedSamplesPerBlock)=0</td></tr>
 <tr class="memdesc:a44b74778247a35a669a3a994d814389e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called before playback starts, to let the processor prepare itself.  <a href="#a44b74778247a35a669a3a994d814389e">More...</a><br/></td></tr>
 <tr class="separator:a44b74778247a35a669a3a994d814389e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49e88e7d6c7c40899624beb9e3508f3a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a49e88e7d6c7c40899624beb9e3508f3a">releaseResources</a> ()=0</td></tr>
+<tr class="memitem:a49e88e7d6c7c40899624beb9e3508f3a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a49e88e7d6c7c40899624beb9e3508f3a">releaseResources</a> ()=0</td></tr>
 <tr class="memdesc:a49e88e7d6c7c40899624beb9e3508f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after playback has stopped, to let the object free up any resources it no longer needs.  <a href="#a49e88e7d6c7c40899624beb9e3508f3a">More...</a><br/></td></tr>
 <tr class="separator:a49e88e7d6c7c40899624beb9e3508f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b1d9ee950c000e9fc7efa3754866bb3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5b1d9ee950c000e9fc7efa3754866bb3">memoryWarningReceived</a> ()</td></tr>
+<tr class="memitem:a5b1d9ee950c000e9fc7efa3754866bb3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5b1d9ee950c000e9fc7efa3754866bb3">memoryWarningReceived</a> ()</td></tr>
 <tr class="memdesc:a5b1d9ee950c000e9fc7efa3754866bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to indicate that you should reduce your memory footprint.  <a href="#a5b1d9ee950c000e9fc7efa3754866bb3">More...</a><br/></td></tr>
 <tr class="separator:a5b1d9ee950c000e9fc7efa3754866bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbac77f68ba047cf60c4bc97326dcb58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#abbac77f68ba047cf60c4bc97326dcb58">processBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;buffer, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)=0</td></tr>
+<tr class="memitem:abbac77f68ba047cf60c4bc97326dcb58"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#abbac77f68ba047cf60c4bc97326dcb58">processBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618">buffer</a>, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)=0</td></tr>
 <tr class="memdesc:abbac77f68ba047cf60c4bc97326dcb58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block.  <a href="#abbac77f68ba047cf60c4bc97326dcb58">More...</a><br/></td></tr>
 <tr class="separator:abbac77f68ba047cf60c4bc97326dcb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1d1db605c16ab803fadd100bb6ff2e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac1d1db605c16ab803fadd100bb6ff2e8">processBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;buffer, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)</td></tr>
+<tr class="memitem:ac1d1db605c16ab803fadd100bb6ff2e8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac1d1db605c16ab803fadd100bb6ff2e8">processBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618">buffer</a>, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)</td></tr>
 <tr class="memdesc:ac1d1db605c16ab803fadd100bb6ff2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block.  <a href="#ac1d1db605c16ab803fadd100bb6ff2e8">More...</a><br/></td></tr>
 <tr class="separator:ac1d1db605c16ab803fadd100bb6ff2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8728dd8bc715ee6d840ce5a9c86a4048"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a8728dd8bc715ee6d840ce5a9c86a4048">processBlockBypassed</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;buffer, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)</td></tr>
+<tr class="memitem:a8728dd8bc715ee6d840ce5a9c86a4048"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a8728dd8bc715ee6d840ce5a9c86a4048">processBlockBypassed</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618">buffer</a>, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)</td></tr>
 <tr class="memdesc:a8728dd8bc715ee6d840ce5a9c86a4048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block when the processor is being bypassed.  <a href="#a8728dd8bc715ee6d840ce5a9c86a4048">More...</a><br/></td></tr>
 <tr class="separator:a8728dd8bc715ee6d840ce5a9c86a4048"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745093678f8ea07e47f19b777031abd2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a745093678f8ea07e47f19b777031abd2">processBlockBypassed</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;buffer, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)</td></tr>
+<tr class="memitem:a745093678f8ea07e47f19b777031abd2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a745093678f8ea07e47f19b777031abd2">processBlockBypassed</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618">buffer</a>, <a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;midiMessages)</td></tr>
 <tr class="memdesc:a745093678f8ea07e47f19b777031abd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the next block when the processor is being bypassed.  <a href="#a745093678f8ea07e47f19b777031abd2">More...</a><br/></td></tr>
 <tr class="separator:a745093678f8ea07e47f19b777031abd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a349a6c1a08d916db53224675c897cd5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a349a6c1a08d916db53224675c897cd5b">getBusCount</a> (bool isInput) const noexcept</td></tr>
+<tr class="memitem:a349a6c1a08d916db53224675c897cd5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a349a6c1a08d916db53224675c897cd5b">getBusCount</a> (bool isInput) const noexcept</td></tr>
 <tr class="memdesc:a349a6c1a08d916db53224675c897cd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of buses on the input or output side.  <a href="#a349a6c1a08d916db53224675c897cd5b">More...</a><br/></td></tr>
 <tr class="separator:a349a6c1a08d916db53224675c897cd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afae1f7a344431ff1095612ef51d03aa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessor_1_1Bus.html">Bus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#afae1f7a344431ff1095612ef51d03aa9">getBus</a> (bool isInput, int busIndex) noexcept</td></tr>
+<tr class="memitem:afae1f7a344431ff1095612ef51d03aa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessor_1_1Bus.html">Bus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#afae1f7a344431ff1095612ef51d03aa9">getBus</a> (bool isInput, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> busIndex) noexcept</td></tr>
 <tr class="memdesc:afae1f7a344431ff1095612ef51d03aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the audio bus with a given index and direction.  <a href="#afae1f7a344431ff1095612ef51d03aa9">More...</a><br/></td></tr>
 <tr class="separator:afae1f7a344431ff1095612ef51d03aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bd13b39bf751c6bfe5213be5bbd440e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classAudioProcessor_1_1Bus.html">Bus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a9bd13b39bf751c6bfe5213be5bbd440e">getBus</a> (bool isInput, int busIndex) const noexcept</td></tr>
+<tr class="memitem:a9bd13b39bf751c6bfe5213be5bbd440e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classAudioProcessor_1_1Bus.html">Bus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a9bd13b39bf751c6bfe5213be5bbd440e">getBus</a> (bool isInput, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> busIndex) const noexcept</td></tr>
 <tr class="memdesc:a9bd13b39bf751c6bfe5213be5bbd440e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the audio bus with a given index and direction.  <a href="#a9bd13b39bf751c6bfe5213be5bbd440e">More...</a><br/></td></tr>
 <tr class="separator:a9bd13b39bf751c6bfe5213be5bbd440e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2df1b7ab111642230ed749d8017b4a9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af2df1b7ab111642230ed749d8017b4a9">canAddBus</a> (bool isInput) const </td></tr>
@@ -206,13 +208,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b618b6e5cdca4da58e87417ade7dbc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAudioProcessor_1_1BusesLayout.html">BusesLayout</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6b618b6e5cdca4da58e87417ade7dbc0">getBusesLayout</a> () const </td></tr>
 <tr class="memdesc:a6b618b6e5cdca4da58e87417ade7dbc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the current channel layouts of this audio processor.  <a href="#a6b618b6e5cdca4da58e87417ade7dbc0">More...</a><br/></td></tr>
 <tr class="separator:a6b618b6e5cdca4da58e87417ade7dbc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ccdab0242879d734cd34ab45a8ef6a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioChannelSet.html">AudioChannelSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5ccdab0242879d734cd34ab45a8ef6a5">getChannelLayoutOfBus</a> (bool isInput, int busIndex) const noexcept</td></tr>
+<tr class="memitem:a5ccdab0242879d734cd34ab45a8ef6a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioChannelSet.html">AudioChannelSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5ccdab0242879d734cd34ab45a8ef6a5">getChannelLayoutOfBus</a> (bool isInput, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> busIndex) const noexcept</td></tr>
 <tr class="memdesc:a5ccdab0242879d734cd34ab45a8ef6a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the channel layout of the bus with a given index and direction.  <a href="#a5ccdab0242879d734cd34ab45a8ef6a5">More...</a><br/></td></tr>
 <tr class="separator:a5ccdab0242879d734cd34ab45a8ef6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98c0a0f5ccd77a83876b9301f9fab733"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a98c0a0f5ccd77a83876b9301f9fab733">setChannelLayoutOfBus</a> (bool isInput, int busIndex, const <a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;layout)</td></tr>
+<tr class="memitem:a98c0a0f5ccd77a83876b9301f9fab733"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a98c0a0f5ccd77a83876b9301f9fab733">setChannelLayoutOfBus</a> (bool isInput, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> busIndex, const <a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;layout)</td></tr>
 <tr class="memdesc:a98c0a0f5ccd77a83876b9301f9fab733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the channel layout of the bus with a given index and direction.  <a href="#a98c0a0f5ccd77a83876b9301f9fab733">More...</a><br/></td></tr>
 <tr class="separator:a98c0a0f5ccd77a83876b9301f9fab733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8860ffb6bcf02cf02da8b55937e90da6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a8860ffb6bcf02cf02da8b55937e90da6">getChannelCountOfBus</a> (bool isInput, int busIndex) const noexcept</td></tr>
+<tr class="memitem:a8860ffb6bcf02cf02da8b55937e90da6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a8860ffb6bcf02cf02da8b55937e90da6">getChannelCountOfBus</a> (bool isInput, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> busIndex) const noexcept</td></tr>
 <tr class="memdesc:a8860ffb6bcf02cf02da8b55937e90da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the number of channels of the bus with a given index and direction.  <a href="#a8860ffb6bcf02cf02da8b55937e90da6">More...</a><br/></td></tr>
 <tr class="separator:a8860ffb6bcf02cf02da8b55937e90da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f4a4b0951d15e7bfecd86bd68993b51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a9f4a4b0951d15e7bfecd86bd68993b51">enableAllBuses</a> ()</td></tr>
@@ -221,14 +223,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a95e1cedbe30a03547baa4f8341c5f04a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a95e1cedbe30a03547baa4f8341c5f04a">disableNonMainBuses</a> ()</td></tr>
 <tr class="memdesc:a95e1cedbe30a03547baa4f8341c5f04a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables all non-main buses (aux and sidechains).  <a href="#a95e1cedbe30a03547baa4f8341c5f04a">More...</a><br/></td></tr>
 <tr class="separator:a95e1cedbe30a03547baa4f8341c5f04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9de177654fe95cc9de951df15537c24"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af9de177654fe95cc9de951df15537c24">getChannelIndexInProcessBlockBuffer</a> (bool isInput, int busIndex, int channelIndex) const noexcept</td></tr>
+<tr class="memitem:af9de177654fe95cc9de951df15537c24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af9de177654fe95cc9de951df15537c24">getChannelIndexInProcessBlockBuffer</a> (bool isInput, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> busIndex, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> channelIndex) const noexcept</td></tr>
 <tr class="memdesc:af9de177654fe95cc9de951df15537c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of a bus's channels within the processBlock buffer.  <a href="#af9de177654fe95cc9de951df15537c24">More...</a><br/></td></tr>
 <tr class="separator:af9de177654fe95cc9de951df15537c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e26a8e96f480b6c41041dc85197e3ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5e26a8e96f480b6c41041dc85197e3ed">getOffsetInBusBufferForAbsoluteChannelIndex</a> (bool isInput, int absoluteChannelIndex, int &amp;busIndex) const noexcept</td></tr>
+<tr class="memitem:a5e26a8e96f480b6c41041dc85197e3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5e26a8e96f480b6c41041dc85197e3ed">getOffsetInBusBufferForAbsoluteChannelIndex</a> (bool isInput, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> absoluteChannelIndex, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &amp;busIndex) const noexcept</td></tr>
 <tr class="memdesc:a5e26a8e96f480b6c41041dc85197e3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the offset in a bus's buffer from an absolute channel indes.  <a href="#a5e26a8e96f480b6c41041dc85197e3ed">More...</a><br/></td></tr>
 <tr class="separator:a5e26a8e96f480b6c41041dc85197e3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a356fa03d08448f40384f0194e943403b"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
-<tr class="memitem:a356fa03d08448f40384f0194e943403b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a356fa03d08448f40384f0194e943403b">getBusBuffer</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt; &amp;processBlockBuffer, bool isInput, int busIndex) const </td></tr>
+<tr class="memitem:a356fa03d08448f40384f0194e943403b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a356fa03d08448f40384f0194e943403b">getBusBuffer</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt; &amp;processBlockBuffer, bool isInput, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> busIndex) const </td></tr>
 <tr class="memdesc:a356fa03d08448f40384f0194e943403b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an <a class="el" href="classAudioBuffer.html" title="A multi-channel buffer containing floating point audio samples. ">AudioBuffer</a> containing a set of channel pointers for a specific bus.  <a href="#a356fa03d08448f40384f0194e943403b">More...</a><br/></td></tr>
 <tr class="separator:a356fa03d08448f40384f0194e943403b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e40238c21042c81b6dcdea07f9b7e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a59e40238c21042c81b6dcdea07f9b7e6">checkBusesLayoutSupported</a> (const <a class="el" href="structAudioProcessor_1_1BusesLayout.html">BusesLayout</a> &amp;) const </td></tr>
@@ -243,22 +245,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a58f5414e3b89197136ab4fb8f1263d66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a58f5414e3b89197136ab4fb8f1263d66">isUsingDoublePrecision</a> () const noexcept</td></tr>
 <tr class="memdesc:a58f5414e3b89197136ab4fb8f1263d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current precision is set to doublePrecision.  <a href="#a58f5414e3b89197136ab4fb8f1263d66">More...</a><br/></td></tr>
 <tr class="separator:a58f5414e3b89197136ab4fb8f1263d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ae51e20ee91b1383bc4d6a3789ae119"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3ae51e20ee91b1383bc4d6a3789ae119">setProcessingPrecision</a> (<a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275f">ProcessingPrecision</a> newPrecision) noexcept</td></tr>
+<tr class="memitem:a3ae51e20ee91b1383bc4d6a3789ae119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3ae51e20ee91b1383bc4d6a3789ae119">setProcessingPrecision</a> (<a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275f">ProcessingPrecision</a> newPrecision) noexcept</td></tr>
 <tr class="memdesc:a3ae51e20ee91b1383bc4d6a3789ae119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the processing precision of the receiver.  <a href="#a3ae51e20ee91b1383bc4d6a3789ae119">More...</a><br/></td></tr>
 <tr class="separator:a3ae51e20ee91b1383bc4d6a3789ae119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3000c867da8b04866a4f91c8103956ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3000c867da8b04866a4f91c8103956ac">getPlayHead</a> () const noexcept</td></tr>
 <tr class="memdesc:a3000c867da8b04866a4f91c8103956ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current <a class="el" href="classAudioPlayHead.html" title="A subclass of AudioPlayHead can supply information about the position and status of a moving play hea...">AudioPlayHead</a> object that should be used to find out the state and position of the playhead.  <a href="#a3000c867da8b04866a4f91c8103956ac">More...</a><br/></td></tr>
 <tr class="separator:a3000c867da8b04866a4f91c8103956ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77571fc8ce02ddf4fe3a56fe57ea9392"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a77571fc8ce02ddf4fe3a56fe57ea9392">getTotalNumInputChannels</a> () const noexcept</td></tr>
+<tr class="memitem:a77571fc8ce02ddf4fe3a56fe57ea9392"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a77571fc8ce02ddf4fe3a56fe57ea9392">getTotalNumInputChannels</a> () const noexcept</td></tr>
 <tr class="memdesc:a77571fc8ce02ddf4fe3a56fe57ea9392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of input channels.  <a href="#a77571fc8ce02ddf4fe3a56fe57ea9392">More...</a><br/></td></tr>
 <tr class="separator:a77571fc8ce02ddf4fe3a56fe57ea9392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a99a78e2a1e2b7f2d4dffee0819a225"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2a99a78e2a1e2b7f2d4dffee0819a225">getTotalNumOutputChannels</a> () const noexcept</td></tr>
+<tr class="memitem:a2a99a78e2a1e2b7f2d4dffee0819a225"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2a99a78e2a1e2b7f2d4dffee0819a225">getTotalNumOutputChannels</a> () const noexcept</td></tr>
 <tr class="memdesc:a2a99a78e2a1e2b7f2d4dffee0819a225"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of output channels.  <a href="#a2a99a78e2a1e2b7f2d4dffee0819a225">More...</a><br/></td></tr>
 <tr class="separator:a2a99a78e2a1e2b7f2d4dffee0819a225"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c273007eacb9926081f1276cb1ad44c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6c273007eacb9926081f1276cb1ad44c">getMainBusNumInputChannels</a> () const noexcept</td></tr>
+<tr class="memitem:a6c273007eacb9926081f1276cb1ad44c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6c273007eacb9926081f1276cb1ad44c">getMainBusNumInputChannels</a> () const noexcept</td></tr>
 <tr class="memdesc:a6c273007eacb9926081f1276cb1ad44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of input channels on the main bus.  <a href="#a6c273007eacb9926081f1276cb1ad44c">More...</a><br/></td></tr>
 <tr class="separator:a6c273007eacb9926081f1276cb1ad44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89e5d408f21d930bd56c21dd2aa8f69b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a89e5d408f21d930bd56c21dd2aa8f69b">getMainBusNumOutputChannels</a> () const noexcept</td></tr>
+<tr class="memitem:a89e5d408f21d930bd56c21dd2aa8f69b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a89e5d408f21d930bd56c21dd2aa8f69b">getMainBusNumOutputChannels</a> () const noexcept</td></tr>
 <tr class="memdesc:a89e5d408f21d930bd56c21dd2aa8f69b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of output channels on the main bus.  <a href="#a89e5d408f21d930bd56c21dd2aa8f69b">More...</a><br/></td></tr>
 <tr class="separator:a89e5d408f21d930bd56c21dd2aa8f69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b3815d0d5be7bef661d7e9728b33e8"><td class="memTemplParams" colspan="2">template&lt;int numLayouts&gt; </td></tr>
@@ -268,13 +270,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a99b216c491ed4896424a9a075858ca03"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a99b216c491ed4896424a9a075858ca03">getSampleRate</a> () const noexcept</td></tr>
 <tr class="memdesc:a99b216c491ed4896424a9a075858ca03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current sample rate.  <a href="#a99b216c491ed4896424a9a075858ca03">More...</a><br/></td></tr>
 <tr class="separator:a99b216c491ed4896424a9a075858ca03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b59606e6e85f262d465c7f779ca0c4a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3b59606e6e85f262d465c7f779ca0c4a">getBlockSize</a> () const noexcept</td></tr>
+<tr class="memitem:a3b59606e6e85f262d465c7f779ca0c4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3b59606e6e85f262d465c7f779ca0c4a">getBlockSize</a> () const noexcept</td></tr>
 <tr class="memdesc:a3b59606e6e85f262d465c7f779ca0c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current typical block size that is being used.  <a href="#a3b59606e6e85f262d465c7f779ca0c4a">More...</a><br/></td></tr>
 <tr class="separator:a3b59606e6e85f262d465c7f779ca0c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abae54a8c1bcfd88bcba9d42b752e006d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#abae54a8c1bcfd88bcba9d42b752e006d">getLatencySamples</a> () const noexcept</td></tr>
+<tr class="memitem:abae54a8c1bcfd88bcba9d42b752e006d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#abae54a8c1bcfd88bcba9d42b752e006d">getLatencySamples</a> () const noexcept</td></tr>
 <tr class="memdesc:abae54a8c1bcfd88bcba9d42b752e006d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns the number of samples delay that the processor imposes on the audio passing through it.  <a href="#abae54a8c1bcfd88bcba9d42b752e006d">More...</a><br/></td></tr>
 <tr class="separator:abae54a8c1bcfd88bcba9d42b752e006d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac902e27eb0950adac57bb69680b6e709"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac902e27eb0950adac57bb69680b6e709">setLatencySamples</a> (int newLatency)</td></tr>
+<tr class="memitem:ac902e27eb0950adac57bb69680b6e709"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac902e27eb0950adac57bb69680b6e709">setLatencySamples</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> newLatency)</td></tr>
 <tr class="memdesc:ac902e27eb0950adac57bb69680b6e709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Your processor subclass should call this to set the number of samples delay that it introduces.  <a href="#ac902e27eb0950adac57bb69680b6e709">More...</a><br/></td></tr>
 <tr class="separator:ac902e27eb0950adac57bb69680b6e709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358db82650c6423968091f8b4d22b09a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a358db82650c6423968091f8b4d22b09a">getTailLengthSeconds</a> () const =0</td></tr>
@@ -295,13 +297,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a71ae245e3ea15035f0648ddd34a492c1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classCriticalSection.html">CriticalSection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a71ae245e3ea15035f0648ddd34a492c1">getCallbackLock</a> () const noexcept</td></tr>
 <tr class="memdesc:a71ae245e3ea15035f0648ddd34a492c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns a critical section that will automatically be locked while the host is calling the <a class="el" href="classAudioProcessor.html#abbac77f68ba047cf60c4bc97326dcb58" title="Renders the next block. ">processBlock()</a> method.  <a href="#a71ae245e3ea15035f0648ddd34a492c1">More...</a><br/></td></tr>
 <tr class="separator:a71ae245e3ea15035f0648ddd34a492c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a584d01c1c009c1ce49a45cd6e49d2dc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a584d01c1c009c1ce49a45cd6e49d2dc5">suspendProcessing</a> (bool shouldBeSuspended)</td></tr>
+<tr class="memitem:a584d01c1c009c1ce49a45cd6e49d2dc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a584d01c1c009c1ce49a45cd6e49d2dc5">suspendProcessing</a> (bool shouldBeSuspended)</td></tr>
 <tr class="memdesc:a584d01c1c009c1ce49a45cd6e49d2dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables and disables the processing callback.  <a href="#a584d01c1c009c1ce49a45cd6e49d2dc5">More...</a><br/></td></tr>
 <tr class="separator:a584d01c1c009c1ce49a45cd6e49d2dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab07ed8e72817efe0e12b70890950e3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aab07ed8e72817efe0e12b70890950e3e">isSuspended</a> () const noexcept</td></tr>
 <tr class="memdesc:aab07ed8e72817efe0e12b70890950e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if processing is currently suspended.  <a href="#aab07ed8e72817efe0e12b70890950e3e">More...</a><br/></td></tr>
 <tr class="separator:aab07ed8e72817efe0e12b70890950e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab10c4739ceb56e5cd70dbce8aa8c4f61"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab10c4739ceb56e5cd70dbce8aa8c4f61">reset</a> ()</td></tr>
+<tr class="memitem:ab10c4739ceb56e5cd70dbce8aa8c4f61"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab10c4739ceb56e5cd70dbce8aa8c4f61">reset</a> ()</td></tr>
 <tr class="memdesc:ab10c4739ceb56e5cd70dbce8aa8c4f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">A plugin can override this to be told when it should reset any playing voices.  <a href="#ab10c4739ceb56e5cd70dbce8aa8c4f61">More...</a><br/></td></tr>
 <tr class="separator:ab10c4739ceb56e5cd70dbce8aa8c4f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7497a774f069a1a61d7ea5180fd445f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae7497a774f069a1a61d7ea5180fd445f">getBypassParameter</a> () const </td></tr>
@@ -310,7 +312,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac61949900870c9f6dca63d53ee68f7a0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac61949900870c9f6dca63d53ee68f7a0">isNonRealtime</a> () const noexcept</td></tr>
 <tr class="memdesc:ac61949900870c9f6dca63d53ee68f7a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the processor is being run in an offline mode for rendering.  <a href="#ac61949900870c9f6dca63d53ee68f7a0">More...</a><br/></td></tr>
 <tr class="separator:ac61949900870c9f6dca63d53ee68f7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac419b4487f3c8ade182189e5b19e7c2c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac419b4487f3c8ade182189e5b19e7c2c">setNonRealtime</a> (bool <a class="el" href="classAudioProcessor.html#ac61949900870c9f6dca63d53ee68f7a0">isNonRealtime</a>) noexcept</td></tr>
+<tr class="memitem:ac419b4487f3c8ade182189e5b19e7c2c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac419b4487f3c8ade182189e5b19e7c2c">setNonRealtime</a> (bool <a class="el" href="classAudioProcessor.html#ac61949900870c9f6dca63d53ee68f7a0">isNonRealtime</a>) noexcept</td></tr>
 <tr class="memdesc:ac419b4487f3c8ade182189e5b19e7c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to tell this processor whether it's being used in a non-realtime capacity for offline rendering or bouncing.  <a href="#ac419b4487f3c8ade182189e5b19e7c2c">More...</a><br/></td></tr>
 <tr class="separator:ac419b4487f3c8ade182189e5b19e7c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a103fc8a8666b7d31b472e017262be84d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a103fc8a8666b7d31b472e017262be84d">createEditor</a> ()=0</td></tr>
@@ -325,131 +327,131 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e06519ec925a8da3180df1a7a34f3eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0e06519ec925a8da3180df1a7a34f3eb">createEditorIfNeeded</a> ()</td></tr>
 <tr class="memdesc:a0e06519ec925a8da3180df1a7a34f3eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the active editor, or if there isn't one, it will create one.  <a href="#a0e06519ec925a8da3180df1a7a34f3eb">More...</a><br/></td></tr>
 <tr class="separator:a0e06519ec925a8da3180df1a7a34f3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d312c8212631ace9d992fb9e0db92c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3d312c8212631ace9d992fb9e0db92c3">JUCE_DEPRECATED</a> (virtual int getNumParameters())</td></tr>
+<tr class="memitem:a3d312c8212631ace9d992fb9e0db92c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3d312c8212631ace9d992fb9e0db92c3">JUCE_DEPRECATED</a> (virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> getNumParameters())</td></tr>
 <tr class="memdesc:a3d312c8212631ace9d992fb9e0db92c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This must return the correct value immediately after the object has been created, and mustn't change the number of parameters later.  <a href="#a3d312c8212631ace9d992fb9e0db92c3">More...</a><br/></td></tr>
 <tr class="separator:a3d312c8212631ace9d992fb9e0db92c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab66b5f1f08f94570cea4158cb5b134a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab66b5f1f08f94570cea4158cb5b134a9">JUCE_DEPRECATED</a> (virtual const <a class="el" href="classString.html">String</a> getParameterName(int parameterIndex))</td></tr>
+<tr class="memitem:ab66b5f1f08f94570cea4158cb5b134a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab66b5f1f08f94570cea4158cb5b134a9">JUCE_DEPRECATED</a> (virtual const <a class="el" href="classString.html">String</a> getParameterName(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex))</td></tr>
 <tr class="memdesc:ab66b5f1f08f94570cea4158cb5b134a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a particular parameter.  <a href="#ab66b5f1f08f94570cea4158cb5b134a9">More...</a><br/></td></tr>
 <tr class="separator:ab66b5f1f08f94570cea4158cb5b134a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a143f98d32b4ff96a10398ac226cdc494"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a143f98d32b4ff96a10398ac226cdc494">JUCE_DEPRECATED</a> (virtual <a class="el" href="classString.html">String</a> getParameterID(int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>))</td></tr>
+<tr class="memitem:a143f98d32b4ff96a10398ac226cdc494"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a143f98d32b4ff96a10398ac226cdc494">JUCE_DEPRECATED</a> (virtual <a class="el" href="classString.html">String</a> getParameterID(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35">index</a>))</td></tr>
 <tr class="memdesc:a143f98d32b4ff96a10398ac226cdc494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of a particular parameter.  <a href="#a143f98d32b4ff96a10398ac226cdc494">More...</a><br/></td></tr>
 <tr class="separator:a143f98d32b4ff96a10398ac226cdc494"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61da5179798784e331b15a1437375bc0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a61da5179798784e331b15a1437375bc0">JUCE_DEPRECATED</a> (virtual float getParameter(int parameterIndex))</td></tr>
+<tr class="memitem:a61da5179798784e331b15a1437375bc0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a61da5179798784e331b15a1437375bc0">JUCE_DEPRECATED</a> (virtual float getParameter(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex))</td></tr>
 <tr class="memdesc:a61da5179798784e331b15a1437375bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to find out the value of one of the processor's parameters.  <a href="#a61da5179798784e331b15a1437375bc0">More...</a><br/></td></tr>
 <tr class="separator:a61da5179798784e331b15a1437375bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7d8b4060937e653ede23a1dd5ff31f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af7d8b4060937e653ede23a1dd5ff31f3">JUCE_DEPRECATED</a> (virtual <a class="el" href="classString.html">String</a> getParameterName(int parameterIndex, int maximumStringLength))</td></tr>
+<tr class="memitem:af7d8b4060937e653ede23a1dd5ff31f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af7d8b4060937e653ede23a1dd5ff31f3">JUCE_DEPRECATED</a> (virtual <a class="el" href="classString.html">String</a> getParameterName(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> maximumStringLength))</td></tr>
 <tr class="memdesc:af7d8b4060937e653ede23a1dd5ff31f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of a parameter as a text string with a preferred maximum length.  <a href="#af7d8b4060937e653ede23a1dd5ff31f3">More...</a><br/></td></tr>
 <tr class="separator:af7d8b4060937e653ede23a1dd5ff31f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec943a9bb919799646a190c543fef4e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aec943a9bb919799646a190c543fef4e6">JUCE_DEPRECATED</a> (virtual const <a class="el" href="classString.html">String</a> getParameterText(int parameterIndex))</td></tr>
+<tr class="memitem:aec943a9bb919799646a190c543fef4e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aec943a9bb919799646a190c543fef4e6">JUCE_DEPRECATED</a> (virtual const <a class="el" href="classString.html">String</a> getParameterText(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex))</td></tr>
 <tr class="memdesc:aec943a9bb919799646a190c543fef4e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string.  <a href="#aec943a9bb919799646a190c543fef4e6">More...</a><br/></td></tr>
 <tr class="separator:aec943a9bb919799646a190c543fef4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01fee88194c3093a2fce1db5d6105e3b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a01fee88194c3093a2fce1db5d6105e3b">JUCE_DEPRECATED</a> (virtual <a class="el" href="classString.html">String</a> getParameterText(int parameterIndex, int maximumStringLength))</td></tr>
+<tr class="memitem:a01fee88194c3093a2fce1db5d6105e3b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a01fee88194c3093a2fce1db5d6105e3b">JUCE_DEPRECATED</a> (virtual <a class="el" href="classString.html">String</a> getParameterText(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> maximumStringLength))</td></tr>
 <tr class="memdesc:a01fee88194c3093a2fce1db5d6105e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of a parameter as a text string with a preferred maximum length.  <a href="#a01fee88194c3093a2fce1db5d6105e3b">More...</a><br/></td></tr>
 <tr class="separator:a01fee88194c3093a2fce1db5d6105e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab079fbeca4ebd7fd04233349eb72fd01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab079fbeca4ebd7fd04233349eb72fd01">JUCE_DEPRECATED</a> (virtual int getParameterNumSteps(int parameterIndex))</td></tr>
+<tr class="memitem:ab079fbeca4ebd7fd04233349eb72fd01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab079fbeca4ebd7fd04233349eb72fd01">JUCE_DEPRECATED</a> (virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> getParameterNumSteps(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex))</td></tr>
 <tr class="memdesc:ab079fbeca4ebd7fd04233349eb72fd01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of discrete steps that this parameter can represent.  <a href="#ab079fbeca4ebd7fd04233349eb72fd01">More...</a><br/></td></tr>
 <tr class="separator:ab079fbeca4ebd7fd04233349eb72fd01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90b1101204b40ab04f719f6716d9ca50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a90b1101204b40ab04f719f6716d9ca50">JUCE_DEPRECATED</a> (virtual bool isParameterDiscrete(int parameterIndex) const)</td></tr>
+<tr class="memitem:a90b1101204b40ab04f719f6716d9ca50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a90b1101204b40ab04f719f6716d9ca50">JUCE_DEPRECATED</a> (virtual bool isParameterDiscrete(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex) const)</td></tr>
 <tr class="memdesc:a90b1101204b40ab04f719f6716d9ca50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the parameter should take discrete, rather than continuous values.  <a href="#a90b1101204b40ab04f719f6716d9ca50">More...</a><br/></td></tr>
 <tr class="separator:a90b1101204b40ab04f719f6716d9ca50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b0b5cf9d38c3d82ffebed62c2fda41b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5b0b5cf9d38c3d82ffebed62c2fda41b">JUCE_DEPRECATED</a> (virtual float getParameterDefaultValue(int parameterIndex))</td></tr>
+<tr class="memitem:a5b0b5cf9d38c3d82ffebed62c2fda41b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5b0b5cf9d38c3d82ffebed62c2fda41b">JUCE_DEPRECATED</a> (virtual float getParameterDefaultValue(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex))</td></tr>
 <tr class="memdesc:a5b0b5cf9d38c3d82ffebed62c2fda41b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default value for the parameter.  <a href="#a5b0b5cf9d38c3d82ffebed62c2fda41b">More...</a><br/></td></tr>
 <tr class="separator:a5b0b5cf9d38c3d82ffebed62c2fda41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18b3e5990b391e242a71b1366d4bd3ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a18b3e5990b391e242a71b1366d4bd3ed">JUCE_DEPRECATED</a> (virtual <a class="el" href="classString.html">String</a> getParameterLabel(int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const)</td></tr>
+<tr class="memitem:a18b3e5990b391e242a71b1366d4bd3ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a18b3e5990b391e242a71b1366d4bd3ed">JUCE_DEPRECATED</a> (virtual <a class="el" href="classString.html">String</a> getParameterLabel(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35">index</a>) const)</td></tr>
 <tr class="memdesc:a18b3e5990b391e242a71b1366d4bd3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some plugin types may be able to return a label string for a parameter's units.  <a href="#a18b3e5990b391e242a71b1366d4bd3ed">More...</a><br/></td></tr>
 <tr class="separator:a18b3e5990b391e242a71b1366d4bd3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38bdc4d3190338bef0b2c3b07274dc77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a38bdc4d3190338bef0b2c3b07274dc77">JUCE_DEPRECATED</a> (virtual bool isParameterOrientationInverted(int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>) const)</td></tr>
+<tr class="memitem:a38bdc4d3190338bef0b2c3b07274dc77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a38bdc4d3190338bef0b2c3b07274dc77">JUCE_DEPRECATED</a> (virtual bool isParameterOrientationInverted(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35">index</a>) const)</td></tr>
 <tr class="memdesc:a38bdc4d3190338bef0b2c3b07274dc77"><td class="mdescLeft">&#160;</td><td class="mdescRight">This can be overridden to tell the host that particular parameters operate in the reverse direction.  <a href="#a38bdc4d3190338bef0b2c3b07274dc77">More...</a><br/></td></tr>
 <tr class="separator:a38bdc4d3190338bef0b2c3b07274dc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a3a6d20544a1d227f2fd6060897e9ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6a3a6d20544a1d227f2fd6060897e9ea">JUCE_DEPRECATED</a> (virtual void setParameter(int parameterIndex, float newValue))</td></tr>
+<tr class="memitem:a6a3a6d20544a1d227f2fd6060897e9ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6a3a6d20544a1d227f2fd6060897e9ea">JUCE_DEPRECATED</a> (virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> setParameter(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex, float newValue))</td></tr>
 <tr class="memdesc:a6a3a6d20544a1d227f2fd6060897e9ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method to change the value of one of the processor's parameters.  <a href="#a6a3a6d20544a1d227f2fd6060897e9ea">More...</a><br/></td></tr>
 <tr class="separator:a6a3a6d20544a1d227f2fd6060897e9ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab09a26934acb4d7fe3f71448aeb80f18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab09a26934acb4d7fe3f71448aeb80f18">setParameterNotifyingHost</a> (int parameterIndex, float newValue)</td></tr>
+<tr class="memitem:ab09a26934acb4d7fe3f71448aeb80f18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab09a26934acb4d7fe3f71448aeb80f18">setParameterNotifyingHost</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex, float newValue)</td></tr>
 <tr class="memdesc:ab09a26934acb4d7fe3f71448aeb80f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Your processor can call this when it needs to change one of its parameters.  <a href="#ab09a26934acb4d7fe3f71448aeb80f18">More...</a><br/></td></tr>
 <tr class="separator:ab09a26934acb4d7fe3f71448aeb80f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7b9a53c8e902c02b1c41391e46b201f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aa7b9a53c8e902c02b1c41391e46b201f">JUCE_DEPRECATED</a> (virtual bool isParameterAutomatable(int parameterIndex) const)</td></tr>
+<tr class="memitem:aa7b9a53c8e902c02b1c41391e46b201f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aa7b9a53c8e902c02b1c41391e46b201f">JUCE_DEPRECATED</a> (virtual bool isParameterAutomatable(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex) const)</td></tr>
 <tr class="memdesc:aa7b9a53c8e902c02b1c41391e46b201f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the host can automate this parameter.  <a href="#aa7b9a53c8e902c02b1c41391e46b201f">More...</a><br/></td></tr>
 <tr class="separator:aa7b9a53c8e902c02b1c41391e46b201f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62ec0ba00d518e72d7fe34d891772aea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a62ec0ba00d518e72d7fe34d891772aea">JUCE_DEPRECATED</a> (virtual bool isMetaParameter(int parameterIndex) const)</td></tr>
+<tr class="memitem:a62ec0ba00d518e72d7fe34d891772aea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a62ec0ba00d518e72d7fe34d891772aea">JUCE_DEPRECATED</a> (virtual bool isMetaParameter(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex) const)</td></tr>
 <tr class="memdesc:a62ec0ba00d518e72d7fe34d891772aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should return true if this parameter is a "meta" parameter.  <a href="#a62ec0ba00d518e72d7fe34d891772aea">More...</a><br/></td></tr>
 <tr class="separator:a62ec0ba00d518e72d7fe34d891772aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2f059a3987bd801a6836aabf35f01c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae2f059a3987bd801a6836aabf35f01c3">JUCE_DEPRECATED</a> (virtual <a class="el" href="classAudioProcessorParameter.html#aef73dff71cb1abfdadd5b6f3649d7db2">AudioProcessorParameter::Category</a> getParameterCategory(int parameterIndex) const)</td></tr>
+<tr class="memitem:ae2f059a3987bd801a6836aabf35f01c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae2f059a3987bd801a6836aabf35f01c3">JUCE_DEPRECATED</a> (virtual <a class="el" href="classAudioProcessorParameter.html#aef73dff71cb1abfdadd5b6f3649d7db2">AudioProcessorParameter::Category</a> getParameterCategory(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex) const)</td></tr>
 <tr class="memdesc:ae2f059a3987bd801a6836aabf35f01c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should return the parameter's category.  <a href="#ae2f059a3987bd801a6836aabf35f01c3">More...</a><br/></td></tr>
 <tr class="separator:ae2f059a3987bd801a6836aabf35f01c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b36656a1831b2e65e009d36f73c4349"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5b36656a1831b2e65e009d36f73c4349">JUCE_DEPRECATED</a> (void beginParameterChangeGesture(int parameterIndex))</td></tr>
+<tr class="memitem:a5b36656a1831b2e65e009d36f73c4349"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5b36656a1831b2e65e009d36f73c4349">JUCE_DEPRECATED</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> beginParameterChangeGesture(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex))</td></tr>
 <tr class="memdesc:a5b36656a1831b2e65e009d36f73c4349"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a signal to the host to tell it that the user is about to start changing this parameter.  <a href="#a5b36656a1831b2e65e009d36f73c4349">More...</a><br/></td></tr>
 <tr class="separator:a5b36656a1831b2e65e009d36f73c4349"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ba290e8aadb46a9ad1691c139329d9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0ba290e8aadb46a9ad1691c139329d9b">JUCE_DEPRECATED</a> (void endParameterChangeGesture(int parameterIndex))</td></tr>
+<tr class="memitem:a0ba290e8aadb46a9ad1691c139329d9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0ba290e8aadb46a9ad1691c139329d9b">JUCE_DEPRECATED</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> endParameterChangeGesture(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex))</td></tr>
 <tr class="memdesc:a0ba290e8aadb46a9ad1691c139329d9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the host that the user has finished changing this parameter.  <a href="#a0ba290e8aadb46a9ad1691c139329d9b">More...</a><br/></td></tr>
 <tr class="separator:a0ba290e8aadb46a9ad1691c139329d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab53b860c69380cb34e466b60a3bce3f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab53b860c69380cb34e466b60a3bce3f2">updateHostDisplay</a> ()</td></tr>
+<tr class="memitem:ab53b860c69380cb34e466b60a3bce3f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab53b860c69380cb34e466b60a3bce3f2">updateHostDisplay</a> ()</td></tr>
 <tr class="memdesc:ab53b860c69380cb34e466b60a3bce3f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The processor can call this when something (apart from a parameter value) has changed.  <a href="#ab53b860c69380cb34e466b60a3bce3f2">More...</a><br/></td></tr>
 <tr class="separator:ab53b860c69380cb34e466b60a3bce3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae686ddf13e3e8f6008cb7b4c41704aba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae686ddf13e3e8f6008cb7b4c41704aba">addParameter</a> (<a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> *)</td></tr>
+<tr class="memitem:ae686ddf13e3e8f6008cb7b4c41704aba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae686ddf13e3e8f6008cb7b4c41704aba">addParameter</a> (<a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> *)</td></tr>
 <tr class="memdesc:ae686ddf13e3e8f6008cb7b4c41704aba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a parameter to the list.  <a href="#ae686ddf13e3e8f6008cb7b4c41704aba">More...</a><br/></td></tr>
 <tr class="separator:ae686ddf13e3e8f6008cb7b4c41704aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cc35c3439f44d55ca068d1144a3bea7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOwnedArray.html">OwnedArray</a><br class="typebreak"/>
 &lt; <a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a1cc35c3439f44d55ca068d1144a3bea7">getParameters</a> () const noexcept</td></tr>
 <tr class="memdesc:a1cc35c3439f44d55ca068d1144a3bea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current list of parameters.  <a href="#a1cc35c3439f44d55ca068d1144a3bea7">More...</a><br/></td></tr>
 <tr class="separator:a1cc35c3439f44d55ca068d1144a3bea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a510123768a99f32ff4a23d0458e15e13"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a510123768a99f32ff4a23d0458e15e13">getNumPrograms</a> ()=0</td></tr>
+<tr class="memitem:a510123768a99f32ff4a23d0458e15e13"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a510123768a99f32ff4a23d0458e15e13">getNumPrograms</a> ()=0</td></tr>
 <tr class="memdesc:a510123768a99f32ff4a23d0458e15e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of preset programs the processor supports.  <a href="#a510123768a99f32ff4a23d0458e15e13">More...</a><br/></td></tr>
 <tr class="separator:a510123768a99f32ff4a23d0458e15e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac111282810f1e9ddb057e1267fa0bd79"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac111282810f1e9ddb057e1267fa0bd79">getCurrentProgram</a> ()=0</td></tr>
+<tr class="memitem:ac111282810f1e9ddb057e1267fa0bd79"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ac111282810f1e9ddb057e1267fa0bd79">getCurrentProgram</a> ()=0</td></tr>
 <tr class="memdesc:ac111282810f1e9ddb057e1267fa0bd79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of the currently active program.  <a href="#ac111282810f1e9ddb057e1267fa0bd79">More...</a><br/></td></tr>
 <tr class="separator:ac111282810f1e9ddb057e1267fa0bd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafe9fab0a94b6bb23cecdbb67851f206"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aafe9fab0a94b6bb23cecdbb67851f206">setCurrentProgram</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>)=0</td></tr>
+<tr class="memitem:aafe9fab0a94b6bb23cecdbb67851f206"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aafe9fab0a94b6bb23cecdbb67851f206">setCurrentProgram</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35">index</a>)=0</td></tr>
 <tr class="memdesc:aafe9fab0a94b6bb23cecdbb67851f206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to change the current program.  <a href="#aafe9fab0a94b6bb23cecdbb67851f206">More...</a><br/></td></tr>
 <tr class="separator:aafe9fab0a94b6bb23cecdbb67851f206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0facfc9ed31fb3d2948ceac7ae89d87"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af0facfc9ed31fb3d2948ceac7ae89d87">getProgramName</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>)=0</td></tr>
+<tr class="memitem:af0facfc9ed31fb3d2948ceac7ae89d87"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af0facfc9ed31fb3d2948ceac7ae89d87">getProgramName</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35">index</a>)=0</td></tr>
 <tr class="memdesc:af0facfc9ed31fb3d2948ceac7ae89d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must return the name of a given program.  <a href="#af0facfc9ed31fb3d2948ceac7ae89d87">More...</a><br/></td></tr>
 <tr class="separator:af0facfc9ed31fb3d2948ceac7ae89d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd5bd7b594fbc1a385f7a8b31c7b3f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#accd5bd7b594fbc1a385f7a8b31c7b3f3">changeProgramName</a> (int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>, const <a class="el" href="classString.html">String</a> &amp;newName)=0</td></tr>
+<tr class="memitem:accd5bd7b594fbc1a385f7a8b31c7b3f3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#accd5bd7b594fbc1a385f7a8b31c7b3f3">changeProgramName</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35">index</a>, const <a class="el" href="classString.html">String</a> &amp;newName)=0</td></tr>
 <tr class="memdesc:accd5bd7b594fbc1a385f7a8b31c7b3f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the host to rename a program.  <a href="#accd5bd7b594fbc1a385f7a8b31c7b3f3">More...</a><br/></td></tr>
 <tr class="separator:accd5bd7b594fbc1a385f7a8b31c7b3f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d79591b367a7c0516e4ef4d1d6c32b2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2">getStateInformation</a> (juce::MemoryBlock &amp;destData)=0</td></tr>
+<tr class="memitem:a5d79591b367a7c0516e4ef4d1d6c32b2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2">getStateInformation</a> (juce::MemoryBlock &amp;destData)=0</td></tr>
 <tr class="memdesc:a5d79591b367a7c0516e4ef4d1d6c32b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method when it wants to save the processor's internal state.  <a href="#a5d79591b367a7c0516e4ef4d1d6c32b2">More...</a><br/></td></tr>
 <tr class="separator:a5d79591b367a7c0516e4ef4d1d6c32b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8f9774ef205e4b19174f2de7664928f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aa8f9774ef205e4b19174f2de7664928f">getCurrentProgramStateInformation</a> (juce::MemoryBlock &amp;destData)</td></tr>
+<tr class="memitem:aa8f9774ef205e4b19174f2de7664928f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#aa8f9774ef205e4b19174f2de7664928f">getCurrentProgramStateInformation</a> (juce::MemoryBlock &amp;destData)</td></tr>
 <tr class="memdesc:aa8f9774ef205e4b19174f2de7664928f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method if it wants to save the state of just the processor's current program.  <a href="#aa8f9774ef205e4b19174f2de7664928f">More...</a><br/></td></tr>
 <tr class="separator:aa8f9774ef205e4b19174f2de7664928f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6154837fea67c594a9b35c487894df27"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6154837fea67c594a9b35c487894df27">setStateInformation</a> (const void *data, int sizeInBytes)=0</td></tr>
+<tr class="memitem:a6154837fea67c594a9b35c487894df27"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6154837fea67c594a9b35c487894df27">setStateInformation</a> (const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *data, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> sizeInBytes)=0</td></tr>
 <tr class="memdesc:a6154837fea67c594a9b35c487894df27"><td class="mdescLeft">&#160;</td><td class="mdescRight">This must restore the processor's state from a block of data previously created using <a class="el" href="classAudioProcessor.html#a5d79591b367a7c0516e4ef4d1d6c32b2" title="The host will call this method when it wants to save the processor&#39;s internal state. ">getStateInformation()</a>.  <a href="#a6154837fea67c594a9b35c487894df27">More...</a><br/></td></tr>
 <tr class="separator:a6154837fea67c594a9b35c487894df27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade2c2df3606218b0f9fa1a3a376440a5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ade2c2df3606218b0f9fa1a3a376440a5">setCurrentProgramStateInformation</a> (const void *data, int sizeInBytes)</td></tr>
+<tr class="memitem:ade2c2df3606218b0f9fa1a3a376440a5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ade2c2df3606218b0f9fa1a3a376440a5">setCurrentProgramStateInformation</a> (const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *data, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> sizeInBytes)</td></tr>
 <tr class="memdesc:ade2c2df3606218b0f9fa1a3a376440a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The host will call this method if it wants to restore the state of just the processor's current program.  <a href="#ade2c2df3606218b0f9fa1a3a376440a5">More...</a><br/></td></tr>
 <tr class="separator:ade2c2df3606218b0f9fa1a3a376440a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb83690e0bdce0710f54b28c020e8e04"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#adb83690e0bdce0710f54b28c020e8e04">numChannelsChanged</a> ()</td></tr>
+<tr class="memitem:adb83690e0bdce0710f54b28c020e8e04"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#adb83690e0bdce0710f54b28c020e8e04">numChannelsChanged</a> ()</td></tr>
 <tr class="memdesc:adb83690e0bdce0710f54b28c020e8e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when the total number of input or output channels is changed.  <a href="#adb83690e0bdce0710f54b28c020e8e04">More...</a><br/></td></tr>
 <tr class="separator:adb83690e0bdce0710f54b28c020e8e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdca26c33ae737c3a824b455f136a23d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#acdca26c33ae737c3a824b455f136a23d">numBusesChanged</a> ()</td></tr>
+<tr class="memitem:acdca26c33ae737c3a824b455f136a23d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#acdca26c33ae737c3a824b455f136a23d">numBusesChanged</a> ()</td></tr>
 <tr class="memdesc:acdca26c33ae737c3a824b455f136a23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when the number of buses is changed.  <a href="#acdca26c33ae737c3a824b455f136a23d">More...</a><br/></td></tr>
 <tr class="separator:acdca26c33ae737c3a824b455f136a23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a4ff4840a159939742b2a0f294ad28d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5a4ff4840a159939742b2a0f294ad28d">processorLayoutsChanged</a> ()</td></tr>
+<tr class="memitem:a5a4ff4840a159939742b2a0f294ad28d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a5a4ff4840a159939742b2a0f294ad28d">processorLayoutsChanged</a> ()</td></tr>
 <tr class="memdesc:a5a4ff4840a159939742b2a0f294ad28d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called when the layout of the audio processor changes.  <a href="#a5a4ff4840a159939742b2a0f294ad28d">More...</a><br/></td></tr>
 <tr class="separator:a5a4ff4840a159939742b2a0f294ad28d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b328ab99ffc5e04cc470e04ce3c11f4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3b328ab99ffc5e04cc470e04ce3c11f4">addListener</a> (<a class="el" href="classAudioProcessorListener.html">AudioProcessorListener</a> *newListener)</td></tr>
+<tr class="memitem:a3b328ab99ffc5e04cc470e04ce3c11f4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3b328ab99ffc5e04cc470e04ce3c11f4">addListener</a> (<a class="el" href="classAudioProcessorListener.html">AudioProcessorListener</a> *newListener)</td></tr>
 <tr class="memdesc:a3b328ab99ffc5e04cc470e04ce3c11f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a listener that will be called when an aspect of this processor changes.  <a href="#a3b328ab99ffc5e04cc470e04ce3c11f4">More...</a><br/></td></tr>
 <tr class="separator:a3b328ab99ffc5e04cc470e04ce3c11f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bb6996a1f0710330b0a3e426fb22866"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0bb6996a1f0710330b0a3e426fb22866">removeListener</a> (<a class="el" href="classAudioProcessorListener.html">AudioProcessorListener</a> *listenerToRemove)</td></tr>
+<tr class="memitem:a0bb6996a1f0710330b0a3e426fb22866"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a0bb6996a1f0710330b0a3e426fb22866">removeListener</a> (<a class="el" href="classAudioProcessorListener.html">AudioProcessorListener</a> *listenerToRemove)</td></tr>
 <tr class="memdesc:a0bb6996a1f0710330b0a3e426fb22866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously added listener.  <a href="#a0bb6996a1f0710330b0a3e426fb22866">More...</a><br/></td></tr>
 <tr class="separator:a0bb6996a1f0710330b0a3e426fb22866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9015f8476c07b173e3c9919b3036339d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a9015f8476c07b173e3c9919b3036339d">setPlayHead</a> (<a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *newPlayHead)</td></tr>
+<tr class="memitem:a9015f8476c07b173e3c9919b3036339d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a9015f8476c07b173e3c9919b3036339d">setPlayHead</a> (<a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *newPlayHead)</td></tr>
 <tr class="memdesc:a9015f8476c07b173e3c9919b3036339d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the processor to use this playhead object.  <a href="#a9015f8476c07b173e3c9919b3036339d">More...</a><br/></td></tr>
 <tr class="separator:a9015f8476c07b173e3c9919b3036339d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6364f81b66aaa3d772889c78cdf60b46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6364f81b66aaa3d772889c78cdf60b46">setPlayConfigDetails</a> (int numIns, int numOuts, double sampleRate, int blockSize)</td></tr>
+<tr class="memitem:a6364f81b66aaa3d772889c78cdf60b46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6364f81b66aaa3d772889c78cdf60b46">setPlayConfigDetails</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numIns, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numOuts, double sampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> blockSize)</td></tr>
 <tr class="memdesc:a6364f81b66aaa3d772889c78cdf60b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called by the processor to specify its details before being played.  <a href="#a6364f81b66aaa3d772889c78cdf60b46">More...</a><br/></td></tr>
 <tr class="separator:a6364f81b66aaa3d772889c78cdf60b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a562ba6fd88562fd42eddee5b95da489d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a562ba6fd88562fd42eddee5b95da489d">setRateAndBufferSizeDetails</a> (double sampleRate, int blockSize) noexcept</td></tr>
+<tr class="memitem:a562ba6fd88562fd42eddee5b95da489d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a562ba6fd88562fd42eddee5b95da489d">setRateAndBufferSizeDetails</a> (double sampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> blockSize) noexcept</td></tr>
 <tr class="memdesc:a562ba6fd88562fd42eddee5b95da489d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called by the processor to specify its details before being played.  <a href="#a562ba6fd88562fd42eddee5b95da489d">More...</a><br/></td></tr>
 <tr class="separator:a562ba6fd88562fd42eddee5b95da489d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e4579d11fffe39b46f618a69b46f300"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a3e4579d11fffe39b46f618a69b46f300">getAAXPluginIDForMainBusConfig</a> (const <a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;mainInputLayout, const <a class="el" href="classAudioChannelSet.html">AudioChannelSet</a> &amp;mainOutputLayout, bool idForAudioSuite) const </td></tr>
 <tr class="memdesc:a3e4579d11fffe39b46f618a69b46f300"><td class="mdescLeft">&#160;</td><td class="mdescRight">AAX plug-ins need to report a unique "plug-in id" for every audio layout configuration that your <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> supports on the main bus.  <a href="#a3e4579d11fffe39b46f618a69b46f300">More...</a><br/></td></tr>
 <tr class="separator:a3e4579d11fffe39b46f618a69b46f300"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78f4b83d4f5c8625cf1df93288142642"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a78f4b83d4f5c8625cf1df93288142642">editorBeingDeleted</a> (<a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *) noexcept</td></tr>
+<tr class="memitem:a78f4b83d4f5c8625cf1df93288142642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a78f4b83d4f5c8625cf1df93288142642">editorBeingDeleted</a> (<a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *) noexcept</td></tr>
 <tr class="memdesc:a78f4b83d4f5c8625cf1df93288142642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not for public use - this is called before deleting an editor component.  <a href="#a78f4b83d4f5c8625cf1df93288142642">More...</a><br/></td></tr>
 <tr class="separator:a78f4b83d4f5c8625cf1df93288142642"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19f07b6c13420d4b9ddb6dc0caaeac77"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a19f07b6c13420d4b9ddb6dc0caaeac77">updateTrackProperties</a> (const <a class="el" href="structAudioProcessor_1_1TrackProperties.html">TrackProperties</a> &amp;properties)</td></tr>
+<tr class="memitem:a19f07b6c13420d4b9ddb6dc0caaeac77"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a19f07b6c13420d4b9ddb6dc0caaeac77">updateTrackProperties</a> (const <a class="el" href="structAudioProcessor_1_1TrackProperties.html">TrackProperties</a> &amp;properties)</td></tr>
 <tr class="memdesc:a19f07b6c13420d4b9ddb6dc0caaeac77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> that track properties such as the track's name or colour has been changed.  <a href="#a19f07b6c13420d4b9ddb6dc0caaeac77">More...</a><br/></td></tr>
 <tr class="separator:a19f07b6c13420d4b9ddb6dc0caaeac77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -461,16 +463,16 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ade9d054d26452735f77401b05a76ce0c"><td class="memTemplParams" colspan="2">template&lt;int numLayouts&gt; </td></tr>
 <tr class="memitem:ade9d054d26452735f77401b05a76ce0c"><td class="memTemplItemLeft" align="right" valign="top">static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ade9d054d26452735f77401b05a76ce0c">containsLayout</a> (const <a class="el" href="structAudioProcessor_1_1BusesLayout.html">BusesLayout</a> &amp;layouts, const short(&amp;channelLayoutList)[numLayouts][2])</td></tr>
 <tr class="separator:ade9d054d26452735f77401b05a76ce0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39a78126e8b9abb65e4198a02ca41b7d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d">getDefaultNumParameterSteps</a> () noexcept</td></tr>
+<tr class="memitem:a39a78126e8b9abb65e4198a02ca41b7d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d">getDefaultNumParameterSteps</a> () noexcept</td></tr>
 <tr class="memdesc:a39a78126e8b9abb65e4198a02ca41b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default number of steps for a parameter.  <a href="#a39a78126e8b9abb65e4198a02ca41b7d">More...</a><br/></td></tr>
 <tr class="separator:a39a78126e8b9abb65e4198a02ca41b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
+<tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
 <tr class="memdesc:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that just converts an xml element into a binary blob.  <a href="#a6d0c1c945bebbc967d187c0f08b42c4b">More...</a><br/></td></tr>
 <tr class="separator:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af314980ac708cb8802b48317037e5b5b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af314980ac708cb8802b48317037e5b5b">getXmlFromBinary</a> (const void *data, int sizeInBytes)</td></tr>
+<tr class="memitem:af314980ac708cb8802b48317037e5b5b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#af314980ac708cb8802b48317037e5b5b">getXmlFromBinary</a> (const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *data, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> sizeInBytes)</td></tr>
 <tr class="memdesc:af314980ac708cb8802b48317037e5b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an XML element that was stored as binary with the <a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b" title="Helper function that just converts an xml element into a binary blob. ">copyXmlToBinary()</a> method.  <a href="#af314980ac708cb8802b48317037e5b5b">More...</a><br/></td></tr>
 <tr class="separator:af314980ac708cb8802b48317037e5b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a406ae17bd699349d5da8510aa8af1b"><td class="memItemLeft" align="right" valign="top">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2a406ae17bd699349d5da8510aa8af1b">setTypeOfNextNewPlugin</a> (<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>)</td></tr>
+<tr class="memitem:a2a406ae17bd699349d5da8510aa8af1b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2a406ae17bd699349d5da8510aa8af1b">setTypeOfNextNewPlugin</a> (<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>)</td></tr>
 <tr class="separator:a2a406ae17bd699349d5da8510aa8af1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -499,7 +501,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4dd0f8e893a9c295cd2b5eea2d92a6c5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a4dd0f8e893a9c295cd2b5eea2d92a6c5">canApplyBusCountChange</a> (bool isInput, bool isAddingBuses, <a class="el" href="structAudioProcessor_1_1BusProperties.html">BusProperties</a> &amp;outNewBusProperties)</td></tr>
 <tr class="memdesc:a4dd0f8e893a9c295cd2b5eea2d92a6c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to query if adding/removing buses currently possible.  <a href="#a4dd0f8e893a9c295cd2b5eea2d92a6c5">More...</a><br/></td></tr>
 <tr class="separator:a4dd0f8e893a9c295cd2b5eea2d92a6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e0e6efdce297e7ae7a9a23152c55165"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2e0e6efdce297e7ae7a9a23152c55165">sendParamChangeMessageToListeners</a> (int parameterIndex, float newValue)</td></tr>
+<tr class="memitem:a2e0e6efdce297e7ae7a9a23152c55165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2e0e6efdce297e7ae7a9a23152c55165">sendParamChangeMessageToListeners</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex, float newValue)</td></tr>
 <tr class="separator:a2e0e6efdce297e7ae7a9a23152c55165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -559,6 +561,8 @@ Protected Attributes</h2></td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2e1b21b8831ac529965abffc96223dcfa9a43d586134e1bf0ceacdd2de2defbb3"></a>wrapperType_AAX</em>&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2e1b21b8831ac529965abffc96223dcfaad6832e63028f039a818f3eed72cf06f"></a>wrapperType_Standalone</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a2e1b21b8831ac529965abffc96223dcfabaa03b05ba421764cf03d458e0e8eadc"></a>wrapperType_Unity</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -731,7 +735,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::prepareToPlay </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::prepareToPlay </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>sampleRate</em>, </td>
@@ -739,7 +743,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>maximumExpectedSamplesPerBlock</em>&#160;</td>
         </tr>
         <tr>
@@ -773,7 +777,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::releaseResources </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::releaseResources </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -800,7 +804,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::memoryWarningReceived </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::memoryWarningReceived </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -829,7 +833,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::processBlock </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::processBlock </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -881,7 +885,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::processBlock </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::processBlock </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -934,7 +938,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::processBlockBypassed </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::processBlockBypassed </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -971,7 +975,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::processBlockBypassed </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::processBlockBypassed </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -1008,7 +1012,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getBusCount </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getBusCount </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>isInput</em></td><td>)</td>
@@ -1042,7 +1046,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>busIndex</em>&#160;</td>
         </tr>
         <tr>
@@ -1079,7 +1083,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>busIndex</em>&#160;</td>
         </tr>
         <tr>
@@ -1278,7 +1282,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>busIndex</em>&#160;</td>
         </tr>
         <tr>
@@ -1312,7 +1316,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>busIndex</em>, </td>
         </tr>
         <tr>
@@ -1342,7 +1346,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getChannelCountOfBus </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getChannelCountOfBus </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>isInput</em>, </td>
@@ -1350,7 +1354,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>busIndex</em>&#160;</td>
         </tr>
         <tr>
@@ -1413,7 +1417,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getChannelIndexInProcessBlockBuffer </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getChannelIndexInProcessBlockBuffer </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>isInput</em>, </td>
@@ -1421,13 +1425,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>busIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>channelIndex</em>&#160;</td>
         </tr>
         <tr>
@@ -1456,7 +1460,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getOffsetInBusBufferForAbsoluteChannelIndex </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getOffsetInBusBufferForAbsoluteChannelIndex </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>isInput</em>, </td>
@@ -1464,13 +1468,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>absoluteChannelIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &amp;&#160;</td>
           <td class="paramname"><em>busIndex</em>&#160;</td>
         </tr>
         <tr>
@@ -1512,7 +1516,7 @@ template&lt;typename FloatType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>busIndex</em>&#160;</td>
         </tr>
         <tr>
@@ -1638,7 +1642,7 @@ template&lt;typename FloatType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::setProcessingPrecision </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setProcessingPrecision </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessor.html#a212c3670b59976559237cbf629af275f">ProcessingPrecision</a>&#160;</td>
           <td class="paramname"><em>newPrecision</em></td><td>)</td>
@@ -1695,7 +1699,7 @@ template&lt;typename FloatType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getTotalNumInputChannels </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getTotalNumInputChannels </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1722,7 +1726,7 @@ template&lt;typename FloatType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getTotalNumOutputChannels </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getTotalNumOutputChannels </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1749,7 +1753,7 @@ template&lt;typename FloatType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getMainBusNumInputChannels </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getMainBusNumInputChannels </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1774,7 +1778,7 @@ template&lt;typename FloatType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getMainBusNumOutputChannels </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getMainBusNumOutputChannels </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1937,7 +1941,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getBlockSize </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getBlockSize </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1964,7 +1968,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AudioProcessor::getLatencySamples </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getLatencySamples </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1987,9 +1991,9 @@ template&lt;int numLayouts&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::setLatencySamples </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setLatencySamples </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>newLatency</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2164,7 +2168,7 @@ template&lt;int numLayouts&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::suspendProcessing </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::suspendProcessing </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>shouldBeSuspended</em></td><td>)</td>
@@ -2224,7 +2228,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::reset </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::reset </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2307,7 +2311,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::setNonRealtime </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setNonRealtime </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>isNonRealtime</em></td><td>)</td>
@@ -2444,7 +2448,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual int &#160;</td>
+          <td class="paramtype">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &#160;</td>
           <td class="paramname"><em>getNumParameters</em>()</td><td>)</td>
           <td></td>
         </tr>
@@ -2582,7 +2586,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual int &#160;</td>
+          <td class="paramtype">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &#160;</td>
           <td class="paramname"><em>getParameterNumSteps</em>int parameterIndex</td><td>)</td>
           <td></td>
         </tr>
@@ -2607,7 +2611,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int AudioProcessor::getDefaultNumParameterSteps </td>
+          <td class="memname">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getDefaultNumParameterSteps </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2633,7 +2637,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual bool isParameterDiscrete(int parameterIndex)&#160;</td>
+          <td class="paramtype">virtual bool isParameterDiscrete(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex)&#160;</td>
           <td class="paramname"><em>const</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2675,7 +2679,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual <a class="el" href="classString.html">String</a> getParameterLabel(int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>)&#160;</td>
+          <td class="paramtype">virtual <a class="el" href="classString.html">String</a> getParameterLabel(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35">index</a>)&#160;</td>
           <td class="paramname"><em>const</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2694,7 +2698,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual bool isParameterOrientationInverted(int <a class="el" href="group__juce__audio__processors-format__types.html#gab57c9d4e7c6d9726b6ea1da3521e4792">index</a>)&#160;</td>
+          <td class="paramtype">virtual bool isParameterOrientationInverted(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga1499949ec4dbbc5290ece2ac210bba35">index</a>)&#160;</td>
           <td class="paramname"><em>const</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2714,7 +2718,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual void &#160;</td>
+          <td class="paramtype">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> &#160;</td>
           <td class="paramname"><em>setParameter</em>int parameterIndex, float newValue</td><td>)</td>
           <td></td>
         </tr>
@@ -2734,9 +2738,9 @@ template&lt;int numLayouts&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::setParameterNotifyingHost </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setParameterNotifyingHost </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>parameterIndex</em>, </td>
         </tr>
         <tr>
@@ -2767,7 +2771,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual bool isParameterAutomatable(int parameterIndex)&#160;</td>
+          <td class="paramtype">virtual bool isParameterAutomatable(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex)&#160;</td>
           <td class="paramname"><em>const</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2787,7 +2791,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual bool isMetaParameter(int parameterIndex)&#160;</td>
+          <td class="paramtype">virtual bool isMetaParameter(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex)&#160;</td>
           <td class="paramname"><em>const</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2807,7 +2811,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">virtual <a class="el" href="classAudioProcessorParameter.html#aef73dff71cb1abfdadd5b6f3649d7db2">AudioProcessorParameter::Category</a> getParameterCategory(int parameterIndex)&#160;</td>
+          <td class="paramtype">virtual <a class="el" href="classAudioProcessorParameter.html#aef73dff71cb1abfdadd5b6f3649d7db2">AudioProcessorParameter::Category</a> getParameterCategory(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> parameterIndex)&#160;</td>
           <td class="paramname"><em>const</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2827,7 +2831,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">void &#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> &#160;</td>
           <td class="paramname"><em>beginParameterChangeGesture</em>int parameterIndex</td><td>)</td>
           <td></td>
         </tr>
@@ -2848,7 +2852,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">AudioProcessor::JUCE_DEPRECATED </td>
           <td>(</td>
-          <td class="paramtype">void &#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> &#160;</td>
           <td class="paramname"><em>endParameterChangeGesture</em>int parameterIndex</td><td>)</td>
           <td></td>
         </tr>
@@ -2867,7 +2871,7 @@ template&lt;int numLayouts&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::updateHostDisplay </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::updateHostDisplay </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2885,7 +2889,7 @@ template&lt;int numLayouts&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::addParameter </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::addParameter </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessorParameter.html">AudioProcessorParameter</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -2932,7 +2936,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int AudioProcessor::getNumPrograms </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getNumPrograms </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2961,7 +2965,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int AudioProcessor::getCurrentProgram </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> AudioProcessor::getCurrentProgram </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2988,9 +2992,9 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::setCurrentProgram </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setCurrentProgram </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3018,7 +3022,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">virtual const <a class="el" href="classString.html">String</a> AudioProcessor::getProgramName </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
@@ -3044,9 +3048,9 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::changeProgramName </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::changeProgramName </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
@@ -3082,7 +3086,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::getStateInformation </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::getStateInformation </td>
           <td>(</td>
           <td class="paramtype">juce::MemoryBlock &amp;&#160;</td>
           <td class="paramname"><em>destData</em></td><td>)</td>
@@ -3114,7 +3118,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::getCurrentProgramStateInformation </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::getCurrentProgramStateInformation </td>
           <td>(</td>
           <td class="paramtype">juce::MemoryBlock &amp;&#160;</td>
           <td class="paramname"><em>destData</em></td><td>)</td>
@@ -3143,15 +3147,15 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::setStateInformation </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setStateInformation </td>
           <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>sizeInBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -3184,15 +3188,15 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::setCurrentProgramStateInformation </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setCurrentProgramStateInformation </td>
           <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>sizeInBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -3222,7 +3226,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::numChannelsChanged </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::numChannelsChanged </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -3247,7 +3251,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::numBusesChanged </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::numBusesChanged </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -3272,7 +3276,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::processorLayoutsChanged </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::processorLayoutsChanged </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -3297,7 +3301,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::addListener </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::addListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessorListener.html">AudioProcessorListener</a> *&#160;</td>
           <td class="paramname"><em>newListener</em></td><td>)</td>
@@ -3323,7 +3327,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::removeListener </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::removeListener </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessorListener.html">AudioProcessorListener</a> *&#160;</td>
           <td class="paramname"><em>listenerToRemove</em></td><td>)</td>
@@ -3349,7 +3353,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::setPlayHead </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setPlayHead </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioPlayHead.html">AudioPlayHead</a> *&#160;</td>
           <td class="paramname"><em>newPlayHead</em></td><td>)</td>
@@ -3373,15 +3377,15 @@ template&lt;int numLayouts&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::setPlayConfigDetails </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setPlayConfigDetails </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numIns</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numOuts</em>, </td>
         </tr>
         <tr>
@@ -3393,7 +3397,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>blockSize</em>&#160;</td>
         </tr>
         <tr>
@@ -3417,7 +3421,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::setRateAndBufferSizeDetails </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::setRateAndBufferSizeDetails </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>sampleRate</em>, </td>
@@ -3425,7 +3429,7 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>blockSize</em>&#160;</td>
         </tr>
         <tr>
@@ -3499,7 +3503,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::editorBeingDeleted </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::editorBeingDeleted </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessorEditor.html">AudioProcessorEditor</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -3525,7 +3529,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AudioProcessor::updateTrackProperties </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::updateTrackProperties </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structAudioProcessor_1_1TrackProperties.html">TrackProperties</a> &amp;&#160;</td>
           <td class="paramname"><em>properties</em></td><td>)</td>
@@ -3554,7 +3558,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void AudioProcessor::copyXmlToBinary </td>
+          <td class="memname">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::copyXmlToBinary </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;&#160;</td>
           <td class="paramname"><em>xml</em>, </td>
@@ -3594,13 +3598,13 @@ template&lt;int numLayouts&gt; </div>
         <tr>
           <td class="memname">static <a class="el" href="classXmlElement.html">XmlElement</a>* AudioProcessor::getXmlFromBinary </td>
           <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>sizeInBytes</em>&#160;</td>
         </tr>
         <tr>
@@ -3629,7 +3633,7 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> AudioProcessor::setTypeOfNextNewPlugin </td>
+          <td class="memname">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="group__juce__core-system.html#gaf0b3f78ca801d88a7912f4c6bbf50e58">JUCE_CALLTYPE</a> AudioProcessor::setTypeOfNextNewPlugin </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">WrapperType</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -3761,9 +3765,9 @@ template&lt;int numLayouts&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioProcessor::sendParamChangeMessageToListeners </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioProcessor::sendParamChangeMessageToListeners </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>parameterIndex</em>, </td>
         </tr>
         <tr>
@@ -3828,7 +3832,7 @@ template&lt;int numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

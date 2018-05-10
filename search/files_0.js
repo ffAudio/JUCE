@@ -510,6 +510,7 @@ var searchData=
   ['juce_5fundoableaction_2eh',['juce_UndoableAction.h',['../juce__UndoableAction_8h.html',1,'']]],
   ['juce_5fundomanager_2eh',['juce_UndoManager.h',['../juce__UndoManager_8h.html',1,'']]],
   ['juce_5funittest_2eh',['juce_UnitTest.h',['../juce__UnitTest_8h.html',1,'']]],
+  ['juce_5funityplugininterface_2eh',['juce_UnityPluginInterface.h',['../juce__UnityPluginInterface_8h.html',1,'']]],
   ['juce_5furl_2eh',['juce_URL.h',['../juce__URL_8h.html',1,'']]],
   ['juce_5furlinputsource_2eh',['juce_URLInputSource.h',['../juce__URLInputSource_8h.html',1,'']]],
   ['juce_5fuuid_2eh',['juce_Uuid.h',['../juce__Uuid_8h.html',1,'']]],

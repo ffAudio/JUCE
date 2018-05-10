@@ -110,13 +110,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a596b8244e44da37f9a8f68491f00b0ae"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbarItemFactory.html#a596b8244e44da37f9a8f68491f00b0ae">~ToolbarItemFactory</a> ()</td></tr>
 <tr class="memdesc:a596b8244e44da37f9a8f68491f00b0ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a596b8244e44da37f9a8f68491f00b0ae">More...</a><br/></td></tr>
 <tr class="separator:a596b8244e44da37f9a8f68491f00b0ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad714c2b2092438075488357417e3376f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbarItemFactory.html#ad714c2b2092438075488357417e3376f">getAllToolbarItemIds</a> (<a class="el" href="classArray.html">Array</a>&lt; int &gt; &amp;ids)=0</td></tr>
+<tr class="memitem:ad714c2b2092438075488357417e3376f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbarItemFactory.html#ad714c2b2092438075488357417e3376f">getAllToolbarItemIds</a> (<a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt; &amp;ids)=0</td></tr>
 <tr class="memdesc:ad714c2b2092438075488357417e3376f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must return a list of the IDs for all the item types that this factory can create.  <a href="#ad714c2b2092438075488357417e3376f">More...</a><br/></td></tr>
 <tr class="separator:ad714c2b2092438075488357417e3376f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a334318465c8de5333d075519f38bb0dd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbarItemFactory.html#a334318465c8de5333d075519f38bb0dd">getDefaultItemSet</a> (<a class="el" href="classArray.html">Array</a>&lt; int &gt; &amp;ids)=0</td></tr>
+<tr class="memitem:a334318465c8de5333d075519f38bb0dd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbarItemFactory.html#a334318465c8de5333d075519f38bb0dd">getDefaultItemSet</a> (<a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt; &amp;ids)=0</td></tr>
 <tr class="memdesc:a334318465c8de5333d075519f38bb0dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must return the set of items that should be added to a toolbar as its default set.  <a href="#a334318465c8de5333d075519f38bb0dd">More...</a><br/></td></tr>
 <tr class="separator:a334318465c8de5333d075519f38bb0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4ba0c68fe72142f76608b0badbb290b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbarItemFactory.html#ac4ba0c68fe72142f76608b0badbb290b">createItem</a> (int itemId)=0</td></tr>
+<tr class="memitem:ac4ba0c68fe72142f76608b0badbb290b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classToolbarItemFactory.html#ac4ba0c68fe72142f76608b0badbb290b">createItem</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> itemId)=0</td></tr>
 <tr class="memdesc:ac4ba0c68fe72142f76608b0badbb290b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must create an instance of one of the items that the factory lists in its <a class="el" href="classToolbarItemFactory.html#ad714c2b2092438075488357417e3376f" title="Must return a list of the IDs for all the item types that this factory can create. ">getAllToolbarItemIds()</a> method.  <a href="#ac4ba0c68fe72142f76608b0badbb290b">More...</a><br/></td></tr>
 <tr class="separator:ac4ba0c68fe72142f76608b0badbb290b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -202,9 +202,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void ToolbarItemFactory::getAllToolbarItemIds </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> ToolbarItemFactory::getAllToolbarItemIds </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classArray.html">Array</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>ids</em></td><td>)</td>
           <td></td>
         </tr>
@@ -233,9 +233,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void ToolbarItemFactory::getDefaultItemSet </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> ToolbarItemFactory::getDefaultItemSet </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classArray.html">Array</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>ids</em></td><td>)</td>
           <td></td>
         </tr>
@@ -263,7 +263,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual <a class="el" href="classToolbarItemComponent.html">ToolbarItemComponent</a>* ToolbarItemFactory::createItem </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>itemId</em></td><td>)</td>
           <td></td>
         </tr>
@@ -287,7 +287,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 10 2018 01:01:12 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 11 2018 01:01:08 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
