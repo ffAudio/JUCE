@@ -210,7 +210,7 @@ var searchData=
   ['floating',['floating',['../structBlockConfigManager.html#a6148f6d6cdb6f788bd6d009b40f072eeab1431d9ddac49a1469a9c9c5040e6737',1,'BlockConfigManager']]],
   ['floatingwindows',['FloatingWindows',['../classMultiDocumentPanel.html#a493599178acb0ddea50f7059faa4f8f3aa9d0aa1885d047c950adf06e10b47014',1,'MultiDocumentPanel']]],
   ['floattoint',['floatToInt',['../structlittlefoot_1_1Program.html#a696cd51fa37bde0f34e9c218f46035d5',1,'littlefoot::Program']]],
-  ['floattype',['FloatType',['../classPoint.html#a81e5862bbe44912a39cb87042bea7c5b',1,'Point']]],
+  ['floattype',['FloatType',['../classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7',1,'Point']]],
   ['floatvalue',['floatValue',['../classOSCArgument.html#a06d50d41bc6431efb38f4221eccc5809',1,'OSCArgument']]],
   ['floatvaluetomidibyte',['floatValueToMidiByte',['../classMidiMessage.html#af87c7c685ef37e1dc4163fdcf3bcd0ef',1,'MidiMessage']]],
   ['floatvectoroperations',['FloatVectorOperations',['../classFloatVectorOperations.html',1,'']]],

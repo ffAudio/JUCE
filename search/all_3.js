@@ -153,7 +153,7 @@ var searchData=
   ['dialogtitle',['dialogTitle',['../structDialogWindow_1_1LaunchOptions.html#ac9b19e68e10b4d64b2bb9c37b460afbf',1,'DialogWindow::LaunchOptions']]],
   ['dialogwindow',['DialogWindow',['../classDialogWindow.html',1,'DialogWindow'],['../classDialogWindow.html#a30c37c6a684edc50b8b63ec72ddd2793',1,'DialogWindow::DialogWindow()']]],
   ['difference_5ftype',['difference_type',['../structValueTree_1_1Iterator.html#ae31297758b4d0eb288e7e4195bad82b2',1,'ValueTree::Iterator']]],
-  ['difftype',['DiffType',['../structAtomic.html#a95dd6b1d0f96864b11c76f4da7d08ab0',1,'Atomic']]],
+  ['difftype',['DiffType',['../structAtomic.html#aaded77b60b5e3527e38034a7c72243cd',1,'Atomic']]],
   ['digitalperformer',['DigitalPerformer',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5fc16668f994993c5f9a7276cd840f4a',1,'PluginHostType']]],
   ['dimgrey',['dimgrey',['../classColours.html#a737012c7670ba25ccc7bee5ba96c3d2b',1,'Colours']]],
   ['direct',['direct',['../structApplicationCommandTarget_1_1InvocationInfo.html#a87e99a7b4b51787a40700bce2a7acc22a5da64d78c06aae22ea9c1315e99f9557',1,'ApplicationCommandTarget::InvocationInfo']]],

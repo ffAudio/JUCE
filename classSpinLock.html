@@ -96,14 +96,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a8239db74a56ce60a114cd369ed6a41f0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classGenericScopedLock.html">GenericScopedLock</a><br class="typebreak"/>
-&lt; <a class="el" href="classSpinLock.html">SpinLock</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpinLock.html#a8239db74a56ce60a114cd369ed6a41f0">ScopedLockType</a></td></tr>
-<tr class="memdesc:a8239db74a56ce60a114cd369ed6a41f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped lock to use for locking a <a class="el" href="classSpinLock.html" title="A simple spin-lock class that can be used as a simple, low-overhead mutex for uncontended situations...">SpinLock</a>.  <a href="#a8239db74a56ce60a114cd369ed6a41f0">More...</a><br/></td></tr>
-<tr class="separator:a8239db74a56ce60a114cd369ed6a41f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae531d71996d5122e0caa8a10212cf585"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classGenericScopedUnlock.html">GenericScopedUnlock</a><br class="typebreak"/>
-&lt; <a class="el" href="classSpinLock.html">SpinLock</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpinLock.html#ae531d71996d5122e0caa8a10212cf585">ScopedUnlockType</a></td></tr>
-<tr class="memdesc:ae531d71996d5122e0caa8a10212cf585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped unlocker to use with a <a class="el" href="classSpinLock.html" title="A simple spin-lock class that can be used as a simple, low-overhead mutex for uncontended situations...">SpinLock</a>.  <a href="#ae531d71996d5122e0caa8a10212cf585">More...</a><br/></td></tr>
-<tr class="separator:ae531d71996d5122e0caa8a10212cf585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa59812d716b0ec23ca34ea426c3e854d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpinLock.html#aa59812d716b0ec23ca34ea426c3e854d">ScopedLockType</a> = <a class="el" href="classGenericScopedLock.html">GenericScopedLock</a>&lt; <a class="el" href="classSpinLock.html">SpinLock</a> &gt;</td></tr>
+<tr class="memdesc:aa59812d716b0ec23ca34ea426c3e854d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped lock to use for locking a <a class="el" href="classSpinLock.html" title="A simple spin-lock class that can be used as a simple, low-overhead mutex for uncontended situations...">SpinLock</a>.  <a href="#aa59812d716b0ec23ca34ea426c3e854d">More...</a><br/></td></tr>
+<tr class="separator:aa59812d716b0ec23ca34ea426c3e854d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1225ea615f305552a2921bc8fa9148"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpinLock.html#a8d1225ea615f305552a2921bc8fa9148">ScopedUnlockType</a> = <a class="el" href="classGenericScopedUnlock.html">GenericScopedUnlock</a>&lt; <a class="el" href="classSpinLock.html">SpinLock</a> &gt;</td></tr>
+<tr class="memdesc:a8d1225ea615f305552a2921bc8fa9148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the type of scoped unlocker to use with a <a class="el" href="classSpinLock.html" title="A simple spin-lock class that can be used as a simple, low-overhead mutex for uncontended situations...">SpinLock</a>.  <a href="#a8d1225ea615f305552a2921bc8fa9148">More...</a><br/></td></tr>
+<tr class="separator:a8d1225ea615f305552a2921bc8fa9148"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -127,12 +125,12 @@ Public Member Functions</h2></td></tr>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classCriticalSection.html" title="A re-entrant mutex. ">CriticalSection</a></dd></dl>
 <p>{Core} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a8239db74a56ce60a114cd369ed6a41f0"></a>
+<a class="anchor" id="aa59812d716b0ec23ca34ea426c3e854d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classGenericScopedLock.html">GenericScopedLock</a>&lt;<a class="el" href="classSpinLock.html">SpinLock</a>&gt; <a class="el" href="classSpinLock.html#a8239db74a56ce60a114cd369ed6a41f0">SpinLock::ScopedLockType</a></td>
+          <td class="memname">using <a class="el" href="classSpinLock.html#aa59812d716b0ec23ca34ea426c3e854d">SpinLock::ScopedLockType</a> =  <a class="el" href="classGenericScopedLock.html">GenericScopedLock</a>&lt;<a class="el" href="classSpinLock.html">SpinLock</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -141,12 +139,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae531d71996d5122e0caa8a10212cf585"></a>
+<a class="anchor" id="a8d1225ea615f305552a2921bc8fa9148"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classGenericScopedUnlock.html">GenericScopedUnlock</a>&lt;<a class="el" href="classSpinLock.html">SpinLock</a>&gt; <a class="el" href="classSpinLock.html#ae531d71996d5122e0caa8a10212cf585">SpinLock::ScopedUnlockType</a></td>
+          <td class="memname">using <a class="el" href="classSpinLock.html#a8d1225ea615f305552a2921bc8fa9148">SpinLock::ScopedUnlockType</a> =  <a class="el" href="classGenericScopedUnlock.html">GenericScopedUnlock</a>&lt;<a class="el" href="classSpinLock.html">SpinLock</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -288,7 +286,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 12 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 15 2018 01:01:12 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

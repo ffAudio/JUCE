@@ -97,10 +97,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a95dd6b1d0f96864b11c76f4da7d08ab0"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
-AtomicHelpers::DiffTypeHelper<br class="typebreak"/>
-&lt; Type &gt;::Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomic.html#a95dd6b1d0f96864b11c76f4da7d08ab0">DiffType</a></td></tr>
-<tr class="separator:a95dd6b1d0f96864b11c76f4da7d08ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaded77b60b5e3527e38034a7c72243cd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomic.html#aaded77b60b5e3527e38034a7c72243cd">DiffType</a> = typename AtomicHelpers::DiffTypeHelper&lt; Type &gt;::Type</td></tr>
+<tr class="separator:aaded77b60b5e3527e38034a7c72243cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -134,10 +132,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae65e3c95cb3a1e20c101f4e50810ee72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAtomic.html">Atomic</a>&lt; Type &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomic.html#ae65e3c95cb3a1e20c101f4e50810ee72">operator=</a> (Type newValue) noexcept</td></tr>
 <tr class="memdesc:ae65e3c95cb3a1e20c101f4e50810ee72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies another value into this one (atomically).  <a href="#ae65e3c95cb3a1e20c101f4e50810ee72">More...</a><br/></td></tr>
 <tr class="separator:ae65e3c95cb3a1e20c101f4e50810ee72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a7ba896941874fb59a3f128913a3aaf"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomic.html#a4a7ba896941874fb59a3f128913a3aaf">operator+=</a> (<a class="el" href="structAtomic.html#a95dd6b1d0f96864b11c76f4da7d08ab0">DiffType</a> amountToAdd) noexcept</td></tr>
+<tr class="memitem:a4a7ba896941874fb59a3f128913a3aaf"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomic.html#a4a7ba896941874fb59a3f128913a3aaf">operator+=</a> (<a class="el" href="structAtomic.html#aaded77b60b5e3527e38034a7c72243cd">DiffType</a> amountToAdd) noexcept</td></tr>
 <tr class="memdesc:a4a7ba896941874fb59a3f128913a3aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically adds a number to this value, returning the new value.  <a href="#a4a7ba896941874fb59a3f128913a3aaf">More...</a><br/></td></tr>
 <tr class="separator:a4a7ba896941874fb59a3f128913a3aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07571339cdc9cb7b5f3e92f6e7542b14"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomic.html#a07571339cdc9cb7b5f3e92f6e7542b14">operator-=</a> (<a class="el" href="structAtomic.html#a95dd6b1d0f96864b11c76f4da7d08ab0">DiffType</a> amountToSubtract) noexcept</td></tr>
+<tr class="memitem:a07571339cdc9cb7b5f3e92f6e7542b14"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomic.html#a07571339cdc9cb7b5f3e92f6e7542b14">operator-=</a> (<a class="el" href="structAtomic.html#aaded77b60b5e3527e38034a7c72243cd">DiffType</a> amountToSubtract) noexcept</td></tr>
 <tr class="memdesc:a07571339cdc9cb7b5f3e92f6e7542b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically subtracts a number from this value, returning the new value.  <a href="#a07571339cdc9cb7b5f3e92f6e7542b14">More...</a><br/></td></tr>
 <tr class="separator:a07571339cdc9cb7b5f3e92f6e7542b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cc5a6c2e1f07cc097317fe1685819dd"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAtomic.html#a9cc5a6c2e1f07cc097317fe1685819dd">operator++</a> () noexcept</td></tr>
@@ -163,14 +161,14 @@ struct Atomic&lt; Type &gt;</h3>
 <p>A simple wrapper around std::atomic. </p>
 <p>{Core} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a95dd6b1d0f96864b11c76f4da7d08ab0"></a>
+<a class="anchor" id="aaded77b60b5e3527e38034a7c72243cd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Type&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef AtomicHelpers::DiffTypeHelper&lt;Type&gt;::Type <a class="el" href="structAtomic.html">Atomic</a>&lt; Type &gt;::<a class="el" href="structAtomic.html#a95dd6b1d0f96864b11c76f4da7d08ab0">DiffType</a></td>
+          <td class="memname">using <a class="el" href="structAtomic.html">Atomic</a>&lt; Type &gt;::<a class="el" href="structAtomic.html#aaded77b60b5e3527e38034a7c72243cd">DiffType</a> =  typename AtomicHelpers::DiffTypeHelper&lt;Type&gt;::Type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -496,7 +494,7 @@ template&lt;typename Type&gt; </div>
         <tr>
           <td class="memname">Type <a class="el" href="structAtomic.html">Atomic</a>&lt; Type &gt;::operator+= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structAtomic.html#a95dd6b1d0f96864b11c76f4da7d08ab0">DiffType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structAtomic.html#aaded77b60b5e3527e38034a7c72243cd">DiffType</a>&#160;</td>
           <td class="paramname"><em>amountToAdd</em></td><td>)</td>
           <td></td>
         </tr>
@@ -524,7 +522,7 @@ template&lt;typename Type&gt; </div>
         <tr>
           <td class="memname">Type <a class="el" href="structAtomic.html">Atomic</a>&lt; Type &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structAtomic.html#a95dd6b1d0f96864b11c76f4da7d08ab0">DiffType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structAtomic.html#aaded77b60b5e3527e38034a7c72243cd">DiffType</a>&#160;</td>
           <td class="paramname"><em>amountToSubtract</em></td><td>)</td>
           <td></td>
         </tr>
@@ -647,7 +645,7 @@ template&lt;typename Type&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 12 2018 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 15 2018 01:01:01 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

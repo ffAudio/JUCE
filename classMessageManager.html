@@ -118,7 +118,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ddde5289b71c37a3a4a4bb9d673a0de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#a0ddde5289b71c37a3a4a4bb9d673a0de">runDispatchLoopUntil</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> millisecondsToRunFor)</td></tr>
 <tr class="memdesc:a0ddde5289b71c37a3a4a4bb9d673a0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronously dispatches messages until a given time has elapsed.  <a href="#a0ddde5289b71c37a3a4a4bb9d673a0de">More...</a><br/></td></tr>
 <tr class="separator:a0ddde5289b71c37a3a4a4bb9d673a0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a554f81587d57127c9cb5be72aced11c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#a554f81587d57127c9cb5be72aced11c1">callFunctionOnMessageThread</a> (<a class="el" href="group__juce__events-messages.html#ga107bb4f42cc6661a36a13b0fad22196d">MessageCallbackFunction</a> *callback, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *userData)</td></tr>
+<tr class="memitem:a554f81587d57127c9cb5be72aced11c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#a554f81587d57127c9cb5be72aced11c1">callFunctionOnMessageThread</a> (<a class="el" href="group__juce__events-messages.html#ga28828f1e64fa5a21b2ccaf64df56b863">MessageCallbackFunction</a> *callback, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *userData)</td></tr>
 <tr class="memdesc:a554f81587d57127c9cb5be72aced11c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls a function using the message-thread.  <a href="#a554f81587d57127c9cb5be72aced11c1">More...</a><br/></td></tr>
 <tr class="separator:a554f81587d57127c9cb5be72aced11c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accd7b539b31d809c30685b3d49327322"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#accd7b539b31d809c30685b3d49327322">isThisTheMessageThread</a> () const noexcept</td></tr>
@@ -127,7 +127,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af94f78debd3b3d70acade65f50c5058e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#af94f78debd3b3d70acade65f50c5058e">setCurrentThreadAsMessageThread</a> ()</td></tr>
 <tr class="memdesc:af94f78debd3b3d70acade65f50c5058e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to tell the manager that the current thread is the one that's running the dispatch loop.  <a href="#af94f78debd3b3d70acade65f50c5058e">More...</a><br/></td></tr>
 <tr class="separator:af94f78debd3b3d70acade65f50c5058e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa64162d4d9711b2c299e66775b57f414"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">Thread::ThreadID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#aa64162d4d9711b2c299e66775b57f414">getCurrentMessageThread</a> () const noexcept</td></tr>
+<tr class="memitem:aa64162d4d9711b2c299e66775b57f414"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThread.html#adcf5808753df4373be08d38938880f65">Thread::ThreadID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#aa64162d4d9711b2c299e66775b57f414">getCurrentMessageThread</a> () const noexcept</td></tr>
 <tr class="memdesc:aa64162d4d9711b2c299e66775b57f414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ID of the current message thread, as set by <a class="el" href="classMessageManager.html#af94f78debd3b3d70acade65f50c5058e" title="Called to tell the manager that the current thread is the one that&#39;s running the dispatch loop...">setCurrentThreadAsMessageThread()</a>.  <a href="#aa64162d4d9711b2c299e66775b57f414">More...</a><br/></td></tr>
 <tr class="separator:aa64162d4d9711b2c299e66775b57f414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebd4b8896d7b6bdfa34d3cd8eb2e1777"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#aebd4b8896d7b6bdfa34d3cd8eb2e1777">currentThreadHasLockedMessageManager</a> () const noexcept</td></tr>
@@ -357,7 +357,7 @@ template&lt;typename FunctionType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>* MessageManager::callFunctionOnMessageThread </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__events-messages.html#ga107bb4f42cc6661a36a13b0fad22196d">MessageCallbackFunction</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__juce__events-messages.html#ga28828f1e64fa5a21b2ccaf64df56b863">MessageCallbackFunction</a> *&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -442,7 +442,7 @@ template&lt;typename FunctionType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classThread.html#a077e20855a3c974c2fc6f9e7caa8412c">Thread::ThreadID</a> MessageManager::getCurrentMessageThread </td>
+          <td class="memname"><a class="el" href="classThread.html#adcf5808753df4373be08d38938880f65">Thread::ThreadID</a> MessageManager::getCurrentMessageThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -565,7 +565,7 @@ template&lt;typename FunctionType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 12 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 15 2018 01:01:08 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

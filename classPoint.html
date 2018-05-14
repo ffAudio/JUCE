@@ -97,11 +97,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a81e5862bbe44912a39cb87042bea7c5b"><td class="memItemLeft" align="right" valign="top">typedef <br class="typebreak"/>
-<a class="el" href="structTypeHelpers_1_1SmallestFloatType.html">TypeHelpers::SmallestFloatType</a><br class="typebreak"/>
-&lt; ValueType &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a></td></tr>
-<tr class="memdesc:a81e5862bbe44912a39cb87042bea7c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This type will be double if the <a class="el" href="classPoint.html" title="A pair of (x, y) coordinates. ">Point</a>'s type is double, otherwise it will be float.  <a href="#a81e5862bbe44912a39cb87042bea7c5b">More...</a><br/></td></tr>
-<tr class="separator:a81e5862bbe44912a39cb87042bea7c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a615b0a2ff1a541e0ba8640d3ee6abaa7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> = typename <a class="el" href="structTypeHelpers_1_1SmallestFloatType.html">TypeHelpers::SmallestFloatType</a>&lt; ValueType &gt;::type</td></tr>
+<tr class="memdesc:a615b0a2ff1a541e0ba8640d3ee6abaa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This type will be double if the <a class="el" href="classPoint.html" title="A pair of (x, y) coordinates. ">Point</a>'s type is double, otherwise it will be float.  <a href="#a615b0a2ff1a541e0ba8640d3ee6abaa7">More...</a><br/></td></tr>
+<tr class="separator:a615b0a2ff1a541e0ba8640d3ee6abaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -183,19 +181,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4dd806b18d36cf7be8d7936bbeea4b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divides this point's coordinates by another.  <a href="#a4dd806b18d36cf7be8d7936bbeea4b2b">More...</a><br/></td></tr>
 <tr class="separator:a4dd806b18d36cf7be8d7936bbeea4b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d3bff0f3de6837ab27a694a87f89dcf"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
-<tr class="memitem:a2d3bff0f3de6837ab27a694a87f89dcf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPoint.html#a2d3bff0f3de6837ab27a694a87f89dcf">operator*</a> (<a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> multiplier) const noexcept</td></tr>
+<tr class="memitem:a2d3bff0f3de6837ab27a694a87f89dcf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPoint.html#a2d3bff0f3de6837ab27a694a87f89dcf">operator*</a> (<a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> multiplier) const noexcept</td></tr>
 <tr class="memdesc:a2d3bff0f3de6837ab27a694a87f89dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point whose coordinates are multiplied by a given scalar value.  <a href="#a2d3bff0f3de6837ab27a694a87f89dcf">More...</a><br/></td></tr>
 <tr class="separator:a2d3bff0f3de6837ab27a694a87f89dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a559487e61462863a9631a3b28482b771"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
-<tr class="memitem:a559487e61462863a9631a3b28482b771"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPoint.html#a559487e61462863a9631a3b28482b771">operator/</a> (<a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> divisor) const noexcept</td></tr>
+<tr class="memitem:a559487e61462863a9631a3b28482b771"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPoint.html#a559487e61462863a9631a3b28482b771">operator/</a> (<a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> divisor) const noexcept</td></tr>
 <tr class="memdesc:a559487e61462863a9631a3b28482b771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a point whose coordinates are divided by a given scalar value.  <a href="#a559487e61462863a9631a3b28482b771">More...</a><br/></td></tr>
 <tr class="separator:a559487e61462863a9631a3b28482b771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ee3ecc1fdeee5621207a314c7d774d"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
-<tr class="memitem:a78ee3ecc1fdeee5621207a314c7d774d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPoint.html#a78ee3ecc1fdeee5621207a314c7d774d">operator*=</a> (<a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> multiplier) noexcept</td></tr>
+<tr class="memitem:a78ee3ecc1fdeee5621207a314c7d774d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPoint.html#a78ee3ecc1fdeee5621207a314c7d774d">operator*=</a> (<a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> multiplier) noexcept</td></tr>
 <tr class="memdesc:a78ee3ecc1fdeee5621207a314c7d774d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies the point's coordinates by a scalar value.  <a href="#a78ee3ecc1fdeee5621207a314c7d774d">More...</a><br/></td></tr>
 <tr class="separator:a78ee3ecc1fdeee5621207a314c7d774d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a727d7294b7f75bea67d7ec64f5a139c0"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
-<tr class="memitem:a727d7294b7f75bea67d7ec64f5a139c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPoint.html#a727d7294b7f75bea67d7ec64f5a139c0">operator/=</a> (<a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> divisor) noexcept</td></tr>
+<tr class="memitem:a727d7294b7f75bea67d7ec64f5a139c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPoint.html#a727d7294b7f75bea67d7ec64f5a139c0">operator/=</a> (<a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> divisor) noexcept</td></tr>
 <tr class="memdesc:a727d7294b7f75bea67d7ec64f5a139c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divides the point's coordinates by a scalar value.  <a href="#a727d7294b7f75bea67d7ec64f5a139c0">More...</a><br/></td></tr>
 <tr class="separator:a727d7294b7f75bea67d7ec64f5a139c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af89f55ea9df2f2404fcc03ef33d8db63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#af89f55ea9df2f2404fcc03ef33d8db63">operator-</a> () const noexcept</td></tr>
@@ -213,19 +211,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af0beacf4989e64c291c534620744fb8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> ValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#af0beacf4989e64c291c534620744fb8b">getDistanceSquaredFrom</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
 <tr class="memdesc:af0beacf4989e64c291c534620744fb8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the straight-line distance between this point and another one.  <a href="#af0beacf4989e64c291c534620744fb8b">More...</a><br/></td></tr>
 <tr class="separator:af0beacf4989e64c291c534620744fb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92b9dfb8f5ffcb16e0c7d394feddf29c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a92b9dfb8f5ffcb16e0c7d394feddf29c">getAngleToPoint</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="memitem:a92b9dfb8f5ffcb16e0c7d394feddf29c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a92b9dfb8f5ffcb16e0c7d394feddf29c">getAngleToPoint</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
 <tr class="memdesc:a92b9dfb8f5ffcb16e0c7d394feddf29c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle from this point to another one.  <a href="#a92b9dfb8f5ffcb16e0c7d394feddf29c">More...</a><br/></td></tr>
 <tr class="separator:a92b9dfb8f5ffcb16e0c7d394feddf29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95b4c38a22f712224a6f23cd7d556580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a95b4c38a22f712224a6f23cd7d556580">rotatedAboutOrigin</a> (ValueType angleRadians) const noexcept</td></tr>
 <tr class="memdesc:a95b4c38a22f712224a6f23cd7d556580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the point that would be reached by rotating this point clockwise about the origin by the specified angle.  <a href="#a95b4c38a22f712224a6f23cd7d556580">More...</a><br/></td></tr>
 <tr class="separator:a95b4c38a22f712224a6f23cd7d556580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae33c849512104b032c4013daffaaa0d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; <a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ae33c849512104b032c4013daffaaa0d2">getPointOnCircumference</a> (float radius, float angle) const noexcept</td></tr>
+<tr class="memitem:ae33c849512104b032c4013daffaaa0d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; <a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ae33c849512104b032c4013daffaaa0d2">getPointOnCircumference</a> (float radius, float angle) const noexcept</td></tr>
 <tr class="memdesc:ae33c849512104b032c4013daffaaa0d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Taking this point to be the centre of a circle, this returns a point on its circumference.  <a href="#ae33c849512104b032c4013daffaaa0d2">More...</a><br/></td></tr>
 <tr class="separator:ae33c849512104b032c4013daffaaa0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9603bf13bd581212b0d3d13c23d4fa23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; <a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a9603bf13bd581212b0d3d13c23d4fa23">getPointOnCircumference</a> (float radiusX, float radiusY, float angle) const noexcept</td></tr>
+<tr class="memitem:a9603bf13bd581212b0d3d13c23d4fa23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoint.html">Point</a>&lt; <a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a9603bf13bd581212b0d3d13c23d4fa23">getPointOnCircumference</a> (float radiusX, float radiusY, float angle) const noexcept</td></tr>
 <tr class="memdesc:a9603bf13bd581212b0d3d13c23d4fa23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Taking this point to be the centre of an ellipse, this returns a point on its circumference.  <a href="#a9603bf13bd581212b0d3d13c23d4fa23">More...</a><br/></td></tr>
 <tr class="separator:a9603bf13bd581212b0d3d13c23d4fa23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac01c51d8e6c63b049ef848e4b686c13b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ac01c51d8e6c63b049ef848e4b686c13b">getDotProduct</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
+<tr class="memitem:ac01c51d8e6c63b049ef848e4b686c13b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#ac01c51d8e6c63b049ef848e4b686c13b">getDotProduct</a> (<a class="el" href="classPoint.html">Point</a> other) const noexcept</td></tr>
 <tr class="memdesc:ac01c51d8e6c63b049ef848e4b686c13b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot-product of two points (x1 * x2 + y1 * y2).  <a href="#ac01c51d8e6c63b049ef848e4b686c13b">More...</a><br/></td></tr>
 <tr class="separator:ac01c51d8e6c63b049ef848e4b686c13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f25a1e3e1e4217301e776cb8454a619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPoint.html#a1f25a1e3e1e4217301e776cb8454a619">applyTransform</a> (const <a class="el" href="classAffineTransform.html">AffineTransform</a> &amp;transform) noexcept</td></tr>
@@ -268,14 +266,14 @@ class Point&lt; ValueType &gt;</h3>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLine.html" title="Represents a line. ">Line</a>, <a class="el" href="classPath.html" title="A path is a sequence of lines and curves that may either form a closed shape or be open-ended...">Path</a>, <a class="el" href="classAffineTransform.html" title="Represents a 2D affine-transformation matrix. ">AffineTransform</a></dd></dl>
 <p>{<a class="el" href="classGraphics.html" title="A graphics context, used for drawing a component or image. ">Graphics</a>} </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a81e5862bbe44912a39cb87042bea7c5b"></a>
+<a class="anchor" id="a615b0a2ff1a541e0ba8640d3ee6abaa7"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="structTypeHelpers_1_1SmallestFloatType.html">TypeHelpers::SmallestFloatType</a>&lt;ValueType&gt;::type <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::<a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a></td>
+          <td class="memname">using <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::<a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> =  typename <a class="el" href="structTypeHelpers_1_1SmallestFloatType.html">TypeHelpers::SmallestFloatType</a>&lt;ValueType&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1041,7 +1039,7 @@ template&lt;typename FloatType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html">Point</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a>&#160;</td>
           <td class="paramname"><em>multiplier</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1071,7 +1069,7 @@ template&lt;typename FloatType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html">Point</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a>&#160;</td>
           <td class="paramname"><em>divisor</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1101,7 +1099,7 @@ template&lt;typename FloatType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classPoint.html">Point</a>&amp; <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a>&#160;</td>
           <td class="paramname"><em>multiplier</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1131,7 +1129,7 @@ template&lt;typename FloatType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classPoint.html">Point</a>&amp; <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::operator/= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a>&#160;</td>
           <td class="paramname"><em>divisor</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1294,7 +1292,7 @@ template&lt;typename ValueType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getAngleToPoint </td>
+          <td class="memname"><a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getAngleToPoint </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -1351,7 +1349,7 @@ template&lt;typename ValueType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPoint.html">Point</a>&lt;<a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&gt; <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getPointOnCircumference </td>
+          <td class="memname"><a class="el" href="classPoint.html">Point</a>&lt;<a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a>&gt; <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getPointOnCircumference </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>radius</em>, </td>
@@ -1396,7 +1394,7 @@ template&lt;typename ValueType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPoint.html">Point</a>&lt;<a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a>&gt; <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getPointOnCircumference </td>
+          <td class="memname"><a class="el" href="classPoint.html">Point</a>&lt;<a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a>&gt; <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getPointOnCircumference </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>radiusX</em>, </td>
@@ -1448,7 +1446,7 @@ template&lt;typename ValueType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html#a81e5862bbe44912a39cb87042bea7c5b">FloatType</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getDotProduct </td>
+          <td class="memname"><a class="el" href="group__juce__core-system.html#gaf41251c36d1579b74e6c54bf4fa5383a">JUCE_CONSTEXPR</a> <a class="el" href="classPoint.html#a615b0a2ff1a541e0ba8640d3ee6abaa7">FloatType</a> <a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;::getDotProduct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPoint.html">Point</a>&lt; ValueType &gt;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -1694,7 +1692,7 @@ template&lt;typename ValueType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 12 2018 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 15 2018 01:01:10 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

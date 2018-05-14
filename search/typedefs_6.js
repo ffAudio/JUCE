@@ -8,7 +8,7 @@ var searchData=
   ['int32',['int32',['../namespacelittlefoot.html#afc5264c0714df002ef584815c72b219e',1,'littlefoot::int32()'],['../group__juce__core-maths.html#ga9a46025711a83f0e8339c6cb2eda8426',1,'int32():&#160;juce_MathsFunctions.h']]],
   ['int64',['int64',['../group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44',1,'juce_MathsFunctions.h']]],
   ['int8',['int8',['../namespacelittlefoot.html#a0e7499324fa7198411b83aec5a9581e4',1,'littlefoot::int8()'],['../group__juce__core-maths.html#ga07fb256c1077eea7a7726e948cc8ff0e',1,'int8():&#160;juce_MathsFunctions.h']]],
-  ['itemarray',['ItemArray',['../classSelectedItemSet.html#aa3cd462d404a5449eab0f85f04a08187',1,'SelectedItemSet']]],
-  ['itemtype',['ItemType',['../classSelectedItemSet.html#adac8d78df1c308ca17aa9cbfada787fa',1,'SelectedItemSet']]],
+  ['itemarray',['ItemArray',['../classSelectedItemSet.html#a67f40ad01b47d146529311d005f36b18',1,'SelectedItemSet']]],
+  ['itemtype',['ItemType',['../classSelectedItemSet.html#a1dad4b2a3e66ffff6fcf3c69af454e7f',1,'SelectedItemSet']]],
   ['iterator_5fcategory',['iterator_category',['../structValueTree_1_1Iterator.html#aced8994f06c0dba5bb872e88fe89586c',1,'ValueTree::Iterator']]]
 ];

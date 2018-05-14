@@ -140,7 +140,7 @@ class Component::SafePointer&lt; ComponentType &gt;</h3>
 
 <p>Holds a pointer to some type of <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a>, which automatically becomes null if the component is deleted. </p>
 <p>If you're using a component which may be deleted by another event that's outside of your control, use a <a class="el" href="classComponent_1_1SafePointer.html" title="Holds a pointer to some type of Component, which automatically becomes null if the component is delet...">SafePointer</a> instead of a normal pointer to refer to it, and you can test whether it's null before using it to see if something has deleted it.</p>
-<p>The ComponentType typedef must be <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a>, or some subclass of <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a>.</p>
+<p>The ComponentType template parameter must be <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a>, or some subclass of <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a>.</p>
 <p>You may also want to use a <a class="el" href="classWeakReference.html">WeakReference&lt;Component&gt;</a> object for the same purpose. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ad6a7f801bacd0a414469ca82db229488"></a>
@@ -444,7 +444,7 @@ template&lt;class ComponentType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 12 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 15 2018 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

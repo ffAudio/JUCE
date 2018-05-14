@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['callback',['Callback',['../classRuntimePermissions.html#a6138db5251bc8067e85154b32627d1ab',1,'RuntimePermissions']]],
-  ['charpointertype',['CharPointerType',['../classString.html#a32e28d7fc3a4900c319884191d90dbf0',1,'String']]],
+  ['callback',['Callback',['../classRuntimePermissions.html#ab43b3b89ad2cb7e7f41f0fe4a4a9c2a1',1,'RuntimePermissions']]],
+  ['charpointertype',['CharPointerType',['../classString.html#ae459515a4678ba5d89502b8e2872a2a5',1,'String']]],
   ['chartype',['CharType',['../classCharPointer__ASCII.html#ab993f1d1958d6b3f6db81604c63b0e79',1,'CharPointer_ASCII::CharType()'],['../classCharPointer__UTF16.html#af197f9309d96a0052dc8d27c1d21c565',1,'CharPointer_UTF16::CharType()'],['../classCharPointer__UTF32.html#a44d4d5f362168acc699b1f575a9adda9',1,'CharPointer_UTF32::CharType()'],['../classCharPointer__UTF8.html#ab70feb5b5a84782d38cfd22f6b4198de',1,'CharPointer_UTF8::CharType()']]],
   ['cmplxops',['CmplxOps',['../structdsp_1_1SIMDRegister.html#ad133608bfbf19211f6d2b7fa26729239',1,'dsp::SIMDRegister']]],
   ['commandid',['CommandID',['../group__juce__gui__basics-commands.html#gafd69b5d28aad07b587b693925e09308b',1,'juce_ApplicationCommandID.h']]],
@@ -11,5 +11,5 @@ var searchData=
   ['connectioncount',['ConnectionCount',['../namespaceBlocksProtocol.html#a25b483d5847443ad588bef58db3390f7',1,'BlocksProtocol']]],
   ['connectorport',['ConnectorPort',['../namespaceBlocksProtocol.html#a1db5e098ab83aadeae6a82a25ed9efc8',1,'BlocksProtocol']]],
   ['controlbuttonid',['ControlButtonID',['../namespaceBlocksProtocol.html#ae36e05b552d9e30a5c1fb64be8a772c7',1,'BlocksProtocol']]],
-  ['crashhandlerfunction',['CrashHandlerFunction',['../classSystemStats.html#a3c18a082adf09730f6d425d9d4606dce',1,'SystemStats']]]
+  ['crashhandlerfunction',['CrashHandlerFunction',['../classSystemStats.html#aa4212ce484597e24e45ea605ab4e6334',1,'SystemStats']]]
 ];

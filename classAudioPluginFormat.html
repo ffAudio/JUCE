@@ -85,6 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classAudioPluginFormat-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -151,13 +152,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa7d194ad3abdad8da5e37d2557579430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the typical places to look for this kind of plugin.  <a href="#aa7d194ad3abdad8da5e37d2557579430">More...</a><br/></td></tr>
 <tr class="separator:aa7d194ad3abdad8da5e37d2557579430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a513ce1f3cde9ecfd82f43ee71baf4769"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#a513ce1f3cde9ecfd82f43ee71baf4769">PluginCreationCallback</a> = <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>(*)(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *, <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, const <a class="el" href="classString.html">String</a> &amp;)</td></tr>
+<tr class="separator:a513ce1f3cde9ecfd82f43ee71baf4769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1cba190b88451cc41cae664a72bce7d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#a1cba190b88451cc41cae664a72bce7d5">AudioPluginFormat</a> () noexcept</td></tr>
 <tr class="separator:a1cba190b88451cc41cae664a72bce7d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae20bd6e1eedb6c3b46fd49375c99f25"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#aae20bd6e1eedb6c3b46fd49375c99f25">createPluginInstance</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;, double initialSampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> initialBufferSize, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *userData, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>(*callback)(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *, <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, const <a class="el" href="classString.html">String</a> &amp;))=0</td></tr>
-<tr class="memdesc:aae20bd6e1eedb6c3b46fd49375c99f25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementors must override this function.  <a href="#aae20bd6e1eedb6c3b46fd49375c99f25">More...</a><br/></td></tr>
-<tr class="separator:aae20bd6e1eedb6c3b46fd49375c99f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b11683542f7efdbd4cf1b7551dcd33"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#a35b11683542f7efdbd4cf1b7551dcd33">createPluginInstance</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;, double initialSampleRate, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> initialBufferSize, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *userData, <a class="el" href="classAudioPluginFormat.html#a513ce1f3cde9ecfd82f43ee71baf4769">PluginCreationCallback</a>)=0</td></tr>
+<tr class="memdesc:a35b11683542f7efdbd4cf1b7551dcd33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementors must override this function.  <a href="#a35b11683542f7efdbd4cf1b7551dcd33">More...</a><br/></td></tr>
+<tr class="separator:a35b11683542f7efdbd4cf1b7551dcd33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbfbfda97cb2fd11ad368c5c45d508ed"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioPluginFormat.html#abbfbfda97cb2fd11ad368c5c45d508ed">requiresUnblockedMessageThreadDuringCreation</a> (const <a class="el" href="classPluginDescription.html">PluginDescription</a> &amp;) const noexcept=0</td></tr>
 <tr class="separator:abbfbfda97cb2fd11ad368c5c45d508ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -165,7 +171,28 @@ Protected Member Functions</h2></td></tr>
 <div class="textblock"><p>The base class for a type of plugin format, such as VST, AudioUnit, LADSPA, etc. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classAudioPluginFormatManager.html" title="This maintains a list of known AudioPluginFormats. ">AudioPluginFormatManager</a></dd></dl>
 <p>{Audio} </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a513ce1f3cde9ecfd82f43ee71baf4769"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classAudioPluginFormat.html#a513ce1f3cde9ecfd82f43ee71baf4769">AudioPluginFormat::PluginCreationCallback</a> =  <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> (*) (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>*, <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a>*, const <a class="el" href="classString.html">String</a>&amp;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a13029b260e822e954d6b33229db75d50"></a>
 <div class="memitem">
 <div class="memproto">
@@ -660,7 +687,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aae20bd6e1eedb6c3b46fd49375c99f25"></a>
+<a class="anchor" id="a35b11683542f7efdbd4cf1b7551dcd33"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -694,8 +721,8 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>(*)(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *, <a class="el" href="classAudioPluginInstance.html">AudioPluginInstance</a> *, const <a class="el" href="classString.html">String</a> &amp;)&#160;</td>
-          <td class="paramname"><em>callback</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classAudioPluginFormat.html#a513ce1f3cde9ecfd82f43ee71baf4769">PluginCreationCallback</a>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -745,7 +772,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 12 2018 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 15 2018 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
