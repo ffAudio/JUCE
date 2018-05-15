@@ -253,6 +253,7 @@ var searchData=
   ['isinterestedinfiledrag',['isInterestedInFileDrag',['../classFilenameComponent.html#a62c18fb60b1efe4913dc12e5c8da144f',1,'FilenameComponent::isInterestedInFileDrag()'],['../classFileSearchPathListComponent.html#aa3b2399586c8004e521ec1c0f5245d15',1,'FileSearchPathListComponent::isInterestedInFileDrag()'],['../classFileDragAndDropTarget.html#a44fa7f7e69dec8119c6b3a6ff9d2ddce',1,'FileDragAndDropTarget::isInterestedInFileDrag()'],['../classTreeViewItem.html#abe8b909ba44b7eac0988b2adc6257c46',1,'TreeViewItem::isInterestedInFileDrag()'],['../classTreeView.html#aef2f83d071863ec00db59450d746c3a4',1,'TreeView::isInterestedInFileDrag()']]],
   ['isinterestedintextdrag',['isInterestedInTextDrag',['../classTextDragAndDropTarget.html#a43d8905fbfba1fbf2e1fb1ab5d0c9183',1,'TextDragAndDropTarget']]],
   ['isinvisible',['isInvisible',['../classColourGradient.html#af335e4b881ef05022440d15a16f681da',1,'ColourGradient::isInvisible()'],['../classFillType.html#ae94ec364686ded07aa207a91fe33941d',1,'FillType::isInvisible()']]],
+  ['isipv4mappedaddress',['isIPv4MappedAddress',['../classIPAddress.html#a8b4bbf79d0f2a0e8f4fa3edfd0a654c2',1,'IPAddress']]],
   ['isitalic',['isItalic',['../classFont.html#a5523f05c4ae0df0375e538d8053f0679',1,'Font']]],
   ['isitemenabled',['isItemEnabled',['../classComboBox.html#a3eb9bb4e4cf8a650a21ad23e7694ef13',1,'ComboBox']]],
   ['isitemhighlighted',['isItemHighlighted',['../classPopupMenu_1_1CustomComponent.html#aba23af1d4e4160283949be9e5c196e27',1,'PopupMenu::CustomComponent']]],

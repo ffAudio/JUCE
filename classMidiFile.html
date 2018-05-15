@@ -590,6 +590,7 @@ Public Member Functions</h2></td></tr>
 <p>The timestamps of the midi events in the tracks will represent their positions in terms of midi ticks. To convert them to seconds, use the <a class="el" href="classMidiFile.html#af66c3497ec6109a9c7c1cf1f474c8b95" title="Converts the timestamp of all the midi events from midi ticks to seconds. ">convertTimestampTicksToSeconds()</a> method.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">sourceStream</td><td>the source stream </td></tr>
     <tr><td class="paramname">createMatchingNoteOffs</td><td>if true, any missing note-offs for previous note-ons will be automatically added at the end of the file by calling <a class="el" href="classMidiMessageSequence.html#a84c73c931fad6357ea81af0323109606" title="Makes sure all the note-on and note-off pairs are up-to-date. ">MidiMessageSequence::updateMatchedPairs</a> on each track.</td></tr>
   </table>
   </dd>
@@ -623,7 +624,14 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Writes the midi tracks as a standard midi file. </p>
-<p>The midiFileType value is written as the file's format type, which can be 0, 1 or 2 - see the midi file spec for more info about that. </p>
+<p>The midiFileType value is written as the file's format type, which can be 0, 1 or 2 - see the midi file spec for more info about that.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destStream</td><td>the destination stream </td></tr>
+    <tr><td class="paramname">midiFileType</td><td>the type of midi file</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the operation succeeded. </dd></dl>
 
 </div>
@@ -652,7 +660,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 01:01:08 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 16 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
