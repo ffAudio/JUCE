@@ -146,6 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa35089c7d22d3132f3dff582773e4201"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOnlineUnlockStatus.html#aa35089c7d22d3132f3dff582773e4201">userCancelled</a> ()</td></tr>
 <tr class="memdesc:aa35089c7d22d3132f3dff582773e4201"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method will be called if the user cancels the connection to the webserver by clicking the cancel button in <a class="el" href="classOnlineUnlockForm.html#a78b1c6e41fbc4198d0b1d0951fe36ac6">OnlineUnlockForm::OverlayComp</a>.  <a href="#aa35089c7d22d3132f3dff582773e4201">More...</a><br/></td></tr>
 <tr class="separator:aa35089c7d22d3132f3dff582773e4201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad056839e44209423c20b3a7897e28546"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOnlineUnlockStatus.html#ad056839e44209423c20b3a7897e28546">getMessageForConnectionFailure</a> (bool isInternetConnectionWorking)</td></tr>
+<tr class="separator:ad056839e44209423c20b3a7897e28546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad277b44d4ee4dc03fbf7faba9effc5b9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOnlineUnlockStatus.html#ad277b44d4ee4dc03fbf7faba9effc5b9">getMessageForUnexpectedReply</a> ()</td></tr>
+<tr class="separator:ad277b44d4ee4dc03fbf7faba9effc5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b8d9a3096714d32adf952c985f8aff3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvar.html">var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOnlineUnlockStatus.html#a3b8d9a3096714d32adf952c985f8aff3">isUnlocked</a> () const </td></tr>
 <tr class="memdesc:a3b8d9a3096714d32adf952c985f8aff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the product has been successfully authorised for this machine.  <a href="#a3b8d9a3096714d32adf952c985f8aff3">More...</a><br/></td></tr>
 <tr class="separator:a3b8d9a3096714d32adf952c985f8aff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -502,6 +506,53 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad056839e44209423c20b3a7897e28546"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classString.html">String</a> OnlineUnlockStatus::getMessageForConnectionFailure </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isInternetConnectionWorking</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad277b44d4ee4dc03fbf7faba9effc5b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classString.html">String</a> OnlineUnlockStatus::getMessageForUnexpectedReply </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a3b8d9a3096714d32adf952c985f8aff3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -665,7 +716,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 18 2018 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 19 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
