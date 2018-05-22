@@ -564,10 +564,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">struct </span>WeakRefMaster  : <span class="keyword">public</span> <a class="code" href="classWeakReference.html">WeakReference</a>&lt;Class&gt;::Master { ~WeakRefMaster() { this-&gt;clear(); } }; \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">struct </span>WeakRefMaster  : <span class="keyword">public</span> juce::WeakReference&lt;Class&gt;::Master { ~WeakRefMaster() { this-&gt;clear(); } }; \</div>
 <div class="line">    WeakRefMaster masterReference; \</div>
-<div class="line">    friend <span class="keyword">class </span><a class="code" href="classWeakReference.html">WeakReference</a>&lt;Class&gt;; \</div>
-<div class="ttc" id="classWeakReference_html"><div class="ttname"><a href="classWeakReference.html">WeakReference</a></div><div class="ttdoc">This class acts as a pointer which will automatically become null if the object to which it points is...</div><div class="ttdef"><b>Definition:</b> juce_WeakReference.h:80</div></div>
+<div class="line">    friend <span class="keyword">class </span>juce::WeakReference&lt;Class&gt;; \</div>
 </div><!-- fragment -->
 <p>Macro to easily allow a class to be made weak-referenceable. </p>
 <p>This can be inserted in a class definition to add the requisite weak-ref boilerplate to that class. e.g.</p>
@@ -2142,7 +2141,7 @@ template&lt;class ObjectType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 22 2018 01:01:05 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 23 2018 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

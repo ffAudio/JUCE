@@ -4,6 +4,8 @@ var searchData=
   ['x1',['x1',['../classPath_1_1Iterator.html#a0041a7b85083e9083c570b8b46a96d91',1,'Path::Iterator::x1()'],['../classPathFlatteningIterator.html#aeb4902696a4f694a69eb7c48b274b2ff',1,'PathFlatteningIterator::x1()']]],
   ['x2',['x2',['../classPath_1_1Iterator.html#a2f5da180f00bd2e9356d65b2c241d52e',1,'Path::Iterator::x2()'],['../classPathFlatteningIterator.html#a88aeb6be633806b5b6e2e8cc7172e1e0',1,'PathFlatteningIterator::x2()']]],
   ['x3',['x3',['../classPath_1_1Iterator.html#afb477336904d08b7869a536444071df0',1,'Path::Iterator']]],
+  ['xmeterid',['xMeterID',['../structAudioProcessor_1_1CurveData.html#ad735f0bc82c0d43e7c9273aca90c7712',1,'AudioProcessor::CurveData']]],
   ['xoffset',['xOffset',['../structLowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a10d46be69faae4c3c27ae95dfac5a713',1,'LowLevelGraphicsPostScriptRenderer::SavedState']]],
+  ['xrange',['xRange',['../structAudioProcessor_1_1CurveData.html#ace933174e560607efa236cb9db2383e3',1,'AudioProcessor::CurveData']]],
   ['xvelocity',['xVelocity',['../structTouchSurface_1_1Touch.html#ac21bd9597d030f2cdddd181401b5851b',1,'TouchSurface::Touch']]]
 ];

@@ -6,6 +6,8 @@ var searchData=
   ['y3',['y3',['../classPath_1_1Iterator.html#a3981516b86cfb813b61d4a737be307ea',1,'Path::Iterator']]],
   ['yellow',['yellow',['../classColours.html#a2a39e71272c998b9244bd633d0c80a6a',1,'Colours']]],
   ['yellowgreen',['yellowgreen',['../classColours.html#ad83bd255e0db333a7e66f23ab02eb492',1,'Colours']]],
+  ['ymeterid',['yMeterID',['../structAudioProcessor_1_1CurveData.html#ad35c7b5b96370a7c740a9b55d4b4a5ef',1,'AudioProcessor::CurveData']]],
   ['yoffset',['yOffset',['../structLowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a0f4d17295aea556882e47a9a8b07b9cb',1,'LowLevelGraphicsPostScriptRenderer::SavedState']]],
+  ['yrange',['yRange',['../structAudioProcessor_1_1CurveData.html#a539388eacf8fe42568f374dfd4656d7e',1,'AudioProcessor::CurveData']]],
   ['yvelocity',['yVelocity',['../structTouchSurface_1_1Touch.html#a95f9109bda88a8dc13157ec1b73eb200',1,'TouchSurface::Touch']]]
 ];

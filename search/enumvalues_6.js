@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['gainreduction',['GainReduction',['../structAudioProcessor_1_1CurveData.html#a40813f0ebb00a486ddab9f3a5ebfdcb1a301b5ee318f25aa3fc3773e07f3d6312',1,'AudioProcessor::CurveData']]],
   ['gammacorrection',['gammaCorrection',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79af18ecea5cd12662b9c91547ad38be78b',1,'BlocksProtocol']]],
   ['gate',['gate',['../group__LittleFootFunctions.html#ggaee3ea37f4f505980157cf93a84687bcba5221c03ccb4065b74a01f3c3f1d93516',1,'juce_LittleFootFunctions.dox']]],
   ['genericparameter',['genericParameter',['../classAudioProcessorParameter.html#aef73dff71cb1abfdadd5b6f3649d7db2ac86017a29081bfb3405d7d5a4ed2c370',1,'AudioProcessorParameter']]],

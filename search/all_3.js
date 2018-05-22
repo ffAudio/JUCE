@@ -341,6 +341,7 @@ var searchData=
   ['duplicateifshared',['duplicateIfShared',['../classImage.html#ad995cd253234063d22b604984e83489d',1,'Image']]],
   ['dynamiclibrary',['DynamicLibrary',['../classDynamicLibrary.html',1,'DynamicLibrary'],['../classDynamicLibrary.html#a7c6a13e65177869af7116175c7745e2e',1,'DynamicLibrary::DynamicLibrary() noexcept'],['../classDynamicLibrary.html#af9ad02ee239000e67ff664ef4b5dfe2c',1,'DynamicLibrary::DynamicLibrary(const String &amp;name)'],['../classDynamicLibrary.html#aae057a9ca2d72db6b7bae77626e88342',1,'DynamicLibrary::DynamicLibrary(DynamicLibrary &amp;&amp;other) noexcept']]],
   ['dynamicobject',['DynamicObject',['../classDynamicObject.html',1,'DynamicObject'],['../classDynamicObject.html#a50a7adf3d7d1f411ed2aa9a663bfe275',1,'DynamicObject::DynamicObject()'],['../classDynamicObject.html#afd2d04d5cb0612b22afcd6ba2a1c8f15',1,'DynamicObject::DynamicObject(const DynamicObject &amp;)']]],
+  ['dynamics',['Dynamics',['../structAudioProcessor_1_1CurveData.html#a40813f0ebb00a486ddab9f3a5ebfdcb1a405d9a69e5139b9df0df6b66e18fc9e2',1,'AudioProcessor::CurveData']]],
   ['fir',['FIR',['../namespacedsp_1_1FIR.html',1,'dsp']]],
   ['iir',['IIR',['../namespacedsp_1_1IIR.html',1,'dsp']]],
   ['destinations',['destinations',['../group__juce__analytics-destinations.html',1,'']]],

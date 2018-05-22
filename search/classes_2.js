@@ -66,6 +66,7 @@ var searchData=
   ['criticalsection',['CriticalSection',['../classCriticalSection.html',1,'']]],
   ['cubicto',['CubicTo',['../classRelativePointPath_1_1CubicTo.html',1,'RelativePointPath']]],
   ['currentpositioninfo',['CurrentPositionInfo',['../structAudioPlayHead_1_1CurrentPositionInfo.html',1,'AudioPlayHead']]],
+  ['curvedata',['CurveData',['../structAudioProcessor_1_1CurveData.html',1,'AudioProcessor']]],
   ['customcallback',['CustomCallback',['../classPopupMenu_1_1CustomCallback.html',1,'PopupMenu']]],
   ['customcomponent',['CustomComponent',['../classPopupMenu_1_1CustomComponent.html',1,'PopupMenu']]],
   ['customscanner',['CustomScanner',['../classKnownPluginList_1_1CustomScanner.html',1,'KnownPluginList']]],

@@ -69,6 +69,7 @@ var searchData=
   ['entermodalstate',['enterModalState',['../classComponent.html#a0e7be8c456a663615eb389ecd10b2c04',1,'Component']]],
   ['enterread',['enterRead',['../classReadWriteLock.html#ae69612d80a6abdccfd0f911eea78bec7',1,'ReadWriteLock']]],
   ['enterwrite',['enterWrite',['../classReadWriteLock.html#a680913272878d262ab8dff16b3b5a4e7',1,'ReadWriteLock']]],
+  ['eq',['EQ',['../structAudioProcessor_1_1CurveData.html#a40813f0ebb00a486ddab9f3a5ebfdcb1a2dcbad7477fd40561e8b8198f173bd47',1,'AudioProcessor::CurveData']]],
   ['equal',['equal',['../structdsp_1_1SIMDRegister.html#a88f7305a4c17a94e2dfea6b8516e6d9b',1,'dsp::SIMDRegister']]],
   ['equals',['equals',['../classvar.html#a5ba20895db4514964f089c4159543b20',1,'var']]],
   ['equalsignorecase',['equalsIgnoreCase',['../classString.html#aca8d661734f261887a8e60fffaf9aa97',1,'String::equalsIgnoreCase(const String &amp;other) const noexcept'],['../classString.html#a09759dcd46e393b6c0c7b34fe6b5e273',1,'String::equalsIgnoreCase(StringRef other) const noexcept'],['../classString.html#a180131623117d752e2c33d1febf2429e',1,'String::equalsIgnoreCase(const wchar_t *other) const noexcept'],['../classString.html#aaf4cf8386032038ca88b1d517893c7c2',1,'String::equalsIgnoreCase(const char *other) const noexcept']]],

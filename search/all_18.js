@@ -10,8 +10,10 @@ var searchData=
   ['yellow',['yellow',['../classColours.html#a2a39e71272c998b9244bd633d0c80a6a',1,'Colours']]],
   ['yellowgreen',['yellowgreen',['../classColours.html#ad83bd255e0db333a7e66f23ab02eb492',1,'Colours']]],
   ['yield',['yield',['../classThread.html#aaf47a344b3b715e49ffcbc6119c72cdc',1,'Thread']]],
+  ['ymeterid',['yMeterID',['../structAudioProcessor_1_1CurveData.html#ad35c7b5b96370a7c740a9b55d4b4a5ef',1,'AudioProcessor::CurveData']]],
   ['ymid',['yMid',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda8bfb9c8cceb359b4f00a9839168a7769',1,'RectanglePlacement']]],
   ['yoffset',['yOffset',['../structLowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a0f4d17295aea556882e47a9a8b07b9cb',1,'LowLevelGraphicsPostScriptRenderer::SavedState']]],
+  ['yrange',['yRange',['../structAudioProcessor_1_1CurveData.html#a539388eacf8fe42568f374dfd4656d7e',1,'AudioProcessor::CurveData']]],
   ['ytop',['yTop',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda1b650115227b059f9eb2c07ecdfcb3ad',1,'RectanglePlacement']]],
   ['ytrackingmode',['yTrackingMode',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a5cf6a269ed35c23ac805190b05ac3331',1,'BlocksProtocol']]],
   ['yvelocity',['yVelocity',['../structTouchSurface_1_1Touch.html#a95f9109bda88a8dc13157ec1b73eb200',1,'TouchSurface::Touch']]]

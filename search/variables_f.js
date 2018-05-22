@@ -37,7 +37,7 @@ var searchData=
   ['pluginholder',['pluginHolder',['../classStandaloneFilterWindow.html#abf3538ee5a7bd69830df1e538bc84df7',1,'StandaloneFilterWindow']]],
   ['pluginidentifier',['plugInIdentifier',['../structVstEffectInterface.html#aa8617cfe3bce43da592426965982a3a4',1,'VstEffectInterface']]],
   ['plugins',['plugins',['../structKnownPluginList_1_1PluginTree.html#a6e1ef3fe0e6dbfd59363889dceed0ef7',1,'KnownPluginList::PluginTree']]],
-  ['pluginversion',['pluginVersion',['../structUnityAudioEffectDefinition.html#a5f00103362964c0a16e7f59ff6f0a3ac',1,'UnityAudioEffectDefinition::pluginVersion()'],['../structVstEffectInterface.html#a809663990fb61f3872fef8fec8da28b2',1,'VstEffectInterface::plugInVersion()']]],
+  ['pluginversion',['plugInVersion',['../structVstEffectInterface.html#a809663990fb61f3872fef8fec8da28b2',1,'VstEffectInterface::plugInVersion()'],['../structUnityAudioEffectDefinition.html#a5f00103362964c0a16e7f59ff6f0a3ac',1,'UnityAudioEffectDefinition::pluginVersion()']]],
   ['plum',['plum',['../classColours.html#ac02c6bea8fac05b5c050a3ec6b4fd924',1,'Colours']]],
   ['point1',['point1',['../classColourGradient.html#ac016d8472f6ce47c16d1df1e49c39dfc',1,'ColourGradient']]],
   ['point2',['point2',['../classColourGradient.html#a218351e8768cb2f956d2186d85710787',1,'ColourGradient']]],

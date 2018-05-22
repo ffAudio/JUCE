@@ -11,6 +11,7 @@ var searchData=
   ['endofchanges',['endOfChanges',['../namespaceBlocksProtocol.html#a3ab101fceeb18db84767246616d6f770afe58ac03fa158d0d58fa623b6acc65a2',1,'BlocksProtocol']]],
   ['endofopcodes',['endOfOpcodes',['../namespacelittlefoot.html#a7007a5eb28fcc103aeeca3fe069893aaa99a126a28a372030399847823348fed8',1,'littlefoot']]],
   ['endofpacket',['endOfPacket',['../namespaceBlocksProtocol.html#a3ab101fceeb18db84767246616d6f770a3a748518a898bae90d95480762b1b691',1,'BlocksProtocol']]],
+  ['eq',['EQ',['../structAudioProcessor_1_1CurveData.html#a40813f0ebb00a486ddab9f3a5ebfdcb1a2dcbad7477fd40561e8b8198f173bd47',1,'AudioProcessor::CurveData']]],
   ['error',['error',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886aa4af9a2a9584b57c0ca2b4ad893d03bb',1,'PushNotifications::Notification']]],
   ['evenitemscolourid',['evenItemsColourId',['../classTreeView.html#abeebe6dbdc6ae466495aabc64eb51d6aa5a4f2c34d4e792ee21c085596555b069',1,'TreeView']]],
   ['event',['event',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886a31a9db0d6875ae3b384b17b3f7a82152',1,'PushNotifications::Notification']]],

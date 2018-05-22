@@ -1100,6 +1100,7 @@ var searchData=
   ['getrenderingscale',['getRenderingScale',['../classOpenGLContext.html#a5ae7fe1aa47448f75ef67f89cd9db798',1,'OpenGLContext']]],
   ['getrequestheaders',['getRequestHeaders',['../classWebInputStream.html#a5316dbb6216b75a25020515bb846130b',1,'WebInputStream']]],
   ['getresamplingratio',['getResamplingRatio',['../classResamplingAudioSource.html#af868951e30847cecd5f0729cecab722c',1,'ResamplingAudioSource']]],
+  ['getresponsecurve',['getResponseCurve',['../classAudioProcessor.html#ab595e71ca9fa95555c40c160c8511209',1,'AudioProcessor']]],
   ['getresponseheaders',['getResponseHeaders',['../classWebInputStream.html#a0ee598b0627aacd5c63050e54c8fbf93',1,'WebInputStream']]],
   ['getresult',['getResult',['../classUnitTestRunner.html#a391b1ac857c5d74e7e917fcafb669b14',1,'UnitTestRunner::getResult()'],['../classFileChooser.html#a83beadbc2806f8c8945d672af96fc671',1,'FileChooser::getResult()']]],
   ['getresults',['getResults',['../classFileChooser.html#ad3301a62424e3505628edd132eaf540b',1,'FileChooser']]],

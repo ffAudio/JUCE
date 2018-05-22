@@ -38,5 +38,6 @@ var searchData=
   ['downwards',['downwards',['../classPopupMenu_1_1Options.html#a1bcdbc585618aba656891d7bd7e65b79aa61ef46a530622e0e4397e30c0e99174',1,'PopupMenu::Options']]],
   ['draganddropindicatorcolourid',['dragAndDropIndicatorColourId',['../classTreeView.html#abeebe6dbdc6ae466495aabc64eb51d6aad580cdecf3960d0d68904675383bb2ec',1,'TreeView']]],
   ['draggable',['draggable',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831acc6c3bf14f3e100d490d1e9cd307e1fe',1,'TableHeaderComponent']]],
-  ['dragginghandcursor',['DraggingHandCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a95198e14e2dede840964e9bd4c785770',1,'MouseCursor']]]
+  ['dragginghandcursor',['DraggingHandCursor',['../classMouseCursor.html#a5de22a8c3eb06827ac11352e76eb9a97a95198e14e2dede840964e9bd4c785770',1,'MouseCursor']]],
+  ['dynamics',['Dynamics',['../structAudioProcessor_1_1CurveData.html#a40813f0ebb00a486ddab9f3a5ebfdcb1a405d9a69e5139b9df0df6b66e18fc9e2',1,'AudioProcessor::CurveData']]]
 ];
