@@ -493,7 +493,7 @@ template&lt;typename SampleType &gt; </div>
 </div><div class="memdoc">
 
 <p>The coefficients of the <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter. </p>
-<p>It's up to the called to ensure that these coefficients are modified in a thread-safe way.</p>
+<p>It's up to the caller to ensure that these coefficients are modified in a thread-safe way.</p>
 <p>If you change the order of the coefficients then you must call reset after modifying them. </p>
 
 <p>Referenced by <a class="el" href="structdsp_1_1IIR_1_1Coefficients.html#ac1ba0c6e5b1e2cafda9bacc61f855fb6">dsp::IIR::Coefficients&lt; NumericType &gt;::getRawCoefficients()</a>.</p>
@@ -506,7 +506,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 24 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 25 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
