@@ -411,6 +411,7 @@ var searchData=
   ['isseaboardblock',['isSeaboardBlock',['../structBlocksProtocol_1_1BlockSerialNumber.html#a534d1a9f26ba1d6d36c33db5c2b22b26',1,'BlocksProtocol::BlockSerialNumber']]],
   ['issectionopen',['isSectionOpen',['../classPropertyPanel.html#a1e6203d3944d38363567f171e79eb4d7',1,'PropertyPanel']]],
   ['isselected',['isSelected',['../classSelectedItemSet.html#a431e7bbc3d316e1822596563b49adc73',1,'SelectedItemSet::isSelected()'],['../classTreeViewItem.html#a96351e2c95b73bf170b8818774a63cf6',1,'TreeViewItem::isSelected()']]],
+  ['issequoia',['isSequoia',['../classPluginHostType.html#af9445561f1728951bca95334613806e1',1,'PluginHostType']]],
   ['isshiftdown',['isShiftDown',['../classModifierKeys.html#afd9f4558046eccad2c3a3366c6bcf6b0',1,'ModifierKeys']]],
   ['isshortcut',['isShortcut',['../classFile.html#a652df87a6aa3f8385e97895c5b2cfdbd',1,'File']]],
   ['isshowing',['isShowing',['../classComponent.html#acbbdd1274a2d0e9447e42c7ee7753dfe',1,'Component']]],
