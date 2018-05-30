@@ -217,6 +217,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6a0b23e3dede1999ab56aa2942182fd4"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseEvent.html#a6a0b23e3dede1999ab56aa2942182fd4">tiltY</a></td></tr>
 <tr class="memdesc:a6a0b23e3dede1999ab56aa2942182fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tilt of the pen device along the y-axis between -1.0 and 1.0.  <a href="#a6a0b23e3dede1999ab56aa2942182fd4">More...</a><br/></td></tr>
 <tr class="separator:a6a0b23e3dede1999ab56aa2942182fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ecebbf07c64ba115ebbe116df6635a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classPoint.html">Point</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseEvent.html#af1ecebbf07c64ba115ebbe116df6635a">mouseDownPosition</a></td></tr>
+<tr class="memdesc:af1ecebbf07c64ba115ebbe116df6635a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The coordinates of the last place that a mouse button was pressed.  <a href="#af1ecebbf07c64ba115ebbe116df6635a">More...</a><br/></td></tr>
+<tr class="separator:af1ecebbf07c64ba115ebbe116df6635a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33c37dc970ab4c24e9e5b2c33e568d9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classComponent.html">Component</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMouseEvent.html#a33c37dc970ab4c24e9e5b2c33e568d9e">eventComponent</a></td></tr>
 <tr class="memdesc:a33c37dc970ab4c24e9e5b2c33e568d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The component that this event applies to.  <a href="#a33c37dc970ab4c24e9e5b2c33e568d9e">More...</a><br/></td></tr>
 <tr class="separator:a33c37dc970ab4c24e9e5b2c33e568d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -475,8 +478,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the coordinates of the last place that a mouse was pressed. </p>
-<p>The coordinates are relative to the component specified in MouseEvent::component. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMouseEvent.html#afff96c10c810ab1cf5bc21b4e1b232c4" title="Returns the straight-line distance between where the mouse is now and where it was the last time the ...">getDistanceFromDragStart</a>, <a class="el" href="classMouseEvent.html#ae6d2098fdcf0c124ebd68fdcdb926c33" title="Returns the difference between the mouse&#39;s current x position and where it was when the button was la...">getDistanceFromDragStartX</a>, <a class="el" href="classMouseEvent.html#a969a94328cd97f0ffdaf04e6f0d8301d" title="Returns true if the user seems to be performing a drag gesture. ">mouseWasDraggedSinceMouseDown</a> </dd></dl>
+<p>The coordinates are relative to the component specified in MouseEvent::component. For a floating point version of this value, see mouseDownPosition. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMouseEvent.html#af1ecebbf07c64ba115ebbe116df6635a" title="The coordinates of the last place that a mouse button was pressed. ">mouseDownPosition</a>, <a class="el" href="classMouseEvent.html#afff96c10c810ab1cf5bc21b4e1b232c4" title="Returns the straight-line distance between where the mouse is now and where it was the last time the ...">getDistanceFromDragStart</a>, <a class="el" href="classMouseEvent.html#ae6d2098fdcf0c124ebd68fdcdb926c33" title="Returns the difference between the mouse&#39;s current x position and where it was when the button was la...">getDistanceFromDragStartX</a>, <a class="el" href="classMouseEvent.html#a969a94328cd97f0ffdaf04e6f0d8301d" title="Returns true if the user seems to be performing a drag gesture. ">mouseWasDraggedSinceMouseDown</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classLassoComponent.html#af9d043865ee8f7db2989e7200d13dfd2">LassoComponent&lt; SelectableItemType &gt;::beginLasso()</a>.</p>
 
@@ -1215,6 +1218,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af1ecebbf07c64ba115ebbe116df6635a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classPoint.html">Point</a>&lt;float&gt; MouseEvent::mouseDownPosition</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The coordinates of the last place that a mouse button was pressed. </p>
+<p>The coordinates are relative to the component specified in MouseEvent::component. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMouseEvent.html#afff96c10c810ab1cf5bc21b4e1b232c4" title="Returns the straight-line distance between where the mouse is now and where it was the last time the ...">getDistanceFromDragStart</a>, <a class="el" href="classMouseEvent.html#ae6d2098fdcf0c124ebd68fdcdb926c33" title="Returns the difference between the mouse&#39;s current x position and where it was when the button was la...">getDistanceFromDragStartX</a>, <a class="el" href="classMouseEvent.html#a969a94328cd97f0ffdaf04e6f0d8301d" title="Returns true if the user seems to be performing a drag gesture. ">mouseWasDraggedSinceMouseDown</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a33c37dc970ab4c24e9e5b2c33e568d9e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1297,7 +1316,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 30 2018 01:01:16 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 31 2018 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
