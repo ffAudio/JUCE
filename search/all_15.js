@@ -80,6 +80,7 @@ var searchData=
   ['vsteffectflaginplaceaudio',['vstEffectFlagInplaceAudio',['../group__juce__audio__processors-format__types.html#gga5b9075cb1c502b45ea05a52c32a3c4c5a0b2198d58a23bbae5a10d25834049688',1,'juce_VSTInterface.h']]],
   ['vsteffectflaginplacedoubleaudio',['vstEffectFlagInplaceDoubleAudio',['../group__juce__audio__processors-format__types.html#gga5b9075cb1c502b45ea05a52c32a3c4c5a9dc06351a430483f79240951749a3ef0',1,'juce_VSTInterface.h']]],
   ['vsteffectflagissynth',['vstEffectFlagIsSynth',['../group__juce__audio__processors-format__types.html#gga5b9075cb1c502b45ea05a52c32a3c4c5a47d3432b7bb364913960f3f68eff40e2',1,'juce_VSTInterface.h']]],
+  ['vsteffectflagsilenceinproducessilenceout',['vstEffectFlagSilenceInProducesSilenceOut',['../group__juce__audio__processors-format__types.html#gga5b9075cb1c502b45ea05a52c32a3c4c5ab04c61e6f7a121c9ff714205661d04ec',1,'juce_VSTInterface.h']]],
   ['vsteffectinterface',['VstEffectInterface',['../structVstEffectInterface.html',1,'']]],
   ['vsteffectinterfaceflags',['VstEffectInterfaceFlags',['../group__juce__audio__processors-format__types.html#ga5b9075cb1c502b45ea05a52c32a3c4c5',1,'juce_VSTInterface.h']]],
   ['vstevent',['VstEvent',['../structVstEvent.html',1,'']]],
