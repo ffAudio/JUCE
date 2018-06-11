@@ -1,7 +1,7 @@
 var searchData=
 [
   ['r2',['R2',['../structdsp_1_1StateVariableFilter_1_1Parameters.html#a57dd35d631ff6bbca4b35de08e9180bf',1,'dsp::StateVariableFilter::Parameters']]],
-  ['radius',['radius',['../structVstIndividualSpeakerInfo.html#a87356e6e9f3144fb7cb38f946adbd283',1,'VstIndividualSpeakerInfo::radius()'],['../structDropShadow.html#a96cbbc37579f9a2627f342a7dc6be568',1,'DropShadow::radius()']]],
+  ['radius',['radius',['../structDropShadow.html#a96cbbc37579f9a2627f342a7dc6be568',1,'DropShadow']]],
   ['range',['range',['../classAudioParameterFloat.html#a7e860466dbc1319bc064cd6e7db382e3',1,'AudioParameterFloat::range()'],['../structBlock_1_1ConfigMetaData.html#a5e83f923a89ddf03a301efe06016c7ea',1,'Block::ConfigMetaData::range()'],['../classAttributedString_1_1Attribute.html#ab35a1ef10e233d3d0125b01baf4e086e',1,'AttributedString::Attribute::range()']]],
   ['rebeccapurple',['rebeccapurple',['../classColours.html#a35bf91e32f4916e966a47f3ad4ee3098',1,'Colours']]],
   ['red',['red',['../classColours.html#a5056e7857f2bc211569dfc89512244dd',1,'Colours']]],
@@ -9,7 +9,6 @@ var searchData=
   ['registerbutton',['registerButton',['../classOnlineUnlockForm.html#a2a7d3a1f454b97beebf84bc5ffd23939',1,'OnlineUnlockForm']]],
   ['release',['release',['../structUnityAudioEffectDefinition.html#a4d5d4ab625948bd04778dcb9ca6cc7bb',1,'UnityAudioEffectDefinition']]],
   ['repeat',['repeat',['../structPushNotifications_1_1Notification.html#a81062603230e4597d678e19ddb3a3ef0',1,'PushNotifications::Notification']]],
-  ['reserved',['reserved',['../structVstIndividualSpeakerInfo.html#a9451b4d87ce65d899f8df62cdf1b2f87',1,'VstIndividualSpeakerInfo']]],
   ['reset',['reset',['../structUnityAudioEffectDefinition.html#ac61fba3aba34d06885506c907f0a400c',1,'UnityAudioEffectDefinition']]],
   ['resizable',['resizable',['../structDialogWindow_1_1LaunchOptions.html#a07bc81d41581d3d5bc1d05be03a5b4b6',1,'DialogWindow::LaunchOptions']]],
   ['resizableborder',['resizableBorder',['../classResizableWindow.html#a0335c618114e0f4a6c90f25daf6a297a',1,'ResizableWindow']]],
@@ -101,7 +100,6 @@ var searchData=
   ['riffinfoyear',['riffInfoYear',['../classWavAudioFormat.html#a1e987faff09ae874c16120dcd0d13634',1,'WavAudioFormat']]],
   ['right',['right',['../structFlexItem_1_1Margin.html#a162fe662f55f930a611297e2b85c56ad',1,'FlexItem::Margin::right()'],['../structGridItem_1_1Margin.html#a1927cd4daf44c5e5dde06b73c0ab5427',1,'GridItem::Margin::right()'],['../structRelativeCoordinate_1_1Strings.html#a39fa56a500b153b8bf66a8eaa56d72cf',1,'RelativeCoordinate::Strings::right()'],['../classRelativeRectangle.html#aa5d7a81e56ebaa8101aa23d43e652dd2',1,'RelativeRectangle::right()']]],
   ['rightkey',['rightKey',['../classKeyPress.html#aff89b4c5876819968ff83a6c6ee15416',1,'KeyPress']]],
-  ['rightmost',['rightmost',['../structVstEditorBounds.html#a45a396041a5c49b89d1b6f3f1a6a0b35',1,'VstEditorBounds']]],
   ['roomsize',['roomSize',['../structReverb_1_1Parameters.html#a31a5e2e56f91cb29e902e045960218a8',1,'Reverb::Parameters']]],
   ['rosybrown',['rosybrown',['../classColours.html#ac80422785f2552e8738a6b450f335dfa',1,'Colours']]],
   ['rotation',['rotation',['../classMouseEvent.html#a3a3b74f77f12503d059d8f0495a8237d',1,'MouseEvent::rotation()'],['../structPenDetails.html#a7856c25b7bfa1da8e9b9e86eb202b098',1,'PenDetails::rotation()']]],

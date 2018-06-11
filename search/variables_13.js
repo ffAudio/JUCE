@@ -7,9 +7,7 @@ var searchData=
   ['unit',['unit',['../structUnityAudioParameterDefinition.html#a86df51f1c0f515784998a8b0cd3b3a1a',1,'UnityAudioParameterDefinition']]],
   ['unittestname',['unitTestName',['../structUnitTestRunner_1_1TestResult.html#a5bbfc3f70ca29c0b836dfc9325a328df',1,'UnitTestRunner::TestResult']]],
   ['unknownbyte',['unknownByte',['../structlittlefoot_1_1LittleFootRemoteHeap.html#a3c7a038f4e3d7f213421041602941efb',1,'littlefoot::LittleFootRemoteHeap']]],
-  ['unused',['unused',['../structVstPinInfo.html#adaddbb5da52dd0e4bb8618c1621a5618',1,'VstPinInfo::unused()'],['../structVstIndividualSpeakerInfo.html#a54c14102662e7043a03cebdde5ff6e07',1,'VstIndividualSpeakerInfo::unused()']]],
   ['upkey',['upKey',['../classKeyPress.html#a97fcf796ea92d9ff3818ee17cdbafa80',1,'KeyPress']]],
-  ['upper',['upper',['../structVstEditorBounds.html#a0ece2187154a72bf0299b1555dfe4d3d',1,'VstEditorBounds']]],
   ['urltolaunch',['urlToLaunch',['../structOnlineUnlockStatus_1_1UnlockResult.html#ad402e350afcbd8e2bb4e2e18339b4656',1,'OnlineUnlockStatus::UnlockResult']]],
   ['usebottomrightcornerresizer',['useBottomRightCornerResizer',['../structDialogWindow_1_1LaunchOptions.html#af76a62b12b7dd7e42d6e8374462b5906',1,'DialogWindow::LaunchOptions']]],
   ['usedefaultinputchannels',['useDefaultInputChannels',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#af4ee7e75cc152be926202c6a7a822d0c',1,'AudioDeviceManager::AudioDeviceSetup']]],
@@ -18,7 +16,6 @@ var searchData=
   ['userarea',['userArea',['../structDesktop_1_1Displays_1_1Display.html#a7b9601b6a4c7de297099ff4e3b8651ec',1,'Desktop::Displays::Display']]],
   ['userdata',['userData',['../classImagePixelData.html#a881fd3f8939e4994ca95c052b27221ae',1,'ImagePixelData']]],
   ['userid',['userID',['../structAnalyticsDestination_1_1AnalyticsEvent.html#a2d253f17697dfb4471a71e9bddc29a36',1,'AnalyticsDestination::AnalyticsEvent']]],
-  ['userpointer',['userPointer',['../structVstEffectInterface.html#a7db1b0348d65cac7c855963c954e1d16',1,'VstEffectInterface']]],
   ['userproperties',['userProperties',['../structAnalyticsDestination_1_1AnalyticsEvent.html#afcea7cedd0ebe96dfd29c7848429fcb4',1,'AnalyticsDestination::AnalyticsEvent']]],
   ['usesfloatingpointdata',['usesFloatingPointData',['../classAudioFormatReader.html#aed5e9ba760d519f110c18053d6adba7a',1,'AudioFormatReader::usesFloatingPointData()'],['../classAudioFormatWriter.html#a876800b982bbe25e583633d3876a9a02',1,'AudioFormatWriter::usesFloatingPointData()']]],
   ['usesnonzerowinding',['usesNonZeroWinding',['../classRelativePointPath.html#a31bd56da083920346e1f0742bd77ae8b',1,'RelativePointPath']]]

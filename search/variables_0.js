@@ -59,6 +59,5 @@ var searchData=
   ['autorows',['autoRows',['../classGrid.html#a79c7bfbb5bab511a2b950f8f4d33ba5c',1,'Grid']]],
   ['autovalue',['autoValue',['../classFlexItem.html#af32603bdf7f814f6d73a999b54a34df6',1,'FlexItem']]],
   ['averageseconds',['averageSeconds',['../structPerformanceCounter_1_1Statistics.html#a1ddbe61fd1a766973cc19d9c3432a4c6',1,'PerformanceCounter::Statistics']]],
-  ['azimuthalangle',['azimuthalAngle',['../structVstIndividualSpeakerInfo.html#ae47451a4fda66a5045ebe000741538a1',1,'VstIndividualSpeakerInfo']]],
   ['azure',['azure',['../classColours.html#a5171f883b75e70b30df3b3b1746a8521',1,'Colours']]]
 ];

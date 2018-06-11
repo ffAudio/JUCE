@@ -25,17 +25,5 @@ var searchData=
   ['khaki',['khaki',['../classColours.html#a3dbd6496fffe6448949acef248ddb3f6',1,'Colours']]],
   ['kill',['kill',['../classChildProcess.html#a524fd75e18a0aa94a8518ce49432413c',1,'ChildProcess']]],
   ['killslaveprocess',['killSlaveProcess',['../classChildProcessMaster.html#a24cc02de67be6dd5e976c2e1c35cddba',1,'ChildProcessMaster']]],
-  ['knownpluginlist',['KnownPluginList',['../classKnownPluginList.html',1,'KnownPluginList'],['../classKnownPluginList.html#a9e42fc0a1b1819ad21a734f6380fb1a9',1,'KnownPluginList::KnownPluginList()']]],
-  ['kplugcateganalysis',['kPlugCategAnalysis',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a33016aaefb7b6266b64b2acc6fe1a34b',1,'juce_VSTInterface.h']]],
-  ['kplugcategeffect',['kPlugCategEffect',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350ad31c1e5f938ce881dc149ac8c7f5d0e1',1,'juce_VSTInterface.h']]],
-  ['kplugcateggenerator',['kPlugCategGenerator',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a1a7eea5992983435ec8eea75ff64852e',1,'juce_VSTInterface.h']]],
-  ['kplugcategmastering',['kPlugCategMastering',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a94fd16a74e18d9d47203f6a479fc1381',1,'juce_VSTInterface.h']]],
-  ['kplugcategofflineprocess',['kPlugCategOfflineProcess',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a3bfdcabf75000a902695888b25504882',1,'juce_VSTInterface.h']]],
-  ['kplugcategrestoration',['kPlugCategRestoration',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a32af4edcd7dd80d832dc1000831c92b0',1,'juce_VSTInterface.h']]],
-  ['kplugcategroomfx',['kPlugCategRoomFx',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a711e84a2175350783f1da5449bb3b397',1,'juce_VSTInterface.h']]],
-  ['kplugcategshell',['kPlugCategShell',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350aad2d74f002fcefac31672a74bd49ab9e',1,'juce_VSTInterface.h']]],
-  ['kplugcategspacializer',['kPlugCategSpacializer',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350adda0ce5dce0bad9d156fcf9c23b0fe09',1,'juce_VSTInterface.h']]],
-  ['kplugcategsynth',['kPlugCategSynth',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a2e4415d5c0fae72d77cbf4bd2f30b42a',1,'juce_VSTInterface.h']]],
-  ['kplugcategunknown',['kPlugCategUnknown',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a85df4fc40b4433f5bcba1d6d44dce8b7',1,'juce_VSTInterface.h']]],
-  ['kplugsurroundfx',['kPlugSurroundFx',['../group__juce__audio__processors-format__types.html#gga7974383465a8572f07241d700c239350a32ea191b214606731d1d25419691a118',1,'juce_VSTInterface.h']]]
+  ['knownpluginlist',['KnownPluginList',['../classKnownPluginList.html',1,'KnownPluginList'],['../classKnownPluginList.html#a9e42fc0a1b1819ad21a734f6380fb1a9',1,'KnownPluginList::KnownPluginList()']]]
 ];

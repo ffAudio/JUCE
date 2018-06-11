@@ -47,7 +47,7 @@ var searchData=
   ['filltype',['fillType',['../structDrumPadGridProgram_1_1GridFill.html#a4ee0f13cd4b8f02d3e909d681a24194b',1,'DrumPadGridProgram::GridFill::fillType()'],['../structLowLevelGraphicsPostScriptRenderer_1_1SavedState.html#a36435de04c6937319a263ddbf37d3f2c',1,'LowLevelGraphicsPostScriptRenderer::SavedState::fillType()']]],
   ['finished',['finished',['../classURL_1_1DownloadTask.html#a99b0e4e086ff23726eb1bf0dcfab1529',1,'URL::DownloadTask']]],
   ['firebrick',['firebrick',['../classColours.html#a42927144796d42794fb69b30dce33e1e',1,'Colours']]],
-  ['flags',['flags',['../structUnityAudioEffectState.html#ad287b43b4b2f37421865fd27dd92e7dd',1,'UnityAudioEffectState::flags()'],['../structUnityAudioEffectDefinition.html#ac76c32fa8fced8713f5fa347de95b20c',1,'UnityAudioEffectDefinition::flags()'],['../structVstEffectInterface.html#acf39955cbc73a3284e2e2612c7f2b66b',1,'VstEffectInterface::flags()'],['../structVstPinInfo.html#a2cd0223c872fe00b11150eeb3e2b2bbf',1,'VstPinInfo::flags()'],['../structVstEvent.html#a1f96fd8c5dedbee89eccfe2ab090e322',1,'VstEvent::flags()'],['../structVstMidiEvent.html#aa8b3e36cfd5a1ad6746b56d3d93bc778',1,'VstMidiEvent::flags()'],['../structVstSysExEvent.html#a08ea1e5531fc269c6380e7baffc48ede',1,'VstSysExEvent::flags()'],['../structVstTimingInformation.html#a01c20f1f17aac71cdc137e09e839f506',1,'VstTimingInformation::flags()'],['../structApplicationCommandInfo.html#a45fa351a09f7a6df3e76fe466c476905',1,'ApplicationCommandInfo::flags()']]],
+  ['flags',['flags',['../structUnityAudioEffectState.html#ad287b43b4b2f37421865fd27dd92e7dd',1,'UnityAudioEffectState::flags()'],['../structUnityAudioEffectDefinition.html#ac76c32fa8fced8713f5fa347de95b20c',1,'UnityAudioEffectDefinition::flags()'],['../structApplicationCommandInfo.html#a45fa351a09f7a6df3e76fe466c476905',1,'ApplicationCommandInfo::flags()']]],
   ['flexbasis',['flexBasis',['../classFlexItem.html#a893ec8b92e7bb576da0f8637f51686f6',1,'FlexItem']]],
   ['flexdirection',['flexDirection',['../classFlexBox.html#a6fff1e86d4ae97ed4a0dd5face653914',1,'FlexBox']]],
   ['flexgrow',['flexGrow',['../classFlexItem.html#ae2ac46ab80a5a81da22d6f4a2f0debe1',1,'FlexItem']]],
@@ -67,9 +67,5 @@ var searchData=
   ['fuchsia',['fuchsia',['../classColours.html#a612e521b7168865f48fc7d1612658a79',1,'Colours']]],
   ['function',['function',['../structlittlefoot_1_1NativeFunction.html#a4ebe99d811a2ee3d15d50736cdf53067',1,'littlefoot::NativeFunction']]],
   ['functionid',['functionID',['../structlittlefoot_1_1NativeFunction.html#a94166672b2671d4aefabcd86d18c0fe6',1,'littlefoot::NativeFunction']]],
-  ['functiontouse',['functionToUse',['../structdsp_1_1WaveShaper.html#ab24e80dd88150137f5814f689c900bb6',1,'dsp::WaveShaper']]],
-  ['future',['future',['../structVstEventBlock.html#a71a259f1468b61bbfa138510304d1be7',1,'VstEventBlock']]],
-  ['future1',['future1',['../structVstMidiEvent.html#a33dabf8e63280ca400793f9055fc54a7',1,'VstMidiEvent::future1()'],['../structVstSysExEvent.html#acb2a7f8415b2b777c293524db2ef1f9f',1,'VstSysExEvent::future1()']]],
-  ['future2',['future2',['../structVstMidiEvent.html#adce10c803df5bf44c7c11bca398b728b',1,'VstMidiEvent::future2()'],['../structVstSysExEvent.html#a9f6497897ac4298969a84c081a6740d9',1,'VstSysExEvent::future2()']]],
-  ['fxid',['fxID',['../structvst2FxBank.html#a74716a728d6f893dd8b54b52b19ef573',1,'vst2FxBank']]]
+  ['functiontouse',['functionToUse',['../structdsp_1_1WaveShaper.html#ab24e80dd88150137f5814f689c900bb6',1,'dsp::WaveShaper']]]
 ];

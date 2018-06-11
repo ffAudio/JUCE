@@ -1,7 +1,6 @@
 var searchData=
 [
   ['offset',['offset',['../structDropShadow.html#af2c204224ab00ac6614f1b67701ca68a',1,'DropShadow']]],
-  ['offsetsamples',['offsetSamples',['../structVstSysExEvent.html#ad43001265f82b57361b5fb09630e1fb7',1,'VstSysExEvent']]],
   ['offstrings',['offStrings',['../structAudioPluginInstance_1_1Parameter.html#aa15644551082e07bdd156102b40fca93',1,'AudioPluginInstance::Parameter']]],
   ['oldlace',['oldlace',['../classColours.html#a8854bc208ff4c18d1359d48061801eed',1,'Colours']]],
   ['olive',['olive',['../classColours.html#afa863de7d2e3c645092e981ef4b47349',1,'Colours']]],
@@ -28,9 +27,7 @@ var searchData=
   ['onstrings',['onStrings',['../structAudioPluginInstance_1_1Parameter.html#a9f9ff69400be85259a5c3cac40639de0',1,'AudioPluginInstance::Parameter']]],
   ['ontextchange',['onTextChange',['../classLabel.html#a5ba80ea5ea965a001e2eacf75fc0314b',1,'Label::onTextChange()'],['../classTextEditor.html#a26a5f4afddb5fee9801bf6951b7e7ae9',1,'TextEditor::onTextChange()']]],
   ['onvaluechange',['onValueChange',['../classSlider.html#a680d007f6a824a28a60aa05b4045e794',1,'Slider']]],
-  ['op',['op',['../structVstEffectInterface.html#ae9e2049d1a535490eab468bf76f2fb6a',1,'VstEffectInterface']]],
   ['openglcontext',['openGLContext',['../classOpenGLAppComponent.html#a1237b3326c1c7c571107548d4fc20cf8',1,'OpenGLAppComponent']]],
-  ['opt',['opt',['../structVstEffectInterface.html#a36e28751deaa1754063cc51e631e2ceb',1,'VstEffectInterface']]],
   ['optionnames',['optionNames',['../structBlock_1_1ConfigMetaData.html#a817279cab678fd75cc69ff7dfd1dfcee',1,'Block::ConfigMetaData::optionNames()'],['../structBlockConfigManager_1_1ConfigDescription.html#a85c7efdd2b251618a1a482662a4454f2',1,'BlockConfigManager::ConfigDescription::optionNames()']]],
   ['options',['options',['../classStandalonePluginHolder.html#adbe5c58af4d4d9b47d32b5bdc6009bb1',1,'StandalonePluginHolder']]],
   ['orange',['orange',['../classColours.html#a8c31c34f70dbdc0cad0f7cddf6cdb59a',1,'Colours']]],
@@ -49,7 +46,6 @@ var searchData=
   ['outputchannels',['outputChannels',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#ab95916f70e697107288dc0c44af25aab',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['outputdevicename',['outputDeviceName',['../structAudioDeviceManager_1_1AudioDeviceSetup.html#a5112cd247e403671a6977344c6764e7d',1,'AudioDeviceManager::AudioDeviceSetup']]],
   ['outputlayouts',['outputLayouts',['../structAudioProcessor_1_1BusesProperties.html#ad62c87a7502481e0b70cc7cebfd9b04d',1,'AudioProcessor::BusesProperties']]],
-  ['outputs',['outputs',['../structVstEffectInterface.html#a5ebc70cc07762f8d4c8dfb4763bf544a',1,'VstEffectInterface::outputs()'],['../structVstEffectInterface.html#a1aca16208f4fa4da97dfb37b2b50e665',1,'VstEffectInterface::outputs()']]],
   ['overlappixels',['overlapPixels',['../classTabBarButton.html#a8eb442941d7072f18f85769824e03ef2',1,'TabBarButton']]],
   ['owner',['owner',['../classTabBarButton.html#a67052f9de125edd4a5c5c4976076a798',1,'TabBarButton']]]
 ];

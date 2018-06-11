@@ -1,15 +1,13 @@
 var searchData=
 [
-  ['label',['label',['../structVstIndividualSpeakerInfo.html#aaf088212bd7f1ca3b8698bfd2d4416a4',1,'VstIndividualSpeakerInfo::label()'],['../classAudioProcessorParameterWithID.html#ac9e5aa7e602b64e78fda51972375579c',1,'AudioProcessorParameterWithID::label()']]],
+  ['label',['label',['../classAudioProcessorParameterWithID.html#ac9e5aa7e602b64e78fda51972375579c',1,'AudioProcessorParameterWithID']]],
   ['largeicon',['largeIcon',['../structPushNotifications_1_1Notification.html#a1f30657fcbd578a112f9e63a0dae1cc4',1,'PushNotifications::Notification']]],
-  ['lastbarposition',['lastBarPosition',['../structVstTimingInformation.html#afab85f86fc6584df2d8eccda001187de',1,'VstTimingInformation']]],
   ['lastcolour',['lastColour',['../classLowLevelGraphicsPostScriptRenderer.html#af380fa0611c3ca97a4cb2925a228bbd6',1,'LowLevelGraphicsPostScriptRenderer']]],
   ['lastfilemodtime',['lastFileModTime',['../classPluginDescription.html#aa7143b1df0c657008ab9f3f196e63471',1,'PluginDescription']]],
   ['lastinfoupdatetime',['lastInfoUpdateTime',['../classPluginDescription.html#a62b03da7c6d39e8b509561d11d98acbc',1,'PluginDescription']]],
   ['lastmididevices',['lastMidiDevices',['../classStandalonePluginHolder.html#a6495b714b1b911b9352da94e282efa2d',1,'StandalonePluginHolder']]],
   ['lastnonfullscreenbounds',['lastNonFullscreenBounds',['../classComponentPeer.html#a2aee1a16331876b88555838cd75caeda',1,'ComponentPeer']]],
   ['lastpitchwheelvalues',['lastPitchWheelValues',['../classSynthesiser.html#acceafe04420ce625e025e4a73c370ce4',1,'Synthesiser']]],
-  ['latency',['latency',['../structVstEffectInterface.html#a03fb3be11cc3416b382eb092dbdada37',1,'VstEffectInterface']]],
   ['lavender',['lavender',['../classColours.html#a42bdd3828e3e453f1aacd8e129d7ba4c',1,'Colours']]],
   ['lavenderblush',['lavenderblush',['../classColours.html#a189b1d3e8c5a8f324de759efc8325496',1,'Colours']]],
   ['lawngreen',['lawngreen',['../classColours.html#a1f203cbbc3766ae11fcd53fda4eb4812',1,'Colours']]],
@@ -18,7 +16,6 @@ var searchData=
   ['ledcolour',['ledColour',['../structPushNotifications_1_1Notification.html#a6427676124e2e97efb9f8018079ccbdf',1,'PushNotifications::Notification::ledColour()'],['../structPushNotifications_1_1Channel.html#a75aa06184218712129d1646ed0715ef8',1,'PushNotifications::Channel::ledColour()']]],
   ['left',['left',['../structFlexItem_1_1Margin.html#a7db889eb288018455d37a9da2591a354',1,'FlexItem::Margin::left()'],['../structGridItem_1_1Margin.html#acb841b98450819da9e9bb81b3d9e0a5a',1,'GridItem::Margin::left()'],['../structRelativeCoordinate_1_1Strings.html#ad3b2d7198a43883ea4c4b64f44e0faf5',1,'RelativeCoordinate::Strings::left()'],['../classRelativeRectangle.html#a4418206ad8d8830d55d37a3bdefbe085',1,'RelativeRectangle::left()']]],
   ['leftkey',['leftKey',['../classKeyPress.html#ad2961244072158eee77e11844a968f61',1,'KeyPress']]],
-  ['leftmost',['leftmost',['../structVstEditorBounds.html#a624bc315686fb475aa3faa3c5ac6a6fb',1,'VstEditorBounds']]],
   ['lemonchiffon',['lemonchiffon',['../classColours.html#aac8ef45b16855e5990afa7efca9a19cf',1,'Colours']]],
   ['length',['length',['../structBlocksProtocol_1_1VersionNumber.html#acc14d2d67d92816c373d86b4a52b61a5',1,'BlocksProtocol::VersionNumber::length()'],['../structBlocksProtocol_1_1BlockName.html#a8c00b7c3a57749197f6cb01e29028f80',1,'BlocksProtocol::BlockName::length()'],['../structTextDiff_1_1Change.html#a82c0c693885a3e9c43d5e3f88b4175a8',1,'TextDiff::Change::length()']]],
   ['lengthinsamples',['lengthInSamples',['../classAudioFormatReader.html#af7373fd7e45ed1f026647fc8671e997f',1,'AudioFormatReader']]],
@@ -45,8 +42,5 @@ var searchData=
   ['localonly',['localOnly',['../structPushNotifications_1_1Notification.html#acffc0eaaec0cd229ac2328378d05f0e7',1,'PushNotifications::Notification']]],
   ['localposition',['localPosition',['../classDragAndDropTarget_1_1SourceDetails.html#ae56f0216335992ae66fdfacc3f4c6837',1,'DragAndDropTarget::SourceDetails']]],
   ['lock',['lock',['../classMPEInstrument.html#ad41d0a0ff109319ceab4a72ebca7187e',1,'MPEInstrument::lock()'],['../classSynthesiser.html#ab55f2810b6455736110264625a25c4a6',1,'Synthesiser::lock()']]],
-  ['lockscreenappearance',['lockScreenAppearance',['../structPushNotifications_1_1Notification.html#a496fd9b5f5de92aa7784549ab1f4813d',1,'PushNotifications::Notification::lockScreenAppearance()'],['../structPushNotifications_1_1Channel.html#a837c6ee545c60591bfc2c925e110be26',1,'PushNotifications::Channel::lockScreenAppearance()']]],
-  ['loopendposition',['loopEndPosition',['../structVstTimingInformation.html#a7d557ffa000284960dd44ae590a42164',1,'VstTimingInformation']]],
-  ['loopstartposition',['loopStartPosition',['../structVstTimingInformation.html#adb7114e1e3e246c6e657197ab55e76d9',1,'VstTimingInformation']]],
-  ['lower',['lower',['../structVstEditorBounds.html#a2f1d473a71ed05bd4ba02c14b31bc389',1,'VstEditorBounds']]]
+  ['lockscreenappearance',['lockScreenAppearance',['../structPushNotifications_1_1Notification.html#a496fd9b5f5de92aa7784549ab1f4813d',1,'PushNotifications::Notification::lockScreenAppearance()'],['../structPushNotifications_1_1Channel.html#a837c6ee545c60591bfc2c925e110be26',1,'PushNotifications::Channel::lockScreenAppearance()']]]
 ];

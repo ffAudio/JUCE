@@ -26,8 +26,6 @@ var searchData=
   ['macosx_5f10_5f8',['MacOSX_10_8',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaa61eb1fabeb6408094768af66ae88b877',1,'SystemStats']]],
   ['macosx_5f10_5f9',['MacOSX_10_9',['../classSystemStats.html#a7697c468b5f6c391096ab483690b68eaac277e46154ed3bb3ad5c8564dc81aa7a',1,'SystemStats']]],
   ['magenta',['magenta',['../classColours.html#a9a33de3ccb10690341256154909b390e',1,'Colours']]],
-  ['magic1',['magic1',['../structvst2FxBank.html#a1507ff6147264a164ebadff48f014e4a',1,'vst2FxBank']]],
-  ['magic2',['magic2',['../structvst2FxBank.html#ae65b5edd336d0d90813716dc5ab0ac80',1,'vst2FxBank']]],
   ['magixsamplitude',['MagixSamplitude',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a93ac4b1eea045db98d9ab7fbcd7207c0',1,'PluginHostType']]],
   ['magixsequoia',['MagixSequoia',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a9da9fe17e2ad06ea1def33a43e6cd821',1,'PluginHostType']]],
   ['makeactive',['makeActive',['../classOpenGLContext.html#a318c8cc5821b9b2b2a9f726c623385f8',1,'OpenGLContext']]],
@@ -162,7 +160,6 @@ var searchData=
   ['midichannelmetaevent',['midiChannelMetaEvent',['../classMidiMessage.html#afd3fc870ce448791ea794d858062435a',1,'MidiMessage']]],
   ['midiclock',['midiClock',['../classMidiMessage.html#ab5cd973a73b82153aea0329933a37306',1,'MidiMessage']]],
   ['midicontinue',['midiContinue',['../classMidiMessage.html#a2596bded93cb7d3d196ece8a7dee2d9b',1,'MidiMessage']]],
-  ['mididata',['midiData',['../structVstMidiEvent.html#a41ed861e773854a165eff6cfcdfd046b',1,'VstMidiEvent']]],
   ['mididatabase64',['midiDataBase64',['../classCoreAudioFormat.html#a6a78852cc234c7fc83ab18c92662feb6',1,'CoreAudioFormat']]],
   ['midiendchannel',['midiEndChannel',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a9ff1cf926df4af91f91dd743938d227a',1,'BlocksProtocol']]],
   ['midieventholder',['MidiEventHolder',['../classMidiMessageSequence_1_1MidiEventHolder.html',1,'MidiMessageSequence']]],
@@ -221,7 +218,7 @@ var searchData=
   ['modalcallbackfunction',['ModalCallbackFunction',['../classModalCallbackFunction.html',1,'']]],
   ['modalcomponentmanager',['ModalComponentManager',['../classModalComponentManager.html',1,'ModalComponentManager'],['../classModalComponentManager.html#aaf0be23075467f26330a77781e1f3ed9',1,'ModalComponentManager::ModalComponentManager()']]],
   ['modalstatefinished',['modalStateFinished',['../classModalComponentManager_1_1Callback.html#ad44cd3225753579084bdb3ba7bd8e625',1,'ModalComponentManager::Callback']]],
-  ['mode',['Mode',['../classdsp_1_1LadderFilter.html#a03ae4d1f29b84051cd34abcaba97d61e',1,'dsp::LadderFilter::Mode()'],['../classControlButton.html#a891776295057786f99f14631b1aa2794a4e084a5a84e6736bfd222863f305ec51',1,'ControlButton::mode()'],['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a57ec44264103a447a671582d02f0e18c',1,'BlocksProtocol::mode()']]],
+  ['mode',['mode',['../classControlButton.html#a891776295057786f99f14631b1aa2794a4e084a5a84e6736bfd222863f305ec51',1,'ControlButton::mode()'],['../classdsp_1_1LadderFilter.html#a03ae4d1f29b84051cd34abcaba97d61e',1,'dsp::LadderFilter::Mode()'],['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a57ec44264103a447a671582d02f0e18c',1,'BlocksProtocol::mode()']]],
   ['modificationtime',['modificationTime',['../structDirectoryContentsList_1_1FileInfo.html#a35f194ff92e35671d7616d1d9e1524b7',1,'DirectoryContentsList::FileInfo']]],
   ['modifierkeys',['ModifierKeys',['../classModifierKeys.html',1,'ModifierKeys'],['../classModifierKeys.html#adfcf4939ec180442da20992c50de24ae',1,'ModifierKeys::ModifierKeys() noexcept'],['../classModifierKeys.html#ab75d0460df15e0c4ba76fab270ea9623',1,'ModifierKeys::ModifierKeys(int flags) noexcept'],['../classModifierKeys.html#a617688714d7b3a91dc908ac9a20b249b',1,'ModifierKeys::ModifierKeys(const ModifierKeys &amp;other) noexcept']]],
   ['modifierkeyschanged',['modifierKeysChanged',['../classComponent.html#a4145c1c28dd2ae42b19c9c3e0a6aba7b',1,'Component::modifierKeysChanged()'],['../classSlider.html#a50bfc1f4bc764cd7db7d25abed9e0198',1,'Slider::modifierKeysChanged()']]],
@@ -314,6 +311,5 @@ var searchData=
   ['multiplywithwindowingtable',['multiplyWithWindowingTable',['../structdsp_1_1WindowingFunction.html#ab54dce018a451c3376e91e911d361f1b',1,'dsp::WindowingFunction']]],
   ['multisamplinglevel',['multisamplingLevel',['../classOpenGLPixelFormat.html#afa2032cde8affb7698f038ba5784365a',1,'OpenGLPixelFormat']]],
   ['multitimer',['MultiTimer',['../classMultiTimer.html',1,'MultiTimer'],['../classMultiTimer.html#a608fc823bb95f046f439424521615dc9',1,'MultiTimer::MultiTimer() noexcept'],['../classMultiTimer.html#a5020d0be93325aed21de9f06e2b28935',1,'MultiTimer::MultiTimer(const MultiTimer &amp;) noexcept']]],
-  ['musereceptorgeneric',['MuseReceptorGeneric',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8ac44eee1f6720c9ef9296f0c655526230',1,'PluginHostType']]],
-  ['musicalposition',['musicalPosition',['../structVstTimingInformation.html#aeca45f565ed1c0175beb01484cf3a0d9',1,'VstTimingInformation']]]
+  ['musereceptorgeneric',['MuseReceptorGeneric',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8ac44eee1f6720c9ef9296f0c655526230',1,'PluginHostType']]]
 ];

@@ -1,8 +1,6 @@
 var searchData=
 [
   ['magenta',['magenta',['../classColours.html#a9a33de3ccb10690341256154909b390e',1,'Colours']]],
-  ['magic1',['magic1',['../structvst2FxBank.html#a1507ff6147264a164ebadff48f014e4a',1,'vst2FxBank']]],
-  ['magic2',['magic2',['../structvst2FxBank.html#ae65b5edd336d0d90813716dc5ab0ac80',1,'vst2FxBank']]],
   ['manufacturername',['manufacturerName',['../classPluginDescription.html#aa8c02c784dc999a1043877b29795fff0',1,'PluginDescription']]],
   ['map',['map',['../classMemoryMappedAudioFormatReader.html#abac7449f98c330b9a633210af2145c0f',1,'MemoryMappedAudioFormatReader']]],
   ['mappedsection',['mappedSection',['../classMemoryMappedAudioFormatReader.html#a33d4ab9328d5a4e588053c894b7a8c45',1,'MemoryMappedAudioFormatReader']]],
@@ -38,7 +36,6 @@ var searchData=
   ['messages',['messages',['../structUnitTestRunner_1_1TestResult.html#ae94f7a271e7f4a5725939036156595bb',1,'UnitTestRunner::TestResult']]],
   ['metadatavalues',['metadataValues',['../classAudioFormatReader.html#a8dfe48ed0e171928185c716811f5ecdb',1,'AudioFormatReader']]],
   ['midichannel',['midiChannel',['../structMPENote.html#a642fb34a5721d3eb5d3cf84e92706164',1,'MPENote']]],
-  ['mididata',['midiData',['../structVstMidiEvent.html#a41ed861e773854a165eff6cfcdfd046b',1,'VstMidiEvent']]],
   ['mididatabase64',['midiDataBase64',['../classCoreAudioFormat.html#a6a78852cc234c7fc83ab18c92662feb6',1,'CoreAudioFormat']]],
   ['midnightblue',['midnightblue',['../classColours.html#ae2b84b4de769da6c75cc947dcf8a066a',1,'Colours']]],
   ['millisecondsbeforesaving',['millisecondsBeforeSaving',['../structPropertiesFile_1_1Options.html#a35be64ba2da1b72b6b8b599e8ddb0924',1,'PropertiesFile::Options']]],
@@ -57,6 +54,5 @@ var searchData=
   ['mousedowntime',['mouseDownTime',['../classMouseEvent.html#a0636f798ed2f13b00d9927a275016c3e',1,'MouseEvent']]],
   ['mstobeoff',['msToBeOff',['../structPushNotifications_1_1Notification_1_1LedBlinkPattern.html#a09acefee2562c54b6e6fc9d8a64d66a3',1,'PushNotifications::Notification::LedBlinkPattern']]],
   ['mstobeon',['msToBeOn',['../structPushNotifications_1_1Notification_1_1LedBlinkPattern.html#aefc8bc1d79e2e9013a26d4c4cecd8875',1,'PushNotifications::Notification::LedBlinkPattern']]],
-  ['multisamplinglevel',['multisamplingLevel',['../classOpenGLPixelFormat.html#afa2032cde8affb7698f038ba5784365a',1,'OpenGLPixelFormat']]],
-  ['musicalposition',['musicalPosition',['../structVstTimingInformation.html#aeca45f565ed1c0175beb01484cf3a0d9',1,'VstTimingInformation']]]
+  ['multisamplinglevel',['multisamplingLevel',['../classOpenGLPixelFormat.html#afa2032cde8affb7698f038ba5784365a',1,'OpenGLPixelFormat']]]
 ];

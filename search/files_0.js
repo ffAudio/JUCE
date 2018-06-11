@@ -527,7 +527,6 @@ var searchData=
   ['juce_5fvst3pluginformat_2eh',['juce_VST3PluginFormat.h',['../juce__VST3PluginFormat_8h.html',1,'']]],
   ['juce_5fvstcallbackhandler_2eh',['juce_VSTCallbackHandler.h',['../juce__VSTCallbackHandler_8h.html',1,'']]],
   ['juce_5fvstcommon_2eh',['juce_VSTCommon.h',['../juce__VSTCommon_8h.html',1,'']]],
-  ['juce_5fvstinterface_2eh',['juce_VSTInterface.h',['../juce__VSTInterface_8h.html',1,'']]],
   ['juce_5fvstmidieventlist_2eh',['juce_VSTMidiEventList.h',['../juce__VSTMidiEventList_8h.html',1,'']]],
   ['juce_5fvstpluginformat_2eh',['juce_VSTPluginFormat.h',['../juce__VSTPluginFormat_8h.html',1,'']]],
   ['juce_5fwaitableevent_2eh',['juce_WaitableEvent.h',['../juce__WaitableEvent_8h.html',1,'']]],

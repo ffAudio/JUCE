@@ -14,19 +14,8 @@ var searchData=
   ['videocomponent',['VideoComponent',['../classVideoComponent.html',1,'']]],
   ['viewport',['Viewport',['../classViewport.html',1,'']]],
   ['visitor',['Visitor',['../classExpression_1_1Scope_1_1Visitor.html',1,'Expression::Scope']]],
-  ['vst2fxbank',['vst2FxBank',['../structvst2FxBank.html',1,'']]],
   ['vst3pluginformat',['VST3PluginFormat',['../classVST3PluginFormat.html',1,'']]],
   ['vstcallbackhandler',['VSTCallbackHandler',['../structVSTCallbackHandler.html',1,'']]],
-  ['vsteditorbounds',['VstEditorBounds',['../structVstEditorBounds.html',1,'']]],
-  ['vsteffectinterface',['VstEffectInterface',['../structVstEffectInterface.html',1,'']]],
-  ['vstevent',['VstEvent',['../structVstEvent.html',1,'']]],
-  ['vsteventblock',['VstEventBlock',['../structVstEventBlock.html',1,'']]],
-  ['vstindividualspeakerinfo',['VstIndividualSpeakerInfo',['../structVstIndividualSpeakerInfo.html',1,'']]],
-  ['vstmidievent',['VstMidiEvent',['../structVstMidiEvent.html',1,'']]],
-  ['vstpininfo',['VstPinInfo',['../structVstPinInfo.html',1,'']]],
   ['vstpluginformat',['VSTPluginFormat',['../classVSTPluginFormat.html',1,'']]],
-  ['vstspeakerconfiguration',['VstSpeakerConfiguration',['../structVstSpeakerConfiguration.html',1,'']]],
-  ['vstspeakerconfigurationholder',['VstSpeakerConfigurationHolder',['../classSpeakerMappings_1_1VstSpeakerConfigurationHolder.html',1,'SpeakerMappings']]],
-  ['vstsysexevent',['VstSysExEvent',['../structVstSysExEvent.html',1,'']]],
-  ['vsttiminginformation',['VstTimingInformation',['../structVstTimingInformation.html',1,'']]]
+  ['vstspeakerconfigurationholder',['VstSpeakerConfigurationHolder',['../classSpeakerMappings_1_1VstSpeakerConfigurationHolder.html',1,'SpeakerMappings']]]
 ];

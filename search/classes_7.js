@@ -158,7 +158,7 @@ var searchData=
   ['heapblock_3c_20value_20_2a_20_3e',['HeapBlock&lt; Value * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20value_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; Value::Listener * &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20valuetree_3a_3alistener_20_2a_20_3e',['HeapBlock&lt; ValueTree::Listener * &gt;',['../classHeapBlock.html',1,'']]],
-  ['heapblock_3c_20vstspeakerconfiguration_20_3e',['HeapBlock&lt; VstSpeakerConfiguration &gt;',['../classHeapBlock.html',1,'']]],
+  ['heapblock_3c_20vst2_3a_3avstspeakerarrangement_20_3e',['HeapBlock&lt; Vst2::VstSpeakerArrangement &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20weakreference_3c_20component_20_3e_20_3e',['HeapBlock&lt; WeakReference&lt; Component &gt; &gt;',['../classHeapBlock.html',1,'']]],
   ['heapblock_3c_20zipentryholder_20_2a_20_3e',['HeapBlock&lt; ZipEntryHolder * &gt;',['../classHeapBlock.html',1,'']]],
   ['hexparser',['HexParser',['../structCharacterFunctions_1_1HexParser.html',1,'CharacterFunctions']]],
