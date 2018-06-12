@@ -471,6 +471,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a39a78126e8b9abb65e4198a02ca41b7d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a39a78126e8b9abb65e4198a02ca41b7d">getDefaultNumParameterSteps</a> () noexcept</td></tr>
 <tr class="memdesc:a39a78126e8b9abb65e4198a02ca41b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default number of steps for a parameter.  <a href="#a39a78126e8b9abb65e4198a02ca41b7d">More...</a><br/></td></tr>
 <tr class="separator:a39a78126e8b9abb65e4198a02ca41b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f9f74e39f559a8e81159a9d130d21d"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ae0f9f74e39f559a8e81159a9d130d21d">getWrapperTypeDescription</a> (<a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">AudioProcessor::WrapperType</a>) noexcept</td></tr>
+<tr class="memdesc:ae0f9f74e39f559a8e81159a9d130d21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a textual description of a WrapperType value.  <a href="#ae0f9f74e39f559a8e81159a9d130d21d">More...</a><br/></td></tr>
+<tr class="separator:ae0f9f74e39f559a8e81159a9d130d21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a6d0c1c945bebbc967d187c0f08b42c4b">copyXmlToBinary</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml, juce::MemoryBlock &amp;destData)</td></tr>
 <tr class="memdesc:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function that just converts an xml element into a binary blob.  <a href="#a6d0c1c945bebbc967d187c0f08b42c4b">More...</a><br/></td></tr>
 <tr class="separator:a6d0c1c945bebbc967d187c0f08b42c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2560,7 +2563,7 @@ template&lt;int numLayouts&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the value of a parameter as a text string. </p>
-<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#aa5bd8a255ef5dd285787ab0b5a7a7d76" title="Returns a textual version of the supplied parameter value. ">AudioProcessorParameter::getText()</a> instead. </p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#afc66dfb8dd44acb4ea74812f80500c4a" title="Returns a textual version of the supplied normalised parameter value. ">AudioProcessorParameter::getText()</a> instead. </p>
 
 </div>
 </div>
@@ -2580,7 +2583,7 @@ template&lt;int numLayouts&gt; </div>
 
 <p>Returns the value of a parameter as a text string with a preferred maximum length. </p>
 <p>If you want to provide customised short versions of your parameter values that will look better in constrained spaces (e.g. the displays on hardware controller devices or mixing desks) then you should implement this method. If you don't override it, the default implementation will call getParameterText(int), and truncate the result.</p>
-<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#aa5bd8a255ef5dd285787ab0b5a7a7d76" title="Returns a textual version of the supplied parameter value. ">AudioProcessorParameter::getText()</a> instead. </p>
+<p>NOTE! This method will eventually be deprecated! It's recommended that you use <a class="el" href="classAudioProcessorParameter.html#afc66dfb8dd44acb4ea74812f80500c4a" title="Returns a textual version of the supplied normalised parameter value. ">AudioProcessorParameter::getText()</a> instead. </p>
 
 </div>
 </div>
@@ -3550,6 +3553,32 @@ template&lt;int numLayouts&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ae0f9f74e39f559a8e81159a9d130d21d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const char* AudioProcessor::getWrapperTypeDescription </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioProcessor.html#a2e1b21b8831ac529965abffc96223dcf">AudioProcessor::WrapperType</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a textual description of a WrapperType value. </p>
+
+</div>
+</div>
 <a class="anchor" id="a19f07b6c13420d4b9ddb6dc0caaeac77"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3861,7 +3890,7 @@ template&lt;int numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 13 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

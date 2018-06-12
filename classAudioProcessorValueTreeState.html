@@ -312,7 +312,7 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">labelText</td><td>The label that the parameter will return from <a class="el" href="classAudioProcessorParameter.html#a1413a29855168b5e0ca5a1cd648d352a" title="Some parameters may be able to return a label string for their units. ">AudioProcessorParameter::getLabel()</a> </td></tr>
     <tr><td class="paramname">valueRange</td><td>A mapping that will be used to determine the value range which this parameter uses </td></tr>
     <tr><td class="paramname">defaultValue</td><td>A default value for the parameter (in non-normalised units) </td></tr>
-    <tr><td class="paramname">valueToTextFunction</td><td>A function that will convert a non-normalised value to a string for the <a class="el" href="classAudioProcessorParameter.html#aa5bd8a255ef5dd285787ab0b5a7a7d76" title="Returns a textual version of the supplied parameter value. ">AudioProcessorParameter::getText()</a> method. This can be nullptr to use the default implementation </td></tr>
+    <tr><td class="paramname">valueToTextFunction</td><td>A function that will convert a non-normalised value to a string for the <a class="el" href="classAudioProcessorParameter.html#afc66dfb8dd44acb4ea74812f80500c4a" title="Returns a textual version of the supplied normalised parameter value. ">AudioProcessorParameter::getText()</a> method. This can be nullptr to use the default implementation </td></tr>
     <tr><td class="paramname">textToValueFunction</td><td>The inverse of valueToTextFunction </td></tr>
     <tr><td class="paramname">isMetaParameter</td><td>Set this value to true if this should be a meta parameter </td></tr>
     <tr><td class="paramname">isAutomatableParameter</td><td>Set this value to false if this parameter should not be automatable </td></tr>
@@ -580,7 +580,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 13 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

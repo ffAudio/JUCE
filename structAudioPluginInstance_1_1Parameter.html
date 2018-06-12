@@ -111,7 +111,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b9cbde6c4e4ddaa00afe22f5b4b087d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioPluginInstance_1_1Parameter.html#a3b9cbde6c4e4ddaa00afe22f5b4b087d">~Parameter</a> ()</td></tr>
 <tr class="separator:a3b9cbde6c4e4ddaa00afe22f5b4b087d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d0766b8483da8b9c3dafd0320ebd7f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioPluginInstance_1_1Parameter.html#a05d0766b8483da8b9c3dafd0320ebd7f">getText</a> (float <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga7d209388070aba8c66e5b8bc12ff1725">value</a>, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> maximumStringLength) const override</td></tr>
-<tr class="memdesc:a05d0766b8483da8b9c3dafd0320ebd7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a textual version of the supplied parameter value.  <a href="#a05d0766b8483da8b9c3dafd0320ebd7f">More...</a><br/></td></tr>
+<tr class="memdesc:a05d0766b8483da8b9c3dafd0320ebd7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a textual version of the supplied normalised parameter value.  <a href="#a05d0766b8483da8b9c3dafd0320ebd7f">More...</a><br/></td></tr>
 <tr class="separator:a05d0766b8483da8b9c3dafd0320ebd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a228559fb5edcc8d1fb95deca7cdc3218"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAudioPluginInstance_1_1Parameter.html#a228559fb5edcc8d1fb95deca7cdc3218">getValueForText</a> (const <a class="el" href="classString.html">String</a> &amp;text) const override</td></tr>
 <tr class="memdesc:a228559fb5edcc8d1fb95deca7cdc3218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should parse a string and return the appropriate value for it.  <a href="#a228559fb5edcc8d1fb95deca7cdc3218">More...</a><br/></td></tr>
@@ -264,7 +264,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">virtual <a class="el" href="classString.html">String</a> AudioPluginInstance::Parameter::getText </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
+          <td class="paramname"><em>normalisedValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -285,10 +285,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a textual version of the supplied parameter value. </p>
+<p>Returns a textual version of the supplied normalised parameter value. </p>
 <p>The default implementation just returns the floating point value as a string, but this could do anything you need for a custom type of value. </p>
 
-<p>Reimplemented from <a class="el" href="classAudioProcessorParameter.html#aa5bd8a255ef5dd285787ab0b5a7a7d76">AudioProcessorParameter</a>.</p>
+<p>Reimplemented from <a class="el" href="classAudioProcessorParameter.html#afc66dfb8dd44acb4ea74812f80500c4a">AudioProcessorParameter</a>.</p>
 
 </div>
 </div>
@@ -351,7 +351,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 13 2018 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

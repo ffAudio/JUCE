@@ -144,6 +144,7 @@ var searchData=
   ['messagecallbackfunction',['MessageCallbackFunction',['../group__juce__events-messages.html#ga28828f1e64fa5a21b2ccaf64df56b863',1,'juce_MessageManager.h']]],
   ['messagefromdevice',['MessageFromDevice',['../namespaceBlocksProtocol.html#a054bdb3555d4f72b8c927d8a51ee4d75',1,'BlocksProtocol']]],
   ['messagefromhost',['MessageFromHost',['../namespaceBlocksProtocol.html#a01770550cdd3086814fa4169d9fa39b4',1,'BlocksProtocol']]],
+  ['messageincludestopologychange',['messageIncludesTopologyChange',['../structBlocksProtocol_1_1HostPacketDecoder.html#a07f400959748127b014d917bfc283603',1,'BlocksProtocol::HostPacketDecoder']]],
   ['messagelistener',['MessageListener',['../classMessageListener.html',1,'MessageListener'],['../classMessageListener.html#ac9f7a08c985ea4a1b8c2e6e2caec20f1',1,'MessageListener::MessageListener()']]],
   ['messageloopcallback',['MessageLoopCallback',['../structOSCReceiver_1_1MessageLoopCallback.html',1,'OSCReceiver']]],
   ['messagemanager',['MessageManager',['../classMessageManager.html',1,'']]],
