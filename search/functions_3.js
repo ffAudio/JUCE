@@ -30,7 +30,7 @@ var searchData=
   ['deletekeypressed',['deleteKeyPressed',['../classFileSearchPathListComponent.html#ace140fd2d45192c23045808085657b3a',1,'FileSearchPathListComponent::deleteKeyPressed()'],['../classListBoxModel.html#acc840517aac4398dd378ce1e5bd668ac',1,'ListBoxModel::deleteKeyPressed()'],['../classTableListBoxModel.html#a5f17bdc591ef08f7b89e65275e22e46f',1,'TableListBoxModel::deleteKeyPressed()'],['../classTableListBox.html#ae9b7978011b47044454721da340a2c09',1,'TableListBox::deleteKeyPressed()']]],
   ['deletemidichannelmessages',['deleteMidiChannelMessages',['../classMidiMessageSequence.html#a47466395fc2296b724defd56076cd5ed',1,'MidiMessageSequence']]],
   ['deleteplugin',['deletePlugin',['../classStandalonePluginHolder.html#a9eb8c1bd9c771ed5ee9a0c1b4e632c1a',1,'StandalonePluginHolder']]],
-  ['deleterecursively',['deleteRecursively',['../classFile.html#a45a371d70965e5efc1566c0a51d9042c',1,'File']]],
+  ['deleterecursively',['deleteRecursively',['../classFile.html#ab226225d4ba5915ec6b4fde1ca53d7ac',1,'File']]],
   ['deleterootitem',['deleteRootItem',['../classTreeView.html#ad5245e71c0684de6cf942238da54b9cc',1,'TreeView']]],
   ['deletesection',['deleteSection',['../classCodeDocument.html#a8618046d22c26326da18c0f372c330d8',1,'CodeDocument::deleteSection(const Position &amp;startPosition, const Position &amp;endPosition)'],['../classCodeDocument.html#a7ecc088f32162bb34897d3cbfe653b8f',1,'CodeDocument::deleteSection(int startIndex, int endIndex)']]],
   ['deletesysexmessages',['deleteSysExMessages',['../classMidiMessageSequence.html#a9654788bd88928d6853d260d4e323e01',1,'MidiMessageSequence']]],

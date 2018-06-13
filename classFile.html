@@ -281,9 +281,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acca30337faecf8c3d97a1e70c725db23"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#acca30337faecf8c3d97a1e70c725db23">deleteFile</a> () const </td></tr>
 <tr class="memdesc:acca30337faecf8c3d97a1e70c725db23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a file.  <a href="#acca30337faecf8c3d97a1e70c725db23">More...</a><br/></td></tr>
 <tr class="separator:acca30337faecf8c3d97a1e70c725db23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45a371d70965e5efc1566c0a51d9042c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a45a371d70965e5efc1566c0a51d9042c">deleteRecursively</a> () const </td></tr>
-<tr class="memdesc:a45a371d70965e5efc1566c0a51d9042c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a file or directory and all its subdirectories.  <a href="#a45a371d70965e5efc1566c0a51d9042c">More...</a><br/></td></tr>
-<tr class="separator:a45a371d70965e5efc1566c0a51d9042c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab226225d4ba5915ec6b4fde1ca53d7ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ab226225d4ba5915ec6b4fde1ca53d7ac">deleteRecursively</a> (bool followSymlinks=false) const </td></tr>
+<tr class="memdesc:ab226225d4ba5915ec6b4fde1ca53d7ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a file or directory and all its subdirectories.  <a href="#ab226225d4ba5915ec6b4fde1ca53d7ac">More...</a><br/></td></tr>
+<tr class="separator:ab226225d4ba5915ec6b4fde1ca53d7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5657b8a600ed241a204656811c9522f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ad5657b8a600ed241a204656811c9522f">moveToTrash</a> () const </td></tr>
 <tr class="memdesc:ad5657b8a600ed241a204656811c9522f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves this file or folder to the trash.  <a href="#ad5657b8a600ed241a204656811c9522f">More...</a><br/></td></tr>
 <tr class="separator:ad5657b8a600ed241a204656811c9522f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1620,20 +1620,22 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deletes a file. </p>
-<p>If this file is actually a directory, it may not be deleted correctly if it contains files. See <a class="el" href="classFile.html#a45a371d70965e5efc1566c0a51d9042c" title="Deletes a file or directory and all its subdirectories. ">deleteRecursively()</a> as a better way of deleting directories.</p>
+<p>If this file is actually a directory, it may not be deleted correctly if it contains files. See <a class="el" href="classFile.html#ab226225d4ba5915ec6b4fde1ca53d7ac" title="Deletes a file or directory and all its subdirectories. ">deleteRecursively()</a> as a better way of deleting directories.</p>
+<p>If this file is a symlink, then the symlink will be deleted and not the target of the symlink.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if the file has been successfully deleted (or if it didn't exist to begin with). </dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#a45a371d70965e5efc1566c0a51d9042c" title="Deletes a file or directory and all its subdirectories. ">deleteRecursively</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#ab226225d4ba5915ec6b4fde1ca53d7ac" title="Deletes a file or directory and all its subdirectories. ">deleteRecursively</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a45a371d70965e5efc1566c0a51d9042c"></a>
+<a class="anchor" id="ab226225d4ba5915ec6b4fde1ca53d7ac"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool File::deleteRecursively </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>followSymlinks</em> = <code>false</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1641,6 +1643,12 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Deletes a file or directory and all its subdirectories. </p>
 <p>If this file is a directory, this will try to delete it and all its subfolders. If it's just a file, it will just try to delete the file.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">followSymlinks</td><td>If true, then any symlink pointing to a directory will also recursively delete the contents of that directory </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the file and all its subfolders have been successfully deleted (or if it didn't exist to begin with). </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classFile.html#acca30337faecf8c3d97a1e70c725db23" title="Deletes a file. ">deleteFile</a> </dd></dl>
 
@@ -2909,7 +2917,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 13 2018 01:00:53 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 14 2018 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
