@@ -113,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac67097e8f4771da57762d14d94f9ffc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c3fcfb98eea4e7bc8bb2270f21ca8ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNamedValueSet.html">NamedValueSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueSet.html#a3c3fcfb98eea4e7bc8bb2270f21ca8ff">operator=</a> (<a class="el" href="classNamedValueSet.html">NamedValueSet</a> &amp;&amp;) noexcept</td></tr>
 <tr class="separator:a3c3fcfb98eea4e7bc8bb2270f21ca8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f5d1549febcaaa2ddace461cef9bed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueSet.html#aa5f5d1549febcaaa2ddace461cef9bed">NamedValueSet</a> (std::initializer_list&lt; <a class="el" href="structNamedValueSet_1_1NamedValue.html">NamedValue</a> &gt;)</td></tr>
+<tr class="memdesc:aa5f5d1549febcaaa2ddace461cef9bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects. ">NamedValueSet</a> from a list of names and properties.  <a href="#aa5f5d1549febcaaa2ddace461cef9bed">More...</a><br/></td></tr>
+<tr class="separator:aa5f5d1549febcaaa2ddace461cef9bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e23aed95819fe55a2e441fb66b31faa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNamedValueSet.html#a5e23aed95819fe55a2e441fb66b31faa">~NamedValueSet</a> () noexcept</td></tr>
 <tr class="memdesc:a5e23aed95819fe55a2e441fb66b31faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a5e23aed95819fe55a2e441fb66b31faa">More...</a><br/></td></tr>
 <tr class="separator:a5e23aed95819fe55a2e441fb66b31faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,6 +244,24 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa5f5d1549febcaaa2ddace461cef9bed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NamedValueSet::NamedValueSet </td>
+          <td>(</td>
+          <td class="paramtype">std::initializer_list&lt; <a class="el" href="structNamedValueSet_1_1NamedValue.html">NamedValue</a> &gt;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects. ">NamedValueSet</a> from a list of names and properties. </p>
 
 </div>
 </div>
@@ -380,6 +401,10 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>References <a class="el" href="classNamedValueSet.html#a351abff5878a7a8e4a4f502f57aead31">begin()</a>.</p>
+
+<p>Referenced by <a class="el" href="classNamedValueSet.html#a351abff5878a7a8e4a4f502f57aead31">begin()</a>.</p>
 
 </div>
 </div>
@@ -665,7 +690,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a pointer to the var that holds a named value, or null if there is no value with this name. </p>
-<p>Do not use this method unless you really need access to the internal var object for some reason - for normal reading and writing always prefer <a class="el" href="classNamedValueSet.html#a20142d8885e26588e382882796ae78db" title="Returns the value of a named item. ">operator[]()</a> and <a class="el" href="classNamedValueSet.html#a84ff59604170b019e51bb1342cc87374" title="Changes or adds a named value. ">set()</a>. </p>
+<p>Do not use this method unless you really need access to the internal var object for some reason - for normal reading and writing always prefer <a class="el" href="classNamedValueSet.html#a20142d8885e26588e382882796ae78db" title="Returns the value of a named item. ">operator[]()</a> and <a class="el" href="classNamedValueSet.html#a84ff59604170b019e51bb1342cc87374" title="Changes or adds a named value. ">set()</a>. Also note that the pointer returned may become invalid as soon as any subsequent methods are called on the <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects. ">NamedValueSet</a>. </p>
 
 </div>
 </div>
@@ -719,7 +744,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the value of the item at a given index. </p>
-<p>The index must be between 0 and <a class="el" href="classNamedValueSet.html#ad9f9066eed12be3d9e569c5181d05edd" title="Returns the total number of values that the set contains. ">size()</a> - 1, or this will return a nullptr </p>
+<p>The index must be between 0 and <a class="el" href="classNamedValueSet.html#ad9f9066eed12be3d9e569c5181d05edd" title="Returns the total number of values that the set contains. ">size()</a> - 1, or this will return a nullptr Also note that the pointer returned may become invalid as soon as any subsequent methods are called on the <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects. ">NamedValueSet</a>. </p>
 
 </div>
 </div>
@@ -808,7 +833,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 16 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 19 2018 01:01:00 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

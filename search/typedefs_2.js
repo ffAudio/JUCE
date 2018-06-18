@@ -11,5 +11,5 @@ var searchData=
   ['connectioncount',['ConnectionCount',['../namespaceBlocksProtocol.html#a25b483d5847443ad588bef58db3390f7',1,'BlocksProtocol']]],
   ['connectorport',['ConnectorPort',['../namespaceBlocksProtocol.html#a1db5e098ab83aadeae6a82a25ed9efc8',1,'BlocksProtocol']]],
   ['controlbuttonid',['ControlButtonID',['../namespaceBlocksProtocol.html#ae36e05b552d9e30a5c1fb64be8a772c7',1,'BlocksProtocol']]],
-  ['crashhandlerfunction',['CrashHandlerFunction',['../classSystemStats.html#aa4212ce484597e24e45ea605ab4e6334',1,'SystemStats']]]
+  ['crashhandlerfunction',['CrashHandlerFunction',['../classSystemStats.html#a28e1ceacc13ea4e10e5a076f581b8c95',1,'SystemStats']]]
 ];
