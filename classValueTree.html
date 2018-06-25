@@ -118,12 +118,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac96c26d40b84ef461c1afb882453612c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ac96c26d40b84ef461c1afb882453612c">ValueTree</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;) noexcept</td></tr>
 <tr class="memdesc:ac96c26d40b84ef461c1afb882453612c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a reference to another <a class="el" href="classValueTree.html" title="A powerful tree structure that can be used to hold free-form data, and which can handle its own undo ...">ValueTree</a>.  <a href="#ac96c26d40b84ef461c1afb882453612c">More...</a><br/></td></tr>
 <tr class="separator:ac96c26d40b84ef461c1afb882453612c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac064e1f6095e5f21fc065d9f6b76a407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ac064e1f6095e5f21fc065d9f6b76a407">operator=</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;)</td></tr>
-<tr class="memdesc:ac064e1f6095e5f21fc065d9f6b76a407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes this object to be a reference to the given tree.  <a href="#ac064e1f6095e5f21fc065d9f6b76a407">More...</a><br/></td></tr>
-<tr class="separator:ac064e1f6095e5f21fc065d9f6b76a407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7492a326b17d3840f6632137295e6f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ab7492a326b17d3840f6632137295e6f9">ValueTree</a> (<a class="el" href="classValueTree.html">ValueTree</a> &amp;&amp;) noexcept</td></tr>
 <tr class="memdesc:ab7492a326b17d3840f6632137295e6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#ab7492a326b17d3840f6632137295e6f9">More...</a><br/></td></tr>
 <tr class="separator:ab7492a326b17d3840f6632137295e6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac064e1f6095e5f21fc065d9f6b76a407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ac064e1f6095e5f21fc065d9f6b76a407">operator=</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;)</td></tr>
+<tr class="memdesc:ac064e1f6095e5f21fc065d9f6b76a407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes this object to be a reference to the given tree.  <a href="#ac064e1f6095e5f21fc065d9f6b76a407">More...</a><br/></td></tr>
+<tr class="separator:ac064e1f6095e5f21fc065d9f6b76a407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e0b4721cb1ec7f79c59192df3b97bcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a4e0b4721cb1ec7f79c59192df3b97bcc">~ValueTree</a> ()</td></tr>
 <tr class="memdesc:a4e0b4721cb1ec7f79c59192df3b97bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a4e0b4721cb1ec7f79c59192df3b97bcc">More...</a><br/></td></tr>
 <tr class="separator:a4e0b4721cb1ec7f79c59192df3b97bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,6 +142,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad212f52a1dee540a97b256a57c881fed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValueTree.html">ValueTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad212f52a1dee540a97b256a57c881fed">createCopy</a> () const </td></tr>
 <tr class="memdesc:ad212f52a1dee540a97b256a57c881fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a deep copy of this tree and all its sub-trees.  <a href="#ad212f52a1dee540a97b256a57c881fed">More...</a><br/></td></tr>
 <tr class="separator:ad212f52a1dee540a97b256a57c881fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2596a93fa05a1a0c95cd6c275e77982"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad2596a93fa05a1a0c95cd6c275e77982">copyPropertiesFrom</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;source, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
+<tr class="memdesc:ad2596a93fa05a1a0c95cd6c275e77982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites all the properties in this tree with the properties of the source tree.  <a href="#ad2596a93fa05a1a0c95cd6c275e77982">More...</a><br/></td></tr>
+<tr class="separator:ad2596a93fa05a1a0c95cd6c275e77982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87912c9c35741a91a91a3ab23d6c49a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#aa87912c9c35741a91a91a3ab23d6c49a">copyPropertiesAndChildrenFrom</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;source, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
+<tr class="memdesc:aa87912c9c35741a91a91a3ab23d6c49a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces all children and properties of this object with copies of those from the source object.  <a href="#aa87912c9c35741a91a91a3ab23d6c49a">More...</a><br/></td></tr>
+<tr class="separator:aa87912c9c35741a91a91a3ab23d6c49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaba6256213ee02c418e9ef3d320f0ff1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIdentifier.html">Identifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#aaba6256213ee02c418e9ef3d320f0ff1">getType</a> () const noexcept</td></tr>
 <tr class="memdesc:aaba6256213ee02c418e9ef3d320f0ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of this tree.  <a href="#aaba6256213ee02c418e9ef3d320f0ff1">More...</a><br/></td></tr>
 <tr class="separator:aaba6256213ee02c418e9ef3d320f0ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,9 +187,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ab2c5a5adfc77bb0831bc5746e32c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classValue.html">Value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a1ab2c5a5adfc77bb0831bc5746e32c51">getPropertyAsValue</a> (const <a class="el" href="classIdentifier.html">Identifier</a> &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#gaf35794c5a3717fe860d6a053f96e29f9">name</a>, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager, bool shouldUpdateSynchronously=false)</td></tr>
 <tr class="memdesc:a1ab2c5a5adfc77bb0831bc5746e32c51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object that can be used to control and respond to one of the tree's properties.  <a href="#a1ab2c5a5adfc77bb0831bc5746e32c51">More...</a><br/></td></tr>
 <tr class="separator:a1ab2c5a5adfc77bb0831bc5746e32c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2596a93fa05a1a0c95cd6c275e77982"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad2596a93fa05a1a0c95cd6c275e77982">copyPropertiesFrom</a> (const <a class="el" href="classValueTree.html">ValueTree</a> &amp;source, <a class="el" href="classUndoManager.html">UndoManager</a> *undoManager)</td></tr>
-<tr class="memdesc:ad2596a93fa05a1a0c95cd6c275e77982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites all the properties in this tree with the properties of the source tree.  <a href="#ad2596a93fa05a1a0c95cd6c275e77982">More...</a><br/></td></tr>
-<tr class="separator:ad2596a93fa05a1a0c95cd6c275e77982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72c1b4a7e3b9518568d4f692358c25e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a72c1b4a7e3b9518568d4f692358c25e5">getNumChildren</a> () const noexcept</td></tr>
 <tr class="memdesc:a72c1b4a7e3b9518568d4f692358c25e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of child trees inside this one.  <a href="#a72c1b4a7e3b9518568d4f692358c25e5">More...</a><br/></td></tr>
 <tr class="separator:a72c1b4a7e3b9518568d4f692358c25e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -495,6 +498,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Changes this object to be a reference to the given tree. </p>
+<p>Note that calling this just points this at the new object and invokes the <a class="el" href="classValueTree_1_1Listener.html#a0fe714c55225f9f814801f875e5d41ca" title="This method is called when a tree is made to point to a different internal shared object...">Listener::valueTreeRedirected</a> callback, but it's not an undoable operation. If you're trying to replace an entire tree in an undoable way, you probably want to use copyPropertiesAndChildren() instead. </p>
 
 </div>
 </div>
@@ -611,6 +615,65 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a deep copy of this tree and all its sub-trees. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2596a93fa05a1a0c95cd6c275e77982"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> ValueTree::copyPropertiesFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classUndoManager.html">UndoManager</a> *&#160;</td>
+          <td class="paramname"><em>undoManager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Overwrites all the properties in this tree with the properties of the source tree. </p>
+<p>Any properties that already exist will be updated; and new ones will be added, and any that are not present in the source tree will be removed. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#aa87912c9c35741a91a91a3ab23d6c49a" title="Replaces all children and properties of this object with copies of those from the source object...">copyPropertiesAndChildrenFrom</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa87912c9c35741a91a91a3ab23d6c49a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> ValueTree::copyPropertiesAndChildrenFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classUndoManager.html">UndoManager</a> *&#160;</td>
+          <td class="paramname"><em>undoManager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replaces all children and properties of this object with copies of those from the source object. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ad2596a93fa05a1a0c95cd6c275e77982" title="Overwrites all the properties in this tree with the properties of the source tree. ">copyPropertiesFrom</a> </dd></dl>
 
 </div>
 </div>
@@ -988,35 +1051,6 @@ Static Public Member Functions</h2></td></tr>
 <dl class="section see"><dt>See Also</dt><dd>ValueSource::sendChangeMessage (bool) </dd></dl>
 
 <p>Referenced by <a class="el" href="classValueWithDefault.html#a7d609f6a0a6169d9c44352f758e47459">ValueWithDefault::getPropertyAsValue()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad2596a93fa05a1a0c95cd6c275e77982"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> ValueTree::copyPropertiesFrom </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classValueTree.html">ValueTree</a> &amp;&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classUndoManager.html">UndoManager</a> *&#160;</td>
-          <td class="paramname"><em>undoManager</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Overwrites all the properties in this tree with the properties of the source tree. </p>
-<p>Any properties that already exist will be updated; and new ones will be added, and any that are not present in the source tree will be removed. </p>
 
 </div>
 </div>
@@ -1882,7 +1916,7 @@ template&lt;typename ElementComparator &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 23 2018 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 26 2018 01:01:10 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
