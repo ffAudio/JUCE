@@ -5,6 +5,7 @@ var searchData=
   ['packettimestamp',['PacketTimestamp',['../namespaceBlocksProtocol.html#aaa8038ca4f33f4c1805f59d4deeb4837',1,'BlocksProtocol']]],
   ['packettimestampoffset',['PacketTimestampOffset',['../namespaceBlocksProtocol.html#a71888c6b82d4a4c3aa28b41a92d39920',1,'BlocksProtocol']]],
   ['parameters',['Parameters',['../classdsp_1_1Reverb.html#a67582b7d70a6a0f444be8e3649b184b3',1,'dsp::Reverb']]],
+  ['parametersptr',['ParametersPtr',['../classdsp_1_1StateVariableFilter_1_1Filter.html#a8df3f28abd45dd5d01c24c38ebfa0ae7',1,'dsp::StateVariableFilter::Filter']]],
   ['parametertype',['ParameterType',['../classSelectedItemSet.html#aaef16f09fe4a27976cc212869b6fd32f',1,'SelectedItemSet']]],
   ['plugincreationcallback',['PluginCreationCallback',['../classAudioPluginFormat.html#a513ce1f3cde9ecfd82f43ee71baf4769',1,'AudioPluginFormat']]],
   ['plugininouts',['PluginInOuts',['../classStandaloneFilterWindow.html#a6c10ebbc7b2013247891e3c37a641f87',1,'StandaloneFilterWindow']]],

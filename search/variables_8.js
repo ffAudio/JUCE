@@ -14,6 +14,7 @@ var searchData=
   ['image',['image',['../classFillType.html#a10bd0d13433133545b26ea3894b3c641',1,'FillType::image()'],['../structPopupMenu_1_1Item.html#a001dd54d5203c13104089220674d2513',1,'PopupMenu::Item::image()']]],
   ['immediately',['immediately',['../classOSCTimeTag.html#acc9dc841287eccfc21cbe030c473111c',1,'OSCTimeTag']]],
   ['importance',['importance',['../structPushNotifications_1_1Channel.html#a5e3ef96c7d505e4cc500bec621050577',1,'PushNotifications::Channel']]],
+  ['incifnotnull',['incIfNotNull',['../classReferenceCountedObjectPtr.html#a53b4db72661f041e328e2ecf36525a73',1,'ReferenceCountedObjectPtr']]],
   ['indeterminate',['indeterminate',['../structPushNotifications_1_1Notification_1_1Progress.html#a157c9028d9bbeee92332a298740ae272',1,'PushNotifications::Notification::Progress']]],
   ['index',['index',['../structBlock_1_1ConnectionPort.html#a01544db019387950e10d511a23817614',1,'Block::ConnectionPort::index()'],['../structTouchSurface_1_1Touch.html#a465f1d2a737768682eb5a2b69b3c8f26',1,'TouchSurface::Touch::index()'],['../structBlocksProtocol_1_1DeviceStatus.html#aaca78b3c47e2355bbd3d61f0a7b91e03',1,'BlocksProtocol::DeviceStatus::index()'],['../structBlocksProtocol_1_1DeviceVersion.html#aa22c4b72ae8a47e7b89d78bb64263222',1,'BlocksProtocol::DeviceVersion::index()'],['../structBlocksProtocol_1_1DeviceName.html#a7a9f931b4de17c4ba8d34a1bab191b20',1,'BlocksProtocol::DeviceName::index()']]],
   ['indianred',['indianred',['../classColours.html#a5a356968d2d4f49b369afa56c0ec3f43',1,'Colours']]],

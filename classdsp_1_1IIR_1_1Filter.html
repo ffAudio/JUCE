@@ -104,15 +104,18 @@ Public Types</h2></td></tr>
 <tr class="memitem:af592517ba8afbb6534dd645e37756101"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#af592517ba8afbb6534dd645e37756101">NumericType</a> = typename SampleTypeHelpers::ElementType&lt; SampleType &gt;::Type</td></tr>
 <tr class="memdesc:af592517ba8afbb6534dd645e37756101"><td class="mdescLeft">&#160;</td><td class="mdescRight">The NumericType is the underlying primitive type used by the SampleType (which could be either a primitive or vector)  <a href="#af592517ba8afbb6534dd645e37756101">More...</a><br/></td></tr>
 <tr class="separator:af592517ba8afbb6534dd645e37756101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64321e61c28e95f81006f840ca510e09"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a64321e61c28e95f81006f840ca510e09">CoefficientsPtr</a> = typename <a class="el" href="structdsp_1_1IIR_1_1Coefficients.html">Coefficients</a>&lt; <a class="el" href="classdsp_1_1IIR_1_1Filter.html#af592517ba8afbb6534dd645e37756101">NumericType</a> &gt;::Ptr</td></tr>
+<tr class="memdesc:a64321e61c28e95f81006f840ca510e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">A typedef for a ref-counted pointer to the coefficients object.  <a href="#a64321e61c28e95f81006f840ca510e09">More...</a><br/></td></tr>
+<tr class="separator:a64321e61c28e95f81006f840ca510e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ae7789f7996b9c119a46860475d9d18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a1ae7789f7996b9c119a46860475d9d18">Filter</a> ()</td></tr>
 <tr class="memdesc:a1ae7789f7996b9c119a46860475d9d18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a filter.  <a href="#a1ae7789f7996b9c119a46860475d9d18">More...</a><br/></td></tr>
 <tr class="separator:a1ae7789f7996b9c119a46860475d9d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c68c24d3846305afbfc4b5a3566dfa0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a1c68c24d3846305afbfc4b5a3566dfa0">Filter</a> (<a class="el" href="structdsp_1_1IIR_1_1Coefficients.html">Coefficients</a>&lt; <a class="el" href="classdsp_1_1IIR_1_1Filter.html#af592517ba8afbb6534dd645e37756101">NumericType</a> &gt; *coefficientsToUse)</td></tr>
-<tr class="memdesc:a1c68c24d3846305afbfc4b5a3566dfa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a filter with a given set of coefficients.  <a href="#a1c68c24d3846305afbfc4b5a3566dfa0">More...</a><br/></td></tr>
-<tr class="separator:a1c68c24d3846305afbfc4b5a3566dfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b3b5ab26ef8312522e773bf2bad47d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a65b3b5ab26ef8312522e773bf2bad47d">Filter</a> (<a class="el" href="classdsp_1_1IIR_1_1Filter.html#a64321e61c28e95f81006f840ca510e09">CoefficientsPtr</a> coefficientsToUse)</td></tr>
+<tr class="memdesc:a65b3b5ab26ef8312522e773bf2bad47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a filter with a given set of coefficients.  <a href="#a65b3b5ab26ef8312522e773bf2bad47d">More...</a><br/></td></tr>
+<tr class="separator:a65b3b5ab26ef8312522e773bf2bad47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55f2bb4b80e5c8c65d1e39f166f36866"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a55f2bb4b80e5c8c65d1e39f166f36866">Filter</a> (const <a class="el" href="classdsp_1_1IIR_1_1Filter.html">Filter</a> &amp;)=default</td></tr>
 <tr class="separator:a55f2bb4b80e5c8c65d1e39f166f36866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d30328dca6ec463c8b50791523a6f7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a1d30328dca6ec463c8b50791523a6f7f">Filter</a> (<a class="el" href="classdsp_1_1IIR_1_1Filter.html">Filter</a> &amp;&amp;)=default</td></tr>
@@ -143,9 +146,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a70314e211be97b41102287ea1a960cb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdsp_1_1IIR_1_1Coefficients.html">Coefficients</a>&lt; <a class="el" href="classdsp_1_1IIR_1_1Filter.html#af592517ba8afbb6534dd645e37756101">NumericType</a> &gt;::Ptr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a70314e211be97b41102287ea1a960cb9">coefficients</a></td></tr>
-<tr class="memdesc:a70314e211be97b41102287ea1a960cb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The coefficients of the <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter.  <a href="#a70314e211be97b41102287ea1a960cb9">More...</a><br/></td></tr>
-<tr class="separator:a70314e211be97b41102287ea1a960cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1486a25aaa47e90ae53837e18d4a772d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a64321e61c28e95f81006f840ca510e09">CoefficientsPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a1486a25aaa47e90ae53837e18d4a772d">coefficients</a></td></tr>
+<tr class="memdesc:a1486a25aaa47e90ae53837e18d4a772d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The coefficients of the <a class="el" href="namespacedsp_1_1IIR.html" title="Classes for IIR filter processing. ">IIR</a> filter.  <a href="#a1486a25aaa47e90ae53837e18d4a772d">More...</a><br/></td></tr>
+<tr class="separator:a1486a25aaa47e90ae53837e18d4a772d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename SampleType&gt;<br/>
@@ -172,6 +175,22 @@ template&lt;typename SampleType &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a64321e61c28e95f81006f840ca510e09"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SampleType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classdsp_1_1IIR_1_1Filter.html">dsp::IIR::Filter</a>&lt; SampleType &gt;::<a class="el" href="classdsp_1_1IIR_1_1Filter.html#a64321e61c28e95f81006f840ca510e09">CoefficientsPtr</a> =  typename <a class="el" href="structdsp_1_1IIR_1_1Coefficients.html">Coefficients</a>&lt;<a class="el" href="classdsp_1_1IIR_1_1Filter.html#af592517ba8afbb6534dd645e37756101">NumericType</a>&gt;::Ptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A typedef for a ref-counted pointer to the coefficients object. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1ae7789f7996b9c119a46860475d9d18"></a>
 <div class="memitem">
@@ -193,7 +212,7 @@ template&lt;typename SampleType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1c68c24d3846305afbfc4b5a3566dfa0"></a>
+<a class="anchor" id="a65b3b5ab26ef8312522e773bf2bad47d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -202,7 +221,7 @@ template&lt;typename SampleType &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classdsp_1_1IIR_1_1Filter.html">dsp::IIR::Filter</a>&lt; SampleType &gt;::<a class="el" href="classdsp_1_1IIR_1_1Filter.html">Filter</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structdsp_1_1IIR_1_1Coefficients.html">Coefficients</a>&lt; <a class="el" href="classdsp_1_1IIR_1_1Filter.html#af592517ba8afbb6534dd645e37756101">NumericType</a> &gt; *&#160;</td>
+          <td class="paramtype"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a64321e61c28e95f81006f840ca510e09">CoefficientsPtr</a>&#160;</td>
           <td class="paramname"><em>coefficientsToUse</em></td><td>)</td>
           <td></td>
         </tr>
@@ -480,14 +499,14 @@ template&lt;typename SampleType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a70314e211be97b41102287ea1a960cb9"></a>
+<a class="anchor" id="a1486a25aaa47e90ae53837e18d4a772d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename SampleType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structdsp_1_1IIR_1_1Coefficients.html">Coefficients</a>&lt;<a class="el" href="classdsp_1_1IIR_1_1Filter.html#af592517ba8afbb6534dd645e37756101">NumericType</a>&gt;::Ptr <a class="el" href="classdsp_1_1IIR_1_1Filter.html">dsp::IIR::Filter</a>&lt; SampleType &gt;::coefficients</td>
+          <td class="memname"><a class="el" href="classdsp_1_1IIR_1_1Filter.html#a64321e61c28e95f81006f840ca510e09">CoefficientsPtr</a> <a class="el" href="classdsp_1_1IIR_1_1Filter.html">dsp::IIR::Filter</a>&lt; SampleType &gt;::coefficients</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -506,7 +525,7 @@ template&lt;typename SampleType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 26 2018 01:01:11 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 01:01:08 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
