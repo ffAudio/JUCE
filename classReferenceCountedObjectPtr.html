@@ -153,6 +153,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4dfa7ef62c3a4bce767d75b155653616"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#a4dfa7ef62c3a4bce767d75b155653616">operator!=</a> (decltype(nullptr)) const noexcept</td></tr>
 <tr class="memdesc:a4dfa7ef62c3a4bce767d75b155653616"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether this pointer is null.  <a href="#a4dfa7ef62c3a4bce767d75b155653616">More...</a><br/></td></tr>
 <tr class="separator:a4dfa7ef62c3a4bce767d75b155653616"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f4f13d04605524bf9cd2c81ebf2da8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#a03f4f13d04605524bf9cd2c81ebf2da8">operator==</a> (const ObjectType *other) const noexcept</td></tr>
+<tr class="memdesc:a03f4f13d04605524bf9cd2c81ebf2da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ReferenceCountedObjectPtrs.  <a href="#a03f4f13d04605524bf9cd2c81ebf2da8">More...</a><br/></td></tr>
+<tr class="separator:a03f4f13d04605524bf9cd2c81ebf2da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022996623a8fed91fe2b8b6f1c288c07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#a022996623a8fed91fe2b8b6f1c288c07">operator==</a> (const <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:a022996623a8fed91fe2b8b6f1c288c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ReferenceCountedObjectPtrs.  <a href="#a022996623a8fed91fe2b8b6f1c288c07">More...</a><br/></td></tr>
+<tr class="separator:a022996623a8fed91fe2b8b6f1c288c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceb6c19ab3586437acd1f166834205a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#aceb6c19ab3586437acd1f166834205a3">operator!=</a> (const ObjectType *other) const noexcept</td></tr>
+<tr class="memdesc:aceb6c19ab3586437acd1f166834205a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ReferenceCountedObjectPtrs.  <a href="#aceb6c19ab3586437acd1f166834205a3">More...</a><br/></td></tr>
+<tr class="separator:aceb6c19ab3586437acd1f166834205a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0e31f5fc8e8875d40cf69b77732b55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#adf0e31f5fc8e8875d40cf69b77732b55">operator!=</a> (const <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:adf0e31f5fc8e8875d40cf69b77732b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ReferenceCountedObjectPtrs.  <a href="#adf0e31f5fc8e8875d40cf69b77732b55">More...</a><br/></td></tr>
+<tr class="separator:adf0e31f5fc8e8875d40cf69b77732b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57f56519e9142114e61863d4f330f932"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classReferenceCountedObjectPtr.html#a57f56519e9142114e61863d4f330f932">operator ReferencedType *</a> () const noexcept</td></tr>
 <tr class="memdesc:a57f56519e9142114e61863d4f330f932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the object that this pointer references.  <a href="#a57f56519e9142114e61863d4f330f932">More...</a><br/></td></tr>
 <tr class="separator:a57f56519e9142114e61863d4f330f932"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -629,6 +641,118 @@ template&lt;class ObjectType&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a03f4f13d04605524bf9cd2c81ebf2da8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; ObjectType &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const ObjectType *&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares two ReferenceCountedObjectPtrs. </p>
+
+</div>
+</div>
+<a class="anchor" id="a022996623a8fed91fe2b8b6f1c288c07"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; ObjectType &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; ObjectType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares two ReferenceCountedObjectPtrs. </p>
+
+</div>
+</div>
+<a class="anchor" id="aceb6c19ab3586437acd1f166834205a3"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; ObjectType &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const ObjectType *&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares two ReferenceCountedObjectPtrs. </p>
+
+</div>
+</div>
+<a class="anchor" id="adf0e31f5fc8e8875d40cf69b77732b55"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; ObjectType &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classReferenceCountedObjectPtr.html">ReferenceCountedObjectPtr</a>&lt; ObjectType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares two ReferenceCountedObjectPtrs. </p>
+
+</div>
+</div>
 <a class="anchor" id="a57f56519e9142114e61863d4f330f932"></a>
 <div class="memitem">
 <div class="memproto">
@@ -716,7 +840,7 @@ template&lt;class ObjectType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 30 2018 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jul 3 2018 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
