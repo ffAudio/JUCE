@@ -239,8 +239,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa35f86e4320184df425ef26bf78d0bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a listener for custom program events from the block.  <a href="#aa35f86e4320184df425ef26bf78d0bb2">More...</a><br/></td></tr>
 <tr class="separator:aa35f86e4320184df425ef26bf78d0bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3d08344c1b453e6958a2aafcb0d2bd2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__core-maths.html#gabd01e8e67e3d94cab04ecaaf4f85ac1b">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#ae3d08344c1b453e6958a2aafcb0d2bd2">getMemorySize</a> ()=0</td></tr>
-<tr class="memdesc:ae3d08344c1b453e6958a2aafcb0d2bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the data block that setDataByte and other functions can write to.  <a href="#ae3d08344c1b453e6958a2aafcb0d2bd2">More...</a><br/></td></tr>
+<tr class="memdesc:ae3d08344c1b453e6958a2aafcb0d2bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the overall memory of the block.  <a href="#ae3d08344c1b453e6958a2aafcb0d2bd2">More...</a><br/></td></tr>
 <tr class="separator:ae3d08344c1b453e6958a2aafcb0d2bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af300c141eac5e3d223b2deb10f19bc52"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__core-maths.html#gabd01e8e67e3d94cab04ecaaf4f85ac1b">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#af300c141eac5e3d223b2deb10f19bc52">getHeapMemorySize</a> ()=0</td></tr>
+<tr class="memdesc:af300c141eac5e3d223b2deb10f19bc52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the data block that setDataByte and other functions can write to.  <a href="#af300c141eac5e3d223b2deb10f19bc52">More...</a><br/></td></tr>
+<tr class="separator:af300c141eac5e3d223b2deb10f19bc52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88d94c2477d0cbb2d50aa4ddd5d0701f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#a88d94c2477d0cbb2d50aa4ddd5d0701f">setDataByte</a> (size_t offset, <a class="el" href="group__juce__core-maths.html#ga34ecedcf03a70dc91e4616212d79267d">uint8</a> <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga7d209388070aba8c66e5b8bc12ff1725">value</a>)=0</td></tr>
 <tr class="memdesc:a88d94c2477d0cbb2d50aa4ddd5d0701f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a single byte on the littlefoot heap.  <a href="#a88d94c2477d0cbb2d50aa4ddd5d0701f">More...</a><br/></td></tr>
 <tr class="separator:a88d94c2477d0cbb2d50aa4ddd5d0701f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1258,6 +1261,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the overall memory of the block. </p>
+
+</div>
+</div>
+<a class="anchor" id="af300c141eac5e3d223b2deb10f19bc52"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="group__juce__core-maths.html#gabd01e8e67e3d94cab04ecaaf4f85ac1b">uint32</a> Block::getHeapMemorySize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>Returns the size of the data block that setDataByte and other functions can write to. </p>
 
 </div>
@@ -2091,7 +2119,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 3 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jul 4 2018 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
