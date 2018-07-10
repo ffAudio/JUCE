@@ -138,7 +138,7 @@ var searchData=
   ['ischannellayoutsupported',['isChannelLayoutSupported',['../classWavAudioFormat.html#ad6f06db106e233f34f5e71c6f7d284b2',1,'WavAudioFormat::isChannelLayoutSupported()'],['../classAudioFormat.html#a76a78fd9209eba29550871e5de314121',1,'AudioFormat::isChannelLayoutSupported()']]],
   ['ischannelpressure',['isChannelPressure',['../classMidiMessage.html#a49037c7f75318d83ab284708c682c843',1,'MidiMessage']]],
   ['isclipempty',['isClipEmpty',['../classGraphics.html#a6ae806601e19bc1631085d6e2a7f5d74',1,'Graphics::isClipEmpty()'],['../classLowLevelGraphicsContext.html#a1bfb18f0f76a90bb5c2282777551acde',1,'LowLevelGraphicsContext::isClipEmpty()'],['../classLowLevelGraphicsPostScriptRenderer.html#ad35261736da9997f34161815c97b1140',1,'LowLevelGraphicsPostScriptRenderer::isClipEmpty()']]],
-  ['iscolour',['isColour',['../classFillType.html#ae816ef1788db62d88a9ea251fd7abdf4',1,'FillType']]],
+  ['iscolour',['isColour',['../classFillType.html#ae816ef1788db62d88a9ea251fd7abdf4',1,'FillType::isColour()'],['../classOSCArgument.html#aa4ace100d469681069d214651de94c6f',1,'OSCArgument::isColour()']]],
   ['iscolourspecified',['isColourSpecified',['../classComponent.html#a638c99123b618195f50a244c2e996ef4',1,'Component::isColourSpecified()'],['../classLookAndFeel.html#a01bc0ae6a79f5e89413284856944c133',1,'LookAndFeel::isColourSpecified()']]],
   ['iscolumnvisible',['isColumnVisible',['../classTableHeaderComponent.html#a31b007b035502ed064d1a44eeac72446',1,'TableHeaderComponent']]],
   ['iscommandactive',['isCommandActive',['../classApplicationCommandTarget.html#ab5ee995932e10bd18dc6fff111f3835e',1,'ApplicationCommandTarget']]],

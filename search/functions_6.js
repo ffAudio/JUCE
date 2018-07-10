@@ -206,7 +206,7 @@ var searchData=
   ['getclusterxpos',['getClusterXpos',['../group__LittleFootFunctions.html#gaaaf8060bfdedbec617501fefb41d535e',1,'juce_LittleFootFunctions.dox']]],
   ['getclusterypos',['getClusterYpos',['../group__LittleFootFunctions.html#ga4982c9a385432240dd73a5e3f1447201',1,'juce_LittleFootFunctions.dox']]],
   ['getcoefficients',['getCoefficients',['../classIIRFilter.html#ae30d5788742849c12a7d0e467c6c3387',1,'IIRFilter']]],
-  ['getcolour',['getColour',['../classBox2DRenderer.html#a7bced16fc679c93c82bd7c5bb81b6031',1,'Box2DRenderer::getColour()'],['../classColourGradient.html#a9c9bbbf99f789034a7f527a381389042',1,'ColourGradient::getColour()'],['../classDrawableText.html#a9ae4dc1e473c206245888050805dda15',1,'DrawableText::getColour()']]],
+  ['getcolour',['getColour',['../classBox2DRenderer.html#a7bced16fc679c93c82bd7c5bb81b6031',1,'Box2DRenderer::getColour()'],['../classColourGradient.html#a9c9bbbf99f789034a7f527a381389042',1,'ColourGradient::getColour()'],['../classDrawableText.html#a9ae4dc1e473c206245888050805dda15',1,'DrawableText::getColour()'],['../classOSCArgument.html#a854b9cabedf7f63ba7a045e6ae68be9a',1,'OSCArgument::getColour()']]],
   ['getcolouratposition',['getColourAtPosition',['../classColourGradient.html#a679196f0e731d1306ca484909a6fccdb',1,'ColourGradient']]],
   ['getcolourfortokentype',['getColourForTokenType',['../classCodeEditorComponent.html#a120ed24ab68f677c86a4b44bde5f9426',1,'CodeEditorComponent']]],
   ['getcolourposition',['getColourPosition',['../classColourGradient.html#ab43972e13c701166d7cd268251ddbe67',1,'ColourGradient']]],

@@ -81,7 +81,7 @@ var searchData=
   ['blocktopology',['BlockTopology',['../structBlockTopology.html',1,'']]],
   ['blockuid',['blockUID',['../structTouchSurface_1_1Touch.html#a2c743c393566bb6ae8830d694c3ac098',1,'TouchSurface::Touch']]],
   ['blowfish',['BlowFish',['../classBlowFish.html',1,'BlowFish'],['../classBlowFish.html#a7a90652859afaf45194281939e881270',1,'BlowFish::BlowFish(const void *keyData, int keyBytes)'],['../classBlowFish.html#a33f39cf5622a285c351727a64ed1507a',1,'BlowFish::BlowFish(const BlowFish &amp;)']]],
-  ['blue',['blue',['../classColours.html#a6a834cffeaa15537e4781d8d24968a87',1,'Colours']]],
+  ['blue',['blue',['../classColours.html#a6a834cffeaa15537e4781d8d24968a87',1,'Colours::blue()'],['../structOSCColour.html#a627d2aa19ad241cb627420ba07f9b241',1,'OSCColour::blue()']]],
   ['bluebits',['blueBits',['../classOpenGLPixelFormat.html#a309d74a66aa876591508d76573597a04',1,'OpenGLPixelFormat']]],
   ['bluetoothmidi',['bluetoothMidi',['../classRuntimePermissions.html#ae35d63b8c00dab34a1546fd1eef90878af9db427de56e5cc282cea35e58f47959',1,'RuntimePermissions']]],
   ['bluetoothmididevicepairingdialogue',['BluetoothMidiDevicePairingDialogue',['../classBluetoothMidiDevicePairingDialogue.html',1,'']]],

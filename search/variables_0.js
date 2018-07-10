@@ -28,6 +28,7 @@ var searchData=
   ['allowbadge',['allowBadge',['../structPushNotifications_1_1Settings.html#a36b3ffa30490b4a45cc7817186f29a14',1,'PushNotifications::Settings']]],
   ['allowedresponses',['allowedResponses',['../structPushNotifications_1_1Notification_1_1Action.html#a3d60731f473175aa7dbe1b853227ed8b',1,'PushNotifications::Notification::Action']]],
   ['allowsound',['allowSound',['../structPushNotifications_1_1Settings.html#ab9d707cf7dc2476213ac57ecb6a0cd4d',1,'PushNotifications::Settings']]],
+  ['alpha',['alpha',['../structOSCColour.html#a09b39b90c61259a30ca891063bc9bfbc',1,'OSCColour']]],
   ['alphabits',['alphaBits',['../classOpenGLPixelFormat.html#a4d947e7a9831d9158f2a0b519d7d3497',1,'OpenGLPixelFormat']]],
   ['ambisonicdata',['ambisonicData',['../structUnityAudioEffectState.html#a1431c2143cafbe7bfb2a6e8e507f83e3',1,'UnityAudioEffectState']]],
   ['ambisonicoutchannels',['ambisonicOutChannels',['../structUnityAudioAmbisonicData.html#adf12ba522f9baeb717f79bfdcd49efe2',1,'UnityAudioAmbisonicData']]],

@@ -29,6 +29,7 @@ var searchData=
   ['oscaddresspattern',['OSCAddressPattern',['../classOSCAddressPattern.html',1,'']]],
   ['oscargument',['OSCArgument',['../classOSCArgument.html',1,'']]],
   ['oscbundle',['OSCBundle',['../classOSCBundle.html',1,'']]],
+  ['osccolour',['OSCColour',['../structOSCColour.html',1,'']]],
   ['oscexception',['OSCException',['../structOSCException.html',1,'']]],
   ['oscformaterror',['OSCFormatError',['../structOSCFormatError.html',1,'']]],
   ['oscillator',['Oscillator',['../classdsp_1_1Oscillator.html',1,'dsp']]],

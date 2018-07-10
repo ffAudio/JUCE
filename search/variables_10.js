@@ -4,7 +4,7 @@ var searchData=
   ['radius',['radius',['../structDropShadow.html#a96cbbc37579f9a2627f342a7dc6be568',1,'DropShadow']]],
   ['range',['range',['../classAudioParameterFloat.html#a7e860466dbc1319bc064cd6e7db382e3',1,'AudioParameterFloat::range()'],['../structBlock_1_1ConfigMetaData.html#a5e83f923a89ddf03a301efe06016c7ea',1,'Block::ConfigMetaData::range()'],['../classAttributedString_1_1Attribute.html#ab35a1ef10e233d3d0125b01baf4e086e',1,'AttributedString::Attribute::range()']]],
   ['rebeccapurple',['rebeccapurple',['../classColours.html#a35bf91e32f4916e966a47f3ad4ee3098',1,'Colours']]],
-  ['red',['red',['../classColours.html#a5056e7857f2bc211569dfc89512244dd',1,'Colours']]],
+  ['red',['red',['../classColours.html#a5056e7857f2bc211569dfc89512244dd',1,'Colours::red()'],['../structOSCColour.html#ae4a8be4c32c1ab0d720b239fe7a400f2',1,'OSCColour::red()']]],
   ['redbits',['redBits',['../classOpenGLPixelFormat.html#ae35395197ac66ebfed1a94d1748a20b8',1,'OpenGLPixelFormat']]],
   ['registerbutton',['registerButton',['../classOnlineUnlockForm.html#a2a7d3a1f454b97beebf84bc5ffd23939',1,'OnlineUnlockForm']]],
   ['release',['release',['../structUnityAudioEffectDefinition.html#a4d5d4ab625948bd04778dcb9ca6cc7bb',1,'UnityAudioEffectDefinition']]],

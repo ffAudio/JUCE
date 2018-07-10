@@ -68,6 +68,7 @@ var searchData=
   ['togglebutton',['ToggleButton',['../classToggleButton.html#aa978ecd118f11987b5a8060072b407f0',1,'ToggleButton::ToggleButton()'],['../classToggleButton.html#a96fc9c7af4c32810296c6d91c8d0fc86',1,'ToggleButton::ToggleButton(const String &amp;buttonText)']]],
   ['tohexstring',['toHexString',['../classString.html#aab501daf0fa0bbba1479218447d1f936',1,'String::toHexString(IntegerType number)'],['../classString.html#aa75e1ef8ccb4c326e9dab9de960c7d85',1,'String::toHexString(const void *data, int size, int groupSize=1)'],['../classMD5.html#af1c9da20d349083318efcb7d988ab6b8',1,'MD5::toHexString()'],['../classSHA256.html#a0256967ecc348e2233ad3769db27cebf',1,'SHA256::toHexString()'],['../classWhirlpool.html#a252e2a3a0a9922e7f65f0a6868ddfa00',1,'Whirlpool::toHexString()']]],
   ['toint',['toInt',['../classPoint.html#a5514262cf5bcdf914f45328afca8b231',1,'Point']]],
+  ['toint32',['toInt32',['../structOSCColour.html#ae6e069b2c6936eebfec3e48888d2026e',1,'OSCColour']]],
   ['toint64',['toInt64',['../classBigInteger.html#afb671dce311c1ed3a64f0336f4c76b19',1,'BigInteger::toInt64()'],['../classMACAddress.html#a6f760036561796c4abf45a7f86454b33',1,'MACAddress::toInt64()']]],
   ['tointeger',['toInteger',['../classBigInteger.html#a67b4e436a4d9e7f51bc73b1d53c19eff',1,'BigInteger']]],
   ['toiso8601',['toISO8601',['../classTime.html#a43192b3abe008910853903f518b44525',1,'Time']]],

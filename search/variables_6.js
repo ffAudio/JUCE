@@ -12,7 +12,7 @@ var searchData=
   ['goldenrod',['goldenrod',['../classColours.html#a7b4ffbc83bda6d20b537415f49327ce5',1,'Colours']]],
   ['gradient',['gradient',['../classFillType.html#a7643a65e9985d264c10d895e94a047da',1,'FillType']]],
   ['graphics',['graphics',['../classBox2DRenderer.html#a239c1aa7ebd09f8be7d5cd3cfbcd7611',1,'Box2DRenderer']]],
-  ['green',['green',['../classColours.html#a9a561532a8aa26019e40aa0460a40646',1,'Colours']]],
+  ['green',['green',['../classColours.html#a9a561532a8aa26019e40aa0460a40646',1,'Colours::green()'],['../structOSCColour.html#a200fbb5bed1a4f7c4b762f3ae9f47b37',1,'OSCColour::green()']]],
   ['greenbits',['greenBits',['../classOpenGLPixelFormat.html#a75cc537f0d7ad936b3353426735515dd',1,'OpenGLPixelFormat']]],
   ['greenyellow',['greenyellow',['../classColours.html#a9d690d0eb0194caa2c91dfba4afbff4c',1,'Colours']]],
   ['grey',['grey',['../classColours.html#a631686f2c072d2bf0988f418dea3c27f',1,'Colours']]],

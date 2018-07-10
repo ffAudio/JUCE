@@ -19,7 +19,7 @@ var searchData=
   ['blocksize1',['blockSize1',['../classAbstractFifo_1_1ScopedReadWrite.html#aa98241b5139af22b05f87235200d21bb',1,'AbstractFifo::ScopedReadWrite']]],
   ['blocksize2',['blockSize2',['../classAbstractFifo_1_1ScopedReadWrite.html#a4afe53356dd095b34eaf7b59ea5a6790',1,'AbstractFifo::ScopedReadWrite']]],
   ['blockuid',['blockUID',['../structTouchSurface_1_1Touch.html#a2c743c393566bb6ae8830d694c3ac098',1,'TouchSurface::Touch']]],
-  ['blue',['blue',['../classColours.html#a6a834cffeaa15537e4781d8d24968a87',1,'Colours']]],
+  ['blue',['blue',['../classColours.html#a6a834cffeaa15537e4781d8d24968a87',1,'Colours::blue()'],['../structOSCColour.html#a627d2aa19ad241cb627420ba07f9b241',1,'OSCColour::blue()']]],
   ['bluebits',['blueBits',['../classOpenGLPixelFormat.html#a309d74a66aa876591508d76573597a04',1,'OpenGLPixelFormat']]],
   ['blueviolet',['blueviolet',['../classColours.html#a1720311a325df81523fac5513a1253a1',1,'Colours']]],
   ['body',['body',['../structPushNotifications_1_1Notification.html#a6511da8d84be37a1bc4dcd62ad731f5a',1,'PushNotifications::Notification']]],
