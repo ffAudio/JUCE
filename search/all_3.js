@@ -325,7 +325,7 @@ var searchData=
   ['drawwhitenote',['drawWhiteNote',['../classMidiKeyboardComponent.html#ac985b2ce75f39970911456f91f5c2821',1,'MidiKeyboardComponent']]],
   ['drawwithin',['drawWithin',['../classDrawable.html#a601ede550e6c05e638984064e2923ac8',1,'Drawable']]],
   ['droplastcharacters',['dropLastCharacters',['../classString.html#a10b73eaa851a966058b59946b29b7142',1,'String']]],
-  ['dropshadow',['DropShadow',['../structDropShadow.html',1,'DropShadow'],['../structDropShadow.html#a4ed8af89cfe25cfbd823ce0a70413aa3',1,'DropShadow::DropShadow() noexcept'],['../structDropShadow.html#a151588cf37044442a7ca07b0a80e70d3',1,'DropShadow::DropShadow(Colour shadowColour, int radius, Point&lt; int &gt; offset) noexcept']]],
+  ['dropshadow',['DropShadow',['../structDropShadow.html',1,'DropShadow'],['../structDropShadow.html#afc21adc4e9add29d07f331bb9b0b4d50',1,'DropShadow::DropShadow()=default'],['../structDropShadow.html#a151588cf37044442a7ca07b0a80e70d3',1,'DropShadow::DropShadow(Colour shadowColour, int radius, Point&lt; int &gt; offset) noexcept']]],
   ['dropshadoweffect',['DropShadowEffect',['../classDropShadowEffect.html',1,'DropShadowEffect'],['../classDropShadowEffect.html#a385d398423cf81f8e073195ea84473b2',1,'DropShadowEffect::DropShadowEffect()']]],
   ['dropshadower',['DropShadower',['../classDropShadower.html',1,'DropShadower'],['../classDropShadower.html#a14c45e01c95902e0a8f5a975c1519d69',1,'DropShadower::DropShadower()']]],
   ['drumpadgridprogram',['DrumPadGridProgram',['../structDrumPadGridProgram.html',1,'DrumPadGridProgram'],['../structDrumPadGridProgram.html#a000cdc2e5e8e5fe677be2feeb08717ca',1,'DrumPadGridProgram::DrumPadGridProgram()']]],

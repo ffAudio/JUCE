@@ -121,9 +121,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7eba417d4a07ad97673693dd9d5e6c56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooserDialogBox.html#a7eba417d4a07ad97673693dd9d5e6c56">FileChooserDialogBox</a> (const <a class="el" href="classString.html">String</a> &amp;title, const <a class="el" href="classString.html">String</a> &amp;instructions, <a class="el" href="classFileBrowserComponent.html">FileBrowserComponent</a> &amp;browserComponent, bool warnAboutOverwritingExistingFiles, <a class="el" href="classColour.html">Colour</a> backgroundColour)</td></tr>
-<tr class="memdesc:a7eba417d4a07ad97673693dd9d5e6c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a file chooser box.  <a href="#a7eba417d4a07ad97673693dd9d5e6c56">More...</a><br/></td></tr>
-<tr class="separator:a7eba417d4a07ad97673693dd9d5e6c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d03550266909c8898495cc4a639219"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooserDialogBox.html#aa5d03550266909c8898495cc4a639219">FileChooserDialogBox</a> (const <a class="el" href="classString.html">String</a> &amp;title, const <a class="el" href="classString.html">String</a> &amp;instructions, <a class="el" href="classFileBrowserComponent.html">FileBrowserComponent</a> &amp;browserComponent, bool warnAboutOverwritingExistingFiles, <a class="el" href="classColour.html">Colour</a> backgroundColour, <a class="el" href="classComponent.html">Component</a> *parentComponent=nullptr)</td></tr>
+<tr class="memdesc:aa5d03550266909c8898495cc4a639219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a file chooser box.  <a href="#aa5d03550266909c8898495cc4a639219">More...</a><br/></td></tr>
+<tr class="separator:aa5d03550266909c8898495cc4a639219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96980634d76e05ebc454ecfb5f020176"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileChooserDialogBox.html#a96980634d76e05ebc454ecfb5f020176">~FileChooserDialogBox</a> ()</td></tr>
 <tr class="memdesc:a96980634d76e05ebc454ecfb5f020176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a96980634d76e05ebc454ecfb5f020176">More...</a><br/></td></tr>
 <tr class="separator:a96980634d76e05ebc454ecfb5f020176"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -907,7 +907,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a7eba417d4a07ad97673693dd9d5e6c56"></a>
+<a class="anchor" id="aa5d03550266909c8898495cc4a639219"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -939,7 +939,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classColour.html">Colour</a>&#160;</td>
-          <td class="paramname"><em>backgroundColour</em>&#160;</td>
+          <td class="paramname"><em>backgroundColour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classComponent.html">Component</a> *&#160;</td>
+          <td class="paramname"><em>parentComponent</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -956,7 +962,8 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">instructions</td><td>an optional longer piece of text to show below the title in a smaller font, describing in more detail what's required. </td></tr>
     <tr><td class="paramname">browserComponent</td><td>a <a class="el" href="classFileBrowserComponent.html" title="A component for browsing and selecting a file or directory to open or save. ">FileBrowserComponent</a> that will be shown inside this dialog box. Make sure you delete this after (but not before!) the dialog box has been deleted. </td></tr>
     <tr><td class="paramname">warnAboutOverwritingExistingFiles</td><td>if true, then the user will be asked to confirm if they try to select a file that already exists. (This flag is only used when saving files) </td></tr>
-    <tr><td class="paramname">backgroundColour</td><td>the background colour for the top level window</td></tr>
+    <tr><td class="paramname">backgroundColour</td><td>the background colour for the top level window </td></tr>
+    <tr><td class="paramname">parentComponent</td><td>an optional component which should be the parent for the file chooser. If this is a nullptr then the dialog box will be a top-level window. AUv3s on iOS must specify this parameter as opening a top-level window in an AUv3 is forbidden due to sandbox restrictions.</td></tr>
   </table>
   </dd>
 </dl>
@@ -1078,7 +1085,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 11 2018 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 12 2018 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

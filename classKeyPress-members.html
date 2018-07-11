@@ -142,10 +142,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#ac443b8024725e24f0da796cbac8d7fff">isKeyCode</a>(int keyCodeToCompare) const noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classKeyPress.html#a94c2aecc867e4dba1382c31c377523d2">isKeyCurrentlyDown</a>(int keyCode)</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#ab4f51e1cc6e423380fa7e77f105eef0c">isValid</a>() const noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classKeyPress.html#a7d40630120c945017e8e3fbc30bb3499">KeyPress</a>() noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classKeyPress.html#ae7143f58a06c1828cbad0aa84e0b1af2">KeyPress</a>()=default</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a6a8910ee5ba637b23af8550eac1c301a">KeyPress</a>(int keyCode, ModifierKeys modifiers, juce_wchar textCharacter) noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classKeyPress.html#aee4f777a405880b975b96dc7738c151d">KeyPress</a>(int keyCode) noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a748bef397e6bc4ba452a98dd67d43f97">KeyPress</a>(const KeyPress &amp;other) noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a00ac84a6688f7f96b86210e5fd402a64">KeyPress</a>(const KeyPress &amp;)=default</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classKeyPress.html#ad2961244072158eee77e11844a968f61">leftKey</a></td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a4a44bab251df2712330effd9358968b4">numberPad0</a></td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="classKeyPress.html#af8c69449943e82aac0a728d2ba4dd016">numberPad1</a></td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
@@ -167,7 +167,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr><td class="entry"><a class="el" href="classKeyPress.html#a3587df27be497fb3d805dc6ac8eadc5b">numberPadSubtract</a></td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#afb86f08e6db034fbd3f143ffa31e4777">operator!=</a>(const KeyPress &amp;other) const noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classKeyPress.html#aff3aa01ed93293ecbc3b13ca910532fe">operator!=</a>(int keyCode) const noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a6257c6ee69898f561ccd4e2af8c66e8d">operator=</a>(const KeyPress &amp;other) noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a90cbcc041ed29c2c75766074a5aee37d">operator=</a>(const KeyPress &amp;)=default</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classKeyPress.html#af0f5939d677fd996b3d25f9a8fb50643">operator==</a>(const KeyPress &amp;other) const noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a9957d43aaa85003e6e0da06cdf874582">operator==</a>(int keyCode) const noexcept</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classKeyPress.html#ac30e9e5628a043cfac1c601540b1ef01">pageDownKey</a></td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
@@ -180,10 +180,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a4ebc694e95335f25418c99eb2235d815">stopKey</a></td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="classKeyPress.html#a2a3d96e0f2602106a3855a34a2e1dbb8">tabKey</a></td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classKeyPress.html#a97fcf796ea92d9ff3818ee17cdbafa80">upKey</a></td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classKeyPress.html#a654a419dbdd651bba24d9b84b5b97382">~KeyPress</a>()=default</td><td class="entry"><a class="el" href="classKeyPress.html">KeyPress</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 11 2018 01:00:57 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 12 2018 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

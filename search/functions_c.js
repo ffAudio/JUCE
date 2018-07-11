@@ -97,7 +97,7 @@ var searchData=
   ['mod',['mod',['../group__LittleFootFunctions.html#ga427bcef6cf410a410b7e22e51425ea73',1,'juce_LittleFootFunctions.dox']]],
   ['modalcomponentmanager',['ModalComponentManager',['../classModalComponentManager.html#aaf0be23075467f26330a77781e1f3ed9',1,'ModalComponentManager']]],
   ['modalstatefinished',['modalStateFinished',['../classModalComponentManager_1_1Callback.html#ad44cd3225753579084bdb3ba7bd8e625',1,'ModalComponentManager::Callback']]],
-  ['modifierkeys',['ModifierKeys',['../classModifierKeys.html#adfcf4939ec180442da20992c50de24ae',1,'ModifierKeys::ModifierKeys() noexcept'],['../classModifierKeys.html#ab75d0460df15e0c4ba76fab270ea9623',1,'ModifierKeys::ModifierKeys(int flags) noexcept'],['../classModifierKeys.html#a617688714d7b3a91dc908ac9a20b249b',1,'ModifierKeys::ModifierKeys(const ModifierKeys &amp;other) noexcept']]],
+  ['modifierkeys',['ModifierKeys',['../classModifierKeys.html#a39cf44030916214d384cd726ddd8bb0f',1,'ModifierKeys::ModifierKeys()=default'],['../classModifierKeys.html#ab75d0460df15e0c4ba76fab270ea9623',1,'ModifierKeys::ModifierKeys(int flags) noexcept'],['../classModifierKeys.html#a1477a5b9eb3ce82e2ff0e6c076d6b42c',1,'ModifierKeys::ModifierKeys(const ModifierKeys &amp;)=default']]],
   ['modifierkeyschanged',['modifierKeysChanged',['../classComponent.html#a4145c1c28dd2ae42b19c9c3e0a6aba7b',1,'Component::modifierKeysChanged()'],['../classSlider.html#a50bfc1f4bc764cd7db7d25abed9e0198',1,'Slider::modifierKeysChanged()']]],
   ['mono',['mono',['../classAudioChannelSet.html#a17a0a8ab8f24eebf463baf8d99a39617',1,'AudioChannelSet']]],
   ['montgomerymultiplication',['montgomeryMultiplication',['../classBigInteger.html#a63d85dc2a0b19f7bfdfb6879cad01e25',1,'BigInteger']]],
