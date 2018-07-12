@@ -450,7 +450,7 @@ template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
 <p>Returns a raw pointer to the allocated data. </p>
 <p>This may be a null pointer if the data hasn't yet been allocated, or if it has been freed by calling the <a class="el" href="classHeapBlock.html#a8ec3fb69997d6f530d60cb5e0969f97f" title="Frees any currently-allocated data. ">free()</a> method. </p>
 
-<p>Referenced by <a class="el" href="classReferenceCountedArray.html#ae4d087d8723db7a39fb876d419d9f960">ReferenceCountedArray&lt; AudioProcessorGraph::Node &gt;::addOrReplaceSorted()</a>, <a class="el" href="classOwnedArray.html#ac87e81838149b9d541f6afe605a81b43">OwnedArray&lt; MarkerList::Marker &gt;::addSorted()</a>, <a class="el" href="classReferenceCountedArray.html#afb1a9958a818b6c410d79fc65b23432e">ReferenceCountedArray&lt; AudioProcessorGraph::Node &gt;::addSorted()</a>, <a class="el" href="classOwnedArray.html#a4ae4a483c09550d8432b98db14f2d132">OwnedArray&lt; MarkerList::Marker &gt;::contains()</a>, <a class="el" href="classReferenceCountedArray.html#a827d84956e8bffce236206ebd3bd5151">ReferenceCountedArray&lt; AudioProcessorGraph::Node &gt;::contains()</a>, <a class="el" href="classSpeakerMappings_1_1VstSpeakerConfigurationHolder.html#a4f1ae4a2d87081342ebfe67f2ca3320b">SpeakerMappings::VstSpeakerConfigurationHolder::get()</a>, <a class="el" href="classOwnedArray.html#a6660424693e4edbc687fc8352a71ca92">OwnedArray&lt; MarkerList::Marker &gt;::indexOf()</a>, <a class="el" href="classReferenceCountedArray.html#af1356c45c3b9b68a0dc62680550f31ca">ReferenceCountedArray&lt; AudioProcessorGraph::Node &gt;::indexOf()</a>, <a class="el" href="classOwnedArray.html#ac56956aeefcbbaeea2f4d143eb78f633">OwnedArray&lt; MarkerList::Marker &gt;::insertArray()</a>, <a class="el" href="classOwnedArray.html#a2b783fa66f082b890fc20d8d9c948494">OwnedArray&lt; MarkerList::Marker &gt;::removeObject()</a>, <a class="el" href="classAudioBuffer.html#a4434de94aa03d7db6d7ef06977ddf0ac">AudioBuffer&lt; float &gt;::setSize()</a>, <a class="el" href="classOwnedArray.html#a04a21a831320e2ce76bee8ad881e1d90">OwnedArray&lt; MarkerList::Marker &gt;::sort()</a>, and <a class="el" href="classReferenceCountedArray.html#a8922b2be33b14791e32d0f7c2f1a83d2">ReferenceCountedArray&lt; AudioProcessorGraph::Node &gt;::sort()</a>.</p>
+<p>Referenced by <a class="el" href="classSpeakerMappings_1_1VstSpeakerConfigurationHolder.html#a4f1ae4a2d87081342ebfe67f2ca3320b">SpeakerMappings::VstSpeakerConfigurationHolder::get()</a>, and <a class="el" href="classAudioBuffer.html#a4434de94aa03d7db6d7ef06977ddf0ac">AudioBuffer&lt; float &gt;::setSize()</a>.</p>
 
 </div>
 </div>
@@ -824,7 +824,7 @@ template&lt;typename SizeType &gt; </div>
 <p>Re-allocates a specified amount of memory. </p>
 <p>The semantics of this method are the same as <a class="el" href="classHeapBlock.html#a29b2353f2433660bbb98066bbe3cf059" title="Allocates a specified amount of memory. ">malloc()</a> and <a class="el" href="classHeapBlock.html#ae85c772e650f78ec449611e4a5dea301" title="Allocates a specified amount of memory and clears it. ">calloc()</a>, but it uses <a class="el" href="classHeapBlock.html#a74f9707f0bf150324c9b490bd8979b3e" title="Re-allocates a specified amount of memory. ">realloc()</a> to keep as much of the existing data as possible. </p>
 
-<p>Referenced by <a class="el" href="classArrayAllocationBase.html#a79511376b65e0f36d4367dc57dcc7e41">ArrayAllocationBase&lt; ProgressBar *, DummyCriticalSection &gt;::setAllocatedSize()</a>.</p>
+<p>Referenced by <a class="el" href="classArrayAllocationBase.html#a79511376b65e0f36d4367dc57dcc7e41">ArrayAllocationBase&lt; ElementType, TypeOfCriticalSectionToUse &gt;::setAllocatedSize()</a>.</p>
 
 </div>
 </div>
@@ -854,7 +854,7 @@ template&lt;class ElementType, bool throwOnFailure = false&gt; </div>
 <p>Frees any currently-allocated data. </p>
 <p>This will free the data and reset this object to be a null pointer. </p>
 
-<p>Referenced by <a class="el" href="classArrayAllocationBase.html#a79511376b65e0f36d4367dc57dcc7e41">ArrayAllocationBase&lt; ProgressBar *, DummyCriticalSection &gt;::setAllocatedSize()</a>, and <a class="el" href="classAudioBuffer.html#a241b1340efd9e55a752a002579021950">AudioBuffer&lt; float &gt;::setDataToReferTo()</a>.</p>
+<p>Referenced by <a class="el" href="classArrayAllocationBase.html#a79511376b65e0f36d4367dc57dcc7e41">ArrayAllocationBase&lt; ElementType, TypeOfCriticalSectionToUse &gt;::setAllocatedSize()</a>, <a class="el" href="classArrayBase.html#a544fc146c48234ec85ae3be38e5c9049">ArrayBase&lt; ProgressBar *, DummyCriticalSection &gt;::setAllocatedSize()</a>, and <a class="el" href="classAudioBuffer.html#a241b1340efd9e55a752a002579021950">AudioBuffer&lt; float &gt;::setDataToReferTo()</a>.</p>
 
 </div>
 </div>
@@ -887,7 +887,7 @@ template&lt;bool otherBlockThrows&gt; </div>
 <p>Swaps this object's data with the data of another <a class="el" href="classHeapBlock.html" title="Very simple container class to hold a pointer to some data on the heap. ">HeapBlock</a>. </p>
 <p>The two objects simply exchange their data pointers. </p>
 
-<p>Referenced by <a class="el" href="classAudioBuffer.html#a4434de94aa03d7db6d7ef06977ddf0ac">AudioBuffer&lt; float &gt;::setSize()</a>, and <a class="el" href="classArrayAllocationBase.html#af344634326ca37edc09a9e97d295630b">ArrayAllocationBase&lt; ProgressBar *, DummyCriticalSection &gt;::swapWith()</a>.</p>
+<p>Referenced by <a class="el" href="classAudioBuffer.html#a4434de94aa03d7db6d7ef06977ddf0ac">AudioBuffer&lt; float &gt;::setSize()</a>, <a class="el" href="classArrayAllocationBase.html#af344634326ca37edc09a9e97d295630b">ArrayAllocationBase&lt; ElementType, TypeOfCriticalSectionToUse &gt;::swapWith()</a>, and <a class="el" href="classArrayBase.html#a883e6d3a41f1781f02dd0e83733abe87">ArrayBase&lt; ProgressBar *, DummyCriticalSection &gt;::swapWith()</a>.</p>
 
 </div>
 </div>
@@ -930,7 +930,7 @@ template&lt;typename SizeType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 12 2018 01:00:58 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 13 2018 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

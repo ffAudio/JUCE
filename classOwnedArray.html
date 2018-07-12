@@ -102,9 +102,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaef9b9d43ed2ac8568ba73ef0c4805f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#aaef9b9d43ed2ac8568ba73ef0c4805f9">OwnedArray</a> () noexcept</td></tr>
-<tr class="memdesc:aaef9b9d43ed2ac8568ba73ef0c4805f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty array.  <a href="#aaef9b9d43ed2ac8568ba73ef0c4805f9">More...</a><br/></td></tr>
-<tr class="separator:aaef9b9d43ed2ac8568ba73ef0c4805f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080881446098eecd64e8399e1d124142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a080881446098eecd64e8399e1d124142">OwnedArray</a> ()=default</td></tr>
+<tr class="memdesc:a080881446098eecd64e8399e1d124142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty array.  <a href="#a080881446098eecd64e8399e1d124142">More...</a><br/></td></tr>
+<tr class="separator:a080881446098eecd64e8399e1d124142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab8ed18b03ab56e465433b32f84c9e59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#aab8ed18b03ab56e465433b32f84c9e59">~OwnedArray</a> ()</td></tr>
 <tr class="memdesc:aab8ed18b03ab56e465433b32f84c9e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the array and also deletes any objects inside it.  <a href="#aab8ed18b03ab56e465433b32f84c9e59">More...</a><br/></td></tr>
 <tr class="separator:aab8ed18b03ab56e465433b32f84c9e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +150,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af24125ef9d6f24c35be21b37c8c945ea"><td class="memItemLeft" align="right" valign="top">ObjectClass **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#af24125ef9d6f24c35be21b37c8c945ea">end</a> () const noexcept</td></tr>
 <tr class="memdesc:af24125ef9d6f24c35be21b37c8c945ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the element which follows the last element in the array.  <a href="#af24125ef9d6f24c35be21b37c8c945ea">More...</a><br/></td></tr>
 <tr class="separator:af24125ef9d6f24c35be21b37c8c945ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c9458505f8f5eb904c3425db24502f"><td class="memItemLeft" align="right" valign="top">ObjectClass **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a49c9458505f8f5eb904c3425db24502f">data</a> () const noexcept</td></tr>
+<tr class="memdesc:a49c9458505f8f5eb904c3425db24502f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first element in the array.  <a href="#a49c9458505f8f5eb904c3425db24502f">More...</a><br/></td></tr>
+<tr class="separator:a49c9458505f8f5eb904c3425db24502f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6660424693e4edbc687fc8352a71ca92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a6660424693e4edbc687fc8352a71ca92">indexOf</a> (const ObjectClass *objectToLookFor) const noexcept</td></tr>
 <tr class="memdesc:a6660424693e4edbc687fc8352a71ca92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of an object which might be in the array.  <a href="#a6660424693e4edbc687fc8352a71ca92">More...</a><br/></td></tr>
 <tr class="separator:a6660424693e4edbc687fc8352a71ca92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,7 +263,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaef9b9d43ed2ac8568ba73ef0c4805f9"></a>
+<a class="anchor" id="a080881446098eecd64e8399e1d124142"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -278,7 +281,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -423,6 +426,8 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 </div><div class="memdoc">
 
 <p>Clears the array, optionally deleting the objects inside it first. </p>
+
+<p>Referenced by <a class="el" href="classOwnedArray.html#a65730f03dbe905fa251491cb6c8c14ee">OwnedArray&lt; MarkerList::Marker &gt;::clear()</a>.</p>
 
 </div>
 </div>
@@ -660,6 +665,8 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 <p>Returns a pointer to the first element in the array. </p>
 <p>This method is provided for compatibility with standard C++ iteration mechanisms. </p>
 
+<p>Referenced by <a class="el" href="classOwnedArray.html#a49c9458505f8f5eb904c3425db24502f">OwnedArray&lt; MarkerList::Marker &gt;::data()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="af24125ef9d6f24c35be21b37c8c945ea"></a>
@@ -687,6 +694,34 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 
 <p>Returns a pointer to the element which follows the last element in the array. </p>
 <p>This method is provided for compatibility with standard C++ iteration mechanisms. </p>
+
+</div>
+</div>
+<a class="anchor" id="a49c9458505f8f5eb904c3425db24502f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ObjectClass** <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the first element in the array. </p>
+<p>This method is provided for compatibility with the standard C++ containers. </p>
 
 </div>
 </div>
@@ -798,7 +833,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 <dl class="section return"><dt>Returns</dt><dd>the new object that was added </dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classOwnedArray.html#a383de41801934f65b720a7019ed6ac8a" title="Replaces an object in the array with a different one. ">set</a>, <a class="el" href="classOwnedArray.html#af65726b11200f86ac1aa699eefafa507" title="Inserts a new object into the array at the given index. ">insert</a>, <a class="el" href="classOwnedArray.html#a53c6a89641ec9282a01e04322f14fe34" title="Appends a new object at the end of the array as long as the array doesn&#39;t already contain it...">addIfNotAlreadyThere</a>, <a class="el" href="classOwnedArray.html#ac87e81838149b9d541f6afe605a81b43" title="Inserts a new object into the array assuming that the array is sorted. ">addSorted</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="classOwnedArray.html#a53c6a89641ec9282a01e04322f14fe34">OwnedArray&lt; MarkerList::Marker &gt;::addIfNotAlreadyThere()</a>, and <a class="el" href="classOwnedArray.html#af65726b11200f86ac1aa699eefafa507">OwnedArray&lt; MarkerList::Marker &gt;::insert()</a>.</p>
+<p>Referenced by <a class="el" href="classOwnedArray.html#a53c6a89641ec9282a01e04322f14fe34">OwnedArray&lt; MarkerList::Marker &gt;::addIfNotAlreadyThere()</a>.</p>
 
 </div>
 </div>
@@ -1666,7 +1701,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 12 2018 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 13 2018 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

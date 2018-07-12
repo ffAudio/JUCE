@@ -24,6 +24,7 @@ var searchData=
   ['juce_5fapplicationproperties_2eh',['juce_ApplicationProperties.h',['../juce__ApplicationProperties_8h.html',1,'']]],
   ['juce_5farray_2eh',['juce_Array.h',['../juce__Array_8h.html',1,'']]],
   ['juce_5farrayallocationbase_2eh',['juce_ArrayAllocationBase.h',['../juce__ArrayAllocationBase_8h.html',1,'']]],
+  ['juce_5farraybase_2eh',['juce_ArrayBase.h',['../juce__ArrayBase_8h.html',1,'']]],
   ['juce_5farrowbutton_2eh',['juce_ArrowButton.h',['../juce__ArrowButton_8h.html',1,'']]],
   ['juce_5fasyncupdater_2eh',['juce_AsyncUpdater.h',['../juce__AsyncUpdater_8h.html',1,'']]],
   ['juce_5fatomic_2eh',['juce_Atomic.h',['../juce__Atomic_8h.html',1,'']]],

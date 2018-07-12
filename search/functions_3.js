@@ -1,6 +1,7 @@
 var searchData=
 [
   ['darker',['darker',['../classColour.html#a9910d9b8385825a87ea0d62d96115872',1,'Colour']]],
+  ['data',['data',['../classArray.html#a8386bae02caf7d888736b1bf6192cea7',1,'Array::data()'],['../classArrayBase.html#a767ae34ab2d1f9c7d7b9ce9f2d03967f',1,'ArrayBase::data()'],['../classOwnedArray.html#a49c9458505f8f5eb904c3425db24502f',1,'OwnedArray::data()'],['../classReferenceCountedArray.html#a00a80845b627d1940becbed81716bc4e',1,'ReferenceCountedArray::data()']]],
   ['datagramsocket',['DatagramSocket',['../classDatagramSocket.html#af2fea92879c30d16256752076c5473e4',1,'DatagramSocket']]],
   ['days',['days',['../classRelativeTime.html#a97b1773403606835c173f26a0a03f5e6',1,'RelativeTime']]],
   ['deactivatecurrentcontext',['deactivateCurrentContext',['../classOpenGLContext.html#a5a3ece9be728d97e0343ae17a71f6562',1,'OpenGLContext']]],
