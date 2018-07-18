@@ -232,8 +232,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <tr class="even"><td class="entry"><a class="el" href="classComponent.html#aa15dc77c06b5a0a4192090b4a323f79c">paintOverChildren</a>(Graphics &amp;g)</td><td class="entry"><a class="el" href="classComponent.html">Component</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classComponent.html#a83f298a05d7f26a6e50e45dd37eb6313">parentHierarchyChanged</a>()</td><td class="entry"><a class="el" href="classComponent.html">Component</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classComponent.html#aefdce73a764c48363e82b22c32b0812e">parentSizeChanged</a>()</td><td class="entry"><a class="el" href="classComponent.html">Component</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classDragAndDropContainer.html#a43b6d3859067db19865815c71a2055d6">performExternalDragDropOfFiles</a>(const StringArray &amp;files, bool canMoveFiles, Component *sourceComponent=nullptr)</td><td class="entry"><a class="el" href="classDragAndDropContainer.html">DragAndDropContainer</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classDragAndDropContainer.html#aa008ebaa27be87970337a58278332d13">performExternalDragDropOfText</a>(const String &amp;text, Component *sourceComponent=nullptr)</td><td class="entry"><a class="el" href="classDragAndDropContainer.html">DragAndDropContainer</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classDragAndDropContainer.html#af3ea2f44bc2999149624190c33e346f6">performExternalDragDropOfFiles</a>(const StringArray &amp;files, bool canMoveFiles, Component *sourceComponent=nullptr, std::function&lt; void()&gt; callback=nullptr)</td><td class="entry"><a class="el" href="classDragAndDropContainer.html">DragAndDropContainer</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classDragAndDropContainer.html#a92f14b248d444e7a021a94f0b5051e34">performExternalDragDropOfText</a>(const String &amp;text, Component *sourceComponent=nullptr, std::function&lt; void()&gt; callback=nullptr)</td><td class="entry"><a class="el" href="classDragAndDropContainer.html">DragAndDropContainer</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="classComponent.html#a005628ba100dc23d179bff98bd419eb5">postCommandMessage</a>(int commandId)</td><td class="entry"><a class="el" href="classComponent.html">Component</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classComponent.html#a5d5356b8ad166fa48273dd90980ab3aa">proportionOfHeight</a>(float proportion) const noexcept</td><td class="entry"><a class="el" href="classComponent.html">Component</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classComponent.html#ab2def9de34b650c5384f6bc040daa6a5">proportionOfWidth</a>(float proportion) const noexcept</td><td class="entry"><a class="el" href="classComponent.html">Component</a></td><td class="entry"></td></tr>
@@ -309,7 +309,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 18 2018 01:01:04 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 19 2018 01:01:09 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
