@@ -125,9 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8681e502511552f2e20ada5126023b3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinearSmoothedValue.html#a8681e502511552f2e20ada5126023b3a">applyGain</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt; &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618">buffer</a>, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
 <tr class="memdesc:a8681e502511552f2e20ada5126023b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a linear smoothed gain to a buffer.  <a href="#a8681e502511552f2e20ada5126023b3a">More...</a><br/></td></tr>
 <tr class="separator:a8681e502511552f2e20ada5126023b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac365e9ec4988ec762b86e2f97720c0ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinearSmoothedValue.html#ac365e9ec4988ec762b86e2f97720c0ea">skip</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
-<tr class="memdesc:ac365e9ec4988ec762b86e2f97720c0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skip the next numSamples samples.  <a href="#ac365e9ec4988ec762b86e2f97720c0ea">More...</a><br/></td></tr>
-<tr class="separator:ac365e9ec4988ec762b86e2f97720c0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab771ff3b8ba8b39c023c8473ec75ede4"><td class="memItemLeft" align="right" valign="top">FloatType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLinearSmoothedValue.html#ab771ff3b8ba8b39c023c8473ec75ede4">skip</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
+<tr class="memdesc:ab771ff3b8ba8b39c023c8473ec75ede4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Skip the next numSamples samples.  <a href="#ab771ff3b8ba8b39c023c8473ec75ede4">More...</a><br/></td></tr>
+<tr class="separator:ab771ff3b8ba8b39c023c8473ec75ede4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename FloatType&gt;<br/>
@@ -511,7 +511,7 @@ template&lt;typename FloatType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ac365e9ec4988ec762b86e2f97720c0ea"></a>
+<a class="anchor" id="ab771ff3b8ba8b39c023c8473ec75ede4"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -521,7 +521,7 @@ template&lt;typename FloatType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classLinearSmoothedValue.html">LinearSmoothedValue</a>&lt; FloatType &gt;::skip </td>
+          <td class="memname">FloatType <a class="el" href="classLinearSmoothedValue.html">LinearSmoothedValue</a>&lt; FloatType &gt;::skip </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"><em>numSamples</em></td><td>)</td>
@@ -536,7 +536,7 @@ template&lt;typename FloatType&gt; </div>
 </div><div class="memdoc">
 
 <p>Skip the next numSamples samples. </p>
-<p>This is identical to calling getNextValue numSamples times. </p>
+<p>This is identical to calling getNextValue numSamples times. It returns the new current value. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0" title="Compute the next value. ">getNextValue</a> </dd></dl>
 
 <p>Referenced by <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>.</p>
@@ -549,7 +549,7 @@ template&lt;typename FloatType&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 19 2018 01:01:03 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 20 2018 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
