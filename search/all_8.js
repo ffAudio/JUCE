@@ -137,7 +137,7 @@ var searchData=
   ['int64',['int64',['../group__juce__core-maths.html#gab0e5976e1a4967e9b13e68b5f271bb44',1,'juce_MathsFunctions.h']]],
   ['int8',['int8',['../namespacelittlefoot.html#a0e7499324fa7198411b83aec5a9581e4',1,'littlefoot::int8()'],['../group__juce__core-maths.html#ga07fb256c1077eea7a7726e948cc8ff0e',1,'int8():&#160;juce_MathsFunctions.h']]],
   ['int_5f',['int_',['../namespacelittlefoot.html#a4fb4051df81acdbcaa446ab5a02dd8e7ad7488204e92ed01986284bef5650eb53',1,'littlefoot']]],
-  ['integer',['integer',['../structBlockConfigManager.html#a6148f6d6cdb6f788bd6d009b40f072eea0bb8c71391407f76a2a638a9ee90eaeb',1,'BlockConfigManager']]],
+  ['integer',['integer',['../structBlock_1_1ConfigMetaData.html#a468481c4cccaa02e4550c9bb2febe80da157db7df530023575515d366c9b672e8',1,'Block::ConfigMetaData']]],
   ['integerwithbitsize',['IntegerWithBitSize',['../structBlocksProtocol_1_1IntegerWithBitSize.html#aaeb64bedd7c536a78c6b7c522b5f5a46',1,'BlocksProtocol::IntegerWithBitSize::IntegerWithBitSize() noexcept=default'],['../structBlocksProtocol_1_1IntegerWithBitSize.html#a816cdedf8452c1b0993195b4bb6c7d09',1,'BlocksProtocol::IntegerWithBitSize::IntegerWithBitSize(const IntegerWithBitSize &amp;) noexcept=default'],['../structBlocksProtocol_1_1IntegerWithBitSize.html#ab66f5b17459dd0ffb716068bf19bb6c7',1,'BlocksProtocol::IntegerWithBitSize::IntegerWithBitSize(uint32 v) noexcept']]],
   ['integerwithbitsize',['IntegerWithBitSize',['../structBlocksProtocol_1_1IntegerWithBitSize.html',1,'BlocksProtocol']]],
   ['integerwithbitsize_3c_201_20_3e',['IntegerWithBitSize&lt; 1 &gt;',['../structBlocksProtocol_1_1IntegerWithBitSize.html',1,'BlocksProtocol']]],

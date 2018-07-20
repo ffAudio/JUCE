@@ -378,7 +378,7 @@ var searchData=
   ['arescrollbarsshown',['areScrollbarsShown',['../classTextEditor.html#aa30f090abb8e9c8804f35f4fd45e8bb7',1,'TextEditor']]],
   ['areshadersavailable',['areShadersAvailable',['../classOpenGLContext.html#ab0bb8babf0f652ea2b7b10f0fec9f6e7',1,'OpenGLContext']]],
   ['arespacesinsertedfortabs',['areSpacesInsertedForTabs',['../classCodeEditorComponent.html#a79befaff281e3c097f5586889ec7014c',1,'CodeEditorComponent']]],
-  ['argb',['ARGB',['../classImage.html#ab47b5746d2df286ae6f8da6af5463c01a9adefc17fe4663de8e3fc9621c891b8b',1,'Image::ARGB()'],['../structLEDColour.html#a7570ba255dade5c96450c9d7b0e3dba4',1,'LEDColour::argb()']]],
+  ['argb',['argb',['../structLEDColour.html#a7570ba255dade5c96450c9d7b0e3dba4',1,'LEDColour::argb()'],['../classImage.html#ab47b5746d2df286ae6f8da6af5463c01a9adefc17fe4663de8e3fc9621c891b8b',1,'Image::ARGB()']]],
   ['arguments',['arguments',['../structvar_1_1NativeFunctionArgs.html#a6c898b57ab92fb3084a78a4713ae2065',1,'var::NativeFunctionArgs']]],
   ['arp',['arp',['../classControlButton.html#a891776295057786f99f14631b1aa2794adab22b88ae7ce5fe608b846917051771',1,'ControlButton']]],
   ['arppattern',['arpPattern',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a960155c91350d0db62d6115819677f2f',1,'BlocksProtocol']]],
