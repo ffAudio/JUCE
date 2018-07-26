@@ -241,7 +241,7 @@ var searchData=
   ['setcurrentthreadasmessagethread',['setCurrentThreadAsMessageThread',['../classMessageManager.html#af94f78debd3b3d70acade65f50c5058e',1,'MessageManager']]],
   ['setcurrentthreadname',['setCurrentThreadName',['../classThread.html#a8ba2a683ea8111c08db83092360b7226',1,'Thread']]],
   ['setcurrentthreadpriority',['setCurrentThreadPriority',['../classThread.html#a9a777202bb5aa9ce7f57605674b100f4',1,'Thread']]],
-  ['setcurrenttransactionname',['setCurrentTransactionName',['../classUndoManager.html#a6ea5eee5bf4bb54640318a4a01752b88',1,'UndoManager']]],
+  ['setcurrenttransactionname',['setCurrentTransactionName',['../classUndoManager.html#a920cca3e24c598a175d90b04765fe5bc',1,'UndoManager']]],
   ['setcustompanelheader',['setCustomPanelHeader',['../classConcertinaPanel.html#ae1adae8020333d759495538d231e8279',1,'ConcertinaPanel']]],
   ['setcustomscanner',['setCustomScanner',['../classKnownPluginList.html#a1099d02b42eabe2d99dbce1ab3393026',1,'KnownPluginList']]],
   ['setcutofffrequency',['setCutOffFrequency',['../structdsp_1_1StateVariableFilter_1_1Parameters.html#a3dabc7ffb25d127e2d2610e41d795b8b',1,'dsp::StateVariableFilter::Parameters']]],
