@@ -34,6 +34,7 @@ var searchData=
   ['scannextfile',['scanNextFile',['../classPluginDirectoryScanner.html#a5303b7b743f22a6ccd470422f56ecf1e',1,'PluginDirectoryScanner']]],
   ['scope',['Scope',['../classExpression_1_1Scope.html#a270a255a97e5315bf08862e4c4a9fecb',1,'Expression::Scope']]],
   ['scopedautoreleasepool',['ScopedAutoReleasePool',['../classScopedAutoReleasePool.html#ae1be6d4b7e677b4ec8f614ec4e962ae2',1,'ScopedAutoReleasePool']]],
+  ['scopeddpiawarenessdisabler',['ScopedDPIAwarenessDisabler',['../classScopedDPIAwarenessDisabler.html#a5d730b1ce02ea36d43a78a278aadcb3f',1,'ScopedDPIAwarenessDisabler']]],
   ['scopedjuceinitialiser_5fgui',['ScopedJuceInitialiser_GUI',['../classScopedJuceInitialiser__GUI.html#a1342c78002291c0ce1cf77c38fac2c9c',1,'ScopedJuceInitialiser_GUI']]],
   ['scopedlocktype',['ScopedLockType',['../structDummyCriticalSection_1_1ScopedLockType.html#af14a852a564837bcd71ad5592dec3b2d',1,'DummyCriticalSection::ScopedLockType::ScopedLockType()'],['../classInterProcessLock_1_1ScopedLockType.html#a8ce60f7f55e0ca70f0e288e9000ed0c7',1,'InterProcessLock::ScopedLockType::ScopedLockType()']]],
   ['scopednodenormals',['ScopedNoDenormals',['../classScopedNoDenormals.html#a0dfeecf6d33cfcf45922520df550a021',1,'ScopedNoDenormals']]],
