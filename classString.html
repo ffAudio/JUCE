@@ -577,6 +577,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa75e1ef8ccb4c326e9dab9de960c7d85"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#aa75e1ef8ccb4c326e9dab9de960c7d85">toHexString</a> (const <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *data, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> size, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> groupSize=1)</td></tr>
 <tr class="memdesc:aa75e1ef8ccb4c326e9dab9de960c7d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string containing a hex dump of a block of binary data.  <a href="#aa75e1ef8ccb4c326e9dab9de960c7d85">More...</a><br/></td></tr>
 <tr class="separator:aa75e1ef8ccb4c326e9dab9de960c7d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ecbb61a758329a88a2bd568e3c7502"><td class="memTemplParams" colspan="2">template&lt;typename DecimalType &gt; </td></tr>
+<tr class="memitem:aa4ecbb61a758329a88a2bd568e3c7502"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classString.html#aa4ecbb61a758329a88a2bd568e3c7502">toDecimalStringWithSignificantFigures</a> (DecimalType number, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numberOfSignificantFigures)</td></tr>
+<tr class="memdesc:aa4ecbb61a758329a88a2bd568e3c7502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string containing a decimal with a set number of significant figures.  <a href="#aa4ecbb61a758329a88a2bd568e3c7502">More...</a><br/></td></tr>
+<tr class="separator:aa4ecbb61a758329a88a2bd568e3c7502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0116dc51d7bdd363d14c72bba60060a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classString.html#aa0116dc51d7bdd363d14c72bba60060a">fromUTF8</a> (const char *utf8buffer, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> bufferSizeBytes=-1)</td></tr>
 <tr class="memdesc:aa0116dc51d7bdd363d14c72bba60060a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classString.html" title="The JUCE String class! ">String</a> from a UTF-8 encoded buffer.  <a href="#aa0116dc51d7bdd363d14c72bba60060a">More...</a><br/></td></tr>
 <tr class="separator:aa0116dc51d7bdd363d14c72bba60060a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4452,6 +4456,53 @@ template&lt;typename IntegerType &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aa4ecbb61a758329a88a2bd568e3c7502"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DecimalType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classString.html">String</a> String::toDecimalStringWithSignificantFigures </td>
+          <td>(</td>
+          <td class="paramtype">DecimalType&#160;</td>
+          <td class="paramname"><em>number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
+          <td class="paramname"><em>numberOfSignificantFigures</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a string containing a decimal with a set number of significant figures. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">number</td><td>the intput number </td></tr>
+    <tr><td class="paramname">numberOfSignificantFigures</td><td>the number of significant figures to use </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, <a class="el" href="group__LittleFootFunctions.html#gaf082905f7eac6d03e92015146bbc1925">max()</a>, and <a class="el" href="group__juce__audio__plugin__client-Unity.html#gga485dc2a0e5ed7da3d9f826367b36ee55aa844ac0d299bd083b2938e6cbf34743a">shift</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a026f5d21f882d2ffe0406ef1e4907897"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4947,7 +4998,7 @@ template&lt;typename IntegerType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 23 2018 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 24 2018 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
