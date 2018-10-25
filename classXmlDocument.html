@@ -142,15 +142,15 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">{</div>
 <div class="line">    ..use the element</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>Or you can use the static helper methods for quick parsing..</p>
-<div class="fragment"><div class="line">std::unique_ptr&lt;XmlElement&gt; xml (<a class="code" href="classXmlDocument.html#ae14f9fc62e978ce7246922a84a568f20">XmlDocument::parse</a> (myXmlFile));</div>
-<div class="line"></div>
-<div class="line"><span class="keywordflow">if</span> (xml != <span class="keyword">nullptr</span> &amp;&amp; xml-&gt;hasTagName (<span class="stringliteral">&quot;foobar&quot;</span>))</div>
+</div><!-- fragment --><p>Or you can use the helper functions for much less verbose parsing..</p>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span> (<span class="keyword">auto</span> xml = <a class="code" href="group__juce__core-xml.html#ga69654d584331823d827e40d59f7aa24b">parseXML</a> (myXmlFile))</div>
 <div class="line">{</div>
-<div class="line">    ...etc</div>
+<div class="line">    <span class="keywordflow">if</span> (xml-&gt;hasTagName (<span class="stringliteral">&quot;foobar&quot;</span>))</div>
+<div class="line">    {</div>
+<div class="line">        ...etc</div>
+<div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a></dd></dl>
-<p>{Core} </p>
+</div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a87ad794c62c8ee9ac78961af99b2f30d"></a>
 <div class="memitem">
@@ -341,7 +341,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A handy static method that parses a file. </p>
-<p>This is a shortcut for creating an <a class="el" href="classXmlDocument.html" title="Parses a text-based XML document and creates an XmlElement object from it. ">XmlDocument</a> object and calling <a class="el" href="classXmlDocument.html#a95252ae0d6c2f228065d5503507b0131" title="Creates an XmlElement object to represent the main document node. ">getDocumentElement()</a> on it. </p>
+<p>This is a shortcut for creating an <a class="el" href="classXmlDocument.html" title="Parses a text-based XML document and creates an XmlElement object from it. ">XmlDocument</a> object and calling <a class="el" href="classXmlDocument.html#a95252ae0d6c2f228065d5503507b0131" title="Creates an XmlElement object to represent the main document node. ">getDocumentElement()</a> on it. An even better shortcut is the juce::parseXML() function, which returns a std::unique_ptr&lt;XmlElement&gt;! </p>
 <dl class="section return"><dt>Returns</dt><dd>a new <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> which the caller will need to delete, or null if there was an error. </dd></dl>
 
 </div>
@@ -369,7 +369,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A handy static method that parses some XML data. </p>
-<p>This is a shortcut for creating an <a class="el" href="classXmlDocument.html" title="Parses a text-based XML document and creates an XmlElement object from it. ">XmlDocument</a> object and calling <a class="el" href="classXmlDocument.html#a95252ae0d6c2f228065d5503507b0131" title="Creates an XmlElement object to represent the main document node. ">getDocumentElement()</a> on it. </p>
+<p>This is a shortcut for creating an <a class="el" href="classXmlDocument.html" title="Parses a text-based XML document and creates an XmlElement object from it. ">XmlDocument</a> object and calling <a class="el" href="classXmlDocument.html#a95252ae0d6c2f228065d5503507b0131" title="Creates an XmlElement object to represent the main document node. ">getDocumentElement()</a> on it. An even better shortcut is the juce::parseXML() function, which returns a std::unique_ptr&lt;XmlElement&gt;! </p>
 <dl class="section return"><dt>Returns</dt><dd>a new <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> which the caller will need to delete, or null if there was an error. </dd></dl>
 
 </div>
@@ -380,7 +380,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 26 2018 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

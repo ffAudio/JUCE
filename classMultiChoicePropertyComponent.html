@@ -108,6 +108,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fac1c50361844e75526313b9c249767"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiChoicePropertyComponent.html#a4fac1c50361844e75526313b9c249767">MultiChoicePropertyComponent</a> (<a class="el" href="classValueWithDefault.html">ValueWithDefault</a> &amp;valueToControl, const <a class="el" href="classString.html">String</a> &amp;propertyName, const <a class="el" href="classStringArray.html">StringArray</a> &amp;choices, const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classvar.html">var</a> &gt; &amp;correspondingValues, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> maxChoices=-1)</td></tr>
 <tr class="memdesc:a4fac1c50361844e75526313b9c249767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the component using a <a class="el" href="classValueWithDefault.html" title="This class acts as a wrapper around a property inside a ValueTree. ">ValueWithDefault</a> object.  <a href="#a4fac1c50361844e75526313b9c249767">More...</a><br/></td></tr>
 <tr class="separator:a4fac1c50361844e75526313b9c249767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ed20eed0321414753b19c8ec36648e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiChoicePropertyComponent.html#a75ed20eed0321414753b19c8ec36648e">~MultiChoicePropertyComponent</a> ()</td></tr>
+<tr class="separator:a75ed20eed0321414753b19c8ec36648e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5247daf8f45c8f36769576946f1f04fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMultiChoicePropertyComponent.html#a5247daf8f45c8f36769576946f1f04fe">isExpanded</a> () const noexcept</td></tr>
 <tr class="memdesc:a5247daf8f45c8f36769576946f1f04fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the list of options is expanded.  <a href="#a5247daf8f45c8f36769576946f1f04fe">More...</a><br/></td></tr>
 <tr class="separator:a5247daf8f45c8f36769576946f1f04fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -765,8 +767,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A <a class="el" href="classPropertyComponent.html" title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">PropertyComponent</a> that shows its value as an expandable list of ToggleButtons. </p>
 <p>This type of property component contains a list of options where multiple options can be selected at once.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPropertyComponent.html" title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">PropertyComponent</a>, <a class="el" href="classPropertyPanel.html" title="A panel that holds a list of PropertyComponent objects. ">PropertyPanel</a></dd></dl>
-<p>{GUI} </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classPropertyComponent.html" title="A base class for a component that goes in a PropertyPanel and displays one of an item&#39;s properties...">PropertyComponent</a>, <a class="el" href="classPropertyPanel.html" title="A panel that holds a list of PropertyComponent objects. ">PropertyPanel</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af7d633ac7498f08bf8527e103355cf61"></a>
 <div class="memitem">
@@ -871,7 +872,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This will select the default options.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">valueToControl</td><td>the <a class="el" href="classValueWithDefault.html" title="This class acts as a wrapper around a property inside a ValueTree. ">ValueWithDefault</a> object that contains the <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object that the ToggleButtons will read and control </td></tr>
+    <tr><td class="paramname">valueToControl</td><td>the <a class="el" href="classValueWithDefault.html" title="This class acts as a wrapper around a property inside a ValueTree. ">ValueWithDefault</a> object that contains the <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object that the ToggleButtons will read and control. NB: This object must outlive the <a class="el" href="classMultiChoicePropertyComponent.html" title="A PropertyComponent that shows its value as an expandable list of ToggleButtons. ">MultiChoicePropertyComponent</a>. </td></tr>
     <tr><td class="paramname">propertyName</td><td>the name of the property </td></tr>
     <tr><td class="paramname">choices</td><td>the list of possible values that will be represented </td></tr>
     <tr><td class="paramname">correspondingValues</td><td>a list of values corresponding to each item in the 'choices' <a class="el" href="classStringArray.html" title="A special array for holding a list of strings. ">StringArray</a>. These are the values that will be read and written to the valueToControl value. This array must contain the same number of items as the choices array </td></tr>
@@ -879,6 +880,21 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a75ed20eed0321414753b19c8ec36648e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MultiChoicePropertyComponent::~MultiChoicePropertyComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1033,7 +1049,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 26 2018 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

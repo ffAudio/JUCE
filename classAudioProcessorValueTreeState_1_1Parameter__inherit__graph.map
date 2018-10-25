@@ -1,0 +1,6 @@
+<map id="AudioProcessorValueTreeState::Parameter" name="AudioProcessorValueTreeState::Parameter">
+<area shape="rect" id="node2" href="$classAudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto..." alt="" coords="40,229,184,256"/>
+<area shape="rect" id="node3" href="$classRangedAudioParameter.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="32,155,191,181"/>
+<area shape="rect" id="node4" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="5,80,219,107"/>
+<area shape="rect" id="node5" href="$classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor. " alt="" coords="25,5,199,32"/>
+</map>

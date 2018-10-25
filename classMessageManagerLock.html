@@ -132,8 +132,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- fragment --><p>Obviously be careful not to create one of these and leave it lying around, or your app will grind to a halt!</p>
 <p>MessageManagerLocks are re-entrant, so can be safely nested if the current thread already has the lock.</p>
 <p>Another caveat is that using this in conjunction with other CriticalSections can create lots of interesting ways of producing a deadlock! In particular, if your message thread calls stopThread() for a thread that uses these locks, you'll get an (occasional) deadlock..</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMessageManager.html" title="This class is in charge of the application&#39;s event-dispatch loop. ">MessageManager</a>, <a class="el" href="classMessageManager.html#aebd4b8896d7b6bdfa34d3cd8eb2e1777" title="Returns true if the caller thread has currently got the message manager locked. ">MessageManager::currentThreadHasLockedMessageManager</a></dd></dl>
-<p>{Events} </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMessageManager.html" title="This class is in charge of the application&#39;s event-dispatch loop. ">MessageManager</a>, <a class="el" href="classMessageManager.html#aebd4b8896d7b6bdfa34d3cd8eb2e1777" title="Returns true if the caller thread has currently got the message manager locked. ">MessageManager::currentThreadHasLockedMessageManager</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a294fab36d4e9fe48cc2b52b36974111c"></a>
 <div class="memitem">
@@ -252,7 +251,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 26 2018 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

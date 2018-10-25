@@ -1,4 +1,6 @@
 <map id="AudioParameterFloat" name="AudioParameterFloat">
-<area shape="rect" id="node2" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="5,80,219,107"/>
-<area shape="rect" id="node3" href="$classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor. " alt="" coords="25,5,199,32"/>
+<area shape="rect" id="node5" href="$classAudioProcessorValueTreeState_1_1Parameter.html" title="A parameter class that maintains backwards compatibility with deprecated AudioProcessorValueTreeState..." alt="" coords="10,305,213,346"/>
+<area shape="rect" id="node2" href="$classRangedAudioParameter.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="32,155,191,181"/>
+<area shape="rect" id="node3" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="5,80,219,107"/>
+<area shape="rect" id="node4" href="$classAudioProcessorParameter.html" title="An abstract base class for parameter objects that can be added to an AudioProcessor. " alt="" coords="25,5,199,32"/>
 </map>

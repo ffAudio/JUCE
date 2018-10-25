@@ -7,6 +7,7 @@ var searchData=
   ['range_3c_20int_20_3e',['Range&lt; int &gt;',['../classRange.html',1,'']]],
   ['range_3c_20int64_20_3e',['Range&lt; int64 &gt;',['../classRange.html',1,'']]],
   ['range_3c_20type_20_3e',['Range&lt; Type &gt;',['../classRange.html',1,'']]],
+  ['rangedaudioparameter',['RangedAudioParameter',['../classRangedAudioParameter.html',1,'']]],
   ['readhelper',['ReadHelper',['../structAudioFormatReader_1_1ReadHelper.html',1,'AudioFormatReader']]],
   ['readwritelock',['ReadWriteLock',['../classReadWriteLock.html',1,'']]],
   ['realtimecallback',['RealtimeCallback',['../structOSCReceiver_1_1RealtimeCallback.html',1,'OSCReceiver']]],

@@ -1,8 +1,10 @@
 <map id="AudioProcessorParameter" name="AudioProcessorParameter">
-<area shape="rect" id="node2" href="$structAudioPluginInstance_1_1Parameter.html" title="Structure used to describe plugin parameters. " alt="" coords="64,81,204,122"/>
-<area shape="rect" id="node3" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="230,88,444,115"/>
-<area shape="rect" id="node4" href="$classAudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. " alt="" coords="5,171,145,197"/>
-<area shape="rect" id="node5" href="$classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. " alt="" coords="171,171,327,197"/>
-<area shape="rect" id="node6" href="$classAudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto..." alt="" coords="352,171,496,197"/>
-<area shape="rect" id="node7" href="$classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range..." alt="" coords="520,171,649,197"/>
+<area shape="rect" id="node2" href="$structAudioPluginInstance_1_1Parameter.html" title="Structure used to describe plugin parameters. " alt="" coords="63,81,203,122"/>
+<area shape="rect" id="node3" href="$classAudioProcessorParameterWithID.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="229,88,443,115"/>
+<area shape="rect" id="node4" href="$classRangedAudioParameter.html" title="This abstract base class is used by some AudioProcessorParameter helper classes. " alt="" coords="256,171,415,197"/>
+<area shape="rect" id="node5" href="$classAudioParameterBool.html" title="Provides a class of AudioProcessorParameter that can be used as a boolean value. " alt="" coords="5,245,145,272"/>
+<area shape="rect" id="node6" href="$classAudioParameterChoice.html" title="Provides a class of AudioProcessorParameter that can be used to select an indexed, named choice from a list. " alt="" coords="171,245,327,272"/>
+<area shape="rect" id="node7" href="$classAudioParameterFloat.html" title="A subclass of AudioProcessorParameter that provides an easy way to create a parameter which maps onto..." alt="" coords="352,245,496,272"/>
+<area shape="rect" id="node9" href="$classAudioParameterInt.html" title="Provides a class of AudioProcessorParameter that can be used as an integer value with a given range..." alt="" coords="520,245,649,272"/>
+<area shape="rect" id="node8" href="$classAudioProcessorValueTreeState_1_1Parameter.html" title="A parameter class that maintains backwards compatibility with deprecated AudioProcessorValueTreeState..." alt="" coords="322,321,525,362"/>
 </map>

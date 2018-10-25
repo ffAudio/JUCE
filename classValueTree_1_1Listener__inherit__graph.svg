@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classAudioProcessorValueTreeState.html" target="_top" xlink:title="This class contains a ValueTree which is used to manage an AudioProcessor&#39;s entire state...">
+<g id="a_node2"><a xlink:href="classAudioProcessorValueTreeState.html" target="_top" xlink:title="This class contains a ValueTree that is used to manage an AudioProcessor&#39;s entire state...">
 <polygon fill="none" stroke="black" points="138.5,-114.5 138.5,-133.5 291.5,-133.5 291.5,-114.5 138.5,-114.5"/>
 <text text-anchor="middle" x="215" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioProcessorValueTreeState</text>
 </a>

@@ -54,7 +54,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classAudioProcessorValueTreeState.html" target="_top" xlink:title="This class contains a ValueTree which is used to manage an AudioProcessor&#39;s entire state...">
+<g id="a_node5"><a xlink:href="classAudioProcessorValueTreeState.html" target="_top" xlink:title="This class contains a ValueTree that is used to manage an AudioProcessor&#39;s entire state...">
 <polygon fill="none" stroke="black" points="80.5,-760.5 80.5,-779.5 233.5,-779.5 233.5,-760.5 80.5,-760.5"/>
 <text text-anchor="middle" x="157" y="-767.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioProcessorValueTreeState</text>
 </a>
@@ -106,7 +106,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classCaretComponent.html" target="_top" xlink:title="{GUI} ">
+<g id="a_node9"><a xlink:href="classCaretComponent.html" target="_top" xlink:title="CaretComponent">
 <polygon fill="none" stroke="black" points="111.5,-608.5 111.5,-627.5 202.5,-627.5 202.5,-608.5 111.5,-608.5"/>
 <text text-anchor="middle" x="157" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">CaretComponent</text>
 </a>

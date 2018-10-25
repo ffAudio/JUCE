@@ -6,7 +6,8 @@
 <area shape="rect" id="node6" href="$classFilenameComponent.html" title="Shows a filename as an editable text box, with a &#39;browse&#39; button and a drop&#45;down list for recently se..." alt="" coords="187,208,330,235"/>
 <area shape="rect" id="node7" href="$classMenuBarModel.html" title="A class for controlling MenuBar components. " alt="" coords="204,259,313,285"/>
 <area shape="rect" id="node8" href="$classModalComponentManager.html" title="Manages the system&#39;s stack of modal components. " alt="" coords="171,309,346,336"/>
-<area shape="rect" id="node9" href="$classScrollBar.html" title="A scrollbar component. " alt="" coords="221,360,296,387"/>
-<area shape="rect" id="node10" href="$classTableHeaderComponent.html" title="A component that displays a strip of column headings for a table, and allows these to be resized..." alt="" coords="177,411,340,437"/>
-<area shape="rect" id="node11" href="$classValue_1_1ValueSource.html" title="Used internally by the Value class as the base class for its shared value objects. " alt="" coords="190,461,327,488"/>
+<area shape="rect" id="node9" href="$structNetworkServiceDiscovery_1_1AvailableServiceList.html" title="Watches the network for broadcasts from Advertiser objects, and keeps a list of all the currently act..." alt="" coords="171,361,346,402"/>
+<area shape="rect" id="node10" href="$classScrollBar.html" title="A scrollbar component. " alt="" coords="221,427,296,453"/>
+<area shape="rect" id="node11" href="$classTableHeaderComponent.html" title="A component that displays a strip of column headings for a table, and allows these to be resized..." alt="" coords="177,477,340,504"/>
+<area shape="rect" id="node12" href="$classValue_1_1ValueSource.html" title="Used internally by the Value class as the base class for its shared value objects. " alt="" coords="190,528,327,555"/>
 </map>
