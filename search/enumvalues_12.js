@@ -95,7 +95,7 @@ var searchData=
   ['stretchtofit',['stretchToFit',['../classRectanglePlacement.html#afd5464553fd6bb41d697f3fc1d7427eda592b34ff9ad1d85db16f2e02c6252b8b',1,'RectanglePlacement']]],
   ['studioone',['StudioOne',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8abd93d9b41b6e92a2fac2dc3a0800c150',1,'PluginHostType']]],
   ['surround',['surround',['../classAudioChannelSet.html#ab917e490df2e0edfb1087e4c4f8d652ead7addeac6edf5a12148fabfd13a09100',1,'AudioChannelSet']]],
-  ['sustain',['sustain',['../classControlButton.html#a891776295057786f99f14631b1aa2794a2339a8eba5c6912f6c1958cf3c29f38b',1,'ControlButton']]],
+  ['sustain',['sustain',['../classControlButton.html#a891776295057786f99f14631b1aa2794a2339a8eba5c6912f6c1958cf3c29f38b',1,'ControlButton::sustain()'],['../classADSR.html#ab573baeeb4578e0a1e6e123452b8127aa02bc1150d41a4dfdc324849c25dce148',1,'ADSR::sustain()']]],
   ['sustained',['sustained',['../structMPENote.html#a20106ff137c1a5f0b8e6e099ff3fc922a3394b891d4bdd77fd39d141102c4a4bd',1,'MPENote']]],
   ['switched',['switched',['../classAppleRemoteDevice.html#a63ccce128a48e63972e2d71a8de5f8d0ae278b856f84c176f8a1628c118e902fc',1,'AppleRemoteDevice']]],
   ['symboltype',['symbolType',['../classExpression.html#aa416ac50fdbe8bdea9c59f5c78f0c85baef74a77024f2e22f163d3b2346b99162',1,'Expression']]],

@@ -77,6 +77,7 @@ var searchData=
   ['arp',['arp',['../classControlButton.html#a891776295057786f99f14631b1aa2794adab22b88ae7ce5fe608b846917051771',1,'ControlButton']]],
   ['arppattern',['arpPattern',['../namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79a960155c91350d0db62d6115819677f2f',1,'BlocksProtocol']]],
   ['arrowcolourid',['arrowColourId',['../classComboBox.html#aa2eff88125f77f8e278374e716202e6ea784b5c333839f9cfc0b6e890f1c2ef66',1,'ComboBox']]],
+  ['attack',['attack',['../classADSR.html#ab573baeeb4578e0a1e6e123452b8127aafc7e987f23de5bd6562b7c0063cad659',1,'ADSR']]],
   ['audioinputnode',['audioInputNode',['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761aa002564f5df42036b1b8a791d8c3a760d',1,'AudioProcessorGraph::AudioGraphIOProcessor']]],
   ['audiooutputnode',['audioOutputNode',['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#a612fff538a6a57529626b4121934761aac004122d6a09fdb5bce7fdb2221340f4',1,'AudioProcessorGraph::AudioGraphIOProcessor']]],
   ['autoalign',['autoAlign',['../classFlexItem.html#a8bba729fda8779a2d3dfc576b2fc77faae8ecba5781c140da302cca2e4996b4fd',1,'FlexItem']]],

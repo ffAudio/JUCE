@@ -2,6 +2,7 @@ var searchData=
 [
   ['davinciresolve',['DaVinciResolve',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a99618d4951e81deda9ea245ec82c9fc5',1,'PluginHostType']]],
   ['debugmode',['debugMode',['../namespaceBlocksProtocol.html#af20b1d99b2ab723c554407138edc9af1a4a23ce0f79dec8942e2b2a3fa1dc5bbc',1,'BlocksProtocol']]],
+  ['decay',['decay',['../classADSR.html#ab573baeeb4578e0a1e6e123452b8127aa63faabca234a29640f3344e74c0672da',1,'ADSR']]],
   ['decimalkeyboard',['decimalKeyboard',['../classTextInputTarget.html#a097550317e3bf2aee470a20540b9edc7a46a93c956a571fd5d34ef5b2731242a4',1,'TextInputTarget']]],
   ['defaultfill',['defaultFill',['../classLookAndFeel__V4_1_1ColourScheme.html#a3a0b01b5a192545b3692ed288597b2f4ae9f12511493c3841cfb6880bb86b46a8',1,'LookAndFeel_V4::ColourScheme']]],
   ['defaultflags',['defaultFlags',['../classTableHeaderComponent.html#abfee3b5ccd3289efb38e7b7dd1162831aaf583dc5f74b08d98dc901bdb91bdc9a',1,'TableHeaderComponent']]],

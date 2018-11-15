@@ -14,6 +14,7 @@ var searchData=
   ['recordaudio',['recordAudio',['../classRuntimePermissions.html#ae35d63b8c00dab34a1546fd1eef90878a56b38b114bf52a5b212b87b4a5c9b535',1,'RuntimePermissions']]],
   ['rectangular',['rectangular',['../structdsp_1_1WindowingFunction.html#a3e8b398d754d06f6b6863639d0de52cca51ee98d660f0ee12e557570373d49519',1,'dsp::WindowingFunction']]],
   ['redo',['redo',['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0aa2a9602bedb21d34ea2b7cb620d5be1f',1,'StandardApplicationCommandIDs']]],
+  ['release',['release',['../classADSR.html#ab573baeeb4578e0a1e6e123452b8127aa123fead50246387983ee340507115ef4',1,'ADSR']]],
   ['reminder',['reminder',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886aa189188034e104de218d11bdb5a0240b',1,'PushNotifications::Notification']]],
   ['renoise',['Renoise',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a17d9c92fbae8bdff143b83043fada217',1,'PluginHostType']]],
   ['requestconfig',['requestConfig',['../namespaceBlocksProtocol.html#ad54d15b68ca1356e84793a7c60c5b524a8fa6d444db9b205467cbe7a81acfad28',1,'BlocksProtocol']]],
