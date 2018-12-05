@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structBlocksProtocol_1_1BlockName-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -97,6 +98,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Structure for the block name.  
  <a href="structBlocksProtocol_1_1BlockName.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1059d7b83852658decf6dae74e8e7bc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBlocksProtocol_1_1BlockName.html#a1059d7b83852658decf6dae74e8e7bc5">isValid</a> () const </td></tr>
+<tr class="separator:a1059d7b83852658decf6dae74e8e7bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1639d368ec7f10d8c898181433cb2a06"><td class="memItemLeft" align="right" valign="top">juce::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBlocksProtocol_1_1BlockName.html#a1639d368ec7f10d8c898181433cb2a06">asString</a> () const </td></tr>
+<tr class="separator:a1639d368ec7f10d8c898181433cb2a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a9bf4a152458c2294c8677f73374ca466"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-maths.html#ga34ecedcf03a70dc91e4616212d79267d">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBlocksProtocol_1_1BlockName.html#a9bf4a152458c2294c8677f73374ca466">name</a> [33] = {}</td></tr>
@@ -106,7 +114,42 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure for the block name. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a1059d7b83852658decf6dae74e8e7bc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BlocksProtocol::BlockName::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="structBlocksProtocol_1_1BlockName.html#a8c00b7c3a57749197f6cb01e29028f80">length</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1639d368ec7f10d8c898181433cb2a06"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">juce::String BlocksProtocol::BlockName::asString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="structBlocksProtocol_1_1BlockName.html#a8c00b7c3a57749197f6cb01e29028f80">length</a>, and <a class="el" href="group__LittleFootFunctions.html#gabd8bbcfabb3ddef2ccaafb9928a37b95">min()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a9bf4a152458c2294c8677f73374ca466"></a>
 <div class="memitem">
 <div class="memproto">
@@ -131,7 +174,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structBlocksProtocol_1_1HostPacketDecoder.html#aa4c4fe0fbd7ae0f4509461da0eaae217">BlocksProtocol::HostPacketDecoder&lt; Handler &gt;::handleName()</a>.</p>
+<p>Referenced by <a class="el" href="structBlocksProtocol_1_1BlockName.html#a1639d368ec7f10d8c898181433cb2a06">asString()</a>, <a class="el" href="structBlocksProtocol_1_1HostPacketDecoder.html#aa4c4fe0fbd7ae0f4509461da0eaae217">BlocksProtocol::HostPacketDecoder&lt; Handler &gt;::handleName()</a>, and <a class="el" href="structBlocksProtocol_1_1BlockName.html#a1059d7b83852658decf6dae74e8e7bc5">isValid()</a>.</p>
 
 </div>
 </div>
@@ -141,7 +184,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Dec 1 2018 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 5 2018 01:00:56 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
