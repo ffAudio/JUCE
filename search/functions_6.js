@@ -1374,7 +1374,7 @@ var searchData=
   ['getunchecked',['getUnchecked',['../classArray.html#aabfb6698892ca972556d97cac031c850',1,'Array::getUnchecked()'],['../classOwnedArray.html#ae633303198df0e9aaa594b9d1d0b8137',1,'OwnedArray::getUnchecked()'],['../classReferenceCountedArray.html#a3d46537444a37fec94bdc623b2ab3211',1,'ReferenceCountedArray::getUnchecked()'],['../classSortedSet.html#a931d3c86921cd13c2ca30316eb5dc8c2',1,'SortedSet::getUnchecked()'],['../classdsp_1_1LookupTable.html#ac336c76b5b2df75df654cc2070bcfbb5',1,'dsp::LookupTable::getUnchecked()']]],
   ['getundodescription',['getUndoDescription',['../classUndoManager.html#ae1213b09873ad7b4a0ab9ecba45ed3fd',1,'UndoManager']]],
   ['getundodescriptions',['getUndoDescriptions',['../classUndoManager.html#ad921e92142d2e54600e9824d593e2b9b',1,'UndoManager']]],
-  ['getundomanager',['getUndoManager',['../classCodeDocument.html#a5420dec1f4f8ca9034e7d93ff538f1cf',1,'CodeDocument']]],
+  ['getundomanager',['getUndoManager',['../classCachedValue.html#a9183ed8b87e7e6be2ff04488db2dcda8',1,'CachedValue::getUndoManager()'],['../classValueWithDefault.html#a53e022f2e66621bc755296d2db7f3b6f',1,'ValueWithDefault::getUndoManager()'],['../classCodeDocument.html#a5420dec1f4f8ca9034e7d93ff538f1cf',1,'CodeDocument::getUndoManager()']]],
   ['getunicodecharfromwindows1252codepage',['getUnicodeCharFromWindows1252Codepage',['../classCharacterFunctions.html#a0ade4adc89c28bd6578ce6b798e55cf5',1,'CharacterFunctions']]],
   ['getuniformidfromname',['getUniformIDFromName',['../classOpenGLShaderProgram.html#a05ba0cda8f0f5b74d80231851de0a1c1',1,'OpenGLShaderProgram']]],
   ['getunion',['getUnion',['../classRectangle.html#a26d128bf3cf8dd1a50afcf946cbc5521',1,'Rectangle']]],
