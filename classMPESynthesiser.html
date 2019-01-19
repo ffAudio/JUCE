@@ -109,9 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a23c16b0fed549ee37e887695976cebad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a23c16b0fed549ee37e887695976cebad">MPESynthesiser</a> (<a class="el" href="classMPEInstrument.html">MPEInstrument</a> *<a class="el" href="structMPESynthesiserBase.html#abef53209d5522c0af50547301e6b52b5">instrument</a>)</td></tr>
 <tr class="memdesc:a23c16b0fed549ee37e887695976cebad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to pass to the synthesiser a custom <a class="el" href="classMPEInstrument.html" title="This class represents an instrument handling MPE. ">MPEInstrument</a> object to handle the MPE note state, MIDI channel assignment etc.  <a href="#a23c16b0fed549ee37e887695976cebad">More...</a><br/></td></tr>
 <tr class="separator:a23c16b0fed549ee37e887695976cebad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a9a600b33b5c04c3616b7ed724e689"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a12a9a600b33b5c04c3616b7ed724e689">~MPESynthesiser</a> ()</td></tr>
-<tr class="memdesc:a12a9a600b33b5c04c3616b7ed724e689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a12a9a600b33b5c04c3616b7ed724e689">More...</a><br/></td></tr>
-<tr class="separator:a12a9a600b33b5c04c3616b7ed724e689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716e604ada8fe31b43f3ae42c65b1c47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a716e604ada8fe31b43f3ae42c65b1c47">~MPESynthesiser</a> () override</td></tr>
+<tr class="memdesc:a716e604ada8fe31b43f3ae42c65b1c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a716e604ada8fe31b43f3ae42c65b1c47">More...</a><br/></td></tr>
+<tr class="separator:a716e604ada8fe31b43f3ae42c65b1c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7b8329a8fe49c0d47a39d2c6a446aa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#ae7b8329a8fe49c0d47a39d2c6a446aa1">clearVoices</a> ()</td></tr>
 <tr class="memdesc:ae7b8329a8fe49c0d47a39d2c6a446aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all voices.  <a href="#ae7b8329a8fe49c0d47a39d2c6a446aa1">More...</a><br/></td></tr>
 <tr class="separator:ae7b8329a8fe49c0d47a39d2c6a446aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,30 +208,30 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a41a82fda29e8bc58d808abc111824a59"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a41a82fda29e8bc58d808abc111824a59">noteAdded</a> (<a class="el" href="structMPENote.html">MPENote</a> newNote) override</td></tr>
-<tr class="memdesc:a41a82fda29e8bc58d808abc111824a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to start playing a new note.  <a href="#a41a82fda29e8bc58d808abc111824a59">More...</a><br/></td></tr>
-<tr class="separator:a41a82fda29e8bc58d808abc111824a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bfb98acd150148652391b21e18a07cd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a4bfb98acd150148652391b21e18a07cd">noteReleased</a> (<a class="el" href="structMPENote.html">MPENote</a> finishedNote) override</td></tr>
-<tr class="memdesc:a4bfb98acd150148652391b21e18a07cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops playing a note.  <a href="#a4bfb98acd150148652391b21e18a07cd">More...</a><br/></td></tr>
-<tr class="separator:a4bfb98acd150148652391b21e18a07cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2afc5267ae10e717565683d0c90d5c87"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a2afc5267ae10e717565683d0c90d5c87">notePressureChanged</a> (<a class="el" href="structMPENote.html">MPENote</a> changedNote) override</td></tr>
-<tr class="memdesc:a2afc5267ae10e717565683d0c90d5c87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will find any voice that is currently playing changedNote, update its currently playing note, and call its notePressureChanged method.  <a href="#a2afc5267ae10e717565683d0c90d5c87">More...</a><br/></td></tr>
-<tr class="separator:a2afc5267ae10e717565683d0c90d5c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6418065d8ba1be8e20661fd5a8c8eaa9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a6418065d8ba1be8e20661fd5a8c8eaa9">notePitchbendChanged</a> (<a class="el" href="structMPENote.html">MPENote</a> changedNote) override</td></tr>
-<tr class="memdesc:a6418065d8ba1be8e20661fd5a8c8eaa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will find any voice that is currently playing changedNote, update its currently playing note, and call its notePitchbendChanged method.  <a href="#a6418065d8ba1be8e20661fd5a8c8eaa9">More...</a><br/></td></tr>
-<tr class="separator:a6418065d8ba1be8e20661fd5a8c8eaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8a1c829e7c570e844d855ce8c1cbec0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#ae8a1c829e7c570e844d855ce8c1cbec0">noteTimbreChanged</a> (<a class="el" href="structMPENote.html">MPENote</a> changedNote) override</td></tr>
-<tr class="memdesc:ae8a1c829e7c570e844d855ce8c1cbec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will find any voice that is currently playing changedNote, update its currently playing note, and call its noteTimbreChanged method.  <a href="#ae8a1c829e7c570e844d855ce8c1cbec0">More...</a><br/></td></tr>
-<tr class="separator:ae8a1c829e7c570e844d855ce8c1cbec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a738389fa41b37f7cfe71db404eae0fa5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a738389fa41b37f7cfe71db404eae0fa5">noteKeyStateChanged</a> (<a class="el" href="structMPENote.html">MPENote</a> changedNote) override</td></tr>
-<tr class="memdesc:a738389fa41b37f7cfe71db404eae0fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will find any voice that is currently playing changedNote, update its currently playing note, and call its noteKeyStateChanged method.  <a href="#a738389fa41b37f7cfe71db404eae0fa5">More...</a><br/></td></tr>
-<tr class="separator:a738389fa41b37f7cfe71db404eae0fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5192d64f9a0f664dbeb28b34e216381c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a5192d64f9a0f664dbeb28b34e216381c">renderNextSubBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;outputAudio, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> startSample, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) override</td></tr>
-<tr class="memdesc:a5192d64f9a0f664dbeb28b34e216381c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will simply call renderNextBlock for each currently active voice and fill the buffer with the sum.  <a href="#a5192d64f9a0f664dbeb28b34e216381c">More...</a><br/></td></tr>
-<tr class="separator:a5192d64f9a0f664dbeb28b34e216381c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98c17883ec58f43951ac70026cb7ffd8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a98c17883ec58f43951ac70026cb7ffd8">renderNextSubBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;outputAudio, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> startSample, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) override</td></tr>
-<tr class="memdesc:a98c17883ec58f43951ac70026cb7ffd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will simply call renderNextBlock for each currently active voice and fill the buffer with the sum.  <a href="#a98c17883ec58f43951ac70026cb7ffd8">More...</a><br/></td></tr>
-<tr class="separator:a98c17883ec58f43951ac70026cb7ffd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bd89b0b7b7a320531fb04351f95143"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#ae2bd89b0b7b7a320531fb04351f95143">noteAdded</a> (<a class="el" href="structMPENote.html">MPENote</a> newNote) override</td></tr>
+<tr class="memdesc:ae2bd89b0b7b7a320531fb04351f95143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to start playing a new note.  <a href="#ae2bd89b0b7b7a320531fb04351f95143">More...</a><br/></td></tr>
+<tr class="separator:ae2bd89b0b7b7a320531fb04351f95143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a06b6a930e3d8894794537ae995ff05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a2a06b6a930e3d8894794537ae995ff05">noteReleased</a> (<a class="el" href="structMPENote.html">MPENote</a> finishedNote) override</td></tr>
+<tr class="memdesc:a2a06b6a930e3d8894794537ae995ff05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops playing a note.  <a href="#a2a06b6a930e3d8894794537ae995ff05">More...</a><br/></td></tr>
+<tr class="separator:a2a06b6a930e3d8894794537ae995ff05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc0b737867837dbde62e498888780e57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#adc0b737867837dbde62e498888780e57">notePressureChanged</a> (<a class="el" href="structMPENote.html">MPENote</a> changedNote) override</td></tr>
+<tr class="memdesc:adc0b737867837dbde62e498888780e57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will find any voice that is currently playing changedNote, update its currently playing note, and call its notePressureChanged method.  <a href="#adc0b737867837dbde62e498888780e57">More...</a><br/></td></tr>
+<tr class="separator:adc0b737867837dbde62e498888780e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530df353e1dcb0fb708b75555c7fbf50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a530df353e1dcb0fb708b75555c7fbf50">notePitchbendChanged</a> (<a class="el" href="structMPENote.html">MPENote</a> changedNote) override</td></tr>
+<tr class="memdesc:a530df353e1dcb0fb708b75555c7fbf50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will find any voice that is currently playing changedNote, update its currently playing note, and call its notePitchbendChanged method.  <a href="#a530df353e1dcb0fb708b75555c7fbf50">More...</a><br/></td></tr>
+<tr class="separator:a530df353e1dcb0fb708b75555c7fbf50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d6f0beb8c6828526765b4c5138f208"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a77d6f0beb8c6828526765b4c5138f208">noteTimbreChanged</a> (<a class="el" href="structMPENote.html">MPENote</a> changedNote) override</td></tr>
+<tr class="memdesc:a77d6f0beb8c6828526765b4c5138f208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will find any voice that is currently playing changedNote, update its currently playing note, and call its noteTimbreChanged method.  <a href="#a77d6f0beb8c6828526765b4c5138f208">More...</a><br/></td></tr>
+<tr class="separator:a77d6f0beb8c6828526765b4c5138f208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b8ecb93c1a3c5a87439f5cda524f73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#ad9b8ecb93c1a3c5a87439f5cda524f73">noteKeyStateChanged</a> (<a class="el" href="structMPENote.html">MPENote</a> changedNote) override</td></tr>
+<tr class="memdesc:ad9b8ecb93c1a3c5a87439f5cda524f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will find any voice that is currently playing changedNote, update its currently playing note, and call its noteKeyStateChanged method.  <a href="#ad9b8ecb93c1a3c5a87439f5cda524f73">More...</a><br/></td></tr>
+<tr class="separator:ad9b8ecb93c1a3c5a87439f5cda524f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b2fc145a6706fde47b02eab8cf8706"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a87b2fc145a6706fde47b02eab8cf8706">renderNextSubBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;outputAudio, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> startSample, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) override</td></tr>
+<tr class="memdesc:a87b2fc145a6706fde47b02eab8cf8706"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will simply call renderNextBlock for each currently active voice and fill the buffer with the sum.  <a href="#a87b2fc145a6706fde47b02eab8cf8706">More...</a><br/></td></tr>
+<tr class="separator:a87b2fc145a6706fde47b02eab8cf8706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a869183af93f25a3d5504d935f1b73bf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#a869183af93f25a3d5504d935f1b73bf5">renderNextSubBlock</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;outputAudio, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> startSample, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) override</td></tr>
+<tr class="memdesc:a869183af93f25a3d5504d935f1b73bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will simply call renderNextBlock for each currently active voice and fill the buffer with the sum.  <a href="#a869183af93f25a3d5504d935f1b73bf5">More...</a><br/></td></tr>
+<tr class="separator:a869183af93f25a3d5504d935f1b73bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6223425a95b47862081341663686d90"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMPESynthesiserVoice.html">MPESynthesiserVoice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPESynthesiser.html#ab6223425a95b47862081341663686d90">findFreeVoice</a> (<a class="el" href="structMPENote.html">MPENote</a> noteToFindVoiceFor, bool stealIfNoneAvailable) const </td></tr>
 <tr class="memdesc:ab6223425a95b47862081341663686d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches through the voices to find one that's not currently playing, and which can play the given MPE note.  <a href="#ab6223425a95b47862081341663686d90">More...</a><br/></td></tr>
 <tr class="separator:ab6223425a95b47862081341663686d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -309,9 +309,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a12a9a600b33b5c04c3616b7ed724e689"></a>
+<a class="anchor" id="a716e604ada8fe31b43f3ae42c65b1c47"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MPESynthesiser::~MPESynthesiser </td>
@@ -320,6 +323,11 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destructor. </p>
@@ -666,7 +674,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a41a82fda29e8bc58d808abc111824a59"></a>
+<a class="anchor" id="ae2bd89b0b7b7a320531fb04351f95143"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -674,7 +682,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::noteAdded </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::noteAdded </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMPENote.html">MPENote</a>&#160;</td>
           <td class="paramname"><em>newNote</em></td><td>)</td>
@@ -696,7 +704,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4bfb98acd150148652391b21e18a07cd"></a>
+<a class="anchor" id="a2a06b6a930e3d8894794537ae995ff05"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -704,7 +712,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::noteReleased </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::noteReleased </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMPENote.html">MPENote</a>&#160;</td>
           <td class="paramname"><em>finishedNote</em></td><td>)</td>
@@ -727,7 +735,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2afc5267ae10e717565683d0c90d5c87"></a>
+<a class="anchor" id="adc0b737867837dbde62e498888780e57"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -735,7 +743,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::notePressureChanged </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::notePressureChanged </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMPENote.html">MPENote</a>&#160;</td>
           <td class="paramname"><em>changedNote</em></td><td>)</td>
@@ -756,7 +764,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6418065d8ba1be8e20661fd5a8c8eaa9"></a>
+<a class="anchor" id="a530df353e1dcb0fb708b75555c7fbf50"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -764,7 +772,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::notePitchbendChanged </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::notePitchbendChanged </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMPENote.html">MPENote</a>&#160;</td>
           <td class="paramname"><em>changedNote</em></td><td>)</td>
@@ -785,7 +793,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae8a1c829e7c570e844d855ce8c1cbec0"></a>
+<a class="anchor" id="a77d6f0beb8c6828526765b4c5138f208"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -793,7 +801,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::noteTimbreChanged </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::noteTimbreChanged </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMPENote.html">MPENote</a>&#160;</td>
           <td class="paramname"><em>changedNote</em></td><td>)</td>
@@ -814,7 +822,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a738389fa41b37f7cfe71db404eae0fa5"></a>
+<a class="anchor" id="ad9b8ecb93c1a3c5a87439f5cda524f73"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -822,7 +830,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::noteKeyStateChanged </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::noteKeyStateChanged </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMPENote.html">MPENote</a>&#160;</td>
           <td class="paramname"><em>changedNote</em></td><td>)</td>
@@ -843,7 +851,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5192d64f9a0f664dbeb28b34e216381c"></a>
+<a class="anchor" id="a87b2fc145a6706fde47b02eab8cf8706"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -851,7 +859,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::renderNextSubBlock </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::renderNextSubBlock </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>outputAudio</em>, </td>
@@ -888,7 +896,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a98c17883ec58f43951ac70026cb7ffd8"></a>
+<a class="anchor" id="a869183af93f25a3d5504d935f1b73bf5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -896,7 +904,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::renderNextSubBlock </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MPESynthesiser::renderNextSubBlock </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; double &gt; &amp;&#160;</td>
           <td class="paramname"><em>outputAudio</em>, </td>
@@ -1126,7 +1134,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 18 2019 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jan 19 2019 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
