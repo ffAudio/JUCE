@@ -642,7 +642,7 @@ var searchData=
   ['italic',['italic',['../classFont.html#a52a35b5dc1e6f782e25283c9283bae4fa1d2b466ff0cbcf7e762558b847b99a01',1,'Font']]],
   ['italicised',['italicised',['../classFont.html#afe493fc7743d0311adb2b96d3fe49718',1,'Font']]],
   ['item',['Item',['../structPopupMenu_1_1Item.html',1,'PopupMenu']]],
-  ['item',['item',['../structBlock_1_1ConfigMetaData.html#a4266eeea52a9b67c8e995451692dfe41',1,'Block::ConfigMetaData::item()'],['../structBlockConfigManager_1_1ConfigDescription.html#a62e5491b900224c37e71f98854a68097',1,'BlockConfigManager::ConfigDescription::item()'],['../structPopupMenu_1_1Item.html#afaa8c2ae7ccafcbc04755eff6ffee9a4',1,'PopupMenu::Item::Item() noexcept'],['../structPopupMenu_1_1Item.html#a3dc1d9cc006d7bd14f5b3ec068652198',1,'PopupMenu::Item::Item(const Item &amp;)']]],
+  ['item',['Item',['../structPopupMenu_1_1Item.html#afaa8c2ae7ccafcbc04755eff6ffee9a4',1,'PopupMenu::Item::Item() noexcept'],['../structPopupMenu_1_1Item.html#a3dc1d9cc006d7bd14f5b3ec068652198',1,'PopupMenu::Item::Item(const Item &amp;)'],['../structBlock_1_1ConfigMetaData.html#a4266eeea52a9b67c8e995451692dfe41',1,'Block::ConfigMetaData::item()'],['../structBlockConfigManager_1_1ConfigDescription.html#a62e5491b900224c37e71f98854a68097',1,'BlockConfigManager::ConfigDescription::item()']]],
   ['itemarray',['ItemArray',['../classSelectedItemSet.html#a67f40ad01b47d146529311d005f36b18',1,'SelectedItemSet']]],
   ['itemclicked',['itemClicked',['../classTreeViewItem.html#a10b0ad85c76825c94356da8b24f856fd',1,'TreeViewItem']]],
   ['itemdeselected',['itemDeselected',['../classSelectedItemSet.html#aba708cd0efbae505c9be92c5179c2007',1,'SelectedItemSet']]],

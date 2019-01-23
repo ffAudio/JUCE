@@ -103,6 +103,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBlock_1_1BlockArea.html">BlockArea</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple struct representing the area of a block.  <a href="structBlock_1_1BlockArea.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBlock_1_1ConfigMetaData.html">ConfigMetaData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metadata for a given config item.  <a href="structBlock_1_1ConfigMetaData.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,9 +200,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeaf40b6fba680e0722d2c0bb2835b695"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#aeaf40b6fba680e0722d2c0bb2835b695">getMillimetersPerUnit</a> () const =0</td></tr>
 <tr class="memdesc:aeaf40b6fba680e0722d2c0bb2835b695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of one logical device unit as physical millimeters.  <a href="#aeaf40b6fba680e0722d2c0bb2835b695">More...</a><br/></td></tr>
 <tr class="separator:aeaf40b6fba680e0722d2c0bb2835b695"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacdb47edd84a2dc54d05394771a80a07"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt; <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#aacdb47edd84a2dc54d05394771a80a07">getBlockAreaWithinLayout</a> () const =0</td></tr>
-<tr class="memdesc:aacdb47edd84a2dc54d05394771a80a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the area that this block covers within the layout of the group as a whole.  <a href="#aacdb47edd84a2dc54d05394771a80a07">More...</a><br/></td></tr>
-<tr class="separator:aacdb47edd84a2dc54d05394771a80a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa85a485ec682e1b23da1a941d9d209"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structBlock_1_1BlockArea.html">BlockArea</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#a2aa85a485ec682e1b23da1a941d9d209">getBlockAreaWithinLayout</a> () const =0</td></tr>
+<tr class="memdesc:a2aa85a485ec682e1b23da1a941d9d209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the area that this block covers within the layout of the group as a whole.  <a href="#a2aa85a485ec682e1b23da1a941d9d209">More...</a><br/></td></tr>
+<tr class="separator:a2aa85a485ec682e1b23da1a941d9d209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74cf53cd8a93ea98115ff6f02a0dd011"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#a74cf53cd8a93ea98115ff6f02a0dd011">getRotation</a> () const =0</td></tr>
 <tr class="memdesc:a74cf53cd8a93ea98115ff6f02a0dd011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the rotation of this block relative to the master block in 90 degree steps clockwise.  <a href="#a74cf53cd8a93ea98115ff6f02a0dd011">More...</a><br/></td></tr>
 <tr class="separator:a74cf53cd8a93ea98115ff6f02a0dd011"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -928,7 +931,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aacdb47edd84a2dc54d05394771a80a07"></a>
+<a class="anchor" id="a2aa85a485ec682e1b23da1a941d9d209"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -936,7 +939,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classRectangle.html">Rectangle</a>&lt;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&gt; Block::getBlockAreaWithinLayout </td>
+          <td class="memname">virtual <a class="el" href="structBlock_1_1BlockArea.html">BlockArea</a> Block::getBlockAreaWithinLayout </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2200,7 +2203,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 22 2019 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 23 2019 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
