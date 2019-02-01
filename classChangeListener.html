@@ -101,9 +101,9 @@ Inheritance diagram for ChangeListener:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0498f9374464e4b59fada8b4445c0e98"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeListener.html#a0498f9374464e4b59fada8b4445c0e98">~ChangeListener</a> ()</td></tr>
-<tr class="memdesc:a0498f9374464e4b59fada8b4445c0e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a0498f9374464e4b59fada8b4445c0e98">More...</a><br/></td></tr>
-<tr class="separator:a0498f9374464e4b59fada8b4445c0e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b40f35b451f73b68c77159c2f74ae59"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeListener.html#a9b40f35b451f73b68c77159c2f74ae59">~ChangeListener</a> ()=default</td></tr>
+<tr class="memdesc:a9b40f35b451f73b68c77159c2f74ae59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a9b40f35b451f73b68c77159c2f74ae59">More...</a><br/></td></tr>
+<tr class="separator:a9b40f35b451f73b68c77159c2f74ae59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a027420041071315201df11e19a36ea18"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChangeListener.html#a027420041071315201df11e19a36ea18">changeListenerCallback</a> (<a class="el" href="classChangeBroadcaster.html">ChangeBroadcaster</a> *source)=0</td></tr>
 <tr class="memdesc:a027420041071315201df11e19a36ea18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Your subclass should implement this method to receive the callback.  <a href="#a027420041071315201df11e19a36ea18">More...</a><br/></td></tr>
 <tr class="separator:a027420041071315201df11e19a36ea18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,7 +114,7 @@ Public Member Functions</h2></td></tr>
 <p>Note that the major difference between an <a class="el" href="classActionListener.html" title="Interface class for delivery of events that are sent by an ActionBroadcaster. ">ActionListener</a> and a <a class="el" href="classChangeListener.html" title="Receives change event callbacks that are sent out by a ChangeBroadcaster. ">ChangeListener</a> is that for a <a class="el" href="classChangeListener.html" title="Receives change event callbacks that are sent out by a ChangeBroadcaster. ">ChangeListener</a>, multiple changes will be coalesced into fewer callbacks, but ActionListeners perform one callback for every event posted.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. ">ChangeBroadcaster</a>, <a class="el" href="classActionListener.html" title="Interface class for delivery of events that are sent by an ActionBroadcaster. ">ActionListener</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a0498f9374464e4b59fada8b4445c0e98"></a>
+<a class="anchor" id="a9b40f35b451f73b68c77159c2f74ae59"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -130,7 +130,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -178,7 +178,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 31 2019 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 1 2019 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
