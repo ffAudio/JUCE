@@ -161,7 +161,7 @@ var searchData=
   ['plugindirectoryscanner',['PluginDirectoryScanner',['../classPluginDirectoryScanner.html',1,'PluginDirectoryScanner'],['../classPluginDirectoryScanner.html#a0eaf052eb4a3a94545d1180b8b0f166e',1,'PluginDirectoryScanner::PluginDirectoryScanner()']]],
   ['pluginformatname',['pluginFormatName',['../classPluginDescription.html#a619a03af08e3904725e0255a28388a19',1,'PluginDescription']]],
   ['pluginholder',['pluginHolder',['../classStandaloneFilterWindow.html#abf3538ee5a7bd69830df1e538bc84df7',1,'StandaloneFilterWindow']]],
-  ['pluginhosttype',['PluginHostType',['../classPluginHostType.html',1,'PluginHostType'],['../classPluginHostType.html#ab9be0922becd097860f5687fc202b2d2',1,'PluginHostType::PluginHostType()'],['../classPluginHostType.html#ae98ff9dbf0387461f0158c89ddf5e2f9',1,'PluginHostType::PluginHostType(const PluginHostType &amp;other) noexcept=default']]],
+  ['pluginhosttype',['PluginHostType',['../classPluginHostType.html',1,'PluginHostType'],['../classPluginHostType.html#ab9be0922becd097860f5687fc202b2d2',1,'PluginHostType::PluginHostType()'],['../classPluginHostType.html#ad39f9273f57adbd035589d86bda72cf9',1,'PluginHostType::PluginHostType(const PluginHostType &amp;other)=default']]],
   ['plugininouts',['PluginInOuts',['../classStandaloneFilterWindow.html#a6c10ebbc7b2013247891e3c37a641f87',1,'StandaloneFilterWindow']]],
   ['plugininouts',['PluginInOuts',['../structStandalonePluginHolder_1_1PluginInOuts.html',1,'StandalonePluginHolder']]],
   ['pluginlistcomponent',['PluginListComponent',['../classPluginListComponent.html',1,'PluginListComponent'],['../classPluginListComponent.html#a0ee22ac611a2e08a131d3e6c55185c79',1,'PluginListComponent::PluginListComponent()']]],
