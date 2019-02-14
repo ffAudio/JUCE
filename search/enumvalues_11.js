@@ -12,7 +12,7 @@ var searchData=
   ['recommendation',['recommendation',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886aaa961eeaaf6b2e3008ff53db24dea6a7',1,'PushNotifications::Notification']]],
   ['record',['record',['../classControlButton.html#a891776295057786f99f14631b1aa2794a3534bd78b4a9437ce34c79388cdb7705',1,'ControlButton']]],
   ['recordaudio',['recordAudio',['../classRuntimePermissions.html#ae35d63b8c00dab34a1546fd1eef90878a56b38b114bf52a5b212b87b4a5c9b535',1,'RuntimePermissions']]],
-  ['rectangular',['rectangular',['../structdsp_1_1WindowingFunction.html#a3e8b398d754d06f6b6863639d0de52cca51ee98d660f0ee12e557570373d49519',1,'dsp::WindowingFunction']]],
+  ['rectangular',['rectangular',['../classdsp_1_1WindowingFunction.html#a3e8b398d754d06f6b6863639d0de52cca51ee98d660f0ee12e557570373d49519',1,'dsp::WindowingFunction']]],
   ['redo',['redo',['../namespaceStandardApplicationCommandIDs.html#ab3690a6bc89f72a1872de8994c81cea0aa2a9602bedb21d34ea2b7cb620d5be1f',1,'StandardApplicationCommandIDs']]],
   ['release',['release',['../classADSR.html#ab573baeeb4578e0a1e6e123452b8127aa123fead50246387983ee340507115ef4',1,'ADSR']]],
   ['reminder',['reminder',['../structPushNotifications_1_1Notification.html#a6c4abae95fb5385ac4bf08237dc3a886aa189188034e104de218d11bdb5a0240b',1,'PushNotifications::Notification']]],
