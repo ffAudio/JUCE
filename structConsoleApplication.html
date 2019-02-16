@@ -112,11 +112,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a84d0b197030c5b7f8fcf024f2335033f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structConsoleApplication.html#a84d0b197030c5b7f8fcf024f2335033f">addVersionCommand</a> (<a class="el" href="classString.html">String</a> versionArgument, <a class="el" href="classString.html">String</a> versionText)</td></tr>
 <tr class="memdesc:a84d0b197030c5b7f8fcf024f2335033f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a command that will print the given text in response to the "--version" option.  <a href="#a84d0b197030c5b7f8fcf024f2335033f">More...</a><br/></td></tr>
 <tr class="separator:a84d0b197030c5b7f8fcf024f2335033f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32bf68ff5ebfbb3453200b03cd7024f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structConsoleApplication.html#a32bf68ff5ebfbb3453200b03cd7024f9">findAndRunCommand</a> (const <a class="el" href="structArgumentList.html">ArgumentList</a> &amp;) const </td></tr>
-<tr class="memdesc:a32bf68ff5ebfbb3453200b03cd7024f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the first command in the list which matches the given arguments, and tries to invoke it.  <a href="#a32bf68ff5ebfbb3453200b03cd7024f9">More...</a><br/></td></tr>
-<tr class="separator:a32bf68ff5ebfbb3453200b03cd7024f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf2b88af5d30a016d8baffba90c7970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structConsoleApplication.html#afaf2b88af5d30a016d8baffba90c7970">findAndRunCommand</a> (const <a class="el" href="structArgumentList.html">ArgumentList</a> &amp;, bool commandFlagMustBeFirst=false) const </td></tr>
+<tr class="memdesc:afaf2b88af5d30a016d8baffba90c7970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the first command in the list which matches the given arguments, and tries to invoke it.  <a href="#afaf2b88af5d30a016d8baffba90c7970">More...</a><br/></td></tr>
+<tr class="separator:afaf2b88af5d30a016d8baffba90c7970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcb9271f92df6a1c243e1497f7995b24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structConsoleApplication.html#afcb9271f92df6a1c243e1497f7995b24">findAndRunCommand</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> argc, char *argv[]) const </td></tr>
-<tr class="memdesc:afcb9271f92df6a1c243e1497f7995b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="structArgumentList.html" title="Holds a list of command-line arguments, and provides useful methods for searching and operating on th...">ArgumentList</a> object from the argc and argv variablrs, and invokes <a class="el" href="structConsoleApplication.html#a32bf68ff5ebfbb3453200b03cd7024f9" title="Looks for the first command in the list which matches the given arguments, and tries to invoke it...">findAndRunCommand()</a> using it.  <a href="#afcb9271f92df6a1c243e1497f7995b24">More...</a><br/></td></tr>
+<tr class="memdesc:afcb9271f92df6a1c243e1497f7995b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="structArgumentList.html" title="Holds a list of command-line arguments, and provides useful methods for searching and operating on th...">ArgumentList</a> object from the argc and argv variablrs, and invokes <a class="el" href="structConsoleApplication.html#afaf2b88af5d30a016d8baffba90c7970" title="Looks for the first command in the list which matches the given arguments, and tries to invoke it...">findAndRunCommand()</a> using it.  <a href="#afcb9271f92df6a1c243e1497f7995b24">More...</a><br/></td></tr>
 <tr class="separator:afcb9271f92df6a1c243e1497f7995b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -143,7 +143,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">                      <span class="stringliteral">&quot;Performs a foo operation on the given file&quot;</span>,</div>
 <div class="line">                      [] (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; args) { doFoo (args); }});</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordflow">return</span> app.<a class="code" href="structConsoleApplication.html#a32bf68ff5ebfbb3453200b03cd7024f9">findAndRunCommand</a> (argc, argv);</div>
+<div class="line">    <span class="keywordflow">return</span> app.<a class="code" href="structConsoleApplication.html#afaf2b88af5d30a016d8baffba90c7970">findAndRunCommand</a> (argc, argv);</div>
 <div class="line">}</div>
 </div><!-- fragment --><dl class="section see"><dt>See Also</dt><dd><a class="el" href="structArgumentList.html" title="Holds a list of command-line arguments, and provides useful methods for searching and operating on th...">ArgumentList</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -293,7 +293,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a32bf68ff5ebfbb3453200b03cd7024f9"></a>
+<a class="anchor" id="afaf2b88af5d30a016d8baffba90c7970"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -301,14 +301,25 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> ConsoleApplication::findAndRunCommand </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structArgumentList.html">ArgumentList</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>commandFlagMustBeFirst</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Looks for the first command in the list which matches the given arguments, and tries to invoke it. </p>
-<p>If no command is found, it prints a help message listing the available commands. If the command calls the <a class="el" href="structConsoleApplication.html#a1ff6204c6b1ba147d230e0a36e3b7e2e" title="Throws a failure exception to cause a command-line app to terminate. ">fail()</a> function, this will throw an exception that gets automatically caught and handled, and this method will return the error code that was passed into the <a class="el" href="structConsoleApplication.html#a1ff6204c6b1ba147d230e0a36e3b7e2e" title="Throws a failure exception to cause a command-line app to terminate. ">fail()</a> call. </p>
+<p>If no command is found, it prints a help message listing the available commands. If the command calls the <a class="el" href="structConsoleApplication.html#a1ff6204c6b1ba147d230e0a36e3b7e2e" title="Throws a failure exception to cause a command-line app to terminate. ">fail()</a> function, this will throw an exception that gets automatically caught and handled, and this method will return the error code that was passed into the <a class="el" href="structConsoleApplication.html#a1ff6204c6b1ba147d230e0a36e3b7e2e" title="Throws a failure exception to cause a command-line app to terminate. ">fail()</a> call.</p>
+<p>If commandFlagMustBeFirst is true, then only the first argument will be looked at when searching the available commands - this lets you do 'git' style commands where the executable name is followed by a verb. </p>
 
 </div>
 </div>
@@ -336,7 +347,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates an <a class="el" href="structArgumentList.html" title="Holds a list of command-line arguments, and provides useful methods for searching and operating on th...">ArgumentList</a> object from the argc and argv variablrs, and invokes <a class="el" href="structConsoleApplication.html#a32bf68ff5ebfbb3453200b03cd7024f9" title="Looks for the first command in the list which matches the given arguments, and tries to invoke it...">findAndRunCommand()</a> using it. </p>
+<p>Creates an <a class="el" href="structArgumentList.html" title="Holds a list of command-line arguments, and provides useful methods for searching and operating on th...">ArgumentList</a> object from the argc and argv variablrs, and invokes <a class="el" href="structConsoleApplication.html#afaf2b88af5d30a016d8baffba90c7970" title="Looks for the first command in the list which matches the given arguments, and tries to invoke it...">findAndRunCommand()</a> using it. </p>
 
 </div>
 </div>
@@ -346,7 +357,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 14 2019 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Feb 16 2019 01:00:51 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

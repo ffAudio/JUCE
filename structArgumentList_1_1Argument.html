@@ -118,9 +118,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5de3b16f0e87ffefdc3a3a897db7e064"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList_1_1Argument.html#a5de3b16f0e87ffefdc3a3a897db7e064">isLongOption</a> (const <a class="el" href="classString.html">String</a> &amp;optionRoot) const </td></tr>
 <tr class="memdesc:a5de3b16f0e87ffefdc3a3a897db7e064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this argument starts with a double dash, followed by the given string.  <a href="#a5de3b16f0e87ffefdc3a3a897db7e064">More...</a><br/></td></tr>
 <tr class="separator:a5de3b16f0e87ffefdc3a3a897db7e064"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc84e68da5f43bcac38e6cd4d37904f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList_1_1Argument.html#afc84e68da5f43bcac38e6cd4d37904f5">getLongOptionValue</a> () const </td></tr>
+<tr class="memdesc:afc84e68da5f43bcac38e6cd4d37904f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this argument is a long option with a value, this returns the value.  <a href="#afc84e68da5f43bcac38e6cd4d37904f5">More...</a><br/></td></tr>
+<tr class="separator:afc84e68da5f43bcac38e6cd4d37904f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b7872fc1619ac58393ce4bfa3343489"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList_1_1Argument.html#a2b7872fc1619ac58393ce4bfa3343489">isShortOption</a> (char shortOptionCharacter) const </td></tr>
 <tr class="memdesc:a2b7872fc1619ac58393ce4bfa3343489"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this argument starts with a single dash and then contains the given character somewhere inside it.  <a href="#a2b7872fc1619ac58393ce4bfa3343489">More...</a><br/></td></tr>
 <tr class="separator:a2b7872fc1619ac58393ce4bfa3343489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94b4072f041f4014ba01f40d082f2230"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList_1_1Argument.html#a94b4072f041f4014ba01f40d082f2230">isOption</a> () const </td></tr>
+<tr class="memdesc:a94b4072f041f4014ba01f40d082f2230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this argument starts with one or more dashes.  <a href="#a94b4072f041f4014ba01f40d082f2230">More...</a><br/></td></tr>
+<tr class="separator:a94b4072f041f4014ba01f40d082f2230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb812684854c87c4a29218c6a14a3fa8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList_1_1Argument.html#acb812684854c87c4a29218c6a14a3fa8">operator==</a> (<a class="el" href="classStringRef.html">StringRef</a> stringToCompare) const </td></tr>
 <tr class="memdesc:acb812684854c87c4a29218c6a14a3fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this argument against a string.  <a href="#acb812684854c87c4a29218c6a14a3fa8">More...</a><br/></td></tr>
 <tr class="separator:acb812684854c87c4a29218c6a14a3fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,6 +250,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afc84e68da5f43bcac38e6cd4d37904f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> ArgumentList::Argument::getLongOptionValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If this argument is a long option with a value, this returns the value. </p>
+<p>e.g. for "--foo=bar", this would return 'bar'. </p>
+
+</div>
+</div>
 <a class="anchor" id="a2b7872fc1619ac58393ce4bfa3343489"></a>
 <div class="memitem">
 <div class="memproto">
@@ -259,6 +283,23 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if this argument starts with a single dash and then contains the given character somewhere inside it. </p>
+
+</div>
+</div>
+<a class="anchor" id="a94b4072f041f4014ba01f40d082f2230"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ArgumentList::Argument::isOption </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if this argument starts with one or more dashes. </p>
 
 </div>
 </div>
@@ -321,7 +362,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 14 2019 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Feb 16 2019 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
