@@ -3084,7 +3084,7 @@ template&lt;class TargetClass &gt; </div>
 </div><div class="memdoc">
 
 <p>Changes the default return value for the <a class="el" href="classComponent.html#a2da9631236e1cbf1b340454209a6c9e0" title="Tests whether a given point is inside the component. ">hitTest()</a> method. </p>
-<p>Setting this to false is an easy way to make a component pass its mouse-clicks through to the components behind it.</p>
+<p>Setting this to false is an easy way to make a component pass all its mouse events (not just clicks) through to the components behind it.</p>
 <p>When a component is created, the default setting for this is true.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -6026,7 +6026,7 @@ template&lt;class TargetClass &gt; </div>
 </div><div class="memdoc">
 
 <p>Sets a flag to indicate whether mouse drag events on this <a class="el" href="classComponent.html" title="The base class for all JUCE user-interface objects. ">Component</a> should be ignored when it is inside a <a class="el" href="classViewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">Viewport</a> with drag-to-scroll functionality enabled. </p>
-<p>This is useful for Components such as sliders that should not move their parent <a class="el" href="classViewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">Viewport</a> when dragged. </p>
+<p>This is useful for Components such as sliders that should not move when their parent <a class="el" href="classViewport.html" title="A Viewport is used to contain a larger child component, and allows the child to be automatically scro...">Viewport</a> when dragged. </p>
 
 </div>
 </div>
@@ -6062,7 +6062,7 @@ template&lt;class TargetClass &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 16 2019 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

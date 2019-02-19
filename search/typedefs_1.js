@@ -3,6 +3,7 @@ var searchData=
   ['batterycharging',['BatteryCharging',['../namespaceBlocksProtocol.html#a61b3346f5ee578918d7c46415033d71f',1,'BlocksProtocol']]],
   ['batterylevel',['BatteryLevel',['../namespaceBlocksProtocol.html#a71548f7564fb975198e6b39e977a7a10',1,'BlocksProtocol']]],
   ['blockname',['BlockName',['../namespaceBlocksProtocol.html#a9daa2a7ab09343ac6f1f82b21ca678c1',1,'BlocksProtocol']]],
+  ['blocktraversalpaths',['BlockTraversalPaths',['../classBlockGraph.html#aec4d439f02d629b3fc0ab4fe68a7182a',1,'BlockGraph']]],
   ['buffer',['buffer',['../group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618',1,'juce_UnityPluginInterface.h']]],
   ['buffersize',['bufferSize',['../group__juce__audio__plugin__client-Unity.html#ga2c0a9181bdb5f6028f73c652a3a25db8',1,'juce_UnityPluginInterface.h']]],
   ['bytecountfew',['ByteCountFew',['../namespaceBlocksProtocol.html#a75c6960999fe971569ed57b8cc5c8755',1,'BlocksProtocol']]],

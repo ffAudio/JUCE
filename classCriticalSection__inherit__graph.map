@@ -1,4 +1,5 @@
 <map id="CriticalSection" name="CriticalSection">
-<area shape="rect" id="node2" href="$classArrayBase.html" title="ArrayBase\&lt; Thread::\lListener *, CriticalSection \&gt;" alt="" coords="173,5,355,46"/>
-<area shape="rect" id="node3" href="$classArrayBase.html" title="ArrayBase\&lt; UnitTestRunner\l::TestResult *, CriticalSection \&gt;" alt="" coords="160,70,368,111"/>
+<area shape="rect" id="node2" href="$classArrayBase.html" title="ArrayBase\&lt; Block::Array,\l CriticalSection \&gt;" alt="" coords="179,5,349,46"/>
+<area shape="rect" id="node3" href="$classArrayBase.html" title="ArrayBase\&lt; Thread::\lListener *, CriticalSection \&gt;" alt="" coords="173,70,355,111"/>
+<area shape="rect" id="node4" href="$classArrayBase.html" title="ArrayBase\&lt; UnitTestRunner\l::TestResult *, CriticalSection \&gt;" alt="" coords="160,135,368,177"/>
 </map>

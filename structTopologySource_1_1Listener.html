@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structTopologySource_1_1Listener-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">TopologySource::Listener Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">TopologySource::Listener Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -101,8 +101,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa5829793aa8a0392b4a61b1c04e6d7d5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTopologySource_1_1Listener.html#aa5829793aa8a0392b4a61b1c04e6d7d5">~Listener</a> ()=default</td></tr>
 <tr class="separator:aa5829793aa8a0392b4a61b1c04e6d7d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73540c798abac08847430a865790b87b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTopologySource_1_1Listener.html#a73540c798abac08847430a865790b87b">topologyChanged</a> ()=0</td></tr>
-<tr class="separator:a73540c798abac08847430a865790b87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe9485086e5d66f70a0a7990582081c2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTopologySource_1_1Listener.html#afe9485086e5d66f70a0a7990582081c2">topologyChanged</a> ()</td></tr>
+<tr class="memdesc:afe9485086e5d66f70a0a7990582081c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for any change in topology - devices changed, connections changed, etc.  <a href="#afe9485086e5d66f70a0a7990582081c2">More...</a><br/></td></tr>
+<tr class="separator:afe9485086e5d66f70a0a7990582081c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182ac8e1efcd0ebd57903731c502e1e9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTopologySource_1_1Listener.html#a182ac8e1efcd0ebd57903731c502e1e9">blockAdded</a> (const <a class="el" href="classBlock.html#a761059a28bd2f357dc7925caf0be0833">Block::Ptr</a>)</td></tr>
+<tr class="memdesc:a182ac8e1efcd0ebd57903731c502e1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new block is added to the topology.  <a href="#a182ac8e1efcd0ebd57903731c502e1e9">More...</a><br/></td></tr>
+<tr class="separator:a182ac8e1efcd0ebd57903731c502e1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6581bfb0a00a7427e4ed2524955b1ec"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTopologySource_1_1Listener.html#aa6581bfb0a00a7427e4ed2524955b1ec">blockRemoved</a> (const <a class="el" href="classBlock.html#a761059a28bd2f357dc7925caf0be0833">Block::Ptr</a>)</td></tr>
+<tr class="memdesc:aa6581bfb0a00a7427e4ed2524955b1ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a block is removed from the topology.  <a href="#aa6581bfb0a00a7427e4ed2524955b1ec">More...</a><br/></td></tr>
+<tr class="separator:aa6581bfb0a00a7427e4ed2524955b1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f831cc964b0038d4f1dc63299936f3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTopologySource_1_1Listener.html#a08f831cc964b0038d4f1dc63299936f3">blockUpdated</a> (const <a class="el" href="classBlock.html#a761059a28bd2f357dc7925caf0be0833">Block::Ptr</a>)</td></tr>
+<tr class="memdesc:a08f831cc964b0038d4f1dc63299936f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a known block is updated.  <a href="#a08f831cc964b0038d4f1dc63299936f3">More...</a><br/></td></tr>
+<tr class="separator:a08f831cc964b0038d4f1dc63299936f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Used to receive callbacks for topology changes. </p>
@@ -131,7 +141,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a73540c798abac08847430a865790b87b"></a>
+<a class="anchor" id="afe9485086e5d66f70a0a7990582081c2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -147,10 +157,91 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called for any change in topology - devices changed, connections changed, etc. </p>
+
+</div>
+</div>
+<a class="anchor" id="a182ac8e1efcd0ebd57903731c502e1e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> TopologySource::Listener::blockAdded </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classBlock.html#a761059a28bd2f357dc7925caf0be0833">Block::Ptr</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a new block is added to the topology. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa6581bfb0a00a7427e4ed2524955b1ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> TopologySource::Listener::blockRemoved </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classBlock.html#a761059a28bd2f357dc7925caf0be0833">Block::Ptr</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a block is removed from the topology. </p>
+
+</div>
+</div>
+<a class="anchor" id="a08f831cc964b0038d4f1dc63299936f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> TopologySource::Listener::blockUpdated </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classBlock.html#a761059a28bd2f357dc7925caf0be0833">Block::Ptr</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a known block is updated. </p>
+<p>This could be becasue details have been reveived asyncroniously. E.g. <a class="el" href="classBlock.html" title="Represents an individual BLOCKS device. ">Block</a> name. </p>
 
 </div>
 </div>
@@ -160,7 +251,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 16 2019 01:00:59 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 19 2019 01:01:05 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

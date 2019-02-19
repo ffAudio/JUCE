@@ -35,6 +35,7 @@ var searchData=
   ['font',['Font',['../classFont.html',1,'']]],
   ['fr',['Fr',['../structGrid_1_1Fr.html',1,'Grid']]],
   ['function',['function',['../classstd_1_1function.html',1,'std']]],
+  ['function_3c_20bool_28block_3a_3aptr_29_3e',['function&lt; bool(Block::Ptr)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20bool_28const_20string_20_26_29_3e',['function&lt; bool(const String &amp;)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20double_28const_20string_20_26_29_3e',['function&lt; double(const String &amp;)&gt;',['../classstd_1_1function.html',1,'std']]],
   ['function_3c_20float_28const_20string_20_26_29_3e',['function&lt; float(const String &amp;)&gt;',['../classstd_1_1function.html',1,'std']]],

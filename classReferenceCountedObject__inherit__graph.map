@@ -1,18 +1,20 @@
 <map id="ReferenceCountedObject" name="ReferenceCountedObject">
 <area shape="rect" id="node2" href="$structAudioDeviceManager_1_1LevelMeter.html" title="A simple reference&#45;counted struct that holds a level&#45;meter value that can be read using getCurrentLev..." alt="" coords="259,5,405,46"/>
 <area shape="rect" id="node3" href="$classAudioProcessorGraph_1_1Node.html" title="Represents one of the nodes, or processors, in an AudioProcessorGraph. " alt="" coords="257,70,407,111"/>
-<area shape="rect" id="node4" href="$structdsp_1_1ProcessorState.html" title="This is a handy base class for the state of a processor (such as parameter values) which is typically..." alt="" coords="261,136,403,163"/>
-<area shape="rect" id="node8" href="$classDynamicObject.html" title="Represents a dynamically implemented object. " alt="" coords="276,187,388,213"/>
-<area shape="rect" id="node9" href="$classImagePixelData.html" title="This is a base class for holding image data in implementation&#45;specific ways. " alt="" coords="275,237,389,264"/>
-<area shape="rect" id="node10" href="$classMessageManager_1_1MessageBase.html" title="Internal class used as the base class for all message objects. " alt="" coords="224,288,440,315"/>
-<area shape="rect" id="node13" href="$classSynthesiserSound.html" title="Describes one of the sounds that a Synthesiser can play. " alt="" coords="268,339,396,365"/>
-<area shape="rect" id="node15" href="$classTypeface.html" title="A typeface represents a size&#45;independent font. " alt="" coords="294,389,370,416"/>
-<area shape="rect" id="node17" href="$classValue_1_1ValueSource.html" title="Used internally by the Value class as the base class for its shared value objects. " alt="" coords="263,440,401,467"/>
-<area shape="rect" id="node5" href="$structdsp_1_1FIR_1_1Coefficients.html" title="A set of coefficients for use in an FIRFilter object. " alt="" coords="513,41,663,82"/>
-<area shape="rect" id="node6" href="$structdsp_1_1IIR_1_1Coefficients.html" title="A set of coefficients for use in an Filter object. " alt="" coords="515,106,661,147"/>
-<area shape="rect" id="node7" href="$structdsp_1_1StateVariableFilter_1_1Parameters.html" title="Structure used for the state variable filter parameters. " alt="" coords="489,171,687,213"/>
-<area shape="rect" id="node11" href="$classCallbackMessage.html" title="A message that invokes a callback method when it gets delivered. " alt="" coords="525,237,651,264"/>
-<area shape="rect" id="node12" href="$classMessage.html" title="The base class for objects that can be sent to a MessageListener. " alt="" coords="551,288,625,315"/>
-<area shape="rect" id="node14" href="$classSamplerSound.html" title="A subclass of SynthesiserSound that represents a sampled audio clip. " alt="" coords="535,339,641,365"/>
-<area shape="rect" id="node16" href="$classCustomTypeface.html" title="A typeface that can be populated with custom glyphs. " alt="" coords="527,389,649,416"/>
+<area shape="rect" id="node4" href="$classBlock.html" title="Represents an individual BLOCKS device. " alt="" coords="305,136,359,163"/>
+<area shape="rect" id="node5" href="$structdsp_1_1ProcessorState.html" title="This is a handy base class for the state of a processor (such as parameter values) which is typically..." alt="" coords="261,187,403,213"/>
+<area shape="rect" id="node9" href="$classDynamicObject.html" title="Represents a dynamically implemented object. " alt="" coords="276,237,388,264"/>
+<area shape="rect" id="node10" href="$classImagePixelData.html" title="This is a base class for holding image data in implementation&#45;specific ways. " alt="" coords="275,288,389,315"/>
+<area shape="rect" id="node11" href="$structLEDGrid_1_1Renderer.html" title="An interface to use for LEDGrid rendering. " alt="" coords="265,339,399,365"/>
+<area shape="rect" id="node12" href="$classMessageManager_1_1MessageBase.html" title="Internal class used as the base class for all message objects. " alt="" coords="224,389,440,416"/>
+<area shape="rect" id="node15" href="$classSynthesiserSound.html" title="Describes one of the sounds that a Synthesiser can play. " alt="" coords="268,440,396,467"/>
+<area shape="rect" id="node17" href="$classTypeface.html" title="A typeface represents a size&#45;independent font. " alt="" coords="294,491,370,517"/>
+<area shape="rect" id="node19" href="$classValue_1_1ValueSource.html" title="Used internally by the Value class as the base class for its shared value objects. " alt="" coords="263,541,401,568"/>
+<area shape="rect" id="node6" href="$structdsp_1_1FIR_1_1Coefficients.html" title="A set of coefficients for use in an FIRFilter object. " alt="" coords="513,114,663,155"/>
+<area shape="rect" id="node7" href="$structdsp_1_1IIR_1_1Coefficients.html" title="A set of coefficients for use in an Filter object. " alt="" coords="515,179,661,221"/>
+<area shape="rect" id="node8" href="$structdsp_1_1StateVariableFilter_1_1Parameters.html" title="Structure used for the state variable filter parameters. " alt="" coords="489,245,687,286"/>
+<area shape="rect" id="node13" href="$classCallbackMessage.html" title="A message that invokes a callback method when it gets delivered. " alt="" coords="525,339,651,365"/>
+<area shape="rect" id="node14" href="$classMessage.html" title="The base class for objects that can be sent to a MessageListener. " alt="" coords="551,389,625,416"/>
+<area shape="rect" id="node16" href="$classSamplerSound.html" title="A subclass of SynthesiserSound that represents a sampled audio clip. " alt="" coords="535,440,641,467"/>
+<area shape="rect" id="node18" href="$classCustomTypeface.html" title="A typeface that can be populated with custom glyphs. " alt="" coords="527,491,649,517"/>
 </map>

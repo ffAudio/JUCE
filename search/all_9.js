@@ -116,6 +116,7 @@ var searchData=
   ['juce_5fblock_2eh',['juce_Block.h',['../juce__Block_8h.html',1,'']]],
   ['juce_5fblock_5fwith_5fforced_5fsemicolon',['JUCE_BLOCK_WITH_FORCED_SEMICOLON',['../group__juce__core-system.html#gab6af009a60142d8c0cbd2ea4c121dc69',1,'juce_PlatformDefs.h']]],
   ['juce_5fblockconfigmanager_2eh',['juce_BlockConfigManager.h',['../juce__BlockConfigManager_8h.html',1,'']]],
+  ['juce_5fblockgraph_2eh',['juce_BlockGraph.h',['../juce__BlockGraph_8h.html',1,'']]],
   ['juce_5fblockmodels_2eh',['juce_BlockModels.h',['../juce__BlockModels_8h.html',1,'']]],
   ['juce_5fblocks_5fbasics',['juce_blocks_basics',['../group__juce__blocks__basics.html',1,'']]],
   ['juce_5fblocksprotocoldefinitions_2eh',['juce_BlocksProtocolDefinitions.h',['../juce__BlocksProtocolDefinitions_8h.html',1,'']]],
@@ -303,8 +304,8 @@ var searchData=
   ['juce_5fgzipcompressoroutputstream_2eh',['juce_GZIPCompressorOutputStream.h',['../juce__GZIPCompressorOutputStream_8h.html',1,'']]],
   ['juce_5fgzipdecompressorinputstream_2eh',['juce_GZIPDecompressorInputStream.h',['../juce__GZIPDecompressorInputStream_8h.html',1,'']]],
   ['juce_5fhandlenotificationintent',['juce_handleNotificationIntent',['../classPushNotifications.html#aeef25ab97b697f573d93838f6fb64ea9',1,'PushNotifications']]],
-  ['juce_5fhandlexembedevent',['juce_handleXEmbedEvent',['../classXEmbedComponent.html#ab77965533bbfc70c1bea0b5fcc314671',1,'XEmbedComponent']]],
   ['juce_5fhandlexembedevent',['juce_handleXEmbedEvent',['../group__juce__gui__extra-embedding.html#ga2cad300cf70fc35a54a9a260022017a9',1,'juce_XEmbedComponent.h']]],
+  ['juce_5fhandlexembedevent',['juce_handleXEmbedEvent',['../classXEmbedComponent.html#ab77965533bbfc70c1bea0b5fcc314671',1,'XEmbedComponent']]],
   ['juce_5fhashmap_2eh',['juce_HashMap.h',['../juce__HashMap_8h.html',1,'']]],
   ['juce_5fheapblock_2eh',['juce_HeapBlock.h',['../juce__HeapBlock_8h.html',1,'']]],
   ['juce_5fheavyweight_5fleak_5fdetector',['JUCE_HEAVYWEIGHT_LEAK_DETECTOR',['../group__juce__core-memory.html#gac77147a0a6422aea60c3422f89e55027',1,'juce_HeavyweightLeakedObjectDetector.h']]],
@@ -690,5 +691,5 @@ var searchData=
   ['justifycontent',['justifyContent',['../classFlexBox.html#a20627d266f82422c5e72152ba07e5bc1',1,'FlexBox::justifyContent()'],['../classGrid.html#a1ffb17b0278671325d144c18ad3d90d8',1,'Grid::justifyContent()'],['../classFlexBox.html#afa615fca8a66bca45dc4b7ecdb75c3fd',1,'FlexBox::JustifyContent()'],['../classGrid.html#a409e1ab0e5437a211a6c0234f6dff4f6',1,'Grid::JustifyContent()']]],
   ['justifyglyphs',['justifyGlyphs',['../classGlyphArrangement.html#a713bcc714c1e8c7fb8ec64dc91adfce3',1,'GlyphArrangement']]],
   ['justifyitems',['justifyItems',['../classGrid.html#afb7f619f54e013d739bf4eba008c6f8b',1,'Grid::justifyItems()'],['../classGrid.html#afbf79b83305b5be690b37136e2b08ed0',1,'Grid::JustifyItems()']]],
-  ['justifyself',['justifySelf',['../classGridItem.html#ad99b06aa55356196c54bf40321301147',1,'GridItem::justifySelf()'],['../classGridItem.html#acdffd5a5ee38b411ae6766f7daf733c6',1,'GridItem::JustifySelf()']]]
+  ['justifyself',['JustifySelf',['../classGridItem.html#acdffd5a5ee38b411ae6766f7daf733c6',1,'GridItem::JustifySelf()'],['../classGridItem.html#ad99b06aa55356196c54bf40321301147',1,'GridItem::justifySelf()']]]
 ];
