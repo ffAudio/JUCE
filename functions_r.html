@@ -1077,6 +1077,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classdsp_1_1Gain.html#ae6b4e13fc4130fa84aac69ef0267baa1">dsp::Gain&lt; FloatType &gt;</a>
 , <a class="el" href="classdsp_1_1IIR_1_1Filter.html#ab54eb5792eaba1b529f0e6f95342f517">dsp::IIR::Filter&lt; SampleType &gt;</a>
 , <a class="el" href="classdsp_1_1LadderFilter.html#a356118085674c8242dbb3cc5b80dc54f">dsp::LadderFilter&lt; Type &gt;</a>
+, <a class="el" href="classdsp_1_1LogRampedValue.html#a2a2a2fa806e92829c0d6d1938cc83e04">dsp::LogRampedValue&lt; FloatType &gt;</a>
 , <a class="el" href="classdsp_1_1Oscillator.html#ac4f0e60d1e0bdc56b78c31aa0bdb05d8">dsp::Oscillator&lt; SampleType &gt;</a>
 , <a class="el" href="classdsp_1_1Oversampling.html#a2a9cedc303110b61c32f929018f7c8fd">dsp::Oversampling&lt; SampleType &gt;</a>
 , <a class="el" href="structdsp_1_1Phase.html#a071650702fa5d6b1a517f50fee2d7c36">dsp::Phase&lt; Type &gt;</a>
@@ -1089,10 +1090,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="structHashMap_1_1Iterator.html#a341bf8a8ebd064bccb0739fc73b48fa7">HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToUse &gt;::Iterator</a>
 , <a class="el" href="classIIRFilter.html#ad393cad59b722523a6a10a4db579fbf7">IIRFilter</a>
 , <a class="el" href="classLagrangeInterpolator.html#a49ec82f24dd5f286ab518ee694c92104">LagrangeInterpolator</a>
-, <a class="el" href="classLinearSmoothedValue.html#a437e2033bee8c4c610b4fd0086b47042">LinearSmoothedValue&lt; FloatType &gt;</a>
 , <a class="el" href="structlittlefoot_1_1Runner_1_1FunctionExecutionContext.html#abc4724bd4cf497d48b49f68887a8917f">littlefoot::Runner&lt; programAndHeapSpace, stackAndGlobalsSpace &gt;::FunctionExecutionContext</a>
 , <a class="el" href="structlittlefoot_1_1Runner.html#a3773259a07ac5a06bc2f4afa972a8b80">littlefoot::Runner&lt; programAndHeapSpace, stackAndGlobalsSpace &gt;</a>
-, <a class="el" href="classLogSmoothedValue.html#aecb407a743b381c572c5f9c05d422490">LogSmoothedValue&lt; FloatType &gt;</a>
 , <a class="el" href="classMemoryBlock.html#a6c08083ae75b47186d20c7b591c56073">MemoryBlock</a>
 , <a class="el" href="classMemoryOutputStream.html#a48022a2ed05716333bcd8da5c26b4d59">MemoryOutputStream</a>
 , <a class="el" href="classMidiKeyboardState.html#a32ba944d0ca8e29347abb96f24e56bf1">MidiKeyboardState</a>
@@ -1103,7 +1102,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="classReferenceCountedObjectPtr.html#adfc5fb60bf0c5e0d820dc51c9edfa823">ReferenceCountedObjectPtr&lt; ObjectType &gt;</a>
 , <a class="el" href="classReverb.html#a5d132bb7b4edbeeedbd2d1ef7e4c87ef">Reverb</a>
 , <a class="el" href="classScopedPointer.html#a6792ecbc86107b81bdfc76f61a589e60">ScopedPointer&lt; ObjectType &gt;</a>
-, <a class="el" href="classSmoothedValueBase.html#a23a0b34014860964f935ce2b34f572c6">SmoothedValueBase&lt; SmoothedValueClass, FloatType &gt;</a>
+, <a class="el" href="classSmoothedValue.html#abf70063c8a4fcedda62a37137ef8e7e6">SmoothedValue&lt; FloatType, SmoothingType &gt;</a>
 , <a class="el" href="classStatisticsAccumulator.html#aae1f7582ed244087615aab9bea80b58d">StatisticsAccumulator&lt; FloatType &gt;</a>
 , <a class="el" href="structUnityAudioEffectDefinition.html#ac61fba3aba34d06885506c907f0a400c">UnityAudioEffectDefinition</a>
 , <a class="el" href="classWaitableEvent.html#aa9b3db111ba17e13d5e74360367bcc9b">WaitableEvent</a>
@@ -1178,7 +1177,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classResizableEdgeComponent.html#a50df447594f67bdb95d5d334c4f97889">ResizableEdgeComponent</a>
 </li>
 <li>ResizableWindow()
-: <a class="el" href="classResizableWindow.html#a16e8710f342007dbcb7c7d4171043f0c">ResizableWindow</a>
+: <a class="el" href="classResizableWindow.html#a72a45d75d7e14d157e01143969e51361">ResizableWindow</a>
 </li>
 <li>resize()
 : <a class="el" href="classArray.html#ade015d02494b59f2e8e7600f136c09af">Array&lt; ElementType, TypeOfCriticalSectionToUse, minimumAllocatedSize &gt;</a>
@@ -1306,7 +1305,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classResizableWindow.html#a462e5efd2f570fd65b0822c0ea96889b">ResizableWindow</a>
 </li>
 <li>Result()
-: <a class="el" href="classResult.html#a4457dd54f8a2854b2c1517c9583651c0">Result</a>
+: <a class="el" href="classResult.html#a934eb96dbd852fe6926dd15d0c936054">Result</a>
 </li>
 <li>resultsUpdated()
 : <a class="el" href="classUnitTestRunner.html#afa7f79986587d186c212af8a02f04d94">UnitTestRunner</a>
@@ -1360,7 +1359,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="structUnityAudioSpatializerData.html#ac95d69ee8d4e455d02377e580292361f">UnityAudioSpatializerData</a>
 </li>
 <li>reverse()
-: <a class="el" href="classAudioBuffer.html#a842674c6e6bd70f27fcbdef7cc76e283">AudioBuffer&lt; Type &gt;</a>
+: <a class="el" href="classAudioBuffer.html#a41cbf05e4d7054e02d5844b09a8eceb5">AudioBuffer&lt; Type &gt;</a>
 </li>
 <li>reversed()
 : <a class="el" href="classLine.html#a28ca79adfb725968117ffef397edcd5d">Line&lt; ValueType &gt;</a>
@@ -1684,7 +1683,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classSlider.html#af1caee82552143dd9ff0fc9f0cdc0888a46ac50fdae2ac4df9a2f3ad630589224">Slider</a>
 </li>
 <li>rotated()
-: <a class="el" href="classAffineTransform.html#a46df67778a846c4ca39e43bd474e68a0">AffineTransform</a>
+: <a class="el" href="classAffineTransform.html#a0dcf19186a3e5964e1bbf39843f644dd">AffineTransform</a>
 </li>
 <li>rotatedAboutOrigin()
 : <a class="el" href="classPoint.html#a95b4c38a22f712224a6f23cd7d556580">Point&lt; ValueType &gt;</a>
@@ -1696,7 +1695,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classDesktop.html#a5e06947d2d1295bdb6f5c4fab7beb98aae1e0629de1668ef16f700b7278fd0f04">Desktop</a>
 </li>
 <li>rotation()
-: <a class="el" href="classAffineTransform.html#a4428d9a178f059264fdd7e8034f8d1c3">AffineTransform</a>
+: <a class="el" href="classAffineTransform.html#aa8cbff1ba0c430acf5294cab160585a2">AffineTransform</a>
 , <a class="el" href="classMatrix3D.html#afb17be8508c30f19cab07cabf0239cd8">Matrix3D&lt; Type &gt;</a>
 , <a class="el" href="classMouseEvent.html#a3a3b74f77f12503d059d8f0495a8237d">MouseEvent</a>
 , <a class="el" href="structPenDetails.html#a7856c25b7bfa1da8e9b9e86eb202b098">PenDetails</a>
@@ -1725,7 +1724,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classColours.html#a2f85b97be33e07c1ca9a0187c4883df3">Colours</a>
 </li>
 <li>RSAKey()
-: <a class="el" href="classRSAKey.html#a2a1894882100da6c8c70f8911089ef4d">RSAKey</a>
+: <a class="el" href="classRSAKey.html#a8658a7cfe77c3565033efbd6706ee6ae">RSAKey</a>
 </li>
 <li>RuleBasedTopologySource()
 : <a class="el" href="classRuleBasedTopologySource.html#adc0c4f1a888357aa51f14a440f31aa2d">RuleBasedTopologySource</a>
@@ -1734,7 +1733,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="structlittlefoot_1_1Runner_1_1FunctionExecutionContext.html#ac586a0a6f7d18b6f115817e800178547">littlefoot::Runner&lt; programAndHeapSpace, stackAndGlobalsSpace &gt;::FunctionExecutionContext</a>
 </li>
 <li>Run()
-: <a class="el" href="classTextLayout_1_1Run.html#a80912a38013f0ba4b116a8b8be55455c">TextLayout::Run</a>
+: <a class="el" href="classTextLayout_1_1Run.html#a3c228b9d44e780b3ada848d4e8b8ab0f">TextLayout::Run</a>
 </li>
 <li>run()
 : <a class="el" href="classThread.html#aae90dfabab3e1776cf01a26e7ee3a620">Thread</a>
@@ -1782,7 +1781,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 19 2019 01:01:10 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>JUCE: SmoothedValueBase&lt; SmoothedValueClass, FloatType &gt; Class Template Reference</title>
+<title>JUCE: SmoothedValueBase&lt; SmoothedValueType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -83,76 +83,94 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classSmoothedValueBase-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SmoothedValueBase&lt; SmoothedValueClass, FloatType &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__juce__audio__basics-utilities.html">utilities</a></div></div>  </div>
+<div class="title">SmoothedValueBase&lt; SmoothedValueType &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__juce__audio__basics-utilities.html">utilities</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>A base class for the smoothed value classes.  
  <a href="classSmoothedValueBase.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a331eba8c0333698d8bb470b1311d49e4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> = typename FloatTypeHelper&lt; SmoothedValueType &gt;::Type</td></tr>
+<tr class="separator:a331eba8c0333698d8bb470b1311d49e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab4fe0fdd6a16b0c25e245b8babcddd7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#ab4fe0fdd6a16b0c25e245b8babcddd7a">SmoothedValueBase</a> ()=default</td></tr>
-<tr class="memdesc:ab4fe0fdd6a16b0c25e245b8babcddd7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ab4fe0fdd6a16b0c25e245b8babcddd7a">More...</a><br/></td></tr>
-<tr class="separator:ab4fe0fdd6a16b0c25e245b8babcddd7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a884f4f9f29c8f88c569eae20200d7f80"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a884f4f9f29c8f88c569eae20200d7f80">isSmoothing</a> () const noexcept</td></tr>
-<tr class="memdesc:a884f4f9f29c8f88c569eae20200d7f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current value is currently being interpolated.  <a href="#a884f4f9f29c8f88c569eae20200d7f80">More...</a><br/></td></tr>
-<tr class="separator:a884f4f9f29c8f88c569eae20200d7f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35df74615b7bb7246477b71027444568"><td class="memItemLeft" align="right" valign="top">FloatType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a35df74615b7bb7246477b71027444568">getCurrentValue</a> () const noexcept</td></tr>
-<tr class="memdesc:a35df74615b7bb7246477b71027444568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current value of the ramp.  <a href="#a35df74615b7bb7246477b71027444568">More...</a><br/></td></tr>
-<tr class="separator:a35df74615b7bb7246477b71027444568"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49038e1fba3e687dfe6038e878221794"><td class="memItemLeft" align="right" valign="top">FloatType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a49038e1fba3e687dfe6038e878221794">getTargetValue</a> () const noexcept</td></tr>
-<tr class="memdesc:a49038e1fba3e687dfe6038e878221794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the target value towards which the smoothed value is currently moving.  <a href="#a49038e1fba3e687dfe6038e878221794">More...</a><br/></td></tr>
-<tr class="separator:a49038e1fba3e687dfe6038e878221794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30ef651c9812ae22041af706031effb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a30ef651c9812ae22041af706031effb2">setCurrentAndTargetValue</a> (FloatType newValue)</td></tr>
-<tr class="memdesc:a30ef651c9812ae22041af706031effb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current value and the target value.  <a href="#a30ef651c9812ae22041af706031effb2">More...</a><br/></td></tr>
-<tr class="separator:a30ef651c9812ae22041af706031effb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11a1705a6044e8ec62a8d5116c796a7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a11a1705a6044e8ec62a8d5116c796a7a">applyGain</a> (FloatType *samples, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
-<tr class="memdesc:a11a1705a6044e8ec62a8d5116c796a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a smoothed gain to a stream of samples S[i] *= gain.  <a href="#a11a1705a6044e8ec62a8d5116c796a7a">More...</a><br/></td></tr>
-<tr class="separator:a11a1705a6044e8ec62a8d5116c796a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbf65c62b6f43ad99ddd08b89e2ef63e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#acbf65c62b6f43ad99ddd08b89e2ef63e">applyGain</a> (FloatType *samplesOut, const FloatType *samplesIn, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
-<tr class="memdesc:acbf65c62b6f43ad99ddd08b89e2ef63e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes output as a smoothed gain applied to a stream of samples.  <a href="#acbf65c62b6f43ad99ddd08b89e2ef63e">More...</a><br/></td></tr>
-<tr class="separator:acbf65c62b6f43ad99ddd08b89e2ef63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acefe0e3e48a5e3e1dd9e540a9939dd3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#acefe0e3e48a5e3e1dd9e540a9939dd3d">applyGain</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt; &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618">buffer</a>, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
-<tr class="memdesc:acefe0e3e48a5e3e1dd9e540a9939dd3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a smoothed gain to a buffer.  <a href="#acefe0e3e48a5e3e1dd9e540a9939dd3d">More...</a><br/></td></tr>
-<tr class="separator:acefe0e3e48a5e3e1dd9e540a9939dd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a23a0b34014860964f935ce2b34f572c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a23a0b34014860964f935ce2b34f572c6">reset</a> (double sampleRate, double rampLengthInSeconds) noexcept</td></tr>
-<tr class="separator:a23a0b34014860964f935ce2b34f572c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0754f7c8bede0aa4a858ef298685983e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a0754f7c8bede0aa4a858ef298685983e">SmoothedValueBase</a> ()=default</td></tr>
+<tr class="memdesc:a0754f7c8bede0aa4a858ef298685983e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a0754f7c8bede0aa4a858ef298685983e">More...</a><br/></td></tr>
+<tr class="separator:a0754f7c8bede0aa4a858ef298685983e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857a01fb4372df2a17fac1017f09a47a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a857a01fb4372df2a17fac1017f09a47a">~SmoothedValueBase</a> ()</td></tr>
+<tr class="separator:a857a01fb4372df2a17fac1017f09a47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afadc1bbe590e1fe7e3d06ae17cb95d53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#afadc1bbe590e1fe7e3d06ae17cb95d53">isSmoothing</a> () const noexcept</td></tr>
+<tr class="memdesc:afadc1bbe590e1fe7e3d06ae17cb95d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the current value is currently being interpolated.  <a href="#afadc1bbe590e1fe7e3d06ae17cb95d53">More...</a><br/></td></tr>
+<tr class="separator:afadc1bbe590e1fe7e3d06ae17cb95d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeebec3764b0dcc6f1a56ffaa0b440e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#adeebec3764b0dcc6f1a56ffaa0b440e5">getCurrentValue</a> () const noexcept</td></tr>
+<tr class="memdesc:adeebec3764b0dcc6f1a56ffaa0b440e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current value of the ramp.  <a href="#adeebec3764b0dcc6f1a56ffaa0b440e5">More...</a><br/></td></tr>
+<tr class="separator:adeebec3764b0dcc6f1a56ffaa0b440e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a859197164aed5ede6e304318b050b66d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a859197164aed5ede6e304318b050b66d">getTargetValue</a> () const noexcept</td></tr>
+<tr class="memdesc:a859197164aed5ede6e304318b050b66d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the target value towards which the smoothed value is currently moving.  <a href="#a859197164aed5ede6e304318b050b66d">More...</a><br/></td></tr>
+<tr class="separator:a859197164aed5ede6e304318b050b66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3508cf2b6c49f5f17bfaad6c42e153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a9f3508cf2b6c49f5f17bfaad6c42e153">setCurrentAndTargetValue</a> (<a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> newValue)</td></tr>
+<tr class="memdesc:a9f3508cf2b6c49f5f17bfaad6c42e153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current value and the target value.  <a href="#a9f3508cf2b6c49f5f17bfaad6c42e153">More...</a><br/></td></tr>
+<tr class="separator:a9f3508cf2b6c49f5f17bfaad6c42e153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe84c41e1580f857e6d8243d661826cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#abe84c41e1580f857e6d8243d661826cb">applyGain</a> (<a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> *samples, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
+<tr class="memdesc:abe84c41e1580f857e6d8243d661826cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a smoothed gain to a stream of samples S[i] *= gain.  <a href="#abe84c41e1580f857e6d8243d661826cb">More...</a><br/></td></tr>
+<tr class="separator:abe84c41e1580f857e6d8243d661826cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db76dbff83ab8e797b8e3e4ffa6e9e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a0db76dbff83ab8e797b8e3e4ffa6e9e1">applyGain</a> (<a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> *samplesOut, const <a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> *samplesIn, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
+<tr class="memdesc:a0db76dbff83ab8e797b8e3e4ffa6e9e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes output as a smoothed gain applied to a stream of samples.  <a href="#a0db76dbff83ab8e797b8e3e4ffa6e9e1">More...</a><br/></td></tr>
+<tr class="separator:a0db76dbff83ab8e797b8e3e4ffa6e9e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a8c2b5a79277406ac6bc2d138efc78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#af4a8c2b5a79277406ac6bc2d138efc78">applyGain</a> (<a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; <a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> &gt; &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618">buffer</a>, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples) noexcept</td></tr>
+<tr class="memdesc:af4a8c2b5a79277406ac6bc2d138efc78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a smoothed gain to a buffer.  <a href="#af4a8c2b5a79277406ac6bc2d138efc78">More...</a><br/></td></tr>
+<tr class="separator:af4a8c2b5a79277406ac6bc2d138efc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a000f23dee39639da019c2783e5ae6c1e"><td class="memItemLeft" align="right" valign="top">FloatType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a000f23dee39639da019c2783e5ae6c1e">currentValue</a> = 0</td></tr>
-<tr class="separator:a000f23dee39639da019c2783e5ae6c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0167982e324b491081fc80716f201dc9"><td class="memItemLeft" align="right" valign="top">FloatType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a0167982e324b491081fc80716f201dc9">target</a> = 0</td></tr>
-<tr class="separator:a0167982e324b491081fc80716f201dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4ec8585000d0a1988af6cedd7e97633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#aa4ec8585000d0a1988af6cedd7e97633">countdown</a> = 0</td></tr>
-<tr class="separator:aa4ec8585000d0a1988af6cedd7e97633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89801c30d19e4a627976d49f43c0a97e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a89801c30d19e4a627976d49f43c0a97e">currentValue</a> = 0</td></tr>
+<tr class="separator:a89801c30d19e4a627976d49f43c0a97e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902690d2718e09c2b34effad5980fe3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a902690d2718e09c2b34effad5980fe3b">target</a> = <a class="el" href="classSmoothedValueBase.html#a89801c30d19e4a627976d49f43c0a97e">currentValue</a></td></tr>
+<tr class="separator:a902690d2718e09c2b34effad5980fe3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5428962e91e7745e9e4089bffe97852b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSmoothedValueBase.html#a5428962e91e7745e9e4089bffe97852b">countdown</a> = 0</td></tr>
+<tr class="separator:a5428962e91e7745e9e4089bffe97852b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt;<br/>
-class SmoothedValueBase&lt; SmoothedValueClass, FloatType &gt;</h3>
+<div class="textblock"><h3>template&lt;typename SmoothedValueType&gt;<br/>
+class SmoothedValueBase&lt; SmoothedValueType &gt;</h3>
 
 <p>A base class for the smoothed value classes. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ab4fe0fdd6a16b0c25e245b8babcddd7a"></a>
+<p>This class is used to provide common functionality to the <a class="el" href="classSmoothedValue.html" title="A utility class for values that need smoothing, like volume, that should not change abruptly to avoid...">SmoothedValue</a> and <a class="el" href="classdsp_1_1LogRampedValue.html" title="Utility class for logarithmically smoothed values. ">dsp::LogRampedValue</a> classes. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a331eba8c0333698d8bb470b1311d49e4"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::<a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> =  typename FloatTypeHelper&lt;SmoothedValueType&gt;::Type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a0754f7c8bede0aa4a858ef298685983e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::<a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a> </td>
+          <td class="memname"><a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::<a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -169,18 +187,43 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a884f4f9f29c8f88c569eae20200d7f80"></a>
+<a class="anchor" id="a857a01fb4372df2a17fac1017f09a47a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::isSmoothing </td>
+          <td class="memname">virtual <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::~<a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="afadc1bbe590e1fe7e3d06ae17cb95d53"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SmoothedValueType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::isSmoothing </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -195,21 +238,21 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 
 <p>Returns true if the current value is currently being interpolated. </p>
 
-<p>Referenced by <a class="el" href="classSmoothedValueBase.html#a11a1705a6044e8ec62a8d5116c796a7a">SmoothedValueBase&lt; LinearSmoothedValue, FloatType &gt;::applyGain()</a>, and <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>.</p>
+<p>Referenced by <a class="el" href="classSmoothedValueBase.html#abe84c41e1580f857e6d8243d661826cb">SmoothedValueBase&lt; SmoothedValue&lt; NumericType, ValueSmoothingTypes::Linear &gt; &gt;::applyGain()</a>, <a class="el" href="classdsp_1_1Gain.html#a0a97200da210aa72c0bc7675ab7e6258">dsp::Gain&lt; FloatType &gt;::isSmoothing()</a>, and <a class="el" href="classdsp_1_1Oscillator.html#a9910808dcf8b7909df5ee15f8df6501e">dsp::Oscillator&lt; SampleType &gt;::process()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a35df74615b7bb7246477b71027444568"></a>
+<a class="anchor" id="adeebec3764b0dcc6f1a56ffaa0b440e5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">FloatType <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::getCurrentValue </td>
+          <td class="memname"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::getCurrentValue </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -226,17 +269,17 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 
 </div>
 </div>
-<a class="anchor" id="a49038e1fba3e687dfe6038e878221794"></a>
+<a class="anchor" id="a859197164aed5ede6e304318b050b66d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">FloatType <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::getTargetValue </td>
+          <td class="memname"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::getTargetValue </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -251,20 +294,20 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 
 <p>Returns the target value towards which the smoothed value is currently moving. </p>
 
-<p>Referenced by <a class="el" href="classdsp_1_1Oscillator.html#aeed7bfa024f8852d5b659972cd44b6ca">dsp::Oscillator&lt; SampleType &gt;::getFrequency()</a>.</p>
+<p>Referenced by <a class="el" href="classdsp_1_1Bias.html#ade133624ccdc01997fc4eb35c777bcb3">dsp::Bias&lt; FloatType &gt;::getBias()</a>, <a class="el" href="classdsp_1_1Oscillator.html#aeed7bfa024f8852d5b659972cd44b6ca">dsp::Oscillator&lt; SampleType &gt;::getFrequency()</a>, and <a class="el" href="classdsp_1_1Gain.html#a9812ceecd1285cb8cb606ce1f92a3484">dsp::Gain&lt; FloatType &gt;::getGainLinear()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a30ef651c9812ae22041af706031effb2"></a>
+<a class="anchor" id="a9f3508cf2b6c49f5f17bfaad6c42e153"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::setCurrentAndTargetValue </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::setCurrentAndTargetValue </td>
           <td>(</td>
-          <td class="paramtype">FloatType&#160;</td>
+          <td class="paramtype"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a>&#160;</td>
           <td class="paramname"><em>newValue</em></td><td>)</td>
           <td></td>
         </tr>
@@ -283,19 +326,19 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 
 </div>
 </div>
-<a class="anchor" id="a11a1705a6044e8ec62a8d5116c796a7a"></a>
+<a class="anchor" id="abe84c41e1580f857e6d8243d661826cb"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::applyGain </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::applyGain </td>
           <td>(</td>
-          <td class="paramtype">FloatType *&#160;</td>
+          <td class="paramtype"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> *&#160;</td>
           <td class="paramname"><em>samples</em>, </td>
         </tr>
         <tr>
@@ -328,25 +371,25 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 
 </div>
 </div>
-<a class="anchor" id="acbf65c62b6f43ad99ddd08b89e2ef63e"></a>
+<a class="anchor" id="a0db76dbff83ab8e797b8e3e4ffa6e9e1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::applyGain </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::applyGain </td>
           <td>(</td>
-          <td class="paramtype">FloatType *&#160;</td>
+          <td class="paramtype"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> *&#160;</td>
           <td class="paramname"><em>samplesOut</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FloatType *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> *&#160;</td>
           <td class="paramname"><em>samplesIn</em>, </td>
         </tr>
         <tr>
@@ -381,19 +424,19 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 
 </div>
 </div>
-<a class="anchor" id="acefe0e3e48a5e3e1dd9e540a9939dd3d"></a>
+<a class="anchor" id="af4a8c2b5a79277406ac6bc2d138efc78"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::applyGain </td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::applyGain </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; FloatType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classAudioBuffer.html">AudioBuffer</a>&lt; <a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
         </tr>
         <tr>
@@ -419,54 +462,18 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 
 </div>
 </div>
-<a class="anchor" id="a23a0b34014860964f935ce2b34f572c6"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::reset </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>sampleRate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rampLengthInSeconds</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a000f23dee39639da019c2783e5ae6c1e"></a>
+<a class="anchor" id="a89801c30d19e4a627976d49f43c0a97e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">FloatType <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::currentValue = 0</td>
+          <td class="memname"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::currentValue = 0</td>
         </tr>
       </table>
   </td>
@@ -476,21 +483,21 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classSmoothedValueBase.html#a35df74615b7bb7246477b71027444568">SmoothedValueBase&lt; LinearSmoothedValue, FloatType &gt;::getCurrentValue()</a>, and <a class="el" href="classSmoothedValueBase.html#a30ef651c9812ae22041af706031effb2">SmoothedValueBase&lt; LinearSmoothedValue, FloatType &gt;::setCurrentAndTargetValue()</a>.</p>
+<p>Referenced by <a class="el" href="classSmoothedValueBase.html#adeebec3764b0dcc6f1a56ffaa0b440e5">SmoothedValueBase&lt; SmoothedValue&lt; NumericType, ValueSmoothingTypes::Linear &gt; &gt;::getCurrentValue()</a>, and <a class="el" href="classSmoothedValueBase.html#a9f3508cf2b6c49f5f17bfaad6c42e153">SmoothedValueBase&lt; SmoothedValue&lt; NumericType, ValueSmoothingTypes::Linear &gt; &gt;::setCurrentAndTargetValue()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0167982e324b491081fc80716f201dc9"></a>
+<a class="anchor" id="a902690d2718e09c2b34effad5980fe3b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">FloatType <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::target = 0</td>
+          <td class="memname"><a class="el" href="classSmoothedValueBase.html#a331eba8c0333698d8bb470b1311d49e4">FloatType</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::target = <a class="el" href="classSmoothedValueBase.html#a89801c30d19e4a627976d49f43c0a97e">currentValue</a></td>
         </tr>
       </table>
   </td>
@@ -500,21 +507,21 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classSmoothedValueBase.html#a11a1705a6044e8ec62a8d5116c796a7a">SmoothedValueBase&lt; LinearSmoothedValue, FloatType &gt;::applyGain()</a>, <a class="el" href="classSmoothedValueBase.html#a49038e1fba3e687dfe6038e878221794">SmoothedValueBase&lt; LinearSmoothedValue, FloatType &gt;::getTargetValue()</a>, and <a class="el" href="classSmoothedValueBase.html#a30ef651c9812ae22041af706031effb2">SmoothedValueBase&lt; LinearSmoothedValue, FloatType &gt;::setCurrentAndTargetValue()</a>.</p>
+<p>Referenced by <a class="el" href="classSmoothedValueBase.html#abe84c41e1580f857e6d8243d661826cb">SmoothedValueBase&lt; SmoothedValue&lt; NumericType, ValueSmoothingTypes::Linear &gt; &gt;::applyGain()</a>, <a class="el" href="classSmoothedValueBase.html#a859197164aed5ede6e304318b050b66d">SmoothedValueBase&lt; SmoothedValue&lt; NumericType, ValueSmoothingTypes::Linear &gt; &gt;::getTargetValue()</a>, and <a class="el" href="classSmoothedValueBase.html#a9f3508cf2b6c49f5f17bfaad6c42e153">SmoothedValueBase&lt; SmoothedValue&lt; NumericType, ValueSmoothingTypes::Linear &gt; &gt;::setCurrentAndTargetValue()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa4ec8585000d0a1988af6cedd7e97633"></a>
+<a class="anchor" id="a5428962e91e7745e9e4089bffe97852b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatType&gt; </div>
+template&lt;typename SmoothedValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueClass, FloatType &gt;::countdown = 0</td>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> <a class="el" href="classSmoothedValueBase.html">SmoothedValueBase</a>&lt; SmoothedValueType &gt;::countdown = 0</td>
         </tr>
       </table>
   </td>
@@ -524,17 +531,17 @@ template&lt;template&lt; typename &gt; class SmoothedValueClass, typename FloatT
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classSmoothedValueBase.html#a884f4f9f29c8f88c569eae20200d7f80">SmoothedValueBase&lt; LinearSmoothedValue, FloatType &gt;::isSmoothing()</a>, and <a class="el" href="classSmoothedValueBase.html#a30ef651c9812ae22041af706031effb2">SmoothedValueBase&lt; LinearSmoothedValue, FloatType &gt;::setCurrentAndTargetValue()</a>.</p>
+<p>Referenced by <a class="el" href="classSmoothedValueBase.html#afadc1bbe590e1fe7e3d06ae17cb95d53">SmoothedValueBase&lt; SmoothedValue&lt; NumericType, ValueSmoothingTypes::Linear &gt; &gt;::isSmoothing()</a>, and <a class="el" href="classSmoothedValueBase.html#a9f3508cf2b6c49f5f17bfaad6c42e153">SmoothedValueBase&lt; SmoothedValue&lt; NumericType, ValueSmoothingTypes::Linear &gt; &gt;::setCurrentAndTargetValue()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="juce__SmoothedValues_8h.html">juce_SmoothedValues.h</a></li>
+<li><a class="el" href="juce__SmoothedValue_8h.html">juce_SmoothedValue.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 19 2019 01:01:02 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 01:00:47 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

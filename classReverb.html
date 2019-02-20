@@ -188,7 +188,7 @@ Public Member Functions</h2></td></tr>
 <p>Applies a new set of parameters to the reverb. </p>
 <p>Note that this doesn't attempt to lock the reverb, so if you call this in parallel with the process method, you may get artifacts. </p>
 
-<p>References <a class="el" href="structReverb_1_1Parameters.html#add75191e7a163d95cd807cbc72fa192c">Reverb::Parameters::dryLevel</a>, <a class="el" href="structReverb_1_1Parameters.html#a394c3bfbd67ad681222410952dbed0c6">Reverb::Parameters::freezeMode</a>, <a class="el" href="classLinearSmoothedValue.html#a8f62aba07ab5b33c0220f32edb0b9fa4">LinearSmoothedValue&lt; FloatType &gt;::setTargetValue()</a>, <a class="el" href="structReverb_1_1Parameters.html#ae029e68c8dc8fa0acb34373237377fec">Reverb::Parameters::wetLevel</a>, and <a class="el" href="structReverb_1_1Parameters.html#a2104c314f4804e3ff6e5cc7d524c3b1d">Reverb::Parameters::width</a>.</p>
+<p>References <a class="el" href="structReverb_1_1Parameters.html#add75191e7a163d95cd807cbc72fa192c">Reverb::Parameters::dryLevel</a>, <a class="el" href="structReverb_1_1Parameters.html#a394c3bfbd67ad681222410952dbed0c6">Reverb::Parameters::freezeMode</a>, <a class="el" href="classSmoothedValue.html#a7d25952842d74dc6b61aaaa1872416a3">SmoothedValue&lt; FloatType, SmoothingType &gt;::setTargetValue()</a>, <a class="el" href="structReverb_1_1Parameters.html#ae029e68c8dc8fa0acb34373237377fec">Reverb::Parameters::wetLevel</a>, and <a class="el" href="structReverb_1_1Parameters.html#a2104c314f4804e3ff6e5cc7d524c3b1d">Reverb::Parameters::width</a>.</p>
 
 <p>Referenced by <a class="el" href="classReverb.html#a765b925557df7e43bf5ed275fc6950d1">Reverb()</a>.</p>
 
@@ -211,7 +211,7 @@ Public Member Functions</h2></td></tr>
 <p>Sets the sample rate that will be used for the reverb. </p>
 <p>You must call this before the process methods, in order to tell it the correct sample rate. </p>
 
-<p>References <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, and <a class="el" href="classLinearSmoothedValue.html#a437e2033bee8c4c610b4fd0086b47042">LinearSmoothedValue&lt; FloatType &gt;::reset()</a>.</p>
+<p>References <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int()</a>, <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>, and <a class="el" href="classSmoothedValue.html#abf70063c8a4fcedda62a37137ef8e7e6">SmoothedValue&lt; FloatType, SmoothingType &gt;::reset()</a>.</p>
 
 <p>Referenced by <a class="el" href="classReverb.html#a765b925557df7e43bf5ed275fc6950d1">Reverb()</a>.</p>
 
@@ -274,7 +274,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Applies the reverb to two stereo channels of audio data. </p>
 
-<p>References <a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">LinearSmoothedValue&lt; FloatType &gt;::getNextValue()</a>, and <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+<p>References <a class="el" href="classSmoothedValue.html#a4109115baa4d95ce759ae09a53981e79">SmoothedValue&lt; FloatType, SmoothingType &gt;::getNextValue()</a>, and <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>
@@ -312,7 +312,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Applies the reverb to a single mono channel of audio data. </p>
 
-<p>References <a class="el" href="classLinearSmoothedValue.html#a1e4fb08705169e714862724ae75745f0">LinearSmoothedValue&lt; FloatType &gt;::getNextValue()</a>, and <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
+<p>References <a class="el" href="classSmoothedValue.html#a4109115baa4d95ce759ae09a53981e79">SmoothedValue&lt; FloatType, SmoothingType &gt;::getNextValue()</a>, and <a class="el" href="group__juce__core-system.html#ga1f96ab6751237979b907a54f52a7296a">jassert</a>.</p>
 
 </div>
 </div>
@@ -322,7 +322,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 19 2019 01:01:01 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 20 2019 01:00:46 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
