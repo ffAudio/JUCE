@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMidiOutput.html" target="_top" xlink:title="Controls a physical MIDI output device. ">
+<g id="a_node3"><a xlink:href="classMidiOutput.html" target="_top" xlink:title="Represents a midi output device. ">
 <polygon fill="none" stroke="black" points="127,-175.5 127,-194.5 191,-194.5 191,-175.5 127,-175.5"/>
 <text text-anchor="middle" x="159" y="-182.5" font-family="Helvetica,sans-Serif" font-size="10.00">MidiOutput</text>
 </a>

@@ -1,6 +1,6 @@
 <map id="Thread" name="Thread">
 <area shape="rect" id="node2" href="$classInterprocessConnectionServer.html" title="An object that waits for client sockets to connect to a port on this host, and creates InterprocessCo..." alt="" coords="118,5,317,32"/>
-<area shape="rect" id="node3" href="$classMidiOutput.html" title="Controls a physical MIDI output device. " alt="" coords="175,56,260,83"/>
+<area shape="rect" id="node3" href="$classMidiOutput.html" title="Represents a midi output device. " alt="" coords="175,56,260,83"/>
 <area shape="rect" id="node4" href="$structNetworkServiceDiscovery_1_1Advertiser.html" title="An object which runs a thread to repeatedly broadcast the existence of a discoverable service..." alt="" coords="130,107,305,149"/>
 <area shape="rect" id="node5" href="$structNetworkServiceDiscovery_1_1AvailableServiceList.html" title="Watches the network for broadcasts from Advertiser objects, and keeps a list of all the currently act..." alt="" coords="130,173,305,214"/>
 <area shape="rect" id="node6" href="$classThreadWithProgressWindow.html" title="A thread that automatically pops up a modal dialog box with a progress bar and cancel button while it..." alt="" coords="123,239,311,265"/>
