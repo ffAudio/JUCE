@@ -151,10 +151,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4bdcb8bd5ef27480b49d6b1ff6ecdaa9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#a4bdcb8bd5ef27480b49d6b1ff6ecdaa9">deleteInstance</a> ()</td></tr>
 <tr class="memdesc:a4bdcb8bd5ef27480b49d6b1ff6ecdaa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the global <a class="el" href="classMessageManager.html" title="This class is in charge of the application&#39;s event-dispatch loop. ">MessageManager</a> instance.  <a href="#a4bdcb8bd5ef27480b49d6b1ff6ecdaa9">More...</a><br/></td></tr>
 <tr class="separator:a4bdcb8bd5ef27480b49d6b1ff6ecdaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3ed7c9a9885eba962cca454552b2902"><td class="memTemplParams" colspan="2">template&lt;typename FunctionType &gt; </td></tr>
-<tr class="memitem:ac3ed7c9a9885eba962cca454552b2902"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMessageManager.html#ac3ed7c9a9885eba962cca454552b2902">callAsync</a> (FunctionType functionToCall)</td></tr>
-<tr class="memdesc:ac3ed7c9a9885eba962cca454552b2902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously invokes a function or C++11 lambda on the message thread.  <a href="#ac3ed7c9a9885eba962cca454552b2902">More...</a><br/></td></tr>
-<tr class="separator:ac3ed7c9a9885eba962cca454552b2902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a072416d88bc1d7f7273922b04aa8e56b"><td class="memTemplParams" colspan="2">template&lt;typename FunctionType &gt; </td></tr>
+<tr class="memitem:a072416d88bc1d7f7273922b04aa8e56b"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMessageManager.html#a072416d88bc1d7f7273922b04aa8e56b">callAsync</a> (FunctionType &amp;&amp;functionToCall)</td></tr>
+<tr class="memdesc:a072416d88bc1d7f7273922b04aa8e56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously invokes a function or C++11 lambda on the message thread.  <a href="#a072416d88bc1d7f7273922b04aa8e56b">More...</a><br/></td></tr>
+<tr class="separator:a072416d88bc1d7f7273922b04aa8e56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe1711d0739f9de9e9a66cbde5b43632"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageManager.html#afe1711d0739f9de9e9a66cbde5b43632">existsAndIsLockedByCurrentThread</a> () noexcept</td></tr>
 <tr class="memdesc:afe1711d0739f9de9e9a66cbde5b43632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there's an instance of the <a class="el" href="classMessageManager.html" title="This class is in charge of the application&#39;s event-dispatch loop. ">MessageManager</a>, and if the current thread has the lock on it.  <a href="#afe1711d0739f9de9e9a66cbde5b43632">More...</a><br/></td></tr>
 <tr class="separator:afe1711d0739f9de9e9a66cbde5b43632"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,7 +327,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac3ed7c9a9885eba962cca454552b2902"></a>
+<a class="anchor" id="a072416d88bc1d7f7273922b04aa8e56b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -339,7 +339,7 @@ template&lt;typename FunctionType &gt; </div>
         <tr>
           <td class="memname">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MessageManager::callAsync </td>
           <td>(</td>
-          <td class="paramtype">FunctionType&#160;</td>
+          <td class="paramtype">FunctionType &amp;&amp;&#160;</td>
           <td class="paramname"><em>functionToCall</em></td><td>)</td>
           <td></td>
         </tr>
@@ -620,7 +620,7 @@ template&lt;typename FunctionType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 6 2019 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Mar 7 2019 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
