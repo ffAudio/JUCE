@@ -1,8 +1,10 @@
 var searchData=
 [
+  ['abletonlive10',['AbletonLive10',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a1a1ff256d8e8202873e9da2b2548e2fe',1,'PluginHostType']]],
   ['abletonlive6',['AbletonLive6',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a5e62acd132677eeadafbe3e3c2d75bad',1,'PluginHostType']]],
   ['abletonlive7',['AbletonLive7',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a4b14200efbb17b2dd8b0b623a361829e',1,'PluginHostType']]],
   ['abletonlive8',['AbletonLive8',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8aed7585b06435b87dfc13fa5745482994',1,'PluginHostType']]],
+  ['abletonlive9',['AbletonLive9',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8aefbf35e3955011997d88212873619f19',1,'PluginHostType']]],
   ['abletonlivegeneric',['AbletonLiveGeneric',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a665226cd0a77007d5e3a8673f6e91dd4',1,'PluginHostType']]],
   ['abort',['abort',['../classMessageManager_1_1Lock.html#a74490f0867d8d4f1898fa21602e42f19',1,'MessageManager::Lock']]],
   ['abortburn',['abortBurn',['../classAudioCDBurner.html#a085b0ceaf4cd982d6bb1e95dd18752f7',1,'AudioCDBurner']]],
@@ -778,8 +780,8 @@ var searchData=
   ['autosizeallcolumns',['autoSizeAllColumns',['../classTableListBox.html#ad007aa31ee166a0d4d69fbe101cb9be8',1,'TableListBox']]],
   ['autosizecolumn',['autoSizeColumn',['../classTableListBox.html#a64d4c5c4a49a07c9dddb5e9def2157a7',1,'TableListBox']]],
   ['autovalue',['autoValue',['../classFlexItem.html#af32603bdf7f814f6d73a999b54a34df6',1,'FlexItem::autoValue()'],['../classGridItem.html#a642bb074bd7fbbf3448a50067e082f29aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()'],['../classGridItem.html#acdffd5a5ee38b411ae6766f7daf733c6aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()'],['../classGridItem.html#a329b27636a1396f65ea1cf4118fc7002aab046147bff8be63c8cd98e1bc4cc08a',1,'GridItem::autoValue()']]],
-  ['availableservicelist',['AvailableServiceList',['../structNetworkServiceDiscovery_1_1AvailableServiceList.html#aaae2e9e50970a1ef4259052c5d31b4cf',1,'NetworkServiceDiscovery::AvailableServiceList']]],
   ['availableservicelist',['AvailableServiceList',['../structNetworkServiceDiscovery_1_1AvailableServiceList.html',1,'NetworkServiceDiscovery']]],
+  ['availableservicelist',['AvailableServiceList',['../structNetworkServiceDiscovery_1_1AvailableServiceList.html#aaae2e9e50970a1ef4259052c5d31b4cf',1,'NetworkServiceDiscovery::AvailableServiceList']]],
   ['averageseconds',['averageSeconds',['../structPerformanceCounter_1_1Statistics.html#a1ddbe61fd1a766973cc19d9c3432a4c6',1,'PerformanceCounter::Statistics']]],
   ['avidprotools',['AvidProTools',['../classPluginHostType.html#a69d9330e82ef7520f9aa8b2ad78ce5a8a574e3f1905780f354a70fe2c1ca1900d',1,'PluginHostType']]],
   ['azure',['azure',['../classColours.html#a5171f883b75e70b30df3b3b1746a8521',1,'Colours']]],
