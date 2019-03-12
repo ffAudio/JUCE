@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8234e200125b1f22d23f5b10e4c93de4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#a8234e200125b1f22d23f5b10e4c93de4">containsOption</a> (<a class="el" href="classStringRef.html">StringRef</a> option) const </td></tr>
 <tr class="memdesc:a8234e200125b1f22d23f5b10e4c93de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given string matches one of the arguments.  <a href="#a8234e200125b1f22d23f5b10e4c93de4">More...</a><br/></td></tr>
 <tr class="separator:a8234e200125b1f22d23f5b10e4c93de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0948558fddfc1dc9bf8aa6309693360"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#ae0948558fddfc1dc9bf8aa6309693360">removeOptionIfFound</a> (<a class="el" href="classStringRef.html">StringRef</a> option)</td></tr>
+<tr class="memdesc:ae0948558fddfc1dc9bf8aa6309693360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the given string matches one of the arguments, and also removes the argument from the list if found.  <a href="#ae0948558fddfc1dc9bf8aa6309693360">More...</a><br/></td></tr>
+<tr class="separator:ae0948558fddfc1dc9bf8aa6309693360"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf2e5bd91fdb350c8d1b16a8c7bb4610"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#adf2e5bd91fdb350c8d1b16a8c7bb4610">indexOfOption</a> (<a class="el" href="classStringRef.html">StringRef</a> option) const </td></tr>
 <tr class="memdesc:adf2e5bd91fdb350c8d1b16a8c7bb4610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the given string if it matches one of the arguments, or -1 if it doesn't.  <a href="#adf2e5bd91fdb350c8d1b16a8c7bb4610">More...</a><br/></td></tr>
 <tr class="separator:adf2e5bd91fdb350c8d1b16a8c7bb4610"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,15 +140,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8a951e42c9865055d17dc2803d25d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#ac8a951e42c9865055d17dc2803d25d90">getValueForOption</a> (<a class="el" href="classStringRef.html">StringRef</a> option) const </td></tr>
 <tr class="memdesc:ac8a951e42c9865055d17dc2803d25d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a given argument and returns either its assigned value (for long options) or the string that follows it (for short options).  <a href="#ac8a951e42c9865055d17dc2803d25d90">More...</a><br/></td></tr>
 <tr class="separator:ac8a951e42c9865055d17dc2803d25d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb4ac71d9cb4bdb389dcce8b019928d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#a2eb4ac71d9cb4bdb389dcce8b019928d">removeValueForOption</a> (<a class="el" href="classStringRef.html">StringRef</a> option)</td></tr>
+<tr class="memdesc:a2eb4ac71d9cb4bdb389dcce8b019928d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a given argument and returns either its assigned value (for long options) or the string that follows it (for short options).  <a href="#a2eb4ac71d9cb4bdb389dcce8b019928d">More...</a><br/></td></tr>
+<tr class="separator:a2eb4ac71d9cb4bdb389dcce8b019928d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2cfcb4de60d60213a1c3ef31557da8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f">getFileForOption</a> (<a class="el" href="classStringRef.html">StringRef</a> option) const </td></tr>
 <tr class="memdesc:aa2cfcb4de60d60213a1c3ef31557da8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the value of argument using <a class="el" href="structArgumentList.html#ac8a951e42c9865055d17dc2803d25d90" title="Looks for a given argument and returns either its assigned value (for long options) or the string tha...">getValueForOption()</a> and tries to parse that value as a file.  <a href="#aa2cfcb4de60d60213a1c3ef31557da8f">More...</a><br/></td></tr>
 <tr class="separator:aa2cfcb4de60d60213a1c3ef31557da8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1509776e4b83ca78c478ec92c5f99f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#aa1509776e4b83ca78c478ec92c5f99f6">getFileForOptionAndRemove</a> (<a class="el" href="classStringRef.html">StringRef</a> option)</td></tr>
+<tr class="memdesc:aa1509776e4b83ca78c478ec92c5f99f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for the value of argument using <a class="el" href="structArgumentList.html#ac8a951e42c9865055d17dc2803d25d90" title="Looks for a given argument and returns either its assigned value (for long options) or the string tha...">getValueForOption()</a> and tries to parse that value as a file.  <a href="#aa1509776e4b83ca78c478ec92c5f99f6">More...</a><br/></td></tr>
+<tr class="separator:aa1509776e4b83ca78c478ec92c5f99f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a671d734dd197a13841403ddc76a6f174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#a671d734dd197a13841403ddc76a6f174">getExistingFileForOption</a> (<a class="el" href="classStringRef.html">StringRef</a> option) const </td></tr>
 <tr class="memdesc:a671d734dd197a13841403ddc76a6f174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a file argument using <a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f" title="Looks for the value of argument using getValueForOption() and tries to parse that value as a file...">getFileForOption()</a> and fails with a suitable error if the file doesn't exist.  <a href="#a671d734dd197a13841403ddc76a6f174">More...</a><br/></td></tr>
 <tr class="separator:a671d734dd197a13841403ddc76a6f174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7b2a9035c6a4b03ad0ba4222853239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#aab7b2a9035c6a4b03ad0ba4222853239">getExistingFileForOptionAndRemove</a> (<a class="el" href="classStringRef.html">StringRef</a> option)</td></tr>
+<tr class="memdesc:aab7b2a9035c6a4b03ad0ba4222853239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a file argument using <a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f" title="Looks for the value of argument using getValueForOption() and tries to parse that value as a file...">getFileForOption()</a> and fails with a suitable error if the file doesn't exist.  <a href="#aab7b2a9035c6a4b03ad0ba4222853239">More...</a><br/></td></tr>
+<tr class="separator:aab7b2a9035c6a4b03ad0ba4222853239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af85b7675216ab9439289abf9c9406aa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#af85b7675216ab9439289abf9c9406aa1">getExistingFolderForOption</a> (<a class="el" href="classStringRef.html">StringRef</a> option) const </td></tr>
 <tr class="memdesc:af85b7675216ab9439289abf9c9406aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a filename argument using <a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f" title="Looks for the value of argument using getValueForOption() and tries to parse that value as a file...">getFileForOption()</a> and fails with a suitable error if the file isn't a folder that exists.  <a href="#af85b7675216ab9439289abf9c9406aa1">More...</a><br/></td></tr>
 <tr class="separator:af85b7675216ab9439289abf9c9406aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a264a6e8bc9afd777e7f5b00ca59489e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFile.html">File</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArgumentList.html#a264a6e8bc9afd777e7f5b00ca59489e3">getExistingFolderForOptionAndRemove</a> (<a class="el" href="classStringRef.html">StringRef</a> option)</td></tr>
+<tr class="memdesc:a264a6e8bc9afd777e7f5b00ca59489e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks for a filename argument using <a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f" title="Looks for the value of argument using getValueForOption() and tries to parse that value as a file...">getFileForOption()</a> and fails with a suitable error if the file isn't a folder that exists.  <a href="#a264a6e8bc9afd777e7f5b00ca59489e3">More...</a><br/></td></tr>
+<tr class="separator:a264a6e8bc9afd777e7f5b00ca59489e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -363,6 +378,27 @@ Public Attributes</h2></td></tr>
 
 <p>Returns true if the given string matches one of the arguments. </p>
 <p>The option can also be a list of different versions separated by pipes, e.g. "--help|-h" </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structArgumentList.html#ae0948558fddfc1dc9bf8aa6309693360" title="Returns true if the given string matches one of the arguments, and also removes the argument from the...">removeOptionIfFound</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae0948558fddfc1dc9bf8aa6309693360"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ArgumentList::removeOptionIfFound </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the given string matches one of the arguments, and also removes the argument from the list if found. </p>
+<p>The option can also be a list of different versions separated by pipes, e.g. "--help|-h" </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structArgumentList.html#a8234e200125b1f22d23f5b10e4c93de4" title="Returns true if the given string matches one of the arguments. ">containsOption</a> </dd></dl>
 
 </div>
 </div>
@@ -422,6 +458,25 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2eb4ac71d9cb4bdb389dcce8b019928d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> ArgumentList::removeValueForOption </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Looks for a given argument and returns either its assigned value (for long options) or the string that follows it (for short options). </p>
+<p>This works like <a class="el" href="structArgumentList.html#ac8a951e42c9865055d17dc2803d25d90" title="Looks for a given argument and returns either its assigned value (for long options) or the string tha...">getValueForOption()</a> but also removes the option argument (and any value arguments) from the list if they are found. </p>
+
+</div>
+</div>
 <a class="anchor" id="aa2cfcb4de60d60213a1c3ef31557da8f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -438,6 +493,25 @@ Public Attributes</h2></td></tr>
 
 <p>Looks for the value of argument using <a class="el" href="structArgumentList.html#ac8a951e42c9865055d17dc2803d25d90" title="Looks for a given argument and returns either its assigned value (for long options) or the string tha...">getValueForOption()</a> and tries to parse that value as a file. </p>
 <p>If the option isn't found, or if the value can't be parsed as a filename, it will throw an error. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa1509776e4b83ca78c478ec92c5f99f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFile.html">File</a> ArgumentList::getFileForOptionAndRemove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Looks for the value of argument using <a class="el" href="structArgumentList.html#ac8a951e42c9865055d17dc2803d25d90" title="Looks for a given argument and returns either its assigned value (for long options) or the string tha...">getValueForOption()</a> and tries to parse that value as a file. </p>
+<p>This works like <a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f" title="Looks for the value of argument using getValueForOption() and tries to parse that value as a file...">getFileForOption()</a> but also removes the option argument (and any value arguments) from the list if they are found. </p>
 
 </div>
 </div>
@@ -459,6 +533,25 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aab7b2a9035c6a4b03ad0ba4222853239"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFile.html">File</a> ArgumentList::getExistingFileForOptionAndRemove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Looks for a file argument using <a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f" title="Looks for the value of argument using getValueForOption() and tries to parse that value as a file...">getFileForOption()</a> and fails with a suitable error if the file doesn't exist. </p>
+<p>This works like <a class="el" href="structArgumentList.html#a671d734dd197a13841403ddc76a6f174" title="Looks for a file argument using getFileForOption() and fails with a suitable error if the file doesn&#39;...">getExistingFileForOption()</a> but also removes the option argument (and any value arguments) from the list if they are found. </p>
+
+</div>
+</div>
 <a class="anchor" id="af85b7675216ab9439289abf9c9406aa1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -474,6 +567,25 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Looks for a filename argument using <a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f" title="Looks for the value of argument using getValueForOption() and tries to parse that value as a file...">getFileForOption()</a> and fails with a suitable error if the file isn't a folder that exists. </p>
+
+</div>
+</div>
+<a class="anchor" id="a264a6e8bc9afd777e7f5b00ca59489e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFile.html">File</a> ArgumentList::getExistingFolderForOptionAndRemove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStringRef.html">StringRef</a>&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Looks for a filename argument using <a class="el" href="structArgumentList.html#aa2cfcb4de60d60213a1c3ef31557da8f" title="Looks for the value of argument using getValueForOption() and tries to parse that value as a file...">getFileForOption()</a> and fails with a suitable error if the file isn't a folder that exists. </p>
+<p>This works like <a class="el" href="structArgumentList.html#af85b7675216ab9439289abf9c9406aa1" title="Looks for a filename argument using getFileForOption() and fails with a suitable error if the file is...">getExistingFolderForOption()</a> but also removes the option argument (and any value arguments) from the list if they are found. </p>
 
 </div>
 </div>
@@ -512,7 +624,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 9 2019 01:00:29 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 12 2019 01:00:32 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
