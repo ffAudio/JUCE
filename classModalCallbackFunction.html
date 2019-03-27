@@ -196,7 +196,7 @@ template&lt;typename ParamType &gt; </div>
 <div class="line"></div>
 <div class="line"><a class="code" href="classComponent.html">Component</a>* someKindOfComp;</div>
 <div class="line">...</div>
-<div class="line">someKindOfComp-&gt;<a class="code" href="classComponent.html#a0e7be8c456a663615eb389ecd10b2c04">enterModalState</a> (<a class="code" href="classModalCallbackFunction.html#a268ff83c12843270a3a07268c5a590f2">ModalCallbackFunction::create</a> (myCallbackFunction, 3.0));</div>
+<div class="line">someKindOfComp-&gt;<a class="code" href="classComponent.html#a0e7be8c456a663615eb389ecd10b2c04">enterModalState</a> (<span class="keyword">true</span>, <a class="code" href="classModalCallbackFunction.html#a268ff83c12843270a3a07268c5a590f2">ModalCallbackFunction::create</a> (myCallbackFunction, 3.0));</div>
 </div><!-- fragment --> <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classModalComponentManager_1_1Callback.html" title="Receives callbacks when a modal component is dismissed. ">ModalComponentManager::Callback</a> </dd></dl>
 
 </div>
@@ -252,7 +252,7 @@ template&lt;typename ParamType1 , typename ParamType2 &gt; </div>
 <div class="line"></div>
 <div class="line"><a class="code" href="classComponent.html">Component</a>* someKindOfComp;</div>
 <div class="line">...</div>
-<div class="line">someKindOfComp-&gt;<a class="code" href="classComponent.html#a0e7be8c456a663615eb389ecd10b2c04">enterModalState</a> (<a class="code" href="classModalCallbackFunction.html#a268ff83c12843270a3a07268c5a590f2">ModalCallbackFunction::create</a> (myCallbackFunction, 3.0, <a class="code" href="classString.html">String</a> (<span class="stringliteral">&quot;xyz&quot;</span>)));</div>
+<div class="line">someKindOfComp-&gt;<a class="code" href="classComponent.html#a0e7be8c456a663615eb389ecd10b2c04">enterModalState</a> (<span class="keyword">true</span>, <a class="code" href="classModalCallbackFunction.html#a268ff83c12843270a3a07268c5a590f2">ModalCallbackFunction::create</a> (myCallbackFunction, 3.0, <a class="code" href="classString.html">String</a> (<span class="stringliteral">&quot;xyz&quot;</span>)));</div>
 </div><!-- fragment --> <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classModalComponentManager_1_1Callback.html" title="Receives callbacks when a modal component is dismissed. ">ModalComponentManager::Callback</a> </dd></dl>
 
 </div>
@@ -303,7 +303,7 @@ template&lt;class ComponentType &gt; </div>
 <div class="line"><a class="code" href="classComponent.html">Component</a>* someKindOfComp;</div>
 <div class="line"><a class="code" href="classSlider.html">Slider</a>* mySlider;</div>
 <div class="line">...</div>
-<div class="line">someKindOfComp-&gt;<a class="code" href="classComponent.html#a0e7be8c456a663615eb389ecd10b2c04">enterModalState</a> (<a class="code" href="classModalCallbackFunction.html#a66fc6472aeb843617982fa7df9a83fc3">ModalCallbackFunction::forComponent</a> (myCallbackFunction, mySlider));</div>
+<div class="line">someKindOfComp-&gt;<a class="code" href="classComponent.html#a0e7be8c456a663615eb389ecd10b2c04">enterModalState</a> (<span class="keyword">true</span>, <a class="code" href="classModalCallbackFunction.html#a66fc6472aeb843617982fa7df9a83fc3">ModalCallbackFunction::forComponent</a> (myCallbackFunction, mySlider));</div>
 </div><!-- fragment --> <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classModalComponentManager_1_1Callback.html" title="Receives callbacks when a modal component is dismissed. ">ModalComponentManager::Callback</a> </dd></dl>
 
 <p>References <a class="el" href="classWeakReference.html#a0c6e75034092864f959ed7a1389b0e98">WeakReference&lt; ObjectType, ReferenceCountingType &gt;::get()</a>.</p>
@@ -364,7 +364,7 @@ template&lt;class ComponentType , typename ParamType &gt; </div>
 <div class="line"><a class="code" href="classComponent.html">Component</a>* someKindOfComp;</div>
 <div class="line"><a class="code" href="classSlider.html">Slider</a>* mySlider;</div>
 <div class="line">...</div>
-<div class="line">someKindOfComp-&gt;<a class="code" href="classComponent.html#a0e7be8c456a663615eb389ecd10b2c04">enterModalState</a> (<a class="code" href="classModalCallbackFunction.html#a66fc6472aeb843617982fa7df9a83fc3">ModalCallbackFunction::forComponent</a> (myCallbackFunction, mySlider, <a class="code" href="classString.html">String</a> (<span class="stringliteral">&quot;hello&quot;</span>)));</div>
+<div class="line">someKindOfComp-&gt;<a class="code" href="classComponent.html#a0e7be8c456a663615eb389ecd10b2c04">enterModalState</a> (<span class="keyword">true</span>, <a class="code" href="classModalCallbackFunction.html#a66fc6472aeb843617982fa7df9a83fc3">ModalCallbackFunction::forComponent</a> (myCallbackFunction, mySlider, <a class="code" href="classString.html">String</a> (<span class="stringliteral">&quot;hello&quot;</span>)));</div>
 </div><!-- fragment --> <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classModalComponentManager_1_1Callback.html" title="Receives callbacks when a modal component is dismissed. ">ModalComponentManager::Callback</a> </dd></dl>
 
 <p>References <a class="el" href="classWeakReference.html#a0c6e75034092864f959ed7a1389b0e98">WeakReference&lt; ObjectType, ReferenceCountingType &gt;::get()</a>.</p>
@@ -377,7 +377,7 @@ template&lt;class ComponentType , typename ParamType &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 26 2019 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 27 2019 01:01:12 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
