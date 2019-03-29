@@ -157,9 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3d97a74e7b33788a3a9144358a2ec09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#ac3d97a74e7b33788a3a9144358a2ec09">getSingleChannelBlock</a> (size_t channel) const noexcept</td></tr>
 <tr class="memdesc:ac3d97a74e7b33788a3a9144358a2ec09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a> that represents one of the channels in this block.  <a href="#ac3d97a74e7b33788a3a9144358a2ec09">More...</a><br/></td></tr>
 <tr class="separator:ac3d97a74e7b33788a3a9144358a2ec09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96bdc3a29dd27f9917149d0bb64f23bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a96bdc3a29dd27f9917149d0bb64f23bd">getSubsetChannelBlock</a> (size_t channelStart, size_t numChannelsToUse) noexcept</td></tr>
-<tr class="memdesc:a96bdc3a29dd27f9917149d0bb64f23bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a subset of continguous channels.  <a href="#a96bdc3a29dd27f9917149d0bb64f23bd">More...</a><br/></td></tr>
-<tr class="separator:a96bdc3a29dd27f9917149d0bb64f23bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb34b6aa2e21974163584f943523a2d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gac2535cb549b141b3a96b8a08014e46cb">forcedinline</a> <a class="el" href="classdsp_1_1AudioBlock.html">AudioBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#aeb34b6aa2e21974163584f943523a2d6">getSubsetChannelBlock</a> (size_t channelStart, size_t numChannelsToUse) const noexcept</td></tr>
+<tr class="memdesc:aeb34b6aa2e21974163584f943523a2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a subset of continguous channels.  <a href="#aeb34b6aa2e21974163584f943523a2d6">More...</a><br/></td></tr>
+<tr class="separator:aeb34b6aa2e21974163584f943523a2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25f70274e41426a45b24522a2972f190"><td class="memItemLeft" align="right" valign="top">SampleType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdsp_1_1AudioBlock.html#a25f70274e41426a45b24522a2972f190">getSample</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> channel, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> sampleIndex) const noexcept</td></tr>
 <tr class="memdesc:a25f70274e41426a45b24522a2972f190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a sample from the buffer.  <a href="#a25f70274e41426a45b24522a2972f190">More...</a><br/></td></tr>
 <tr class="separator:a25f70274e41426a45b24522a2972f190"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,7 +358,7 @@ template&lt;typename SampleType&gt; </div>
 
 <p>Create a zero-sized <a class="el" href="classdsp_1_1AudioBlock.html" title="Minimal and lightweight data-structure which contains a list of pointers to channels containing some ...">AudioBlock</a>. </p>
 
-<p>Referenced by <a class="el" href="classdsp_1_1AudioBlock.html#ac3d97a74e7b33788a3a9144358a2ec09">dsp::AudioBlock&lt; const SampleType &gt;::getSingleChannelBlock()</a>, <a class="el" href="classdsp_1_1AudioBlock.html#a299c2ac84fd87eef264aa0f0d39cc426">dsp::AudioBlock&lt; const SampleType &gt;::getSubBlock()</a>, and <a class="el" href="classdsp_1_1AudioBlock.html#a96bdc3a29dd27f9917149d0bb64f23bd">dsp::AudioBlock&lt; const SampleType &gt;::getSubsetChannelBlock()</a>.</p>
+<p>Referenced by <a class="el" href="classdsp_1_1AudioBlock.html#ac3d97a74e7b33788a3a9144358a2ec09">dsp::AudioBlock&lt; const SampleType &gt;::getSingleChannelBlock()</a>, <a class="el" href="classdsp_1_1AudioBlock.html#a299c2ac84fd87eef264aa0f0d39cc426">dsp::AudioBlock&lt; const SampleType &gt;::getSubBlock()</a>, and <a class="el" href="classdsp_1_1AudioBlock.html#aeb34b6aa2e21974163584f943523a2d6">dsp::AudioBlock&lt; const SampleType &gt;::getSubsetChannelBlock()</a>.</p>
 
 </div>
 </div>
@@ -914,7 +914,7 @@ template&lt;typename SampleType&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a96bdc3a29dd27f9917149d0bb64f23bd"></a>
+<a class="anchor" id="aeb34b6aa2e21974163584f943523a2d6"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -938,7 +938,7 @@ template&lt;typename SampleType&gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -2392,7 +2392,7 @@ template&lt;typename Src1SampleType , typename Src2SampleType , typename Functio
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 28 2019 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 29 2019 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
