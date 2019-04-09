@@ -154,6 +154,7 @@ var searchData=
   ['isconnectedonright',['isConnectedOnRight',['../classButton.html#a90f0727a44b87224d521e3c051fc2723',1,'Button']]],
   ['isconnectedontop',['isConnectedOnTop',['../classButton.html#a35e58c011b632a56cd37b36c0ae10285',1,'Button']]],
   ['isconnectedtohost',['isConnectedToHost',['../group__LittleFootFunctions.html#gae9296620e1ba4c49da3f70426f4cff26',1,'juce_LittleFootFunctions.dox']]],
+  ['isconnectedviabluetooth',['isConnectedViaBluetooth',['../classBlock.html#aa5b545d9c0011d40f83444cf70eedacf',1,'Block']]],
   ['isconnectionlegal',['isConnectionLegal',['../classAudioProcessorGraph.html#a0834cf8b1b4870587bf89a64b2a90da6',1,'AudioProcessorGraph']]],
   ['iscontextactive',['isContextActive',['../classOpenGLHelpers.html#aeb9c20e316e3aa59046a4fe4cb2562f8',1,'OpenGLHelpers']]],
   ['iscontrolblock',['isControlBlock',['../classBlock.html#aea0a6bb1d90e084f21dc70cafea0aa16',1,'Block::isControlBlock() const '],['../classBlock.html#a581192a43eaf5c00b70115b474189b92',1,'Block::isControlBlock(Block::Type)']]],

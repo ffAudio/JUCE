@@ -189,6 +189,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abadbeba2272ddbc81caf0d5559d3a962"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTime.html">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#abadbeba2272ddbc81caf0d5559d3a962">getConnectionTime</a> () const =0</td></tr>
 <tr class="memdesc:abadbeba2272ddbc81caf0d5559d3a962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the time this block object was connected to the topology.  <a href="#abadbeba2272ddbc81caf0d5559d3a962">More...</a><br/></td></tr>
 <tr class="separator:abadbeba2272ddbc81caf0d5559d3a962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5b545d9c0011d40f83444cf70eedacf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#aa5b545d9c0011d40f83444cf70eedacf">isConnectedViaBluetooth</a> () const =0</td></tr>
+<tr class="memdesc:aa5b545d9c0011d40f83444cf70eedacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this block or the master block this block is connected to, is connected via bluetooth.  <a href="#aa5b545d9c0011d40f83444cf70eedacf">More...</a><br/></td></tr>
+<tr class="separator:aa5b545d9c0011d40f83444cf70eedacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7b1a264a065614451203dc15657b93e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBlock.html#ad7b1a264a065614451203dc15657b93e">isMasterBlock</a> () const =0</td></tr>
 <tr class="memdesc:ad7b1a264a065614451203dc15657b93e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this block is directly connected to the application, as opposed to only being connected to a different block via a connection port.  <a href="#ad7b1a264a065614451203dc15657b93e">More...</a><br/></td></tr>
 <tr class="separator:ad7b1a264a065614451203dc15657b93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -847,7 +850,34 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the time this block object was connected to the topology. </p>
 <p>Only valid when isConnected == true.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBlock.html#a2ddbc553e7d6c01b5359adb8ee256562" title="Returns true if this block is connected and active. ">isConnected</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBlock.html#a2ddbc553e7d6c01b5359adb8ee256562" title="Returns true if this block is connected and active. ">Block::isConnected</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa5b545d9c0011d40f83444cf70eedacf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Block::isConnectedViaBluetooth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this block or the master block this block is connected to, is connected via bluetooth. </p>
+<p>Only valid when isConnected == true.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classBlock.html#a2ddbc553e7d6c01b5359adb8ee256562" title="Returns true if this block is connected and active. ">Block::isConnected</a>, <a class="el" href="classBlock.html#ad7b1a264a065614451203dc15657b93e" title="Returns true if this block is directly connected to the application, as opposed to only being connect...">Block::isMasterBlock</a> </dd></dl>
 
 </div>
 </div>
@@ -873,7 +903,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if this block is directly connected to the application, as opposed to only being connected to a different block via a connection port. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structBlock_1_1ConnectionPort.html" title="These are the edge-connectors that a device may have. ">ConnectionPort</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structBlock_1_1ConnectionPort.html" title="These are the edge-connectors that a device may have. ">Block::ConnectionPort</a> </dd></dl>
 
 </div>
 </div>
@@ -2300,7 +2330,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 9 2019 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 10 2019 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
