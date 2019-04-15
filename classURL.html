@@ -148,9 +148,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1190de2b868ce127136b3565a5bb48e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a1190de2b868ce127136b3565a5bb48e8">getDomain</a> () const </td></tr>
 <tr class="memdesc:a1190de2b868ce127136b3565a5bb48e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns just the domain part of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#a1190de2b868ce127136b3565a5bb48e8">More...</a><br/></td></tr>
 <tr class="separator:a1190de2b868ce127136b3565a5bb48e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa126b5e435550a169a788136c0135c17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#aa126b5e435550a169a788136c0135c17">getSubPath</a> () const </td></tr>
-<tr class="memdesc:aa126b5e435550a169a788136c0135c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path part of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#aa126b5e435550a169a788136c0135c17">More...</a><br/></td></tr>
-<tr class="separator:aa126b5e435550a169a788136c0135c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad39acdeeb343363cee7a52aac483a237"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#ad39acdeeb343363cee7a52aac483a237">getSubPath</a> (bool includeGetParamters=false) const </td></tr>
+<tr class="memdesc:ad39acdeeb343363cee7a52aac483a237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path part of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#ad39acdeeb343363cee7a52aac483a237">More...</a><br/></td></tr>
+<tr class="separator:ad39acdeeb343363cee7a52aac483a237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37133635da32d9ba07cfc5b640aea9b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a37133635da32d9ba07cfc5b640aea9b3">getQueryString</a> () const </td></tr>
+<tr class="memdesc:a37133635da32d9ba07cfc5b640aea9b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If any parameters are set, returns these <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> encoded, including the "?" prefix.  <a href="#a37133635da32d9ba07cfc5b640aea9b3">More...</a><br/></td></tr>
+<tr class="separator:a37133635da32d9ba07cfc5b640aea9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3900eeaf678969aab1ef8447a879786c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a3900eeaf678969aab1ef8447a879786c">getScheme</a> () const </td></tr>
 <tr class="memdesc:a3900eeaf678969aab1ef8447a879786c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the scheme of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>.  <a href="#a3900eeaf678969aab1ef8447a879786c">More...</a><br/></td></tr>
 <tr class="separator:a3900eeaf678969aab1ef8447a879786c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -554,12 +557,32 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa126b5e435550a169a788136c0135c17"></a>
+<a class="anchor" id="ad39acdeeb343363cee7a52aac483a237"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classString.html">String</a> URL::getSubPath </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeGetParamters</em> = <code>false</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the path part of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>. </p>
+<p>E.g. for "http://www.xyz.com/foo/bar?x=1", this will return "foo/bar".</p>
+<p>If includeGetParameters is true and any parameters have been set with the <a class="el" href="classURL.html#a3974f5b9d28d360ac657df3b42082f5d" title="Returns a copy of this URL, with a GET or POST parameter added to the end. ">withParameter()</a> method, then the string will have these appended on the end and url-encoded. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37133635da32d9ba07cfc5b640aea9b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classString.html">String</a> URL::getQueryString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -567,8 +590,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the path part of the <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a>. </p>
-<p>E.g. for "http://www.xyz.com/foo/bar?x=1", this will return "foo/bar". </p>
+<p>If any parameters are set, returns these <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> encoded, including the "?" prefix. </p>
 
 </div>
 </div>
@@ -1490,7 +1512,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 14 2019 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 16 2019 01:00:55 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
