@@ -513,6 +513,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2976f881dd3ae2f96f70cf821b0d589b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a2976f881dd3ae2f96f70cf821b0d589b">canApplyBusesLayout</a> (const <a class="el" href="structAudioProcessor_1_1BusesLayout.html">BusesLayout</a> &amp;layouts) const </td></tr>
 <tr class="memdesc:a2976f881dd3ae2f96f70cf821b0d589b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to check if a certain bus layout can now be applied.  <a href="#a2976f881dd3ae2f96f70cf821b0d589b">More...</a><br/></td></tr>
 <tr class="separator:a2976f881dd3ae2f96f70cf821b0d589b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a3548133a7826610797dbb47c4067d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#ab4a3548133a7826610797dbb47c4067d">applyBusLayouts</a> (const <a class="el" href="structAudioProcessor_1_1BusesLayout.html">BusesLayout</a> &amp;layouts)</td></tr>
+<tr class="memdesc:ab4a3548133a7826610797dbb47c4067d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method will be called when a new bus layout needs to be applied.  <a href="#ab4a3548133a7826610797dbb47c4067d">More...</a><br/></td></tr>
+<tr class="separator:ab4a3548133a7826610797dbb47c4067d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd0f8e893a9c295cd2b5eea2d92a6c5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioProcessor.html#a4dd0f8e893a9c295cd2b5eea2d92a6c5">canApplyBusCountChange</a> (bool isInput, bool isAddingBuses, <a class="el" href="structAudioProcessor_1_1BusProperties.html">BusProperties</a> &amp;outNewBusProperties)</td></tr>
 <tr class="memdesc:a4dd0f8e893a9c295cd2b5eea2d92a6c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to query if adding/removing buses currently possible.  <a href="#a4dd0f8e893a9c295cd2b5eea2d92a6c5">More...</a><br/></td></tr>
 <tr class="separator:a4dd0f8e893a9c295cd2b5eea2d92a6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3812,6 +3815,33 @@ template&lt;int numLayouts&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ab4a3548133a7826610797dbb47c4067d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AudioProcessor::applyBusLayouts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structAudioProcessor_1_1BusesLayout.html">BusesLayout</a> &amp;&#160;</td>
+          <td class="paramname"><em>layouts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method will be called when a new bus layout needs to be applied. </p>
+<p>Most subclasses will not need to override this method and should just use the default implementation. </p>
+
+</div>
+</div>
 <a class="anchor" id="a4dd0f8e893a9c295cd2b5eea2d92a6c5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3933,7 +3963,7 @@ template&lt;int numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 26 2019 01:00:32 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 30 2019 01:00:34 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
