@@ -252,9 +252,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5d74053652a52f66f97aa611a2854c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a5d74053652a52f66f97aa611a2854c8e">setDrawsInRightMargin</a> (bool canDrawInRightMargin) noexcept</td></tr>
 <tr class="memdesc:a5d74053652a52f66f97aa611a2854c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a flag to indicate that the item wants to be allowed to draw all the way across to the right edge of the treeview.  <a href="#a5d74053652a52f66f97aa611a2854c8e">More...</a><br/></td></tr>
 <tr class="separator:a5d74053652a52f66f97aa611a2854c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55bec44dbc8442b4389b282f02f2a441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a55bec44dbc8442b4389b282f02f2a441">getOpennessState</a> () const </td></tr>
-<tr class="memdesc:a55bec44dbc8442b4389b282f02f2a441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current state of open/closed nodes so it can be restored later.  <a href="#a55bec44dbc8442b4389b282f02f2a441">More...</a><br/></td></tr>
-<tr class="separator:a55bec44dbc8442b4389b282f02f2a441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5af26d4a7bd84ac446b91f148129399c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classXmlElement.html">XmlElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a5af26d4a7bd84ac446b91f148129399c">getOpennessState</a> () const </td></tr>
+<tr class="memdesc:a5af26d4a7bd84ac446b91f148129399c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current state of open/closed nodes so it can be restored later.  <a href="#a5af26d4a7bd84ac446b91f148129399c">More...</a><br/></td></tr>
+<tr class="separator:a5af26d4a7bd84ac446b91f148129399c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2543807283072980a45ba62f4f0eed46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTreeViewItem.html#a2543807283072980a45ba62f4f0eed46">restoreOpennessState</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml)</td></tr>
 <tr class="memdesc:a2543807283072980a45ba62f4f0eed46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores the openness of this item and all its sub-items from a saved state.  <a href="#a2543807283072980a45ba62f4f0eed46">More...</a><br/></td></tr>
 <tr class="separator:a2543807283072980a45ba62f4f0eed46"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -950,7 +950,7 @@ template&lt;class ElementComparator &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a string to uniquely identify this item. </p>
-<p>If you're planning on using the <a class="el" href="classTreeView.html#ae442d9c17f9dddbf745ddb57b9332919" title="Saves the current state of open/closed nodes so it can be restored later. ">TreeView::getOpennessState()</a> method, then these strings will be used to identify which nodes are open. The string should be unique amongst the item's sibling items, but it's ok for there to be duplicates at other levels of the tree.</p>
+<p>If you're planning on using the <a class="el" href="classTreeView.html#af276f256c560415417e96863e3243741" title="Saves the current state of open/closed nodes so it can be restored later. ">TreeView::getOpennessState()</a> method, then these strings will be used to identify which nodes are open. The string should be unique amongst the item's sibling items, but it's ok for there to be duplicates at other levels of the tree.</p>
 <p>If you're not going to store the state, then it's ok not to bother implementing this method. </p>
 
 </div>
@@ -1623,12 +1623,12 @@ template&lt;class ElementComparator &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a55bec44dbc8442b4389b282f02f2a441"></a>
+<a class="anchor" id="a5af26d4a7bd84ac446b91f148129399c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classXmlElement.html">XmlElement</a>* TreeViewItem::getOpennessState </td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classXmlElement.html">XmlElement</a>&gt; TreeViewItem::getOpennessState </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1638,10 +1638,10 @@ template&lt;class ElementComparator &gt; </div>
 
 <p>Saves the current state of open/closed nodes so it can be restored later. </p>
 <p>This takes a snapshot of which sub-nodes have been explicitly opened or closed, and records it as XML. To identify node objects it uses the <a class="el" href="classTreeViewItem.html#a9ae7c529cc762a33ebcb4a14f8cee620" title="Returns a string to uniquely identify this item. ">TreeViewItem::getUniqueName()</a> method to create named paths. This means that the same state of open/closed nodes can be restored to a completely different instance of the tree, as long as it contains nodes whose unique names are the same.</p>
-<p>You'd normally want to use <a class="el" href="classTreeView.html#ae442d9c17f9dddbf745ddb57b9332919" title="Saves the current state of open/closed nodes so it can be restored later. ">TreeView::getOpennessState()</a> rather than call it for a specific item, but this can be handy if you need to briefly save the state for a section of the tree.</p>
+<p>You'd normally want to use <a class="el" href="classTreeView.html#af276f256c560415417e96863e3243741" title="Saves the current state of open/closed nodes so it can be restored later. ">TreeView::getOpennessState()</a> rather than call it for a specific item, but this can be handy if you need to briefly save the state for a section of the tree.</p>
 <p>The caller is responsible for deleting the object that is returned.</p>
 <p>Note that if all nodes of the tree are in their default state, then this may return a nullptr.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classTreeView.html#ae442d9c17f9dddbf745ddb57b9332919" title="Saves the current state of open/closed nodes so it can be restored later. ">TreeView::getOpennessState</a>, <a class="el" href="classTreeViewItem.html#a2543807283072980a45ba62f4f0eed46" title="Restores the openness of this item and all its sub-items from a saved state. ">restoreOpennessState</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classTreeView.html#af276f256c560415417e96863e3243741" title="Saves the current state of open/closed nodes so it can be restored later. ">TreeView::getOpennessState</a>, <a class="el" href="classTreeViewItem.html#a2543807283072980a45ba62f4f0eed46" title="Restores the openness of this item and all its sub-items from a saved state. ">restoreOpennessState</a> </dd></dl>
 
 </div>
 </div>
@@ -1662,7 +1662,7 @@ template&lt;class ElementComparator &gt; </div>
 <p>Restores the openness of this item and all its sub-items from a saved state. </p>
 <p>See <a class="el" href="classTreeView.html#a0e88906665c57b672def512e355af4f8" title="Restores a previously saved arrangement of open/closed nodes. ">TreeView::restoreOpennessState</a> for more details.</p>
 <p>You'd normally want to use <a class="el" href="classTreeView.html#a0e88906665c57b672def512e355af4f8" title="Restores a previously saved arrangement of open/closed nodes. ">TreeView::restoreOpennessState()</a> rather than call it for a specific item, but this can be handy if you need to briefly save the state for a section of the tree.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classTreeView.html#a0e88906665c57b672def512e355af4f8" title="Restores a previously saved arrangement of open/closed nodes. ">TreeView::restoreOpennessState</a>, <a class="el" href="classTreeViewItem.html#a55bec44dbc8442b4389b282f02f2a441" title="Saves the current state of open/closed nodes so it can be restored later. ">getOpennessState</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classTreeView.html#a0e88906665c57b672def512e355af4f8" title="Restores a previously saved arrangement of open/closed nodes. ">TreeView::restoreOpennessState</a>, <a class="el" href="classTreeViewItem.html#a5af26d4a7bd84ac446b91f148129399c" title="Saves the current state of open/closed nodes so it can be restored later. ">getOpennessState</a> </dd></dl>
 
 </div>
 </div>
@@ -1741,7 +1741,7 @@ template&lt;class ElementComparator &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 10 2019 01:00:48 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 11 2019 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

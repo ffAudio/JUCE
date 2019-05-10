@@ -226,9 +226,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7c50271fae5ecfef9e6ae625dade995f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a7c50271fae5ecfef9e6ae625dade995f">readEntireTextStream</a> (bool usePostCommand=false) const </td></tr>
 <tr class="memdesc:a7c50271fae5ecfef9e6ae625dade995f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to download the entire contents of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> as a string.  <a href="#a7c50271fae5ecfef9e6ae625dade995f">More...</a><br/></td></tr>
 <tr class="separator:a7c50271fae5ecfef9e6ae625dade995f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91141cb99e805bf469b8080fc02eefd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a91141cb99e805bf469b8080fc02eefd2">readEntireXmlStream</a> (bool usePostCommand=false) const </td></tr>
-<tr class="memdesc:a91141cb99e805bf469b8080fc02eefd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to download the entire contents of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> and parse it as XML.  <a href="#a91141cb99e805bf469b8080fc02eefd2">More...</a><br/></td></tr>
-<tr class="separator:a91141cb99e805bf469b8080fc02eefd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e72f07df56c657207ba3d16379ab5d2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classXmlElement.html">XmlElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classURL.html#a5e72f07df56c657207ba3d16379ab5d2">readEntireXmlStream</a> (bool usePostCommand=false) const </td></tr>
+<tr class="memdesc:a5e72f07df56c657207ba3d16379ab5d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to download the entire contents of this <a class="el" href="classURL.html" title="Represents a URL and has a bunch of useful functions to manipulate it. ">URL</a> and parse it as XML.  <a href="#a5e72f07df56c657207ba3d16379ab5d2">More...</a><br/></td></tr>
+<tr class="separator:a5e72f07df56c657207ba3d16379ab5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1279,7 +1279,7 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#a7c50271fae5ecfef9e6ae625dade995f" title="Tries to download the entire contents of this URL as a string. ">readEntireTextStream</a>, <a class="el" href="classURL.html#a91141cb99e805bf469b8080fc02eefd2" title="Tries to download the entire contents of this URL and parse it as XML. ">readEntireXmlStream</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#a7c50271fae5ecfef9e6ae625dade995f" title="Tries to download the entire contents of this URL as a string. ">readEntireTextStream</a>, <a class="el" href="classURL.html#a5e72f07df56c657207ba3d16379ab5d2" title="Tries to download the entire contents of this URL and parse it as XML. ">readEntireXmlStream</a> </dd></dl>
 
 </div>
 </div>
@@ -1306,16 +1306,16 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#ade18c87d31c10cb7fea4453afeee2de6" title="Tries to download the entire contents of this URL into a binary data block. ">readEntireBinaryStream</a>, <a class="el" href="classURL.html#a91141cb99e805bf469b8080fc02eefd2" title="Tries to download the entire contents of this URL and parse it as XML. ">readEntireXmlStream</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classURL.html#ade18c87d31c10cb7fea4453afeee2de6" title="Tries to download the entire contents of this URL into a binary data block. ">readEntireBinaryStream</a>, <a class="el" href="classURL.html#a5e72f07df56c657207ba3d16379ab5d2" title="Tries to download the entire contents of this URL and parse it as XML. ">readEntireXmlStream</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a91141cb99e805bf469b8080fc02eefd2"></a>
+<a class="anchor" id="a5e72f07df56c657207ba3d16379ab5d2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classXmlElement.html">XmlElement</a>* URL::readEntireXmlStream </td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classXmlElement.html">XmlElement</a>&gt; URL::readEntireXmlStream </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>usePostCommand</em> = <code>false</code></td><td>)</td>
@@ -1512,7 +1512,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 10 2019 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 11 2019 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

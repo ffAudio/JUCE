@@ -241,12 +241,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a40346edfb70253a482cd0642ac5ac577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structValueTree_1_1Iterator.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a40346edfb70253a482cd0642ac5ac577">end</a> () const noexcept</td></tr>
 <tr class="memdesc:a40346edfb70253a482cd0642ac5ac577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an end iterator for the children in this tree.  <a href="#a40346edfb70253a482cd0642ac5ac577">More...</a><br/></td></tr>
 <tr class="separator:a40346edfb70253a482cd0642ac5ac577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957">createXml</a> () const </td></tr>
-<tr class="memdesc:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> that holds a complete image of this tree and all its children.  <a href="#ad4b6941292f6ba19b1f4c7a91b82f957">More...</a><br/></td></tr>
-<tr class="separator:ad4b6941292f6ba19b1f4c7a91b82f957"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ac1da90e499eea7233b6eb7d0d7d190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a4ac1da90e499eea7233b6eb7d0d7d190">toXmlString</a> () const </td></tr>
-<tr class="memdesc:a4ac1da90e499eea7233b6eb7d0d7d190"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns a string containing an XML representation of the tree.  <a href="#a4ac1da90e499eea7233b6eb7d0d7d190">More...</a><br/></td></tr>
-<tr class="separator:a4ac1da90e499eea7233b6eb7d0d7d190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a161560dde683a349678d74132aa3c4e8"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classXmlElement.html">XmlElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a161560dde683a349678d74132aa3c4e8">createXml</a> () const </td></tr>
+<tr class="memdesc:a161560dde683a349678d74132aa3c4e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> that holds a complete image of this tree and all its children.  <a href="#a161560dde683a349678d74132aa3c4e8">More...</a><br/></td></tr>
+<tr class="separator:a161560dde683a349678d74132aa3c4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad3b61daac025ea2ffb51b6cb0854ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a8ad3b61daac025ea2ffb51b6cb0854ae">toXmlString</a> (const <a class="el" href="structXmlElement_1_1TextFormat.html">XmlElement::TextFormat</a> &amp;format={}) const </td></tr>
+<tr class="memdesc:a8ad3b61daac025ea2ffb51b6cb0854ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns a string containing an XML representation of the tree.  <a href="#a8ad3b61daac025ea2ffb51b6cb0854ae">More...</a><br/></td></tr>
+<tr class="separator:a8ad3b61daac025ea2ffb51b6cb0854ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a2a0fa2cf051fef99cab56db74a4266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classValueTree.html#a0a2a0fa2cf051fef99cab56db74a4266">writeToStream</a> (<a class="el" href="classOutputStream.html">OutputStream</a> &amp;output) const </td></tr>
 <tr class="memdesc:a0a2a0fa2cf051fef99cab56db74a4266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores this tree (and all its children) in a binary format.  <a href="#a0a2a0fa2cf051fef99cab56db74a4266">More...</a><br/></td></tr>
 <tr class="separator:a0a2a0fa2cf051fef99cab56db74a4266"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1546,12 +1546,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad4b6941292f6ba19b1f4c7a91b82f957"></a>
+<a class="anchor" id="a161560dde683a349678d74132aa3c4e8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classXmlElement.html">XmlElement</a>* ValueTree::createXml </td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classXmlElement.html">XmlElement</a>&gt; ValueTree::createXml </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1561,7 +1561,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Creates an <a class="el" href="classXmlElement.html" title="Used to build a tree of elements representing an XML document. ">XmlElement</a> that holds a complete image of this tree and all its children. </p>
 <p>If this tree is invalid, this may return nullptr. Otherwise, the XML that is produced can be used to recreate a similar tree by calling <a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a tree from its XML representation. ">ValueTree::fromXml()</a>. The caller must delete the object that is returned. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a tree from its XML representation. ">fromXml</a>, <a class="el" href="classValueTree.html#a4ac1da90e499eea7233b6eb7d0d7d190" title="This returns a string containing an XML representation of the tree. ">toXmlString</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a0d2f1bdd6313e53f256ed015986f837a" title="Tries to recreate a tree from its XML representation. ">fromXml</a>, <a class="el" href="classValueTree.html#a8ad3b61daac025ea2ffb51b6cb0854ae" title="This returns a string containing an XML representation of the tree. ">toXmlString</a> </dd></dl>
 
 </div>
 </div>
@@ -1588,18 +1588,19 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Tries to recreate a tree from its XML representation. </p>
-<p>This isn't designed to cope with random XML data - it should only be fed XML that was created by the <a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957" title="Creates an XmlElement that holds a complete image of this tree and all its children. ">createXml()</a> method. </p>
+<p>This isn't designed to cope with random XML data - it should only be fed XML that was created by the <a class="el" href="classValueTree.html#a161560dde683a349678d74132aa3c4e8" title="Creates an XmlElement that holds a complete image of this tree and all its children. ">createXml()</a> method. </p>
 
 </div>
 </div>
-<a class="anchor" id="a4ac1da90e499eea7233b6eb7d0d7d190"></a>
+<a class="anchor" id="a8ad3b61daac025ea2ffb51b6cb0854ae"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classString.html">String</a> ValueTree::toXmlString </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structXmlElement_1_1TextFormat.html">XmlElement::TextFormat</a> &amp;&#160;</td>
+          <td class="paramname"><em>format</em> = <code>{}</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1607,7 +1608,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>This returns a string containing an XML representation of the tree. </p>
 <p>This is quite handy for debugging purposes, as it provides a quick way to view a tree. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#ad4b6941292f6ba19b1f4c7a91b82f957" title="Creates an XmlElement that holds a complete image of this tree and all its children. ">createXml()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValueTree.html#a161560dde683a349678d74132aa3c4e8" title="Creates an XmlElement that holds a complete image of this tree and all its children. ">createXml()</a> </dd></dl>
 
 </div>
 </div>
@@ -1915,7 +1916,7 @@ template&lt;typename ElementComparator &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 10 2019 01:00:49 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 11 2019 01:00:50 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
