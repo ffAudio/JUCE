@@ -214,9 +214,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7d92d7dc5d490da7f2dee52dfd787ba6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNamedValueSet.html">NamedValueSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a7d92d7dc5d490da7f2dee52dfd787ba6">getProperties</a> () const </td></tr>
 <tr class="memdesc:a7d92d7dc5d490da7f2dee52dfd787ba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classNamedValueSet.html" title="Holds a set of named var objects. ">NamedValueSet</a> that is attached to the image and which can be used for associating custom values with it.  <a href="#a7d92d7dc5d490da7f2dee52dfd787ba6">More...</a><br/></td></tr>
 <tr class="separator:a7d92d7dc5d490da7f2dee52dfd787ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7465ae26c9af5f0bdf8d759c53886e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#aa7465ae26c9af5f0bdf8d759c53886e8">createLowLevelContext</a> () const </td></tr>
-<tr class="memdesc:aa7465ae26c9af5f0bdf8d759c53886e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a context suitable for drawing onto this image.  <a href="#aa7465ae26c9af5f0bdf8d759c53886e8">More...</a><br/></td></tr>
-<tr class="separator:aa7465ae26c9af5f0bdf8d759c53886e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89fa62f0ebc4a8c0199d51de81f5f74b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a89fa62f0ebc4a8c0199d51de81f5f74b">createLowLevelContext</a> () const </td></tr>
+<tr class="memdesc:a89fa62f0ebc4a8c0199d51de81f5f74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a context suitable for drawing onto this image.  <a href="#a89fa62f0ebc4a8c0199d51de81f5f74b">More...</a><br/></td></tr>
+<tr class="separator:a89fa62f0ebc4a8c0199d51de81f5f74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd88aa52bedce6d7def13d4b39e7f954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#abd88aa52bedce6d7def13d4b39e7f954">getReferenceCount</a> () const noexcept</td></tr>
 <tr class="memdesc:abd88aa52bedce6d7def13d4b39e7f954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of <a class="el" href="classImage.html" title="Holds a fixed-size bitmap. ">Image</a> objects which are currently referring to the same internal shared image data.  <a href="#abd88aa52bedce6d7def13d4b39e7f954">More...</a><br/></td></tr>
 <tr class="separator:abd88aa52bedce6d7def13d4b39e7f954"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1238,12 +1239,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa7465ae26c9af5f0bdf8d759c53886e8"></a>
+<a class="anchor" id="a89fa62f0ebc4a8c0199d51de81f5f74b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a>* Image::createLowLevelContext </td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classLowLevelGraphicsContext.html">LowLevelGraphicsContext</a>&gt; Image::createLowLevelContext </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1311,7 +1312,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 15 2019 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 16 2019 01:00:39 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

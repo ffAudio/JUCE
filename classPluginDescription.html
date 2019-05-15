@@ -113,9 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8afe64a22fd2715edbc22f034f754a1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classString.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDescription.html#a8afe64a22fd2715edbc22f034f754a1f">createIdentifierString</a> () const </td></tr>
 <tr class="memdesc:a8afe64a22fd2715edbc22f034f754a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string that can be saved and used to uniquely identify the plugin again.  <a href="#a8afe64a22fd2715edbc22f034f754a1f">More...</a><br/></td></tr>
 <tr class="separator:a8afe64a22fd2715edbc22f034f754a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e23eb3d5d991893aec610dbf2b1072b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDescription.html#a4e23eb3d5d991893aec610dbf2b1072b">createXml</a> () const </td></tr>
-<tr class="memdesc:a4e23eb3d5d991893aec610dbf2b1072b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an XML object containing these details.  <a href="#a4e23eb3d5d991893aec610dbf2b1072b">More...</a><br/></td></tr>
-<tr class="separator:a4e23eb3d5d991893aec610dbf2b1072b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5068e4fd59a1303eaf2f229bcd9b5d2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classXmlElement.html">XmlElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDescription.html#ad5068e4fd59a1303eaf2f229bcd9b5d2">createXml</a> () const </td></tr>
+<tr class="memdesc:ad5068e4fd59a1303eaf2f229bcd9b5d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an XML object containing these details.  <a href="#ad5068e4fd59a1303eaf2f229bcd9b5d2">More...</a><br/></td></tr>
+<tr class="separator:ad5068e4fd59a1303eaf2f229bcd9b5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fae3bea93cc8398b3c114dfd52bfd42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginDescription.html#a5fae3bea93cc8398b3c114dfd52bfd42">loadFromXml</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;xml)</td></tr>
 <tr class="memdesc:a5fae3bea93cc8398b3c114dfd52bfd42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the info in this structure from an XML record that was previously saved with createXML().  <a href="#a5fae3bea93cc8398b3c114dfd52bfd42">More...</a><br/></td></tr>
 <tr class="separator:a5fae3bea93cc8398b3c114dfd52bfd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,12 +298,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4e23eb3d5d991893aec610dbf2b1072b"></a>
+<a class="anchor" id="ad5068e4fd59a1303eaf2f229bcd9b5d2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classXmlElement.html">XmlElement</a>* PluginDescription::createXml </td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classXmlElement.html">XmlElement</a>&gt; PluginDescription::createXml </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -547,7 +547,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 15 2019 01:00:44 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 16 2019 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

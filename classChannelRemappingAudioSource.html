@@ -125,9 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e3d5c199038069c4510d9fc62226e24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChannelRemappingAudioSource.html#a2e3d5c199038069c4510d9fc62226e24">getRemappedOutputChannel</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> outputChannelIndex) const </td></tr>
 <tr class="memdesc:a2e3d5c199038069c4510d9fc62226e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the output channel to which channel outputChannelIndex of our input audio source will be sent to.  <a href="#a2e3d5c199038069c4510d9fc62226e24">More...</a><br/></td></tr>
 <tr class="separator:a2e3d5c199038069c4510d9fc62226e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1230528d1eb1ca7a1b0f7a46fa97802a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classXmlElement.html">XmlElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChannelRemappingAudioSource.html#a1230528d1eb1ca7a1b0f7a46fa97802a">createXml</a> () const </td></tr>
-<tr class="memdesc:a1230528d1eb1ca7a1b0f7a46fa97802a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an XML object to encapsulate the state of the mappings.  <a href="#a1230528d1eb1ca7a1b0f7a46fa97802a">More...</a><br/></td></tr>
-<tr class="separator:a1230528d1eb1ca7a1b0f7a46fa97802a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c30ccbf9ae9b451c823ecb25493669d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classXmlElement.html">XmlElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChannelRemappingAudioSource.html#a3c30ccbf9ae9b451c823ecb25493669d">createXml</a> () const </td></tr>
+<tr class="memdesc:a3c30ccbf9ae9b451c823ecb25493669d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an XML object to encapsulate the state of the mappings.  <a href="#a3c30ccbf9ae9b451c823ecb25493669d">More...</a><br/></td></tr>
+<tr class="separator:a3c30ccbf9ae9b451c823ecb25493669d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bb3bd5bc67e413e9c143c64ba904125"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChannelRemappingAudioSource.html#a2bb3bd5bc67e413e9c143c64ba904125">restoreFromXml</a> (const <a class="el" href="classXmlElement.html">XmlElement</a> &amp;)</td></tr>
 <tr class="memdesc:a2bb3bd5bc67e413e9c143c64ba904125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores the mappings from an XML object created by createXML().  <a href="#a2bb3bd5bc67e413e9c143c64ba904125">More...</a><br/></td></tr>
 <tr class="separator:a2bb3bd5bc67e413e9c143c64ba904125"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -363,12 +363,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1230528d1eb1ca7a1b0f7a46fa97802a"></a>
+<a class="anchor" id="a3c30ccbf9ae9b451c823ecb25493669d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classXmlElement.html">XmlElement</a>* ChannelRemappingAudioSource::createXml </td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classXmlElement.html">XmlElement</a>&gt; ChannelRemappingAudioSource::createXml </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -396,7 +396,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Restores the mappings from an XML object created by createXML(). </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classChannelRemappingAudioSource.html#a1230528d1eb1ca7a1b0f7a46fa97802a" title="Returns an XML object to encapsulate the state of the mappings. ">createXml</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classChannelRemappingAudioSource.html#a3c30ccbf9ae9b451c823ecb25493669d" title="Returns an XML object to encapsulate the state of the mappings. ">createXml</a> </dd></dl>
 
 </div>
 </div>
@@ -517,7 +517,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 15 2019 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 16 2019 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
