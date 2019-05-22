@@ -144,25 +144,28 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a019076ab98f90166149eee0626bedbfc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMidiDeviceInfo.html">MidiDeviceInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a019076ab98f90166149eee0626bedbfc">getDefaultDevice</a> ()</td></tr>
 <tr class="memdesc:a019076ab98f90166149eee0626bedbfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="structMidiDeviceInfo.html" title="This struct contains information about a MIDI input or output device. ">MidiDeviceInfo</a> of the default midi output device to use.  <a href="#a019076ab98f90166149eee0626bedbfc">More...</a><br/></td></tr>
 <tr class="separator:a019076ab98f90166149eee0626bedbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e97fe3764098245923cf2938cb474eb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiOutput.html">MidiOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a5e97fe3764098245923cf2938cb474eb">openDevice</a> (const <a class="el" href="classString.html">String</a> &amp;deviceIdentifier)</td></tr>
-<tr class="memdesc:a5e97fe3764098245923cf2938cb474eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to open one of the midi output devices.  <a href="#a5e97fe3764098245923cf2938cb474eb">More...</a><br/></td></tr>
-<tr class="separator:a5e97fe3764098245923cf2938cb474eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04169caa4a0c533c57a55357f2e13cc8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiOutput.html">MidiOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a04169caa4a0c533c57a55357f2e13cc8">createNewDevice</a> (const <a class="el" href="classString.html">String</a> &amp;deviceName)</td></tr>
-<tr class="memdesc:a04169caa4a0c533c57a55357f2e13cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will try to create a new midi output device (only available on Linux, macOS and iOS).  <a href="#a04169caa4a0c533c57a55357f2e13cc8">More...</a><br/></td></tr>
-<tr class="separator:a04169caa4a0c533c57a55357f2e13cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94dc30893df4afc7e19ef593f4806be8"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classMidiOutput.html">MidiOutput</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a94dc30893df4afc7e19ef593f4806be8">openDevice</a> (const <a class="el" href="classString.html">String</a> &amp;deviceIdentifier)</td></tr>
+<tr class="memdesc:a94dc30893df4afc7e19ef593f4806be8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to open one of the midi output devices.  <a href="#a94dc30893df4afc7e19ef593f4806be8">More...</a><br/></td></tr>
+<tr class="separator:a94dc30893df4afc7e19ef593f4806be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75b80785f6e6e5560132bfcf7313391"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classMidiOutput.html">MidiOutput</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#aa75b80785f6e6e5560132bfcf7313391">createNewDevice</a> (const <a class="el" href="classString.html">String</a> &amp;deviceName)</td></tr>
+<tr class="memdesc:aa75b80785f6e6e5560132bfcf7313391"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will try to create a new midi output device (only available on Linux, macOS and iOS).  <a href="#aa75b80785f6e6e5560132bfcf7313391">More...</a><br/></td></tr>
+<tr class="separator:aa75b80785f6e6e5560132bfcf7313391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59a303f5b44aa772903984818b6b7275"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classStringArray.html">StringArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a59a303f5b44aa772903984818b6b7275">getDevices</a> ()</td></tr>
 <tr class="memdesc:a59a303f5b44aa772903984818b6b7275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated.  <a href="#a59a303f5b44aa772903984818b6b7275">More...</a><br/></td></tr>
 <tr class="separator:a59a303f5b44aa772903984818b6b7275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5459a18d9b1b9a5fe27e95e6e9e06a87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a5459a18d9b1b9a5fe27e95e6e9e06a87">getDefaultDeviceIndex</a> ()</td></tr>
 <tr class="memdesc:a5459a18d9b1b9a5fe27e95e6e9e06a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated.  <a href="#a5459a18d9b1b9a5fe27e95e6e9e06a87">More...</a><br/></td></tr>
 <tr class="separator:a5459a18d9b1b9a5fe27e95e6e9e06a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4cec54451bf275c777ce77ca6ebdbeb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMidiOutput.html">MidiOutput</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#ac4cec54451bf275c777ce77ca6ebdbeb">openDevice</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>)</td></tr>
-<tr class="memdesc:ac4cec54451bf275c777ce77ca6ebdbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated.  <a href="#ac4cec54451bf275c777ce77ca6ebdbeb">More...</a><br/></td></tr>
-<tr class="separator:ac4cec54451bf275c777ce77ca6ebdbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2a18ebcfe239cce1f1f0e1f0d3cde7"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classMidiOutput.html">MidiOutput</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiOutput.html#a7d2a18ebcfe239cce1f1f0e1f0d3cde7">openDevice</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>)</td></tr>
+<tr class="memdesc:a7d2a18ebcfe239cce1f1f0e1f0d3cde7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated.  <a href="#a7d2a18ebcfe239cce1f1f0e1f0d3cde7">More...</a><br/></td></tr>
+<tr class="separator:a7d2a18ebcfe239cce1f1f0e1f0d3cde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a midi output device. </p>
-<p>To create one of these, use the static <a class="el" href="classMidiOutput.html#a9675086a62b8ab8c477e290132ba1960" title="Returns a list of the available midi output devices. ">getAvailableDevices()</a> method to find out what outputs are available, and then use the <a class="el" href="classMidiOutput.html#a5e97fe3764098245923cf2938cb474eb" title="Tries to open one of the midi output devices. ">openDevice()</a> method to try to open one.</p>
+<p>To create one of these, use the static <a class="el" href="classMidiOutput.html#a9675086a62b8ab8c477e290132ba1960" title="Returns a list of the available midi output devices. ">getAvailableDevices()</a> method to find out what outputs are available, and then use the <a class="el" href="classMidiOutput.html#a94dc30893df4afc7e19ef593f4806be8" title="Tries to open one of the midi output devices. ">openDevice()</a> method to try to open one.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiInput.html" title="Represents a midi input device. ">MidiInput</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aec7db2bab5aa578a64b8b8802b80957d"></a>
@@ -213,8 +216,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns a list of the available midi output devices. </p>
-<p>You can open one of the devices by passing its identifier into the <a class="el" href="classMidiOutput.html#a5e97fe3764098245923cf2938cb474eb" title="Tries to open one of the midi output devices. ">openDevice()</a> method.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structMidiDeviceInfo.html" title="This struct contains information about a MIDI input or output device. ">MidiDeviceInfo</a>, <a class="el" href="classMidiOutput.html#a59a303f5b44aa772903984818b6b7275" title="Deprecated. ">getDevices</a>, <a class="el" href="classMidiOutput.html#a5459a18d9b1b9a5fe27e95e6e9e06a87" title="Deprecated. ">getDefaultDeviceIndex</a>, <a class="el" href="classMidiOutput.html#a5e97fe3764098245923cf2938cb474eb" title="Tries to open one of the midi output devices. ">openDevice</a> </dd></dl>
+<p>You can open one of the devices by passing its identifier into the <a class="el" href="classMidiOutput.html#a94dc30893df4afc7e19ef593f4806be8" title="Tries to open one of the midi output devices. ">openDevice()</a> method.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="structMidiDeviceInfo.html" title="This struct contains information about a MIDI input or output device. ">MidiDeviceInfo</a>, <a class="el" href="classMidiOutput.html#a59a303f5b44aa772903984818b6b7275" title="Deprecated. ">getDevices</a>, <a class="el" href="classMidiOutput.html#a5459a18d9b1b9a5fe27e95e6e9e06a87" title="Deprecated. ">getDefaultDeviceIndex</a>, <a class="el" href="classMidiOutput.html#a94dc30893df4afc7e19ef593f4806be8" title="Tries to open one of the midi output devices. ">openDevice</a> </dd></dl>
 
 </div>
 </div>
@@ -243,7 +246,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5e97fe3764098245923cf2938cb474eb"></a>
+<a class="anchor" id="a94dc30893df4afc7e19ef593f4806be8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -251,7 +254,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classMidiOutput.html">MidiOutput</a>* MidiOutput::openDevice </td>
+          <td class="memname">static std::unique_ptr&lt;<a class="el" href="classMidiOutput.html">MidiOutput</a>&gt; MidiOutput::openDevice </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>deviceIdentifier</em></td><td>)</td>
@@ -266,8 +269,8 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Tries to open one of the midi output devices. </p>
-<p>This will return a <a class="el" href="classMidiOutput.html" title="Represents a midi output device. ">MidiOutput</a> object if it manages to open it. You can then send messages to this device, and delete it when no longer needed.</p>
-<p>If the device can't be opened, this will return nullptr.</p>
+<p>This will return a <a class="el" href="classMidiOutput.html" title="Represents a midi output device. ">MidiOutput</a> object if it manages to open it, you can then send messages to this device.</p>
+<p>If the device can't be opened, this will return an empty object.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">deviceIdentifier</td><td>the ID of the device to open - use the <a class="el" href="classMidiOutput.html#a9675086a62b8ab8c477e290132ba1960" title="Returns a list of the available midi output devices. ">getAvailableDevices()</a> method to find the available devices that can be opened </td></tr>
@@ -278,7 +281,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a04169caa4a0c533c57a55357f2e13cc8"></a>
+<a class="anchor" id="aa75b80785f6e6e5560132bfcf7313391"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -286,7 +289,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classMidiOutput.html">MidiOutput</a>* MidiOutput::createNewDevice </td>
+          <td class="memname">static std::unique_ptr&lt;<a class="el" href="classMidiOutput.html">MidiOutput</a>&gt; MidiOutput::createNewDevice </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
           <td class="paramname"><em>deviceName</em></td><td>)</td>
@@ -303,7 +306,7 @@ Static Public Member Functions</h2></td></tr>
 <p>This will try to create a new midi output device (only available on Linux, macOS and iOS). </p>
 <p>This will attempt to create a new midi output device with the specified name that other apps can connect to and use as their midi input.</p>
 <p>NB - if you are calling this method on iOS you must have enabled the "Audio Background Capability" setting in the iOS exporter otherwise this method will fail.</p>
-<p>Returns nullptr if a device can't be created.</p>
+<p>Returns an empty object if a device can't be created.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">deviceName</td><td>the name of the device to create </td></tr>
@@ -591,7 +594,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac4cec54451bf275c777ce77ca6ebdbeb"></a>
+<a class="anchor" id="a7d2a18ebcfe239cce1f1f0e1f0d3cde7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -599,7 +602,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classMidiOutput.html">MidiOutput</a>* MidiOutput::openDevice </td>
+          <td class="memname">static std::unique_ptr&lt;<a class="el" href="classMidiOutput.html">MidiOutput</a>&gt; MidiOutput::openDevice </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -623,7 +626,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 22 2019 01:00:43 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 23 2019 01:00:45 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
