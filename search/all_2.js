@@ -566,7 +566,7 @@ var searchData=
   ['createtempfile',['createTempFile',['../classFile.html#aad0d4592378fa8c773ca13c4c99feb2d',1,'File']]],
   ['createtextelement',['createTextElement',['../classXmlElement.html#ab768aee16a1cf791bd6c61cc2abbe01b',1,'XmlElement']]],
   ['createtoolbarmissingitemsbutton',['createToolbarMissingItemsButton',['../classLookAndFeel__V2.html#ae8d75101edbc109e95ced5dbb781795d',1,'LookAndFeel_V2::createToolbarMissingItemsButton()'],['../structToolbar_1_1LookAndFeelMethods.html#acfd7cf8742c33d28dd694e3fd919555c',1,'Toolbar::LookAndFeelMethods::createToolbarMissingItemsButton()']]],
-  ['createtree',['createTree',['../classKnownPluginList.html#aab81e726db7bc78b8c8515ce225781c9',1,'KnownPluginList::createTree()'],['../classRelativePointPath_1_1QuadraticTo.html#a848c42fa02f7626fb8b2575ec35c9706',1,'RelativePointPath::QuadraticTo::createTree()'],['../classRelativePointPath_1_1CubicTo.html#a78ea75d8dc395ad64879cff87157b3de',1,'RelativePointPath::CubicTo::createTree()']]],
+  ['createtree',['createTree',['../classKnownPluginList.html#ab911b08c9a25f75d4a19e79eb9277cb3',1,'KnownPluginList::createTree()'],['../classRelativePointPath_1_1QuadraticTo.html#a848c42fa02f7626fb8b2575ec35c9706',1,'RelativePointPath::QuadraticTo::createTree()'],['../classRelativePointPath_1_1CubicTo.html#a78ea75d8dc395ad64879cff87157b3de',1,'RelativePointPath::CubicTo::createTree()']]],
   ['createtype',['createType',['../classImagePixelData.html#ae9b568bb628e0e52dc585850335a4a92',1,'ImagePixelData']]],
   ['createviewercomponent',['createViewerComponent',['../classCameraDevice.html#a17948f7b0ba629b0958bd0638bdb112a',1,'CameraDevice']]],
   ['createwithoutparsing',['createWithoutParsing',['../classURL.html#a9a8a3e4344e94b6d074df5f7223f9c77',1,'URL']]],
