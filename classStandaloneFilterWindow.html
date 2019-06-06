@@ -137,8 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a82b99a053d89cffb04f7216faa17ba37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandaloneFilterWindow.html#a82b99a053d89cffb04f7216faa17ba37">StandaloneFilterWindow</a> (const <a class="el" href="classString.html">String</a> &amp;title, <a class="el" href="classColour.html">Colour</a> backgroundColour, <a class="el" href="classPropertySet.html">PropertySet</a> *settingsToUse, bool takeOwnershipOfSettings, const <a class="el" href="classString.html">String</a> &amp;preferredDefaultDeviceName=<a class="el" href="classString.html">String</a>(), const <a class="el" href="structAudioDeviceManager_1_1AudioDeviceSetup.html">AudioDeviceManager::AudioDeviceSetup</a> *preferredSetupOptions=nullptr, const <a class="el" href="classArray.html">Array</a>&lt; <a class="el" href="classStandaloneFilterWindow.html#a6c10ebbc7b2013247891e3c37a641f87">PluginInOuts</a> &gt; &amp;constrainToConfiguration={}, bool autoOpenMidiDevices=true)</td></tr>
 <tr class="memdesc:a82b99a053d89cffb04f7216faa17ba37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a window with a given title and colour.  <a href="#a82b99a053d89cffb04f7216faa17ba37">More...</a><br/></td></tr>
 <tr class="separator:a82b99a053d89cffb04f7216faa17ba37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae64328faa7f0aa4ccc0099ebf4e84d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">~StandaloneFilterWindow</a> ()</td></tr>
-<tr class="separator:aae64328faa7f0aa4ccc0099ebf4e84d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a969d697f72960f82cb89e50c2437edd5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandaloneFilterWindow.html#a969d697f72960f82cb89e50c2437edd5">~StandaloneFilterWindow</a> () override</td></tr>
+<tr class="separator:a969d697f72960f82cb89e50c2437edd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d741817e3fff0f6ae38104123438493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioProcessor.html">AudioProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandaloneFilterWindow.html#a2d741817e3fff0f6ae38104123438493">getAudioProcessor</a> () const noexcept</td></tr>
 <tr class="separator:a2d741817e3fff0f6ae38104123438493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa912d8a4473ce219db1605b56049b51e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAudioDeviceManager.html">AudioDeviceManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStandaloneFilterWindow.html#aa912d8a4473ce219db1605b56049b51e">getDeviceManager</a> () const noexcept</td></tr>
@@ -1029,9 +1029,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aae64328faa7f0aa4ccc0099ebf4e84d8"></a>
+<a class="anchor" id="a969d697f72960f82cb89e50c2437edd5"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">StandaloneFilterWindow::~StandaloneFilterWindow </td>
@@ -1040,6 +1043,11 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classResizableWindow.html#a44edd8f80203fd6a44459df7ae953979">ResizableWindow::clearContentComponent()</a>, <a class="el" href="classComponent.html#a882733448ca364ba8f493c6301800572">Component::getX()</a>, <a class="el" href="classComponent.html#a62b2b824feafc399c8360876a43eb18d">Component::getY()</a>, and <a class="el" href="classStandaloneFilterWindow.html#abf3538ee5a7bd69830df1e538bc84df7">pluginHolder</a>.</p>
@@ -1308,7 +1316,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a0ecb7e5d6264a99e213987021ae863a9">closeButtonPressed()</a>, <a class="el" href="classStandaloneFilterWindow.html#a2d741817e3fff0f6ae38104123438493">getAudioProcessor()</a>, <a class="el" href="classStandaloneFilterWindow.html#aa912d8a4473ce219db1605b56049b51e">getDeviceManager()</a>, <a class="el" href="classStandaloneFilterWindow.html#ad97ba50873148f00360fc8c5164622b1">getPluginHolder()</a>, <a class="el" href="classStandaloneFilterWindow.html#a0f873019785295f0726bbd4ee64efc86">handleMenuResult()</a>, <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">resetToDefaultState()</a>, and <a class="el" href="classStandaloneFilterWindow.html#aae64328faa7f0aa4ccc0099ebf4e84d8">~StandaloneFilterWindow()</a>.</p>
+<p>Referenced by <a class="el" href="classStandaloneFilterWindow.html#a0ecb7e5d6264a99e213987021ae863a9">closeButtonPressed()</a>, <a class="el" href="classStandaloneFilterWindow.html#a2d741817e3fff0f6ae38104123438493">getAudioProcessor()</a>, <a class="el" href="classStandaloneFilterWindow.html#aa912d8a4473ce219db1605b56049b51e">getDeviceManager()</a>, <a class="el" href="classStandaloneFilterWindow.html#ad97ba50873148f00360fc8c5164622b1">getPluginHolder()</a>, <a class="el" href="classStandaloneFilterWindow.html#a0f873019785295f0726bbd4ee64efc86">handleMenuResult()</a>, <a class="el" href="classStandaloneFilterWindow.html#a7fcc3628b8e48d4f0a72fa268a86046f">resetToDefaultState()</a>, and <a class="el" href="classStandaloneFilterWindow.html#a969d697f72960f82cb89e50c2437edd5">~StandaloneFilterWindow()</a>.</p>
 
 </div>
 </div>
@@ -1318,7 +1326,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 6 2019 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 7 2019 01:00:42 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

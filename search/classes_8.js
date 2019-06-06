@@ -21,7 +21,6 @@ var searchData=
   ['inputfilter',['InputFilter',['../classTextEditor_1_1InputFilter.html',1,'TextEditor']]],
   ['inputsource',['InputSource',['../classInputSource.html',1,'']]],
   ['inputstream',['InputStream',['../classInputStream.html',1,'']]],
-  ['instantiationcompletioncallback',['InstantiationCompletionCallback',['../structAudioPluginFormat_1_1InstantiationCompletionCallback.html',1,'AudioPluginFormat']]],
   ['integerwithbitsize',['IntegerWithBitSize',['../structBlocksProtocol_1_1IntegerWithBitSize.html',1,'BlocksProtocol']]],
   ['integerwithbitsize_3c_201_20_3e',['IntegerWithBitSize&lt; 1 &gt;',['../structBlocksProtocol_1_1IntegerWithBitSize.html',1,'BlocksProtocol']]],
   ['integerwithbitsize_3c_2012_20_3e',['IntegerWithBitSize&lt; 12 &gt;',['../structBlocksProtocol_1_1IntegerWithBitSize.html',1,'BlocksProtocol']]],
@@ -33,10 +32,10 @@ var searchData=
   ['invocationinfo',['InvocationInfo',['../structApplicationCommandTarget_1_1InvocationInfo.html',1,'ApplicationCommandTarget']]],
   ['ipaddress',['IPAddress',['../classIPAddress.html',1,'']]],
   ['item',['Item',['../structPopupMenu_1_1Item.html',1,'PopupMenu']]],
-  ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
   ['iterator',['Iterator',['../classPath_1_1Iterator.html',1,'Path']]],
-  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
-  ['iterator',['Iterator',['../structListenerList_1_1Iterator.html',1,'ListenerList']]],
   ['iterator',['Iterator',['../structValueTree_1_1Iterator.html',1,'ValueTree']]],
-  ['iterator',['Iterator',['../structHashMap_1_1Iterator.html',1,'HashMap']]]
+  ['iterator',['Iterator',['../structHashMap_1_1Iterator.html',1,'HashMap']]],
+  ['iterator',['Iterator',['../classCodeDocument_1_1Iterator.html',1,'CodeDocument']]],
+  ['iterator',['Iterator',['../classMidiBuffer_1_1Iterator.html',1,'MidiBuffer']]],
+  ['iterator',['Iterator',['../structListenerList_1_1Iterator.html',1,'ListenerList']]]
 ];
