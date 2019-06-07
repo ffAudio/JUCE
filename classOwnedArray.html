@@ -164,9 +164,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4dadf4c1aa5f36ea6f9717fcc2dbaa53"><td class="memItemLeft" align="right" valign="top">ObjectClass *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a4dadf4c1aa5f36ea6f9717fcc2dbaa53">end</a> () const noexcept</td></tr>
 <tr class="memdesc:a4dadf4c1aa5f36ea6f9717fcc2dbaa53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the element which follows the last element in the array.  <a href="#a4dadf4c1aa5f36ea6f9717fcc2dbaa53">More...</a><br/></td></tr>
 <tr class="separator:a4dadf4c1aa5f36ea6f9717fcc2dbaa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49c9458505f8f5eb904c3425db24502f"><td class="memItemLeft" align="right" valign="top">ObjectClass **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a49c9458505f8f5eb904c3425db24502f">data</a> () const noexcept</td></tr>
-<tr class="memdesc:a49c9458505f8f5eb904c3425db24502f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first element in the array.  <a href="#a49c9458505f8f5eb904c3425db24502f">More...</a><br/></td></tr>
-<tr class="separator:a49c9458505f8f5eb904c3425db24502f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad324afe5edb1df584c3ce07b88efa1f0"><td class="memItemLeft" align="right" valign="top">ObjectClass **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#ad324afe5edb1df584c3ce07b88efa1f0">data</a> () noexcept</td></tr>
+<tr class="memdesc:ad324afe5edb1df584c3ce07b88efa1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first element in the array.  <a href="#ad324afe5edb1df584c3ce07b88efa1f0">More...</a><br/></td></tr>
+<tr class="separator:ad324afe5edb1df584c3ce07b88efa1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2771e79f66cd2da9ccb40edc0a52903"><td class="memItemLeft" align="right" valign="top">ObjectClass *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#ad2771e79f66cd2da9ccb40edc0a52903">data</a> () const noexcept</td></tr>
+<tr class="memdesc:ad2771e79f66cd2da9ccb40edc0a52903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first element in the array.  <a href="#ad2771e79f66cd2da9ccb40edc0a52903">More...</a><br/></td></tr>
+<tr class="separator:ad2771e79f66cd2da9ccb40edc0a52903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6660424693e4edbc687fc8352a71ca92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOwnedArray.html#a6660424693e4edbc687fc8352a71ca92">indexOf</a> (const ObjectClass *objectToLookFor) const noexcept</td></tr>
 <tr class="memdesc:a6660424693e4edbc687fc8352a71ca92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the index of an object which might be in the array.  <a href="#a6660424693e4edbc687fc8352a71ca92">More...</a><br/></td></tr>
 <tr class="separator:a6660424693e4edbc687fc8352a71ca92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -744,7 +747,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 <p>Returns a pointer to the first element in the array. </p>
 <p>This method is provided for compatibility with standard C++ iteration mechanisms. </p>
 
-<p>Referenced by <a class="el" href="classOwnedArray.html#a49c9458505f8f5eb904c3425db24502f">OwnedArray&lt; MarkerList::Marker &gt;::data()</a>.</p>
+<p>Referenced by <a class="el" href="classOwnedArray.html#ad324afe5edb1df584c3ce07b88efa1f0">OwnedArray&lt; MarkerList::Marker &gt;::data()</a>.</p>
 
 </div>
 </div>
@@ -832,7 +835,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 
 </div>
 </div>
-<a class="anchor" id="a49c9458505f8f5eb904c3425db24502f"></a>
+<a class="anchor" id="ad324afe5edb1df584c3ce07b88efa1f0"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -843,6 +846,34 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
       <table class="memname">
         <tr>
           <td class="memname">ObjectClass** <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the first element in the array. </p>
+<p>This method is provided for compatibility with the standard C++ containers. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2771e79f66cd2da9ccb40edc0a52903"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalSection&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ObjectClass* const* <a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; ObjectClass, TypeOfCriticalSectionToUse &gt;::data </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1903,7 +1934,7 @@ template&lt;class ObjectClass, class TypeOfCriticalSectionToUse = DummyCriticalS
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 7 2019 01:00:40 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 8 2019 01:00:38 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
