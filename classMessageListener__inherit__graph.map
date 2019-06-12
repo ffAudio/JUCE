@@ -1,0 +1,7 @@
+<map id="MessageListener" name="MessageListener">
+<area shape="rect" id="node2" href="$classAudioPluginFormat.html" title="The base class for a type of plugin format, such as VST, AudioUnit, LADSPA, etc. " alt="" coords="278,80,409,107"/>
+<area shape="rect" id="node3" href="$classAudioUnitPluginFormat.html" title="Implements a plugin format manager for AudioUnits. " alt="" coords="5,155,160,181"/>
+<area shape="rect" id="node4" href="$classLADSPAPluginFormat.html" title="Implements a plugin format manager for LADSPA plugins. " alt="" coords="185,155,337,181"/>
+<area shape="rect" id="node5" href="$classVST3PluginFormat.html" title="Implements a plugin format for VST3s. " alt="" coords="362,155,493,181"/>
+<area shape="rect" id="node6" href="$classVSTPluginFormat.html" title="Implements a plugin format manager for VSTs. " alt="" coords="519,155,644,181"/>
+</map>

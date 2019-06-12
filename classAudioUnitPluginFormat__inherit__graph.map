@@ -1,3 +1,4 @@
 <map id="AudioUnitPluginFormat" name="AudioUnitPluginFormat">
-<area shape="rect" id="node2" href="$classAudioPluginFormat.html" title="The base class for a type of plugin format, such as VST, AudioUnit, LADSPA, etc. " alt="" coords="17,5,148,32"/>
+<area shape="rect" id="node2" href="$classAudioPluginFormat.html" title="The base class for a type of plugin format, such as VST, AudioUnit, LADSPA, etc. " alt="" coords="17,80,148,107"/>
+<area shape="rect" id="node3" href="$classMessageListener.html" title="MessageListener subclasses can post and receive Message objects. " alt="" coords="22,5,143,32"/>
 </map>
