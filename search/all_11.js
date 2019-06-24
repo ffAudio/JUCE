@@ -282,7 +282,7 @@ var searchData=
   ['replacecharacter',['replaceCharacter',['../classString.html#a9ea2aecb5316d2777e7911dae3c74d01',1,'String']]],
   ['replacecharacters',['replaceCharacters',['../classString.html#ac2f2123e32f791b575c4ab6b9461590e',1,'String']]],
   ['replacechildelement',['replaceChildElement',['../classXmlElement.html#a37bfa0575b47295b7d689369e4982310',1,'XmlElement']]],
-  ['replacecolour',['replaceColour',['../classDrawable.html#ac07d49a56bad30d130c7c1cd8f7a7fe2',1,'Drawable::replaceColour()'],['../classDrawableShape.html#a0b99604d0b25dac36aaf17c51a631450',1,'DrawableShape::replaceColour()']]],
+  ['replacecolour',['replaceColour',['../classDrawable.html#ac07d49a56bad30d130c7c1cd8f7a7fe2',1,'Drawable::replaceColour()'],['../classDrawableShape.html#a0b99604d0b25dac36aaf17c51a631450',1,'DrawableShape::replaceColour()'],['../classDrawableText.html#a4c7a0ff2937477c0ca73e70d14355737',1,'DrawableText::replaceColour()']]],
   ['replacefilein',['replaceFileIn',['../classFile.html#a67ddffd6b845882e490a4fc63fdb2b60',1,'File']]],
   ['replacefirstoccurrenceof',['replaceFirstOccurrenceOf',['../classString.html#a51bab0703c84aed277bc806a6b818cf8',1,'String']]],
   ['replacemetadatainfile',['replaceMetadataInFile',['../classWavAudioFormat.html#a1f6a333b084402d486af76d518971160',1,'WavAudioFormat']]],
