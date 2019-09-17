@@ -170,7 +170,7 @@ class HashMap&lt; KeyType, ValueType, HashFunctionType, TypeOfCriticalSectionToU
 <p>The types of the key and value objects are set as template parameters. You can also specify a class to supply a hash function that converts a key value into an hashed integer. This class must have the form:</p>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>MyHashGenerator</div>
 <div class="line">{</div>
-<div class="line">    <span class="keywordtype">int</span> generateHash (MyKeyType key, <span class="keywordtype">int</span> upperLimit)<span class="keyword"> const</span></div>
+<div class="line">    <span class="keywordtype">int</span> generateHash (MyKeyType <a class="code" href="namespaceBlocksProtocol.html#a01895711c2ff4b9a8ed600aab5c6dd79af802cb6422dd92bb3cfae224c869b6da">key</a>, <span class="keywordtype">int</span> upperLimit)<span class="keyword"> const</span></div>
 <div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        <span class="comment">// The function must return a value 0 &lt;= x &lt; upperLimit</span></div>
 <div class="line">        <span class="keywordflow">return</span> someFunctionOfMyKeyType (key) % upperLimit;</div>
@@ -699,7 +699,7 @@ template&lt;typename KeyType, typename ValueType, class HashFunctionType = Defau
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 17 2019 01:00:28 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 18 2019 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
