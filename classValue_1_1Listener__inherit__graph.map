@@ -1,4 +1,5 @@
 <map id="Value::Listener" name="Value::Listener">
 <area shape="rect" id="node2" href="$classComboBox.html" title="A component that lets the user choose from a drop&#45;down list of choices. " alt="" coords="5,80,91,107"/>
 <area shape="rect" id="node3" href="$classLabel.html" title="A component that displays a text string, and can optionally become a text editor when clicked..." alt="" coords="116,80,169,107"/>
+<area shape="rect" id="node4" href="$classStandalonePluginHolder.html" title="An object that creates and plays a standalone instance of an AudioProcessor. " alt="" coords="194,80,355,107"/>
 </map>

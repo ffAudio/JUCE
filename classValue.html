@@ -317,7 +317,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns the current value. </p>
 
-<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a3591021b8495b1d2dddb6ff9a2405209">StandalonePluginHolder::saveAudioDeviceState()</a>.</p>
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#a3591021b8495b1d2dddb6ff9a2405209">StandalonePluginHolder::saveAudioDeviceState()</a>, and <a class="el" href="classStandalonePluginHolder.html#a6d15205c3a01cfb60eaf81c1dc8d4c68">StandalonePluginHolder::valueChanged()</a>.</p>
 
 </div>
 </div>
@@ -518,6 +518,8 @@ Public Member Functions</h2></td></tr>
 <p>The listener is added to this specific <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> object, and not to the shared object that it refers to. When this object is deleted, all the listeners will be lost, even if other references to the same <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> still exist. So when you're adding a listener, make sure that you add it to a <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a> instance that will last for as long as you need the listener. In general, you'd never want to add a listener to a local stack-based <a class="el" href="classValue.html" title="Represents a shared variant value. ">Value</a>, but more likely to one that's a member variable.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="classValue.html#a90467d1b5c25f52d2152bd72057cd951" title="Removes a listener that was previously added with addListener(). ">removeListener</a> </dd></dl>
 
+<p>Referenced by <a class="el" href="classStandalonePluginHolder.html#aa31b5a490ea06c2b0b7fe4e1e7fd5e43">StandalonePluginHolder::StandalonePluginHolder()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a90467d1b5c25f52d2152bd72057cd951"></a>
@@ -569,7 +571,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 8 2019 01:00:41 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 10 2019 01:00:36 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,4 +1,5 @@
 <map id="StandalonePluginHolder" name="StandalonePluginHolder">
 <area shape="rect" id="node2" href="$classAudioIODeviceCallback.html" title="One of these is passed to an AudioIODevice object to stream the audio data in and out..." alt="" coords="5,5,165,32"/>
 <area shape="rect" id="node3" href="$classTimer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="190,5,244,32"/>
+<area shape="rect" id="node4" href="$classValue_1_1Listener.html" title="Receives callbacks when a Value object changes. " alt="" coords="269,5,379,32"/>
 </map>
