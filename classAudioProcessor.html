@@ -2524,6 +2524,7 @@ template&lt;size_t numLayouts&gt; </div>
 </div><div class="memdoc">
 
 <p>Sets the group of parameters managed by this <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a>. </p>
+<p>Replacing the tree after your <a class="el" href="classAudioProcessor.html" title="Base class for audio processing classes or plugins. ">AudioProcessor</a> has been constructed will crash many hosts, so don't do it! You may, however, change parameter and group names by iterating the tree returned by <a class="el" href="classAudioProcessor.html#ad077556337973da9dcfa14c0b3daba3c" title="Returns the group of parameters managed by this AudioProcessor. ">getParameterTree()</a>. Afterwards, call <a class="el" href="classAudioProcessor.html#ab53b860c69380cb34e466b60a3bce3f2" title="The processor can call this when something (apart from a parameter value) has changed. ">updateHostDisplay()</a> to inform the host of the changes. Not all hosts support dynamic changes to parameters and group names. </p>
 
 </div>
 </div>
@@ -2549,7 +2550,7 @@ template&lt;size_t numLayouts&gt; </div>
 </div><div class="memdoc">
 
 <p>A processor should implement this method so that the host can ask it to rebuild its parameter tree. </p>
-<p>If a plugin never changes its parameters, it's enough to create its parameters in its constructor and do nothing in this method, but some may want to </p>
+<p>For most plug-ins it's enough to simply add your parameters in the constructor and leave this unimplemented. </p>
 
 </div>
 </div>
@@ -3551,7 +3552,7 @@ template&lt;size_t numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 30 2019 01:00:27 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Dec 3 2019 01:00:28 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
