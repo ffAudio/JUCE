@@ -17,6 +17,7 @@ var searchData=
   ['noteonvelocity',['noteOnVelocity',['../structMPENote.html#a9322650db7f2e76cec724746d1a75c1a',1,'MPENote']]],
   ['notmpe',['notMPE',['../classMPEChannelRemapper.html#a31b827fb48db5b77588fd3882d90677e',1,'MPEChannelRemapper']]],
   ['null',['null',['../classIdentifier.html#affc07b70676ba6a79773c2beb696e9de',1,'Identifier']]],
+  ['nullptr',['nullptr',['../classAudioProcessor.html#ac55ca3ae3ce2ae6dc74e907a8403c68c',1,'AudioProcessor']]],
   ['numallocated',['numAllocated',['../classArrayAllocationBase.html#a5afe5480fba4ad678e2496e0a5fc5d37',1,'ArrayAllocationBase']]],
   ['numargs',['numArgs',['../structlittlefoot_1_1NativeFunction.html#ac9a5d999ee7dd09cb3a81a7f7b44f468',1,'littlefoot::NativeFunction']]],
   ['numarguments',['numArguments',['../structvar_1_1NativeFunctionArgs.html#ad108a7f18e7234cdffc0e8757cdef320',1,'var::NativeFunctionArgs']]],

@@ -400,6 +400,7 @@ var searchData=
   ['isquotedstring',['isQuotedString',['../classString.html#ad7383efa79a52af75128879bfbde4f62',1,'String']]],
   ['isreadonly',['isReadOnly',['../classTextEditor.html#ada40a35cf274597068915046856ed1e3',1,'TextEditor::isReadOnly()'],['../classCodeEditorComponent.html#a937254c0d264ddf847ab248d16fd3742',1,'CodeEditorComponent::isReadOnly()']]],
   ['isreaper',['isReaper',['../classPluginHostType.html#a45050d5c2f5aca3be1e675912b9b9411',1,'PluginHostType']]],
+  ['isreason',['isReason',['../classPluginHostType.html#a63f6ef9215d22da98ae60f6f86c26855',1,'PluginHostType']]],
   ['isreceptor',['isReceptor',['../classPluginHostType.html#ad57c21e7a2c57d95e10a3ad63c1e9eda',1,'PluginHostType']]],
   ['isrecursive',['isRecursive',['../classRelativeCoordinate.html#a2d58621a8ad2997cf50dc6c89c2b8a69',1,'RelativeCoordinate']]],
   ['isregisteredforshortcut',['isRegisteredForShortcut',['../classButton.html#a8efeb0d288cb3313dddb69b8e329a347',1,'Button']]],
