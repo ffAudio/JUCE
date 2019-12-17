@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['wait',['wait',['../classThread.html#a17aca9c9609310f830298d6a0206d18d',1,'Thread::wait()'],['../classWaitableEvent.html#aade120bc7686f4fabfc740aff8f56dfa',1,'WaitableEvent::wait()']]],
+  ['wait',['wait',['../classThread.html#a17aca9c9609310f830298d6a0206d18d',1,'Thread::wait()'],['../classWaitableEvent.html#af3c0ad1049bde2b540682f3df0af6b89',1,'WaitableEvent::wait()']]],
   ['waitableevent',['WaitableEvent',['../classWaitableEvent.html#aa3622062e48a177ec721120443ea17d2',1,'WaitableEvent']]],
   ['waitforjobtofinish',['waitForJobToFinish',['../classThreadPool.html#ada78c3d08d41bb195006b5c96a6514f5',1,'ThreadPool']]],
   ['waitformillisecondcounter',['waitForMillisecondCounter',['../classTime.html#aacdbdd9f83346c0b1d34661cf454904b',1,'Time']]],
