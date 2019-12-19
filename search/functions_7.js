@@ -100,6 +100,8 @@ var searchData=
   ['hascontrolpanel',['hasControlPanel',['../classAudioIODevice.html#a61f6654ab66f66e60e30bc7e5b08647b',1,'AudioIODevice']]],
   ['haseditor',['hasEditor',['../classAudioProcessor.html#a00be8f595da09ba01d74cb7c52b8fb81',1,'AudioProcessor::hasEditor()'],['../classAudioProcessorGraph_1_1AudioGraphIOProcessor.html#aa0e5fd5f05d014cbb01c0bbfa651abdc',1,'AudioProcessorGraph::AudioGraphIOProcessor::hasEditor()'],['../classAudioProcessorGraph.html#afdb5ca50f8d3ffef636be2b9dbdf08cf',1,'AudioProcessorGraph::hasEditor()']]],
   ['hasfileextension',['hasFileExtension',['../classFile.html#ac6020c20cb04f00bd0b5aa00926ab1fb',1,'File']]],
+  ['hasfma3',['hasFMA3',['../classSystemStats.html#a29437caec1936a765542ec3ec5e21cd1',1,'SystemStats']]],
+  ['hasfma4',['hasFMA4',['../classSystemStats.html#af0867e25b93cb36f08552f84bc29b59f',1,'SystemStats']]],
   ['hash',['hash',['../classUuid.html#aaa9e337833ead2cb48039a09ddcd8106',1,'Uuid::hash()'],['../classString.html#a317bebf3259d5fefa6a2558b65ae2f77',1,'String::hash()']]],
   ['hashcode',['hashCode',['../classFile.html#a990e6e4a166c52186b69f572c4dfc328',1,'File::hashCode()'],['../classFileInputSource.html#a95b676eefdd0f1b2978d9c31a6af5d10',1,'FileInputSource::hashCode()'],['../classInputSource.html#a1fe754d44724da8eaef055c496ca4140',1,'InputSource::hashCode()'],['../classURLInputSource.html#a289bcfa8603911b61cd057ea0dd63646',1,'URLInputSource::hashCode()'],['../classString.html#ad8ca5cb11984df03ff9697442da5ae4b',1,'String::hashCode()']]],
   ['hashcode64',['hashCode64',['../classFile.html#a0584182ef19bf00394df96731bceaa8f',1,'File::hashCode64()'],['../classString.html#ad71be66a9c181abae185b84f7cec5f17',1,'String::hashCode64()']]],

@@ -190,9 +190,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7d7e0e64926665b12b62a53082caecc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#ad7d7e0e64926665b12b62a53082caecc">createAudioDeviceTypes</a> (<a class="el" href="classOwnedArray.html">OwnedArray</a>&lt; <a class="el" href="classAudioIODeviceType.html">AudioIODeviceType</a> &gt; &amp;types)</td></tr>
 <tr class="memdesc:ad7d7e0e64926665b12b62a53082caecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a list of available types.  <a href="#ad7d7e0e64926665b12b62a53082caecc">More...</a><br/></td></tr>
 <tr class="separator:ad7d7e0e64926665b12b62a53082caecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9516ba945a2de06438cb3bd30210b94f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#a9516ba945a2de06438cb3bd30210b94f">addAudioDeviceType</a> (<a class="el" href="classAudioIODeviceType.html">AudioIODeviceType</a> *newDeviceType)</td></tr>
-<tr class="memdesc:a9516ba945a2de06438cb3bd30210b94f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new device type to the list of types.  <a href="#a9516ba945a2de06438cb3bd30210b94f">More...</a><br/></td></tr>
-<tr class="separator:a9516ba945a2de06438cb3bd30210b94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d041500471ca44261d58f01df875367"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#a8d041500471ca44261d58f01df875367">addAudioDeviceType</a> (std::unique_ptr&lt; <a class="el" href="classAudioIODeviceType.html">AudioIODeviceType</a> &gt; newDeviceType)</td></tr>
+<tr class="memdesc:a8d041500471ca44261d58f01df875367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new device type to the list of types.  <a href="#a8d041500471ca44261d58f01df875367">More...</a><br/></td></tr>
+<tr class="separator:a8d041500471ca44261d58f01df875367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad82d8864eb332a8c6eb7dc626b156d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#afad82d8864eb332a8c6eb7dc626b156d">removeAudioDeviceType</a> (<a class="el" href="classAudioIODeviceType.html">AudioIODeviceType</a> *deviceTypeToRemove)</td></tr>
+<tr class="memdesc:afad82d8864eb332a8c6eb7dc626b156d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a previously added device type from the manager.  <a href="#afad82d8864eb332a8c6eb7dc626b156d">More...</a><br/></td></tr>
+<tr class="separator:afad82d8864eb332a8c6eb7dc626b156d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab32b74d9dda550d70d47c0cca76fdd25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioDeviceManager.html#ab32b74d9dda550d70d47c0cca76fdd25">playTestSound</a> ()</td></tr>
 <tr class="memdesc:ab32b74d9dda550d70d47c0cca76fdd25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a beep through the current audio device.  <a href="#ab32b74d9dda550d70d47c0cca76fdd25">More...</a><br/></td></tr>
 <tr class="separator:ab32b74d9dda550d70d47c0cca76fdd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -922,14 +925,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9516ba945a2de06438cb3bd30210b94f"></a>
+<a class="anchor" id="a8d041500471ca44261d58f01df875367"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioDeviceManager::addAudioDeviceType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classAudioIODeviceType.html">AudioIODeviceType</a> *&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classAudioIODeviceType.html">AudioIODeviceType</a> &gt;&#160;</td>
           <td class="paramname"><em>newDeviceType</em></td><td>)</td>
           <td></td>
         </tr>
@@ -937,7 +940,24 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds a new device type to the list of types. </p>
-<p>The manager will take ownership of the object that is passed-in. </p>
+
+</div>
+</div>
+<a class="anchor" id="afad82d8864eb332a8c6eb7dc626b156d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> AudioDeviceManager::removeAudioDeviceType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAudioIODeviceType.html">AudioIODeviceType</a> *&#160;</td>
+          <td class="paramname"><em>deviceTypeToRemove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a previously added device type from the manager. </p>
 
 </div>
 </div>
@@ -1240,7 +1260,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 18 2019 01:00:23 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 19 2019 01:00:23 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
