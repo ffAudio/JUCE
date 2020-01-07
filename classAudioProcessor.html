@@ -2387,7 +2387,8 @@ template&lt;size_t numLayouts&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the active editor, if there is one. </p>
-<p>Bear in mind this can return nullptr, even if an editor has previously been opened. </p>
+<p>Bear in mind this can return nullptr even if an editor has previously been opened.</p>
+<p>Note that you should only call this method from the message thread as the active editor may be deleted by the message thread, causing a dangling pointer. </p>
 
 </div>
 </div>
@@ -3553,7 +3554,7 @@ template&lt;size_t numLayouts&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 3 2020 01:00:21 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 7 2020 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

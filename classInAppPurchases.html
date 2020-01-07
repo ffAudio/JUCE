@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classInAppPurchases-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">InAppPurchases Class Reference<div class="ingroups"><a class="el" href="group__juce__product__unlocking-in__app__purchases.html">in_app_purchases</a></div></div>  </div>
@@ -124,9 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad53d0d034c19ad6cce54ec9e39e69b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInAppPurchases.html#aad53d0d034c19ad6cce54ec9e39e69b8">getProductsInformation</a> (const <a class="el" href="classStringArray.html">StringArray</a> &amp;productIdentifiers)</td></tr>
 <tr class="memdesc:aad53d0d034c19ad6cce54ec9e39e69b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously requests information for products with given ids.  <a href="#aad53d0d034c19ad6cce54ec9e39e69b8">More...</a><br/></td></tr>
 <tr class="separator:aad53d0d034c19ad6cce54ec9e39e69b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dfc1d93576b36ad84e23bac1c484c22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInAppPurchases.html#a4dfc1d93576b36ad84e23bac1c484c22">purchaseProduct</a> (const <a class="el" href="classString.html">String</a> &amp;productIdentifier, bool isSubscription, const <a class="el" href="classStringArray.html">StringArray</a> &amp;upgradeOrDowngradeFromSubscriptionsWithProductIdentifiers={}, bool creditForUnusedSubscription=true)</td></tr>
-<tr class="memdesc:a4dfc1d93576b36ad84e23bac1c484c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously requests to buy a product with given id.  <a href="#a4dfc1d93576b36ad84e23bac1c484c22">More...</a><br/></td></tr>
-<tr class="separator:a4dfc1d93576b36ad84e23bac1c484c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0438154d89d7875eb967b1be4c62bb50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInAppPurchases.html#a0438154d89d7875eb967b1be4c62bb50">purchaseProduct</a> (const <a class="el" href="classString.html">String</a> &amp;productIdentifier, const <a class="el" href="classString.html">String</a> &amp;upgradeOrDowngradeFromSubscriptionWithProductIdentifier={}, bool creditForUnusedSubscription=true)</td></tr>
+<tr class="memdesc:a0438154d89d7875eb967b1be4c62bb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously requests to buy a product with given id.  <a href="#a0438154d89d7875eb967b1be4c62bb50">More...</a><br/></td></tr>
+<tr class="separator:a0438154d89d7875eb967b1be4c62bb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c77a207b61d8d38828d79b01cf3eacb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInAppPurchases.html#a6c77a207b61d8d38828d79b01cf3eacb">restoreProductsBoughtList</a> (bool includeDownloadInfo, const juce::String &amp;subscriptionsSharedSecret={})</td></tr>
 <tr class="memdesc:a6c77a207b61d8d38828d79b01cf3eacb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously asks about a list of products that a user has already bought.  <a href="#a6c77a207b61d8d38828d79b01cf3eacb">More...</a><br/></td></tr>
 <tr class="separator:a6c77a207b61d8d38828d79b01cf3eacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,10 +152,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:addc22f1a6c73d1a0c25a5f9c46dc5804"><td class="mdescLeft">&#160;</td><td class="mdescRight">iOS only: Cancels downloads of hosted content from the store.  <a href="#addc22f1a6c73d1a0c25a5f9c46dc5804">More...</a><br/></td></tr>
 <tr class="separator:addc22f1a6c73d1a0c25a5f9c46dc5804"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:ad9ff7157a88caa5c1c8f199a79366e5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInAppPurchases.html#ad9ff7157a88caa5c1c8f199a79366e5c">juce_inAppPurchaseCompleted</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *)</td></tr>
-<tr class="separator:ad9ff7157a88caa5c1c8f199a79366e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a7be518e3b58d85cebec418fad512cd02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__core-system.html#gae6b75a90b7c83090e15a53b54555a078">JUCE_DEPRECATED_WITH_BODY</a>(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <br class="typebreak"/>
+<a class="el" href="classInAppPurchases.html#a0438154d89d7875eb967b1be4c62bb50">purchaseProduct</a>(const <a class="el" href="classString.html">String</a> <br class="typebreak"/>
+&amp;productIdentifier, bool <br class="typebreak"/>
+isSubscription, const <br class="typebreak"/>
+<a class="el" href="classStringArray.html">StringArray</a> <br class="typebreak"/>
+&amp;upgradeOrDowngradeFromSubscriptionsWithProductIdentifiers={}, <br class="typebreak"/>
+bool <br class="typebreak"/>
+creditForUnusedSubscription=true),{<a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused</a>(isSubscription);<a class="el" href="classInAppPurchases.html#a0438154d89d7875eb967b1be4c62bb50">purchaseProduct</a>(productIdentifier, <br class="typebreak"/>
+upgradeOrDowngradeFromSubscriptionsWithProductIdentifiers[0], <br class="typebreak"/>
+creditForUnusedSubscription);}) <br class="typebreak"/>
+private friend <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInAppPurchases.html#a7be518e3b58d85cebec418fad512cd02">juce_inAppPurchaseCompleted</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *)</td></tr>
+<tr class="separator:a7be518e3b58d85cebec418fad512cd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474d7ea538c17ff38825e92a0f8f2f05"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classInAppPurchases.html#a99a661342f099388418fa5a6db23842c">Pimpl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInAppPurchases.html#a474d7ea538c17ff38825e92a0f8f2f05">pimpl</a></td></tr>
+<tr class="separator:a474d7ea538c17ff38825e92a0f8f2f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides in-app purchase functionality. </p>
@@ -199,7 +211,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4dfc1d93576b36ad84e23bac1c484c22"></a>
+<a class="anchor" id="a0438154d89d7875eb967b1be4c62bb50"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -212,14 +224,8 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isSubscription</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classStringArray.html">StringArray</a> &amp;&#160;</td>
-          <td class="paramname"><em>upgradeOrDowngradeFromSubscriptionsWithProductIdentifiers</em> = <code>{}</code>, </td>
+          <td class="paramtype">const <a class="el" href="classString.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>upgradeOrDowngradeFromSubscriptionWithProductIdentifier</em> = <code>{}</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -239,9 +245,8 @@ Friends</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">productIdentifier</td><td>The product identifier.</td></tr>
-    <tr><td class="paramname">isSubscription</td><td>(Android only) defines if a product a user wants to buy is a subscription or a one-time purchase. On iOS, type of the product is derived implicitly.</td></tr>
-    <tr><td class="paramname">upgradeOrDowngradeFromSubscriptionsWithProductIdentifiers</td><td>(Android only) specifies subscriptions that will be replaced by the one being purchased now. Used only when buying a subscription that is an upgrade or downgrade from other ones.</td></tr>
-    <tr><td class="paramname">creditForUnusedSubscription</td><td>(Android only) controls whether a user should be credited for any unused subscription time on the products that are being upgraded or downgraded. </td></tr>
+    <tr><td class="paramname">upgradeOrDowngradeFromSubscriptionsWithProductIdentifier</td><td>(Android only) specifies the subscription that will be replaced by the one being purchased now. Used only when buying a subscription that is an upgrade or downgrade from another.</td></tr>
+    <tr><td class="paramname">creditForUnusedSubscription</td><td>(Android only) controls whether a user should be credited for any unused subscription time on the product that is being upgraded or downgraded. </td></tr>
   </table>
   </dd>
 </dl>
@@ -423,27 +428,27 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a class="anchor" id="ad9ff7157a88caa5c1c8f199a79366e5c"></a>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a7be518e3b58d85cebec418fad512cd02"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> juce_inAppPurchaseCompleted </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="group__juce__core-system.html#gae6b75a90b7c83090e15a53b54555a078">JUCE_DEPRECATED_WITH_BODY</a> (<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> <a class="el" href="classInAppPurchases.html#a0438154d89d7875eb967b1be4c62bb50">purchaseProduct</a> (const <a class="el" href="classString.html">String</a>&amp; productIdentifier, bool isSubscription, const <a class="el" href="classStringArray.html">StringArray</a>&amp; upgradeOrDowngradeFromSubscriptionsWithProductIdentifiers = {}, bool creditForUnusedSubscription = true), { <a class="el" href="group__juce__core-maths.html#ga5158e6e8faa5553204f90af596fafaf5">ignoreUnused</a> (isSubscription); <a class="el" href="classInAppPurchases.html#a0438154d89d7875eb967b1be4c62bb50">purchaseProduct</a> (productIdentifier, upgradeOrDowngradeFromSubscriptionsWithProductIdentifiers[0], creditForUnusedSubscription); }) private friend <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> InAppPurchases::juce_inAppPurchaseCompleted(<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> *)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a474d7ea538c17ff38825e92a0f8f2f05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classInAppPurchases.html#a99a661342f099388418fa5a6db23842c">Pimpl</a>&gt; InAppPurchases::pimpl</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -454,7 +459,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 3 2020 01:00:25 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 7 2020 01:00:35 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
