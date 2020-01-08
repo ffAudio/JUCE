@@ -33,7 +33,7 @@
 <area shape="rect" id="node32" href="$classMidiKeyboardComponent.html" title="A component that displays a piano keyboard, whose notes can be clicked on. " alt="" coords="396,1491,564,1517"/>
 <area shape="rect" id="node33" href="$classMultiDocumentPanel.html" title="A component that contains a set of other components either in floating windows or tabs..." alt="" coords="409,1541,551,1568"/>
 <area shape="rect" id="node34" href="$classNSViewComponent.html" title="A Mac&#45;specific class that can create and embed an NSView inside itself. " alt="" coords="411,1592,549,1619"/>
-<area shape="rect" id="node35" href="$classOnlineUnlockForm.html" title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU..." alt="" coords="415,1643,545,1669"/>
+<area shape="rect" id="node35" href="$classOnlineUnlockForm.html" title="Acts as a GUI which asks the user for their details, and calls the appropriate methods on your Online..." alt="" coords="415,1643,545,1669"/>
 <area shape="rect" id="node36" href="$classOpenGLAppComponent.html" title="A base class for writing simple one&#45;page graphical apps. " alt="" coords="400,1693,560,1720"/>
 <area shape="rect" id="node37" href="$classPluginListComponent.html" title="A component displaying a list of plugins, with options to scan for them, add, remove and sort them..." alt="" coords="407,1744,553,1771"/>
 <area shape="rect" id="node38" href="$classPopupMenu_1_1CustomComponent.html" title="A user&#45;defined component that can be used as an item in a popup menu. " alt="" coords="374,1795,586,1821"/>

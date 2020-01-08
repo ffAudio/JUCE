@@ -458,7 +458,7 @@
 </g>
 <!-- Node35 -->
 <g id="node35" class="node"><title>Node35</title>
-<g id="a_node35"><a xlink:href="classOnlineUnlockForm.html" target="_top" xlink:title="Acts as a GUI which asks the user for their details, and calls the approriate methods on your OnlineU...">
+<g id="a_node35"><a xlink:href="classOnlineUnlockForm.html" target="_top" xlink:title="Acts as a GUI which asks the user for their details, and calls the appropriate methods on your Online...">
 <polygon fill="none" stroke="black" points="307,-494.5 307,-513.5 405,-513.5 405,-494.5 307,-494.5"/>
 <text text-anchor="middle" x="356" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">OnlineUnlockForm</text>
 </a>
