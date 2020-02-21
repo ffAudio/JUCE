@@ -91,12 +91,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classTopologySource.html#a69466671a2d86f6eb2cc7581a3d33673">addListener</a>(Listener *l)</td><td class="entry"><a class="el" href="classTopologySource.html">TopologySource</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classPhysicalTopologySource.html#accb98702a15077aa2e2cca731d13c6a3">cancelAllActiveTouches</a>() noexceptoverride</td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classTopologySource.html#a1fecd758389d8c180c7322119b91d904">getBlocks</a>() const </td><td class="entry"><a class="el" href="classTopologySource.html">TopologySource</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classTopologySource.html#ac7ab0cfa22efc86ed85f1bfb31521a66">getBlockWithUID</a>(Block::UID uid) const </td><td class="entry"><a class="el" href="classTopologySource.html">TopologySource</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classPhysicalTopologySource.html#a5b05bfe7c015f971273087312d21ea89">getCurrentTopology</a>() const override</td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classPhysicalTopologySource.html#a33811ad9256940e13e657febd014ad70">getStandardLittleFootFunctions</a>() noexcept</td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classPhysicalTopologySource.html#a80bb01d5de8c19046589aa058da1a100">handleTimerTick</a>()</td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classPhysicalTopologySource.html#af81cb87dee3c3d93ce6e739238909097">hasOwnServiceTimer</a>() const </td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classPhysicalTopologySource.html#a9257c42a1b91a72dd2d14af4a815dc6b">isActive</a>() const override</td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classPhysicalTopologySource.html#aa3c4e5ab24154b2156de20fb18e5c358">isLockedFromOutside</a>() const </td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classPhysicalTopologySource.html#a4d44fb6b0444ff96c1f4a0bf4a3575da">isLockedFromOutside</a>() const override</td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classTopologySource.html#a07704254ec8d70b2b85c713d6870381c">listeners</a></td><td class="entry"><a class="el" href="classTopologySource.html">TopologySource</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="classPhysicalTopologySource.html#af27ef3c6362ae0a2fc4c7af4a841986b">PhysicalTopologySource</a>(bool startDetached=false)</td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classPhysicalTopologySource.html#ae7ca81f7d5f231033e55978daaba600a">PhysicalTopologySource</a>(DeviceDetector &amp;detectorToUse, bool startDetached=false)</td><td class="entry"><a class="el" href="classPhysicalTopologySource.html">PhysicalTopologySource</a></td><td class="entry"></td></tr>
@@ -107,7 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 19 2020 01:00:33 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 21 2020 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
