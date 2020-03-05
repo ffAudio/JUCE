@@ -230,15 +230,15 @@ Public Attributes</h2></td></tr>
 <div class="line">    : apvts (*this, &amp;<a class="code" href="classAudioProcessorValueTreeState.html#a1dbe64c2074c51b19f54d55dc4292e07">undoManager</a>, <span class="stringliteral">&quot;PARAMETERS&quot;</span>,</div>
 <div class="line">             { std::make_unique&lt;AudioParameterFloat&gt; (<span class="stringliteral">&quot;a&quot;</span>, <span class="stringliteral">&quot;Parameter A&quot;</span>, <a class="code" href="classNormalisableRange.html">NormalisableRange&lt;float&gt;</a> (-100.0f, 100.0f), 0),</div>
 <div class="line">               std::make_unique&lt;AudioParameterInt&gt; (<span class="stringliteral">&quot;b&quot;</span>, <span class="stringliteral">&quot;Parameter B&quot;</span>, 0, 5, 2) })</div>
-</div><!-- fragment --><p>To add parameters programatically you can use the iterator-based <a class="el" href="classAudioProcessorValueTreeState_1_1ParameterLayout.html" title="A class to contain a set of RangedAudioParameters and AudioProcessorParameterGroups containing Ranged...">ParameterLayout</a> constructor:</p>
+</div><!-- fragment --><p>To add parameters programatically you can call <code>add</code> repeatedly on a <a class="el" href="classAudioProcessorValueTreeState_1_1ParameterLayout.html" title="A class to contain a set of RangedAudioParameters and AudioProcessorParameterGroups containing Ranged...">ParameterLayout</a> instance:</p>
 <div class="fragment"><div class="line"><a class="code" href="classAudioProcessorValueTreeState_1_1ParameterLayout.html">AudioProcessorValueTreeState::ParameterLayout</a> createParameterLayout()</div>
 <div class="line">{</div>
-<div class="line">    std::vector&lt;std::unique_ptr&lt;AudioParameterInt&gt;&gt; params;</div>
+<div class="line">    <a class="code" href="classAudioProcessorValueTreeState_1_1ParameterLayout.html">AudioProcessorValueTreeState::ParameterLayout</a> layout;</div>
 <div class="line"></div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; 9; ++i)</div>
-<div class="line">        params.push_back (std::make_unique&lt;AudioParameterInt&gt; (<a class="code" href="classString.html">String</a> (i), <a class="code" href="classString.html">String</a> (i), 0, i, 0));</div>
+<div class="line">        layout.<a class="code" href="classAudioProcessorValueTreeState_1_1ParameterLayout.html#a2e3978445b3688e5ade3aea6149916d7">add</a> (std::make_unique&lt;AudioParameterInt&gt; (<a class="code" href="classString.html">String</a> (i), <a class="code" href="classString.html">String</a> (i), 0, i, 0));</div>
 <div class="line"></div>
-<div class="line">    <span class="keywordflow">return</span> { params.begin(), params.end() };</div>
+<div class="line">    <span class="keywordflow">return</span> layout;</div>
 <div class="line">}</div>
 <div class="line"></div>
 <div class="line">YourAudioProcessor()</div>
@@ -605,7 +605,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 4 2020 01:00:25 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Mar 5 2020 01:00:24 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
