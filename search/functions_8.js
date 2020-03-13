@@ -132,7 +132,7 @@ var searchData=
   ['isbroughttofrontonmouseclick',['isBroughtToFrontOnMouseClick',['../classComponent.html#aa8f9bdf4bef08d89b75b173421fae668',1,'Component']]],
   ['isbundle',['isBundle',['../classFile.html#ad4b60fb8cb686a14d5a34dd669f9df5a',1,'File::isBundle()'],['../classOSCBundle_1_1Element.html#aca9a2295d1644e569d898857a4d97021',1,'OSCBundle::Element::isBundle()']]],
   ['isbuseslayoutsupported',['isBusesLayoutSupported',['../classAudioProcessor.html#a2eee96c0d18913e18fb353bf868bcad2',1,'AudioProcessor']]],
-  ['isbypassed',['isBypassed',['../classReverbAudioSource.html#a930435b2b93f74d00203b6794c41ac8e',1,'ReverbAudioSource::isBypassed()'],['../classAudioProcessorGraph_1_1Node.html#a73eb0bfc719863a43afc1be00e26e129',1,'AudioProcessorGraph::Node::isBypassed()']]],
+  ['isbypassed',['isBypassed',['../classReverbAudioSource.html#a930435b2b93f74d00203b6794c41ac8e',1,'ReverbAudioSource::isBypassed()'],['../classAudioProcessorGraph_1_1Node.html#a73eb0bfc719863a43afc1be00e26e129',1,'AudioProcessorGraph::Node::isBypassed()'],['../classdsp_1_1ProcessorChain.html#a1634870263ae213d708d9cbe06a9a2b5',1,'dsp::ProcessorChain::isBypassed()'],['../namespacedsp.html#aeb592cba99f3976472041c36682af88a',1,'dsp::isBypassed()']]],
   ['isbyteordermark',['isByteOrderMark',['../classCharPointer__UTF8.html#a3040c1c80d603a558fe7ffc01efec212',1,'CharPointer_UTF8']]],
   ['isbyteordermarkbigendian',['isByteOrderMarkBigEndian',['../classCharPointer__UTF16.html#ace1742329bcdaa7165380dd2d2c002d5',1,'CharPointer_UTF16']]],
   ['isbyteordermarklittleendian',['isByteOrderMarkLittleEndian',['../classCharPointer__UTF16.html#a07380f4a63664c59377c84dda44635e7',1,'CharPointer_UTF16']]],
