@@ -88,8 +88,8 @@
 </g>
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge6" class="edge"><title>Node7&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M141.706,-49.0024C131.959,-39.4329 119.947,-27.6389 111.913,-19.7511"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="139.33,-51.5746 148.918,-56.083 144.234,-46.5796 139.33,-51.5746"/>
+<path fill="none" stroke="#8b1a1a" d="M141.706,-49.0024C131.959,-39.4329 119.947,-27.6389 111.913,-19.7511"/>
+<polygon fill="#8b1a1a" stroke="#8b1a1a" points="139.33,-51.5746 148.918,-56.083 144.234,-46.5796 139.33,-51.5746"/>
 </g>
 </g>
 </svg>
