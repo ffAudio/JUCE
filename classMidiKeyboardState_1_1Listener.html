@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>JUCE: MidiKeyboardStateListener Class Reference</title>
+<title>JUCE: MidiKeyboardState::Listener Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -80,43 +80,44 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="classMidiKeyboardState.html">MidiKeyboardState</a></li><li class="navelem"><a class="el" href="classMidiKeyboardState_1_1Listener.html">Listener</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="classMidiKeyboardStateListener-members.html">List of all members</a>  </div>
+<a href="classMidiKeyboardState_1_1Listener-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MidiKeyboardStateListener Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__juce__audio__basics-midi.html">midi</a></div></div>  </div>
+<div class="title">MidiKeyboardState::Listener Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Receives events from a <a class="el" href="classMidiKeyboardState.html" title="Represents a piano keyboard, keeping track of which keys are currently pressed. ">MidiKeyboardState</a> object.  
- <a href="classMidiKeyboardStateListener.html#details">More...</a></p>
+ <a href="classMidiKeyboardState_1_1Listener.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for MidiKeyboardStateListener:</div>
+Inheritance diagram for MidiKeyboardState::Listener:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMidiKeyboardStateListener__inherit__graph.svg" width="354" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMidiKeyboardState_1_1Listener__inherit__graph.svg" width="354" height="128"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2371e0772be14b09d6c3b2308092af86"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardStateListener.html#a2371e0772be14b09d6c3b2308092af86">MidiKeyboardStateListener</a> ()=default</td></tr>
-<tr class="separator:a2371e0772be14b09d6c3b2308092af86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14cb46e2a59869ead01dd902f6d29990"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardStateListener.html#a14cb46e2a59869ead01dd902f6d29990">~MidiKeyboardStateListener</a> ()=default</td></tr>
-<tr class="separator:a14cb46e2a59869ead01dd902f6d29990"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f4b54bd89239c0e184f155060a4397a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardStateListener.html#a0f4b54bd89239c0e184f155060a4397a">handleNoteOn</a> (<a class="el" href="classMidiKeyboardState.html">MidiKeyboardState</a> *source, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiChannel, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiNoteNumber, float velocity)=0</td></tr>
-<tr class="memdesc:a0f4b54bd89239c0e184f155060a4397a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when one of the <a class="el" href="classMidiKeyboardState.html" title="Represents a piano keyboard, keeping track of which keys are currently pressed. ">MidiKeyboardState</a>'s keys is pressed.  <a href="#a0f4b54bd89239c0e184f155060a4397a">More...</a><br/></td></tr>
-<tr class="separator:a0f4b54bd89239c0e184f155060a4397a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e569656febf461f2a3562d208ead61"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardStateListener.html#a11e569656febf461f2a3562d208ead61">handleNoteOff</a> (<a class="el" href="classMidiKeyboardState.html">MidiKeyboardState</a> *source, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiChannel, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiNoteNumber, float velocity)=0</td></tr>
-<tr class="memdesc:a11e569656febf461f2a3562d208ead61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when one of the <a class="el" href="classMidiKeyboardState.html" title="Represents a piano keyboard, keeping track of which keys are currently pressed. ">MidiKeyboardState</a>'s keys is released.  <a href="#a11e569656febf461f2a3562d208ead61">More...</a><br/></td></tr>
-<tr class="separator:a11e569656febf461f2a3562d208ead61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87db938272e0badd5343f44c5f7dd4c9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState_1_1Listener.html#a87db938272e0badd5343f44c5f7dd4c9">~Listener</a> ()=default</td></tr>
+<tr class="separator:a87db938272e0badd5343f44c5f7dd4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a854381a64354389e0cb2c15ec1fb4b01"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState_1_1Listener.html#a854381a64354389e0cb2c15ec1fb4b01">handleNoteOn</a> (<a class="el" href="classMidiKeyboardState.html">MidiKeyboardState</a> *source, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiChannel, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiNoteNumber, float velocity)=0</td></tr>
+<tr class="memdesc:a854381a64354389e0cb2c15ec1fb4b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when one of the <a class="el" href="classMidiKeyboardState.html" title="Represents a piano keyboard, keeping track of which keys are currently pressed. ">MidiKeyboardState</a>'s keys is pressed.  <a href="#a854381a64354389e0cb2c15ec1fb4b01">More...</a><br/></td></tr>
+<tr class="separator:a854381a64354389e0cb2c15ec1fb4b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedc74bd79578cb19edba66d38e9a93cf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState_1_1Listener.html#aedc74bd79578cb19edba66d38e9a93cf">handleNoteOff</a> (<a class="el" href="classMidiKeyboardState.html">MidiKeyboardState</a> *source, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiChannel, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> midiNoteNumber, float velocity)=0</td></tr>
+<tr class="memdesc:aedc74bd79578cb19edba66d38e9a93cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when one of the <a class="el" href="classMidiKeyboardState.html" title="Represents a piano keyboard, keeping track of which keys are currently pressed. ">MidiKeyboardState</a>'s keys is released.  <a href="#aedc74bd79578cb19edba66d38e9a93cf">More...</a><br/></td></tr>
+<tr class="separator:aedc74bd79578cb19edba66d38e9a93cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Receives events from a <a class="el" href="classMidiKeyboardState.html" title="Represents a piano keyboard, keeping track of which keys are currently pressed. ">MidiKeyboardState</a> object. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiKeyboardState.html" title="Represents a piano keyboard, keeping track of which keys are currently pressed. ">MidiKeyboardState</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a2371e0772be14b09d6c3b2308092af86"></a>
+<a class="anchor" id="a87db938272e0badd5343f44c5f7dd4c9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -124,30 +125,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MidiKeyboardStateListener::MidiKeyboardStateListener </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a14cb46e2a59869ead01dd902f6d29990"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MidiKeyboardStateListener::~MidiKeyboardStateListener </td>
+          <td class="memname">virtual MidiKeyboardState::Listener::~Listener </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -163,7 +141,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a0f4b54bd89239c0e184f155060a4397a"></a>
+<a class="anchor" id="a854381a64354389e0cb2c15ec1fb4b01"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -171,7 +149,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MidiKeyboardStateListener::handleNoteOn </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MidiKeyboardState::Listener::handleNoteOn </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMidiKeyboardState.html">MidiKeyboardState</a> *&#160;</td>
           <td class="paramname"><em>source</em>, </td>
@@ -215,7 +193,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a11e569656febf461f2a3562d208ead61"></a>
+<a class="anchor" id="aedc74bd79578cb19edba66d38e9a93cf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -223,7 +201,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MidiKeyboardStateListener::handleNoteOff </td>
+          <td class="memname">virtual <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MidiKeyboardState::Listener::handleNoteOff </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMidiKeyboardState.html">MidiKeyboardState</a> *&#160;</td>
           <td class="paramname"><em>source</em>, </td>
@@ -273,7 +251,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 12 2020 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 13 2020 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

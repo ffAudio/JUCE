@@ -1,4 +1,4 @@
 <map id="MidiMessageCollector" name="MidiMessageCollector">
-<area shape="rect" id="node2" href="$classMidiKeyboardStateListener.html" title="Receives events from a MidiKeyboardState object. " alt="" coords="5,5,184,32"/>
-<area shape="rect" id="node3" href="$classMidiInputCallback.html" title="Receives incoming messages from a physical MIDI input device. " alt="" coords="209,5,335,32"/>
+<area shape="rect" id="node2" href="$classMidiKeyboardState_1_1Listener.html" title="Receives events from a MidiKeyboardState object. " alt="" coords="5,6,144,47"/>
+<area shape="rect" id="node3" href="$classMidiInputCallback.html" title="Receives incoming messages from a physical MIDI input device. " alt="" coords="169,13,295,40"/>
 </map>

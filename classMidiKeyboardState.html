@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMidiKeyboardState-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -93,6 +94,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Represents a piano keyboard, keeping track of which keys are currently pressed.  
  <a href="classMidiKeyboardState.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState_1_1Listener.html">Listener</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receives events from a <a class="el" href="classMidiKeyboardState.html" title="Represents a piano keyboard, keeping track of which keys are currently pressed. ">MidiKeyboardState</a> object.  <a href="classMidiKeyboardState_1_1Listener.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a73da349edfd89275f5b26d20c9176238"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState.html#a73da349edfd89275f5b26d20c9176238">MidiKeyboardState</a> ()</td></tr>
@@ -123,12 +130,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa7afad38f581c129c407a4d7d069bbbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState.html#aa7afad38f581c129c407a4d7d069bbbb">processNextMidiBuffer</a> (<a class="el" href="classMidiBuffer.html">MidiBuffer</a> &amp;<a class="el" href="group__juce__audio__plugin__client-Unity.html#ga20d206ac518b34becdb8799066781618">buffer</a>, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> startSample, <a class="el" href="group__juce__audio__plugin__client-Unity.html#ga966b05a42d98c7296097e073c627dcd0">int</a> numSamples, bool injectIndirectEvents)</td></tr>
 <tr class="memdesc:aa7afad38f581c129c407a4d7d069bbbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a midi stream for up/down events and adds its own events to it.  <a href="#aa7afad38f581c129c407a4d7d069bbbb">More...</a><br/></td></tr>
 <tr class="separator:aa7afad38f581c129c407a4d7d069bbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac802282e7fde631869c854c419c66018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState.html#ac802282e7fde631869c854c419c66018">addListener</a> (<a class="el" href="classMidiKeyboardStateListener.html">MidiKeyboardStateListener</a> *listener)</td></tr>
-<tr class="memdesc:ac802282e7fde631869c854c419c66018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a listener for callbacks when keys go up or down.  <a href="#ac802282e7fde631869c854c419c66018">More...</a><br/></td></tr>
-<tr class="separator:ac802282e7fde631869c854c419c66018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a4eebcb383b1d4aa650757a5b2694ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState.html#a1a4eebcb383b1d4aa650757a5b2694ed">removeListener</a> (<a class="el" href="classMidiKeyboardStateListener.html">MidiKeyboardStateListener</a> *listener)</td></tr>
-<tr class="memdesc:a1a4eebcb383b1d4aa650757a5b2694ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregisters a listener.  <a href="#a1a4eebcb383b1d4aa650757a5b2694ed">More...</a><br/></td></tr>
-<tr class="separator:a1a4eebcb383b1d4aa650757a5b2694ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61f05058eab6d6f4249bebcf577b11e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState.html#aa61f05058eab6d6f4249bebcf577b11e">addListener</a> (<a class="el" href="classMidiKeyboardState_1_1Listener.html">Listener</a> *listener)</td></tr>
+<tr class="memdesc:aa61f05058eab6d6f4249bebcf577b11e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a listener for callbacks when keys go up or down.  <a href="#aa61f05058eab6d6f4249bebcf577b11e">More...</a><br/></td></tr>
+<tr class="separator:aa61f05058eab6d6f4249bebcf577b11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322a2439822f790a290d36f87c650161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMidiKeyboardState.html#a322a2439822f790a290d36f87c650161">removeListener</a> (<a class="el" href="classMidiKeyboardState_1_1Listener.html">Listener</a> *listener)</td></tr>
+<tr class="memdesc:a322a2439822f790a290d36f87c650161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deregisters a listener.  <a href="#a322a2439822f790a290d36f87c650161">More...</a><br/></td></tr>
+<tr class="separator:a322a2439822f790a290d36f87c650161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a piano keyboard, keeping track of which keys are currently pressed. </p>
@@ -418,14 +425,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac802282e7fde631869c854c419c66018"></a>
+<a class="anchor" id="aa61f05058eab6d6f4249bebcf577b11e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MidiKeyboardState::addListener </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMidiKeyboardStateListener.html">MidiKeyboardStateListener</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classMidiKeyboardState_1_1Listener.html">Listener</a> *&#160;</td>
           <td class="paramname"><em>listener</em></td><td>)</td>
           <td></td>
         </tr>
@@ -433,18 +440,18 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Registers a listener for callbacks when keys go up or down. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiKeyboardState.html#a1a4eebcb383b1d4aa650757a5b2694ed" title="Deregisters a listener. ">removeListener</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiKeyboardState.html#a322a2439822f790a290d36f87c650161" title="Deregisters a listener. ">removeListener</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a1a4eebcb383b1d4aa650757a5b2694ed"></a>
+<a class="anchor" id="a322a2439822f790a290d36f87c650161"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__juce__audio__plugin__client-Unity.html#ga95ddd42f2ee44e41c9bc2164e9b6e5ca">void</a> MidiKeyboardState::removeListener </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMidiKeyboardStateListener.html">MidiKeyboardStateListener</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classMidiKeyboardState_1_1Listener.html">Listener</a> *&#160;</td>
           <td class="paramname"><em>listener</em></td><td>)</td>
           <td></td>
         </tr>
@@ -452,7 +459,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deregisters a listener. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiKeyboardState.html#ac802282e7fde631869c854c419c66018" title="Registers a listener for callbacks when keys go up or down. ">addListener</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="classMidiKeyboardState.html#aa61f05058eab6d6f4249bebcf577b11e" title="Registers a listener for callbacks when keys go up or down. ">addListener</a> </dd></dl>
 
 </div>
 </div>
@@ -462,7 +469,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 12 2020 01:00:31 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 13 2020 01:00:30 for JUCE by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

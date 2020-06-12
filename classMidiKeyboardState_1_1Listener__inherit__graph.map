@@ -1,0 +1,4 @@
+<map id="MidiKeyboardState::Listener" name="MidiKeyboardState::Listener">
+<area shape="rect" id="node2" href="$classMidiKeyboardComponent.html" title="A component that displays a piano keyboard, whose notes can be clicked on. " alt="" coords="5,96,173,123"/>
+<area shape="rect" id="node3" href="$classMidiMessageCollector.html" title="Collects incoming realtime MIDI messages and turns them into blocks suitable for processing by a bloc..." alt="" coords="198,96,348,123"/>
+</map>

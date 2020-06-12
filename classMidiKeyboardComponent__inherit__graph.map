@@ -1,7 +1,7 @@
 <map id="MidiKeyboardComponent" name="MidiKeyboardComponent">
-<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,80,103,107"/>
+<area shape="rect" id="node2" href="$classComponent.html" title="The base class for all JUCE user&#45;interface objects. " alt="" coords="14,88,103,115"/>
 <area shape="rect" id="node3" href="$classMouseListener.html" title="A MouseListener can be registered with a component to receive callbacks about mouse events that happe..." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node4" href="$classMidiKeyboardStateListener.html" title="Receives events from a MidiKeyboardState object. " alt="" coords="128,80,307,107"/>
-<area shape="rect" id="node5" href="$classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="331,80,468,107"/>
-<area shape="rect" id="node6" href="$classTimer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="493,80,547,107"/>
+<area shape="rect" id="node4" href="$classMidiKeyboardState_1_1Listener.html" title="Receives events from a MidiKeyboardState object. " alt="" coords="127,81,267,122"/>
+<area shape="rect" id="node5" href="$classChangeBroadcaster.html" title="Holds a list of ChangeListeners, and sends messages to them when instructed. " alt="" coords="291,88,428,115"/>
+<area shape="rect" id="node6" href="$classTimer.html" title="Makes repeated callbacks to a virtual method at a specified time interval. " alt="" coords="453,88,507,115"/>
 </map>
