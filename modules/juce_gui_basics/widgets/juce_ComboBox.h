@@ -315,6 +315,9 @@ public:
     /** You can assign a lambda to this callback object to have it called when the selected ID is changed. */
     std::function<void()> onChange;
 
+    /** This callback will be called when the popup menu is about to be shown. */
+    std::function<void(PopupMenu&)> onShowPopupCallback;
+
     //==============================================================================
     /** Sets a message to display when there is no item currently selected.
         @see getTextWhenNothingSelected

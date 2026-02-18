@@ -533,6 +533,9 @@ void ComboBox::showPopup()
 
     auto menu = currentMenu;
 
+    if (onShowPopupCallback)
+        onShowPopupCallback (menu);
+
     if (menu.getNumItems() > 0)
     {
         auto selectedId = getSelectedId();
